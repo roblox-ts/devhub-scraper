@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"module": "commonjs",
+		"target": "ES2019",
+		"lib": ["ES2019", "DOM"],
+		"strict": true,
+		"noFallthroughCasesInSwitch": true,
+		"strictNullChecks": true,
+		"esModuleInterop": true,
+		"removeComments": true,
+		"sourceMap": true,
+
+		"incremental": true,
+		"tsBuildInfoFile": "out/tsconfig.tsbuildinfo",
+
+		"rootDir": "src",
+		"outDir": "out",
+	}
+}
