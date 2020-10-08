@@ -1,0 +1,1 @@
+The CameraMode property indicates the camera mode this player wants to use, as set in the settings.

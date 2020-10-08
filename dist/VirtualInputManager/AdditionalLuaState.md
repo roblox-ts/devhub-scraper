@@ -1,0 +1,1 @@
+An additional state encoded in JSON for the input recording to export.

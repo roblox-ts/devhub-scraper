@@ -1,0 +1,1 @@
+Fires when a user successfully logs in.

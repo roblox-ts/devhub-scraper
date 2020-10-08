@@ -1,0 +1,1 @@
+This event fires when the client receives verification data about a purchase that was made on the server. It is used to check if the user's purchase has been completed.

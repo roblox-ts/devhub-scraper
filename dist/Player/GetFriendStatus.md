@@ -1,0 +1,3 @@
+This function returns the friendship status of two players, the player passed and the player instance the function is called by.
+
+This item is only accessible by CoreScripts, so it cannot be used by scripts with regular permission levels, such as [Scripts](https://developer.roblox.com/en-us/api-reference/class/Script), [LocalScripts](https://developer.roblox.com/en-us/api-reference/class/LocalScript), and [ModuleScripts](https://developer.roblox.com/en-us/api-reference/class/ModuleScript).

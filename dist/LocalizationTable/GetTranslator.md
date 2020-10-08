@@ -1,0 +1,1 @@
+Returns a [Translator](https://developer.roblox.com/en-us/api-reference/class/Translator) for keys in this LocalizationTable, in the specified language.

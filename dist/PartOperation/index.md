@@ -1,0 +1,1 @@
+An abstract class that all parts based on `articles/3D Modeling with Parts|solid modeling` inherit from.

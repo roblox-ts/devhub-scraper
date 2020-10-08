@@ -1,0 +1,1 @@
+This object displays shirts on a character model. The arms and torso are covered by this object.

@@ -1,0 +1,1 @@
+The value of C in the formula Ax2 + Bx + C, which is the formula used to draw the parabola.

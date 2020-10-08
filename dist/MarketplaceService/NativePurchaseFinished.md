@@ -1,0 +1,1 @@
+This event fires when the user finishes a platform-specific purchase.

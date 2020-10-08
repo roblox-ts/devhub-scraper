@@ -1,0 +1,1 @@
+Fired immediately after the [ServiceProvider.Close](https://developer.roblox.com/en-us/api-reference/event/ServiceProvider/Close) signal is fired.

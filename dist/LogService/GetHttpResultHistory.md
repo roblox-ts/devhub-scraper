@@ -1,0 +1,1 @@
+Returns a list of previously detected HTTP results.

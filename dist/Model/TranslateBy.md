@@ -1,0 +1,3 @@
+Shifts a [Model](https://developer.roblox.com/en-us/api-reference/class/Model) by the given `Vector3` offset, preserving the [Model](https://developer.roblox.com/en-us/api-reference/class/Model)'s orientation. If another [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) or [Terrain](https://developer.roblox.com/en-us/api-reference/class/Terrain) already exists at the new position then the [Model](https://developer.roblox.com/en-us/api-reference/class/Model) will overlap said object.
+
+The translation is applied in world space rather than object space, meaning even if the model's parts are orientated differently it will still move along the standard axis.

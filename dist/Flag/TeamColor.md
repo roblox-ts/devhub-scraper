@@ -1,0 +1,5 @@
+The [Team](https://developer.roblox.com/en-us/api-reference/class/Team) this flag is for. Corresponds with the TeamColors in the [Teams](https://developer.roblox.com/en-us/api-reference/class/Teams) service.
+
+The [Flag](https://developer.roblox.com/en-us/api-reference/class/Flag) and [FlagStand](https://developer.roblox.com/en-us/api-reference/class/FlagStand) objects were created to allow developers to make 'Capture the Flag' style games quickly. However they have been deprecated and developers are advised to design their own systems which will be more flexible and reliable.
+
+To get started with this, developers can use the 'Capture The Flag' template place provided by Roblox which has a fully functioning system developers can take and use in their own games. A link to the place, which is free to edit, is [here](https://www.roblox.com/games/92721754/Capture-The-Flag#!/about).

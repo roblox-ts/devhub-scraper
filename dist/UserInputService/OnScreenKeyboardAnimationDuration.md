@@ -1,0 +1,1 @@
+The OnScreenKeyboard property determines whether a keyboard is visible on the user's screen.

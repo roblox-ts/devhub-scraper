@@ -1,0 +1,1 @@
+Returns a list of [TouchCameraMovementMode](https://developer.roblox.com/en-us/api-reference/enum/TouchCameraMovementMode) that were registered using [PlayerScripts:RegisterTouchCameraMovementMode](https://developer.roblox.com/en-us/api-reference/function/PlayerScripts/RegisterTouchCameraMovementMode).

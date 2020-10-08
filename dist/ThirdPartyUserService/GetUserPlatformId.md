@@ -1,0 +1,1 @@
+Returns the current platform that this user is on.

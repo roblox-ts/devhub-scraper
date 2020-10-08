@@ -1,0 +1,1 @@
+Fired when another part comes in contact with another object. This event only sends data to the client notifying it that two parts have collided, whereas [BasePart.Touched](https://developer.roblox.com/en-us/api-reference/event/BasePart/Touched) sends data to the server.

@@ -1,0 +1,1 @@
+Fires when the active user signs out.

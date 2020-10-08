@@ -1,0 +1,1 @@
+An event that fires whenever the [VideoFrame.Video](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Video) loops. Returns the content ID of the video.

@@ -1,0 +1,1 @@
+Opens a browser window as a child process of Roblox's client.

@@ -1,0 +1,1 @@
+Fires when a [ComputerMovementMode](https://developer.roblox.com/en-us/api-reference/enum/ComputerMovementMode) is registered using [PlayerScripts:RegisterComputerMovementMode](https://developer.roblox.com/en-us/api-reference/function/PlayerScripts/RegisterComputerMovementMode).

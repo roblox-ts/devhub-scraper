@@ -1,0 +1,1 @@
+The OsPlatform property specifies the user's operating system. It is used for server sided analytics.

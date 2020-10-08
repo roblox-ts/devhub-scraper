@@ -1,0 +1,1 @@
+The offset of the BillboardGui in studs, relative to the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera)'s orientation.

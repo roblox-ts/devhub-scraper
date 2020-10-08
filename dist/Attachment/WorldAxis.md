@@ -1,0 +1,1 @@
+Represents the direction of the `Attachment|Attachment's` Attachment/Axis|X-Axis`relative to the world, as a unit`DataType/Vector3\` with a length of 1.

@@ -1,0 +1,1 @@
+This function verifies if the _player_ can make purchases.

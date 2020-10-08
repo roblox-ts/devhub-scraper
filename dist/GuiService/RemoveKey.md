@@ -1,0 +1,1 @@
+Removes a key that was added using [GuiService:AddKey](https://developer.roblox.com/en-us/api-reference/function/GuiService/AddKey)

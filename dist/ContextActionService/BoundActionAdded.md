@@ -1,0 +1,1 @@
+Fires when [ContextActionService:BindAction](https://developer.roblox.com/en-us/api-reference/function/ContextActionService/BindAction) is called with data regarding the bounded action.

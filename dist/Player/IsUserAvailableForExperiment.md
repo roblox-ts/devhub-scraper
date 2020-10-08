@@ -1,0 +1,1 @@
+This function returns true if the user is available for Roblox experiments. The purpose of this function is currently unknown.

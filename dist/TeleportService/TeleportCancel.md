@@ -1,0 +1,1 @@
+Used by a CoreScript to cancel a request to teleport.

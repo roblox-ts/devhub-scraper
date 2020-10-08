@@ -1,0 +1,1 @@
+The thickness of the [SelectionBox](https://developer.roblox.com/en-us/api-reference/class/SelectionBox) outlines. Measured in studs.

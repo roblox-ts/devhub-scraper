@@ -1,0 +1,1 @@
+This property used to control whether or not a [Message](https://developer.roblox.com/en-us/api-reference/class/Message) would be shown by default. The default message has been removed, so this no longer does anything.

@@ -1,0 +1,1 @@
+Registers the [GuiObject](https://developer.roblox.com/en-us/api-reference/class/GuiObject) _dialog_ to be shown when the _centerDialogType_ is requested.

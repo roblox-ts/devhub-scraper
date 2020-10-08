@@ -1,0 +1,1 @@
+If set to true, the TextBox's focus must be released manually, instead of by user choice.

@@ -1,0 +1,1 @@
+Functions identically to [ContextActionService:GetBoundActionInfo](https://developer.roblox.com/en-us/api-reference/function/ContextActionService/GetBoundActionInfo), but works in the scope of [ContextActionService:BindCoreAction](https://developer.roblox.com/en-us/api-reference/function/ContextActionService/BindCoreAction).

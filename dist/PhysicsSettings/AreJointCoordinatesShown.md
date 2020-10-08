@@ -1,0 +1,1 @@
+When set to true, XYZ axes are rendered at the [BasePart.CFrame](https://developer.roblox.com/en-us/api-reference/property/BasePart/CFrame) of every part.

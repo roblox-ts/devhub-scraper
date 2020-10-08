@@ -1,0 +1,1 @@
+Sets the lower twist rotation limit of the BallSocketConstraint, as long as [BallSocketConstraint.TwistLimitsEnabled](https://developer.roblox.com/en-us/api-reference/property/BallSocketConstraint/TwistLimitsEnabled) is `true`.

@@ -1,0 +1,1 @@
+Offsets the BillboardGui relative to it's [BillboardGui.Adornee](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/Adornee)'s orientation, in studs.

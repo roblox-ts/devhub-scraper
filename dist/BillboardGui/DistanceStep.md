@@ -1,0 +1,3 @@
+Determines the size [BillboardGui.CurrentDistance](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/CurrentDistance) increments and decrements in studs as the player's camera moves closer and further from the [BillboardGui](https://developer.roblox.com/en-us/api-reference/class/BillboardGui). The property defaults to 0 and rounds up starting from [BillboardGui.DistanceLowerLimit](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/DistanceLowerLimit).
+
+For example, if this property is set to 0.5 and the player's camera is moving away from the gui starting from 0 then CurrentDistance will increase 0 -> 0.5 -> 1 -> 1.5 -> … and so forth.

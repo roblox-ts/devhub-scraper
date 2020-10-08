@@ -1,0 +1,1 @@
+The color of the [SelectionBox](https://developer.roblox.com/en-us/api-reference/class/SelectionBox) surface

@@ -1,0 +1,1 @@
+The derived orientation of the RenderingTest's CFrame.

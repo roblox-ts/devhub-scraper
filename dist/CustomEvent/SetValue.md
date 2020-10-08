@@ -1,0 +1,1 @@
+This function sets the value of the [CustomEvent](https://developer.roblox.com/en-us/api-reference/class/CustomEvent) and fires the [CustomEventReceiver.SourceValueChanged](https://developer.roblox.com/en-us/api-reference/event/CustomEventReceiver/SourceValueChanged) event for all connected [recievers](https://developer.roblox.com/en-us/api-reference/class/CustomEventReciever).

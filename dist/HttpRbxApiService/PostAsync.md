@@ -1,0 +1,1 @@
+Performs a POST request to the specified [Roblox Web API](http://api.roblox.com/docs). The _apiUrlPath_ parameter is prefixed by [“https://api.roblox.com/”](https://developer.roblox.com/articles/String "String") when the post request is made.

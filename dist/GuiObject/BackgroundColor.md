@@ -1,0 +1,2 @@
+This property used to determine the color of a `GuiObject|GUI's` background but is  
+deprecated in favor of [BackgroundColor3](https://developer.roblox.com/en-us/api-reference/property/GuiObject/BackgroundColor3), which should be used in new work instead.

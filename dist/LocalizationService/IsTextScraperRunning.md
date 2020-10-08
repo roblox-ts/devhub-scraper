@@ -1,0 +1,1 @@
+If true, the game is currently collecting strings from the game into a LocalizationTable.

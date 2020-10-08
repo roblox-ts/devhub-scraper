@@ -1,0 +1,1 @@
+Fires when a [ComputerCameraMovementMode](https://developer.roblox.com/en-us/api-reference/enum/ComputerCameraMovementMode) is registered using [PlayerScripts:RegisterComputerCameraMovementMode](https://developer.roblox.com/en-us/api-reference/function/PlayerScripts/RegisterComputerCameraMovementMode).

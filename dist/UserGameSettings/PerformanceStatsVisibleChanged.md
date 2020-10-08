@@ -1,0 +1,1 @@
+The PerformanceStatsVisibleChanged is fired when the visibility of the performance stats is changed.

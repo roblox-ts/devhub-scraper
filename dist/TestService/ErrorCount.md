@@ -1,0 +1,1 @@
+Measures how many errors have been recorded in the test session.

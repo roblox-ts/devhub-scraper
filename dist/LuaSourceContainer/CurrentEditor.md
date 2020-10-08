@@ -1,0 +1,1 @@
+The [Player](https://developer.roblox.com/api-reference/class/Player "Player") who is currently editing this script. This property is only used when in [Team Create](https://developer.roblox.com/articles/Team-Create "Team Create") mode.

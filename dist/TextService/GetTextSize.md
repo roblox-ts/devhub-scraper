@@ -1,0 +1,9 @@
+Computes the [Vector2](https://developer.roblox.com/en-us/api-reference/datatype/Vector2) dimensions (in pixels) that will be taken up with text when using the specified formatting parameters and size constraints.
+
+Note, the fontSize parameter will not accept the [FontSize](https://developer.roblox.com/en-us/api-reference/enum/FontSize) Enum. Instead the integer size corresponding with the [FontSize](https://developer.roblox.com/en-us/api-reference/enum/FontSize) Enum should be used. This is not equal to the value of the [FontSize](https://developer.roblox.com/en-us/api-reference/enum/FontSize) Enum. For example, for _Size11_ font, the integer _11_ should be used.
+
+This function is a useful alternative to the [TextLabel.TextBounds](https://developer.roblox.com/en-us/api-reference/property/TextLabel/TextBounds) property of the [TextLabel](https://developer.roblox.com/en-us/api-reference/class/TextLabel) and [TextButton](https://developer.roblox.com/en-us/api-reference/class/TextButton) objects. Using the [TextLabel.TextBounds](https://developer.roblox.com/en-us/api-reference/property/TextLabel/TextBounds) property to calculate the dimensions text requires is often impractical as it requires a [TextLabel](https://developer.roblox.com/en-us/api-reference/class/TextLabel) object to be created.
+
+With GetTextSize, the dimensions required by a particular text string in a particular [TextLabel](https://developer.roblox.com/en-us/api-reference/class/TextLabel) or [TextButton](https://developer.roblox.com/en-us/api-reference/class/TextButton) can be calculated before any object is created or text property set.
+
+Developers are recommended to add a pixel of padding to the result to ensure no text is cut off.

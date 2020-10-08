@@ -1,0 +1,1 @@
+Prints the current recording into Roblox's log files in json.

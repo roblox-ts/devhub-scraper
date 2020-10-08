@@ -1,0 +1,1 @@
+The SliceCenter property determines the center of a nine-slice image when [ImageButton.ScaleType](https://developer.roblox.com/en-us/api-reference/property/ImageButton/ScaleType) is set to `Enum/ScaleType/Slice`.

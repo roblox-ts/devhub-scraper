@@ -1,0 +1,1 @@
+Persistently saves the toggled state of the [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui).

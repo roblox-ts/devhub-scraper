@@ -1,0 +1,1 @@
+Starts listening to the user's voice.

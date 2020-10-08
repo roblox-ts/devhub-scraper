@@ -1,0 +1,1 @@
+Begins recording input for the VirtualInputManager to track.

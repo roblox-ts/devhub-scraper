@@ -1,0 +1,1 @@
+Asks the server to start/stop firing statistics to the _StatsReceived_ event under the ClientReplicator.

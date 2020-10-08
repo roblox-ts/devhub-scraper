@@ -1,0 +1,1 @@
+This property indicates whether or not the user's appearance was loaded.

@@ -1,0 +1,1 @@
+Fires when a screenshot is ready to be viewed after being taken by the user.

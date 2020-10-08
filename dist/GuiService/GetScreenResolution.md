@@ -1,0 +1,1 @@
+Returns the resolution of the screen in pixels

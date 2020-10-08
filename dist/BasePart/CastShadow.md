@@ -1,0 +1,1 @@
+Determines whether or not a part casts a shadow. It allows you to disable shadows for a part without having to make that part [transparent](https://developer.roblox.com/en-us/api-reference/property/BasePart/Transparency).

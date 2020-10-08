@@ -1,0 +1,3 @@
+This function returns an array containing all [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe)s that have been added to a [KeyframeSequence](https://developer.roblox.com/en-us/api-reference/class/KeyframeSequence). This is functionally the same as using the [Instance:GetChildren](https://developer.roblox.com/en-us/api-reference/function/Instance/GetChildren) function on the [KeyframeSequence](https://developer.roblox.com/en-us/api-reference/class/KeyframeSequence).
+
+Note, this function will return all children of the [KeyframeSequence](https://developer.roblox.com/en-us/api-reference/class/KeyframeSequence), including non [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe)s if any are present.

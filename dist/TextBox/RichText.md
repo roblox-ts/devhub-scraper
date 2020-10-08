@@ -1,0 +1,5 @@
+This property determines whether the [TextBox](https://developer.roblox.com/en-us/api-reference/class/TextBox) renders the [TextBox.Text](https://developer.roblox.com/en-us/api-reference/property/TextBox/Text) string using rich text formatting. Rich text uses simple markup tags to style sections of the string in bold, italics, specific colors, and more.
+
+To use rich text, simply include formatting tags in the [TextBox.Text](https://developer.roblox.com/en-us/api-reference/property/TextBox/Text) string. Reference on formatting tags can be found in the `articles/gui rich text|Using Rich Text` article.
+
+Note that when the [TextBox](https://developer.roblox.com/en-us/api-reference/class/TextBox) has this property enabled and the box gains focus, the user will be able to edit and interact with the complete XML string, including all of the formatting tags. When focus is lost, the text will automatically parse and render the tags as rich text.

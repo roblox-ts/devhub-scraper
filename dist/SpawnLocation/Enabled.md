@@ -1,0 +1,5 @@
+Sets whether or not the [SpawnLocation](https://developer.roblox.com/en-us/api-reference/class/SpawnLocation) is enabled. When disabled players cannot spawn at the [SpawnLocation](https://developer.roblox.com/en-us/api-reference/class/SpawnLocation) and the [SpawnLocation.AllowTeamChangeOnTouch](https://developer.roblox.com/en-us/api-reference/property/SpawnLocation/AllowTeamChangeOnTouch) functionality is disabled.
+
+This property provides the most convenient way of preventing [Player](https://developer.roblox.com/en-us/api-reference/class/Player)s from spawning at a spawn.
+
+Note, although team changing on touch using [SpawnLocation.AllowTeamChangeOnTouch](https://developer.roblox.com/en-us/api-reference/property/SpawnLocation/AllowTeamChangeOnTouch) is disabled when Enabled is set to false, other touched events using `BasePart.Touched` will still fire.

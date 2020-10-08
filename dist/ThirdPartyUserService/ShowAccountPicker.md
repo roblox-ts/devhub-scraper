@@ -1,0 +1,1 @@
+Prompts the current user to switch accounts on consoles.

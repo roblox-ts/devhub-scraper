@@ -1,0 +1,1 @@
+The TeleportedIn property indicates whether the user was teleported in from another place. If true, the user was teleported from another place.

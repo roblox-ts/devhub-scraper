@@ -1,0 +1,1 @@
+This function reports the sale of an asset, and how many Robux were spent on it.

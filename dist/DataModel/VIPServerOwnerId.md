@@ -1,0 +1,1 @@
+This property indicates the [UserId](https://developer.roblox.com/en-us/api-reference/property/Player/UserId) of the account who owns the VIP server.

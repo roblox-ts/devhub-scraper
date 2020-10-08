@@ -1,0 +1,1 @@
+The LegacyInputEvents property determines whether legacy input events are enabled.

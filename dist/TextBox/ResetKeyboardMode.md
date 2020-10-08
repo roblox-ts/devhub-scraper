@@ -1,0 +1,1 @@
+The ResetKeyboardMode function resets the keyboard mode.

@@ -1,0 +1,4 @@
+Sets whether the [BallSocketConstraint](https://developer.roblox.com/en-us/api-reference/class/BallSocketConstraint) sets a limit on twist rotation based on [BallSocketConstraint.TwistUpperAngle](https://developer.roblox.com/en-us/api-reference/property/BallSocketConstraint/TwistUpperAngle) and [BallSocketConstraint.TwistLowerAngle](https://developer.roblox.com/en-us/api-reference/property/BallSocketConstraint/TwistLowerAngle).
+
+  
+When a BallSocketConstraint has TwistLimitsEnabled set to true, it enforces that its \`Constraint/Attachment1\` isn't twisted more than a set distance from its \`Constraint/Attachment0\`. The angle that is used is the angle between the x-axes of the attachments:Sets whether the BallSocketConstraint sets a limit on twist rotation based on \`BallSocketConstraint/TwistUpperAngle\` and \`BallSocketConstraint/TwistLowerAngle\`.

@@ -1,0 +1,1 @@
+Removes the specified GuiObject if it was registered as a center dialog.

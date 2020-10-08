@@ -1,0 +1,1 @@
+This property will be true when the [VideoFrame.Video](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Video) has loaded from Roblox servers and is ready to play.

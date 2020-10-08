@@ -1,0 +1,1 @@
+The Target property determines the object towards which the [RocketPropulsion](https://developer.roblox.com/en-us/api-reference/class/RocketPropulsion) will exert force/torque. If set to `nil`, the the [TargetOffset](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/TargetOffset) will be used instead.

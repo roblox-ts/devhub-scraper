@@ -1,0 +1,1 @@
+An instance used to show a physical selection of a particular side of a [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart). However, it should be noted that the [GuiBase3d.Transparency](https://developer.roblox.com/en-us/api-reference/property/GuiBase3d/Transparency) property doesn't appear to currently work with this instance.

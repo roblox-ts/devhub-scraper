@@ -1,0 +1,1 @@
+Fired when a CoreGui item is made visible or invisible using [StarterGui:SetCoreGuiEnabled](https://developer.roblox.com/en-us/api-reference/function/StarterGui/SetCoreGuiEnabled).

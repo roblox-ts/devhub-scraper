@@ -1,0 +1,1 @@
+Sends a HTTP GET request to the given URL and returns the response body.

@@ -1,0 +1,1 @@
+The current distance between the [RodConstraint](https://developer.roblox.com/en-us/api-reference/class/RodConstraint)'s two [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment).

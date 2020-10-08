@@ -1,0 +1,3 @@
+This function adds a sub [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose) to the [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose) by parenting it to it. It is functionally identical to setting the new pose's [Instance.Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) to the pose.
+
+Note, this function will not error when an instance other than a [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose) is given as the pose parameter and will parent it successfully.

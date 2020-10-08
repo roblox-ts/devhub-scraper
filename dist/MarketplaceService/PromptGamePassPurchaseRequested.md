@@ -1,0 +1,1 @@
+This event fires when a game pass purchase is requested.

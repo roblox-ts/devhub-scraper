@@ -1,0 +1,1 @@
+A version of the [CSGDictionaryService](https://developer.roblox.com/en-us/api-reference/class/CSGDictionaryService) that does not replicate to clients.

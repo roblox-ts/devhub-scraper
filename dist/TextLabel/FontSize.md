@@ -1,0 +1,1 @@
+This property determines the height in pixels of one line of text.

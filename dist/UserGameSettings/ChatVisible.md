@@ -1,0 +1,1 @@
+The ChatVisible property persistently tracks if the player wants the chat to be visible or not.

@@ -1,0 +1,1 @@
+This event fires when a call is made to [MarketplaceService:PromptPurchase](https://developer.roblox.com/en-us/api-reference/function/MarketplaceService/PromptPurchase). For new game passes using a _Game Pass ID_, use [MarketplaceService:PromptGamePassPurchase](https://developer.roblox.com/en-us/api-reference/function/MarketplaceService/PromptGamePassPurchase).

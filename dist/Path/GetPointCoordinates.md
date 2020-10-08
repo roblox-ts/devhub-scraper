@@ -1,0 +1,1 @@
+This function returns a table of [Path](https://developer.roblox.com/en-us/api-reference/class/Path) instances.

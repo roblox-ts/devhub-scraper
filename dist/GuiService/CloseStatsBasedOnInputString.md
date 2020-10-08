@@ -1,0 +1,1 @@
+Functions similarly to [GuiService:ShowStatsBasedOnInputString](https://developer.roblox.com/en-us/api-reference/function/GuiService/ShowStatsBasedOnInputString), but closes stats instead of opening them.

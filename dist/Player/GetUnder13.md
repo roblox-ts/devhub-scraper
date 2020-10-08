@@ -1,0 +1,1 @@
+This function returns whether the user is under the age of 13. It returns true if the user is under the age of 13.

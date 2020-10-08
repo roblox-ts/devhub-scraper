@@ -1,0 +1,1 @@
+Returns information about the current user's friends on consoles.

@@ -1,0 +1,1 @@
+Starts recording the user's input.

@@ -1,0 +1,1 @@
+A [float](https://developer.roblox.com/articles/Numbers "Float") representing the sensitivity of the client's mouse.

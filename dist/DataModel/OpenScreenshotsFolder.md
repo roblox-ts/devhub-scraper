@@ -1,0 +1,1 @@
+Opens the user's screenshot folder.

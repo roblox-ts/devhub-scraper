@@ -1,0 +1,1 @@
+This property indicates whether the server's FFlags have properly loaded or not.

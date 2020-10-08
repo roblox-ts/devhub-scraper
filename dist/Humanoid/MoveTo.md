@@ -1,0 +1,7 @@
+This function causes the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) to attempt to walk to the given location by setting the [Humanoid.WalkToPoint](https://developer.roblox.com/en-us/api-reference/property/Humanoid/WalkToPoint) and [Humanoid.WalkToPart](https://developer.roblox.com/en-us/api-reference/property/Humanoid/WalkToPart) properties.
+
+The _location_ and _part_ parameters correspond with what [Humanoid.WalkToPoint](https://developer.roblox.com/en-us/api-reference/property/Humanoid/WalkToPoint) and [Humanoid.WalkToPart](https://developer.roblox.com/en-us/api-reference/property/Humanoid/WalkToPart) will be set to.
+
+If the _part_ parameter is specified, the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) will still attempt to walk to the point. However, if the part moves then the point the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is walking to will move to be at the same position **relative to the part**. If the _part_ parameter is not specified, then the position the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is walking to will not change.
+
+The _reach goal_ state of a humanoid will timeout after 8 seconds if it doesn't reach its goal. This is done so that NPCs won't get stuck waiting for [Humanoid.MoveToFinished](https://developer.roblox.com/en-us/api-reference/event/Humanoid/MoveToFinished) to fire. If you don't want this to happen, you should repeatedly call MoveTo so that the timeout will keep resetting.

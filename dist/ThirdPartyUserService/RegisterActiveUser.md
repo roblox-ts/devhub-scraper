@@ -1,0 +1,1 @@
+Pairs the active user to the specified Gamepad.

@@ -1,0 +1,1 @@
+Returns true if the specified motor is available to be used with the specified [UserInputType](https://developer.roblox.com/en-us/api-reference/enum/UserInputType).

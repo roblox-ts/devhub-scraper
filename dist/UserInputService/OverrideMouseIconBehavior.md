@@ -1,0 +1,1 @@
+The OverRideMouseIconBehavior property optionally allows the value of the UserInputService's [UserInputService.MouseIconEnabled](https://developer.roblox.com/en-us/api-reference/property/UserInputService/MouseIconEnabled) property to be overridden.

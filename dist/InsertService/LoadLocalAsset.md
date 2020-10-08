@@ -1,0 +1,1 @@
+The LoadLocalAsset function imports a local asset, via a _rbxasset://_ url.

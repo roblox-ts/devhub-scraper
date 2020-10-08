@@ -1,0 +1,1 @@
+This function fires the [MarketplaceService.PromptGamePassPurchaseFinished](https://developer.roblox.com/en-us/api-reference/event/MarketplaceService/PromptGamePassPurchaseFinished) event with the arguments passed to this function.

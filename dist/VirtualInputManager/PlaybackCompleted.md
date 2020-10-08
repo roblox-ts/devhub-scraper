@@ -1,0 +1,1 @@
+Fires if a playback from [VirtualInputManager:StartPlaying](https://developer.roblox.com/en-us/api-reference/function/VirtualInputManager/StartPlaying) is completed.

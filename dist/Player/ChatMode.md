@@ -1,0 +1,1 @@
+Obsolete. The ChatMode function returns the player's ChatMode.

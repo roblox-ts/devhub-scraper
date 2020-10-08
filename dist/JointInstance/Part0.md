@@ -1,0 +1,1 @@
+The first [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) that the joint connects.

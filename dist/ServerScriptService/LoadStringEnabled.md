@@ -1,0 +1,1 @@
+Toggles whether or not the `loadstring` function can be used by server scripts. Defaults to false.

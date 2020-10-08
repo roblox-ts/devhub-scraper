@@ -1,0 +1,1 @@
+Sets whether or not the framerate should be throttled.

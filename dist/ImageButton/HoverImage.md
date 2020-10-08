@@ -1,0 +1,1 @@
+A textureId that could be set on the `ImageButton|ImageButton's` properties. When the button is hovered, it will render HoverImage if specified.

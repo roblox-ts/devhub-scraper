@@ -1,0 +1,1 @@
+If set to true, native input can be overlaid on this text box.

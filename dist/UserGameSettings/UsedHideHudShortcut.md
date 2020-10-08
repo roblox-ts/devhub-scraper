@@ -1,0 +1,1 @@
+If set to true, the user has seen the popup showing how to toggle the visibility of the hud.

@@ -1,0 +1,1 @@
+Simulates the user releasing the right mouse button.

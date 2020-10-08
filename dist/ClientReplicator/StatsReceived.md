@@ -1,0 +1,1 @@
+Fires when the client receives statistics about the server, after [ClientReplicator:RequestServerStats](https://developer.roblox.com/en-us/api-reference/function/ClientReplicator/RequestServerStats).

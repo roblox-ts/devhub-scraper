@@ -1,0 +1,1 @@
+This function returns a boolean value that was previously saved to the player with [Player:SaveBoolean](https://developer.roblox.com/en-us/api-reference/function/Player/SaveBoolean) with the same key. Returns false if the key doesn't exist, not nil.

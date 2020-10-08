@@ -1,0 +1,1 @@
+Tells the Roblox mobile app that the specified action should be enabled.

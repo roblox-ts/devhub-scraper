@@ -1,0 +1,5 @@
+The **BloomEffect** simulates the camera viewing a very bright light. It causes brighter colors to glow, similar to applying the neon [Material](https://developer.roblox.com/en-us/api-reference/property/BasePart/Material) to everything, including the the [Sky](https://developer.roblox.com/en-us/api-reference/class/Sky). Multiple **BloomEffect** objects can be applied at once and they will compose their effects together.
+
+Like other post-processing effects, **BloomEffect** will only work while [Enabled](https://developer.roblox.com/en-us/api-reference/property/PostEffect/Enabled) and when parented to [Lighting](https://developer.roblox.com/en-us/api-reference/class/Lighting) or [Workspace.CurrentCamera](https://developer.roblox.com/en-us/api-reference/property/Workspace/CurrentCamera). Also, it may render differently depending on your Studio settings (see the **Quality Level** settings in **Rendering** → **Performance**).
+
+For more details on this effect and others, see the `articles/post processing effects|Post-Processing Effects` article.

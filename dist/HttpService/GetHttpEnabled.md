@@ -1,0 +1,5 @@
+Although this function is not accessible outside of [CoreScripts](https://developer.roblox.com/en-us/api-reference/class/CorScript), you can check whether HTTP requests are enabled through Studio's Game Settings by opening the game's settings via the **Game Settings** button on the _Home_ tab of the game's studio window (see image below):  
+![Navigate to the Game Settings button](https://developer.roblox.com/assets/blt29ed4b4004d52e95/HttpRequestsSetting.png)
+
+Within the Game Settings window, navigate to the **Security** tab. If the _On_ option is selected under \***Allow HTTP Requests**, http requests are enabled. If the _Off_ option is selected, http requests are disabled (see image below).  
+![Allow HTTP Requests](https://developer.roblox.com/assets/blt28c151e28c997373/GameSettingsButton.png)

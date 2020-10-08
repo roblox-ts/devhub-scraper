@@ -1,0 +1,1 @@
+Returns how many Robux the [LocalPlayer](https://developer.roblox.com/api-reference/property/Players/LocalPlayer "LocalPlayer") has.

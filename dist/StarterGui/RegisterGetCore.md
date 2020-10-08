@@ -1,0 +1,1 @@
+Used by CoreScripts to register a handler for [StarterGui:GetCore](https://developer.roblox.com/en-us/api-reference/function/StarterGui/GetCore)

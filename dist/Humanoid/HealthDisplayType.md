@@ -1,0 +1,6 @@
+![A side by side visualization of how HealthDisplayType impacts the behavior of the health bar's display](https://developer.roblox.com/assets/blt25d44cecfd3e9e09/HealthDisplayType.gif)  
+HealthDisplayType controls when a `Humanoid|Humanoid's` health bar is allowed to be displayed.
+
+By default, this property is set to **DisplayWhenDamaged**, which makes the health bar only display when a humanoid's [Humanoid.Health](https://developer.roblox.com/en-us/api-reference/property/Humanoid/Health) is less than its [Humanoid.MaxHealth](https://developer.roblox.com/en-us/api-reference/property/Humanoid/MaxHealth). It can also be set to **AlwaysOn**, which makes the health bar always display, or **AlwaysOff**, which prevents it from ever displaying.
+
+This property functions independently of the humanoid's [Humanoid.HealthDisplayDistance](https://developer.roblox.com/en-us/api-reference/property/Humanoid/HealthDisplayDistance) property, which is responsible for making the health bar fade out at certain distances. If the HealthDisplayType is set to AlwaysOn, it will still fade out depending the how the [Humanoid.HealthDisplayDistance](https://developer.roblox.com/en-us/api-reference/property/Humanoid/HealthDisplayDistance) is configured.

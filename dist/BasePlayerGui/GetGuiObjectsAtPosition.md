@@ -1,0 +1,5 @@
+This function takes a screen position and returns a list of all the visible [GuiObjects](https://developer.roblox.com/en-us/api-reference/class/GuiObject) that are occupying that screen position.
+
+The main use case is to get GUI objects under the player's `Player/Mouse` or touch inputs to do things like allow selection or highlighting. These effects can already be achieved using [GuiObject.MouseEnter](https://developer.roblox.com/en-us/api-reference/event/GuiObject/MouseEnter) and [GuiObject.MouseLeave](https://developer.roblox.com/en-us/api-reference/event/GuiObject/MouseLeave) but this requires the developer to track these events for their UI objects all the time even if they only need this functionality in specific circumstances.
+
+Since the child classes of [BasePlayerGui](https://developer.roblox.com/en-us/api-reference/class/BasePlayerGui) inherit this function, it can be fired by class objects such as the [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui) and [StarterGui](https://developer.roblox.com/en-us/api-reference/class/StarterGui) folders.

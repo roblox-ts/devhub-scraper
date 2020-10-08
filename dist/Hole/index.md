@@ -1,0 +1,1 @@
+A Hole is an unused type of surface joint. It can be connected to a [MotorFeature](https://developer.roblox.com/en-us/api-reference/class/MotorFeature) object by using a [VelocityMotor](https://developer.roblox.com/en-us/api-reference/class/VelocityMotor).

@@ -1,0 +1,1 @@
+The size of this TerrainRegion in cells.

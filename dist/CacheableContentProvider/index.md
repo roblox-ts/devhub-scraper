@@ -1,0 +1,1 @@
+A variant of the [ContentProvider](https://developer.roblox.com/en-us/api-reference/class/ContentProvider) that caches assets that have already been received. This service is not used directly, but it is used by the services that inherit from it.

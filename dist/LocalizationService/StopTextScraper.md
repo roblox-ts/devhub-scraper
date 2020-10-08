@@ -1,0 +1,1 @@
+Stops running the text scraper.
