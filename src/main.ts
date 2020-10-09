@@ -64,7 +64,7 @@ class Generator {
 			const [className, fieldName] = tasks[i];
 			console.log(`[${i} / ${tasks.length}] ${className}${fieldName ? "/" + fieldName : ""}`);
 			await this.write(className, fieldName);
-			await sleep(1000);
+			await sleep(100);
 		}
 	}
 
