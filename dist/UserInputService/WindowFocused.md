@@ -2,7 +2,7 @@ The [UserInputService](https://developer.roblox.com/en-us/api-reference/class/Us
 
 For example, the code below prints _“Window focused”_ whenever the Roblox client gains focus.
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 UserInputService.WindowFocused:Connect(function()

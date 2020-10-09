@@ -2,7 +2,7 @@ This function loads an [Animation](https://developer.roblox.com/en-us/api-refere
 
 The following code can be used to load an [Animation](https://developer.roblox.com/en-us/api-reference/class/Animation) onto a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid).
 
-```Lua
+```lua
 local animationTrack = humanoid:LoadAnimation(animation)
 animationTrack:Play()
 ``` 

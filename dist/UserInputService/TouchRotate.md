@@ -2,7 +2,7 @@ The TouchRotate event fires when a user rotates two fingers on a [TouchEnabled](
 
 For example, the following code prints how much the camera has rotated since the beginning of the touch rotation.
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 UserInputService.TouchRotate:Connect(function(touchPositions, rotation, velocity, state, gameProcessedEvent)

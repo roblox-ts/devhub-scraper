@@ -9,7 +9,7 @@ FaceCamera Enabled
 
 ![Demonstrating a trail with the FaceCamera property set to true.](https://developer.roblox.com/assets/blt9c08878433714397/TrailFacingCamera.gif)
 
-```Lua
+```lua
 local trail = script.Parent
 trail.FaceCamera = true
 ``` 
@@ -19,7 +19,7 @@ FaceCamera Disabled
 
 ![Demonstrating a trail with the FaceCamera property set to false.](https://developer.roblox.com/assets/bltfd829c76c7a0d037/TrailNotFacingCamera.gif)
 
-```Lua
+```lua
 local trail = script.Parent
 trail.FaceCamera = false
 ```

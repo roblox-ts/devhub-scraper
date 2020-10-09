@@ -8,6 +8,6 @@ Note: while normally the contents of [StarterPack](https://developer.roblox.com/
 
 A tool can be added to the StarterPack using the following code.
 
-```Lua
+```lua
 Tool.Parent = game:GetService("StarterPack")
 ```

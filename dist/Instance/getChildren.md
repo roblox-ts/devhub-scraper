@@ -1,13 +1,13 @@
 Returns an array (a numerically indexed table) containing all of the [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance)'s direct children, or every [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) whose [Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) is equal to the object. The array can be iterated upon using either a numeric or generic for-loop:
 
-```Lua
+```lua
 -- Numeric for-loop example
 local children = workspace:GetChildren()
 for i = 1, #children do
     local child = children[i]
     print(child.Name .. " is child number " .. i)
 end
-``` ```Lua
+``` ```lua
 -- Generic for-loop example
 local children = workspace:GetChildren()
 for i, child in ipairs(children) do

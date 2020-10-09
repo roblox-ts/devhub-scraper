@@ -2,7 +2,7 @@ The PlayerGui object is a container that holds a [Player](https://developer.robl
 
 When a player first joins a game, their PlayerGui is automatically inserted into their [Player](https://developer.roblox.com/en-us/api-reference/class/Player) object. When the player's [Player.Character](https://developer.roblox.com/en-us/api-reference/property/Player/Character) spawns for the first time all of the contents of [StarterGui](https://developer.roblox.com/en-us/api-reference/class/StarterGui) are automatically copied into the player's PlayerGui. Note that if [Players.CharacterAutoLoads](https://developer.roblox.com/en-us/api-reference/property/Players/CharacterAutoLoads) is set to false the character will not spawn and StarterGui contents will not be copied until [Player:LoadCharacter](https://developer.roblox.com/en-us/api-reference/function/Player/LoadCharacter) is called. If [StarterGui.ResetPlayerGuiOnSpawn](https://developer.roblox.com/en-us/api-reference/property/StarterGui/ResetPlayerGuiOnSpawn) is set to true then every time the player's character respawns all of the contents of that player's PlayerGui is cleared and replaced with the contents of StarterGui.
 
-```Lua
+```lua
 -- Accessing PlayerGui from a LocalScript:
 game:GetService('Players').LocalPlayer:WaitForChild('PlayerGui')
 ```

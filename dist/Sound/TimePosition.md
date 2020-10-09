@@ -4,7 +4,7 @@ As a [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) is pl
 
 Note that setting `TimePosition` to a value greater than the length in a looped track will not cause it to wrap around. If that behavior is desired the developer should do the following.
 
-```Lua
+```lua
 if newPosition >= sound.TimeLength then
     newPosition = newPosition - sound.TimeLength
 end

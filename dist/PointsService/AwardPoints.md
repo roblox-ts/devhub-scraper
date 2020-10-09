@@ -6,7 +6,7 @@ This function will cause an error if the specified UserId is not positive or if 
 
 The function can be used to award a negative number of points to a user however.
 
-```Lua
+```lua
 local userId, amount, total = game:GetService("PointsService"):AwardPoints(1, 5)
 print("The user was awarded " ..amount.. " points. They have now have a total of " ..total.. " points in this game.")
 ```

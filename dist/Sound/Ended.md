@@ -2,7 +2,7 @@ Fires when the [Sound](https://developer.roblox.com/en-us/api-reference/class/So
 
 This event is often used to destroy a sound when it has completed playback.
 
-```Lua
+```lua
 sound:Play()
 sound.Ended:Wait()
 sound:Destroy()

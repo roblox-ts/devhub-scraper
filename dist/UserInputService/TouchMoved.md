@@ -4,7 +4,7 @@ This event can be used to determine when a user moves their finger while touchin
 
 The code below prints “Touch moved from” the previous Vector2 position "to " the new Vector2 position of the user's touch on a TouchEnabled device.
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 function onTouchMoved(touch, gameProcessedEvent)

@@ -4,7 +4,7 @@ This event can be used to determine when a user pans their finger along screen o
 
 The snippet below prints “Speed of touch drag” followed by the velocity of the user's touch when the user drags their finger on the screen.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 
 userInputService.TouchPan:Connect(function(touchPositions, totalTranslation, velocity, state, gameProcessedEvent)

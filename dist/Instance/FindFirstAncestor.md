@@ -4,7 +4,7 @@ This function works upwards, meaning it starts at the [Instance](https://develop
 
 The following code snippet would find the first ancestor of the object named 'Car'.
 
-```Lua
+```lua
 local car = object:FindFirstAncestor("Car")
 ``` 
 

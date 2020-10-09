@@ -2,7 +2,7 @@ This function returns whether the user is holding down the key associated with t
 
 This can be used to check if a specific key, such as the space bar, is being pressed. For example:
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 local spaceHeld = UserInputService:IsKeyDown(Enum.KeyCode.Space)

@@ -9,7 +9,7 @@ LocalScripts that are cloned from [StarterGui](https://developer.roblox.com/en-u
 
 So if you're writing a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript), do this:
 
-```Lua
+```lua
 local player = game.Players.LocalPlayer
 local character = player.Character
 if not character or not character.Parent then
@@ -19,7 +19,7 @@ end
 
 But from the server it's fine to do this:
 
-```Lua
+```lua
 if player.Character then
     -- do something
 end
@@ -27,6 +27,6 @@ end
 
 Or if you want to wait until the character respawns from a server [Script](https://developer.roblox.com/en-us/api-reference/class/Script):
 
-```Lua
+```lua
 local character = player.Character or player.CharacterAdded:wait()
 ```

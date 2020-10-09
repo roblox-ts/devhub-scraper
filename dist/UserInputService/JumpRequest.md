@@ -6,7 +6,7 @@ The event can be used to track every time a player wants to jump. Instead of usi
 
 For example, the code below prints “Jump” every time the player sends a jump request.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 
 function jumpRequest()

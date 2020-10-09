@@ -2,7 +2,7 @@ This property describes whether the user is using a virtual reality (VR) device.
 
 If a VR device is enabled, you can interact with its location and movement through functions such as `UserInputService/GetUserCFrame``. You can also react to VR device movement using the`UserInputService/UserCFrameChanged\` event.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 
 local isUsingVR = userInputService.VREnabled

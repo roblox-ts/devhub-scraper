@@ -2,7 +2,7 @@ This property sets the preferred orientation mode for users with mobile devices.
 
 When a [Player](https://developer.roblox.com/en-us/api-reference/class/Player) joins the game, if they are using a mobile device, this property will determine the device's starting orientation. [PlayerGui.ScreenOrientation](https://developer.roblox.com/en-us/api-reference/property/PlayerGui/ScreenOrientation) will be set to this value for [Players](https://developer.roblox.com/en-us/api-reference/class/Player) joining the game. For example, the following code would set the default to _'Portrait'_:
 
-```Lua
+```lua
 game:GetService("StarterGui").ScreenOrientation = Enum.ScreenOrientation.Portrait
 ``` 
 

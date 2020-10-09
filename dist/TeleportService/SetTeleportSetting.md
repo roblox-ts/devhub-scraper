@@ -6,7 +6,7 @@ The stored value can later be retrieved using [TeleportService:GetTeleportSettin
 
 For example, in a game that allowed crouching you could save whether the user is currently crouching prior to teleporting as a teleport setting:
 
-```Lua
+```lua
 local TeleportService = game:GetService("TeleportService")
 
 local isCrouching = false

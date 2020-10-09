@@ -4,7 +4,7 @@ The property is used to determine if the user's device has a touch screen, and t
 
 The code snippet below prints whether the user's device has a touch screen.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 
 if userInputService.TouchEnabled then

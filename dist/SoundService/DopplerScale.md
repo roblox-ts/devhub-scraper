@@ -4,7 +4,7 @@ The Doppler effect describes a phenomenon whereby the pitch of a sound changes a
 
 Increasing this value exaggerates the impact of the Doppler effect, whereas decreasing it minimizes it. By default, the value of this property is 1.
 
-```Lua
+```lua
 local SoundService = game:GetService("SoundService")
 SoundService.DopplerScale = 1 -- default 
 SoundService.DopplerScale = 2 -- exaggerated Doppler effect

@@ -4,7 +4,7 @@ This event can be used to determine when a user stops touching the screen of the
 
 For example, the code below prints the screen position where the user stops touching the screen.
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 function TouchEnded(touch, gameProcessedEvent)

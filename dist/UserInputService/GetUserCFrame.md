@@ -2,7 +2,7 @@ The GetUserCFrame function returns a [CFrame](https://developer.roblox.com/en-us
 
 For example, the code snippet below prints the CFrame of the user's VR headset.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 local cframe = userInputService:GetUserCFrame(Enum.UserCFrame.Head)
 

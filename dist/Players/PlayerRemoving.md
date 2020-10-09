@@ -2,7 +2,7 @@ The PlayerRemoving event fires right before a [Player](https://developer.roblox.
 
 This can be used alongside the `Player/PlayerAdded` event, which fires when a player joins the game. For instance, if you would like print a message every time a new player joins or leaves the game:
 
-```Lua
+```lua
 local Players = game:GetService("Players")
 
 Players.PlayerAdded:Connect(function(player)

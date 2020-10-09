@@ -1,6 +1,6 @@
 The texture applied to the [MeshPart](https://developer.roblox.com/en-us/api-reference/class/MeshPart). When this property is set to an empty string, no texture will be applied to the mesh.
 
-```Lua
+```lua
 MeshPart.TextureID = "" -- no texture
 ``` 
 

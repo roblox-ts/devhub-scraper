@@ -2,7 +2,7 @@ A script's Source is the code to be executed. Modifying the code within a script
 
 For instance, given a script containing the line:
 
-```Lua
+```lua
 print("Hello world!")
 ``` 
 

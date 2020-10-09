@@ -1,6 +1,6 @@
 GetTags is given an object and returns a table of strings, which are the tags applied to the given object.
 
-```Lua
+```lua
 local CollectionService = game:GetService("CollectionService")
 local object = workspace.Model
 local tags = CollectionService:GetTags(object)

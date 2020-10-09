@@ -1,6 +1,6 @@
 This function searches each [player](https://developer.roblox.com/en-us/api-reference/class/Player) in [Players](https://developer.roblox.com/en-us/api-reference/class/Players) for one whose [Player.UserId](https://developer.roblox.com/en-us/api-reference/property/Player/UserId) matches the given UserId. If such a player does not exist, it simply returns `nil`. It is equivalent to the following function:
 
-```Lua
+```lua
 local Players = game:GetService("Players")
 local function getPlayerByUserId(userId)
     for _, player in pairs(Players:GetPlayers()) do

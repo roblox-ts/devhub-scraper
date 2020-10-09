@@ -13,7 +13,7 @@ The following are characteristics of reserved servers:
 
 You can see if the current server is a reserved server by using the following code:
 
-```Lua
+```lua
 local isReserved = game.PrivateServerId ~= "" and game.PrivateServerOwnerId == 0
 ``` 
 

@@ -6,7 +6,7 @@ The `x` and `y` arguments indicate the updated screen coordinates of the user's 
 
 The code below demonstrates how to determine the [Vector2](https://developer.roblox.com/en-us/api-reference/datatype/Vector2) offset of the user's mouse relative to a GUI element:
 
-```Lua
+```lua
 local CustomScrollingFrame = script.Parent
 local SubFrame = CustomScrollingFrame:FindFirstChild("SubFrame")
 

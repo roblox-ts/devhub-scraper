@@ -6,7 +6,7 @@ The default control scripts bind the ButtonR2 [KeyCode](https://developer.roblox
 
 Below is a simple template script for working with ClickDetectors. Paste it into a [Script](https://developer.roblox.com/en-us/api-reference/class/Script) or a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 
-```Lua
+```lua
 local clickDetector = workspace.Part.ClickDetector
 
 function onMouseClick()

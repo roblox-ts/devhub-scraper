@@ -539,7 +539,7 @@ CoreGuiChatConnections
 
 Sets up a bindable gateway connection between the CoreGui topbar's chat button and the Lua Chat System. The second parameter must be a table of [BindableEvents](https://developer.roblox.com/en-us/api-reference/class/BindableEvent) and [BindableFunctions](https://developer.roblox.com/en-us/api-reference/class/BindableFunction). See the example below for more clarification.
 
-```Lua
+```lua
 -- Create the Bindable objects
 local ChatConnections = {}
 

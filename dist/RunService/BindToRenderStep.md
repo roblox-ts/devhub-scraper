@@ -7,7 +7,7 @@ Name
 
 The `name` parameter is a label for the binding, and can be used with [RunService:UnbindFromRenderStep](https://developer.roblox.com/en-us/api-reference/function/RunService/UnbindFromRenderStep) if the binding is no longer needed.
 
-```Lua
+```lua
 local RunService = game:GetService("RunService")
 
 local function functionToBind() end
@@ -29,7 +29,7 @@ The `priority` of the binding is an integer, and determines when during the rend
 
 > **Note:** When using Enum.RenderPriority, remember to use _**InlineCode.Value**_ at the end of the desired enum. BindToRenderStep will not work if just the enum on its own is used.
 
-```Lua
+```lua
 local RunService = game:GetService("RunService")
 
 local function beforeCamera(delta)

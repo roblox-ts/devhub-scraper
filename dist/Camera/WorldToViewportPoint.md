@@ -8,7 +8,7 @@ For an otherwise identical function that accounts for the GUI inset, see [Camera
 
 For example:
 
-```Lua
+```lua
 local camera = workspace.CurrentCamera
 local worldPoint = Vector3.new(0, 10, 0)
 local vector, inViewport = camera:WorldToViewportPoint(worldPoint)

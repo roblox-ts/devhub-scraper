@@ -4,7 +4,7 @@ This property will always point to the [Workspace](https://developer.roblox.com/
 
 The [Workspace](https://developer.roblox.com/en-us/api-reference/class/Workspace) can also be accessed using the global variable `workspace` and the [ServiceProvider:GetService](https://developer.roblox.com/en-us/api-reference/function/ServiceProvider/GetService) function. For example:
 
-```Lua
+```lua
 workspace -- a global variable
 game.Workspace -- a property of the DataModel (game)
 game:GetService("Workspace") -- workspace is a service

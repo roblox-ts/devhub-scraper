@@ -2,7 +2,7 @@ This property indicates [CFrame](https://developer.roblox.com/en-us/api-referenc
 
 Developers can get obtain the position of Hit like so:
 
-```Lua
+```lua
 local position = mouse.Hit.p
 ``` 
 
@@ -17,7 +17,7 @@ The position of the Hit CFrame is calculated as the point of intersection betwee
 
 The orientation of the Hit CFrame corresponds with the direction of the [Mouse.UnitRay](https://developer.roblox.com/en-us/api-reference/property/Mouse/UnitRay).
 
-```Lua
+```lua
 local unitRayDirection = mouse.UnitRay.Direction
 local mouseHitDirection = mouse.Hit.lookVector
 -- unitRayDirection ≈ mouseHitDirection

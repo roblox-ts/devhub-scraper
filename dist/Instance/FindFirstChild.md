@@ -5,14 +5,14 @@ Checking the Existence of An Object
 
 FindFirstChild is necessary if you need to verify an object something exists before continuing. Attempting to index a child by name using the dot operator throws an error if the child doesn't exist.
 
- ```Lua
+ ```lua
 -- The following line errors if Part doesn't exist in the Workspace:
 workspace.Part.Transparency = .5
 ```
 
 Use FindFirstChild to first check for Part, then use an if-statement to run code that needs it.
 
-```Lua
+```lua
 local part = workspace:FindFirstChild("Part")
 if part then
     part.Transparency = .5
@@ -26,7 +26,7 @@ Sometimes the [Name](https://developer.roblox.com/en-us/api-reference/property/I
 
 In the following example, a [Folder](https://developer.roblox.com/en-us/api-reference/class/Folder) called “Color” is added to a [Part](https://developer.roblox.com/en-us/api-reference/class/Part), which also has the `Part/Color` property. `Part.Color` refers to the [Color3](https://developer.roblox.com/en-us/api-reference/datatype/Color3), not the Folder.
 
-```Lua
+```lua
 local part = Instance.new("Part")
 local folder = Instance.new("Folder")
 folder.Name = "Color"
@@ -39,7 +39,7 @@ A benefit of using FindFirstChild in this way is that the introduction of new pr
 
 **Tip:** If you only need to use the result of a FindFirstChild call once, such as getting the property of a child if it exists, you can use the following syntax with the `and` operator:
 
-```Lua
+```lua
 local myColor = workspace:FindFirstChild("SomePart") and workspace.SomePart.Color
 ```
 

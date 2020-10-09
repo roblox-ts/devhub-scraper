@@ -12,7 +12,7 @@ Below is a screenshot of a game pass purchase prompt. The function in the code s
 
 ![A developer product purchase prompt](https://developer.roblox.com/assets/blt3f7406054de2eebc/PromptProductPurchase.png)
 
-```Lua
+```lua
 local MarketplaceService = game:GetService("MarketplaceService")
 
 MarketplaceService.PromptProductPurchaseFinished:Connect(function (...)

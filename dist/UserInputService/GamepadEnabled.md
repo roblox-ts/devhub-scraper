@@ -1,6 +1,6 @@
 This property describes whether the device being used by a user has an available gamepad.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 
 if userInputService.GamepadEnabled then

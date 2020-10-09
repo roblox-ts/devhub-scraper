@@ -3,7 +3,7 @@
 Example
 -------
 
-```Lua
+```lua
 local hd = Instance.new("HumanoidDescription")
 hd:SetEmotes{Salute = {3360689775}, Agree = {4849487550}}
 -- Can provide either an array of strings... (index is slot number)

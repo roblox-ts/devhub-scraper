@@ -1,6 +1,6 @@
 This function returns the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) associated with the given [Player.Character](https://developer.roblox.com/en-us/api-reference/property/Player/Character), or `nil` if one cannot be found. It is equivalent to the following function:
 
-```Lua
+```lua
 local function getPlayerFromCharacter(character)
     for _, player in pairs(game:GetService("Players"):GetPlayers()) do
         if player.Character == character then

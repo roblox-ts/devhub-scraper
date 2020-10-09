@@ -8,7 +8,7 @@ Roblox provides an interface for a player to access their backpack and inventory
 
 The Backpack can be accessed from both the client and the server.
 
-```Lua
+```lua
 -- Accessing Backpack from a Server Script:
 game.Players.PlayerName.Backpack
  

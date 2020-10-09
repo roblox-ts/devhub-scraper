@@ -2,7 +2,7 @@
 
 Below is a literal table representation of the value returned when this function is called with `"Part"`.
 
-```Lua
+```lua
 {
     Image = "rbxasset://textures/ClassImages.png",
     ImageRectOffset = Vector2.new(16, 0),
@@ -12,7 +12,7 @@ Below is a literal table representation of the value returned when this function
 
 The utility function below may prove useful when displaying class icons:
 
-```Lua
+```lua
 local StudioService = game:GetService("StudioService")
 local imageLabel = script.Parent
 local function displayClassIcon(image, className)

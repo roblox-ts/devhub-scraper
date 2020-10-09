@@ -7,7 +7,7 @@ Forces Relative to Parent
 
 Using the `CFrame:vectorToWorldSpace(Vector3)` method, it is possible to translate a force vector that is relative to the part into the world vector necessary for [Force](https://developer.roblox.com/en-us/api-reference/property/BodyForce/Force). For example, to apply a force to the left an object (no matter which way it's facing), try:
 
-```Lua
+```lua
 magnitude = 100
 left = Vector3.new(-1, 0, 0) * magnitude -- You could also use Vector3.FromNormalId(Enum.NormalId.Left)
 bodyForce.Force = bodyForce.Parent.CFrame:vectorToWorldSpace(left)

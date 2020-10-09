@@ -4,7 +4,7 @@ An accelerometer is a component found in most mobile devices that measures accel
 
 For example, the following code snippet demonstrates how to check if the user's device has an accelerometer.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 
 local accelerometerEnabled = oserInputService.AccelerometerEnabled

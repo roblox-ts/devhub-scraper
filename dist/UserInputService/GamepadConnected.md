@@ -4,7 +4,7 @@ Since a Roblox game supports multiple controllers, this event is useful when pai
 
 The following example demonstrates a usage example of a tracking when a gamepad is connected to the client.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 
 local function GamepadConnected(gamepad)

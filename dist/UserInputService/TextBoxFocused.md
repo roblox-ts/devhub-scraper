@@ -2,7 +2,7 @@ The TextBoxFocused event fires when a gains focus on a [TextBox](https://develop
 
 For example, the code below prints the the name of the TextBox focused when the event fires.
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 function TextBoxFocused(textbox)

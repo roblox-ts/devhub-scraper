@@ -9,6 +9,6 @@ Setting sound groups
 
 A [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) is added to a [SoundGroup](https://developer.roblox.com/en-us/api-reference/class/SoundGroup) by setting the [Sound.SoundGroup](https://developer.roblox.com/en-us/api-reference/property/Sound/SoundGroup) property of the [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound). A [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) can only be in one [SoundGroup](https://developer.roblox.com/en-us/api-reference/class/SoundGroup) at a time. Whilst they can be parented elsewhere, it is recommended to keep SoundGroups parented to the [SoundService](https://developer.roblox.com/en-us/api-reference/class/SoundService). In the below example, a sound is parented to a SoundGroup called 'Music'.
 
-```Lua
+```lua
 Sound.SoundGroup = game:GetService("SoundService"):FindFirstChild("Music")
 ```

@@ -4,7 +4,7 @@ As this function does not account for the GUI inset, the viewport position given
 
 This function can be used in conjunction with the [Camera.ViewportSize](https://developer.roblox.com/en-us/api-reference/property/Camera/ViewportSize) property to create a ray from the centre of the screen, for example:
 
-```Lua
+```lua
 local camera = workspace.CurrentCamera
 local viewportPoint = camera.ViewportSize / 2
 local unitRay = camera:ViewportPointToRay(viewportPoint.X, viewportPoint.Y, 0)
@@ -12,7 +12,7 @@ local unitRay = camera:ViewportPointToRay(viewportPoint.X, viewportPoint.Y, 0)
 
 As the [Ray](https://developer.roblox.com/en-us/api-reference/datatype/Ray) created is a unit ray it is only one stud long. To create a longer ray, you can do the following:
 
-```Lua
+```lua
 local camera = workspace.CurrentCamera
 local length = 500
 local unitRay = camera:ScreenPointToRay(100, 100)

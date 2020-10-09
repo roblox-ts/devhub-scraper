@@ -3,7 +3,7 @@
 Example
 -------
 
-```Lua
+```lua
 local emotes = {
     Salute = {3360689775}, -- Syntax note: can also use ["Salute"] = ...
     Agree = {4849487550},

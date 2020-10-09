@@ -1,6 +1,6 @@
 This function tweens the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) in a linear fashion towards a new [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) and [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus) over a given duration, for example:
 
-```Lua
+```lua
 local camera = workspace.CurrentCamera
 camera.CameraType = Enum.CameraType.Scriptable
 
@@ -21,7 +21,7 @@ Interpolate can only be used if the current [Camera.CameraType](https://develope
 
 You are advised to use [TweenService](https://developer.roblox.com/en-us/api-reference/class/TweenService) to tween the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) instead as it is more reliable and offers a variety of easing styles. See below for an example:
 
-```Lua
+```lua
 local TweenService = game:GetService("TweenService")
 
 local camera = workspace.CurrentCamera

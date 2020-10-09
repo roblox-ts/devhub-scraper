@@ -6,7 +6,7 @@ This function takes in account the current GUI inset (such as the space occupied
 
 For example:
 
-```Lua
+```lua
 local camera = workspace.CurrentCamera
 local worldPoint = Vector3.new(0, 10, 0)
 local vector, onScreen = camera:WorldToScreenPoint(worldPoint)

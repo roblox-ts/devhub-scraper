@@ -4,7 +4,7 @@ VR head transformations, along with roll applied using [Camera:SetRoll](https://
 
 For example, when using VR the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) is actually rendered at the following [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame):
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 local headCFrame = UserInputService:GetUserCFrame(Enum.UserCFrame.Head)

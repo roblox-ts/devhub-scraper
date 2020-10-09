@@ -4,7 +4,7 @@ As Heartbeat fires every frame, it runs on a **variable frequency**. This means 
 
 The _step_ argument can be used to account for the variable frequency of this event, for example:
 
-```Lua
+```lua
 local RunService = game:GetService("RunService")
 
 local RATE_PER_SECOND = 2

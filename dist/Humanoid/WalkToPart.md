@@ -6,7 +6,7 @@ When WalkToPart is set and a humanoid is actively trying to reach the part, it w
 
 This can be described in Lua as:
 
-```Lua
+```lua
 goal = humanoid.WalkToPart.CFrame:pointToObjectSpace(humanoid.WalkToPoint)
 ``` 
 

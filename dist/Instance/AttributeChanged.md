@@ -4,7 +4,7 @@ This event fires whenever an attribute is changed on the instance. This includes
 
 For example, the following code snippet will connect the `attributeChanged` function to fire whenever one of `instance's` attributes changes. Note that this code sample does not define `instance`:
 
-```Lua
+```lua
 local function attributeChanged(attributeName)
     print(attributeName, “changed”)
 end

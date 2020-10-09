@@ -6,7 +6,7 @@ This property determines the exposure compensation amount which applies a bias t
 
 This property is replicated and can be set from scripts or [Studio](https://developer.roblox.com/en-us/api-reference/class/Studio).
 
-```Lua
+```lua
 local Lighting = game:GetService("Lighting")
 Lighting.ExposureCompensation = 5
 ``` 
@@ -15,7 +15,7 @@ You can use this property to adjust the exposure amount prior to the tonemap ste
 
 When [Lighting.Technology](https://developer.roblox.com/en-us/api-reference/property/Lighting/Technology) is set to [Legacy](https://developer.roblox.com/en-us/api-reference/enum/Technology), this property has no effect.
 
-```Lua
+```lua
 local Lighting = game:GetService("Lighting")
 
 -- ExposureCompensation has no effect because Lighting's Technology is Legacy

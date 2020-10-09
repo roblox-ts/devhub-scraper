@@ -4,7 +4,7 @@ This event can be used to determine when a user holds their finger down on an an
 
 The example below prints the [state](https://developer.roblox.com/en-us/api-reference/enum/UserInputState) of the long press when the user user holds at least one finger for a short amount of time on the same screen position. Possible states include: _Begin_, _Change_, _End_, _Cancel_, and _None_.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 
 function TouchLongPress(TouchPositions, state, gameProcessedEvent)

@@ -2,7 +2,7 @@ The PlayerAdded event fires when a player enters the game. This is used to fire 
 
 This can be used alongside the [Players.PlayerRemoving](https://developer.roblox.com/en-us/api-reference/event/Players/PlayerRemoving) event, which fires when a player is about to leave the game. For instance, if you would like print a message every time a new player joins or leaves the game:
 
-```Lua
+```lua
 local Players = game:GetService("Players")
 
 Players.PlayerAdded:Connect(function(player)

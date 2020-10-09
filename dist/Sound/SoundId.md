@@ -2,7 +2,7 @@ This property is the content ID of the sound file a [Sound](https://developer.ro
 
 It's important to remember the URL is not the same as the content ID. It will work when pasted directly into the SoundId property of a [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) in Roblox studio, as Studio will automatically correct it, however if it is being set from a [Script](https://developer.roblox.com/en-us/api-reference/class/Script) then the correct content ID will need to be used, using the number from the URL. For example:
 
-```Lua
+```lua
 "https://www.roblox.com/catalog/12222216" -- Web URL (will not work)
 "http://www.roblox.com/asset/?id=12222216" -- Content ID (will work)
 "rbxassetid://12222216" -- Content ID (alternative version, will work)

@@ -2,7 +2,7 @@ The GetFreeDecals function retrieves a list of Free [Decal](https://developer.ro
 
 The best way to explain it is to show a visual of the array returned:
 
-```Lua
+```lua
 [1] = {
     CurrentStartIndex = 1, -- This can vary depending on the page you input.
     TotalCount = 21, -- Always 21.

@@ -7,7 +7,7 @@ When a player is awarded points successfully the below example would print the u
 
 would be printed.
 
-```Lua
+```lua
 local function pointsAwarded(userId, pointsAwarded, userBalanceInGame, userTotalBalance)
     print("User: " .. userId .. " has now earned " .. userBalanceInGame .. " (+" .. pointsAwarded ..") points in the current game, now making their total balance " .. userTotalBalance)
 end

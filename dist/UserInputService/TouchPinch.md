@@ -2,7 +2,7 @@ Fired when a user places and moves two fingers on the screen of a [TouchEnabled]
 
 For instance, the snippet below prints how much the camera zoom scale has changed since the beginning of the touch pinch,
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 UserInputService.TouchPinch:Connect(function(touchPositions, scale, velocity, state, gameProcessedEvent)

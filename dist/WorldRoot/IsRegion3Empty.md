@@ -2,7 +2,7 @@
 
 The optional ignoreDescendentsInstance parameter can be used to specify a specific instance for whom itself and all of its descendants should be ignored by this function. This can be useful when, for example, looking to see if any [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart)s are inside a [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) other than the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) itself.
 
-```Lua
+```lua
 local min = part.Position - (0.5 * part.Size)
 local max = part.Position + (0.5 * part.Size)
 local region = Region3.new(min, max)

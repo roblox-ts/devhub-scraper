@@ -4,7 +4,7 @@ This property is an identifier that describes an object. Names are not necessari
 
 The name of an object is often used to access the object through the data model hierarchy using the following methods:
 
-```Lua
+```lua
 local baseplate = workspace.Baseplate
 local baseplate = workspace["Baseplate"]
 local baseplate = workspace:FindFirstChild("BasePlate")

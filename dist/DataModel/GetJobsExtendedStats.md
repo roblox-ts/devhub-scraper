@@ -8,7 +8,7 @@ This function is currently broken and does not return the correct values. You ca
 
 The first entry in the table returned is a reference dictionary containing the statistics (or headings) available. It is in the following format:
 
-```Lua
+```lua
 {
     ["name"] = "name",
     ["time.average"] = "time.average",
@@ -23,7 +23,7 @@ The first entry in the table returned is a reference dictionary containing the s
 
 The subsequent entries in the table returned are dictionaries containing the above statistics for jobs performed by the task scheduler. For example:
 
-```Lua
+```lua
 {
     ["name"] = "Heartbeat",
     ["time.average"] = 0,

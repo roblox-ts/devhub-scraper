@@ -7,7 +7,7 @@ Accessing StarterGear
 
 Listening to the [Players.PlayerAdded](https://developer.roblox.com/en-us/api-reference/event/Players/PlayerAdded) event is useful for
 
-```Lua
+```lua
 local Players = game:GetService("Players")
 
 local toolExamplePrefab = Instance.new("Tool")

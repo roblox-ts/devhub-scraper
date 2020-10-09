@@ -10,7 +10,7 @@ How can I edit a Part
 
 The Part object can be edited using the various studio tools. It is available via either the insert menu, or the _Object Insert menu_. It can also be created using the function:
 
-```Lua
+```lua
 Instance.new("Part")
 ``` 
 

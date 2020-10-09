@@ -9,7 +9,7 @@ GraphicsQualityChangeRequest does not provide the current graphics quality level
 
 You can retrieve a user's [SavedQualitySetting](https://developer.roblox.com/en-us/api-reference/enum/SavedQualitySetting) using [UserGameSettings](https://developer.roblox.com/en-us/api-reference/class/UserGameSettings) with the following snippet:
 
-```Lua
+```lua
 UserSettings():GetService("UserGameSettings").SavedQualityLevel
 ``` 
 

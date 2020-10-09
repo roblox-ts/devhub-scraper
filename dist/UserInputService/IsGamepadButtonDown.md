@@ -46,7 +46,7 @@ Enum.KeyCode.DPadDown<
 
 This can be used to check whether a specific button, such as A, is being held down. For example:
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 local button = Enum.KeyCode.ButtonA

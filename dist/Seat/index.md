@@ -11,7 +11,7 @@ A character can also be forced to sit in a seat using the [Seat:Sit](https://dev
 
 There are two ways for a character to get out of a seat. When a player jumps, they are removed from the seat. However this can also be done manually by destroying the seat weld, for example:
 
-```Lua
+```lua
 seat:FindFirstChild("SeatWeld"):Destroy()
 ``` 
 

@@ -2,7 +2,7 @@ This function causes the [Humanoid](https://developer.roblox.com/en-us/api-refer
 
 By default, the _direction_ given is in world terms. If the _relativeToCamera_ parameter is _true_ however the _direction_ given is relative to the `Workspace/CurrentCamera|CurrentCamera's` [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame). As the negative Z direction is considered 'forwards' in Roblox, the following code would make the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) walk in the direction of the [Workspace.CurrentCamera](https://developer.roblox.com/en-us/api-reference/property/Workspace/CurrentCamera).
 
-```Lua
+```lua
 humanoid:Move(Vector3.new(0, 0, -1), true)
 ``` 
 

@@ -2,7 +2,7 @@ When detecting changes in the mouse's position on-screen, it is recommended that
 
 The Y property describes the vertical component of the mouse's position on the screen. The position is measured in pixels relative to the top left corner, under the topbar. This property can be used in conjunction with [Mouse.X](https://developer.roblox.com/en-us/api-reference/property/Mouse/X) to produce a [Vector2](https://developer.roblox.com/en-us/api-reference/datatype/Vector2) representing the mouse's position:
 
-```Lua
+```lua
 local position = Vector2.new(mouse.X, mouse.Y)
 ``` 
 

@@ -3,7 +3,7 @@
 Example
 -------
 
-```Lua
+```lua
 local hd = Instance.new("HumanoidDescription")
 hd.EquippedEmotesChanged:Connect(function (equippedEmotes)
     print(("We have %d emotes equipped"):format(#equippedEmotes))

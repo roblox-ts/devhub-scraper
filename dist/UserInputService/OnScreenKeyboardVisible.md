@@ -2,7 +2,7 @@ This property describes whether an on-screen keyboard is currently visible on th
 
 The code snippet below prints whether the keyboard is visible.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 
 local keyboardIsVisible = userInputService.OnScreenKeyboardIsVisible

@@ -2,7 +2,7 @@ Returns true if the game has the PGS Physics solver enabled.
 
 As `Workspace/PGSPhysicsSolverEnabled` cannot be accessed by scripts, the PGSIsEnabled function allows developers to tell which physics solver the game is using.
 
-```Lua
+```lua
 print(workspace:PGSIsEnabled()) -- true = PGS solver enabled 
 print(workspace:PGSIsEnabled()) -- false = Legacy solver enabled
 ``` 
