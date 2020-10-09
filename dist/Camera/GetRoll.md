@@ -4,11 +4,11 @@ This function only returns roll applied using the [Camera:SetRoll](https://devel
 
 ```Lua
 local function getActualRoll()
-	local camera = workspace.CurrentCamera
+    local camera = workspace.CurrentCamera
 
-	local trueUp = Vector3.new(0, 1, 0)
-	local cameraUp = camera:GetRenderCFrame().upVector
+    local trueUp = Vector3.new(0, 1, 0)
+    local cameraUp = camera:GetRenderCFrame().upVector
 
-	return math.acos(trueUp:Dot(cameraUp))
+    return math.acos(trueUp:Dot(cameraUp))
 end
 ```

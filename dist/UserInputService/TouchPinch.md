@@ -6,9 +6,9 @@ For instance, the snippet below prints how much the camera zoom scale has change
 local UserInputService = game:GetService("UserInputService")
 
 UserInputService.TouchPinch:Connect(function(touchPositions, scale, velocity, state, gameProcessedEvent)
-	print("Scale difference since beginning of pinch: "..tostring(scale))
+    print("Scale difference since beginning of pinch: "..tostring(scale))
 end)
-``` 
+```
 
 To check if a user's device is TouchEnabled, and that touch events will fire, see [UserInputService.TouchEnabled](https://developer.roblox.com/en-us/api-reference/property/UserInputService/TouchEnabled).
 

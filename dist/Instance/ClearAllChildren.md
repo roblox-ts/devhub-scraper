@@ -9,8 +9,8 @@ If the developer does not wish to destroy all descendants, they should use [Inst
 
 ```Lua
 for _, instance in pairs(object:GetDescendants()) do
-	if instance:IsA("BasePart") then
-		instance:Destroy()
-	end
+    if instance:IsA("BasePart") then
+        instance:Destroy()
+    end
 end
 ```

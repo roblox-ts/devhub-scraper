@@ -20,11 +20,11 @@ local Players = game:GetService("Players")
 local localPlayer = Players.LocalPlayer
 
 local function resetCameraSubject()
-	if workspace.CurrentCamera and localPlayer.Character then
-		local humanoid = localPlayer.Character:FindFirstChildOfClass("Humanoid")
-		if humanoid then
-			workspace.CurrentCamera.CameraSubject = humanoid
-		end
-	end
+    if workspace.CurrentCamera and localPlayer.Character then
+        local humanoid = localPlayer.Character:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            workspace.CurrentCamera.CameraSubject = humanoid
+        end
+    end
 end
 ```

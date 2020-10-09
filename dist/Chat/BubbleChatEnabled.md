@@ -5,6 +5,6 @@ To enable BubbleChat without forking [Chat](https://developer.roblox.com/en-us/a
 ```Lua
 local ChatService = game:GetService("Chat") -- Call ChatService
 ChatService:RegisterChatCallback(Enum.ChatCallbackType.OnCreatingChatWindow, function()
-	return {BubbleChatEnabled = true} -- Call the API to change its boolean value to true
+    return {BubbleChatEnabled = true} -- Call the API to change its boolean value to true
 end)
 ```

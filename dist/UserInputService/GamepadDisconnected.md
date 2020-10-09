@@ -8,11 +8,11 @@ The following example demonstrates a usage example of a tracking when a gamepad 
 local userInputService = game:GetService("UserInputService")
 
 local function GamepadDisconnected(gamepad)
-	print("Player has unplugged controller: " .. tostring(gamepad))
+    print("Player has unplugged controller: " .. tostring(gamepad))
 end)
 
 userInputService.GamepadDisconnected:Connect(GamepadDisconnected)
-``` 
+```
 
 As this event fires locally, it can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 

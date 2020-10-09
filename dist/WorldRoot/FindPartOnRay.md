@@ -11,11 +11,11 @@ local ray = Ray.new(origin, lookDirection * 500)
 -- Raycast, ignoring the player's character
 local hitPart, hitPosition = workspace:FindPartOnRay(ray, character)
 if hitPart then
-	print("Hit part: " .. hitPart:GetFullName())
+    print("Hit part: " .. hitPart:GetFullName())
 else
-	print("Did not hit part")
+    print("Did not hit part")
 end
-``` 
+```
 
 If the `ignoreDescendantsInstance` parameter is provided, the raycasting calculation will ignore the given object and all of its descendants. It behaves similar to the [Mouse.TargetFilter](https://developer.roblox.com/en-us/api-reference/property/Mouse/TargetFilter) property.
 

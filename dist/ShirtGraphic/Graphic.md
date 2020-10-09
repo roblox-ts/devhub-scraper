@@ -10,10 +10,10 @@ local webURL = "https://www.roblox.com/catalog/2591161/Sword-Fight-on-the-Height
 local assetId = tonumber(string.match(webURL, "%d+") or 0)  -- Extract the number
 
 local success, model = pcall(function()
-	return game:GetService("InsertService"):LoadAsset(assetId)
+    return game:GetService("InsertService"):LoadAsset(assetId)
 end)
 
 if success then
-	model.Parent = workspace
+    model.Parent = workspace
 end
 ```

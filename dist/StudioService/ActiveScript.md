@@ -4,12 +4,12 @@
 local startTime = os.time()
 local activeScript
 local function onActiveScriptChanged(newActiveScript)
-	if newActiveScript ~= activeScript then
-		local deltaTime = os.time() - startTime
-		print(("You edited %s for %d:%2.d"):format(activeScript.Name, math.floor(deltaTime / 60), deltaTime % 60))
-	end
-	startTime = os.time()
-	activeScript = newActiveScript
+    if newActiveScript ~= activeScript then
+        local deltaTime = os.time() - startTime
+        print(("You edited %s for %d:%2.d"):format(activeScript.Name, math.floor(deltaTime / 60), deltaTime % 60))
+    end
+    startTime = os.time()
+    activeScript = newActiveScript
 end
 game:GetService("StudioService"):GetPropertyChangedSignal("ActiveScript"):Connect(onActiveScriptChanged)
 ```

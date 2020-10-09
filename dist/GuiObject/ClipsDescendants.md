@@ -6,12 +6,12 @@ The gif and code sample below demonstrate how to enabled and disable the propert
 
 ```Lua
 while true do
-	script.Parent.ClipDescendants = true
-	wait(2)
-	script.Parent.ClipDescendants = false
-	wait(2)
+    script.Parent.ClipDescendants = true
+    wait(2)
+    script.Parent.ClipDescendants = false
+    wait(2)
 end
-``` 
+```
 
 ![ClipDescendants Demo](https://developer.roblox.com/assets/bltaf6f1a7233b2f3d8/ClipDescendantsDemo.gif)
 

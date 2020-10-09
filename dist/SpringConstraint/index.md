@@ -10,31 +10,31 @@ Calculating SpringConstraint Force
 The following helper function exhibits how the force of a [SpringConstraint](https://developer.roblox.com/en-us/api-reference/class/SpringConstraint) is calculated based on various properties of the constraint and its attachments.
 
 local function getSpringForce(spring)
-	if not spring:IsA("SpringConstraint") then
-		warn(spring .. " is not a spring constraint!")
-		return
-	end
+    if not spring:IsA("SpringConstraint") then
+        warn(spring .. " is not a spring constraint!")
+        return
+    end
 
-	local currentLength = spring.CurrentLength
-	local freeLength = spring.FreeLength
-	if (spring.LimitsEnabled) then
-		currentLength = math.clamp(currentLength, spring.MinLength, spring.MaxLength)
-		freeLength = math.clamp(freeLength, spring.MinLength, spring.MaxLength)
-	end
-	local springLength = currentLength - freeLength
+    local currentLength = spring.CurrentLength
+    local freeLength = spring.FreeLength
+    if (spring.LimitsEnabled) then
+        currentLength = math.clamp(currentLength, spring.MinLength, spring.MaxLength)
+        freeLength = math.clamp(freeLength, spring.MinLength, spring.MaxLength)
+    end
+    local springLength = currentLength - freeLength
 
-	local axis = spring.Attachment0.WorldPosition - spring.Attachment1.WorldPosition
-	if axis.Magnitude > 0 then
-		axis = axis.Unit
-	end
-	local effectiveVelocity = spring.Attachment0.Parent.Velocity - spring.Attachment1.Parent.Velocity
+    local axis = spring.Attachment0.WorldPosition - spring.Attachment1.WorldPosition
+    if axis.Magnitude > 0 then
+        axis = axis.Unit
+    end
+    local effectiveVelocity = spring.Attachment0.Parent.Velocity - spring.Attachment1.Parent.Velocity
 
-	-- https://en.wikipedia.org/wiki/Harmonic\_oscillator
-	-- f = -k \* x - c \* dx/dt + fext
-	-- Gravity may not be all of the external forces; friction may affect this, but it's harder to account for
-	local forceExternal = Vector3.new(0, -workspace.Gravity, 0)
-	local force = -spring.Stiffness \* springLength - spring.Damping \* axis:Dot(effectiveVelocity) + axis:Dot(forceExternal)
+    -- https://en.wikipedia.org/wiki/Harmonic\_oscillator
+    -- f = -k \* x - c \* dx/dt + fext
+    -- Gravity may not be all of the external forces; friction may affect this, but it's harder to account for
+    local forceExternal = Vector3.new(0, -workspace.Gravity, 0)
+    local force = -spring.Stiffness \* springLength - spring.Damping \* axis:Dot(effectiveVelocity) + axis:Dot(forceExternal)
 
-	force = math.clamp(force, -spring.MaxForce, spring.MaxForce)
-	return force
+    force = math.clamp(force, -spring.MaxForce, spring.MaxForce)
+    return force
 end

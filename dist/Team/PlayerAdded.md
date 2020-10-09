@@ -4,6 +4,6 @@ This event is team specific and will only fire when a [Player](https://developer
 
 ```Lua
 Team.PlayerAdded:Connect(function(player)
-	print(player.Name.." has joined the team")
+    print(player.Name.." has joined the team")
 end)
 ```

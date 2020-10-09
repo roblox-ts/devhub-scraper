@@ -6,11 +6,11 @@ For example, the code below prints the the name of the TextBox focused when the 
 local UserInputService = game:GetService("UserInputService")
 
 function TextBoxFocused(textbox)
-	print(textbox.Name)
+    print(textbox.Name)
 end)
 
 UserInputService.TextBoxFocused:Connect(TextBoxFocused)
-``` 
+```
 
 It can be used alongside `UserInputService/FocusReleased` to track when a text box gains and loses focus.
 

@@ -6,12 +6,12 @@ This can be used alongside the `Player/PlayerAdded` event, which fires when a pl
 local Players = game:GetService("Players")
 
 Players.PlayerAdded:Connect(function(player)
-	print(player.Name + " joined the game!")
+    print(player.Name + " joined the game!")
 end)
 
 Players.PlayerRemoving:Connect(function(player)
-	print(player.Name + " left the game!")
+    print(player.Name + " left the game!")
 end)
-``` 
+```
 
 If you want to track when a player's character is added or removed from the game, such as when a player respawns or dies, you can use the [Player.CharacterAdded](https://developer.roblox.com/en-us/api-reference/event/Player/CharacterAdded) and [Player.CharacterRemoving](https://developer.roblox.com/en-us/api-reference/event/Player/CharacterRemoving) functions.

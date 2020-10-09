@@ -7,12 +7,12 @@ This property is a [NumberSequence](https://developer.roblox.com/en-us/api-refer
 
 ```Lua
 local numberSequence = NumberSequence.new({
-	NumberSequenceKeypoint.new(0, 1), -- transparent
-	NumberSequenceKeypoint.new(0.5, 0), -- opaque
-	NumberSequenceKeypoint.new(1, 1), -- transparent
-	}
+    NumberSequenceKeypoint.new(0, 1), -- transparent
+    NumberSequenceKeypoint.new(0.5, 0), -- opaque
+    NumberSequenceKeypoint.new(1, 1), -- transparent
+    }
 )
-``` 
+```
 
 Applying this [NumberSequence](https://developer.roblox.com/en-us/api-reference/datatype/NumberSequence) to a [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam) would yield the following result:
 

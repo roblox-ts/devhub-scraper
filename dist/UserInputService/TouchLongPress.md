@@ -8,11 +8,11 @@ The example below prints the [state](https://developer.roblox.com/en-us/api-refe
 local userInputService = game:GetService("UserInputService")
 
 function TouchLongPress(TouchPositions, state, gameProcessedEvent)
-	print("Long press event fired. State of press: "..tostring(state))
+    print("Long press event fired. State of press: "..tostring(state))
 end
 
 userInputService.TouchLongPress:Connect(TouchLongPress)
-``` 
+```
 
 To check if a user's device is TouchEnabled, and that touch events will fire, see[UserInputService.TouchEnabled](https://developer.roblox.com/en-us/api-reference/property/UserInputService/TouchEnabled).
 

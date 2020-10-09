@@ -8,11 +8,11 @@ For example, the following code snippet will return a signal that fires the func
 
 ```Lua
 local function attributeChanged()
-	print(“Attribute changed”)
+    print(“Attribute changed”)
 end
 
 instance:GetAttributeChangedSignal("InitialPosition"):Connect(attributeChanged)
-``` 
+```
 
 Behavior
 --------

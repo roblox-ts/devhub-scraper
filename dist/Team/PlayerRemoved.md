@@ -4,6 +4,6 @@ This event is team specific and will only fire when a [Player](https://developer
 
 ```Lua
 Team.PlayerRemoved:Connect(function(player)
-	print(player.Name.." has left the team")
+    print(player.Name.." has left the team")
 end)
 ```

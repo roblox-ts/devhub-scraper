@@ -8,12 +8,12 @@ The code below prints “Touch moved from” the previous Vector2 position "to "
 local UserInputService = game:GetService("UserInputService")
 
 function onTouchMoved(touch, gameProcessedEvent)
-	local oldPosition = touch.Position - touch.Delta
-	print("Touch moved from " .. tostring(oldPosition) .. "to " .. tostring(touch.Position))
+    local oldPosition = touch.Position - touch.Delta
+    print("Touch moved from " .. tostring(oldPosition) .. "to " .. tostring(touch.Position))
 end
 
 UserInputService.TouchMoved:Connect(onTouchMoved)
-``` 
+```
 
 It can be paired with [UserInputService.TouchStarted](https://developer.roblox.com/en-us/api-reference/event/UserInputService/TouchStarted) and [UserInputService.TouchEnded](https://developer.roblox.com/en-us/api-reference/event/UserInputService/TouchEnded) to determine when a user starts touching the screen, how their finger moves while touching it, and when the they stop touching the screen.
 

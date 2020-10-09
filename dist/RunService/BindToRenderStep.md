@@ -9,14 +9,14 @@ The `name` parameter is a label for the binding, and can be used with [RunServic
 
 ```Lua
 local RunService = game:GetService("RunService")
-    
+
 local function functionToBind() end
-    
+
 -- Bind the function above to the binding named "tempBinding"
 RunService:BindToRenderStep("tempBinding", 1, functionToBind)
 -- Unbind the function bound to "tempBinding"
 RunService:UnbindFromRenderStep("tempBinding")
-``` 
+```
 
 Priority
 --------
@@ -24,20 +24,20 @@ Priority
 The `priority` of the binding is an integer, and determines when during the render step to call the custom function. The lower this number, the sooner the custom function will be called. If two bindings have the same priority the Roblox engine will randomly pick one to run first. The default Roblox control scripts run with these specific priorities:
 
 *   Player Input: 100
-*   Camera Controls: 200  
+*   Camera Controls: 200
     For convenience, the [RenderPriority](https://developer.roblox.com/en-us/api-reference/enum/RenderPriority) enum can be used to determine the integer value to set a binding. For example, to make a binding right before the default camera update, simply subtract 1 from the camera priority level.
 
 > **Note:** When using Enum.RenderPriority, remember to use _**InlineCode.Value**_ at the end of the desired enum. BindToRenderStep will not work if just the enum on its own is used.
 
 ```Lua
 local RunService = game:GetService("RunService")
-    
+
 local function beforeCamera(delta)
-	-- Code in here will run before the default Roblox camera script
+    -- Code in here will run before the default Roblox camera script
 end
-    
+
 RunService:BindToRenderStep("Before camera", Enum.RenderPriority.Camera.Value - 1, beforeCamera)
-``` 
+```
 
 Custom Function and Delta Time
 ------------------------------

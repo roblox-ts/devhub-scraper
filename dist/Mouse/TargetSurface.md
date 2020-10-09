@@ -8,8 +8,8 @@ local player = Players.LocalPlayer
 local mouse = player:GetMouse()
 -- Check that there exists a part at which the mouse is pointing
 if mouse.Target then
-	print("The mouse is pointing to the " .. mouse.TargetSurface.Name .. " side of " .. mouse.Target.Name)
+    print("The mouse is pointing to the " .. mouse.TargetSurface.Name .. " side of " .. mouse.Target.Name)
 else
-	print("The mouse is not pointing at anything.")
+    print("The mouse is not pointing at anything.")
 end
 ```

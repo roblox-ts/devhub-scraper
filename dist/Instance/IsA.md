@@ -4,16 +4,16 @@ Most commonly, this function is used to test if an object is some kind of part, 
 
 ```Lua
 local function paintFigure(character, color)
-	-- Iterate over the child objects of the character
-	for _, child in pairs(character:GetChildren()) do
-		-- Filter out non-part objects, such as Shirt, Pants and Humanoid
-		-- R15 use MeshPart and R6 use Part, so we use BasePart here to detect both:
-		if child:IsA("BasePart") then
-			child.BrickColor = color
-		end
-	end
+    -- Iterate over the child objects of the character
+    for _, child in pairs(character:GetChildren()) do
+        -- Filter out non-part objects, such as Shirt, Pants and Humanoid
+        -- R15 use MeshPart and R6 use Part, so we use BasePart here to detect both:
+        if child:IsA("BasePart") then
+            child.BrickColor = color
+        end
+    end
 end
 paintFigure(game.Players.Player.Character, BrickColor.new("Bright blue"))
-``` 
+```
 
 Since all classes inherit from [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance), calling `object:IsA("Instance")` will always return true.

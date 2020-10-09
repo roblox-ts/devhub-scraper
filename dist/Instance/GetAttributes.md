@@ -7,9 +7,9 @@ For example, the following code snippet will print an instance's attributes and 
 ```Lua
 local attributes = instance:GetAttributes
 for name, value in pairs(instance:GetAttributes()) do
-	print(name .. “ “ .. value)
+    print(name .. “ “ .. value)
 end
-``` 
+```
 
 See also
 --------

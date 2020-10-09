@@ -8,15 +8,15 @@ The following example demonstrates a usage example of a tracking when a gamepad 
 local userInputService = game:GetService("UserInputService")
 
 local function GamepadConnected(gamepad)
-	print("Player has plugged controller: " .. tostring(gamepad))
+    print("Player has plugged controller: " .. tostring(gamepad))
 end)
 
 userInputService.GamepadConnected:Connect(GamepadDisconnected)
-``` 
+```
 
 If you want to see which devices are connected, you can use the [UserInputService:GetConnectedGamepads](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetConnectedGamepads) function.
 
-As this event fires locally, it can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).  
+As this event fires locally, it can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 See [this](https://developer.roblox.com/learn-roblox/cross-platform) page for articles on cross-platform development.
 
 See also

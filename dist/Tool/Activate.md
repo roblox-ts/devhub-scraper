@@ -10,7 +10,7 @@ tool.RequiresHandle = false
 tool.Parent = game.Players.LocalPlayer.Backpack
 
 tool.Equipped:Connect(function()
-	tool:Activate()
+    tool:Activate()
 end)
 
 function toolActivated()

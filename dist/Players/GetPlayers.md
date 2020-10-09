@@ -5,7 +5,7 @@ Players = game:GetService("Players")
 for i, player in pairs(Players:GetPlayers()) do
     print(player.Name)
 end
-``` 
+```
 
 Scripts that connect to [Players.PlayerAdded](https://developer.roblox.com/en-us/api-reference/event/Players/PlayerAdded) are often trying to process every Player that connects to the game. This method is useful for iterating over already-connected players that wouldn't fire [PlayerAdded](https://developer.roblox.com/en-us/api-reference/event/Players/PlayerAdded). Using this method ensures that no player is missed!
 
@@ -13,11 +13,11 @@ Scripts that connect to [Players.PlayerAdded](https://developer.roblox.com/en-us
 local Players = game:GetService("Players")
 
 local function onPlayerAdded(player)
-	print("Player: " .. player.Name)
+    print("Player: " .. player.Name)
 end
 
 for _, player in pairs(Players:GetPlayers()) do
-	onPlayerAdded(player)
+    onPlayerAdded(player)
 end
 Players.PlayerAdded:Connect(onPlayerAdded)
 ```

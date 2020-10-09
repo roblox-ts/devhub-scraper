@@ -7,37 +7,37 @@ As the default closing behavior is overwritten by this function, you'll need to 
 ```Lua
 local closing = false
 pluginGui:BindToClose(function()
-	-- make sure we haven't already made a button
-	if closing then
-		return
-	end
-	closing = true
+    -- make sure we haven't already made a button
+    if closing then
+        return
+    end
+    closing = true
 
-	-- create confirm button
-	local confirmButton = Instance.new("TextButton")
-	confirmButton.AnchorPoint = Vector2.new(0.5, 0.5)
-	confirmButton.Size = UDim2.new(0.5, 0, 0.5, 0)
-	confirmButton.Position = UDim2.new(0.5, 0, 0.5, 0)
-	confirmButton.BackgroundColor3 = Color3.new(1, 0, 0)
-	confirmButton.Text = "Close?"
-	confirmButton.Parent = pluginGui
+    -- create confirm button
+    local confirmButton = Instance.new("TextButton")
+    confirmButton.AnchorPoint = Vector2.new(0.5, 0.5)
+    confirmButton.Size = UDim2.new(0.5, 0, 0.5, 0)
+    confirmButton.Position = UDim2.new(0.5, 0, 0.5, 0)
+    confirmButton.BackgroundColor3 = Color3.new(1, 0, 0)
+    confirmButton.Text = "Close?"
+    confirmButton.Parent = pluginGui
 
-	-- listen for click
-	confirmButton.Activated:Connect(function()
-		-- close the gui
-		pluginGui.Enabled = false
-	
-		-- remove confirm button
-		confirmButton:Destroy()
-	end)
+    -- listen for click
+    confirmButton.Activated:Connect(function()
+        -- close the gui
+        pluginGui.Enabled = false
+
+        -- remove confirm button
+        confirmButton:Destroy()
+    end)
 end)
-``` 
+```
 
 You can call BindToClose with no argument to 'unbind' and revert to the default behavior described above. For example:
 
 ```Lua
 pluginGui:BindToClose()
-``` 
+```
 
 See also
 --------

@@ -12,16 +12,16 @@ local SubFrame = CustomScrollingFrame:FindFirstChild("SubFrame")
 
 local mouse = game.Players.LocalPlayer:GetMouse()
 function getPosition(X, Y)
-	local gui_X = CustomScrollingFrame.AbsolutePosition.X
-	local gui_Y = CustomScrollingFrame.AbsolutePosition.Y
-	
-	
-	local pos = Vector2.new(math.abs(X - gui_X), math.abs(Y - gui_Y - 36))
-	print(pos)
+    local gui_X = CustomScrollingFrame.AbsolutePosition.X
+    local gui_Y = CustomScrollingFrame.AbsolutePosition.Y
+
+
+    local pos = Vector2.new(math.abs(X - gui_X), math.abs(Y - gui_Y - 36))
+    print(pos)
 end
 
 CustomScrollingFrame.MouseMoved:Connect(getPosition)
-``` 
+```
 
 Note that this event may not fire exactly when the user's mouse enters or exits a GUI element. Therefore, the `x` and `y` arguments may not match up perfectly to the coordinates of the GUI's edges.
 

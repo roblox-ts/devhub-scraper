@@ -7,15 +7,15 @@ local Players = game:GetService("Players")
 
 local player = Players:FindFirstChildOfClass(“Player”)
 if player and player.Character then
-	local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
-	if humanoid then
-		local tool = workspace:FindFirstChild("Tool")
-		if tool then
-			humanoid:EquipTool(tool)	
-		end
-	end
+    local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+    if humanoid then
+        local tool = workspace:FindFirstChild("Tool")
+        if tool then
+            humanoid:EquipTool(tool)
+        end
+    end
 end
-``` 
+```
 
 When this function is called, the humanoid will automatically unequip any [Tools](https://developer.roblox.com/en-us/api-reference/class/Tool) that it currently has equipped
 

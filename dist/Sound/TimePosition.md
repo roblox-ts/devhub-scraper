@@ -6,9 +6,9 @@ Note that setting `TimePosition` to a value greater than the length in a looped 
 
 ```Lua
 if newPosition >= sound.TimeLength then
-	newPosition = newPosition - sound.TimeLength
+    newPosition = newPosition - sound.TimeLength
 end
 sound.TimePosition = newPosition
-``` 
+```
 
 Setting TimePosition to a value less than zero currently does not influence playback, but this behavior should not be relied upon.

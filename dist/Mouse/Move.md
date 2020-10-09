@@ -8,10 +8,10 @@ Developers can find out the position of the mouse in world-space, and if it is p
 
 ```Lua
 mouse.Move:Connect(function()
-	local position = mouse.Hit.p
-	local target = mouse.Target
-	print(target, position)
+    local position = mouse.Hit.p
+    local target = mouse.Target
+    print(target, position)
 end)
-``` 
+```
 
 Note, developers are recommended to use [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService) instead of the [Mouse](https://developer.roblox.com/en-us/api-reference/class/Mouse) object in new work.

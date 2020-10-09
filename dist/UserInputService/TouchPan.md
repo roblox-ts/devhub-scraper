@@ -8,9 +8,9 @@ The snippet below prints “Speed of touch drag” followed by the velocity of t
 local userInputService = game:GetService("UserInputService")
 
 userInputService.TouchPan:Connect(function(touchPositions, totalTranslation, velocity, state, gameProcessedEvent)
-	print("Speed of touch drag: "..tostring(velocity))
+    print("Speed of touch drag: "..tostring(velocity))
 end)
-``` 
+```
 
 Take a look at another useful [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService) function here [UserInputService.TouchRotate](https://developer.roblox.com/en-us/api-reference/event/UserInputService/TouchRotate).
 

@@ -124,7 +124,7 @@ class Generator {
 
 	private processCode(content: string, node: TurndownService.Node): string {
 		if (node.parentElement?.tagName === "PRE") {
-			return "```lua\n" + content + "\n```";
+			return "```lua\n" + content.replace(/\t/g, " ".repeat(4)) + "\n```";
 		}
 		return this.processCodeLink(content) ?? "`" + content + "`";
 	}

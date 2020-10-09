@@ -4,8 +4,8 @@ The Enabled property, much like [ParticleEmitter.Enabled](https://developer.robl
 local Debris = game:GetService("Debris")
 local part = script.Parent
 function stopSmoke(smoke)
-	smoke.Enabled = false -- No more new particles
-	Debris:AddItem(smoke, 10) -- Remove the object after a delay (after existing particles have expired)
+    smoke.Enabled = false -- No more new particles
+    Debris:AddItem(smoke, 10) -- Remove the object after a delay (after existing particles have expired)
 end
 stopSmoke(part.Smoke)
 ```

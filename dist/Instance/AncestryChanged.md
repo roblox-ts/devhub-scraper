@@ -6,8 +6,8 @@ A common use for this function is detecting when an object has been removed or d
 
 ```Lua
 object.AncestryChanged:Connect(function(_, parent)
-	if not parent then
-		print("object destroyed!")
-	end
+    if not parent then
+        print("object destroyed!")
+    end
 end)
 ```

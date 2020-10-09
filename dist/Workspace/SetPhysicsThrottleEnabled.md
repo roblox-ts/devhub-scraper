@@ -23,10 +23,10 @@ Developers should always avoid creating places that overload the physics engine,
 ```Lua
 local i = 0
 while true do
-	i = i + 1
-	if i % 5 == 0 then
-		wait()
-	end
-	local part = Instance.new("Part", workspace)
+    i = i + 1
+    if i % 5 == 0 then
+        wait()
+    end
+    local part = Instance.new("Part", workspace)
 end
 ```

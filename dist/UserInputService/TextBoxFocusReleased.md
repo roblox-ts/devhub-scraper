@@ -6,11 +6,11 @@ For example, the code below prints the the name of the TextBox losing focus when
 local UserInputService = game:GetService("UserInputService")
 
 function TextBoxFocusReleased(textbox)
-	print(textbox.Name)
+    print(textbox.Name)
 end
 
 UserInputService.TextBoxFocusReleased:Connect(TextBoxFocusReleased)
-``` 
+```
 
 It can be used alongside [UserInputService.TextBoxFocused](https://developer.roblox.com/en-us/api-reference/event/UserInputService/TextBoxFocused) to track when a TextBox gains and loses focus.
 

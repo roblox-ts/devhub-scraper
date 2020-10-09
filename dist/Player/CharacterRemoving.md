@@ -6,23 +6,23 @@ This event can be used alongside the [Player.CharacterAdded](https://developer.r
 local Players = game:GetService("Players")
 
 local function onCharacterSpawned(player)
-	print(player.Name .. " is spawning")
+    print(player.Name .. " is spawning")
 end
 
 local function onCharacterDespawned(player)
-	print(player.Name .. " is despawning")
+    print(player.Name .. " is despawning")
 end
 
 local function onPlayerAdded(player)
-	player.CharacterAdded:Connect(function ()
-		onCharacterDespawned(player)
-	end)
-	player.CharacterRemoving:Connect(function ()
-		onCharacterDespawned(player)
-	end)
+    player.CharacterAdded:Connect(function ()
+        onCharacterDespawned(player)
+    end)
+    player.CharacterRemoving:Connect(function ()
+        onCharacterDespawned(player)
+    end)
 end
 
 Players.PlayerAdded:Connect(onPlayerAdded)
-``` 
+```
 
 This event is only concerned with the [Character](https://developer.roblox.com/en-us/api-reference/property/Player/Character) of a [Player](https://developer.roblox.com/en-us/api-reference/class/Player). If you instead need to track when a player joins/leaves the game, use the events [Players.PlayerAdded](https://developer.roblox.com/en-us/api-reference/event/Players/PlayerAdded) and [Players.PlayerRemoving](https://developer.roblox.com/en-us/api-reference/event/Players/PlayerRemoving).

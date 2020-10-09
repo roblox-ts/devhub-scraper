@@ -8,11 +8,11 @@ For example, the code below checks if the gamepad1 is as a navigation gamepad:
 local userInputService = game:GetService("UserInputService")
 
 if (userInputService:IsNavigationGamepad(UserInputType.Gamepad1) then
-	print("Gamepad is a navigation gamepad!")
+    print("Gamepad is a navigation gamepad!")
 else
-	print("Gamepad is not a navigation gamepad!")
+    print("Gamepad is not a navigation gamepad!")
 end
-``` 
+```
 
 A list of all connected gamepads, regardless of navigation can be retrieved using\`UserInput/GetConnectedGamepads.
 

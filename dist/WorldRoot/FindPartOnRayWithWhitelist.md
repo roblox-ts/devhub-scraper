@@ -2,11 +2,11 @@ This function is a variant of [WorldRoot:FindPartOnRay](https://developer.roblox
 
 ```Lua
 local function getIntersection(part, ray)
-	local whiteList = {part}
-	local _, position, normal = workspace:FindPartOnRayWithWhitelist(ray, whiteList)
-	return position, normal
+    local whiteList = {part}
+    local _, position, normal = workspace:FindPartOnRayWithWhitelist(ray, whiteList)
+    return position, normal
 end
-``` 
+```
 
 Those looking to utilize an ignore list instead should use [WorldRoot:FindPartOnRayWithIgnoreList](https://developer.roblox.com/en-us/api-reference/function/WorldRoot/FindPartOnRayWithIgnoreList).
 

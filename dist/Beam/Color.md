@@ -9,12 +9,12 @@ This property is a [ColorSequence](https://developer.roblox.com/en-us/api-refere
 
 ```Lua
 local colorSequence = ColorSequence.new({
-	ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)), -- red
-	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 255, 0)), -- green
-	ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255)), -- blue
-	}
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)), -- red
+    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 255, 0)), -- green
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255)), -- blue
+    }
 )
-``` 
+```
 
 Applying this [ColorSequence](https://developer.roblox.com/en-us/api-reference/datatype/ColorSequence) to a [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam) would yield the following result:
 

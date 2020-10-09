@@ -10,8 +10,8 @@ local RunService = game:GetService("RunService")
 local RATE_PER_SECOND = 2
 
 RunService.Stepped:Connect(function(time, step)
-	local increment = RATE_PER_SECOND * step
+    local increment = RATE_PER_SECOND * step
 end)
-``` 
+```
 
 There is no guarantee that functions connected to this event will fire at the exact same time, or in any specific order. For an alternative where the priority can be specified, see [RunService:BindToRenderStep](https://developer.roblox.com/en-us/api-reference/function/RunService/BindToRenderStep).

@@ -73,13 +73,13 @@ Then, when calling this function in a script, pass the same [Instance](https://d
 local LocalizationService = game:GetService("LocalizationService")
 
 local success, translator = pcall(function()
-	return LocalizationService:GetTranslatorForPlayerAsync(game.Players.LocalPlayer)
+    return LocalizationService:GetTranslatorForPlayerAsync(game.Players.LocalPlayer)
 end)
 
 if success then
-	local trans = translator:Translate(workspace.ComputerScreen.SurfaceGui.TextLabel, "Screen")
-	print(trans)
+    local trans = translator:Translate(workspace.ComputerScreen.SurfaceGui.TextLabel, "Screen")
+    print(trans)
 else
-	warn("Cannot load translator for player!")
+    warn("Cannot load translator for player!")
 end
 ```
