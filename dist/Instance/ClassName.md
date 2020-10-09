@@ -6,7 +6,7 @@ Note this property is read only and cannot be altered by scripts. Developers wis
 
 Unlike [Instance:IsA](https://developer.roblox.com/en-us/api-reference/function/Instance/IsA), ClassName can be used to check if an object belongs to a specific class ignoring class inheritance. For example:
 
-```Lua
+```lua
 for _, child in ipairs(game.Workspace:GetChildren()) do
     if child.ClassName == "Part" then
         print("Found a Part")

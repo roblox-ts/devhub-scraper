@@ -2,7 +2,7 @@ The [UserInputService](https://developer.roblox.com/en-us/api-reference/class/Us
 
 For example, the code below prints _“Window focus released”_ whenever the Roblox client loses focus.
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 UserInputService.WindowFocusReleased:Connect(function()

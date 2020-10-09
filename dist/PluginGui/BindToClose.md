@@ -4,7 +4,7 @@ By default, when the user clicks the 'x' button in the top right corner of the [
 
 As the default closing behavior is overwritten by this function, you'll need to configure the [PluginGui](https://developer.roblox.com/en-us/api-reference/class/PluginGui) to close manually by setting `LayerCollector/Enabled|PluginGui.Enabled` to _false_. For example, in the below snippet users are required to click a confirm button to close the GUI:
 
-```Lua
+```lua
 local closing = false
 pluginGui:BindToClose(function()
 	-- make sure we haven't already made a button
@@ -35,7 +35,7 @@ end)
 
 You can call BindToClose with no argument to 'unbind' and revert to the default behavior described above. For example:
 
-```Lua
+```lua
 pluginGui:BindToClose()
 ``` 
 

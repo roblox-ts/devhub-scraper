@@ -2,7 +2,7 @@ The CharacterRemoving event fires right before a player's character is removed, 
 
 This event can be used alongside the [Player.CharacterAdded](https://developer.roblox.com/en-us/api-reference/event/Player/CharacterAdded) event, which fires when a player's character spawns or respawns. For instance, if you would like print a message every time a player spawns and dies:
 
-```Lua
+```lua
 local Players = game:GetService("Players")
 
 local function onCharacterSpawned(player)

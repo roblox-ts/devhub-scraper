@@ -7,7 +7,7 @@ Beams and ColorSequences
 
 This property is a [ColorSequence](https://developer.roblox.com/en-us/api-reference/datatype/ColorSequence), allowing the color to be configured to vary across the length of the [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam). Take for example the following [ColorSequence](https://developer.roblox.com/en-us/api-reference/datatype/ColorSequence).
 
-```Lua
+```lua
 local colorSequence = ColorSequence.new({
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)), -- red
 	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 255, 0)), -- green

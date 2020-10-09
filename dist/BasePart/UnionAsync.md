@@ -23,7 +23,7 @@ The original parts remain in the same state and location in the game's tree as b
 
 The code snippet below demonstrates how to perform the operation as described above:
 
-```Lua
+```lua
 local part = workspace.Part1
 local otherParts = {workspace.Part2, workspace.Part3, workspace.Part4}
  

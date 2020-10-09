@@ -6,7 +6,7 @@ It is similar to [Instance:GetPropertyChangedSignal](https://developer.roblox.co
 
 For example, the following code snippet will return a signal that fires the function `attributeChanged` when the instance's `InitialPosition` attribute changes. Note that this code sample does not define `instance`:
 
-```Lua
+```lua
 local function attributeChanged()
 	print(“Attribute changed”)
 end

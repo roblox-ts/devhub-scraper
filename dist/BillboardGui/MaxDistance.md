@@ -5,7 +5,7 @@ If this value is set to less than or equal to 0 then the maximum distance will b
 Example
 -------
 
-```Lua
+```lua
 -- Wait for default camera/control scripts to load
 wait(5)
 

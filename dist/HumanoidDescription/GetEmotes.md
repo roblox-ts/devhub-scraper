@@ -3,7 +3,7 @@
 Example
 -------
 
-```Lua
+```lua
 local hd = Instance.new("HumanoidDescription")
 hd:AddEmote("Salute", 3360689775)
 local emotes = hd:GetEmotes()

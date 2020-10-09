@@ -12,7 +12,7 @@ This property is also used to manage whether an object exists in the game or nee
 
 Newly created objects using `Instance.new` will not have a parent, and usually will not be visible or function until one is set. The most elementary creation of an object has two steps: creating the object, then setting its parent.
 
-```Lua
+```lua
 -- Create a part and parent it to the workspace
 local part = Instance.new("Part")
 part.Parent = workspace
@@ -25,7 +25,7 @@ Object Replication
 
 An object created by server will not replicate to clients until it is parented to some object that is replicated. When creating an object then setting many properties, it's recommended to **set Parent last**. This ensures the object replicates once, instead of replicating many property changes.
 
-```Lua
+```lua
 local part = Instance.new("Part") -- Avoid using the second parameter here
 part.Anchored = true
 part.BrickColor = BrickColor.new("Really red")

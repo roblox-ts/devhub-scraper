@@ -4,7 +4,7 @@ PromptPurchase is used to prompt a player to purchase an item with the given `as
 
 The above dialogue was triggered using the following:
 
-```Lua
+```lua
 game:GetService("MarketplaceService"):PromptPurchase(game.Players.LocalPlayer, 4367427794)
 ``` 
 

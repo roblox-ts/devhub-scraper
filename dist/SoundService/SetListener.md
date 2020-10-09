@@ -9,7 +9,7 @@ The first parameter is the [ListenerType](https://developer.roblox.com/en-us/api
 
 The listener can be retrieved using [SoundService:GetListener](https://developer.roblox.com/en-us/api-reference/function/SoundService/GetListener).
 
-```Lua
+```lua
 local SoundService = game:GetService("SoundService")
 SoundService:SetListener(Enum.ListenerType.CFrame, CFrame.new(0, 0, 0))
 local listenerType, listener = SoundService:GetListener()

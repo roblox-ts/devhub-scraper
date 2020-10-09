@@ -2,7 +2,7 @@ This property indicates the [NormalId](https://developer.roblox.com/en-us/api-re
 
 This property isn't meaningful when the mouse is not pointing at a part, for example when the mouse is pointing at the sky. At the moment, this property is set to 'Right' under these circumstances. Before using this property, check that the mouse's target is not nil.
 
-```Lua
+```lua
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local mouse = player:GetMouse()

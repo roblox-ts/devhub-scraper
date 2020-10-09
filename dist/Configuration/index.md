@@ -9,13 +9,13 @@ Configurations should hold value objects ([BrickColorValue](https://developer.ro
 
 For example,
 
-```Lua
+```lua
 local damage = 10
 ``` 
 
 Becomes:
 
-```Lua
+```lua
 local configuration = tool:FindFirstChildWhichIsA("Configuration", true)
 damage = configuration:FindFirstChild("Damage").Value -- A NumberValue
 ``` 

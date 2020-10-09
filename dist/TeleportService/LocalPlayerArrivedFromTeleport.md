@@ -11,7 +11,7 @@ During a teleport, whilst the destination place is loading, the _customLoadingSc
 
 If you wish to preserve the _customLoadingScreen_ and perform your own transitions, you will need to parent it to the `Players/LocalPlayer|LocalPlayer's` [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui). For example, using the following code inside a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript) in [ReplicatedFirst](https://developer.roblox.com/en-us/api-reference/class/ReplicatedFirst):
 
-```Lua
+```lua
 local TeleportService = game:GetService("TeleportService")
 local Players = game:GetService("Players")
 local ReplicatedFirst = game:GetService("ReplicatedFirst")

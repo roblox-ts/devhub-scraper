@@ -5,7 +5,7 @@ How to load an Animation
 
 The following code can be used to load an [Animation](https://developer.roblox.com/en-us/api-reference/class/Animation) onto an [AnimationController](https://developer.roblox.com/en-us/api-reference/class/AnimationController).
 
-```Lua
+```lua
 local animationTrack = animationController:LoadAnimation(animation)
 animationTrack:Play()
 ``` 

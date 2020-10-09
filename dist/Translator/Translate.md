@@ -69,7 +69,7 @@ Mosquitero
 
 Then, when calling this function in a script, pass the same [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) as the first argument, followed by the **Source** lookup text as the second argument:
 
-```Lua
+```lua
 local LocalizationService = game:GetService("LocalizationService")
 
 local success, translator = pcall(function()

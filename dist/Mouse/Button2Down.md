@@ -2,7 +2,7 @@ The Button2Down even fires when the the player presses their right mouse button.
 
 This can also be accessed from a [Tool](https://developer.roblox.com/en-us/api-reference/class/Tool). For example, when placed in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript), the code below prints Button2Down whenever the right mouse button is pressed:
 
-```Lua
+```lua
 local Tool = script.Parent --make sure this is a Tool object
 
 Tool.Equipped:Connect(function(Mouse)

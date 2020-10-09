@@ -6,7 +6,7 @@ If Disabled is set to true whilst a script is running, the current thread will b
 
 If Disabled is set to true from false, the script will run again. This means the Disabled property can be toggled to restart a script:
 
-```Lua
+```lua
 scriptObject.Disabled = false
 scriptObject.Disabled = true
 ``` 

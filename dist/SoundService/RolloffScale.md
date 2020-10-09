@@ -6,7 +6,7 @@ The higher the RolloffScale, the more rapidly a 3D sound's volume will attenuate
 
 By default the roll off scale is set to 1, which simulates the real world.
 
-```Lua
+```lua
 local SoundService = game:GetService("SoundService")
 SoundService.RolloffScale = 1 -- attenuation simulates real world
 SoundService.RolloffScale = 2 -- sound attenuates twice as fast as the real world

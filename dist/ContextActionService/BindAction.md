@@ -2,7 +2,7 @@ BindAction will bind an action to user input given an action handling function. 
 
 The code sample below shows how a [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) can be [played](https://developer.roblox.com/en-us/api-reference/function/Sound/Play) while a key (H), game pad button, or touch screen button is pressed.
 
-```Lua
+```lua
 local ContextActionService = game:GetService("ContextActionService")
 
 -- A car horn sound

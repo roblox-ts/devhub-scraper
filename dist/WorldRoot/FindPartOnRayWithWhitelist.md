@@ -1,6 +1,6 @@
 This function is a variant of [WorldRoot:FindPartOnRay](https://developer.roblox.com/en-us/api-reference/function/WorldRoot/FindPartOnRay) with the addition of a whitelist. This lets you detect only certain parts or [Models](https://developer.roblox.com/en-us/api-reference/class/Model) and is particularly useful when, for example, looking for points of intersection between a ray and a single part.
 
-```Lua
+```lua
 local function getIntersection(part, ray)
 	local whiteList = {part}
 	local _, position, normal = workspace:FindPartOnRayWithWhitelist(ray, whiteList)

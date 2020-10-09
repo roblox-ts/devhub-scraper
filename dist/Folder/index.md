@@ -4,7 +4,7 @@ The Folder object is ideal for organizing and storing objects. It is not recomme
 
 Folders form part of the game's hierarchy and can be accessed the same way as any object. For example:
 
-```Lua
+```lua
 local folder = game:GetService("ReplicatedStorage"):FindFirstChild("Folder")
  local subFolder = folder:FindFirstChild("Folder")
 ``` 

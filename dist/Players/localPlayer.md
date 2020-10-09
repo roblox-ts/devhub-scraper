@@ -7,7 +7,7 @@ Loading GUIs
 
 When creating loading GUIs using [ReplicatedFirst](https://developer.roblox.com/en-us/api-reference/class/ReplicatedFirst), sometimes a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript) may run before the [Players.LocalPlayer](https://developer.roblox.com/en-us/api-reference/property/Players/LocalPlayer) is created and becomes available. In such cases, it is useful to yield until it is by using [Instance:GetPropertyChangedSignal](https://developer.roblox.com/en-us/api-reference/function/Instance/GetPropertyChangedSignal)
 
-```Lua
+```lua
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer or Players:GetPropertyChangedSignal("LocalPlayer"):wait()
 ``` 

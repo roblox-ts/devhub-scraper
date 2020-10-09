@@ -4,7 +4,7 @@ Note, the `ScreenGui|teleport GUI` will not be used if the destination place is 
 
 This function should only be used on the client. If the teleportation function is called from the server (as is the case with [TeleportService:TeleportPartyAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportPartyAsync)) then this function should be called on the client prior to this. One way of doing this is listening to a [RemoteEvent](https://developer.roblox.com/en-us/api-reference/class/RemoteEvent) that fires several seconds before teleportation.
 
-```Lua
+```lua
 -- Client
 
 local TeleportService = game:GetService("TeleportService")

@@ -4,7 +4,7 @@ This function returns the attribute which has been assigned to the given name. I
 
 For example, the following code snippet will set the value of the instance's `InitialPostion` attribute. Note that this code sample does not define `instance`:
 
-```Lua
+```lua
 local initialPosition = instance:GetAttribute("InitialPosition")
 ``` 
 

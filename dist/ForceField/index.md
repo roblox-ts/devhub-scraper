@@ -16,7 +16,7 @@ When a ForceField is parented to a character [Model](https://developer.roblox.co
 
 ForceFields only protect [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid)s from damage using the [Humanoid:TakeDamage](https://developer.roblox.com/en-us/api-reference/function/Humanoid/TakeDamage) function. Humanoids can still be damaged by setting [Humanoid.Health](https://developer.roblox.com/en-us/api-reference/property/Humanoid/Health) directly. For this reason, it is advised that developers use [Humanoid:TakeDamage](https://developer.roblox.com/en-us/api-reference/function/Humanoid/TakeDamage). Bearing in mind of course, that it is still possible to check if a [ForceField](https://developer.roblox.com/en-us/api-reference/class/ForceField) exists before manually setting the humanoid's health as shown below:
 
-```Lua
+```lua
 if not characterModel:FindFirstChildOfClass("ForceField") then
 	humanoid.Health = humanoid.Health - 10
 end

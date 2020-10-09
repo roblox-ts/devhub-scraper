@@ -6,7 +6,7 @@ This function is used to perform an action when the player uses the tool. For in
 
 The below code, when placed in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript), would create a tool in the `Players/LocalPlayer|LocalPlayer's` [Backpack](https://developer.roblox.com/en-us/api-reference/class/Backpack). It will print “Tool activated” when the player clicks while the created tool is equipped.
 
-```Lua
+```lua
 local tool = Instance.new("Tool")
 tool.RequiresHandle = false
 tool.Parent = game.Players.LocalPlayer.Backpack

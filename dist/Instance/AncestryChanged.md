@@ -4,7 +4,7 @@ This event includes two parameters, _child_ and _parent_. _Child_ refers to the 
 
 A common use for this function is detecting when an object has been removed or destroyed (using [Instance:Destroy](https://developer.roblox.com/en-us/api-reference/function/Instance/Destroy)). This is done by checking if the parent has been set to nil. For example:
 
-```Lua
+```lua
 object.AncestryChanged:Connect(function(_, parent)
 	if not parent then
 		print("object destroyed!")

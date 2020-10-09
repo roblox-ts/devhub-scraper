@@ -4,7 +4,7 @@ The rotation is applied to the `Camera|Camera's` [Camera.CFrame](https://develop
 
 This function tilts the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) in 10 degree increments, for example:
 
-```Lua
+```lua
 workspace.CurrentCamera:TiltUnits(2) -- 20 degrees
 workspace.CurrentCamera:TiltUnits(-5) -- -50 degrees
 ``` 

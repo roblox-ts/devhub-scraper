@@ -2,7 +2,7 @@ Returns a [StandardPages](https://developer.roblox.com/en-us/api-reference/class
 
 This pages does not include a list of group IDs but instead a list of group information tables, mirroring the format of those returned by [GroupService:GetGroupInfoAsync](https://developer.roblox.com/en-us/api-reference/function/GroupService/GetGroupInfoAsync). See below for the structure of these tables.
 
-```Lua
+```lua
 group = {
     Name = "Knights of the Seventh Sanctum",
     Id = 377251,

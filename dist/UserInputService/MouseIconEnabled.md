@@ -2,7 +2,7 @@ This property determines whether the `Mouse|Mouse's` icon is visible When _true_
 
 For example, the code snippet below hides the mouse's icon.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 
 userInputService.MouseIconEnabled = false

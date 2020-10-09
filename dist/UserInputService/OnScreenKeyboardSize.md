@@ -2,7 +2,7 @@ This property describes the size of the on-screen keyboard in pixels. The keyboa
 
 The code snippet below prints the size of the keyboard.
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 print(userInputService.OnScreenKeyboardSize)
 ``` 

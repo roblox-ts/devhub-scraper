@@ -6,7 +6,7 @@ If the part is its own root part according to [BasePart:GetRootPart](https://dev
 
 This might be useful for things like optional accessories on vehicles that you don't want to affect the handling of the car or a massless render mesh welded to a simpler collision mesh. For instance, to create a massless [MeshPart](https://developer.roblox.com/en-us/api-reference/class/MeshPart), you would use the follow code:
 
-```Lua
+```lua
 local mesh = Instance.new("MeshPart")
 mesh.Parent = game.Workspace
 mesh.MeshId = "insert meshId here"

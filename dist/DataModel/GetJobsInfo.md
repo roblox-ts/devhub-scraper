@@ -6,7 +6,7 @@ You can also find live task scheduler statistics in the Task Scheduler window in
 
 The first entry in the table returned is a reference dictionary containing the statistics (or headings) available. It is in the following format:
 
-```Lua
+```lua
 {
     ["name"] = "name",
     ["averageDutyCycle"] = "averageDutyCycle",
@@ -19,7 +19,7 @@ The first entry in the table returned is a reference dictionary containing the s
 
 The subsequent entries in the table returned are dictionaries containing the above statistics for jobs performed by the task scheduler. For example:
 
-```Lua
+```lua
 {
     ["name"] = "Heartbeat",
     ["averageDutyCycle"] = 0,

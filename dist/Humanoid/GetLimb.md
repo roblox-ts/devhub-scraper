@@ -2,7 +2,7 @@ This function returns the [Limb](https://developer.roblox.com/en-us/api-referenc
 
 This function works for both R15 and R6 rigs, for example:
 
-```Lua
+```lua
 -- For R15
 print(humanoid:GetLimb(character.LeftUpperLeg)) -- Enum.Limb.LeftLeg
 print(humanoid:GetLimb(character.LeftLowerLeg)) -- Enum.Limb.LeftLeg

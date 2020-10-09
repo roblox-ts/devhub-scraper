@@ -2,7 +2,7 @@ Given a name of a function sent to [BindToRenderStep](https://developer.roblox.c
 
 If there is no bound function by the given name, this method raises an error. You can prevent such an error from being raised by using `pcall`. For example, if you bind a function named `drawImage` using [BindToRenderStep](https://developer.roblox.com/en-us/api-reference/function/RunService/BindToRenderStep), the following code would unbind the function, suppressing errors if there wasn't already a function with the name `drawImage` bound.
 
-```Lua
+```lua
 local RunService = game:GetService("RunService")
     
 local success, message = pcall(function() RunService:UnbindFromRenderStep("drawImage") end)

@@ -2,7 +2,7 @@ The TextBoxFocusReleased event fires when a client loses focus on a TextBox - ty
 
 For example, the code below prints the the name of the TextBox losing focus when the event fires.
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 function TextBoxFocusReleased(textbox)

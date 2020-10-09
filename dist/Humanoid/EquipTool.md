@@ -2,7 +2,7 @@ This function makes the [Humanoid](https://developer.roblox.com/en-us/api-refere
 
 The below example would cause a [Player](https://developer.roblox.com/en-us/api-reference/class/Player) to equip a tool in [Workspace](https://developer.roblox.com/en-us/api-reference/class/Workspace) named _'Tool'_.
 
- ```Lua
+ ```lua
 local Players = game:GetService("Players")
 
 local player = Players:FindFirstChildOfClass(“Player”)

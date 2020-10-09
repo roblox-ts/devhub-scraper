@@ -2,13 +2,13 @@ Sets the current offset of the [Beam](https://developer.roblox.com/en-us/api-ref
 
 The offset of a [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam)s texture cycle represents the progress of the [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam)s texture animation. Hence, a [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam)'s texture cycle can be reset as follows:
 
-```Lua
+```lua
 beam:SetTextureOffset(0)
 ``` 
 
 Where manual control is not required over the [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam)'s texture cycle, [Beam.TextureSpeed](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureSpeed) can be used instead to animate the [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam). Although, for illustrative purposes, a similar function can be achieved with SetTextureOffset.
 
-```Lua
+```lua
 local RunService = game:GetService("RunService")
 while true do
 	for i = 1, 0, -0.01 do

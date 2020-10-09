@@ -2,7 +2,7 @@ Returns a table containing information about the given group.
 
 The table returned is the same format as that returned in [GroupService:GetAlliesAsync](https://developer.roblox.com/en-us/api-reference/function/GroupService/GetAlliesAsync) and [GroupService:GetEnemiesAsync](https://developer.roblox.com/en-us/api-reference/function/GroupService/GetEnemiesAsync). This format can be seen below.
 
-```Lua
+```lua
 group = {
     Name = "Knights of the Seventh Sanctum",
     Id = 377251,

@@ -4,7 +4,7 @@ This function works upwards, meaning it starts at the [Instance](https://develop
 
 A common use of this function is finding the [Model](https://developer.roblox.com/en-us/api-reference/class/Model) a [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) belongs to. For example:
 
-```Lua
+```lua
 local model = part:FindFirstAncestorOfClass("Model")
 ``` 
 

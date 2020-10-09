@@ -2,7 +2,7 @@ The **StudioLocaleId** property contains the locale currently in-use by Studio, 
 
 Below is a trivial example of localization based on the value returned by this function.
 
-```Lua
+```lua
 local locale = game:GetService("StudioService").StudioLocaleId
 if locale == "en_US" then
    print("Howdy, ya'll")

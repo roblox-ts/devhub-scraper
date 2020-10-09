@@ -2,7 +2,7 @@ Sets the [Instance.Parent](https://developer.roblox.com/en-us/api-reference/prop
 
 **Tip:** After calling Destroy on an object, set any variables referencing the object (or its descendants) to nil. This prevents your code from accessing anything to do with the object.
 
-```Lua
+```lua
 local part = Instance.new("Part")
 part.Name = "Hello, world"
 part:Destroy()
@@ -14,7 +14,7 @@ part = nil
 
 Once an [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) has been destroyed by this method it cannot be reused because the [Instance.Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) property is locked. To temporarily remove an object, set [Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) it to nil instead. For example:
 
-```Lua
+```lua
 object.Parent = nil
 wait(2)
 object.Parent = workspace

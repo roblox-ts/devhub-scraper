@@ -5,7 +5,7 @@ Beams and Transparency
 
 This property is a [NumberSequence](https://developer.roblox.com/en-us/api-reference/datatype/NumberSequence), allowing the transparency to be configured to vary across the length of the [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam). Take for example the following [NumberSequence](https://developer.roblox.com/en-us/api-reference/datatype/NumberSequence).
 
-```Lua
+```lua
 local numberSequence = NumberSequence.new({
 	NumberSequenceKeypoint.new(0, 1), -- transparent
 	NumberSequenceKeypoint.new(0.5, 0), -- opaque

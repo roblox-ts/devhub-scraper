@@ -1,6 +1,6 @@
 This property describes whether the user's device has a mouse available. This property is _true_ when the user's device has an available mouse, and _false_ when it does not.
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 if (UserInputService.MouseEnabled) then

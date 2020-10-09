@@ -2,7 +2,7 @@ This function sets the [DataModel.PlaceId](https://developer.roblox.com/en-us/ap
 
 Setting the [DataModel.PlaceId](https://developer.roblox.com/en-us/api-reference/property/DataModel/PlaceId) is required to access the [DataStoreService](https://developer.roblox.com/en-us/api-reference/class/DataStoreService) when the place is unpublished (for example a local .rbxl file). See below for an example. Note this will only work when the _'Enable Studio Access to API Services\`_ option is enabled under game settings.
 
-```Lua
+```lua
 local DataStoreService = game:GetService("DataStoreService")
 
 -- access DataStore 'Data' as place placeId

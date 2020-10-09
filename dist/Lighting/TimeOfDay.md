@@ -6,7 +6,7 @@ For a numeric measure of [Lighting](https://developer.roblox.com/en-us/api-refer
 
 Using TimeOfDay requires the time to be normalized and a string formatted:
 
-```Lua
+```lua
 minutesAfterMidnight = 0
 while true do
 	minutesAfterMidnight = minutesAfterMidnight + 1
@@ -26,7 +26,7 @@ end
 
 Using [Lighting.ClockTime](https://developer.roblox.com/en-us/api-reference/property/Lighting/ClockTime) requires the time to be normalized:
 
-```Lua
+```lua
 minutesAfterMidnight = 0
 while true do
 	minutesAfterMidnight = minutesAfterMidnight + 1
@@ -42,7 +42,7 @@ end
 
 Using [Lighting:SetMinutesAfterMidnight](https://developer.roblox.com/en-us/api-reference/function/Lighting/SetMinutesAfterMidnight) requires no extra processing:
 
-```Lua
+```lua
 minutesAfterMidnight = 0
 while true do
 	minutesAfterMidnight = minutesAfterMidnight + 1

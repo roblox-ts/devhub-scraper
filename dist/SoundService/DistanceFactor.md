@@ -2,7 +2,7 @@ The number of studs to be considered a meter by [SoundService](https://developer
 
 By default, the DistanceFactor is 3.33. This means, for the purposes of volume attenuation, a meter is considered 3.33 studs. The greater the DistanceFactor, the more gradually sound will attenuate.
 
-```Lua
+```lua
 local SoundService = game:GetService("SoundService")
 SoundService.DistanceFactor = 1 -- 1 meter = 1 stud
 SoundService.DistanceFactor = 10 -- 1 meter = 10 studs

@@ -4,7 +4,7 @@ If you want to set a navigation gamepad, you can use [UserInputService:SetNaviga
 
 For example, the code below checks if the gamepad1 is as a navigation gamepad:
 
-```Lua
+```lua
 local userInputService = game:GetService("UserInputService")
 
 if (userInputService:IsNavigationGamepad(UserInputType.Gamepad1) then

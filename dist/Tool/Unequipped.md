@@ -4,7 +4,7 @@ The opposite of this event, [Tool.Equipped](https://developer.roblox.com/en-us/a
 
 The example shown below will print “A tool was unequipped” each time the tool is unequipped by the player. Please note that the below example assumes that you've already defined what “Tool” is.
 
-```Lua
+```lua
 Tool.Unequipped:Connect(function()
     print("The tool was unequipped")
 end)

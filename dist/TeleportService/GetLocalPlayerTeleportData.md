@@ -2,7 +2,7 @@ This function returns the _teleportData_ the [Players.LocalPlayer](https://devel
 
 For example, the following snippet would send the [DataModel.PlaceId](https://developer.roblox.com/en-us/api-reference/property/DataModel/PlaceId) and [DataModel.JobId](https://developer.roblox.com/en-us/api-reference/property/DataModel/JobId) in a dictionary:
 
-```Lua
+```lua
 local Players = game:GetService("Players")
 
 local player = Players.LocalPlayer
@@ -15,7 +15,7 @@ TeleportService:Teleport(placeId, player, teleportData)
 
 This data could then be retrieved upon arrival using the GetLocalPlayerTeleportData function as follows:
 
-```Lua
+```lua
 local TeleportService = game:GetService("TeleportService")
 
 local teleportData = TeleportService:GetLocalPlayerTeleportData()

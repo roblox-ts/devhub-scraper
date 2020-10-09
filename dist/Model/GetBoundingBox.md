@@ -14,7 +14,7 @@ Pictured below is a [Model](https://developer.roblox.com/en-us/api-reference/cla
 Usage
 -----
 
-```Lua
+```lua
 local model = workspace.Model
 local part = workspace.Part
 local orientation, size = model:GetBoundingBox()

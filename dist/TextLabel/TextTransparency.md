@@ -2,7 +2,7 @@ The TextColor3 property determines the transparency of all the text rendered by 
 
 Fading text in using a numeric for-loop is a fantastic way to draw a player's attention to text appearing on screen.
 
-```Lua
+```lua
 -- Count backwards from 1 to 0, decrementing by 0.1
 for i = 1, 0, -.1 do
    textLabel.TextTransparency = i

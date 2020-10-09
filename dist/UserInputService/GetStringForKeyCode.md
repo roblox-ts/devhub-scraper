@@ -5,7 +5,7 @@ When using Roblox with a non-QWERTY keyboard layout, key codes are mapped to equ
 Usage
 -----
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 local textLabel = script.Parent
 local mapKey = Enum.KeyCode.M

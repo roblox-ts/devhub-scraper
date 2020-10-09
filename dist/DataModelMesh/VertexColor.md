@@ -6,7 +6,7 @@ The image below shows two versions of the hat [“Ozzy's Formal Top Hat”](http
 
 It should be noted that this property is a [Vector3](https://developer.roblox.com/en-us/api-reference/datatype/Vector3) rather than a [Color3](https://developer.roblox.com/en-us/api-reference/datatype/Color3). To convert, use the following function:
 
-```Lua
+```lua
 local function color3ToVector3(c3)
    return Vector3.new(c3.r, c3.g, c3.b)
 end

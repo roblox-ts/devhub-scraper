@@ -2,7 +2,7 @@ The WidthScale property is a [NumberSequence](https://developer.roblox.com/en-us
 
 This property can range from `0` to `1`. The value of the property influences the width of the trail by setting the trail's width to the product of:
 
-```Lua
+```lua
 (distance between trail's attachment0 and attachment1 in studs) * (the value of WidthScale)
 ``` 
 

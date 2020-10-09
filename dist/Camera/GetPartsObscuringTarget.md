@@ -10,7 +10,7 @@ See below for a visual example of this function. The [Camera](https://developer.
 
 The castPoints parameter is given as an array of [Vector3s](https://developer.roblox.com/en-us/api-reference/datatype/Vector3), for example:
 
-```Lua
+```lua
 local castPoints = {Vector3.new(0, 10, 0), Vector3.new(0, 15, 0)}
 local ignoreList = {}
 workspace.CurrentCamera:GetPartsObscuringTarget(castPoints, ignoreList)

@@ -1,6 +1,6 @@
 **FindPartOnRay** uses [raycasting](https://developer.roblox.com/articles/Raycasting) to find the first [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) or [Terrain](https://developer.roblox.com/en-us/api-reference/class/Terrain) cell intersecting with a given [Ray](https://developer.roblox.com/en-us/api-reference/datatype/Ray). This function returns the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) or terrain cell hit, the point of intersection, the surface normal at the point of intersection, and the associated [Material](https://developer.roblox.com/en-us/api-reference/enum/Material) hit.
 
-```Lua
+```lua
 local character = game.Players.LocalPlayer.Character
 -- Get the head
 local head = character:FindFirstChild("Head")

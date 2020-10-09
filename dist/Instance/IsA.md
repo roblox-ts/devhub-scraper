@@ -2,7 +2,7 @@ IsA returns true if the [Instance](https://developer.roblox.com/en-us/api-refere
 
 Most commonly, this function is used to test if an object is some kind of part, such as [Part](https://developer.roblox.com/en-us/api-reference/class/Part) or [WedgePart](https://developer.roblox.com/en-us/api-reference/class/WedgePart), which inherits from [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) (an abstract class). For example, if your goal is to change all of a [Character](https://developer.roblox.com/en-us/api-reference/property/Player/Character)'s limbs to the same color, you might use [GetChildren](https://developer.roblox.com/en-us/api-reference/function/Instance/GetChildren) to iterate over the children, then use IsA to filter non-[BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) objects which lack the `BrickColor` property:
 
-```Lua
+```lua
 local function paintFigure(character, color)
 	-- Iterate over the child objects of the character
 	for _, child in pairs(character:GetChildren()) do

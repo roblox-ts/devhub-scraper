@@ -4,7 +4,7 @@ The rotation is applied to the `Camera|Camera's` [Camera.CFrame](https://develop
 
 This function pans the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) in 45 degree increments, for example:
 
-```Lua
+```lua
 workspace.CurrentCamera:PanUnits(1) -- 45 degrees
 workspace.CurrentCamera:PanUnits(-2) -- -90 degrees
 ``` 

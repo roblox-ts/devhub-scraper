@@ -2,7 +2,7 @@ This property determines an object to be ignored by the mouse when calculating [
 
 This property can be set to any [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) or nil, for example:
 
-```Lua
+```lua
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer 
 local mouse = player:GetMouse()

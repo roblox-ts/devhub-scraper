@@ -2,7 +2,7 @@
 
 For example, the following code snippet will check to see if the Region is empty, ignoring the descendants of a [Model](https://developer.roblox.com/en-us/api-reference/class/Model) named 'Scenery'.
 
-```Lua
+```lua
 local region3 = Region3.new(Vector3.new(0, 0, 0), Vector3.new(10, 10, 10))
 local scenery = workspace:FindFirstChild("Scenery")
 local ignoreList = {scenery}

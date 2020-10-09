@@ -9,7 +9,7 @@ The first result returned is the [ListenerType](https://developer.roblox.com/en-
 
 The listener can be changed using [SoundService:SetListener](https://developer.roblox.com/en-us/api-reference/function/SoundService/SetListener).
 
-```Lua
+```lua
 local SoundService = game:GetService("SoundService")
 SoundService:SetListener(Enum.ListenerType.CFrame, CFrame.new(0, 0, 0))
 local listenerType, listener = SoundService:GetListener()

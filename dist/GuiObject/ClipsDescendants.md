@@ -4,7 +4,7 @@ Note that [GuiObject.Rotation](https://developer.roblox.com/en-us/api-reference/
 
 The gif and code sample below demonstrate how to enabled and disable the property using a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript). They also illustrate the affects the property has on descendant GUI elements.
 
-```Lua
+```lua
 while true do
 	script.Parent.ClipDescendants = true
 	wait(2)

@@ -2,18 +2,18 @@ The ToolTip property controls the message that will be displayed when the player
 
 Generally, the value of this property should describe the what the tool is or its use. For instance, for a shovel tool, you may choose to set the ToolTip to:
 
- ```Lua
+ ```lua
 tool.ToolTip = "Shovel"
 ``` 
 
 or
 
- ```Lua
+ ```lua
 tool.ToolTip = "Use to dig"
 ``` 
 
 or
 
- ```Lua
+ ```lua
 tool.ToolTip = "Shovel - Use to dig"
 ```

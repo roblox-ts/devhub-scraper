@@ -11,7 +11,7 @@ Example
 Below is a screenshot of an affiliate gear sale prompt. The function in the code sample runs immediately after the player presses “Cancel” or after the user buys the item then presses “OK”. Should there be an issue with the purchase, the event also fires.  
 ![A product purchase prompt for an affiliate gear sale](https://developer.roblox.com/assets/blt881d0a28aa9fcf42/PromptProductPurchase-confirm.png)
 
-```Lua
+```lua
 local MarketplaceService = game:GetService("MarketplaceService")
 
 MarketplaceService.PromptPurchaseFinished:connect(function (...)

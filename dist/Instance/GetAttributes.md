@@ -4,7 +4,7 @@ This function returns a dictionary of string → variant pairs for each attribut
 
 For example, the following code snippet will print an instance's attributes and values. Note that this code sample does not define `instance`:
 
-```Lua
+```lua
 local attributes = instance:GetAttributes
 for name, value in pairs(instance:GetAttributes()) do
 	print(name .. “ “ .. value)

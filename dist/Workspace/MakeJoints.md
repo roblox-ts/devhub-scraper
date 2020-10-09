@@ -14,7 +14,7 @@ Joints will be created between the specified Parts and any planar touching surfa
 
 Unlike [Model:MakeJoints](https://developer.roblox.com/en-us/api-reference/function/Model/MakeJoints), this function requires an array of parts as a parameter. This array is given as follows:
 
-```Lua
+```lua
 workspace:MakeJoints({part1, part2, part3})
 ``` 
 

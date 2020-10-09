@@ -14,7 +14,7 @@ Accessing the Workspace
 
 The Workspace can be accessed several ways, all of which are valid.
 
-```Lua
+```lua
 workspace -- a global variable
 game.Workspace -- a property of the DataModel
 game:GetService("Workspace") -- workspace is a service

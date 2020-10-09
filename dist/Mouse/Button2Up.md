@@ -1,6 +1,6 @@
 Fired when the right mouse button is released.
 
-```Lua
+```lua
 mouse.Button2Up:Connect(function()
 print("button 2 up!")
 end
