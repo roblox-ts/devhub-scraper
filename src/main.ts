@@ -162,7 +162,9 @@ class Generator {
 		const html = $(selector).first().html()?.trim() ?? "";
 		const fixedHTML = html.replace(/href=\"\//g, `href="${BASE_URL}/`).replace(/src=\"\//g, `src="${BASE_URL}/`);
 		const markdown = this.turndownService.turndown(fixedHTML);
-		const fixedMarkdown = markdown.replace(/[‘’]/g, "'");
+		const fixedMarkdown = markdown
+			.replace(/[‘’]/g, "'") // fix weird quotes
+			.replace(/\*\//g, "* /"); // fix */ breaking out of jsdoc
 		if (fixedMarkdown.length > 0) {
 			await fs.outputFile(path.join(DIST, className, (fieldName ?? "index") + ".md"), fixedMarkdown);
 		}
