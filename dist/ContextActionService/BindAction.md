@@ -25,7 +25,7 @@ ContextActionService:BindAction("HonkHorn", handleAction, true, Enum.KeyCode.H, 
 
 -- When the player gets out:
 ContextActionService:UnbindAction("HonkHorn")
-```
+``` 
 
 Action Handler Parameters
 -------------------------
@@ -56,7 +56,7 @@ The state of the input (Begin, Change, End or Cancel)\*
 
 An object that contains information about the input (varies based on UserInputType)
 
-†This allows one function to handle multiple actions at once, if necessary.
+†This allows one function to handle multiple actions at once, if necessary.  
 \*Cancel is sent if some input was in-progress and another action bound over the in-progress input, or if the in-progress bound action was [unbound](https://developer.roblox.com/en-us/api-reference/function/ContextActionService/UnbindAction).
 
 Action Bindings Stack

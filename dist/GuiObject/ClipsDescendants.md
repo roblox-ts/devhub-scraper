@@ -11,7 +11,7 @@ while true do
     script.Parent.ClipDescendants = false
     wait(2)
 end
-```
+``` 
 
 ![ClipDescendants Demo](https://developer.roblox.com/assets/bltaf6f1a7233b2f3d8/ClipDescendantsDemo.gif)
 

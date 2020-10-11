@@ -14,8 +14,8 @@ The code shown below will force the client to unfocus the 'TextBox' 5 seconds af
 
 local TextBox = script.Parent
 TextBox.Focused:Connect(function()
-    wait(5)
-    TextBox:ReleaseFocus()
+	wait(5)
+	TextBox:ReleaseFocus()
 end)
 
 Please be aware that the above example assumes that it's in a LocalScript, as a child of a TextBox.

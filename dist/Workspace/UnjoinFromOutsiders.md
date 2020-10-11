@@ -15,6 +15,6 @@ end
 local function startMovingParts(parts)
     workspace:UnjoinFromOutsiders(parts)
 end
-```
+``` 
 
 Developers interested in seeing how this function is used in the Roblox Studio should see the [Studio Tools GitHub repository](https://github.com/Roblox/Studio-Tools).

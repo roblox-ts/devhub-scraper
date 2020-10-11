@@ -8,7 +8,7 @@ local UserInputService = game:GetService("UserInputService")
 UserInputService.WindowFocusReleased:Connect(function()
     print("Window focus released")
 end)
-```
+``` 
 
 This event can be used alongside [UserInputService.WindowFocused](https://developer.roblox.com/en-us/api-reference/event/UserInputService/WindowFocused) to track whether the Roblox client is actively focused on a user's screen.
 

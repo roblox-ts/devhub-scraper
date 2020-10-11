@@ -9,7 +9,7 @@ local attributes = instance:GetAttributes
 for name, value in pairs(instance:GetAttributes()) do
     print(name .. “ “ .. value)
 end
-```
+``` 
 
 See also
 --------

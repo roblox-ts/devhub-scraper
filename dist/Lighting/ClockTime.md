@@ -18,7 +18,7 @@ while true do
 
     wait()
 end
-```
+``` 
 
 Using [Lighting.TimeOfDay](https://developer.roblox.com/en-us/api-reference/property/Lighting/TimeOfDay) requires the time to be normalized and a string formatted:
 
@@ -38,7 +38,7 @@ while true do
 
     wait()
 end
-```
+``` 
 
 Using [Lighting:SetMinutesAfterMidnight](https://developer.roblox.com/en-us/api-reference/function/Lighting/SetMinutesAfterMidnight) requires no extra processing:
 

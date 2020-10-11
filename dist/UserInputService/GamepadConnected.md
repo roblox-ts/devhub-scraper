@@ -12,11 +12,11 @@ local function GamepadConnected(gamepad)
 end)
 
 userInputService.GamepadConnected:Connect(GamepadDisconnected)
-```
+``` 
 
 If you want to see which devices are connected, you can use the [UserInputService:GetConnectedGamepads](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetConnectedGamepads) function.
 
-As this event fires locally, it can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
+As this event fires locally, it can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).  
 See [this](https://developer.roblox.com/learn-roblox/cross-platform) page for articles on cross-platform development.
 
 See also

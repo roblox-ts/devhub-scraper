@@ -10,10 +10,10 @@ This content ID is different than the website URL of the shirt. It can be found 
 ```lua
 local webURL = "https://www.roblox.com/catalog/1804747/White-Shirt"
 local assetId = tonumber(string.match(webURL, "%d+") or 0)  -- Extract the number
-local success, model = pcall(function()
-    return game:GetService("InsertService"):LoadAsset(assetId)
+local success, model = pcall(function() 
+    return game:GetService("InsertService"):LoadAsset(assetId) 
 end)
-if success then
+if success then 
     model.Parent = workspace
 end
 ```

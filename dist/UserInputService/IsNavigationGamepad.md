@@ -12,7 +12,7 @@ if (userInputService:IsNavigationGamepad(UserInputType.Gamepad1) then
 else
     print("Gamepad is not a navigation gamepad!")
 end
-```
+``` 
 
 A list of all connected gamepads, regardless of navigation can be retrieved using\`UserInput/GetConnectedGamepads.
 

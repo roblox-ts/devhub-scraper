@@ -10,7 +10,7 @@ Tool.Equipped:Connect(function(Mouse)
         print("Button2Down")
     end)
 end).
-```
+``` 
 
 Developers can find out the position of the mouse in world-space, and if it is pointing at any [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart), using the [Mouse.Hit](https://developer.roblox.com/en-us/api-reference/property/Mouse/Hit) and [Mouse.Target](https://developer.roblox.com/en-us/api-reference/property/Mouse/Target) properties.
 

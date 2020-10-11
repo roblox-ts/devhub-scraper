@@ -12,7 +12,7 @@ if userInputService.TouchEnabled then
 else
     print("The user's device does not have a touchscreen!")
 end
-```
+``` 
 
 See [this](https://developer.roblox.com/learn-roblox/cross-platform) page for articles on cross-platform development.
 

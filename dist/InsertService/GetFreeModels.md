@@ -8,7 +8,7 @@ The best way to explain it is to show a visual of the array returned:
     TotalCount = 21, -- Always 21.
     Results = {
         -- All parameters here are psuedo. They can vary depending on the asset.
-        [1] = {
+        [1] = {    
             Name = "Asset Name",
             AssetId = 0000000,
             AssetVersionId = 0000000,

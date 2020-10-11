@@ -23,7 +23,7 @@ local function onPlayerAdded(player)
 end
 
 Players.PlayerAdded:connect(onPlayerAdded)
-```
+``` 
 
 Allowing Gear
 -------------

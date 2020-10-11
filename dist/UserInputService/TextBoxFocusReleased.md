@@ -10,7 +10,7 @@ function TextBoxFocusReleased(textbox)
 end
 
 UserInputService.TextBoxFocusReleased:Connect(TextBoxFocusReleased)
-```
+``` 
 
 It can be used alongside [UserInputService.TextBoxFocused](https://developer.roblox.com/en-us/api-reference/event/UserInputService/TextBoxFocused) to track when a TextBox gains and loses focus.
 

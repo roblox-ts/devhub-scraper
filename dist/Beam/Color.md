@@ -14,7 +14,7 @@ local colorSequence = ColorSequence.new({
     ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 255)), -- blue
     }
 )
-```
+``` 
 
 Applying this [ColorSequence](https://developer.roblox.com/en-us/api-reference/datatype/ColorSequence) to a [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam) would yield the following result:
 

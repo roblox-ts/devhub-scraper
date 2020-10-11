@@ -8,7 +8,7 @@ Below is a literal table representation of the value returned when this function
     ImageRectOffset = Vector2.new(16, 0),
     ImageRectSize = Vector2.new(16, 16)
 }
-```
+``` 
 
 The utility function below may prove useful when displaying class icons:
 

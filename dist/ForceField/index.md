@@ -20,7 +20,7 @@ ForceFields only protect [Humanoid](https://developer.roblox.com/en-us/api-refer
 if not characterModel:FindFirstChildOfClass("ForceField") then
     humanoid.Health = humanoid.Health - 10
 end
-```
+``` 
 
 ForceField Visuals
 ------------------

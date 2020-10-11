@@ -23,6 +23,6 @@ local function onPlayerAdded(player)
 end
 
 Players.PlayerAdded:Connect(onPlayerAdded)
-```
+``` 
 
 This event is only concerned with the [Character](https://developer.roblox.com/en-us/api-reference/property/Player/Character) of a [Player](https://developer.roblox.com/en-us/api-reference/class/Player). If you instead need to track when a player joins/leaves the game, use the events [Players.PlayerAdded](https://developer.roblox.com/en-us/api-reference/event/Players/PlayerAdded) and [Players.PlayerRemoving](https://developer.roblox.com/en-us/api-reference/event/Players/PlayerRemoving).

@@ -8,7 +8,7 @@ FindFirstChild is necessary if you need to verify an object something exists bef
  ```lua
 -- The following line errors if Part doesn't exist in the Workspace:
 workspace.Part.Transparency = .5
-```
+``` 
 
 Use FindFirstChild to first check for Part, then use an if-statement to run code that needs it.
 
@@ -17,7 +17,7 @@ local part = workspace:FindFirstChild("Part")
 if part then
     part.Transparency = .5
 end
-```
+``` 
 
 Finding a Child Whose Name Matches a Property
 ---------------------------------------------
@@ -33,7 +33,7 @@ folder.Name = "Color"
 folder.Parent = part
 local c = part.Color --> A Color3
 local c2 = part:FindFirstChild("Color") --> The Folder
-```
+``` 
 
 A benefit of using FindFirstChild in this way is that the introduction of new properties does not impose a risk on your code.
 
@@ -41,7 +41,7 @@ A benefit of using FindFirstChild in this way is that the introduction of new pr
 
 ```lua
 local myColor = workspace:FindFirstChild("SomePart") and workspace.SomePart.Color
-```
+``` 
 
 If SomePart exists, `myColor` will contain the Color of SomePart. Otherwise, it'll be nil without throwing an error. This works due to short-circuiting: Lua ignores the right side if the left is nil/false
 

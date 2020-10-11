@@ -14,6 +14,6 @@ local function paintFigure(character, color)
     end
 end
 paintFigure(game.Players.Player.Character, BrickColor.new("Bright blue"))
-```
+``` 
 
 Since all classes inherit from [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance), calling `object:IsA("Instance")` will always return true.

@@ -26,18 +26,18 @@ pluginGui:BindToClose(function()
     confirmButton.Activated:Connect(function()
         -- close the gui
         pluginGui.Enabled = false
-
+    
         -- remove confirm button
         confirmButton:Destroy()
     end)
 end)
-```
+``` 
 
 You can call BindToClose with no argument to 'unbind' and revert to the default behavior described above. For example:
 
 ```lua
 pluginGui:BindToClose()
-```
+``` 
 
 See also
 --------

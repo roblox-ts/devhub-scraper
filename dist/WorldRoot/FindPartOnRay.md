@@ -15,7 +15,7 @@ if hitPart then
 else
     print("Did not hit part")
 end
-```
+``` 
 
 If the `ignoreDescendantsInstance` parameter is provided, the raycasting calculation will ignore the given object and all of its descendants. It behaves similar to the [Mouse.TargetFilter](https://developer.roblox.com/en-us/api-reference/property/Mouse/TargetFilter) property.
 

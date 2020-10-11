@@ -8,7 +8,7 @@ if userInputService.GamepadEnabled then
 else
     print("Gamepad not enabled")
 end
-```
+``` 
 
 If gamepads are available, you can use [UserInputService:GetConnectedGamepads](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetConnectedGamepads) to retrieve a list of connected gamepads and [UserInputService:GetNavigationGamepads](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetNavigationGamepads) to retrieve a list of connected gamepads that also controlnavigation GUIs.
 

@@ -14,7 +14,7 @@ function onMouseClick()
 end
 
 clickDetector.MouseClick:connect(onMouseClick)
-```
+``` 
 
 [MaxActivationDistance](https://developer.roblox.com/en-us/api-reference/property/ClickDetector/MaxActivationDistance) can be used to limit the distance a player may be from a ClickDetector object before it is no longer clickable.
 

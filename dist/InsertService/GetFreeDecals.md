@@ -8,7 +8,7 @@ The best way to explain it is to show a visual of the array returned:
     TotalCount = 21, -- Always 21.
     Results = {
         -- All parameters here are psuedo. They can vary depending on the asset.
-        [1] = {
+        [1] = {    
             Name = "Asset Name",
             AssetId = 0000000,
             AssetVersionId = 0000000,
@@ -17,7 +17,7 @@ The best way to explain it is to show a visual of the array returned:
         -- [2], [3], and so on... up to [21]
     },
 }
-```
+``` 
 
 Yikes! That quite confusing. Unfortunately this method was added in the earlier days of Roblox, where easy to understand return-types weren't a priority.
 

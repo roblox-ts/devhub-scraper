@@ -10,7 +10,7 @@ function TextBoxFocused(textbox)
 end)
 
 UserInputService.TextBoxFocused:Connect(TextBoxFocused)
-```
+``` 
 
 It can be used alongside `UserInputService/FocusReleased` to track when a text box gains and loses focus.
 

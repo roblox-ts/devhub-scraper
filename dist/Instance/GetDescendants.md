@@ -8,13 +8,13 @@ Here we have a [Model](https://developer.roblox.com/en-us/api-reference/class/Mo
 
 ```lua
 local descendants = game.Workspace.Model:GetDescendants()
-
+ 
 -- Loop through all of the descendants of the model and
 -- print out their name
 for index, descendant in pairs(descendants) do
     print(descendant.Name)
 end
-
+ 
 -- Prints:
 -- C
 -- D

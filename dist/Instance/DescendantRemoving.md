@@ -35,6 +35,6 @@ local part = Instance.new("Part")
 part.Parent = workspace
 part.Parent = nil -- This triggers DescendantRemoving on Workspace:
 --&gt; Something unexpectedly tried to set the parent of Part to NULL while trying to set the parent of Part. Current parent is Workspace.
-```
+``` 
 
 See also [DescendantAdded](https://developer.roblox.com/en-us/api-reference/event/Instance/DescendantAdded).

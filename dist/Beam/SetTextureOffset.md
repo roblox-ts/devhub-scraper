@@ -4,7 +4,7 @@ The offset of a [Beam](https://developer.roblox.com/en-us/api-reference/class/Be
 
 ```lua
 beam:SetTextureOffset(0)
-```
+``` 
 
 Where manual control is not required over the [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam)'s texture cycle, [Beam.TextureSpeed](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureSpeed) can be used instead to animate the [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam). Although, for illustrative purposes, a similar function can be achieved with SetTextureOffset.
 
@@ -14,9 +14,9 @@ while true do
     for i = 1, 0, -0.01 do
         RunService.RenderStepped:Wait()
         beam:SetTextureOffset(i)
-    end
+    end    
 end
-```
+``` 
 
 Notes
 -----

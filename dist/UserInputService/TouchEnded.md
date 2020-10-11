@@ -12,7 +12,7 @@ function TouchEnded(touch, gameProcessedEvent)
 end
 
 UserInputService.TouchEnded:Connect(TouchEnded)
-```
+``` 
 
 The touch input object is the same input object throughout the lifetime of the touch. So comparing [InputObjects](https://developer.roblox.com/en-us/api-reference/class/InputObject) when they are touch objects is valid to determine if it is the same finger.
 

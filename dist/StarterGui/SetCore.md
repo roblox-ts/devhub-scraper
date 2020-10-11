@@ -542,7 +542,7 @@ Sets up a bindable gateway connection between the CoreGui topbar's chat button a
 ```lua
 -- Create the Bindable objects
 local ChatConnections = {}
-
+ 
 local function AddObjects(bindableClass,targetName,...)
     local target = ChatConnections[targetName]
     if not target then
@@ -557,7 +557,7 @@ local function AddObjects(bindableClass,targetName,...)
         target[name] = signal
     end
 end
-
+ 
 AddObjects("BindableEvent","ChatWindow",
     ---------------------------
     -- Fired from the CoreGui
@@ -568,32 +568,32 @@ AddObjects("BindableEvent","ChatWindow",
     "TopbarEnabledChanged", -- Fired when the visibility of the Topbar is changed.
     "SpecialKeyPressed", -- Fired when the reserved ChatHotkey is pressed.
     "CoreGuiEnabled", -- Fired when a user changes the SetCoreGuiEnabled state of the Chat Gui.
-
+ 
     ---------------------------
     -- Fired to the CoreGui
     ---------------------------
     "ChatBarFocusChanged",
         -- ^ Fire this with 'true' when you want to assure the CoreGui that the ChatBar is being focused on.
-
-    "VisibilityStateChanged",
+ 
+    "VisibilityStateChanged", 
         -- ^ Fire this with 'true' when the user shows or hides the chat.
-
+ 
     "MessagesChanged",
         -- ^ Fire this with a number to change the number of messages that have been recorded by the chat window.
         --   If the CoreGui thinks the chat window isn't visible, it will display the recorded difference between
         --   the number of messages that was displayed when it was visible, and the number you supply.
-
-    "MessagePosted"
-        -- ^ Fire this to make the player directly chat under Roblox's C++ API.
+ 
+    "MessagePosted" 
+        -- ^ Fire this to make the player directly chat under Roblox's C++ API. 
         --     This will fire the LocalPlayer's Chatted event.
         --   Please only fire this on the player's behalf. If you attempt to spoof a player's chat
         --   to get them in trouble, you could face serious moderation action.
 )
-
+ 
 AddObjects("BindableFunction","ChatWindow",
     "IsFocused" -- This will be invoked by the CoreGui when it wants to check if the chat window is active.
 )
-
+ 
 -- The following events are fired if the user calls StarterGui:SetCore(string name, Variant data)
 -- Note that you can only hook onto these ones specifically.
 AddObjects("BindableEvent","SetCore",
@@ -602,7 +602,7 @@ AddObjects("BindableEvent","SetCore",
     "ChatWindowSize",
     "ChatBarDisabled"
 )
-
+ 
 -- The following functions are invoked if the user calls StarterGui:GetCore(string name)
 -- Note that you can only hook onto these ones specifically.
 AddObjects("BindableFunction","GetCore",
@@ -610,12 +610,12 @@ AddObjects("BindableFunction","GetCore",
     "ChatWindowSize", -- Should return a UDim2 representing the size of the chat window.
     "ChatBarDisabled" -- Should return true if the chat bar is currently disabled.
 )
-
+ 
 -- Connect ChatConnections to the CoreGui.
 local StarterGui = game:GetService("StarterGui")
 local tries = 0
 local maxAttempts = 10
-
+ 
 while (tries < maxAttempts) do
     local success,result = pcall(function ()
         StarterGui:SetCore("CoreGuiChatConnections",ChatConnections)
@@ -631,7 +631,7 @@ while (tries < maxAttempts) do
         end
     end
 end
-
+ 
 while wait(0.2) do
     local isVisible = (math.random() > 0.5)
     ChatConnections.ChatWindow.VisibilityStateChanged:Fire(isVisible)

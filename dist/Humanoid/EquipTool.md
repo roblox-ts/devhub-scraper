@@ -11,11 +11,11 @@ if player and player.Character then
     if humanoid then
         local tool = workspace:FindFirstChild("Tool")
         if tool then
-            humanoid:EquipTool(tool)
+            humanoid:EquipTool(tool)    
         end
     end
 end
-```
+``` 
 
 When this function is called, the humanoid will automatically unequip any [Tools](https://developer.roblox.com/en-us/api-reference/class/Tool) that it currently has equipped
 

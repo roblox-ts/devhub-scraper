@@ -12,7 +12,7 @@ local function GamepadDisconnected(gamepad)
 end)
 
 userInputService.GamepadDisconnected:Connect(GamepadDisconnected)
-```
+``` 
 
 As this event fires locally, it can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 

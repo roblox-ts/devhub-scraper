@@ -11,7 +11,7 @@ if (keyboardIsVisible) then
 else
     print("On-screen keyboard is not visible!")
 end
-```
+``` 
 
 As [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService) is client-side only, this property can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 

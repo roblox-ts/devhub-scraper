@@ -22,7 +22,7 @@ while true do
 
     wait()
 end
-```
+``` 
 
 Using [Lighting.ClockTime](https://developer.roblox.com/en-us/api-reference/property/Lighting/ClockTime) requires the time to be normalized:
 
@@ -38,7 +38,7 @@ while true do
 
     wait()
 end
-```
+``` 
 
 Using [Lighting:SetMinutesAfterMidnight](https://developer.roblox.com/en-us/api-reference/function/Lighting/SetMinutesAfterMidnight) requires no extra processing:
 

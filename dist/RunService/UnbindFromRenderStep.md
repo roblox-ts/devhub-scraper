@@ -4,7 +4,7 @@ If there is no bound function by the given name, this method raises an error. Yo
 
 ```lua
 local RunService = game:GetService("RunService")
-
+    
 local success, message = pcall(function() RunService:UnbindFromRenderStep("drawImage") end)
 if success then
     print("Success: Function unbound!")

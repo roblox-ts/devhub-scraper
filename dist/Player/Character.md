@@ -15,7 +15,7 @@ local character = player.Character
 if not character or not character.Parent then
     character = player.CharacterAdded:wait()
 end
-```
+``` 
 
 But from the server it's fine to do this:
 
@@ -23,7 +23,7 @@ But from the server it's fine to do this:
 if player.Character then
     -- do something
 end
-```
+``` 
 
 Or if you want to wait until the character respawns from a server [Script](https://developer.roblox.com/en-us/api-reference/class/Script):
 

@@ -5,7 +5,7 @@ The property modifies the local part's transparency increases a part's transpare
  ```lua
 -- Calculate the part's client-side transparency. Values greater than 1 round down to 1.
     local clientTransparency = part.Transparency + (1 * part.localTransparencyModifier)
-```
+``` 
 
 Take a look at the table below for an example of how this property affect's a part's client-side transparency:
 
