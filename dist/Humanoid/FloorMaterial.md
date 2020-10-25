@@ -1,7 +1,15 @@
-![A visualization of the FloorMaterial property in action](https://developer.roblox.com/assets/blt911c31b19922748b/FloorMaterial.gif)
+This is a read-only property that describes the [Material](https://developer.roblox.com/en-us/api-reference/enum/Material) the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is currently standing on.  
+It works with both regular [Parts](https://developer.roblox.com/en-us/api-reference/class/BasePart) and [Terrain](https://developer.roblox.com/en-us/api-reference/class/Terrain) voxels.
 
-**FloorMaterial** is a read-only property that describes the [Material](https://developer.roblox.com/en-us/api-reference/enum/Material) the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is currently standing on.  
-It works with both regular [Parts](https://developer.roblox.com/en-us/api-reference/class/BasePartr) and [Terrain](https://developer.roblox.com/en-us/api-reference/class/Terrain) voxels.
+The code sample below demonstrates how to listen to when this property changes using [Instance:GetPropertyChangedSignal](https://developer.roblox.com/en-us/api-reference/function/Instance/GetPropertyChangedSignal). When the material the humanoid is standing on changes, it will print a message indicating the new material being stood on.
+
+```lua
+local Humanoid = route.to.humanoid
+
+Humanoid:GetPropertyChangedSignal("FloorMaterial"):Connect(function()
+    print("New value for FloorMaterial: " .. Humanoid.FloorMaterial)
+end)
+``` 
 
 Caveats
 -------

@@ -1,3 +1,7 @@
+**Warning**  
+
+The **IsInClan** property in the returned table will always return **false** and exists for backwards compatibility. The Clans feature was sunset from the Roblox platform in 2016.
+
 This function returns a list of tables containing information on all of the groups a given [Player](https://developer.roblox.com/en-us/api-reference/class/Player) is a member of.
 
 The list returned will include an entry for every group the player is a member of. These entries are tables with the following fields.

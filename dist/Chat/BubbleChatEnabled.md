@@ -1,10 +1,8 @@
-When set to true, player's chat messages will appear above their in-game avatar. The default value is false.
-
-To enable BubbleChat without forking [Chat](https://developer.roblox.com/en-us/api-reference/class/Chat), developers only need to add a few lines of code inside of a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript) in [ReplicatedFirst](https://developer.roblox.com/en-us/api-reference/class/ReplicatedFirst).
+If true, entering a message in the chat will result in a chat bubble popping up above the player's [Player.Character](https://developer.roblox.com/en-us/api-reference/property/Player/Character). This behavior can either be enabled by directly ticking this checkbox in Studio, or by using a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript):
 
 ```lua
-local ChatService = game:GetService("Chat") -- Call ChatService
-ChatService:RegisterChatCallback(Enum.ChatCallbackType.OnCreatingChatWindow, function()
-    return {BubbleChatEnabled = true} -- Call the API to change its boolean value to true
-end)
-```
+local ChatService = game:GetService("Chat")
+ChatService.BubbleChatEnabled = true
+``` 
+
+This must be done on the client, toggling this value in a server-side [Script](https://developer.roblox.com/en-us/api-reference/class/Script) will have no effect.
