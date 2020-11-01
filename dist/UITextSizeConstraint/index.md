@@ -1,3 +1,7 @@
-Ensures a [GuiObject](https://developer.roblox.com/en-us/api-reference/class/GuiObject) with text (such as a [TextLabel](https://developer.roblox.com/en-us/api-reference/class/TextLabel) or [TextButton](https://developer.roblox.com/en-us/api-reference/class/TextButton) does let the font size of its text become larger or smaller than the [UITextSizeConstraint.MaxTextSize](https://developer.roblox.com/en-us/api-reference/property/UITextSizeConstraint/MaxTextSize) and [UITextSizeConstraint.MinTextSize](https://developer.roblox.com/en-us/api-reference/property/UITextSizeConstraint/MinTextSize).  
-  
+Ensures a [GuiObject](https://developer.roblox.com/en-us/api-reference/class/GuiObject) with text (such as a [TextLabel](https://developer.roblox.com/en-us/api-reference/class/TextLabel) or [TextButton](https://developer.roblox.com/en-us/api-reference/class/TextButton)) does not let the font size of its text become larger or smaller than the [UITextSizeConstraint.MaxTextSize](https://developer.roblox.com/en-us/api-reference/property/UITextSizeConstraint/MaxTextSize) and [UITextSizeConstraint.MinTextSize](https://developer.roblox.com/en-us/api-reference/property/UITextSizeConstraint/MinTextSize).
+
+![Constraints visual](https://developer.roblox.com/assets/blte9c47efb631349e0/UITextSizeConstraintDemo.gif)
+
+If the affected GuiObject has its [TextScaled](https://developer.roblox.com/en-us/api-reference/property/TextLabel/TextScaled) property set to true the text size constrained by this property will scale dynamically with the container's size. It will scale upwards with the GuiObject's size until the max size is reached and downwards until the min size is reached. At these points the text size will stay constant until the size of the UI object constrains the text within the min and max bounds.
+
 A UITextSizeConstraint can be applied to a GuiObject by parenting it to that object.

@@ -1,1 +1,6 @@
-This function moves a table of [parts](https://developer.roblox.com/en-us/api-reference/class/Part) to [CFrames](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) in a table of CFrames, without firing property changed events. Not firing property changes makes this a very fast method for moving parts, at the cost of the changes not replicating to the client or being recognized by the undo history.
+**Warning!**  
+You should only use this function if you are sure that part movement is a bottleneck in your code, simply setting the CFrame property of the individual parts / welded models you want to move will be fast enough in the vast majority of cases.
+
+This function moves a table of parts to the location specified in a table of [CFrames](https://developer.roblox.com/en-us/api-reference/datatype/CFrame). This makes it a very fast way to move large numbers of parts, as you don't have to pay the cost of separate property sets for each individual part.
+
+The third argument of BulkMoveTo allows you to further speed up movement of the parts by specifying the [Position](https://developer.roblox.com/en-us/api-reference/property/BasePart/Position) and [Orientation](https://developer.roblox.com/en-us/api-reference/property/BasePart/Orientation). Changed events should not be fired on the parts. If you specify FireCFrameChanged as the BulkMoveMode then only CFrame .Changed will be fired, rather than changed firing for Position, Orientation, and CFrame like it normally does.

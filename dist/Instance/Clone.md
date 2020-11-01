@@ -1,7 +1,8 @@
-Create a deep copy of a Roblox Instance and all of its descendants, with all the same property values. Returns a new, separate object whose Parent property is `nil`. The next step after cloning an object is setting the Parent, and optionally re-positioning the new object if it has 3d geometry.
+**Clone** creates a copy of an object and all of its descendants, ignoring all objects that are not [Archivable](https://developer.roblox.com/en-us/api-reference/property/Instance/Archivable). The copy of the root object is returned by this function and its [Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) is set to nil.
 
-Any references to objects not in the cloned hierarchy are maintained (i.e. if an ObjectValue refers to an external object it will refer to the same external object). Any internal references are relative (ie if an ObjectValue refers to an internal object it will refer to a similar internal object in the copy).
+If a reference property such as [ObjectValue.Value](https://developer.roblox.com/en-us/api-reference/property/ObjectValue/Value) is set in a cloned object, the value of the copy's property depends on original's value:
 
-Any objects in the cloned object's hierarchy (including the object itself) that does not have the `Archivable` property enabled are ignored. If the root object is not Archivable, the function returns `nil`.
+*   If a reference property refers to an object that was **also** cloned, an _internal reference_, the copy will refer to the copy.
+*   If a reference property refers to an object that was **not** cloned, an _external reference_, the same value is maintained in the copy.
 
-Clone is useful for regenerating models by saving the original and spawning copies. It's also useful for taking a snapshot of the current state of a model if it is changing over time.
+This function is typically used to create models that can be regenerated. First, get a reference to the original object. Then, make a copy of the object and insert the copy by setting its [Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) to the [Workspace](https://developer.roblox.com/en-us/api-reference/class/Workspace) or one of its descendants. Finally, when it's time to regenerate the model, [Destroy](https://developer.roblox.com/en-us/api-reference/function/Instance/Destroy) the copy and clone a new one from the original like before.

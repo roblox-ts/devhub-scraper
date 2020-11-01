@@ -34,6 +34,6 @@ See also
 --------
 
 *   [TaskScheduler](https://developer.roblox.com/en-us/api-reference/class/TaskScheduler)
-*   [DataModel:GetJobsExtendedStats](https://developer.roblox.com/en-us/api-reference/function/DataModel/GetJobsExtendedStats)
-*   [DataModel:GetJobIntervalPeakFraction](https://developer.roblox.com/en-us/api-reference/function/DataModel/GetJobIntervalPeakFraction)
-*   [DataModel:GetJobTimePeakFraction](https://developer.roblox.com/en-us/api-reference/function/DataModel/GetJobTimePeakFraction)
+*   `DataModel/GetJobsExtendedStats`
+*   `DataModel/GetJobIntervalPeakFraction`
+*   `DataModel/GetJobTimePeakFraction`
