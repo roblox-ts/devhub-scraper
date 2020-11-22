@@ -6,11 +6,6 @@ The settings argument is a table where the keys are the names of the settings yo
 
 This function is client-side only, attempting to call it on the server will trigger an error.
 
-Note:
------
-
-Since this feature is still being rolled out, it might not exist on clients playing on older versions of Roblox, which is why it is heavily recommended to wrap calls to this function in a `pcall`.
-
 Name
 
 Explanation
@@ -142,4 +137,4 @@ number
 See also
 --------
 
-*   Developers who are interested interested in configuring their games' chat system even further should take a look at the `Lua Chat System|articles/Lua-Chat-System/API` article
+*   Developers who are interested interested in configuring their games' chat system even further should take a look at the `articles/Lua-Chat-System-API|Lua Chat System` article
