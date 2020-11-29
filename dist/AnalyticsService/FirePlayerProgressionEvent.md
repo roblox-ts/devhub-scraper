@@ -39,6 +39,6 @@ other string types
 See also
 --------
 
-*   `AnalyticsService:FireInGameEconomyEvent`, triggers an event used to track player actions pertaining to the in-game economy
-*   `AnalyticsService:FireLogEvent`, triggers an event used to track errors and warnings experienced by players
-*   `AnalyticsService:FireCustomEvent`, triggers an event used to emit a custom event
+*   [AnalyticsService:FireInGameEconomyEvent](https://developer.roblox.com/en-us/api-reference/function/AnalyticsService/FireInGameEconomyEvent), triggers an event used to track player actions pertaining to the in-game economy
+*   [AnalyticsService:FireLogEvent](https://developer.roblox.com/en-us/api-reference/function/AnalyticsService/FireLogEvent), triggers an event used to track errors and warnings experienced by players
+*   [AnalyticsService:FireCustomEvent](https://developer.roblox.com/en-us/api-reference/function/AnalyticsService/FireCustomEvent), triggers an event used to emit a custom event

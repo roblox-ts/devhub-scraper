@@ -1,6 +1,4 @@
-This function triggers an event used to track player actions pertaining to the in-game economy.
-
-For example, it should be called to track when players acquire or spend virtual items within the economy like currency.
+This function triggers a custom event with a custom event name data.
 
 Limits of events
 ----------------
@@ -32,5 +30,5 @@ See also
 --------
 
 *   [AnalyticsService:FirePlayerProgressionEvent](https://developer.roblox.com/en-us/api-reference/function/AnalyticsService/FirePlayerProgressionEvent), triggers an event used to track player progression through the game
+*   [AnalyticsService:FireInGameEconomyEvent](https://developer.roblox.com/en-us/api-reference/function/AnalyticsService/FireInGameEconomyEvent), triggers an event used to track player actions pertaining to the in-game economy
 *   [AnalyticsService:FireLogEvent](https://developer.roblox.com/en-us/api-reference/function/AnalyticsService/FireLogEvent), triggers an event used to track errors and warnings experienced by players
-*   [AnalyticsService:FireCustomEvent](https://developer.roblox.com/en-us/api-reference/function/AnalyticsService/FireCustomEvent), triggers an event used to emit a custom event

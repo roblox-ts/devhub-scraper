@@ -1,6 +1,6 @@
-This function triggers an event used to track player actions pertaining to the in-game economy.
+This function triggers an event used to track errors and warnings experienced by players.
 
-For example, it should be called to track when players acquire or spend virtual items within the economy like currency.
+For example, it could be called to indicate when a function call fails - such as a datastore save or [TeleportService:Teleport](https://developer.roblox.com/en-us/api-reference/function/TeleportService/Teleport). See the example below.
 
 Limits of events
 ----------------
@@ -20,6 +20,14 @@ Parameters
 
 Maximum Number of Characters
 
+FireLogEvent stackTrace
+
+1000
+
+FireLogEvent message
+
+500
+
 customData Variant
 
 500 after serialized
@@ -31,6 +39,6 @@ other string types
 See also
 --------
 
+*   [AnalyticsService:FireInGameEconomyEvent](https://developer.roblox.com/en-us/api-reference/function/AnalyticsService/FireInGameEconomyEvent), triggers an event used to track player actions pertaining to the in-game economy
 *   [AnalyticsService:FirePlayerProgressionEvent](https://developer.roblox.com/en-us/api-reference/function/AnalyticsService/FirePlayerProgressionEvent), triggers an event used to track player progression through the game
-*   [AnalyticsService:FireLogEvent](https://developer.roblox.com/en-us/api-reference/function/AnalyticsService/FireLogEvent), triggers an event used to track errors and warnings experienced by players
 *   [AnalyticsService:FireCustomEvent](https://developer.roblox.com/en-us/api-reference/function/AnalyticsService/FireCustomEvent), triggers an event used to emit a custom event
