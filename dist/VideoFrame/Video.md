@@ -1,1 +1,1 @@
-A number between 0 and 100 indicating how loud the [VideoFrame.Video](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Video) is currently playing back.
+The content ID of the video file a [VideoFrame](https://developer.roblox.com/en-us/api-reference/class/VideoFrame) object is associated with.

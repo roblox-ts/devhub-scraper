@@ -1,0 +1,1 @@
+This event triggers when the player begins holding down the [key](https://developer.roblox.com/en-us/api-reference/property/ProximityPrompt/KeyboardKeyCode)/button on a prompt with a non-zero [ProximityPrompt.HoldDuration](https://developer.roblox.com/en-us/api-reference/property/ProximityPrompt/HoldDuration). This can be used to animate a progress bar.

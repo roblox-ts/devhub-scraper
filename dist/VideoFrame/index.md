@@ -1,6 +1,6 @@
 A VideoFrame renders a rectangle, like a [Frame](https://developer.roblox.com/en-us/api-reference/class/Frame) does, with a moving video image. The video must be from a file uploaded to the Roblox website.
 
-The video is scaled to fit the entirety of the rectangle, but look best when displayed at their native resolution.
+The video is scaled to fit the entirety of the rectangle, but looks best when displayed at its native resolution.
 
 2D and 3D Sound
 ---------------

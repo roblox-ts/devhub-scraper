@@ -3,14 +3,18 @@ Determines the manner in which the [Beam.Texture](https://developer.roblox.com/e
 Beam texture behavior
 ---------------------
 
-How a [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam)'s texture scales or repeats is dependent on the TextureMode property.
+### Static
 
-When TextureMode is 'Wrap' the size of the repeating texture corresponds to [Beam.TextureLength](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureLength) in studs. For an example of this see the image below:
+Static mode is not used for beams and behaves identical to Wrap.
 
-![enter image description here](https://developer.roblox.com/assets/blt92742bad209f4935/beamTexture.gif)
+### Stretch
 
-Note, the 'Static' [TextureMode](https://developer.roblox.com/en-us/api-reference/enum/TextureMode) type is not used for [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam)s and therefore behaves identically to 'Wrap'.
+The texture is stretched relative to the beam's length, in studs, making the texture repeat based off [Beam.TextureLength](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureLength). The size is determined by the beam's length over [Beam.TextureLength](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureLength).
 
-When [Beam.TextureMode](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureMode) is set to 'Stretch' however the texture will be stretched relative to the beam's length. The size of the texture relative to the [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam)'s length will be one over the [Beam.TextureLength](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureLength). In practice, this means the texture will repeat [Beam.TextureLength](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureLength) times. For an example of this see the image below:
+![](https://developer.roblox.com/assets/blt931973c484027dba/textureMode_strech.jpg)
 
-![enter image description here](https://developer.roblox.com/assets/blt034506939f5674b3/beamTexture2.gif)
+### Wrap
+
+The size of the repeating texture corresponds to [Beam.TextureLength](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureLength) in studs.
+
+![](https://developer.roblox.com/assets/blt4e94754e188a2359/textureMode_wrap.jpg)

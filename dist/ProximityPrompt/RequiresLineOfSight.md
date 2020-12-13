@@ -1,0 +1,3 @@
+This property indicates whether the prompt is hidden if the path between the player's [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) and object parented to the [ProximityPrompt](https://developer.roblox.com/en-us/api-reference/class/ProximityPrompt) is obstructed. If true, this prompt will only be shown if there is a clear path from the camera to the object.
+
+The parent [Part](https://developer.roblox.com/en-us/api-reference/class/Part) or [Model](https://developer.roblox.com/en-us/api-reference/class/Model) of the prompt will be excluded from this check.
