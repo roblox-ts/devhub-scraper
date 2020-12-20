@@ -5,40 +5,40 @@ Data is in the format:
 ```lua
 [
     {
-      "item": {
-        "assetId": 0,
-        "name": "string",
-        "price": 0,
-        "premiumPrice": 0,
-        "absoluteUrl": "string",
-        "audioUrl": "string"
+      "Item": {
+        "AssetId": 0,
+        "Name": "string",
+        "Price": 0,
+        "PremiumPrice": 0,
+        "AbsoluteUrl": "string",
+        "AudioUrl": "string"
       },
-      "creator": {
-        "creatorId": 0,
-        "creatorType": "string",
-        "name": "string",
-        "creatorProfileLink": "string"
+      "Creator": {
+        "CreatorId": 0,
+        "CreatorType": "string",
+        "Name": "string",
+        "CreatorProfileLink": "string"
       },
-      "product": {
-        "id": 0,
-        "priceInRobux": 0,
-        "isForSale": true,
-        "isPublicDomain": true,
-        "isResellable": true,
-        "isLimited": true,
-        "isLimitedUnique": true,
-        "serialNumber": 0,
-        "isRental": true,
-        "rentalDurationInHours": 0,
-        "bcRequirement": 0,
-        "totalPrivateSales": 0,
-        "sellerId": 0,
-        "sellerName": "string",
-        "lowestPrivateSaleUserAssetId": 0,
-        "isXboxExclusiveItem": true,
-        "offsaleDeadline": "string",
-        "noPriceText": "string",
-        "isFree": true
+      "Product": {
+        "Id": 0,
+        "PriceInRobux": 0,
+        "IsForSale": true,
+        "IsPublicDomain": true,
+        "IsResellable": true,
+        "IsLimited": true,
+        "IsLimitedUnique": true,
+        "SerialNumber": 0,
+        "IsRental": true,
+        "RentalDurationInHours": 0,
+        "BcRequirement": 0,
+        "TotalPrivateSales": 0,
+        "SellerId": 0,
+        "SellerName": "string",
+        "LowestPrivateSaleUserAssetId": 0,
+        "IsXboxExclusiveItem": true,
+        "OffsaleDeadline": "string",
+        "NoPriceText": "string",
+        "IsFree": true
       }
     }
 ]

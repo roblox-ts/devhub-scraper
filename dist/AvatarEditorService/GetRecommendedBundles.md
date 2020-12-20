@@ -5,32 +5,32 @@ Data is in the format:
 ```lua
 [
     {
-      "id": 0,
-      "name": "string",
-      "description": "string",
-      "bundleType": "string",
-      "items": [
+      "Id": 0,
+      "Name": "string",
+      "Description": "string",
+      "BundleType": "string",
+      "Items": [
         {
-          "owned": true,
-          "id": 0,
-          "name": "string",
-          "type": "string"
+          "Owned": true,
+          "Id": 0,
+          "Name": "string",
+          "Type": "string"
         }
       ],
-      "creator": {
-        "id": 0,
-        "name": "string",
-        "type": "string"
+      "Creator": {
+        "Id": 0,
+        "Name": "string",
+        "Type": "string"
       },
-      "product": {
-        "id": 0,
-        "type": "string",
-        "isPublicDomain": true,
-        "isForSale": true,
-        "priceInRobux": 0,
-        "premiumPricing": {
-          "premiumDiscountPercentage": 0,
-          "premiumPriceInRobux": 0
+      "Product": {
+        "Id": 0,
+        "Type": "string",
+        "IsPublicDomain": true,
+        "IsForSale": true,
+        "PriceInRobux": 0,
+        "PremiumPricing": {
+          "PremiumDiscountPercentage": 0,
+          "PremiumPriceInRobux": 0
         }
       }
     }

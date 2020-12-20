@@ -2,6 +2,10 @@ SurfaceAppearance objects allow developers to override the appearance of a [Mesh
 
 PBR is short for Physically Based Rendering, which refers to a common texture format for defining extra physical details in games. Because this format is widely used, it's easy to take meshes and textures made in 3rd party editing software and import them into Roblox. It's also easy to find PBR format content from various 3rd party stores such as [SketchFab](https://sketchfab.com/search?q=pbr%20object&sort_by=-relevance&type=models), [TurboSquid](https://www.turbosquid.com/Search/3D-Models/free/pbr), [CGTrader](http://cgtrader.com/pbr-3d-models?polygons=lt_5k).
 
+**Note:**
+
+For PBR textures to be visible in-game, when you change a texture property of SurfaceAppearance you should wait until you see the _"Successfully uploaded compressed SurfaceAppearance."_ message in the output window. If your PBR textures are not visible, try changing a texture property.
+
 Here is a mesh with PBR textures [found on Turbosquid](https://www.turbosquid.com/3d-models/3d-model-fantasy-sword---ready/1119210) imported into Roblox.
 
 ![TextureId vs SurfaceAppearance](https://developer.roblox.com/assets/bltd50936403ef1c135/meshpart-vs-sa.png)

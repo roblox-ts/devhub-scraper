@@ -1,0 +1,1 @@
+This function returns if the [Players.LocalPlayer](https://developer.roblox.com/en-us/api-reference/property/Players/LocalPlayer) has favorited the given bundle or asset.

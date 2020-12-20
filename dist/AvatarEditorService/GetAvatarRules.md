@@ -1,45 +1,45 @@
 This function returns the platform Avatar rules for things like scaling, default shirts and pants, number of wearable assets, ect.
 
-Data is in the format:
+The returned table includes the following fields:
 
 ```lua
 {
-  "playerAvatarTypes": [
+  "PlayerAvatarTypes": [
     "R6"
   ],
-  "scales": {},
-  "wearableAssetTypes": [
+  "Scales": {},
+  "WearableAssetTypes": [
     {
-      "maxNumber": 0,
-      "id": 0,
-      "name": "string"
+      "MaxNumber": 0,
+      "Id": 0,
+      “Name": "string"
     }
   ],
-  "bodyColorsPalette": [
+  "BodyColorsPalette": [
     {
-      "brickColorId": 0,
-      "hexColor": "string",
-      "name": "string"
+      "BrickColorId": 0,
+      "NexColor": "string",
+      "Name": "string"
     }
   ],
-  "basicBodyColorsPalette": [
+  "BasicBodyColorsPalette": [
     {
-      "brickColorId": 0,
-      "hexColor": "string",
-      "name": "string"
+      "BrickColorId": 0,
+      "HexColor": "string",
+      "Name": "string"
     }
   ],
-  "minimumDeltaEBodyColorDifference": 0,
-  "proportionsAndBodyTypeEnabledForUser": true,
-  "defaultClothingAssetLists": {
-    "defaultShirtAssetIds": [
+  "MinimumDeltaEBodyColorDifference": 0,
+  "ProportionsAndBodyTypeEnabledForUser": true,
+  "DefaultClothingAssetLists": {
+    "DefaultShirtAssetIds": [
       0
     ],
-    "defaultPantAssetIds": [
+    "DefaultPantAssetIds": [
       0
     ]
   },
-  "bundlesEnabledForUser": true,
-  "emotesEnabledForUser": true
+  "BundlesEnabledForUser": true,
+  "EmotesEnabledForUser": true
 }
 ```

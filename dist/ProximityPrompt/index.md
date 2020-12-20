@@ -13,27 +13,18 @@ When a user is near, a UI will appear to prompt them for input. This works for a
 
 The provided UI can be swapped out for your own custom UI. See [ProximityPrompt.Style](https://developer.roblox.com/en-us/api-reference/property/ProximityPrompt/Style) for details.
 
-Prompt Appearance
------------------
+### Prompt Appearance
 
 Prompts consist of three primary elements, each of which can be controlled by the following properties:
 
-![](https://developer.roblox.com/assets/blte557f1f82d250751/ProximityPrompt-Diagram.png)
+![](https://developer.roblox.com/assets/blt452f8e22e82a11d8/ProximityPrompt-Diagram.png)
+
+* * *
 
 *   **ObjectText** — An optional name for the object being interacted with.
-*   **ActionText** — An optional action name shown to the player, for example **Open** or **Use**.
+*   **ActionText** — An optional action name shown to the player.
 *   **KeyboardKeyCode** — The keyboard key which will trigger the prompt.
 *   **GamepadKeyCode** — The gamepad button which will trigger the prompt.
-
-To customize the appearance of the prison door prompt, make the following changes:
-
-1.  In the Properties window, locate the **ObjectText** property and type in **Door**.
-
-![](https://developer.roblox.com/assets/bltce7a967fba1b5ec6/ProximityPrompt-ObjectText.png)
-
-2.  For the **ActionText** property, type in **Pick Lock**.
-
-![](https://developer.roblox.com/assets/bltff4e7724305b35ca/ProximityPrompt-ActionText.png)
 
 See also
 --------

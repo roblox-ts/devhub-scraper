@@ -5,43 +5,43 @@ The returned data has the format:
 ```lua
 [
     {
-      "id": 0,
-      "itemType": "Asset",
-      "assetType": "Image",
-      "bundleType": "BodyParts",
-      "name": "string",
-      "description": "string",
-      "productId": 0,
-      "genres": [
+      "Id": 0,
+      "ItemType": "Asset",
+      "AssetType": "Image",
+      "BundleType": "BodyParts",
+      "Name": "string",
+      "Description": "string",
+      "ProductId": 0,
+      "Genres": [
         "All"
       ],
-      "bundledItems": [
+      "BundledItems": [
         {
-          "owned": true,
-          "id": 0,
-          "name": "string",
-          "type": "string"
+          "Owned": true,
+          "Id": 0,
+          "Name": "string",
+          "Type": "string"
         }
       ],
-      "itemStatus": [
+      "ItemStatus": [
         "New"
       ],
-      "itemRestrictions": [
+      "ItemRestrictions": [
         "ThirteenPlus"
       ],
-      "creatorType": "User",
-      "creatorTargetId": 0,
-      "creatorName": "string",
-      "price": 0,
-      "premiumPricing": {
-        "premiumDiscountPercentage": 0,
-        "premiumPriceInRobux": 0
+      "CreatorType": "User",
+      "CreatorTargetId": 0,
+      "CreatorName": "string",
+      "Orice": 0,
+      "PremiumPricing": {
+        "PremiumDiscountPercentage": 0,
+        "PremiumPriceInRobux": 0
       },
-      "lowestPrice": 0,
-      "priceStatus": "string",
-      "unitsAvailableForConsumption": 0,
-      "purchaseCount": 0,
-      "favoriteCount": 0
+      "LowestPrice": 0,
+      "PriceStatus": "string",
+      "UnitsAvailableForConsumption": 0,
+      "PurchaseCount": 0,
+      "FavoriteCount": 0
     }
 ]
 ```
