@@ -18,6 +18,12 @@ string
 
 The friend's username
 
+DisplayName
+
+string
+
+The [display name](https://developer.roblox.com/en-us/api-reference/property/Player/DisplayName) of the friend.
+
 IsOnline
 
 bool

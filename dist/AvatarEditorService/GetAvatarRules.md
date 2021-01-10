@@ -12,7 +12,7 @@ The returned table includes the following fields:
     {
       "MaxNumber": 0,
       "Id": 0,
-      “Name": "string"
+      "Name": "string"
     }
   ],
   "BodyColorsPalette": [

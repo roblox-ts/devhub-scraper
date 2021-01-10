@@ -7,7 +7,7 @@ The code sample below demonstrates how to listen to when this property changes u
 local Humanoid = route.to.humanoid
 
 Humanoid:GetPropertyChangedSignal("FloorMaterial"):Connect(function()
-    print("New value for FloorMaterial: " .. Humanoid.FloorMaterial)
+    print("New value for FloorMaterial: " .. tostring(Humanoid.FloorMaterial))
 end)
 ``` 
 

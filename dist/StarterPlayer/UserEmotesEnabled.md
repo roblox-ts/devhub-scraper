@@ -1,5 +1,10 @@
-Setting this property to false would disable loading of emotes that users own when loading avatars. Developers could set the property in Studio directly or through the Game Settings UI.
+This property can only be set in Studio and cannot be set by scripts at runtime, although it can be read by scripts.
 
-When emote loading is disabled the emotes UI would still work if the developer chooses to use the emotes feature by adding emotes within their game.
+This property determines if user-owned emotes are loaded when loading avatars. Setting this property to false disables loading. Developers can set the property in Studio directly or through the `articles/Game Settings|Game Settings UI`.
 
-The property would be Standard security and would serialize in the place file.
+When emote loading is disabled, the emotes UI will still work as long as developers choose to use the emotes feature by adding emotes within their game.
+
+See also
+--------
+
+*   `articles/Avatar Emotes|Avatar Emotes`, an article detailing how to control, customize, and play avatar emotes

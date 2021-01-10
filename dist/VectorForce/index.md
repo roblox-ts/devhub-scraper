@@ -1,6 +1,9 @@
 A VectorForce is used to apply a force to a part or assembly of parts. The direction and strength of the force is determined by a [Vector3](https://developer.roblox.com/en-us/api-reference/datatype/Vector3) and can be relative to an attachment on the part, another attachment, or the world coordinate system.
 
-![VectorForce Demo](https://developer.roblox.com/assets/bltc668ea0b8d61079b/VectorForceDemo.gif)
+![VectorForce RelativeTo](https://developer.roblox.com/assets/bltacb3e3255384a7b4/VectorForceRelativeTo3.gif)  
+_The image above demonstrates how VectorForce applies a force on a part relative to an Attachment_  
+![VectorForce CenterOfMass](https://developer.roblox.com/assets/bltcdb637c5a4b55ef3/VectorForceCenterOfMass.gif)  
+_The image above demonstrates how VectorForce applies a force on a part relative to the part's center of mass_
 
 Location of force
 -----------------

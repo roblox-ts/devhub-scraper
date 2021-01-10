@@ -20,6 +20,12 @@ string
 
 The username of the friend.
 
+**DisplayName**
+
+string
+
+The [display name](https://developer.roblox.com/en-us/api-reference/property/Player/DisplayName) of the friend.
+
 **LastOnline**
 
 string
