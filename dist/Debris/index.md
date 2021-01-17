@@ -8,14 +8,14 @@ As Debris is a service it must be created using the [ServiceProvider:GetService]
 
 Beyond creating a bit of a mess, objects that are no longer required can use up system memory and cause the game to run slower over time. For this reason it is always advised to run the [Instance:Destroy](https://developer.roblox.com/en-us/api-reference/function/Instance/Destroy) function on objects you no longer need. However in many cases an object may have a specific period of utility after which it needs to be destroyed.
 
-Take the example of projectile that has just been thrown. On first thought, it could be cleaned up using:
+Take the example of projectile that has just been thrown. It could be cleaned up using:
 
 ```lua
 wait(3)
 projectile:Destroy()
 ``` 
 
-However there are a number of issues with this approach. Firstly, it requires yielding the code with a wait, which is not always desirable. Secondly, before the 3 seconds have elapsed the object may have already been destroyed (for example, if it reached [Workspace.FallenPartsDestroyHeight](https://developer.roblox.com/en-us/api-reference/property/Workspace/FallenPartsDestroyHeight)). In this case, the code would error as it tries to destroy an item that has already been destroyed. One answer may be:
+However there are a number of issues with this approach. Firstly, it requires yielding the code with a wait, which is not always desirable. Secondly, before the 3 seconds have elapsed the object may have already been destroyed (for example, if it reached [Workspace.FallenPartsDestroyHeight](https://developer.roblox.com/en-us/api-reference/property/Workspace/FallenPartsDestroyHeight)).
 
 ```lua
 delay(3, function()
