@@ -9,9 +9,7 @@ Historically, game passes on Roblox had an _Asset ID_ associated with them. Alth
 
 You can retrieve the _Game Pass ID_ of any pass through its URL, for example the _Game Pass ID_ of the below pass is 1:
 
-```lua
-https://www.roblox.com/game-pass/1/myGamePass
-``` 
+> [https://www.roblox.com/game-pass/1/myGamePass](https://www.roblox.com/game-pass/1/myGamePass)
 
 Whether you are using an _Asset ID_ or a _Game Pass ID_ determines which API members you can use.
 

@@ -8,4 +8,4 @@ This value can be any number greater than or equal to 0, and defaults to 0.1.
 
 This property can also be used alongside the [Trail.MaxLength](https://developer.roblox.com/en-us/api-reference/property/Trail/MaxLength) property, which determines the maximum length trail may be before its oldest segments are erased.
 
-![Minimum length of a trail's segment in studs.](https://developer.roblox.com/assets/blt92f5f82000a51022/TrailMinLength.gif)
+![Minimum length of a trail's segment in studs.](https://developer.roblox.com/assets/5b3d57948fbd570b783cc4df/TrailMinLength.gif)

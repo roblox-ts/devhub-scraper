@@ -11,10 +11,14 @@ instance:SetAttribute("InitialPosition", Vector3.new(0, 0, 0))
 Limitations
 -----------
 
-*   Names cannot start with Rbx
-*   Names cannot be more than 100 characters long
-*   Values must be a `supported type`  
-    When attempting to set an attribute to an unsupported type, an error will be thrown.
+Naming requirements and restrictions:
+
+*   Names must only use alphanumeric characters and underscore
+*   No spaces or unique symbols are allowed
+*   Strings must be 100 characters or less
+*   Names are not allowed to start with RBX unless the caller is a Roblox core-script (reserved for Roblox)
+
+When attempting to set an attribute to an unsupported type, an error will be thrown.
 
 See also
 --------

@@ -9,7 +9,7 @@ print(userInputService.OnScreenKeyboardSize)
 
 As [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService) is client-side only, this property can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 
-![On screen keyboard](https://images.contentstack.io/v3/assets/bltc2ad39afa86662c8/bltd883fb9830c26628/5bce5c708e52425c44bf870e/Screenshot_(6).png)
+![On screen keyboard](https://developer.roblox.com/assets/bltd883fb9830c26628/Screenshot_(6).png)
 
 See also
 --------

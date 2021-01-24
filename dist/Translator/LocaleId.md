@@ -1,1 +1,1 @@
-Describes the language that the Translator will translate to, as a locale-id.
+The Roblox locale of the output translated strings from this table, for example “en-us” or “es-es.” Defaults to “en-us”.

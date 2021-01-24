@@ -1,1 +1,1 @@
-The language that the source material of this LocalizationTable was based on, as a locale-id.
+The Roblox locale of the input key strings for this table, for example “en-us” or “es-es.” This is typically the “development language” of the game. For a Translator that merges multiple LocalizationTable objects, it's the LocaleId of the Default LocalizationTable. Defaults to “en-us”.

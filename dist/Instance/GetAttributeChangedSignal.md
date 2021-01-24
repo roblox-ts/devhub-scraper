@@ -14,23 +14,6 @@ end
 instance:GetAttributeChangedSignal("InitialPosition"):Connect(attributeChanged)
 ``` 
 
-Behavior
---------
-
-### Serialization
-
-Attributes are serialized when an instance is saved to a file. This means that they will persist between studio sessions and can be assigned a value before a place is running.
-
-### Replication
-
-Attributes are replicated, respecting filtering rules, from server to client. If the server changes an attribute, the clients value will also change. If the client changes the value however, it will not be changed on the server.
-
-### Supported Types
-
-*   Basic Lua primitives: string, number, bool, nil
-*   Roblox atomic types: Vector3, UDim2, NumberSequence, etc…
-*   Advanced types: Instance reference, table.
-
 See also
 --------
 

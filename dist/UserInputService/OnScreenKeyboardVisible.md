@@ -15,7 +15,7 @@ end
 
 As [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService) is client-side only, this property can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 
-![On screen keyboard](https://developer.roblox.com/assets/5bce5dd5edb71a1476d19609/ClientKeyboard.png)
+![On screen keyboard](https://developer.roblox.com/assets/bltd883fb9830c26628/ClientKeyboard.png)
 
 See also
 --------
