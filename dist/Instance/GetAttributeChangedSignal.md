@@ -1,6 +1,8 @@
-Attributes are not currently enabled, so this API member may have no effect, emit a warning or raise an error. Do not use it in new work.
+**Attribute Studio Beta**  
 
-This function returns an event that behaves exactly like the `Changed` event, except that the event only fires when the given attribute changes. It's generally a good idea to use this method instead of a connection to Changed with a function that checks the attribute name. Subsequent calls to this method on the same object with the same attribute name return the same event.
+Attributes are currently released in a beta phase and may not work for every developer. For more information on the beta, and how to opt in, see `[this](../../Class/Atmosphere)` Developer Forum post.
+
+This function returns an event that behaves exactly like the \`Changed\` event, except that the event only fires when the given attribute changes. It's generally a good idea to use this method instead of a connection to Changed with a function that checks the attribute name. Subsequent calls to this method on the same object with the same attribute name return the same event.
 
 It is similar to [Instance:GetPropertyChangedSignal](https://developer.roblox.com/en-us/api-reference/function/Instance/GetPropertyChangedSignal) but for attributes.
 

@@ -1,4 +1,6 @@
-Attributes are not currently enabled, so this API member may have no effect, emit a warning or raise an error. Do not use it in new work.
+**Attribute Studio Beta**  
+
+Attributes are currently released in a beta phase and may not work for every developer. For more information on the beta, and how to opt in, see `[this](../../Class/Atmosphere)` Developer Forum post.
 
 This function returns a dictionary of string → variant pairs for each attribute where the string is the name of the attribute and the variant is a non-nil value.
 

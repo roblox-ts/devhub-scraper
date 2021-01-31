@@ -1,4 +1,6 @@
-Attributes are not currently enabled, so this API member may have no effect, emit a warning or raise an error. Do not use it in new work.
+**Attribute Studio Beta**  
+
+Attributes are currently released in a beta phase and may not work for every developer. For more information on the beta, and how to opt in, see `[this](../../Class/Atmosphere)` Developer Forum post.
 
 This function returns the attribute which has been assigned to the given name. If no attribute has been assigned then nil is returned.
 
