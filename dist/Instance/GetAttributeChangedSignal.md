@@ -1,6 +1,6 @@
 **Attribute Studio Beta**  
 
-Attributes are currently released in a beta phase and may not work for every developer. For more information on the beta, and how to opt in, see `[this](../../Class/Atmosphere)` Developer Forum post.
+Attributes are currently released in a beta phase and may not work for every developer. For more information on the beta, and how to opt in, see `[this](https://devforum.roblox.com/t/new-studio-beta-attributes/984141)` Developer Forum post.
 
 This function returns an event that behaves exactly like the \`Changed\` event, except that the event only fires when the given attribute changes. It's generally a good idea to use this method instead of a connection to Changed with a function that checks the attribute name. Subsequent calls to this method on the same object with the same attribute name return the same event.
 

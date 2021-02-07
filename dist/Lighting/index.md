@@ -1,3 +1,7 @@
+**Note**  
+
+Fog properties are hidden when Lighting contains an `[Atmosphere](Atmosphere)` object.
+
 The Lighting service controls the environmental lighting in a game. It includes a range of adjustable properties that can be used to change how lighting appears and interacts with other objects.
 
 Developers can change the color and appearance of lighting in their place using properties such as [Lighting.Ambient](https://developer.roblox.com/en-us/api-reference/property/Lighting/Ambient) and [Lighting.OutdoorAmbient](https://developer.roblox.com/en-us/api-reference/property/Lighting/OutdoorAmbient).

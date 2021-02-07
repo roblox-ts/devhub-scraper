@@ -1,4 +1,8 @@
-A [Color3](https://developer.roblox.com/en-us/api-reference/datatype/Color3) value giving the hue of [Lighting](https://developer.roblox.com/en-us/api-reference/class/Lighting)'s fog.
+**Note**  
+
+Fog properties are hidden when Lighting contains an `[Atmosphere](../../Class/Atmosphere)` object.
+
+A \`DataType/Color3\` value giving the hue of \`Lighting\`'s fog.
 
 How does fog work?
 ------------------

@@ -1,6 +1,6 @@
 **Attribute Studio Beta**  
 
-Attributes are currently released in a beta phase and may not work for every developer. For more information on the beta, and how to opt in, see `[this](../../Class/Atmosphere)` Developer Forum post.
+Attributes are currently released in a beta phase and may not work for every developer. For more information on the beta, and how to opt in, see `[this](https://devforum.roblox.com/t/new-studio-beta-attributes/984141)` Developer Forum post.
 
 This function returns the attribute which has been assigned to the given name. If no attribute has been assigned then nil is returned.
 

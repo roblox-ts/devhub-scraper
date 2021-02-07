@@ -1,4 +1,6 @@
-Attributes are not currently enabled, so this API member may have no effect, emit a warning or raise an error. Do not use it in new work.
+**Attribute Studio Beta**  
+
+Attributes are currently released in a beta phase and may not work for every developer. For more information on the beta, and how to opt in, see `[this](https://devforum.roblox.com/t/new-studio-beta-attributes/984141)` Developer Forum post.
 
 This function sets the attribute with the given name to the given value. If the value given is nil, then the attribute will be removed (since nil is returned by default).
 

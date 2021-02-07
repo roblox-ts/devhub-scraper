@@ -1,4 +1,8 @@
-The depth from the [Workspace.CurrentCamera](https://developer.roblox.com/en-us/api-reference/property/Workspace/CurrentCamera), in studs, at which fog will be completely opaque.
+**Note**  
+
+Fog properties are hidden when Lighting contains an `[Atmosphere](../../Class/Atmosphere)` object.
+
+The depth from the \`Workspace/CurrentCamera\`, in studs, at which fog will be completely opaque.
 
 How does fog work?
 ------------------
