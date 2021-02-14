@@ -1,6 +1,6 @@
 **Note**  
 
-Fog properties are hidden when Lighting contains an `[Atmosphere](../../Class/Atmosphere)` object.
+Fog properties are hidden when Lighting contains an `[Atmosphere](https://devforum.roblox.com/t/new-studio-beta-attributes/984141)` object.
 
 A \`DataType/Color3\` value giving the hue of \`Lighting\`'s fog.
 

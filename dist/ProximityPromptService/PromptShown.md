@@ -1,0 +1,1 @@
+This event triggers client-side, in connected [LocalScripts](https://developer.roblox.com/en-us/api-reference/class/LocalScript), when a prompt becomes visible.

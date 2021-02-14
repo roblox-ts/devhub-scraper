@@ -11,5 +11,3 @@ It's important to remember the URL is not the same as the content ID. It will wo
 ``` 
 
 Note, the animation will need to be loaded onto an [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) in order to play it.
-
-_EDITT_
