@@ -1,0 +1,1 @@
+This class is an instance that is returned by the [TeleportService:TeleportAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportAsync) function with information about the teleport.
