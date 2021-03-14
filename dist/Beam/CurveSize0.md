@@ -2,9 +2,7 @@ Determines, along with [Beam.Attachment0](https://developer.roblox.com/en-us/api
 
 The position of this point can be determined by the following equation:
 
-```lua
-local controlPoint1 = Beam.Attachment0.WorldPosition + (Beam.Attachment0.CFrame.rightVector * Beam.CurveSize0)
-``` 
+local controlPoint1 = Beam.Attachment0.WorldPosition + (Beam.Attachment0.CFrame.rightVector \* Beam.CurveSize0)
 
 Beam Curvature
 --------------

@@ -9,24 +9,18 @@ LocalScripts that are cloned from [StarterGui](https://developer.roblox.com/en-u
 
 So if you're writing a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript), do this:
 
-```lua
 local player = game.Players.LocalPlayer
 local character = player.Character
 if not character or not character.Parent then
     character = player.CharacterAdded:wait()
 end
-``` 
 
 But from the server it's fine to do this:
 
-```lua
 if player.Character then
-    -- do something
+	-- do something
 end
-``` 
 
 Or if you want to wait until the character respawns from a server [Script](https://developer.roblox.com/en-us/api-reference/class/Script):
 
-```lua
 local character = player.Character or player.CharacterAdded:wait()
-```

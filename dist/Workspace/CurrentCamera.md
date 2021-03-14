@@ -17,6 +17,4 @@ Accessing a client's current [Camera](https://developer.roblox.com/en-us/api-ref
 
 Below is an example of how this property can be used to access the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) object and increase its [Camera.FieldOfView](https://developer.roblox.com/en-us/api-reference/property/Camera/FieldOfView).
 
-```lua
 workspace.CurrentCamera.FieldOfView = 100
-```

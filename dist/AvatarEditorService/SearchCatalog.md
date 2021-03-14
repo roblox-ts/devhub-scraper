@@ -2,8 +2,7 @@ This function returns a [CatalogPages](https://developer.roblox.com/en-us/api-re
 
 The returned data has the format:
 
-```lua
-[
+\[
     {
       "Id": 0,
       "ItemType": "Asset",
@@ -12,23 +11,23 @@ The returned data has the format:
       "Name": "string",
       "Description": "string",
       "ProductId": 0,
-      "Genres": [
+      "Genres": \[
         "All"
-      ],
-      "BundledItems": [
+      \],
+      "BundledItems": \[
         {
           "Owned": true,
           "Id": 0,
           "Name": "string",
           "Type": "string"
         }
-      ],
-      "ItemStatus": [
+      \],
+      "ItemStatus": \[
         "New"
-      ],
-      "ItemRestrictions": [
+      \],
+      "ItemRestrictions": \[
         "ThirteenPlus"
-      ],
+      \],
       "CreatorType": "User",
       "CreatorTargetId": 0,
       "CreatorName": "string",
@@ -43,5 +42,4 @@ The returned data has the format:
       "PurchaseCount": 0,
       "FavoriteCount": 0
     }
-]
-```
+\]

@@ -6,6 +6,4 @@ This is intended for use within [Plugins](https://developer.roblox.com/en-us/api
 
 For instance, if you would like to get the path of the “MoreButton” image, you would use the following code:
 
-```lua
 settings().Studio.Theme:GetPath("MoreButton")
-```

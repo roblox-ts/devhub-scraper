@@ -2,9 +2,7 @@ Returns the number of [BasePart](https://developer.roblox.com/en-us/api-referenc
 
 This function provides a measure of how many [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart)s are being influenced by, or recently under the influence of, physical forces.
 
-```lua
 print(workspace:GetNumAwakeParts()) -- prints the number of 'awake' parts
-``` 
 
 Sleeping vs Awake Parts
 -----------------------

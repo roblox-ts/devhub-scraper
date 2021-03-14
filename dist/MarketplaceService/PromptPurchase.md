@@ -4,8 +4,6 @@ PromptPurchase is used to prompt a player to purchase an item with the given `as
 
 The above dialogue was triggered using the following:
 
-```lua
 game:GetService("MarketplaceService"):PromptPurchase(game.Players.LocalPlayer, 4367427794)
-``` 
 
 For game passes, use [MarketplaceService:PromptGamePassPurchase](https://developer.roblox.com/en-us/api-reference/function/MarketplaceService/PromptGamePassPurchase).

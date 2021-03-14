@@ -4,16 +4,14 @@ An accelerometer is a component found in most mobile devices that measures accel
 
 For example, the following code snippet demonstrates how to check if the user's device has an accelerometer.
 
-```lua
 local userInputService = game:GetService("UserInputService")
 
 local accelerometerEnabled = oserInputService.AccelerometerEnabled
 if accelerometerEnabled then
-    print("Accelerometer enabled!")
+	print("Accelerometer enabled!")
 else
-    print("Accelerometer not enabled!")
-end
-``` 
+	print("Accelerometer not enabled!")
+end 
 
 If the device has an enabled accelerometer, you can get it's current acceleration by using the [UserInputService:GetDeviceAcceleration](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetDeviceAcceleration) function or track when the device's acceleration changes by using the [UserInputService.DeviceAccelerationChanged](https://developer.roblox.com/en-us/api-reference/event/UserInputService/DeviceAccelerationChanged) event.
 

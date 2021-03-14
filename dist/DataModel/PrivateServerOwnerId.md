@@ -4,7 +4,6 @@ If the server is a standard or reserved server then this property will be set to
 
 This property could be used to identify if a [Player](https://developer.roblox.com/en-us/api-reference/class/Player) is the owner of the VIP server, for example:
 
-```lua
 local Players = game:GetService("Players")
 
 -- is this a VIP server?
@@ -19,7 +18,6 @@ if game.PrivateServerId ~= "" and game.PrivateServerOwnerId ~= 0 then
         end
     end)
 end
-``` 
 
 See also
 --------

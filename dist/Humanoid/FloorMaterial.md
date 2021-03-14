@@ -3,13 +3,11 @@ It works with both regular [Parts](https://developer.roblox.com/en-us/api-refere
 
 The code sample below demonstrates how to listen to when this property changes using [Instance:GetPropertyChangedSignal](https://developer.roblox.com/en-us/api-reference/function/Instance/GetPropertyChangedSignal). When the material the humanoid is standing on changes, it will print a message indicating the new material being stood on.
 
-```lua
 local Humanoid = route.to.humanoid
 
 Humanoid:GetPropertyChangedSignal("FloorMaterial"):Connect(function()
     print("New value for FloorMaterial: " .. tostring(Humanoid.FloorMaterial))
 end)
-``` 
 
 Caveats
 -------

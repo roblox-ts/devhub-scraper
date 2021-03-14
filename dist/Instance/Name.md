@@ -4,11 +4,9 @@ This property is an identifier that describes an object. Names are not necessari
 
 The name of an object is often used to access the object through the data model hierarchy using the following methods:
 
-```lua
 local baseplate = workspace.Baseplate
-local baseplate = workspace["Baseplate"]
+local baseplate = workspace\["Baseplate"\]
 local baseplate = workspace:FindFirstChild("BasePlate")
-``` 
 
 In order to make an object accessible using the dot operator, an object's Name must follow a certain syntax. The objects name must start with an underscore or letter. The rest of the name can only contain letters, numbers, or underscores (no other special characters). If an objects name does not follow this syntax it will not be accessible using the dot operator and Lua will not interpret its name as an identifier.
 

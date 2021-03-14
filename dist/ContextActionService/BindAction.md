@@ -2,7 +2,6 @@ BindAction will bind an action to user input given an action handling function. 
 
 The code sample below shows how a [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) can be [played](https://developer.roblox.com/en-us/api-reference/function/Sound/Play) while a key (H), game pad button, or touch screen button is pressed.
 
-```lua
 local ContextActionService = game:GetService("ContextActionService")
 
 -- A car horn sound
@@ -11,13 +10,13 @@ honkSound.Looped = true
 honkSound.SoundId = "rbxassetid://3017580236"
 
 local function handleAction(actionName, inputState, inputObject)
-    if actionName == "HonkHorn" then
-        if inputState == Enum.UserInputState.Begin then
-            honkSound:Play()
-        else
-            honkSound:Pause()
-        end
-    end
+	if actionName == "HonkHorn" then
+		if inputState == Enum.UserInputState.Begin then
+			honkSound:Play()
+		else
+			honkSound:Pause()
+		end
+	end
 end
 
 -- When the player sits in the vehicle:
@@ -25,7 +24,6 @@ ContextActionService:BindAction("HonkHorn", handleAction, true, Enum.KeyCode.H, 
 
 -- When the player gets out:
 ContextActionService:UnbindAction("HonkHorn")
-``` 
 
 Action Handler Parameters
 -------------------------

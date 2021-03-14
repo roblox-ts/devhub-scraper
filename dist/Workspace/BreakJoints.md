@@ -7,8 +7,6 @@ This function will break any of the following types of joints:
 
 Unlike `Break/MakeJoints`, this function requires an array of [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart)s as a parameter. This array is given as follows:
 
-```lua
 workspace:BreakJoints({part1, part2, part3})
-``` 
 
 Note, this function cannot be used by scripts and will only function in plugins.

@@ -4,11 +4,9 @@ Toggles whether the [Camera](https://developer.roblox.com/en-us/api-reference/cl
 
 When HeadLocked is _true_, the engine will combine the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) with the [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) of the user's head to render the position and orientation of the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) correctly. The camera will be rendered at the following [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame):
 
-```lua
 local UserInputService = game:GetService("UserInputService")
 local headCFrame = UserInputService:GetUserCFrame(Enum.UserCFrame.Head)
-renderCFrame = workspace.CurrentCamera.CFrame * headCFrame
-``` 
+renderCFrame = workspace.CurrentCamera.CFrame \* headCFrame
 
 Disabling HeadLocked
 --------------------

@@ -12,12 +12,10 @@ Below is a screenshot of a game pass purchase prompt. The function in the code s
 
 ![A developer product purchase prompt](https://developer.roblox.com/assets/blt3f7406054de2eebc/PromptProductPurchase.png)
 
-```lua
 local MarketplaceService = game:GetService("MarketplaceService")
 
 MarketplaceService.PromptProductPurchaseFinished:Connect(function (...)
-    -- Print all the details of the prompt, for example:
-    -- PromptProductPurchaseFinished 269323 327064551 true
-    print("PromptProductPurchaseFinished", ...)
+	-- Print all the details of the prompt, for example:
+	-- PromptProductPurchaseFinished 269323 327064551 true
+	print("PromptProductPurchaseFinished", ...)
 end)
-```

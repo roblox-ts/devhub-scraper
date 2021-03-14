@@ -4,15 +4,13 @@ This event can be used to determine when a user stops touching the screen of the
 
 For example, the code below prints the screen position where the user stops touching the screen.
 
-```lua
 local UserInputService = game:GetService("UserInputService")
 
 function TouchEnded(touch, gameProcessedEvent)
-    print("Touch ended at "..tostring(touch.Position))
+	print("Touch ended at "..tostring(touch.Position))
 end
 
 UserInputService.TouchEnded:Connect(TouchEnded)
-``` 
 
 The touch input object is the same input object throughout the lifetime of the touch. So comparing [InputObjects](https://developer.roblox.com/en-us/api-reference/class/InputObject) when they are touch objects is valid to determine if it is the same finger.
 

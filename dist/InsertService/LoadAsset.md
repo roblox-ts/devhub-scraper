@@ -1,15 +1,12 @@
 The LoadAsset function fetches an asset given its ID and returns a [Model](https://developer.roblox.com/en-us/api-reference/class/Model) containing the asset. For example, to load this public [Doge](https://www.roblox.com/library/257489726/Doge) [Model](https://developer.roblox.com/en-us/api-reference/class/Model), which has the asset Id _**257489726**_, you can use:
 
-```lua
 local assetId = 257489726
 local InsertService = game:GetService("InsertService")
 local model = InsertService:LoadAsset(assetId)
 model.Parent = workspace
-``` 
 
 Calls to this function may fail if a server providing a model is having problems. As such, it's generally a good idea to wrap calls to this function in `pcall` to catch these kinds of errors.
 
-```lua
 local assetId = 257489726
 local InsertService = game:GetService("InsertService")
 local success, model = pcall(InsertService.LoadAsset, InsertService, assetId)
@@ -19,7 +16,6 @@ if success and model then
 else
    print("Model failed to load!")
 end
-``` 
 
 Security Check
 --------------

@@ -5,12 +5,10 @@ When using Roblox with a non-QWERTY keyboard layout, key codes are mapped to equ
 Usage
 -----
 
-```lua
 local UserInputService = game:GetService("UserInputService")
 local textLabel = script.Parent
 local mapKey = Enum.KeyCode.M
 textLabel.Text = "Press " .. UserInputService:GetStringForKeyCode(mapKey) .. " to open the map!"
-``` 
 
 Examples on QWERTY Keyboard
 ---------------------------

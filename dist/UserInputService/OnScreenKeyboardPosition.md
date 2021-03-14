@@ -2,10 +2,8 @@ This property describes the position of the on-screen keyboard in pixels. The ke
 
 The code snippet below prints the position of the keyboard.
 
-```lua
 local userInputService = game:GetService("UserInputService")
 print(userInputService.OnScreenKeyboardPosition)
-``` 
 
 As [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService) is client-side only, this property can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 

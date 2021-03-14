@@ -2,9 +2,7 @@ This function causes the [Humanoid](https://developer.roblox.com/en-us/api-refer
 
 By default, the _direction_ given is in world terms. If the _relativeToCamera_ parameter is _true_ however the _direction_ given is relative to the `Workspace/CurrentCamera|CurrentCamera's` [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame). As the negative Z direction is considered 'forwards' in Roblox, the following code would make the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) walk in the direction of the [Workspace.CurrentCamera](https://developer.roblox.com/en-us/api-reference/property/Workspace/CurrentCamera).
 
-```lua
 humanoid:Move(Vector3.new(0, 0, -1), true)
-``` 
 
 When this function is called, the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) will move until the function is called again. However, if the default control scripts are being used this function will be overwritten when called on [Player](https://developer.roblox.com/en-us/api-reference/class/Player) [Characters](https://developer.roblox.com/en-us/api-reference/property/Player/Character). This can be avoided by either not using the default control scripts, or calling this function every frame using [RunService:BindToRenderStep](https://developer.roblox.com/en-us/api-reference/function/RunService/BindToRenderStep) (see example).
 

@@ -1,10 +1,8 @@
 Fired when the right mouse button is released.
 
-```lua
 mouse.Button2Up:Connect(function()
 print("button 2 up!")
 end
-``` 
 
 For information on how to obtain the [Mouse](https://developer.roblox.com/en-us/api-reference/class/Mouse) object, please see the [Mouse](https://developer.roblox.com/en-us/api-reference/class/Mouse) page.
 

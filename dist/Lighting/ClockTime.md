@@ -6,49 +6,43 @@ For a measure of [Lighting](https://developer.roblox.com/en-us/api-reference/cla
 
 Using ClockTime requires the time to be normalized:
 
-```lua
 minutesAfterMidnight = 0
 while true do
-    minutesAfterMidnight = minutesAfterMidnight + 1
+	minutesAfterMidnight = minutesAfterMidnight + 1
 
-    local minutesNormalised = minutesAfterMidnight % (60 * 24)
-    local hours = minutesNormalised / 60
+	local minutesNormalised = minutesAfterMidnight % (60 \* 24)
+	local hours = minutesNormalised / 60
 
-    Lighting.ClockTime = hours
+	Lighting.ClockTime = hours
 
-    wait()
+	wait()
 end
-``` 
 
 Using [Lighting.TimeOfDay](https://developer.roblox.com/en-us/api-reference/property/Lighting/TimeOfDay) requires the time to be normalized and a string formatted:
 
-```lua
 minutesAfterMidnight = 0
 while true do
-    minutesAfterMidnight = minutesAfterMidnight + 1
+	minutesAfterMidnight = minutesAfterMidnight + 1
 
-    local minutesNormalised = minutesAfterMidnight % (60 * 24)
-    local seconds = minutesNormalised * 60
-    local hours = string.format("%02.f", math.floor(seconds/3600))
-    local mins = string.format("%02.f", math.floor(seconds/60 - (hours*60)))
-    local secs = string.format("%02.f", math.floor(seconds - hours*3600 - mins *60))
-    local timeString = hours..":"..mins..":"..secs
+	local minutesNormalised = minutesAfterMidnight % (60 \* 24)
+	local seconds = minutesNormalised \* 60
+	local hours = string.format("%02.f", math.floor(seconds/3600))
+	local mins = string.format("%02.f", math.floor(seconds/60 - (hours\*60)))
+	local secs = string.format("%02.f", math.floor(seconds - hours\*3600 - mins \*60))
+	local timeString = hours..":"..mins..":"..secs
 
-    Lighting.TimeOfDay = timeString
+	Lighting.TimeOfDay = timeString
 
-    wait()
+	wait()
 end
-``` 
 
 Using [Lighting:SetMinutesAfterMidnight](https://developer.roblox.com/en-us/api-reference/function/Lighting/SetMinutesAfterMidnight) requires no extra processing:
 
-```lua
 minutesAfterMidnight = 0
 while true do
-    minutesAfterMidnight = minutesAfterMidnight + 1
+	minutesAfterMidnight = minutesAfterMidnight + 1
 
-    Lighting:SetMinutesAfterMidnight(minutesAfterMidnight)
+	Lighting:SetMinutesAfterMidnight(minutesAfterMidnight)
 
-    wait()
+	wait()
 end
-```

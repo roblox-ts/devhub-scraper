@@ -4,13 +4,11 @@ Larger values for this property will lead to the [Texture](https://developer.rob
 
 See the code snippet below for an example of how this property can be used.
 
-```lua
 local texture = Instance.new("Texture")
 texture.Texture = "http://www.roblox.com/asset/?id=732339893" -- roblox logo
 -- 1x1 studs repeating texture
 texture.StudsPerTileU = 1
 texture.StudsPerTileV = 1
-``` 
 
 Notes
 -----

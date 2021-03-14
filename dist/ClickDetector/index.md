@@ -6,15 +6,13 @@ The default control scripts bind the ButtonR2 [KeyCode](https://developer.roblox
 
 Below is a simple template script for working with ClickDetectors. Paste it into a [Script](https://developer.roblox.com/en-us/api-reference/class/Script) or a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 
-```lua
 local clickDetector = workspace.Part.ClickDetector
 
 function onMouseClick()
-    print("You clicked me!")
+	print("You clicked me!")
 end
 
 clickDetector.MouseClick:connect(onMouseClick)
-``` 
 
 [MaxActivationDistance](https://developer.roblox.com/en-us/api-reference/property/ClickDetector/MaxActivationDistance) can be used to limit the distance a player may be from a ClickDetector object before it is no longer clickable.
 

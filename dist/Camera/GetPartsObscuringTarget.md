@@ -10,11 +10,9 @@ See below for a visual example of this function. The [Camera](https://developer.
 
 The castPoints parameter is given as an array of [Vector3s](https://developer.roblox.com/en-us/api-reference/datatype/Vector3), for example:
 
-```lua
 local castPoints = {Vector3.new(0, 10, 0), Vector3.new(0, 15, 0)}
 local ignoreList = {}
 workspace.CurrentCamera:GetPartsObscuringTarget(castPoints, ignoreList)
-``` 
 
 The array of [BaseParts](https://developer.roblox.com/en-us/api-reference/class/BasePart) returned is in an arbitrary order, and no additional raycast data is provided (for example hit position, hit material and surface normal). If this information is required, you should a [Workspace](https://developer.roblox.com/en-us/api-reference/class/Workspace) raycast function such as `Workspace/FindPartOnRayWithIgnoreList`.
 

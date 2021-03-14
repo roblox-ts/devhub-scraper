@@ -3,16 +3,14 @@
 Example
 -------
 
-```lua
 local hd = Instance.new("HumanoidDescription")
 hd.EquippedEmotesChanged:Connect(function (equippedEmotes)
     print(("We have %d emotes equipped"):format(#equippedEmotes))
-    for _, t in pairs(equippedEmotes) do
+    for \_, t in pairs(equippedEmotes) do
         print(("In slot %d: emote %s is equipped"):format(t.Slot, t.Name))
     end
 end)
 hd:SetEquippedEmotes({"Salute", "Agree"}) --> We have 2 emotes equipped
-``` 
 
 See also
 --------

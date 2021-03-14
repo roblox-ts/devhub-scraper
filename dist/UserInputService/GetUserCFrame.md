@@ -2,12 +2,10 @@ The GetUserCFrame function returns a [CFrame](https://developer.roblox.com/en-us
 
 For example, the code snippet below prints the CFrame of the user's VR headset.
 
-```lua
 local userInputService = game:GetService("UserInputService")
 local cframe = userInputService:GetUserCFrame(Enum.UserCFrame.Head)
 
 print(cframe)
-``` 
 
 By using the function, players can implement features such as re-positioning the user's in-game character corresponding to the location of a connected VR device. This can be done by changing the _CFrame_ of the user's in-game body parts to match the _CFrame_ of the specified VR device using [UserCFrame](https://developer.roblox.com/en-us/api-reference/enum/UserCFrame) and [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) value arguments passed by the event.
 

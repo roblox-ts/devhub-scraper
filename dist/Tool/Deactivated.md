@@ -4,7 +4,6 @@ This function is used to perform an action when the player stops using a tool. F
 
 The below code, when placed in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript), would create a tool in the `Players/LocalPlayer|LocalPlayer's` [Backpack](https://developer.roblox.com/en-us/api-reference/class/Backpack). It will print “Tool deactivated” when the player releases the left mouse button, while the tool is equipped.
 
-```lua
 local tool = Instance.new("Tool")
 tool.RequiresHandle = false
 tool.Parent = game.Players.LocalPlayer.Backpack
@@ -14,4 +13,3 @@ function toolDeactivated()
 end
  
 tool.Deactivated:Connect(toolDeactivated)
-```

@@ -6,10 +6,8 @@ This is useful when you want to change how long it takes to respawn based on the
 
 Although this can be set from within a [Script](https://developer.roblox.com/en-us/api-reference/class/Script), you will likely set the property from within Studio via the Players service property window.
 
-```lua
 local Players = game:GetService(“Players”)
 Players.RespawnTime = 10.0
-``` 
 
 ### See also
 

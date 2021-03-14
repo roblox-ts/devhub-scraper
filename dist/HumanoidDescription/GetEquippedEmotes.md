@@ -3,15 +3,13 @@
 Example
 -------
 
-```lua
 local hd = Instance.new("HumanoidDescription")
 hd:SetEmotes{Salute = {3360689775}, Agree = {4849487550}}
 hd:SetEquippedEmotes({"Salute", "Agree"})
 -- Iterate over the equipped emotes:
-for _, t in pairs(hd:GetEquippedEmotes()) do
+for \_, t in pairs(hd:GetEquippedEmotes()) do
     print(("In slot %d: emote %s is equipped"):format(t.Slot, t.Name))
 end
-``` 
 
 See also
 --------

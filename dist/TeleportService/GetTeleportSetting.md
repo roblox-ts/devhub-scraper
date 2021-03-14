@@ -6,11 +6,9 @@ Teleport settings are preserved across teleportations within the same game. This
 
 For example, in a game that allowed crouching you could save whether the user is currently crouching prior to teleporting as a teleport setting. This could then be retrieved in the destination place after the teleportation:
 
-```lua
 local TeleportService = game:GetService("TeleportService")
 
 local isCrouching =  TeleportService:GetTeleportSetting("isCrouching")
-``` 
 
 If no teleport setting exists under the given key, this function will return _nil_.
 

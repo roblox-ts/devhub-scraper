@@ -4,12 +4,8 @@ This is useful when formatting URLs for use with [HttpService:GetAsync](https://
 
 For instance, when you encode the URL:
 
-```lua
 http://robloxdev.com/api-reference/function/HttpService/UrlEncode
-``` 
 
 the function returns the string:
 
-```lua
 http%3A%2F%2Frobloxdev%2Ecom%2Fapi%2Dreference%2Ffunction%2FHttpService%2FUrlEncode
-```

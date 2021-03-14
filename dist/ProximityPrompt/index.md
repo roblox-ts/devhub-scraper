@@ -3,11 +3,9 @@ The ProximityPrompt is an object that allows developers to prompt users to inter
 ProximityPrompts work when parented to a [Part](https://developer.roblox.com/en-us/api-reference/class/Part), [Model](https://developer.roblox.com/en-us/api-reference/class/Model), or [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment) in the workspace.  
 In order to detect when the user interacts with the object, listen for the Triggered event on the ProximityPrompt in either a [Script](https://developer.roblox.com/en-us/api-reference/class/Script) or [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript), as in this simple example:
 
-```lua
 workspace.Part.ProximityPrompt.Triggered:Connect(function(player)
     print("The user interacted with me!")
 end)
-``` 
 
 When a user is near, a UI will appear to prompt them for input. This works for all input types - keyboard, gamepad, and touchscreen.
 

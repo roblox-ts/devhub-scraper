@@ -2,44 +2,42 @@ This function returns the platform Avatar rules for things like scaling, default
 
 The returned table includes the following fields:
 
-```lua
 {
-  "PlayerAvatarTypes": [
+  "PlayerAvatarTypes": \[
     "R6"
-  ],
+  \],
   "Scales": {},
-  "WearableAssetTypes": [
+  "WearableAssetTypes": \[
     {
       "MaxNumber": 0,
       "Id": 0,
       "Name": "string"
     }
-  ],
-  "BodyColorsPalette": [
+  \],
+  "BodyColorsPalette": \[
     {
       "BrickColorId": 0,
       "NexColor": "string",
       "Name": "string"
     }
-  ],
-  "BasicBodyColorsPalette": [
+  \],
+  "BasicBodyColorsPalette": \[
     {
       "BrickColorId": 0,
       "HexColor": "string",
       "Name": "string"
     }
-  ],
+  \],
   "MinimumDeltaEBodyColorDifference": 0,
   "ProportionsAndBodyTypeEnabledForUser": true,
   "DefaultClothingAssetLists": {
-    "DefaultShirtAssetIds": [
+    "DefaultShirtAssetIds": \[
       0
-    ],
-    "DefaultPantAssetIds": [
+    \],
+    "DefaultPantAssetIds": \[
       0
-    ]
+    \]
   },
   "BundlesEnabledForUser": true,
   "EmotesEnabledForUser": true
 }
-```

@@ -4,8 +4,6 @@ Calling this function will cause the [Selection.SelectionChanged](https://develo
 
 Note this function overwrites the existing selection. However, using [Selection:Get](https://developer.roblox.com/en-us/api-reference/function/Selection/Get) an [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) can be added to the existing selection like so:
 
-```lua
 local selected = Selection:Get()
 table.insert(selected, object)
 Selection:Set(selected)
-```

@@ -6,7 +6,6 @@ The event can be used to track every time a player wants to jump. Instead of usi
 
 For example, the code below prints “Jump” every time the player sends a jump request.
 
-```lua
 local userInputService = game:GetService("UserInputService")
 
 function jumpRequest()
@@ -14,7 +13,6 @@ function jumpRequest()
 end
 
 userInputService.JumpRequest:Connect(JumpRequest)
-``` 
 
 Since this event fires multiple times for a single jump request, using a [debounce](https://developer.roblox.com/articles/Debounce) is suggested.
 

@@ -2,15 +2,13 @@ This function returns outfit data for the [Players.LocalPlayer](https://develope
 
 The returned table includes the following fields:
 
-```lua
-[
+\[
     {
       "Id": 0,
       "Name": "string",
       "IsEditable": true
     }
-]
-``` 
+\]
 
 Name
 

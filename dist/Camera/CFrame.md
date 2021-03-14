@@ -19,12 +19,10 @@ Like all [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFra
 
 The most intuitive way to position and orientate the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) is by using the _new_ CFrame constructor with the _pos_ and _lookAt_ parameters, for example:
 
-```lua
 local pos = Vector3.new(0, 10, 0)
 local lookAt = Vector3.new(10, 0, 0)
 local cameraCFrame = CFrame.new(pos, lookAt)
 workspace.CurrentCamera.CFrame = cameraCFrame
-``` 
 
 In the above example the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) is positioned at _Vector3.new(0, 10, 0)_ and oriented to be looking towards _Vector3.new(10, 0, 0)_.
 

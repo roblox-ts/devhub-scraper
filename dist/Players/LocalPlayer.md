@@ -4,8 +4,7 @@ This property is only defined for [LocalScript](https://developer.roblox.com/en-
 
 This property is useful in [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript)s which display information about the player viewing a GUI. Using For example, if there were [IntValue](https://developer.roblox.com/en-us/api-reference/class/IntValue) parented to a [Player](https://developer.roblox.com/en-us/api-reference/class/Player) named “Coins” which represented how much money that player has, you could use the following to display this value for them:
 
-```lua
--- This code is appropriate for a LocalScript in StarterGui,
+\-- This code is appropriate for a LocalScript in StarterGui,
 -- for example: game.StarterGui.ScreenGui.TextLabel.LocalScript
 
 local player = game:GetService("Players").LocalPlayer
@@ -20,17 +19,14 @@ end
 -- Update once, then every time the value changes
 update()
 vCoins.Changed:Connect(update)
-``` 
 
 Loading GUIs
 ------------
 
 When creating loading GUIs using [ReplicatedFirst](https://developer.roblox.com/en-us/api-reference/class/ReplicatedFirst), sometimes a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript) can run before the LocalPlayer is available. In this case, you should yield until it becomes available by using [Instance:GetPropertyChangedSignal](https://developer.roblox.com/en-us/api-reference/function/Instance/GetPropertyChangedSignal)
 
-```lua
 local Players = game:GetService("Players")
 -- Below: access Players.LocalPlayer; if it is nil, we'll wait for it using GetPropertyChangedSignal.
 local player = Players.LocalPlayer or Players:GetPropertyChangedSignal("LocalPlayer"):wait()
-``` 
 
 Doing this isn't for a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript) within [StarterGui](https://developer.roblox.com/en-us/api-reference/class/StarterGui), [StarterPlayerScripts](https://developer.roblox.com/en-us/api-reference/class/StarterPlayerScripts) or [StarterCharacterScripts](https://developer.roblox.com/en-us/api-reference/class/StarterCharacterScripts): these scripts can only run after a [Player](https://developer.roblox.com/en-us/api-reference/class/Player) object is already available, and LocalPlayer will have been set by then.

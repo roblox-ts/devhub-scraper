@@ -46,14 +46,12 @@ Enum.KeyCode.DPadDown<
 
 This can be used to check whether a specific button, such as A, is being held down. For example:
 
-```lua
 local UserInputService = game:GetService("UserInputService")
 
 local button = Enum.KeyCode.ButtonA
 local gamepad = Enum.UserInputType.Gamepad1
 
 local isButtonHeld = UserInputService:IsGamepadButtonDown(gamepad, button)
-``` 
 
 Since [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService) is client-side only, this function can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 

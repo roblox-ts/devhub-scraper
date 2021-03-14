@@ -2,6 +2,4 @@ The games uses this function is to create the [Players.LocalPlayer](https://deve
 
 Although you cannot create the LocalPlayer, you can reference the LocalPlayer created by a game using the following code in a LocalScript:
 
- ```lua
-local player = game.Players.LocalPlayer
-```
+	local player = game.Players.LocalPlayer

@@ -2,10 +2,8 @@ This function allows developers to enable or disable default Inspect and Buy fun
 
 The code sample below demonstrates how to disable the Inspect Menu for your game:
 
-```lua
 local GuiService = game:GetService("GuiService")
 GuiService:SetInspectMenuEnabled(false)
-``` 
 
 See also
 --------

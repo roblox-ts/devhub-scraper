@@ -23,18 +23,16 @@ Warning
 
 This event fires with the descendant object that is being removed. Attempting to set the [Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) of the descendant being removed to something else **will fail** with the following warning: “Something unexpectedly tried to set the parent of X to Y while trying to set the parent of X. Current parent is Z”, where X is the removing descendant, Y is the ignored parent setting, and Z is the original parent of X. Below is an example that demonstrates this:
 
-```lua
 workspace.DescendantRemoving:Connect(function(descendant)
-    -- Don't manipulate the parent of descendant in this function!
-    -- This event fires BECAUSE the parent of descendant was manipulated,
-    -- and the change hasn't happened yet, i.e. this function fires before that happens.
-    -- Therefore, it is problematic to change the parent like this:
-    descendant.Parent = game
+	-- Don't manipulate the parent of descendant in this function!
+	-- This event fires BECAUSE the parent of descendant was manipulated,
+	-- and the change hasn't happened yet, i.e. this function fires before that happens.
+	-- Therefore, it is problematic to change the parent like this:
+	descendant.Parent = game
 end)
 local part = Instance.new("Part")
 part.Parent = workspace
 part.Parent = nil -- This triggers DescendantRemoving on Workspace:
---&gt; Something unexpectedly tried to set the parent of Part to NULL while trying to set the parent of Part. Current parent is Workspace.
-``` 
+--&gt; Something unexpectedly tried to set the parent of Part to NULL while trying to set the parent of Part. Current parent is Workspace. 
 
 See also [DescendantAdded](https://developer.roblox.com/en-us/api-reference/event/Instance/DescendantAdded).

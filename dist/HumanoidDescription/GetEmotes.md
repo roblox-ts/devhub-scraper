@@ -3,17 +3,15 @@
 Example
 -------
 
-```lua
 local hd = Instance.new("HumanoidDescription")
 hd:AddEmote("Salute", 3360689775)
 local emotes = hd:GetEmotes()
 for name, ids in pairs(emotes) do
     print(("The emote %s has %d ids:"):format(name, #ids))
-    for _, id in pairs(ids) do
+    for \_, id in pairs(ids) do
         print(id)
     end
 end
-``` 
 
 See also
 --------

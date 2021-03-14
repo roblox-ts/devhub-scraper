@@ -2,9 +2,7 @@ This function sets the attribute with the given name to the given value. If the 
 
 For example, the following code snippet will set the instance's `InitialPosition` attribute to `DataType/Vector3|Vector3.new(0, 0, 0)`. Note that this code sample does not define `instance`:
 
-```lua
 instance:SetAttribute("InitialPosition", Vector3.new(0, 0, 0))
-``` 
 
 Limitations
 -----------

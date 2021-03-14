@@ -8,8 +8,6 @@ For more information on using Selection and [Plugin](https://developer.roblox.co
 
 Selection is also often used in the command bar, to set hidden properties or run functions for selected [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance)s. For example:
 
-```lua
-game.Selection:Get()[1]:SetPrimaryPartCFrame(CFrame.new()) -- move the selected model to the origin
-``` 
+game.Selection:Get()\[1\]:SetPrimaryPartCFrame(CFrame.new()) -- move the selected model to the origin
 
 Note this class only applies to Roblox Studio and has no applicability to games.

@@ -4,9 +4,7 @@ This property should be used in situations where [Decal.Transparency](https://de
 
 When LocalTransparencyModifier is set to 1, the [Decal](https://developer.roblox.com/en-us/api-reference/class/Decal) will be completely invisible regardless of its original transparency. When it is set to 0, the [Decal](https://developer.roblox.com/en-us/api-reference/class/Decal)s rendered transparency will match the [Decal.Transparency](https://developer.roblox.com/en-us/api-reference/property/Decal/Transparency) value. The formula for this is:
 
-```lua
-Displayed Transparency = Transparency + ((1 - Transparency) * LocalTransparencyModifier)
-``` 
+Displayed Transparency = Transparency + ((1 - Transparency) \* LocalTransparencyModifier)
 
 Note, this property should be used on the client only and will not replicate to the server.
 

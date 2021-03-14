@@ -4,15 +4,13 @@ If you want to set a navigation gamepad, you can use [UserInputService:SetNaviga
 
 For example, the code below checks if the gamepad1 is as a navigation gamepad:
 
-```lua
 local userInputService = game:GetService("UserInputService")
 
 if (userInputService:IsNavigationGamepad(UserInputType.Gamepad1) then
-    print("Gamepad is a navigation gamepad!")
+	print("Gamepad is a navigation gamepad!")
 else
-    print("Gamepad is not a navigation gamepad!")
+	print("Gamepad is not a navigation gamepad!")
 end
-``` 
 
 A list of all connected gamepads, regardless of navigation can be retrieved using\`UserInput/GetConnectedGamepads.
 

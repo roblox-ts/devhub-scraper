@@ -1,14 +1,12 @@
 This property describes whether the device being used by a user has an available gamepad.
 
-```lua
 local userInputService = game:GetService("UserInputService")
 
 if userInputService.GamepadEnabled then
-    print("Gamepad enabled")
+	print("Gamepad enabled")
 else
-    print("Gamepad not enabled")
+	print("Gamepad not enabled")
 end
-``` 
 
 If gamepads are available, you can use [UserInputService:GetConnectedGamepads](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetConnectedGamepads) to retrieve a list of connected gamepads and [UserInputService:GetNavigationGamepads](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetNavigationGamepads) to retrieve a list of connected gamepads that also controlnavigation GUIs.
 

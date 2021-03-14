@@ -25,9 +25,7 @@ When InverseSquareLaw is false, which is is by default, the force applied is con
 
 When InverseSquareLaw is true, then the force will scale based on how much distance there is between the two endpoints. When the distance is 1 stud, then the force's magnitude will be the value of the Magnitude property. If the two points are further away, the force will decrease. Conversely, the force will increase if the two points move closer together. This function can be used to determine the force at any given separation:
 
-```lua
 ActualMagnitude = Magnitude / (Separation ^ 2)
-``` 
 
 **Tip**  
 

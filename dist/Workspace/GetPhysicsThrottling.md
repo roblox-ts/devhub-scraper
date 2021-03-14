@@ -18,13 +18,11 @@ Demonstrating physics throttling
 
 Developers should always avoid creating places that overload the physics engine, as it leads to sub-par experience for players. Those wishing to simulate physics throttling for research purposes however, need only create a lot of [Part](https://developer.roblox.com/en-us/api-reference/class/Part)s very quickly.
 
-```lua
 local i = 0
 while true do
-    i = i + 1
-    if i % 5 == 0 then
-        wait()
-    end
-    local part = Instance.new("Part", workspace)
+	i = i + 1
+	if i % 5 == 0 then
+		wait()
+	end
+	local part = Instance.new("Part", workspace)
 end
-```

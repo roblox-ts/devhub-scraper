@@ -2,11 +2,9 @@ This function returns whether the user is holding down the key associated with t
 
 This can be used to check if a specific key, such as the space bar, is being pressed. For example:
 
-```lua
 local UserInputService = game:GetService("UserInputService")
 
 local spaceHeld = UserInputService:IsKeyDown(Enum.KeyCode.Space)
-``` 
 
 To retrieve a list of all keys pressed by the user, use the [UserInputService:GetKeysPressed](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetKeysPressed) function.
 

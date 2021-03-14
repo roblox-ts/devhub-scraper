@@ -4,9 +4,7 @@ As this function accounts for the GUI inset, the offset applied to GUI elements 
 
 As the [Ray](https://developer.roblox.com/en-us/api-reference/datatype/Ray) created is a unit ray it is only one stud long. To create a longer ray, you can do the following:
 
-```lua
 local camera = workspace.CurrentCamera
 local length = 500
 local unitRay = camera:ScreenPointToRay(100, 100)
-local ray = Ray.new(unitRay.Origin, unitRay.Direction * length)
-```
+local ray = Ray.new(unitRay.Origin, unitRay.Direction \* length)

@@ -3,14 +3,12 @@
 Example
 -------
 
-```lua
 local hd = Instance.new("HumanoidDescription")
 hd:SetEmotes{Salute = {3360689775}, Agree = {4849487550}}
 -- Can provide either an array of strings... (index is slot number)
 hd:SetEquippedEmotes({"Salute", "Agree"})
 -- ...or an array of tables as returned by GetEquippedEmotes (Slot and Name keys set)
 hd:SetEquippedEmotes({{Slot = 1, Name = "Salute"}, {Slot = 2, Name = "Agree"}})
-``` 
 
 See also
 --------

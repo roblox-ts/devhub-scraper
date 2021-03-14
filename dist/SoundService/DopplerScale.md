@@ -4,12 +4,10 @@ The Doppler effect describes a phenomenon whereby the pitch of a sound changes a
 
 Increasing this value exaggerates the impact of the Doppler effect, whereas decreasing it minimizes it. By default, the value of this property is 1.
 
-```lua
 local SoundService = game:GetService("SoundService")
 SoundService.DopplerScale = 1 -- default 
 SoundService.DopplerScale = 2 -- exaggerated Doppler effect
 SoundService.DopplerEffect = 0.5 -- subdued Doppler effect
-``` 
 
 Note the Doppler effect has no impact on 2D [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound)s, ([Sound](https://developer.roblox.com/en-us/api-reference/class/Sound)s not parented to a [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) or [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment)).
 

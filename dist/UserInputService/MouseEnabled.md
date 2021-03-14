@@ -1,6 +1,5 @@
 This property describes whether the user's device has a mouse available. This property is _true_ when the user's device has an available mouse, and _false_ when it does not.
 
-```lua
 local UserInputService = game:GetService("UserInputService")
 
 if (UserInputService.MouseEnabled) then
@@ -8,7 +7,6 @@ if (UserInputService.MouseEnabled) then
 else
     print("The user's device does not have an available mouse!")
 end
-``` 
 
 It is important to check this before using [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService) mouse functions such as [UserInputService:GetMouseLocation](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetMouseLocation).
 

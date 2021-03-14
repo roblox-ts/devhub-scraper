@@ -2,10 +2,8 @@ The LocalTransparencyModifier property is a multiplier to [BasePart.Transparency
 
 The property modifies the local part's transparency increases a part's transparency on a scale from 0 to 1 using the following formula:
 
- ```lua
--- Calculate the part's client-side transparency. Values greater than 1 round down to 1.
-    local clientTransparency = part.Transparency + (1 * part.localTransparencyModifier)
-``` 
+	-- Calculate the part's client-side transparency. Values greater than 1 round down to 1.
+	local clientTransparency = part.Transparency + (1 \* part.localTransparencyModifier)
 
 Take a look at the table below for an example of how this property affect's a part's client-side transparency:
 

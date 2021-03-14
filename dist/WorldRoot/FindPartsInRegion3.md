@@ -4,12 +4,10 @@ This function takes an optional maxParts parameter (default 20) which limits the
 
 The optional ignoreDescendentsInstance parameter can be used to specify a specific instance for whom itself and all of its descendants should be ignored by this function. This can be useful when, for example, looking to see if any [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart)s are inside a [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) other than the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) itself.
 
-```lua
-local min = part.Position - (0.5 * part.Size)
-local max = part.Position + (0.5 * part.Size)
+local min = part.Position - (0.5 \* part.Size)
+local max = part.Position + (0.5 \* part.Size)
 local region = Region3.new(min, max)
 local parts = workspace:FindPartsInRegion3(region, part) --  ignore part
-``` 
 
 Variants of this function exist with ignore-list and white-list functionality, `Workspace/FindPartsInRegion3WithIgnoreList` and `Workspace/FindPartsInRegion3WithWhiteList`.
 

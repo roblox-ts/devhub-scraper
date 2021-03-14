@@ -2,7 +2,6 @@ This function returns the _teleportData_ the [Players.LocalPlayer](https://devel
 
 For example, the following snippet would send the [DataModel.PlaceId](https://developer.roblox.com/en-us/api-reference/property/DataModel/PlaceId) and [DataModel.JobId](https://developer.roblox.com/en-us/api-reference/property/DataModel/JobId) in a dictionary:
 
-```lua
 local Players = game:GetService("Players")
 
 local player = Players.LocalPlayer
@@ -11,11 +10,9 @@ local teleportData = {
     jobId = game.JobId
 }
 TeleportService:Teleport(placeId, player, teleportData)
-``` 
 
 This data could then be retrieved upon arrival using the GetLocalPlayerTeleportData function as follows:
 
-```lua
 local TeleportService = game:GetService("TeleportService")
 
 local teleportData = TeleportService:GetLocalPlayerTeleportData()
@@ -23,7 +20,6 @@ if teleportData then
     local placeId = teleportData.placeId
     local jobId = teleportData.JobId
 end)
-``` 
 
 If no _teleportData_ was set in the teleportation function this function will return _nil_.
 

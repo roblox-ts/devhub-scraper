@@ -14,17 +14,15 @@ The CameraSubject cannot be set to _nil_. If it is, it will revert to its previo
 
 To restore the CameraSubject to its default value, set it to the `Player/LocalPlayer|LocalPlayer's` [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) like so:
 
-```lua
 local Players = game:GetService("Players")
 
 local localPlayer = Players.LocalPlayer
 
 local function resetCameraSubject()
-    if workspace.CurrentCamera and localPlayer.Character then
-        local humanoid = localPlayer.Character:FindFirstChildOfClass("Humanoid")
-        if humanoid then
-            workspace.CurrentCamera.CameraSubject = humanoid
-        end
-    end
+	if workspace.CurrentCamera and localPlayer.Character then
+		local humanoid = localPlayer.Character:FindFirstChildOfClass("Humanoid")
+		if humanoid then
+			workspace.CurrentCamera.CameraSubject = humanoid
+		end
+	end
 end
-```

@@ -9,8 +9,6 @@ GraphicsQualityChangeRequest does not provide the current graphics quality level
 
 You can retrieve a user's [SavedQualitySetting](https://developer.roblox.com/en-us/api-reference/enum/SavedQualitySetting) using [UserGameSettings](https://developer.roblox.com/en-us/api-reference/class/UserGameSettings) with the following snippet:
 
-```lua
 UserSettings():GetService("UserGameSettings").SavedQualityLevel
-``` 
 
 If the user's graphics settings are set to automatic then the [SavedQualitySetting](https://developer.roblox.com/en-us/api-reference/enum/SavedQualitySetting) will be _'Automatic'_. There is currently no way for developers to reliably get the current graphics quality level of a user's machine.

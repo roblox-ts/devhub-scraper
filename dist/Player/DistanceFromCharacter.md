@@ -5,6 +5,4 @@ This is useful when determining the distance between a player and another object
 ##Note  
 If you would like to determine the distance between two non-player instances or positions, you can use the following:
 
-```lua
 local distance = (position1 - position2).magnitude
-```

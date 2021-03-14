@@ -2,13 +2,11 @@ The TouchRotate event fires when a user rotates two fingers on a [TouchEnabled](
 
 For example, the following code prints how much the camera has rotated since the beginning of the touch rotation.
 
-```lua
 local UserInputService = game:GetService("UserInputService")
 
 UserInputService.TouchRotate:Connect(function(touchPositions, rotation, velocity, state, gameProcessedEvent)
-    print("Camera has rotated "..tostring(rotation).." degrees!")
+	print("Camera has rotated "..tostring(rotation).." degrees!")
 end)
-``` 
 
 To check if a user's device is TouchEnabled, and that touch events will fire, see [UserInputService.TouchEnabled](https://developer.roblox.com/en-us/api-reference/property/UserInputService/TouchEnabled).
 

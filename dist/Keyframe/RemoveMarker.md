@@ -1,4 +1,4 @@
-This function removes a [KeyframeMarker](https://developer.roblox.com/en-us/api-reference/class/KeyframeMarker) from the [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe)by settings its [Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) to nil.
+This function removes a [KeyframeMarker](https://developer.roblox.com/en-us/api-reference/class/KeyframeMarker) from the [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe) by settings its [Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) to nil.
 
 The KeyframeMarker's Instance.Parent is set to nil but it is not destroyed. This means, provided the marker is referenced it can be re-parented later.
 

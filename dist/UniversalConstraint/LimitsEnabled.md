@@ -2,6 +2,4 @@ This property, when enabled, limits the relative angular motion of the primary a
 
 The example below demonstrates how developers can enable a cone limit on the relative motion of the primary axes:
 
-```lua
 universalConstraint.LimitsEnabled = true
-```

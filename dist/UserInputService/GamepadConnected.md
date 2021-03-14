@@ -4,15 +4,13 @@ Since a Roblox game supports multiple controllers, this event is useful when pai
 
 The following example demonstrates a usage example of a tracking when a gamepad is connected to the client.
 
-```lua
 local userInputService = game:GetService("UserInputService")
 
 local function GamepadConnected(gamepad)
-    print("Player has plugged controller: " .. tostring(gamepad))
+	print("Player has plugged controller: " .. tostring(gamepad))
 end)
 
 userInputService.GamepadConnected:Connect(GamepadDisconnected)
-``` 
 
 If you want to see which devices are connected, you can use the [UserInputService:GetConnectedGamepads](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetConnectedGamepads) function.
 

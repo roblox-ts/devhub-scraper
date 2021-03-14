@@ -7,7 +7,6 @@ Accessing StarterGear
 
 Listening to the [Players.PlayerAdded](https://developer.roblox.com/en-us/api-reference/event/Players/PlayerAdded) event is useful for
 
-```lua
 local Players = game:GetService("Players")
 
 local toolExamplePrefab = Instance.new("Tool")
@@ -15,15 +14,14 @@ toolExamplePrefab.Name = "Example Tool"
 
 -- Accessing StarterGear from Server Script
 local function onPlayerAdded(player)
-    -- Wait for the StarterGear to be added
-    local starterGear = player:WaitForChild("StarterGear")
-    -- Add a Tool to the StarterGear
-    local toolExample = toolExamplePrefab:Clone()
-    toolExample.Parent = starterGear
+	-- Wait for the StarterGear to be added
+	local starterGear = player:WaitForChild("StarterGear")
+	-- Add a Tool to the StarterGear
+	local toolExample = toolExamplePrefab:Clone()
+	toolExample.Parent = starterGear
 end
 
 Players.PlayerAdded:connect(onPlayerAdded)
-``` 
 
 Allowing Gear
 -------------

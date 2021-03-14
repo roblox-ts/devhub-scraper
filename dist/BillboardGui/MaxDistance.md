@@ -5,8 +5,7 @@ If this value is set to less than or equal to 0 then the maximum distance will b
 Example
 -------
 
-```lua
--- Wait for default camera/control scripts to load
+\-- Wait for default camera/control scripts to load
 wait(5)
 
 -- Declare and initialize objects
@@ -44,4 +43,3 @@ camera.CFrame = CFrame.new(cameraPosition0, part.Position)
 wait(2)
 camera.CFrame = CFrame.new(cameraPosition1, part.Position)
 -- Contents of billboard will no longer be visible (outside MaxDistance)
-```

@@ -10,27 +10,21 @@ Beyond creating a bit of a mess, objects that are no longer required can use up 
 
 Take the example of projectile that has just been thrown. It could be cleaned up using:
 
-```lua
 wait(3)
 projectile:Destroy()
-``` 
 
 However there are a number of issues with this approach. Firstly, it requires yielding the code with a wait, which is not always desirable. Secondly, before the 3 seconds have elapsed the object may have already been destroyed (for example, if it reached [Workspace.FallenPartsDestroyHeight](https://developer.roblox.com/en-us/api-reference/property/Workspace/FallenPartsDestroyHeight)).
 
-```lua
 delay(3, function()
-    if projectile and projectile.Parent then
-        projectile:Destroy()
-    end
+	if projectile and projectile.Parent then
+		projectile:Destroy()
+	end
 end)
-``` 
 
 This solves the above issues, as it spawns a new thread to prevent the current one from yielding and checks to see if it can be destroyed. However at this point a simple command has already become quite complicated and an unnecessary thread is being created.
 
 This is where Debris comes in, and the following code addresses all of the above issues.
 
-```lua
 Debris:AddItem(projectile, 3)
-``` 
 
 Debris does not yield the current thread, does not require a new thread and will not error if the object is already destroyed. For this reason it is the recommended method for cleaning up objects with a fixed lifetime.

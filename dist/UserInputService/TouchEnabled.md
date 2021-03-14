@@ -4,15 +4,13 @@ The property is used to determine if the user's device has a touch screen, and t
 
 The code snippet below prints whether the user's device has a touch screen.
 
-```lua
 local userInputService = game:GetService("UserInputService")
 
 if userInputService.TouchEnabled then
-    print("The user's device has a touchscreen!")
+	print("The user's device has a touchscreen!")
 else
-    print("The user's device does not have a touchscreen!")
+	print("The user's device does not have a touchscreen!")
 end
-``` 
 
 See [this](https://developer.roblox.com/learn-roblox/cross-platform) page for articles on cross-platform development.
 

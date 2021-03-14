@@ -2,9 +2,7 @@ This property indicates [CFrame](https://developer.roblox.com/en-us/api-referenc
 
 Developers can get obtain the position of Hit like so:
 
-```lua
 local position = mouse.Hit.p
-``` 
 
 Hit is often used by [Tool](https://developer.roblox.com/en-us/api-reference/class/Tool)s to fire a weapon towards the mouse in third person.
 
@@ -17,12 +15,10 @@ The position of the Hit CFrame is calculated as the point of intersection betwee
 
 The orientation of the Hit CFrame corresponds with the direction of the [Mouse.UnitRay](https://developer.roblox.com/en-us/api-reference/property/Mouse/UnitRay).
 
-```lua
 local unitRayDirection = mouse.UnitRay.Direction
 local mouseHitDirection = mouse.Hit.lookVector
 -- unitRayDirection ≈ mouseHitDirection
 -- the vectors are approximately equal
-``` 
 
 Note, the roll of the [Workspace.CurrentCamera](https://developer.roblox.com/en-us/api-reference/property/Workspace/CurrentCamera) is not used when calculating the orientation of the Hit [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame).
 

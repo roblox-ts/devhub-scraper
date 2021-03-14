@@ -9,7 +9,5 @@ Example
 
 The following code sample creates a basic toolbar with one button. It should be run as a Roblox Studio plugin, and not run as a [Script](https://developer.roblox.com/en-us/api-reference/class/Script).
 
-```lua
 local toolbar = plugin:CreateToolbar("Three Wise Monkeys")
 local button = toolbar:CreateButton("Mizaru", "See No Evil", "rbxassetid://2778270261")
-```

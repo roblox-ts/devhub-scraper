@@ -1,21 +1,19 @@
 **FindPartOnRay** uses [raycasting](https://developer.roblox.com/articles/Raycasting) to find the first [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) or [Terrain](https://developer.roblox.com/en-us/api-reference/class/Terrain) cell intersecting with a given [Ray](https://developer.roblox.com/en-us/api-reference/datatype/Ray). This function returns the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) or terrain cell hit, the point of intersection, the surface normal at the point of intersection, and the associated [Material](https://developer.roblox.com/en-us/api-reference/enum/Material) hit.
 
-```lua
 local character = game.Players.LocalPlayer.Character
 -- Get the head
 local head = character:FindFirstChild("Head")
 -- Build a ray in the direction the head is facing
 local origin = head.Position
 local lookDirection = head.CFrame.LookVector
-local ray = Ray.new(origin, lookDirection * 500)
+local ray = Ray.new(origin, lookDirection \* 500)
 -- Raycast, ignoring the player's character
 local hitPart, hitPosition = workspace:FindPartOnRay(ray, character)
 if hitPart then
-    print("Hit part: " .. hitPart:GetFullName())
+	print("Hit part: " .. hitPart:GetFullName())
 else
-    print("Did not hit part")
+	print("Did not hit part")
 end
-``` 
 
 If the `ignoreDescendantsInstance` parameter is provided, the raycasting calculation will ignore the given object and all of its descendants. It behaves similar to the [Mouse.TargetFilter](https://developer.roblox.com/en-us/api-reference/property/Mouse/TargetFilter) property.
 

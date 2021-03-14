@@ -2,10 +2,8 @@ This property describes the size of the on-screen keyboard in pixels. The keyboa
 
 The code snippet below prints the size of the keyboard.
 
-```lua
 local userInputService = game:GetService("UserInputService")
 print(userInputService.OnScreenKeyboardSize)
-``` 
 
 As [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService) is client-side only, this property can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 

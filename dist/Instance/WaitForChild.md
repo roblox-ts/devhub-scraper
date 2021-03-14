@@ -9,28 +9,22 @@ WaitForChild is extremely important when working on code ran by the client (in a
 
 For example, a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript) may access a [Model](https://developer.roblox.com/en-us/api-reference/class/Model) in the [Workspace](https://developer.roblox.com/en-us/api-reference/class/Workspace) called 'Ship' like so:
 
-```lua
 local ship = workspace.Ship
 -- Will error if ship hasn't replicated
-``` 
 
 However if the model 'Ship' has not replicated to the client when this code is ran an error will be returned breaking the [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 
 Another alternative is using [Instance:FindFirstChild](https://developer.roblox.com/en-us/api-reference/function/Instance/FindFirstChild). Not only is this good practice when indexing objects in the [DataModel](https://developer.roblox.com/en-us/api-reference/class/DataModel) (as it avoids accidentally accessing properties) but it does not break if the object does not exist. For example:
 
-```lua
 local ship = workspace:FindFirstChild("Ship")
 -- Won't error, but ship will be nil if the ship hasn't replicated
-``` 
 
 Here, if the model doesn't exist the code will not error. Instead the value ship will be equal to nil. This is better, but still not much good if we want to use the ship model.
 
 Instead WaitForChild should be used:
 
-```lua
 local ship = workspace:WaitForChild("Ship")
 -- Will wait until the ship has replicated before continuing
-``` 
 
 Here, the thread will be yielded until the ship model has been found. This means the ship model can be used as soon as it is ready.
 

@@ -9,16 +9,12 @@ Configurations should hold value objects ([BrickColorValue](https://developer.ro
 
 For example,
 
-```lua
-local damage = 10
-``` 
+local damage = 10 
 
 Becomes:
 
-```lua
 local configuration = tool:FindFirstChildWhichIsA("Configuration", true)
 damage = configuration:FindFirstChild("Damage").Value -- A NumberValue
-``` 
 
 The Configuration object is intended to be placed inside a [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) in a [Model](https://developer.roblox.com/en-us/api-reference/class/Model) or [Tool](https://developer.roblox.com/en-us/api-reference/class/Tool). It was originally intended to be used with a tool that provided a GUI interface to edit these properties. However it is more common now for developers to edit these values directly in the Roblox Studio properties window.
 

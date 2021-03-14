@@ -2,9 +2,7 @@ Returns true if the game has the PGS Physics solver enabled.
 
 The PGS Physics solver was previously called the 'Experimental' solver, before becoming Roblox's default server. This function returns the same result as `Workspace:PGSIsEnabled`.
 
-```lua
 print(workspace:PGSIsEnabled() == workspace:ExperimentalSolverIsEnabled()) -- true
-``` 
 
 This function can only be used by plugins and the command bar.
 

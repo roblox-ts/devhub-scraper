@@ -2,13 +2,11 @@ This function returns, in radians, the current roll applied to the [Camera](http
 
 This function only returns roll applied using the [Camera:SetRoll](https://developer.roblox.com/en-us/api-reference/function/Camera/SetRoll) function. Roll manually applied to the `Camera|Camera's` [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) is not accounted for. To obtain the actual roll of the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera), including roll manually applied, you can use the following snippet:
 
-```lua
 local function getActualRoll()
-    local camera = workspace.CurrentCamera
+	local camera = workspace.CurrentCamera
 
-    local trueUp = Vector3.new(0, 1, 0)
-    local cameraUp = camera:GetRenderCFrame().upVector
+	local trueUp = Vector3.new(0, 1, 0)
+	local cameraUp = camera:GetRenderCFrame().upVector
 
-    return math.acos(trueUp:Dot(cameraUp))
+	return math.acos(trueUp:Dot(cameraUp))
 end
-```

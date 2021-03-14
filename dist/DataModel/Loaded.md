@@ -4,11 +4,9 @@ The Loaded event fires when all initial [Instances](https://developer.roblox.com
 
 Unless they are parented to [ReplicatedFirst](https://developer.roblox.com/en-us/api-reference/class/ReplicatedFirst), [LocalScripts](https://developer.roblox.com/en-us/api-reference/class/LocalScript) will not run prior to this event firing. The following snippet, ran from a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript) in [ReplicatedFirst](https://developer.roblox.com/en-us/api-reference/class/ReplicatedFirst), will yield until the game has loaded:
 
-```lua
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
-``` 
 
 See also
 --------

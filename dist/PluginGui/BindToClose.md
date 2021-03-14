@@ -4,40 +4,36 @@ By default, when the user clicks the 'x' button in the top right corner of the [
 
 As the default closing behavior is overwritten by this function, you'll need to configure the [PluginGui](https://developer.roblox.com/en-us/api-reference/class/PluginGui) to close manually by setting `LayerCollector/Enabled|PluginGui.Enabled` to _false_. For example, in the below snippet users are required to click a confirm button to close the GUI:
 
-```lua
 local closing = false
 pluginGui:BindToClose(function()
-    -- make sure we haven't already made a button
-    if closing then
-        return
-    end
-    closing = true
+	-- make sure we haven't already made a button
+	if closing then
+		return
+	end
+	closing = true
 
-    -- create confirm button
-    local confirmButton = Instance.new("TextButton")
-    confirmButton.AnchorPoint = Vector2.new(0.5, 0.5)
-    confirmButton.Size = UDim2.new(0.5, 0, 0.5, 0)
-    confirmButton.Position = UDim2.new(0.5, 0, 0.5, 0)
-    confirmButton.BackgroundColor3 = Color3.new(1, 0, 0)
-    confirmButton.Text = "Close?"
-    confirmButton.Parent = pluginGui
+	-- create confirm button
+	local confirmButton = Instance.new("TextButton")
+	confirmButton.AnchorPoint = Vector2.new(0.5, 0.5)
+	confirmButton.Size = UDim2.new(0.5, 0, 0.5, 0)
+	confirmButton.Position = UDim2.new(0.5, 0, 0.5, 0)
+	confirmButton.BackgroundColor3 = Color3.new(1, 0, 0)
+	confirmButton.Text = "Close?"
+	confirmButton.Parent = pluginGui
 
-    -- listen for click
-    confirmButton.Activated:Connect(function()
-        -- close the gui
-        pluginGui.Enabled = false
-    
-        -- remove confirm button
-        confirmButton:Destroy()
-    end)
+	-- listen for click
+	confirmButton.Activated:Connect(function()
+		-- close the gui
+		pluginGui.Enabled = false
+	
+		-- remove confirm button
+		confirmButton:Destroy()
+	end)
 end)
-``` 
 
 You can call BindToClose with no argument to 'unbind' and revert to the default behavior described above. For example:
 
-```lua
 pluginGui:BindToClose()
-``` 
 
 See also
 --------

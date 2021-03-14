@@ -2,10 +2,8 @@ Fires when the [Sound](https://developer.roblox.com/en-us/api-reference/class/So
 
 This event is often used to destroy a sound when it has completed playback.
 
-```lua
 sound:Play()
 sound.Ended:Wait()
 sound:Destroy()
-``` 
 
 This event only fires if the sound has reached its end. This means it will also not fire when the sound is stopped before playback has completed, for this use [Sound.Stopped](https://developer.roblox.com/en-us/api-reference/event/Sound/Stopped).

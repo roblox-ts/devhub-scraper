@@ -2,7 +2,6 @@ This function returns the item details for the given item. It accepts two parame
 
 Data returned in the format:
 
-```lua
 {
   "IsForRent": true,
   "ExpectedSellerId": 0,
@@ -15,23 +14,23 @@ Data returned in the format:
   "Name": "string",
   "Description": "string",
   "ProductId": 0,
-  "Genres": [
+  "Genres": \[
     "All"
-  ],
-  "BundledItems": [
+  \],
+  "BundledItems": \[
     {
       "Owned": true,
       "Id": 0,
       "Name": "string",
       "Type": "string"
     }
-  ],
-  "ItemStatus": [
+  \],
+  "ItemStatus": \[
     "New"
-  ],
-  "ItemRestrictions": [
+  \],
+  "ItemRestrictions": \[
     "ThirteenPlus"
-  ],
+  \],
   "CreatorType": "User",
   "CreatorTargetId": 0,
   "CreatorName": "string",
@@ -46,4 +45,3 @@ Data returned in the format:
   "PurchaseCount": 0,
   "FavoriteCount": 0
 }
-```

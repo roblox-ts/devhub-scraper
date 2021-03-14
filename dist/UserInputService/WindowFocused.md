@@ -2,13 +2,11 @@ The [UserInputService](https://developer.roblox.com/en-us/api-reference/class/Us
 
 For example, the code below prints _“Window focused”_ whenever the Roblox client gains focus.
 
-```lua
 local UserInputService = game:GetService("UserInputService")
 
 UserInputService.WindowFocused:Connect(function()
-    print("Window focused")
+	print("Window focused")
 end)
-``` 
 
 This event can be used alongside [UserInputService.WindowFocusReleased](https://developer.roblox.com/en-us/api-reference/event/UserInputService/WindowFocusReleased) to track whether the Roblox client is actively focused on a user's screen.
 

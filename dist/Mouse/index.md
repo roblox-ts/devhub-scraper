@@ -6,14 +6,12 @@ The **Mouse** object houses various API for pointers, primarily for buttons and 
 *   It continually raycasts the screen mouse position into the 3D world using the [TargetFilter](https://developer.roblox.com/en-us/api-reference/property/Mouse/TargetFilter) property, storing the results of the raycast in the [Hit](https://developer.roblox.com/en-us/api-reference/property/Mouse/Hit), [Target](https://developer.roblox.com/en-us/api-reference/property/Mouse/Target), and [TargetSurface](https://developer.roblox.com/en-us/api-reference/property/Mouse/TargetSurface) properties. These can be useful for simple cases, but [WorldRoot:Raycast](https://developer.roblox.com/en-us/api-reference/function/WorldRoot/Raycast) should be used in more complicated scenarios (whitelists, etc).
 *   [Plugins](https://developer.roblox.com/en-us/api-reference/class/Plugin) can use use [Plugin:GetMouse](https://developer.roblox.com/en-us/api-reference/function/Plugin/GetMouse) to get a [PluginMouse](https://developer.roblox.com/en-us/api-reference/class/PluginMouse), which behaves similarly.
 
-```lua
--- From a LocalScript:
+\-- From a LocalScript:
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local mouse = Player:GetMouse()
 -- Setting the mouse icon
 mouse.Icon = "rbxasset://SystemCursors/Wait"
-``` 
 
 Notes
 -----

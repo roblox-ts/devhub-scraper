@@ -2,7 +2,5 @@ A HumanoidController is an internal object responsible for translating PlayerAci
 
 This object can be found inside of the [ControllerService](https://developer.roblox.com/en-us/api-reference/class/ControllerService), via:
 
-```lua
 local ControllerService = game:GetService("ControllerService")
 local HumanoidController = ControllerService:FindFirstChildOfClass("HumanoidController")
-```

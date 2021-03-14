@@ -13,12 +13,10 @@ At distances greater than FogEnd, color will be determined entirely by the [Ligh
 
 Roblox's fog uses linear interpolation between [Lighting.FogStart](https://developer.roblox.com/en-us/api-reference/property/Lighting/FogStart) and FogEnd. This means if [Lighting.FogStart](https://developer.roblox.com/en-us/api-reference/property/Lighting/FogStart) is 10 and FogEnd is 20, at a distance of 15 studs the fog will be at 50%. That means the color of a pixel at 15 studs will be 50% its normal color blended with 50% of the fog color.
 
-```lua
 local Lighting = game:GetService("Lighting")
 -- fog will fade between 25 and 200 studs
 Lighting.FogStart = 25
 Lighting.FogEnd = 200
-``` 
 
 The color of the fog can be adjusted using [Lighting.FogColor](https://developer.roblox.com/en-us/api-reference/property/Lighting/FogColor).
 

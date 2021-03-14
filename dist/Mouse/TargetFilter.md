@@ -2,7 +2,6 @@ This property determines an object to be ignored by the mouse when calculating [
 
 This property can be set to any [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) or nil, for example:
 
-```lua
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer 
 local mouse = player:GetMouse()
@@ -10,7 +9,6 @@ mouse.TargetFilter = workspace.Model
  
 -- Now, when the player hovers the cursor over the model, mouse.Target will be some object
 -- behind workspace.Model, if there is one.
-``` 
 
 This property is essentially a single-object blacklist for mouse raycasting. For more in-depth control on raycasting, see the following functions of [Workspace](https://developer.roblox.com/en-us/api-reference/class/Workspace): `Workspace/FindPartOnRay|FindPartOnRay`, `Workspace/FindPartOnRayWithWhitelist|FindPartOnRayWithWhitelist` and `Workspace/FindPartOnRayWithIgnoreList|FindPartOnRayWithIgnoreList`.
 

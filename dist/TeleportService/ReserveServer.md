@@ -13,9 +13,7 @@ The following are characteristics of reserved servers:
 
 You can see if the current server is a reserved server by using the following code:
 
-```lua
 local isReserved = game.PrivateServerId ~= "" and game.PrivateServerOwnerId == 0
-``` 
 
 The [DataModel.PrivateServerId](https://developer.roblox.com/en-us/api-reference/property/DataModel/PrivateServerId) is constant across all server instances associated with the server access code, the [DataModel.JobId](https://developer.roblox.com/en-us/api-reference/property/DataModel/JobId) is not.
 

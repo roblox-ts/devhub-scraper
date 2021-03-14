@@ -6,13 +6,11 @@ This function takes in account the current GUI inset (such as the space occupied
 
 For example:
 
-```lua
 local camera = workspace.CurrentCamera
 local worldPoint = Vector3.new(0, 10, 0)
 local vector, onScreen = camera:WorldToScreenPoint(worldPoint)
 
 local screenPoint = Vector2.new(vector.X, vector.Y)
 local depth = vector.Z
-``` 
 
 Note this function does not perform any raycasting, meaning the visible bool will be true regardless if the _worldPoint_ is obscured by [BaseParts](https://developer.roblox.com/en-us/api-reference/class/BasePart) or [Terrain](https://developer.roblox.com/en-us/api-reference/class/Terrain).

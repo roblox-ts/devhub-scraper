@@ -2,10 +2,8 @@ This function returns an array of [UserInputType](https://developer.roblox.com/e
 
 For example, the following code snippet retrieves the connected gamepads and stores them in a variable named _connectedGamepads_.
 
-```lua
 local userInputService = game:GetService("UserInputService")
 local connectedGamepads = userInputService:GetConnectedGamepads()
-``` 
 
 To check if a specific gamepad is connected, use [UserInputService:GetGamepadConnected](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetGamepadConnected).
 

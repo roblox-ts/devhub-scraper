@@ -11,15 +11,11 @@ Like all [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFra
 
 A common technique for setting the goal orientation is to set the [BodyGyro.CFrame](https://developer.roblox.com/en-us/api-reference/property/BodyGyro/CFrame) to a part's [CFrame](https://developer.roblox.com/en-us/api-reference/property/BasePart/CFrame). For example:
 
-```lua
 workspace.Part.BodyGyro.CFrame = workspace.Part.CFrame
-``` 
 
 You can also use a [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) **constructor** which initializes rotation such as `CFrame.fromAxisAngle`, `CFrame.fromEulerAnglesXYZ`, or `CFrame.fromEulerAnglesYXZ`. Alternatively, you can use the following structure to make the body gyro “look at” a `targetPosition`.
 
-```lua
 CFrame.new(BodyGyro.Parent.Position, targetPosition)
-``` 
 
 Troubleshooting
 ---------------

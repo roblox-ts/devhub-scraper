@@ -2,12 +2,10 @@ This function returns a dictionary of string → variant pairs for each attribut
 
 For example, the following code snippet will print an instance's attributes and values. Note that this code sample does not define `instance`:
 
-```lua
 local attributes = instance:GetAttributes()
 for name, value in pairs(attributes) do
-    print(name .. “ “ .. value)
+	print(name .. “ “ .. value)
 end
-``` 
 
 See also
 --------

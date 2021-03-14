@@ -3,15 +3,13 @@
 Example
 -------
 
-```lua
 local emotes = {
-    Salute = {3360689775}, -- Syntax note: can also use ["Salute"] = ...
+    Salute = {3360689775}, -- Syntax note: can also use \["Salute"\] = ...
     Agree = {4849487550},
     Disagree = {4849495710}
 }
 local hd = Instance.new("HumanoidDescription")
 hd:SetEmotes(emotes)
-``` 
 
 See also
 --------

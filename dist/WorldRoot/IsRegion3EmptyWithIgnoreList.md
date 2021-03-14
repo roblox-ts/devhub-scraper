@@ -2,12 +2,10 @@
 
 For example, the following code snippet will check to see if the Region is empty, ignoring the descendants of a [Model](https://developer.roblox.com/en-us/api-reference/class/Model) named 'Scenery'.
 
-```lua
 local region3 = Region3.new(Vector3.new(0, 0, 0), Vector3.new(10, 10, 10))
 local scenery = workspace:FindFirstChild("Scenery")
 local ignoreList = {scenery}
 local isEmpty = workspace:IsRegion3EmptyWithIgnoreList(region3, ignoreList)
-``` 
 
 This function only returns if a region is empty or not. Developers looking to find [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart)s in a region should use `Workspace/FindPartsInRegion3WithIgnoreList`.
 

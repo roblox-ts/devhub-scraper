@@ -2,8 +2,7 @@ This function returns a list of recommendations based on the given [AssetType](h
 
 Data is in the format:
 
-```lua
-[
+\[
     {
       "Item": {
         "AssetId": 0,
@@ -41,5 +40,4 @@ Data is in the format:
         "IsFree": true
       }
     }
-]
-```
+\]

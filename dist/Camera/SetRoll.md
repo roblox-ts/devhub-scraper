@@ -4,9 +4,7 @@ This function sets the current roll, in radians, of the [Camera](https://develop
 
 For example, the following would invert the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera):
 
-```lua
 workspace.CurrentCamera:SetRoll(math.pi) -- math.pi radians = 180 degrees
-``` 
 
 SetRoll has no effect on any roll applied using the [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) property. Roll applied using SetRoll is not reflected in the [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) property but is reflected in in the [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) returned by[Camera:GetRenderCFrame](https://developer.roblox.com/en-us/api-reference/function/Camera/GetRenderCFrame).
 
@@ -18,8 +16,6 @@ To obtain the roll set using this function use [Camera:GetRoll](https://develope
 
 As this function is outdated, you are advised to instead apply roll to the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) using the [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) property. For example:
 
-```lua
 local currentCFrame = workspace.CurrentCamera.CFrame
 local rollCFrame = CFrame.Angles(0, 0, roll)
-workspace.CurrentCamera.CFrame = currentCFrame * rollCFrame
-```
+workspace.CurrentCamera.CFrame = currentCFrame \* rollCFrame
