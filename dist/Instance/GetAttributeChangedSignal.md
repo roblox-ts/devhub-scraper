@@ -2,16 +2,16 @@ This function returns an event that behaves exactly like the `Changed` event, ex
 
 It is similar to [Instance:GetPropertyChangedSignal](https://developer.roblox.com/en-us/api-reference/function/Instance/GetPropertyChangedSignal) but for attributes.
 
-For example, the following code snippet will return a signal that fires the function `attributeChanged` when the instance's `InitialPosition` attribute changes. Note that this code sample does not define `instance`:
+For example, the following code snippet will return a signal that fires the function [Instance.AttributeChanged](https://developer.roblox.com/en-us/api-reference/event/Instance/AttributeChanged) when the instance's `InitialPosition` attribute changes. Note that this code sample does not define [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance):
 
 local function attributeChanged()
-	print(“Attribute changed”)
+    print(“Attribute changed”)
 end
 
 instance:GetAttributeChangedSignal("InitialPosition"):Connect(attributeChanged)
 
 See also
---------
+========
 
 *   [Instance:SetAttribute](https://developer.roblox.com/en-us/api-reference/function/Instance/SetAttribute), sets the attribute with the given name to the given value
 *   [Instance:GetAttribute](https://developer.roblox.com/en-us/api-reference/function/Instance/GetAttribute), returns the attribute which has been assigned to the given name

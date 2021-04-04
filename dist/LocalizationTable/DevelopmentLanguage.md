@@ -1,0 +1,1 @@
+The default IETF tag to use if the ''languageKey'' parameter is excluded from the [LocalizationTable:GetString](https://developer.roblox.com/en-us/api-reference/function/LocalizationTable/GetString) method.
