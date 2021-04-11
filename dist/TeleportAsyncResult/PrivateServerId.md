@@ -2,7 +2,7 @@ The private server id of the reserved server that the players are being teleport
 
 **Note**
 
-This field is not the same as the instanceId, please see: [DataModel.PrivateServerId](https://developer.roblox.com/en-us/api-reference/property/DataModel/PrivateServerId)
+This field is not the same as the instanceId, please see: \`DataModel/PrivateServerId\`
 
 See also
 --------
