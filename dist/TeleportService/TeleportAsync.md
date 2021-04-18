@@ -8,6 +8,9 @@ There are several scenarios where this may be used, including:
 *   Follow a Friend to a Different Place
 *   Teleport any number of Players to a Reserved Server
 
+**Limitation when teleporting multiple players**  
+When teleporting multiple players, they can only be teleported to a place within the same game universe. This function can not teleport more than 50 players in a single party.
+
 Errors
 ------
 

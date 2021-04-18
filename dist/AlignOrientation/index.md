@@ -24,10 +24,10 @@ When RigidityEnabled is true, then the physics solver will use as much torque as
 
 When RigidityEnabled is false, then the force will be determined by the MaxTorque, MaxAngularVelocity, and Responsiveness. MaxForce and MaxVelocity are caps to the torque and angular velocity respectively. The actual scale of the torque is determined by the Responsiveness. The mechanism for responsiveness is a little complicated, but put simply the higher the responsiveness, the quicker the constraint will try to reach its goal.
 
-Reaction Force
---------------
+Reaction Torque
+---------------
 
-AlignOrientations by default only apply a torque on Attachment0's parent Part. The parent Part of Attachment1 remains unaffected. However, a torque can also be applied to Attachment1 by enabling the `AlignOrientation/ReactionForceEnabled`. This will cause a torque to be applied to both Attachment0 and Attachment1 in equal and opposite directions.
+AlignOrientations by default only apply a torque on Attachment0's parent Part. The parent Part of Attachment1 remains unaffected. However, a torque can also be applied to Attachment1 by enabling the [AlignOrientation.ReactionTorqueEnabled](https://developer.roblox.com/en-us/api-reference/property/AlignOrientation/ReactionTorqueEnabled). This will cause a torque to be applied to both Attachment0 and Attachment1 in equal and opposite directions.
 
 See also
 --------
