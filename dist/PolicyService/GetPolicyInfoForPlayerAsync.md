@@ -4,11 +4,15 @@ Name
 
 Type
 
+Required for
+
 Description
 
 ArePaidRandomItemsRestricted
 
 Boolean
+
+All experiences
 
 Whether the player can interact with paid random item generators.
 
@@ -16,17 +20,23 @@ IsSubjectToChinaPolicies
 
 Boolean
 
+Experiences available in China
+
 See [here](https://devforum.roblox.com/t/about-our-upcoming-global-compliance-system/461447) for details.
 
 AllowedExternalLinkReferences
 
 Array of strings
 
+All experiences
+
 Which external link references are allowed in a country/region.
 
 IsPaidItemTradingAllowed
 
 Boolean
+
+All experiences
 
 Whether the player can trade virtual items that were purchased with in-game or real-world currency.
 
