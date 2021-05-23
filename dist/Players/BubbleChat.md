@@ -3,3 +3,8 @@ The BubbleChat [Players](https://developer.roblox.com/en-us/api-reference/class/
 When this chat mode is enabled, the game displays chats in the chat user interface at the top-left corner of the screen.
 
 There are two other chat modes, [Players.ClassicChat](https://developer.roblox.com/en-us/api-reference/property/Players/ClassicChat) and a chat mode where both classic and bubble chat are enabled.
+
+See also
+--------
+
+Developers who are interested interested in configuring their games' bubble chat system even further should take a look at the `articles/Bubble Chat|Bubble Chat` article.

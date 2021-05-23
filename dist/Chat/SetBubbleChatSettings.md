@@ -137,4 +137,4 @@ number
 See also
 --------
 
-*   Developers who are interested interested in configuring their games' chat system even further should take a look at the `/articles/Lua Chat System|Lua Chat System|Lua Chat System` article
+*   Developers who are interested interested in configuring their games' chat system even further should take a look at the `/articles/Lua Chat System|Lua Chat System|Lua Chat System` and `articles/Bubble Chat|Bubble Chat` articles
