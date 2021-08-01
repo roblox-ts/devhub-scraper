@@ -1,3 +1,9 @@
+The numerous teleport functions have been combined into a single method, [TeleportAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportAsync), which should be used instead and may be used to:
+
+*   Teleport any number of players to a Public Server
+*   Follow a Friend to a Different Place
+*   Teleport any number of Players to a Reserved Server
+
 This function behaves the same as [TeleportService:Teleport](https://developer.roblox.com/en-us/api-reference/function/TeleportService/Teleport) with the exception that it includes a _spawnName_ parameter, causing the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) to spawn at the [SpawnLocation](https://developer.roblox.com/en-us/api-reference/class/SpawnLocation) of that name at the destination place.
 
 The [SpawnLocation](https://developer.roblox.com/en-us/api-reference/class/SpawnLocation) must be valid for the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) to spawn on. For example, it must be [neutral](https://developer.roblox.com/en-us/api-reference/property/SpawnLocation/Neutral) or set to the same [TeamColor](https://developer.roblox.com/en-us/api-reference/property/SpawnLocation/TeamColor) as the [Team](https://developer.roblox.com/en-us/api-reference/class/Team) the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) will be assigned to upon joining the game.

@@ -17,7 +17,7 @@ integer
 
 2
 
-Humanoid radius. Used to determine the minimum separation from obstacles.
+Determines the minimum amount of horizontal space required for empty space to be considered traversable.
 
 **AgentHeight**
 
@@ -25,7 +25,7 @@ integer
 
 5
 
-Humanoid height. Empty space smaller than this value will be marked as non-traversable, for instance the space under stairs.
+Determines the minimum amount of vertical space required for empty space to be considered traversable.
 
 **AgentCanJump**
 
@@ -33,6 +33,14 @@ boolean
 
 true
 
-Sets whether off-mesh links for jumping are allowed.
+Determines whether off-mesh links for jumping are allowed.
+
+**WaypointSpacing**
+
+number
+
+4
+
+Determines the spacing between intermediate waypoints in path.
 
 See the `Articles/Pathfinding|Pathfinding` guide for details and examples on using pathfinding in Roblox.

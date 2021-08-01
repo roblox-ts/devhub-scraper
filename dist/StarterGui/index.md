@@ -3,7 +3,7 @@ The StarterGui service is a container object designed to hold `LayerCollector|GU
 StarterGui as a container
 -------------------------
 
-When a `Player|Players'` [character](https://developer.roblox.com/en-us/api-reference/property/Player/Character) respawns, the contents of their [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui) is emptied. Children of the [StarterGui](https://developer.roblox.com/en-us/api-reference/class/StarterGui) are then copied (along with their descendants) into the [StarterGui](https://developer.roblox.com/en-us/api-reference/class/StarterGui).
+When a `Player|Players'` [character](https://developer.roblox.com/en-us/api-reference/property/Player/Character) respawns, the contents of their [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui) is emptied. Children of the [StarterGui](https://developer.roblox.com/en-us/api-reference/class/StarterGui) are then copied along with their descendants into the [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui).
 
 `LayerCollector|GUI objects` such as [ScreenGuis](https://developer.roblox.com/en-us/api-reference/class/ScreenGui) with their [ResetOnSpawn](https://developer.roblox.com/en-us/api-reference/property/LayerCollector/ResetOnSpawn) property set to false will only be placed into each `Player|Player's` [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui) once and will not be deleted when the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) respawns.
 

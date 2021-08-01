@@ -1,3 +1,9 @@
+The numerous teleport functions have been combined into a single method, [TeleportAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportAsync), which should be used instead and may be used to:
+
+*   Teleport any number of players to a Public Server
+*   Follow a Friend to a Different Place
+*   Teleport any number of Players to a Reserved Server
+
 This function teleports a [Player](https://developer.roblox.com/en-us/api-reference/class/Player) to the place associated with the given _placeId_.
 
 Teleport can be called both from the client and the server (see examples below).
@@ -43,16 +49,6 @@ Studio limitation
 -----------------
 
 This service does not work during playtesting in Roblox Studio — To test aspects of your game using it, you must publish the game and play it in the Roblox application.
-
-Alternative teleport functions
-------------------------------
-
-Before using Teleport, you should check to see if an alternative teleport function is more suitable:
-
-*   [TeleportService:TeleportToSpawnByName](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportToSpawnByName) is used to teleport a player to a place and spawn them at a specific [SpawnLocation](https://developer.roblox.com/en-us/api-reference/class/SpawnLocation)
-*   [TeleportService:TeleportPartyAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportPartyAsync) is used to teleport a group of players together to the same server
-*   [TeleportService:TeleportToPlaceInstance](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportToPlaceInstance) is used to teleport a player to a specific server in a place
-*   [TeleportService:TeleportToPrivateServer](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportToPrivateServer) is used to teleport a player to a reserved server created using [TeleportService:ReserveServer](https://developer.roblox.com/en-us/api-reference/function/TeleportService/ReserveServer)
 
 See also
 --------

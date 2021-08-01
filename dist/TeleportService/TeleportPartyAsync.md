@@ -1,3 +1,9 @@
+The numerous teleport functions have been combined into a single method, [TeleportAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportAsync), which should be used instead and may be used to:
+
+*   Teleport any number of players to a Public Server
+*   Follow a Friend to a Different Place
+*   Teleport any number of Players to a Reserved Server
+
 This function teleports a group of [Players](https://developer.roblox.com/en-us/api-reference/class/Player) to the same server instance in the given place. It returns the [DataModel.JobId](https://developer.roblox.com/en-us/api-reference/property/DataModel/JobId) of the server instance the players were teleported to.
 
 This function can only be called from the server.

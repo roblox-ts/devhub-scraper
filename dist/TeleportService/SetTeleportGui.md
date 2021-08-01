@@ -2,28 +2,7 @@ This function sets the custom `ScreenGui|teleport GUI` that will be shown to the
 
 Note, the `ScreenGui|teleport GUI` will not be used if the destination place is in a different game. It will also not persist across multiple teleports and will need to be set prior to each one.
 
-This function should only be used on the client. If the teleportation function is called from the server (as is the case with [TeleportService:TeleportPartyAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportPartyAsync)) then this function should be called on the client prior to this. One way of doing this is listening to a [RemoteEvent](https://developer.roblox.com/en-us/api-reference/class/RemoteEvent) that fires several seconds before teleportation.
-
-\-- Client
-
-local TeleportService = game:GetService("TeleportService")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Players = game:GetService("Players")
-
-local localPlayer = Players.LocalPlayer
-local teleportGui = Instance.new("ScreenGui") -- for demonstration purposes
-
--- this RemoteEvent needs to be created on the server and fired before teleporting
-local teleportEvent = ReplicatedStorage:WaitForChild("TeleportPrepare")
-
--- set the teleport gui so we are ready
-TeleportService:SetTeleportGui(teleportGui)
-
-teleportEvent.OnClientEvent:Connect(function()
-    -- show the gui prior to the teleport
-    local playerGui = localPlayer:WaitForChild("PlayerGui")
-    teleportGui.Parent = playerGui
-end)
+This function should only be used on the client. If the teleportation function is called from the server (as is the case with [TeleportService:TeleportAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportAsync)) then this function should be called on the client prior to this. One way of doing this is listening to a [RemoteEvent](https://developer.roblox.com/en-us/api-reference/class/RemoteEvent) that fires several seconds before teleportation.
 
 Loading screen
 --------------

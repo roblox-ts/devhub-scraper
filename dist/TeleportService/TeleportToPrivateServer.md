@@ -1,3 +1,9 @@
+The numerous teleport functions have been combined into a single method, [TeleportAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportAsync), which should be used instead and may be used to:
+
+*   Teleport any number of players to a Public Server
+*   Follow a Friend to a Different Place
+*   Teleport any number of Players to a Reserved Server
+
 This function teleports one or more [Players](https://developer.roblox.com/en-us/api-reference/class/Player) to a reserved server created using [TeleportService:ReserveServer](https://developer.roblox.com/en-us/api-reference/function/TeleportService/ReserveServer).
 
 The _reservedServerAccessCode_ parameter is the access code returned by [ReserveServer](https://developer.roblox.com/en-us/api-reference/function/TeleportService/ReserveServer).

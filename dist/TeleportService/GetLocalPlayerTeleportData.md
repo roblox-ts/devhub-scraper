@@ -1,18 +1,19 @@
 This function returns the _teleportData_ the [Players.LocalPlayer](https://developer.roblox.com/en-us/api-reference/property/Players/LocalPlayer) arrived into the place with. It can only be used on the client and can be called at any time.
 
-For example, the following snippet would send the [DataModel.PlaceId](https://developer.roblox.com/en-us/api-reference/property/DataModel/PlaceId) and [DataModel.JobId](https://developer.roblox.com/en-us/api-reference/property/DataModel/JobId) in a dictionary:
+For example, the following snippet would send the [DataModel.PlaceId](https://developer.roblox.com/en-us/api-reference/property/DataModel/PlaceId) and [DataModel.JobId](https://developer.roblox.com/en-us/api-reference/property/DataModel/JobId) in a dictionary passing the teleport data in a [TeleportOptions](https://developer.roblox.com/en-us/api-reference/class/TeleportOptions) instance using [TeleportOptions:SetTeleportData](https://developer.roblox.com/en-us/api-reference/function/TeleportOptions/SetTeleportData):
 
-local Players = game:GetService("Players")
-
-local player = Players.LocalPlayer
+\-- Server
+local teleportOptions = Instance.new(“TeleportOptions”)
 local teleportData = {
     placeId = game.PlaceId,
     jobId = game.JobId
 }
-TeleportService:Teleport(placeId, player, teleportData)
+teleportOptions:SetTeleportData(teleportData)
+TeleportService:TeleportAsync(game.PlaceId, {player}, teleportOptions)
 
 This data could then be retrieved upon arrival using the GetLocalPlayerTeleportData function as follows:
 
+\-- Client
 local TeleportService = game:GetService("TeleportService")
 
 local teleportData = TeleportService:GetLocalPlayerTeleportData()
