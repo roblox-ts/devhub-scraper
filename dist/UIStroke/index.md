@@ -1,3 +1,5 @@
+**Note**  
+
 For a more detailed walkthrough of the UIStroke object, take a look at the [Applying Strokes](../../articles/applying-strokes) article.
 
 An instance that applies an outline to text or a UI border. Key features include:

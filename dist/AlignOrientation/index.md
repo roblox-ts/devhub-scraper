@@ -20,7 +20,7 @@ Torque magnitude
 
 The torque used to constrain an AlignOrientation can either be configured or set to the maximum that constraints allow. Whether the torque is configurable is determined by the [AlignOrientation.RigidityEnabled](https://developer.roblox.com/en-us/api-reference/property/AlignOrientation/RigidityEnabled) property.
 
-When RigidityEnabled is true, then the physics solver will use as much torque as possible to move the two attachment points together. This is the same scale of force used to align other constraints, such as prismatics when their attachments are misaligned.
+When RigidityEnabled is true, then the physics solver will react as quickly as possible to move the attachments together. This is the same scale of force used to align other constraints, such as prismatics when their attachments are misaligned.
 
 When RigidityEnabled is false, then the force will be determined by the MaxTorque, MaxAngularVelocity, and Responsiveness. MaxForce and MaxVelocity are caps to the torque and angular velocity respectively. The actual scale of the torque is determined by the Responsiveness. The mechanism for responsiveness is a little complicated, but put simply the higher the responsiveness, the quicker the constraint will try to reach its goal.
 

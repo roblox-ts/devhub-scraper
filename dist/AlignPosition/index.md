@@ -23,7 +23,7 @@ Force magnitude
 
 The force used to constrain an AlignPosition can either be configured or set to the maximum that constraints allow. Whether the force is configurable is determined by the [AlignPosition.RigidityEnabled](https://developer.roblox.com/en-us/api-reference/property/AlignPosition/RigidityEnabled) property.
 
-When RigidityEnabled is true, then the physics solver will use as much force as possible to move the two attachment points together. This is the same scale of force used to connect other constraints, such as hinges when their attachments are separated.
+When RigidityEnabled is true, then the physics solver will react as quickly as possible to move the attachments together. This is the same scale of force used to connect other constraints, such as hinges when their attachments are separated.
 
 When RigidityEnabled is false, then the force will be determined by the [AlignPosition.MaxForce](https://developer.roblox.com/en-us/api-reference/property/AlignPosition/MaxForce), [AlignPosition.MaxVelocity](https://developer.roblox.com/en-us/api-reference/property/AlignPosition/MaxVelocity), and [AlignPosition.Responsiveness](https://developer.roblox.com/en-us/api-reference/property/AlignPosition/Responsiveness). MaxForce and MaxVelocity are caps to the force and velocities respectively. The actual scale of the force is determined by the Responsiveness. The mechanism for responsiveness is a little complicated, but put simply the higher the responsiveness, the quicker the constraint will try to reach its goal.
 
