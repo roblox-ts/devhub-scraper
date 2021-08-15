@@ -1,9 +1,20 @@
-Sets the value of the key. This overwrites any existing data stored in the key.
+This function sets the latest value, [UserIds](https://developer.roblox.com/en-us/api-reference/property/Player/UserId), and metadata for the given key.
 
-If the previous value of the key is important, use `GlobalDataStore/UpdateAsync|UpdateAsync()` instead. Using `GlobalDataStore/GetAsync|GetAsync()` to retrieve a value and then setting the key with `GlobalDataStore/SetAsync|SetAsync()` is risky because `GlobalDataStore/GetAsync|GetAsync()` sometimes returns cached data and other game servers may have modified the key.
+Values in data stores are versioned, meaning [GlobalDataStore:SetAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/SetAsync) will create a new version every time it is called. Prior versions can be accessed through [DataStore:ListVersionsAsync](https://developer.roblox.com/en-us/api-reference/function/DataStore/ListVersionsAsync)/[DataStore:GetVersionAsync](https://developer.roblox.com/en-us/api-reference/function/DataStore/GetVersionAsync) for up to 30 days at which point they are permanently deleted.
 
-Any string being stored in a data store must be valid `Articles/Lua Libraries/utf8|UTF-8`. In UTF-8, values greater than 127 are used exclusively for encoding multi-byte codepoints, so a single byte greater than 127 will not be valid UTF-8 and the `GlobalDataStore/SetAsync|SetAsync()` attempt will fail.
+[OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) does not support v2.0 features such as versioning, so calling this method on an [OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) key will overwrite the current value and make previous versions inaccessible.
 
-If this function throws an error, the `Articles/Datastore Errors|error message` will describe the problem. Note that there are also [limits](https://developer.roblox.com/en-us/api-reference/class/Articles/Datastore Errors) that apply to this function.
+Metadata definitions must always be updated with a value, even if there are no changes to the current value; otherwise the current value will be lost.
 
-See the `Articles/Data store|Data Stores` article for an in-depth guide on data structure, management, error handling, etc.
+Any string being stored in a data store must be valid `Articles/Lua Libraries/utf8|UTF-8`. In UTF-8, values greater than 127 are used exclusively for encoding multi-byte codepoints, so a single byte greater than 127 will not be valid UTF-8 and the [GlobalDataStore:SetAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/SetAsync) attempt will fail.
+
+##### Set vs. Update
+
+[GlobalDataStore:SetAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/SetAsync) is best for a quick update of a specific key, and it only counts against the write limit. However, it may cause data inconsistency if two servers attempt to set the same key at the same time.
+
+[GlobalDataStore:UpdateAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/UpdateAsync) is safer for handling multi-server attempts because it reads the current key value (from whatever server last updated it) before making any changes. However, it's somewhat slower because it reads before it writes, and it also counts against both the read and write limit.
+
+See Also
+--------
+
+*   `Articles/Data store|Data Stores`, an in-depth guide on data structure, management, error handling, etc.

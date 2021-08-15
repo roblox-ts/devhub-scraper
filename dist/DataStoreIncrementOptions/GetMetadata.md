@@ -1,0 +1,1 @@
+This function gets custom metadata associated with this [DataStoreIncrementOptions](https://developer.roblox.com/en-us/api-reference/class/DataStoreIncrementOptions) instance.

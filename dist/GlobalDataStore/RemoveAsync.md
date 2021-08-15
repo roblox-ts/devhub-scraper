@@ -1,5 +1,14 @@
-This function removes the given key from the provided [GlobalDataStore](https://developer.roblox.com/en-us/api-reference/class/GlobalDataStore) and returns the value that was associated with that key. If the key is not found in the data store, this function returns `nil`.
+This function marks the specified key as deleted by creating a new “tombstone” version of the key. Prior to this, it returns the latest version prior to the remove call.
 
-If this function throws an error, the `Articles/Datastore Errors|error message` will describe the problem. Note that there are also [limits](https://developer.roblox.com/en-us/api-reference/class/Articles/Datastore Errors) that apply to this function.
+After a key is removed via this function, [GlobalDataStore:GetAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/GetAsync) calls for the key will return `nil`. Older versions of the key remain accessible through `GlobalDataStore/ListVersionsAsync` and `GlobalDataStore/GetVersionAsync`, assuming they have not expired.
 
-See the `Articles/Data store|Data Stores` article for an in-depth guide on data structure, management, error handling, etc.
+[OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) does not support versioning, so calling `GlobalDataStore/RemoveAsync|RemoveAsync()` on an [OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) key will permanently delete it.
+
+Removed objects will be deleted permanently after 30 days.
+
+If the previous values were already deleted via [GlobalDataStore:RemoveAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/RemoveAsync) or [DataStore:RemoveVersionAsync](https://developer.roblox.com/en-us/api-reference/function/DataStore/RemoveVersionAsync), the function will return `nil`, `nil` for value and [DataStoreKeyInfo](https://developer.roblox.com/en-us/api-reference/class/DataStoreKeyInfo) respectively.
+
+See Also
+--------
+
+*   `Articles/Data store|Data Stores`, an in-depth guide on data structure, management, error handling, etc.

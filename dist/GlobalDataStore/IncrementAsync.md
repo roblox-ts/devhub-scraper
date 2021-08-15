@@ -1,5 +1,8 @@
-Increments the value for a particular key and returns the incremented value. Only works on values that are integers. Note that you can use `GlobalDataStore/OnUpdate|OnUpdate()` to execute a function every time the database updates the key's value, such as after calling this function.
+This function increments the value of a key by the provided amount (both must be integers).
 
-If this function throws an error, the `Articles/Datastore Errors|error message` will describe the problem. Note that there are also [limits](https://developer.roblox.com/en-us/api-reference/class/Articles/Datastore Errors) that apply to this function.
+[OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) does not support v2.0 features such as versioning, so calling this method on an [OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) key will overwrite the current value with the incremented value and make previous versions inaccessible.
 
-See the `Articles/Data store|Data Stores` article for an in-depth guide on data structure, management, error handling, etc.
+See Also
+--------
+
+*   `Articles/Data store|Data Stores`, an in-depth guide on data structure, management, error handling, etc.
