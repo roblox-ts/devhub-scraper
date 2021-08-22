@@ -1,3 +1,7 @@
+**Note**  
+
+This body mover has been superseded by [AngularOrientation](AngularOrientation). It's highly recommended that you use AngularOrientation for future work.
+
 The **BodyGyro** object applies a torque (rotational force) on a [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) such that it maintains a constant angular displacement, or orientation. This allows for the creation of parts that point in a certain direction, as if a real gyroscope were acting upon it. Essentially, it's the rotational counterpart to a [BodyPosition](https://developer.roblox.com/en-us/api-reference/class/BodyPosition).
 
 If you would like to maintain a constant angular velocity, use a [BodyAngularVelocity](https://developer.roblox.com/en-us/api-reference/class/BodyAngularVelocity) instead.

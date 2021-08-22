@@ -1,3 +1,7 @@
+**Note**  
+
+This body mover has been superseded by [VectorForce](VectorForce). It's highly recommended that you use VectorForce for future work.
+
 The BodyForce object applies (or exerts) a force on the part to which it is parented. If the magnitude of such a force is great enough, parts can begin to accelerate. See [Newton's First Law of Motion](https://www.grc.nasa.gov/www/K-12/airplane/newton.html). The force is determined by the [BodyForce.Force](https://developer.roblox.com/en-us/api-reference/property/BodyForce/Force) property, and is defined on the three world axes.
 
 A BodyForce alone cannot apply a torque (it cannot cause the parent to rotate on its own). To apply a force at a specific point (e.g. to apply torque for angular acceleration) or apply forces relative to the orientation of the part, use a [BodyThrust](https://developer.roblox.com/en-us/api-reference/class/BodyThrust) instead.

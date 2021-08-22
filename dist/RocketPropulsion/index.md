@@ -1,3 +1,7 @@
+**Note**  
+
+This body mover has been superseded by [LineForce](LineForce). It's highly recommended that you use LineForce for future work.
+
 The RocketPropulsion object applies a force on a part so that it both **follows** and **faces** a target part. It acts like a hybrid of [BodyPosition](https://developer.roblox.com/en-us/api-reference/class/BodyPosition) and [BodyGyro](https://developer.roblox.com/en-us/api-reference/class/BodyGyro). Unlike other [BodyMover](https://developer.roblox.com/en-us/api-reference/class/BodyMover)s, a RocketPropulsion must be instructed to begin applying a force: call [Fire](https://developer.roblox.com/en-us/api-reference/function/RocketPropulsion/Fire) to start, or call [Abort](https://developer.roblox.com/en-us/api-reference/function/RocketPropulsion/Abort) to stop.
 
 Below is an animation of a blue [Part](https://developer.roblox.com/en-us/api-reference/class/Part) with a RocketPropulsion. The [Target](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/Target) is set to a tall red [Part](https://developer.roblox.com/en-us/api-reference/class/Part) that is being dragged around in a circle in Studio. Notice how the blue part homes in to the target:  

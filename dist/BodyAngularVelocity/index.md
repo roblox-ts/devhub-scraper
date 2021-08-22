@@ -1,3 +1,7 @@
+**Note**  
+
+This body mover has been superseded by [AngularVelocity](AngularVelocity). It's highly recommended that you use AngularVelocity for future work.
+
 The BodyAngularVelocity object applies a [torque](https://en.wikipedia.org/wiki/Torque) (or **rotational force**) on a [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) such that it maintains a constant [angular velocity](https://en.wikipedia.org/wiki/Angular_velocity) as determined by its [AngularVelocity](https://developer.roblox.com/en-us/api-reference/property/BodyAngularVelocity/AngularVelocity) property. This allows for the creation of parts that continually rotate. It is the rotational counterpart to a [BodyVelocity](https://developer.roblox.com/en-us/api-reference/class/BodyVelocity). If you would like to maintain a constant [angular displacement](https://en.wikipedia.org/wiki/Angular_displacement), use a [BodyGyro](https://developer.roblox.com/en-us/api-reference/class/BodyGyro) instead.
 
 ![An animation of a Part with a BodyAngularVelocity applied; there is a superimposed green line visualizing the AngularVelocity property](https://developer.roblox.com/assets/bltdf76c0bd99d8cb56/BodyAngularVelocity.gif)
