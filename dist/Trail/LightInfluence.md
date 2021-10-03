@@ -1,1 +1,9 @@
-The LightInfluence property sets how much the trail is influenced by the lighting around it. The property can be set to a value from 0 to 1, with 1 being the most influenced and 0 be the least influenced.
+**LightInfluence** determines the factor the light in the environment affects the appearance of the Trail. A value of zero (0) ensures no influence which allows a trail to be visible even in complete darkness.
+
+Changing this property immediately affects all existing and future segments of the trail.
+
+See also
+--------
+
+*   [LightEmission](https://developer.roblox.com/en-us/api-reference/property/Trail/LightEmission), another Trail property related to light
+*   [Beam.LightEmission](https://developer.roblox.com/en-us/api-reference/property/Beam/LightEmission), an identical property used by [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam)s

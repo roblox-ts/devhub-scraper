@@ -10,7 +10,7 @@ Note, in most cases developers do not need to manipulate KeyframeSequences as th
 KeyframeSequence Properties
 ---------------------------
 
-The priority and looped animation settings are set by [KeyframeSequence.Priority](https://developer.roblox.com/en-us/api-reference/property/KeyframeSequence/Priority) and [KeyframeSequence.Loop](https://developer.roblox.com/en-us/api-reference/property/KeyframeSequence/Loop). Note these can be eventually overwritten by the [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) properties.
+The priority and looped animation settings are set by `KeyframeSequence/Priority` and `KeyframeSequence/Loop`. Note these can be eventually overwritten by the [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) properties.
 
 The length of an animation is determined by the last [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe) in the sequence, meaning the [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe) with the highest [Keyframe.Time](https://developer.roblox.com/en-us/api-reference/property/Keyframe/Time) property.
 
