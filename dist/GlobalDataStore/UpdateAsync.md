@@ -2,7 +2,7 @@ This function retrieves the value and metadata of a key from the data store and 
 
 If the update succeeds, a new version of the value will be created and prior versions will remain accessible through [DataStore:ListVersionsAsync](https://developer.roblox.com/en-us/api-reference/function/DataStore/ListVersionsAsync) and [DataStore:GetVersionAsync](https://developer.roblox.com/en-us/api-reference/function/DataStore/GetVersionAsync).
 
-[OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) does not support v2.0 features such as versioning, so calling this function on an [OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) key will overwrite the current value and make previous versions inaccessible.
+[OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) does not support versioning, so calling this function on an [OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) key will overwrite the current value and make previous versions inaccessible.
 
 In cases where another game server updated the key in the short timespan between retrieving the key's current value and setting the key's value, [GlobalDataStore:UpdateAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/UpdateAsync) will call the function again to ensure that no data is overwritten. The function will be called as many times as needed until the data is saved **or** until the callback function returns `nil`.
 

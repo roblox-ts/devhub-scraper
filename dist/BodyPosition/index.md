@@ -1,6 +1,4 @@
-**Note**  
-
-This body mover has been superseded by [AngularPosition](AngularPosition). It's highly recommended that you use AngularPosition for future work.
+This body mover has been superseded by [AlignPosition](https://developer.roblox.com/en-us/api-reference/class/AlignPosition). It's highly recommended that you use [AlignPosition](https://developer.roblox.com/en-us/api-reference/class/AlignPosition) for future work.
 
 The **BodyPosition** object applies a force on a [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) such that it will maintain a constant position in the world. The [Position](https://developer.roblox.com/en-us/api-reference/property/BodyPosition/Position) property, not to be confused with [BasePart.Position](https://developer.roblox.com/en-us/api-reference/property/BasePart/Position), controls the target world position. This is the translational counterpart to a [BodyGyro](https://developer.roblox.com/en-us/api-reference/class/BodyGyro). If you need further control on a force applied to an object, consider using a [BodyForce](https://developer.roblox.com/en-us/api-reference/class/BodyForce) or [BodyThrust](https://developer.roblox.com/en-us/api-reference/class/BodyThrust) instead.
 

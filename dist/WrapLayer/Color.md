@@ -1,0 +1,1 @@
+Sets color used for the debug rendering. See `WrapTarget.DebugMode`
