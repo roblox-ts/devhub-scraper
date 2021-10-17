@@ -1,4 +1,4 @@
-This property specifies whether the [GlobalDataStore](https://developer.roblox.com/en-us/api-reference/class/GlobalDataStore) should work with all scopes. See here for details on scope.
+This property specifies whether the [GlobalDataStore](https://developer.roblox.com/en-us/api-reference/class/GlobalDataStore) should work with all scopes.
 
 See Also
 --------

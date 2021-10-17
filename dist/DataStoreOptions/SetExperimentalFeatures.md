@@ -1,4 +1,4 @@
-This function enables experimental features for a [GlobalDataStore](https://developer.roblox.com/en-us/api-reference/class/GlobalDataStore). Currently only `"v2"` is a valid experimental feature. Once the features are generally available, the options will not have any effect.
+This function currently has no effect.
 
 See Also
 --------
