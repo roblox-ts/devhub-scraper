@@ -1,0 +1,1 @@
+Returns the Actor associated with the Instance, usually the first Actor ancestor

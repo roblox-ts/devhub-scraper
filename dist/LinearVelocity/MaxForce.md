@@ -1,0 +1,1 @@
+Maximum magnitude of the force vector the constraint can apply.

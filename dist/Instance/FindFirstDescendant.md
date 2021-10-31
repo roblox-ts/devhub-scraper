@@ -1,0 +1,1 @@
+Returns the first descendant found with the given FullName (or partial FullName).

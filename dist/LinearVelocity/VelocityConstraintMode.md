@@ -1,0 +1,1 @@
+The mode of the [LinearVelocity](https://developer.roblox.com/en-us/api-reference/class/LinearVelocity) constraint: **Line**, **Plane**, or **Vector**. Default is **Vector**.

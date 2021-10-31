@@ -23,6 +23,7 @@ Plugins may also communicate with other software running on the same computer th
 Considerations
 --------------
 
+*   There are port restrictions. You cannot use port 1194 or any port below 1024, except 80 and 443.
 *   For each Roblox game server, there is a limit of 500 HTTP requests per minute. Exceeding this may cause request-sending functions to stall entirely for about 30 seconds.
 *   Requests cannot be made to any Roblox website, such as [www.roblox.com](http://www.roblox.com).
 *   Web requests can fail for many reasons, so it is important to “code defensively” (use `pcall`) and have a plan for when requests fail.

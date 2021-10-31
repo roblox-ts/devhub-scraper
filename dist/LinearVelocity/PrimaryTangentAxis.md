@@ -1,0 +1,5 @@
+The primary axis in the plane, when [VelocityConstraintMode](https://developer.roblox.com/en-us/api-reference/property/LinearVelocity/VelocityConstraintMode) is set to **Plane**. Value depends on the value of `LinearVelocityConstraint/RelativeTo|RelativeTo` as follows:
+
+*   If `LinearVelocityConstraint/RelativeTo|RelativeTo` is set to **Attachment0**, this axis is the [Axis](https://developer.roblox.com/en-us/api-reference/property/Attachment/Axis) of [Attachment0](https://developer.roblox.com/en-us/api-reference/property/Constraint/Attachment0).
+*   If `LinearVelocityConstraint/RelativeTo|RelativeTo` is set to **Attachment1**, this axis is the [Axis](https://developer.roblox.com/en-us/api-reference/property/Attachment/Axis) of [Attachment1](https://developer.roblox.com/en-us/api-reference/property/Constraint/Attachment1).
+*   If `LinearVelocityConstraint/RelativeTo|RelativeTo` is set to **World**, this value must be specified in the world space.
