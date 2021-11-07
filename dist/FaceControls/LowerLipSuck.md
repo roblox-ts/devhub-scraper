@@ -1,0 +1,1 @@
+Rolls the lower lip up over the teeth

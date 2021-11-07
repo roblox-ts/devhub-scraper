@@ -1,0 +1,1 @@
+Controls the composition order for layered clothing. Clothing items with higher order will appear on top of clothing items with lower order. If two items have the same order, the deformer composition order is ambiguous and depends on serialization order. Default value is 1.

@@ -1,11 +1,7 @@
-![A humanoid with an accessory that was attached using AddAccessory](https://developer.roblox.com/assets/bltfa53ae875b57255c/AddAccessory.png)
-
 The AddAccessory function attaches the specified [Accessory](https://developer.roblox.com/en-us/api-reference/class/Accessory) to the `Humanoid|Humanoid's` parent.
 
 How are Accessories attached to Humanoids?
 ------------------------------------------
-
-![Attachments that share the same name, and thus are used to connect the accessory.](https://developer.roblox.com/assets/bltdb71e88b111a0699/AccessoryAttachment.png)
 
 When this function is called, the [Accessory](https://developer.roblox.com/en-us/api-reference/class/Accessory) is parented to the `Humanoid|Humanoid's` parent and then attached.
 
