@@ -1,0 +1,1 @@
+Specifies the AccessoryType of the Accessory. Will be `Enum/AccessoryType|AccessoryType.Unknown` unless the Accessory has been equipped through the player spawning process or [Humanoid:ApplyDescription](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription).
