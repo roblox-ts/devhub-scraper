@@ -10,3 +10,5 @@ Note
 ----
 
 When handling the invocation from the client note that nothing has to be passed in by default (unlike invoking the server where the player is passed in).
+
+There are limitations on the kinds of data that can be passed between the client and server. For more information, see [Parameter Limitations](https://developer.roblox.com/articles/Remote-Functions-and-Events#parameter-limitations).

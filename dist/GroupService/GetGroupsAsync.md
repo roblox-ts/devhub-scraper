@@ -38,7 +38,7 @@ The name of the player's grouprank (for example: Group Owner)
 
 A boolean indicating if this is the player's primary group
 
-IsInClan
+### IsInClan
 
 A boolean indicating if the player is in this group's clan
 

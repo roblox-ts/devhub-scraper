@@ -2,6 +2,8 @@
 
 Since this function is used for communication from server to client, so it will only work when used by a server-side [Script](https://developer.roblox.com/en-us/api-reference/class/Script). For client-to-server communication (the other direction), use [FireServer](https://developer.roblox.com/en-us/api-reference/function/RemoteEvent/FireServer). Direct client-to-client communication not possible on Roblox; however, it can be simulated using a [Script](https://developer.roblox.com/en-us/api-reference/class/Script) that relays information received through some other means, such as [FireServer](https://developer.roblox.com/en-us/api-reference/function/RemoteEvent/FireServer).
 
+There are limitations on the kinds of data that can be passed between the client and server. For more information, see [Parameter Limitations](https://developer.roblox.com/articles/Remote-Functions-and-Events#parameter-limitations).
+
 See also
 --------
 

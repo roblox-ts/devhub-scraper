@@ -5,4 +5,4 @@ The naming conventions for the new name follow the same rules as if the group wa
 This function will throw a runtime error in the following circumstances:
 
 *   Invalid or empty name provided for either argument.
-*   The function is called from a client.Renames specified collision group.
+*   The function is called from a client.

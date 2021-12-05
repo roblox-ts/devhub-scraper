@@ -5,4 +5,4 @@ If there are any parts in the collision group when it is removed, these parts wi
 This function will throw a runtime error in the following circumstances:
 
 *   The name “Default” is provided.
-*   The function is called from a client.Removes the collision group with the given name.
+*   The function is called from a client.

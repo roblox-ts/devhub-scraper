@@ -1,1 +1,1 @@
-Actor
+Actor Class
