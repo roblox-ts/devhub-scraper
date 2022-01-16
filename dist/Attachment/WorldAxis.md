@@ -1,1 +1,1 @@
-Represents the direction of the `Attachment|Attachment's` Attachment/Axis|X-Axis`relative to the world, as a unit`DataType/Vector3\` with a length of 1.
+Represents the direction of the `Attachment|Attachment's` `Attachment/Axis|X-Axis` relative to the world, as a unit [Vector3](https://developer.roblox.com/en-us/api-reference/datatype/Vector3) with a length of 1.

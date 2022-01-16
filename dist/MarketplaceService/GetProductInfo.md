@@ -138,6 +138,18 @@ number
 
 The number of items the asset has been sold
 
+`SaleAvailabilityLocations`
+
+Dictionary
+
+The item's [ProductLocationRestriction](https://developer.roblox.com/en-us/api-reference/enum/ProductLocationRestriction) or sale location setting (e.g. anywhere, Shop only).
+
+`CanBeSoldInThisGame`
+
+boolean
+
+Describes whether the asset is purchasable in the current experience.
+
 **Developer Products and Game Passes**
 
 `ProductId`

@@ -1,1 +1,1 @@
-Represents the direction of the Y-Axis, relative to the Attachment's [Attachment.Rotation](https://developer.roblox.com/en-us/api-reference/property/Attachment/Rotation), as a unit [Vector3](https://developer.roblox.com/api-reference/datatype/Vector3 "Vector3") with a length of 1.
+The [SecondaryAxis](https://developer.roblox.com/en-us/api-reference/property/Attachment/SecondaryAxis) is the direction of the [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment)'s Y-Axis, represented as a unit `Vector3`.

@@ -7,7 +7,7 @@ The specified gamepad should be one of the following UserInputType enum values:
 
 Name
 
-Enum.UserInputType.Gamepad1-8<
+Enum.UserInputType.Gamepad1-8
 
 Valid KeyCodes
 --------------
@@ -16,33 +16,33 @@ The specified button should be one of the following KeyCodes enum values:
 
 Name
 
-Enum.KeyCode.ButtonX<
+Enum.KeyCode.ButtonX
 
-Enum.KeyCode.ButtonY<
+Enum.KeyCode.ButtonY
 
-Enum.KeyCode.ButtonA<
+Enum.KeyCode.ButtonA
 
-Enum.KeyCode.ButtonB<
+Enum.KeyCode.ButtonB
 
-Enum.KeyCode.ButtonR1<
+Enum.KeyCode.ButtonR1
 
-Enum.KeyCode.ButtonL1<
+Enum.KeyCode.ButtonL1
 
-Enum.KeyCode.ButtonR3<
+Enum.KeyCode.ButtonR3
 
-Enum.KeyCode.ButtonL3<
+Enum.KeyCode.ButtonL3
 
-Enum.KeyCode.ButtonStart<
+Enum.KeyCode.ButtonStart
 
-Enum.KeyCode.ButtonSelect<
+Enum.KeyCode.ButtonSelect
 
-Enum.KeyCode.DPadLeft<
+Enum.KeyCode.DPadLeft
 
-Enum.KeyCode.DPadRight<
+Enum.KeyCode.DPadRight
 
-Enum.KeyCode.DPadUp<
+Enum.KeyCode.DPadUp
 
-Enum.KeyCode.DPadDown<
+Enum.KeyCode.DPadDown
 
 This can be used to check whether a specific button, such as A, is being held down. For example:
 

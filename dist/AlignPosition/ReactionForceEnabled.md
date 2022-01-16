@@ -1,1 +1,1 @@
-When true the constraint will apply force on both Attachments to achieve the goal.
+If true the constraint applies force on both Attachments to achieve the goal.
