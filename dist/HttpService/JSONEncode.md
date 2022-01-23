@@ -3,7 +3,7 @@ The JSONEncode function transforms a Lua [table](http://robloxdev.com/articles/T
 *   Keys of the table must be either strings or numbers. If a table contains both, an array takes priority (string keys are ignored).
 *   An empty Lua table `{}` generates an empty JSON array.
 *   The value `nil` is never generated.
-*   Cyclic table references generate the string `*** certain entries belong to the same table ***`.
+*   Cyclic table references cause an error.
 
 This function allows values such as _inf_ and _nan_, which are not valid JSON. This may cause problems if you want to use the outputted JSON elsewhere.
 

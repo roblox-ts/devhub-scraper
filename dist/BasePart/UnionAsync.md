@@ -1,6 +1,4 @@
-This is a server-only function that uses [CSG](https://developer.roblox.com/en-us/api-reference/class/articles/3D Modeling with Parts) to combine the geometry of the calling [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) with a table of other BaseParts.
-
-  
+This is a server-only function that uses [CSG](https://developer.roblox.com/en-us/api-reference/class/articles/3D Modeling with Parts) to combine the geometry of the calling [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) with a table of other BaseParts.  
 The following properties from the calling part will be applied to the resulting part:
 
 *   Color

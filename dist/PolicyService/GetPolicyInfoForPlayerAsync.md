@@ -14,7 +14,7 @@ Boolean
 
 Any experience that has paid random items
 
-Whether the player can interact with paid (via in-experience currency or Robux) random item generators.
+When true, the player cannot interact with paid (via in-experience currency or Robux) random item generators.
 
 AllowedExternalLinkReferences
 
@@ -22,7 +22,7 @@ Array of strings
 
 Any experience that references external links
 
-Whether a player can see any external link reference (for example, social media links, handles, or iconography). Possible values include: “Discord”, “Facebook”, “Twitch”, and “YouTube”.
+A list of external link references (for example, social media links, handles, or iconography) a player is permitted to see. Possible values include: “Discord”, “Facebook”, “Twitch”, and “YouTube”.
 
 IsPaidItemTradingAllowed
 
@@ -30,7 +30,7 @@ Boolean
 
 Any experience that allows users to purchase virtual items that they can trade with other players
 
-Whether the player can trade virtual items that they purchased with in-experience currency or Robux.
+When true, the player can trade virtual items that they purchased with in-experience currency or Robux.
 
 IsSubjectToChinaPolicies
 
@@ -38,7 +38,7 @@ Boolean
 
 Any experience that is available in China
 
-Whether an experience should enforce compliance changes. See [this developer forum post](https://devforum.roblox.com/t/new-programs-available-roblox-china-licensed-to-operate/1023361) for more information.
+When true, an experience should enforce compliance changes. See [this developer forum post](https://devforum.roblox.com/t/new-programs-available-roblox-china-licensed-to-operate/1023361) for more information.
 
 Exceptions
 ----------

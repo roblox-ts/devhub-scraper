@@ -1,6 +1,6 @@
 BasePart is an abstract base class for in-world objects that render and are physically simulated while in the [Workspace](https://developer.roblox.com/en-us/api-reference/class/Workspace). There are several implementations of BasePart, the most common is [Part](https://developer.roblox.com/en-us/api-reference/class/Part), a simple 6-face rectangular prism. Others include [SpawnLocation](https://developer.roblox.com/en-us/api-reference/class/SpawnLocation), [WedgePart](https://developer.roblox.com/en-us/api-reference/class/WedgePart) and the singleton [Terrain](https://developer.roblox.com/en-us/api-reference/class/Terrain) object within the [Workspace](https://developer.roblox.com/en-us/api-reference/class/Workspace). Most of the time, when documentation refers to a part, most BasePart implementations will work and not just [Part](https://developer.roblox.com/en-us/api-reference/class/Part).
 
-There are **many** different objects that interact with BasePart:
+There are many different objects that interact with BasePart:
 
 *   They may be grouped within a [Model](https://developer.roblox.com/en-us/api-reference/class/Model), which allows several BasePart to be moved at the same time using [SetPrimaryPartCFrame](https://developer.roblox.com/en-us/api-reference/function/Model/SetPrimaryPartCFrame).
 *   A [Decal](https://developer.roblox.com/en-us/api-reference/class/Decal) applies a stretched image texture to the faces of a part, though the exact mapping depends on the type of part.
