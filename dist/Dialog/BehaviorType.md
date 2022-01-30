@@ -11,7 +11,7 @@ While a player is engaged with a dialog, the other players will see the dialog c
 MultiplePlayers
 ---------------
 
-When a Dialog is setto MultiplePlayers, any player can initiate a dialog at any time, even if another player has already initiated the dialog. Unlike SinglePlayer however, Dialogs set to MultiplePlayers will not show the dialog choices and responses to anyone but the player in the conversation.Sets whether the Dialog can be used by multiple players at once.
+When a Dialog is setto MultiplePlayers, any player can initiate a dialog at any time, even if another player has already initiated the dialog. Unlike SinglePlayer however, Dialogs set to MultiplePlayers will not show the dialog choices and responses to anyone but the player in the conversation.
 
 Example
 -------

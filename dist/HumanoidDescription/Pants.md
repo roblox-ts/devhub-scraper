@@ -1,4 +1,4 @@
-![A Humanoid with a HumanoidDescription applied whose Pants is 144076760, a pair of dark jeans and black/white shoes](https://developer.roblox.com/assets/blt78747da501e4b103/Pants.jpg)
+![](https://developer.roblox.com/assets/blt78747da501e4b103/Pants.jpg)
 
 **Pants** determines the [PantsTemplate](https://developer.roblox.com/en-us/api-reference/property/Pants/PantsTemplate) used by a [Pants](https://developer.roblox.com/en-us/api-reference/class/Pants) when [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) to a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid). The asset type **must be for a Pants** and not a Decal or Image.
 

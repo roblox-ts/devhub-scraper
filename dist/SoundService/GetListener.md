@@ -1,30 +1,26 @@
 This function returns `SoundService|SoundService's` current listener type and what is set as listener.
 
-The first result returned is the [ListenerType](https://developer.roblox.com/en-us/api-reference/enum/ListenerType) of the listener, the second result is dependent on the ListenerType:  
-table class=“table table-striped table-bordered”>  
-  
-  
-ListenerType  
-Description  
-  
-  
-  
-  
-Enum.ListenerType.Camera  
-Does not return a listener object as [Workspace.CurrentCamera](https://developer.roblox.com/en-us/api-reference/property/Workspace/CurrentCamera) is always used  
-  
-  
-Enum.ListenerType.CFrame  
-Returns the [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) used in [SoundService:SetListener](https://developer.roblox.com/en-us/api-reference/function/SoundService/SetListener)  
-  
-  
-Enum.ListenerType.ObjectPosition  
-Returns the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) used in [SoundService:SetListener](https://developer.roblox.com/en-us/api-reference/function/SoundService/SetListener)  
-  
-  
-Enum.ListenerType.ObjectCFrame  
-Returns the BasePart used in SetListener()  
-  
+The first result returned is the [ListenerType](https://developer.roblox.com/en-us/api-reference/enum/ListenerType) of the listener, the second result is dependent on the ListenerType:
+
+ListenerType
+
+Description
+
+Enum.ListenerType.Camera
+
+Does not return a listener object as [Workspace.CurrentCamera](https://developer.roblox.com/en-us/api-reference/property/Workspace/CurrentCamera) is always used
+
+Enum.ListenerType.CFrame
+
+Returns the [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) used in [SoundService:SetListener](https://developer.roblox.com/en-us/api-reference/function/SoundService/SetListener)
+
+Enum.ListenerType.ObjectPosition
+
+Returns the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) used in [SoundService:SetListener](https://developer.roblox.com/en-us/api-reference/function/SoundService/SetListener)
+
+Enum.ListenerType.ObjectCFrame
+
+Returns the BasePart used in SetListener()
 
 The listener can be changed using [SoundService:SetListener](https://developer.roblox.com/en-us/api-reference/function/SoundService/SetListener).
 

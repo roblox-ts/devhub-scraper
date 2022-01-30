@@ -1,4 +1,4 @@
-![Three R15 figures whose Humanoids have HumanoidDescriptions applied with the following BodyTypeScale values (from left-to-right): 0, 0.5, 1.0. Also visible are 6 stacked cubes for height reference](https://developer.roblox.com/assets/blt4f4d8f6788a67841/BodyTypeScale.jpg)
+![](https://developer.roblox.com/assets/blt4f4d8f6788a67841/BodyTypeScale.jpg)
 
 **BodyTypeScale** determines by which the shape of a Humanoid rig is interpolated from the standard R15 body shape (0) to a taller and more slender/realistic body type (1). Values outside of the \[0-1\] range are clamped. When the description is [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) to a Humanoid, this value maps to a “BodyTypeScales” [NumberValue](https://developer.roblox.com/en-us/api-reference/class/NumberValue) within the Humanoid.
 

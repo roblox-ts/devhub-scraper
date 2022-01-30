@@ -7,31 +7,27 @@ sound.RollOffMode = Enum.RollOffMode.Linear
 The different modes
 -------------------
 
-Thee following options are available:  
-table class=“table table-striped table-bordered”>  
-  
-  
-Mode  
-Description  
-  
-  
-  
-  
-Inverse  
-Volume attenuates from [Sound.RollOffMinDistance](https://developer.roblox.com/en-us/api-reference/property/Sound/RollOffMinDistance) in an inverse manner  
-  
-  
-InverseTapered  
-A hybrid model. Follows the Inverse model when close to RollOffMinDistance and the Linear Square model when close to [Sound.RollOffMaxDistance](https://developer.roblox.com/en-us/api-reference/property/Sound/RollOffMaxDistance)  
-  
-  
-Linear  
-Volume attenuates between RollOffMinDistance and RollOffMaxDistance with a linear relationship  
-  
-  
-LinearSquare  
-Volume attenuates between RollOffMinDistance and RollOffMaxDistance with a linear squared relationship  
-  
+Thee following options are available:
+
+Mode
+
+Description
+
+Inverse
+
+Volume attenuates from [Sound.RollOffMinDistance](https://developer.roblox.com/en-us/api-reference/property/Sound/RollOffMinDistance) in an inverse manner
+
+InverseTapered
+
+A hybrid model. Follows the Inverse model when close to RollOffMinDistance and the Linear Square model when close to [Sound.RollOffMaxDistance](https://developer.roblox.com/en-us/api-reference/property/Sound/RollOffMaxDistance)
+
+Linear
+
+Volume attenuates between RollOffMinDistance and RollOffMaxDistance with a linear relationship
+
+LinearSquare
+
+Volume attenuates between RollOffMinDistance and RollOffMaxDistance with a linear squared relationship
 
 Inverse vs Linear Distance Attenuation
 --------------------------------------

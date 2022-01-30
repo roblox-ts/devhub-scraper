@@ -1,4 +1,4 @@
-![Three R15 figures whose Humanoids have HumanoidDescriptions applied with the following WidthScale values (from left-to-right): 0.5, 1.0, 1.5](https://developer.roblox.com/assets/blt23a187e8f903a1a0/WidthScale.jpg)
+![](https://developer.roblox.com/assets/blt23a187e8f903a1a0/WidthScale.jpg)
 
 **WidthScale** determines by what factor the width (left-to-right distance) of a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is scaled, as well as all accessories not attached to its head. When the description is [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) to a Humanoid, this value maps to a “BodyWidthScale” [NumberValue](https://developer.roblox.com/en-us/api-reference/class/NumberValue) within the Humanoid.
 

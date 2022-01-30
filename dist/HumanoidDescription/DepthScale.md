@@ -1,4 +1,4 @@
-![Three R15 figures whose Humanoids have HumanoidDescriptions applied with the following DepthScale values (from left-to-right): 0.25, 1.0, 2.0](https://developer.roblox.com/assets/blt8931663356afe1ab/DepthScale.jpg)
+![](https://developer.roblox.com/assets/blt8931663356afe1ab/DepthScale.jpg)
 
 **DepthScale** determines by what factor the height (back-to-front distance) of a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is scaled, as well as all accessories not attached to its head. When the description is [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) to a Humanoid, this value maps to a “BodyDepthScale” [NumberValue](https://developer.roblox.com/en-us/api-reference/class/NumberValue) within the Humanoid.
 

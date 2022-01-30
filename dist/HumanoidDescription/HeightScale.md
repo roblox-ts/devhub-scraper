@@ -1,4 +1,4 @@
-![Three R15 figures whose Humanoids have HumanoidDescriptions applied with the following HeightScale values (from left-to-right): 0.5, 1.0, 1.5](https://developer.roblox.com/assets/blt421188ba32f3ef21/HeightScale.jpg)
+![](https://developer.roblox.com/assets/blt421188ba32f3ef21/HeightScale.jpg)
 
 **HeightScale** determines by what factor the height (top-to-bottom distance) of a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is scaled, as well as all accessories not attached to its head. When the description is [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) to a Humanoid, this value maps to a “BodyHeightScale” [NumberValue](https://developer.roblox.com/en-us/api-reference/class/NumberValue) within the Humanoid.
 

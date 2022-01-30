@@ -5,7 +5,7 @@ This includes
 *   Sets the user is subscribed to.
 *   Sets that the user created.
 *   A single set containing the models created by the user.
-*   A single set containing the decals created by the user.Returns an array of dictionaries, containing information about sets owned by the user.
+*   A single set containing the decals created by the user.
 
 Notes
 -----

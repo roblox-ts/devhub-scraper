@@ -1,4 +1,4 @@
-Calling this method will fire the `BindablEvent/Event` event.
+Calling this method will fire the [BindableEvent.Event](https://developer.roblox.com/en-us/api-reference/event/BindableEvent/Event) event.
 
 This function does not yield, even if no script has connected to the “Event” event and even if a connected function yields.
 
@@ -9,9 +9,11 @@ Any type of Roblox object such as an [Enumeration](https://developer.roblox.com/
 
 ### Mixed Tables
 
-If a Table is passed as an argument to a BindableFunction it must be an array without missing entries or have string keys, not a mixture, or else the string keys will be lost.
+If a Table is passed as an argument to a BindableEvent it must be an array without missing entries or have string keys, not a mixture, or else the string keys will be lost.
 
-Avoid passing a mixed table (some values indexed by number and others by key), as **only the data indexed by number will be passed**. For example, when the server receives the `colorData` table illustrated below, it will only see indices 1 and 2 containing `"Blue"` and `"Yellow"` while the other data will be lost in the transfer. Note, however, that **sub-tables** do not need to be indexed in the same way as their parent — in other words, as long as each individual sub-table is indexed with the same type, all of the data will be preserved.
+Avoid passing a mixed table (some values indexed by number and others by key), as **only the data indexed by number will be passed**. For example, when the server receives the `colorData` table illustrated below, it only sees indices 1 and 2 containing `"Blue"` and `"Yellow"` while the other data is lost in the transfer. Note, however, that **sub-tables** do not need to be indexed in the same way as their parent — in other words, as long as each individual sub-table is indexed with the same type, all of the data is preserved.
+
+Metatables are not preserved.
 
 ### Non-String Indices
 

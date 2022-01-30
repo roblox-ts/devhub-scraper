@@ -20,7 +20,9 @@ Limitations
 
 Invocations will **yield** until the corresponding callback is found. If the callback was never set, the script that invokes it will not resume execution.
 
-\### Subscription Only one function can be bound to \`BindableFunction/Invoke\` at a time. If you assign multiple functions, only the last one assigned will be used.
+### Subscription
+
+Only one function can be bound to [BindableFunction:Invoke](https://developer.roblox.com/en-us/api-reference/function/BindableFunction/Invoke) at a time. If you assign multiple functions, only the last one assigned will be used.
 
 ### Parameter Limitations
 
@@ -53,7 +55,9 @@ The above code may produce the following results in the output. Notice how the m
 
 #### Mixed Tables
 
-Avoid passing a mixed table (some values indexed by number and others by key), as **only the data indexed by number will be passed**. For example, when the server receives the `colorData` table illustrated below, it will only see indices 1 and 2 containing `"Blue"` and `"Yellow"` while the other data will be lost in the transfer. Note, however, that **sub-tables** do not need to be indexed in the same way as their parent — in other words, as long as each individual sub-table is indexed with the same type, all of the data will be preserved.
+Avoid passing a mixed table (some values indexed by number and others by key), as **only the data indexed by number will be passed**. For example, when the server receives the `colorData` table illustrated below, it only sees indices 1 and 2 containing `"Blue"` and `"Yellow"` while the other data is lost in the transfer. Note, however, that **sub-tables** do not need to be indexed in the same way as their parent — in other words, as long as each individual sub-table is indexed with the same type, all of the data is preserved.
+
+Metatables are not preserved.
 
 #### Non-String Indices
 

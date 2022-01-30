@@ -2,4 +2,4 @@ The **ZIndex** property determines the draw order of the [HandleAdornment](https
 
 The valid values for ZIndex are from -1 to 10. If two HandleAdornments are drawn over one another, the one with the higher ZIndex will be drawn. This order of drawing will be respected even if the adormnent with higher ZIndex is behind the other adornment in terms of its position in 3d space.
 
-If set to -1, ZIndex will force the adornment to draw behind other adornments and objects in the Workspace, even if the \`HandleAdornment/AlwaysOnTop\` property for the adornment is true.The ZIndex property determines the draw order of the HandleAdornment.
+If set to -1, ZIndex will force the adornment to draw behind other adornments and objects in the Workspace, even if the \`HandleAdornment/AlwaysOnTop\` property for the adornment is true.

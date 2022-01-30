@@ -1,4 +1,4 @@
-![Four R15 figures whose Humanoids have HumanoidDescriptions applied with the following ProportionScale values (from left-to-right): 0, 0.5, 1.0, 0.0. The left three have BodyTypeScale values of 1.0, while the rightmost has a BodyTypeScale value of 0.0. Also visible are 6 stacked cubes for height reference.](https://developer.roblox.com/assets/bltfe95e570d9750c28/ProportionScale.jpg)
+![](https://developer.roblox.com/assets/bltfe95e570d9750c28/ProportionScale.jpg)
 
 **ProportionScale** determines how wide (0) or narrow (1) a Humanoid rig. Values outside of the \[0-1\] range are clamped. When the description is [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) to a Humanoid, this value maps to a “BodyProportionScale” [NumberValue](https://developer.roblox.com/en-us/api-reference/class/NumberValue) within the Humanoid.
 

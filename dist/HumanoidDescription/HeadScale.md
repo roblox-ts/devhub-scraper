@@ -1,4 +1,4 @@
-![Three R15 figures whose Humanoids have HumanoidDescriptions applied with the following HeadScale values (from left-to-right): 0.5, 1.0, 1.5](https://developer.roblox.com/assets/blt1da684150a0bfdfb/HeadScale.jpg)
+![](https://developer.roblox.com/assets/blt1da684150a0bfdfb/HeadScale.jpg)
 
 **HeadScale** determines by what factor the Head of a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is scaled, as well as any accessories attached to it (such as those specified by [HatAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HatAccessory) and [HairAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HairAccessory)). When the description is [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) to a Humanoid, this value maps to a “HeadScale” [NumberValue](https://developer.roblox.com/en-us/api-reference/class/NumberValue) within the Humanoid.
 
