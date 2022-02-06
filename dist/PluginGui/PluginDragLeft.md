@@ -5,7 +5,7 @@ This event and [PluginDragDropped](https://developer.roblox.com/en-us/api-refere
 See Also
 --------
 
-*   [Drag and Drop in Studio Widgets](https://developer.roblox.com/en-us/articles/Drag-and-Drop-in-Studio-Widgets)
+*   [Drag and Drop in Studio Widgets](https://developer.roblox.com/en-us/articles/drag-and-drop-in-studio-widgets)
 *   [PluginGui.PluginDragEntered](https://developer.roblox.com/en-us/api-reference/event/PluginGui/PluginDragEntered)
 *   [PluginGui.PluginDragMoved](https://developer.roblox.com/en-us/api-reference/event/PluginGui/PluginDragMoved)
 *   [PluginGui.PluginDragDropped](https://developer.roblox.com/en-us/api-reference/event/PluginGui/PluginDragDropped)

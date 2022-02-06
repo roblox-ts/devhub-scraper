@@ -11,4 +11,4 @@ If the previous values were already deleted via [GlobalDataStore:RemoveAsync](ht
 See Also
 --------
 
-*   [Data Stores](https://developer.roblox.com/en-us/articles/Data-store), an in-depth guide on data structure, management, error handling, etc.
+*   [Data Stores](https://developer.roblox.com/en-us/articles/data-store), an in-depth guide on data structure, management, error handling, etc.

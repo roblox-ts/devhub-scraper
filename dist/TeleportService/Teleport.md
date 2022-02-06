@@ -53,4 +53,4 @@ This service does not work during playtesting in Roblox Studio — To test asp
 See also
 --------
 
-For more information on how to teleport players, see the [Teleporting Between Places](https://developer.roblox.com/en-us/articles/Teleporting-Between-Places) tutorial.
+For more information on how to teleport players, see the [Teleporting Between Places](https://developer.roblox.com/en-us/articles/teleporting-between-places) tutorial.

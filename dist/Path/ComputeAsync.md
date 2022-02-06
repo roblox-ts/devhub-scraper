@@ -5,4 +5,4 @@ Once the Path is computed, it will have a series of waypoints that, when followe
 See also
 --------
 
-*   [Pathfinding](https://developer.roblox.com/en-us/articles/Pathfinding), provides an in-depth pathfinding walkthrough
+*   [Pathfinding](https://developer.roblox.com/en-us/articles/pathfinding), provides an in-depth pathfinding walkthrough

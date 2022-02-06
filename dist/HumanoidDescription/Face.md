@@ -5,7 +5,7 @@ The actual face texture is rendered using a [Decal](https://developer.roblox.com
 See also
 --------
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
 *   [GraphicTShirt](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/GraphicTShirt), [Shirt](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/Shirt) and [Pants](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/Pants), which also apply textures to a rig
 *   [Head](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/Head), which can change the mesh of the head
 *   [FaceAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/FaceAccessory), which can apply one or more [Accessory](https://developer.roblox.com/en-us/api-reference/class/Accessory)s to the face

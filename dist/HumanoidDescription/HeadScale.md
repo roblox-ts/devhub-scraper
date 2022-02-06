@@ -7,6 +7,6 @@ In the image, three R15 figures whose [Humanoid](https://developer.roblox.com/en
 See also
 --------
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
 *   [BodyTypeScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/BodyTypeScale) and [ProportionScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/ProportionScale), which can provide realistic rig proportions
 *   [WidthScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HeightScale), [HeightScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/DepthScale) and [DepthScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/DepthScale), which provide finer control over other dimensions of a rig

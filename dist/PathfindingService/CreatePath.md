@@ -71,4 +71,4 @@ local path = PathfindingService:CreatePath{
     }
 }
 
-See the [Pathfinding](https://developer.roblox.com/en-us/articles/Pathfinding) guide for details and examples on using pathfinding in Roblox.
+See the [Pathfinding](https://developer.roblox.com/en-us/articles/pathfinding) guide for details and examples on using pathfinding in Roblox.

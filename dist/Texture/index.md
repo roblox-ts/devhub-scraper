@@ -11,7 +11,7 @@ texture.Texture = "http://www.roblox.com/asset/?id=732339893" -- roblox logo
 texture.StudsPerTileU = 1
 texture.StudsPerTileV = 1
 
-The image a Texture applies is determined by its [Decal.Texture](https://developer.roblox.com/en-us/api-reference/property/Decal/Texture) property. Images can be uploaded to Roblox provided they adhere to the community guidelines. Information on how to upload images can be found [here](https://developer.roblox.com/en-us/articles/How-to-upload-a-Decal). -->
+The image a Texture applies is determined by its [Decal.Texture](https://developer.roblox.com/en-us/api-reference/property/Decal/Texture) property. Images can be uploaded to Roblox provided they adhere to the community guidelines. Information on how to upload images can be found [here](https://developer.roblox.com/en-us/articles/how-to-upload-a-decal). -->
 
 What is the difference between Textures and Decals?
 ---------------------------------------------------

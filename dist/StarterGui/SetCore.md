@@ -436,7 +436,7 @@ The player who should be unblocked
 AvatarContextMenuEnabled
 ------------------------
 
-Determines whether the [Avatar Context Menu](https://developer.roblox.com/en-us/articles/Avatar-Context-Menu#visual-customization) is enabled.
+Determines whether the [Avatar Context Menu](https://developer.roblox.com/en-us/articles/avatar-context-menu#visual-customization) is enabled.
 
 Name
 
@@ -457,7 +457,7 @@ Determines whether the Avatar Context Menu is enabled
 AvatarContextMenuTarget
 -----------------------
 
-Forcibly opens the [Avatar Context Menu](https://developer.roblox.com/en-us/articles/Avatar-Context-Menu#opening-the-menu).
+Forcibly opens the [Avatar Context Menu](https://developer.roblox.com/en-us/articles/avatar-context-menu#opening-the-menu).
 
 Name
 
@@ -478,7 +478,7 @@ The player on whom the ACM will be opened.
 AddAvatarContextMenuOption
 --------------------------
 
-Adds an option to the [Avatar Context Menu](https://developer.roblox.com/en-us/articles/Avatar-Context-Menu#visual-customization).
+Adds an option to the [Avatar Context Menu](https://developer.roblox.com/en-us/articles/avatar-context-menu#visual-customization).
 
 Name
 
@@ -509,7 +509,7 @@ A two-element table, where the first is the name of the custom action, and the s
 RemoveAvatarContextMenuOption
 -----------------------------
 
-Removes an option to the [Avatar Context Menu](https://developer.roblox.com/en-us/articles/Avatar-Context-Menu#visual-customization). The `option` argument must be the same as what was used with **AddAvatarContextMenuOption** (see above).
+Removes an option to the [Avatar Context Menu](https://developer.roblox.com/en-us/articles/avatar-context-menu#visual-customization). The `option` argument must be the same as what was used with **AddAvatarContextMenuOption** (see above).
 
 Name
 
@@ -532,7 +532,7 @@ AvatarContextMenuTheme
 
 Configures the customizable Avatar Context Menu (ACM) which is an opt-in feature that allows easy player-to-player social interaction via custom actions, such as initiating trades, battles, and more.
 
-For more info on the ACM including how to customize its theme and use it in your game, see the [Avatar Context Menu](https://developer.roblox.com/en-us/articles/Avatar-Context-Menu#visual-customization) article.
+For more info on the ACM including how to customize its theme and use it in your game, see the [Avatar Context Menu](https://developer.roblox.com/en-us/articles/avatar-context-menu#visual-customization) article.
 
 CoreGuiChatConnections
 ----------------------

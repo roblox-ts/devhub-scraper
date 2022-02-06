@@ -1,3 +1,3 @@
-The **BadgeService** class provides information and functionality related to [badges](https://developer.roblox.com/en-us/articles/Badges-Special-Game-Awards). Badges are used across the platform to recognize a player's achievements and activity. Upon awarding a badge to a player, it is added to their inventory and displayed on their profile page.
+The **BadgeService** class provides information and functionality related to [badges](https://developer.roblox.com/en-us/articles/badges-special-game-awards). Badges are used across the platform to recognize a player's achievements and activity. Upon awarding a badge to a player, it is added to their inventory and displayed on their profile page.
 
-See the [badges](https://developer.roblox.com/en-us/articles/Badges-Special-Game-Awards) article for more information, as well as the code samples below.
+See the [badges](https://developer.roblox.com/en-us/articles/badges-special-game-awards) article for more information, as well as the code samples below.

@@ -6,4 +6,4 @@ In addition to [ComputeAsync()](https://developer.roblox.com/en-us/api-reference
 
 Finally, [Path](https://developer.roblox.com/en-us/api-reference/class/Path) objects can be **connected** to the [Path.Blocked](https://developer.roblox.com/en-us/api-reference/event/Path/Blocked) event. This event will fire if, at any time during the path's existence, the path is blocked. Note that this can occur **behind** a character moving along the path, not just in front of it.
 
-See the [Pathfinding](https://developer.roblox.com/en-us/articles/Pathfinding) guide for details and examples on using pathfinding in Roblox.
+See the [Pathfinding](https://developer.roblox.com/en-us/articles/pathfinding) guide for details and examples on using pathfinding in Roblox.

@@ -9,4 +9,4 @@ To get a specific version, such as a version before the latest, use [DataStore:G
 See Also
 --------
 
-*   [Data Stores](https://developer.roblox.com/en-us/articles/Data-store), an in-depth guide on data structure, management, error handling, etc.
+*   [Data Stores](https://developer.roblox.com/en-us/articles/data-store), an in-depth guide on data structure, management, error handling, etc.

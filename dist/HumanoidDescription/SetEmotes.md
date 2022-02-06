@@ -14,6 +14,6 @@ hd:SetEmotes(emotes)
 See also
 --------
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
 *   [AddEmote](https://developer.roblox.com/en-us/api-reference/function/HumanoidDescription/AddEmote) and [RemoveEmote](https://developer.roblox.com/en-us/api-reference/function/HumanoidDescription/RemoveEmote) which can modify the added emotes on an individual level
 *   [EmotesChanged](https://developer.roblox.com/en-us/api-reference/event/HumanoidDescription/EmotesChanged), which fires when this function is called

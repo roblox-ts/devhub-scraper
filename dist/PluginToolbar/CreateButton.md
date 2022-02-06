@@ -3,4 +3,4 @@ Creates [PluginToolbarButton](https://developer.roblox.com/en-us/api-reference/c
 See also
 --------
 
-*   [Intro to Plugins](https://developer.roblox.com/en-us/articles/Intro-to-Plugins), an introductory level article for users looking to create custom plugins
+*   [Intro to Plugins](https://developer.roblox.com/en-us/articles/intro-to-plugins), an introductory level article for users looking to create custom plugins

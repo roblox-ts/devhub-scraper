@@ -5,6 +5,6 @@
 See also
 --------
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
 *   [Shirt](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/Shirt), which can provide the same functionality in addition to providing textures for the entire torso and arms
 *   [TorsoColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/TorsoColor), which can change the color of the torso underneath the t-shirt texture

@@ -7,4 +7,4 @@ If you would like to create a custom chat system where you can define custom fun
 See also
 --------
 
-Developers who are interested interested in configuring their games' bubble chat system even further should take a look at the [Bubble Chat](https://developer.roblox.com/en-us/articles/Bubble-Chat) article.
+Developers who are interested interested in configuring their games' bubble chat system even further should take a look at the [Bubble Chat](https://developer.roblox.com/en-us/articles/bubble-chat) article.

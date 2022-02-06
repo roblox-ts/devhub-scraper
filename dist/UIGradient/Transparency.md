@@ -7,4 +7,4 @@ Note: the envelope values of the [NumberSequenceKeypoints](https://developer.rob
 See Also
 --------
 
-*   [Applying UIGradients](https://developer.roblox.com/en-us/articles/Applying-UIGradients), for more information on creating UIGradient objects and how they work.
+*   [Applying UIGradients](https://developer.roblox.com/en-us/articles/applying-uigradients), for more information on creating UIGradient objects and how they work.

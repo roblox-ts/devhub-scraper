@@ -1,3 +1,3 @@
 Terrain lets you create dynamically morphable environments with little to no lag. It is currently based on a 4×4×4 grid of cells, where each cell has a number between 0 and 1 representing how much the geometry should occupy the cell, and the material of the cell. The occupancy determines how the cell will morph together with surrounding cells, and the result is the illusion of having no grid constraint.
 
-For more info, see [Importing Terrain Data](https://developer.roblox.com/en-us/articles/importing-terrain-data) and [Scripting Terrain](https://developer.roblox.com/en-us/articles/Scripting-With-Terrain).
+For more info, see [Importing Terrain Data](https://developer.roblox.com/en-us/articles/importing-terrain-data) and [Scripting Terrain](https://developer.roblox.com/en-us/articles/scripting-with-terrain).

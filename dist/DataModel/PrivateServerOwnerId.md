@@ -1,4 +1,4 @@
-This property describes the [UserId](https://developer.roblox.com/en-us/api-reference/property/Player/UserId) of the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) that owns the [VIP server](https://developer.roblox.com/en-us/articles/Creating-a-VIP-Server-on-Roblox) if the server is a VIP server.
+This property describes the [UserId](https://developer.roblox.com/en-us/api-reference/property/Player/UserId) of the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) that owns the [VIP server](https://developer.roblox.com/en-us/articles/creating-a-vip-server-on-roblox) if the server is a VIP server.
 
 If the server is a standard or reserved server then this property will be set to _0_.
 

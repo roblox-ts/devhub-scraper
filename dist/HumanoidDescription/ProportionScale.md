@@ -39,7 +39,7 @@ ProportionScale
 See also
 --------
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
 *   [BodyTypeScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/BodyTypeScale), which also affects rig proportions
 *   [WidthScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HeightScale), [HeightScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/DepthScale) and [DepthScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/DepthScale), which provide finer control over the dimensions of a rig
 *   [HeadScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HeadScale), which provides specific control over the scale of the rig's head

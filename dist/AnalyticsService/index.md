@@ -9,4 +9,4 @@ Developers can report events and see visual analysis results on PlayFab webpage.
 See also
 --------
 
-Developers who are interested in leveraging analytics to take their game to the next level should take a look at the [introductory article](https://developer.roblox.com/en-us/articles/Using-the-Analytics-Service).
+Developers who are interested in leveraging analytics to take their game to the next level should take a look at the [introductory article](https://developer.roblox.com/en-us/articles/using-the-analytics-service).

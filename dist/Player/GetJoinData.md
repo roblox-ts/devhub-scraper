@@ -51,4 +51,4 @@ Despite this, it is still appropriate for the secure transmission of [immutable 
 
 You should not use this function for data that can be changed. For example, the amount of in-game currency the user currently has. This is because GetJoinData cannot guarantee a malicious user is not transmitting data from a previous session. For data like this, you should rely on [GlobalDataStores](https://developer.roblox.com/en-us/api-reference/class/GlobalDataStore).
 
-As with all cases, you should implement proper server validation to ensure your game is secure. For more information see this article on [Game Security](https://developer.roblox.com/en-us/articles/Game-Security).
+As with all cases, you should implement proper server validation to ensure your game is secure. For more information see this article on [Game Security](https://developer.roblox.com/en-us/articles/game-security).

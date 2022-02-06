@@ -3,7 +3,7 @@
 See also
 --------
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
 *   [HeadColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HeadColor), [TorsoColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/TorsoColor), [LeftArmColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/LeftArmColor), [LeftLegColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/LeftLegColor), and [RightLegColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/RightLegColor), which are similar properties that also control body colors
 *   [RightArm](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/RightArm), which controls the mesh used for this limb
 *   [Shirt](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/Shirt), which can apply a texture to this limb

@@ -1,4 +1,4 @@
-This is a server-only function that uses [CSG](https://developer.roblox.com/en-us/articles/3D-Modeling-with-Parts) to combine the geometry of the calling [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) with a table of other BaseParts.  
+This is a server-only function that uses [CSG](https://developer.roblox.com/en-us/articles/3d-modeling-with-parts) to combine the geometry of the calling [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) with a table of other BaseParts.  
 The following properties from the calling part will be applied to the resulting part:
 
 *   Color
@@ -59,6 +59,6 @@ Blast pieces out of rotating windows or fuse new material onto them. Includes a 
 See also
 --------
 
-*   [In Game Solid Modeling](https://developer.roblox.com/en-us/articles/In-Game-Solid-Modeling), create custom plugins for solid modeling techniques like unions, negations, and separations
-*   [3D Modeling with Parts](https://developer.roblox.com/en-us/articles/3D-Modeling-with-Parts), how to combine and subtract parts to create complex solid shapes
-*   [Making an Arch](https://developer.roblox.com/en-us/articles/Making-an-Arch), make an arch for your environment using the Negate tool
+*   [In Game Solid Modeling](https://developer.roblox.com/en-us/articles/in-game-solid-modeling), create custom plugins for solid modeling techniques like unions, negations, and separations
+*   [3D Modeling with Parts](https://developer.roblox.com/en-us/articles/3d-modeling-with-parts), how to combine and subtract parts to create complex solid shapes
+*   [Making an Arch](https://developer.roblox.com/en-us/articles/making-an-arch), make an arch for your environment using the Negate tool

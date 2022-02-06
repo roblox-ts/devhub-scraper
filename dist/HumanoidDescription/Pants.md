@@ -5,6 +5,6 @@
 See also
 --------
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
 *   [Shirt](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/Shirt), a similar property which applies to a [Shirt](https://developer.roblox.com/en-us/api-reference/class/Shirt) object
 *   [TorsoColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/TorsoColor), [LeftLegColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/LeftLegColor) and [RightLegColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/RightLegColor), which can change the color of the body parts underneath the pants texture

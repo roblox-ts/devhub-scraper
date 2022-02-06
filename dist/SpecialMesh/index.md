@@ -33,4 +33,4 @@ In most, but not all cases, using a [MeshPart](https://developer.roblox.com/en-u
 Uploading a custom mesh
 -----------------------
 
-Although a developer uploaded mesh can be used on a [SpecialMesh](https://developer.roblox.com/en-us/api-reference/class/SpecialMesh), meshes can currently only be be uploaded using [MeshPart](https://developer.roblox.com/en-us/api-reference/class/MeshPart)s or the game explorer. For more information on how to do this please see [this tutorial](https://developer.roblox.com/en-us/articles/Mesh-Parts).
+Although a developer uploaded mesh can be used on a [SpecialMesh](https://developer.roblox.com/en-us/api-reference/class/SpecialMesh), meshes can currently only be be uploaded using [MeshPart](https://developer.roblox.com/en-us/api-reference/class/MeshPart)s or the game explorer. For more information on how to do this please see [this tutorial](https://developer.roblox.com/en-us/articles/mesh-parts).

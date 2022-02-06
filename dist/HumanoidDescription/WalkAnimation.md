@@ -3,5 +3,5 @@ When this description is [applied](https://developer.roblox.com/en-us/api-refere
 See also
 --------
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
 *   [ClimbAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/FallAnimation), [FallAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/FallAnimation), [IdleAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/IdleAnimation), [JumpAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/JumpAnimation), [RunAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/RunAnimation) and [SwimAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/SwimAnimation), which are similar properties that determine animations to play on the rig

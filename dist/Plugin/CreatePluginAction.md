@@ -7,6 +7,6 @@ In order for PluginActions work as expected, they must be created using this fun
 See also
 --------
 
-*   [Intro to Plugins](https://developer.roblox.com/en-us/articles/Intro-to-Plugins), an introductory article to plugin use and development
+*   [Intro to Plugins](https://developer.roblox.com/en-us/articles/intro-to-plugins), an introductory article to plugin use and development
 *   [PluginMenu](https://developer.roblox.com/en-us/api-reference/class/PluginMenu), a context menu that can be shown in Studio which displays a list of PluginActions and supports submenus
 *   [Plugin:CreatePluginMenu](https://developer.roblox.com/en-us/api-reference/function/Plugin/CreatePluginMenu), creates a PluginMenu

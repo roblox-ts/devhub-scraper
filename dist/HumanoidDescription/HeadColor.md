@@ -3,7 +3,7 @@
 See also
 --------
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
 *   [TorsoColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/TorsoColor), [LeftArmColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/LeftArmColor), [RightArmColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/RightArmColor), [LeftLegColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/LeftLegColor), and [RightLegColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/RightLegColor), which are similar properties that also control body colors
 *   [Head](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/Head), which controls the mesh used for the head
 *   [Face](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/Face), which applies a texture to the front of the head

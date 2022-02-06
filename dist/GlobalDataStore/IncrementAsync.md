@@ -5,4 +5,4 @@ This function increments the value of a key by the provided amount (both must be
 See Also
 --------
 
-*   [Data Stores](https://developer.roblox.com/en-us/articles/Data-store), an in-depth guide on data structure, management, error handling, etc.
+*   [Data Stores](https://developer.roblox.com/en-us/articles/data-store), an in-depth guide on data structure, management, error handling, etc.

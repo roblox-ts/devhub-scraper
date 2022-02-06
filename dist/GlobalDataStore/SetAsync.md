@@ -17,4 +17,4 @@ Any string being stored in a data store must be valid [UTF-8](https://developer.
 See Also
 --------
 
-*   [Data Stores](https://developer.roblox.com/en-us/articles/Data-store), an in-depth guide on data structure, management, error handling, etc.
+*   [Data Stores](https://developer.roblox.com/en-us/articles/data-store), an in-depth guide on data structure, management, error handling, etc.

@@ -3,7 +3,7 @@ This function shows the menu at the mouse cursor. It yields until either an item
 See also
 --------
 
-*   [Intro to Plugins](https://developer.roblox.com/en-us/articles/Intro-to-Plugins), an introductory article to plugin use and development
+*   [Intro to Plugins](https://developer.roblox.com/en-us/articles/intro-to-plugins), an introductory article to plugin use and development
 *   [PluginAction](https://developer.roblox.com/en-us/api-reference/class/PluginAction), an object that represents a generic performable action in Roblox Studio, with no directly associated `Toolbar` or `Button`.
 *   [Plugin:CreatePluginAction](https://developer.roblox.com/en-us/api-reference/function/Plugin/CreatePluginAction), creates a PluginAction
 *   [PluginMenu.Title](https://developer.roblox.com/en-us/api-reference/property/PluginMenu/Title), the text to be displayed when used as a sub menu

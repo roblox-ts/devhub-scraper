@@ -2,5 +2,5 @@ The internal CFrame that is manipulated by Animations when a Motor6D is being an
 
 Transform is the transformation between the “parent” [part](https://developer.roblox.com/en-us/api-reference/class/BasePart) and the “child” part. The “parent” part will always be the part that is more directly connected to the JointInstance.C0. This is not affected by which part is assigned to [JointInstance.Part0](https://developer.roblox.com/en-us/api-reference/property/JointInstance/Part0) and which is [JointInstance.Part1](https://developer.roblox.com/en-us/api-reference/property/JointInstance/Part1). If the side the root part is on changes the interpretation of Transform will be inverted.
 
-Similar to a [WeldJoint](https://developer.roblox.com/en-us/articles/Weld), an active Motor6D will rigidly hold its two parts such that:  
+Similar to a [WeldJoint](https://developer.roblox.com/en-us/articles/weld), an active Motor6D will rigidly hold its two parts such that:  
 `PartParent.CFrame * CParent * Transform == PartChild.CFrame * Child`

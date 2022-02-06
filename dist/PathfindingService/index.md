@@ -2,7 +2,7 @@
 
 This service has one function, [CreatePath()](https://developer.roblox.com/en-us/api-reference/function/PathfindingService/CreatePath), which creates a [Path](https://developer.roblox.com/en-us/api-reference/class/Path) object based on various parameters.
 
-See the [Pathfinding](https://developer.roblox.com/en-us/articles/Pathfinding) guide for details and examples on using pathfinding in Roblox.
+See the [Pathfinding](https://developer.roblox.com/en-us/articles/pathfinding) guide for details and examples on using pathfinding in Roblox.
 
 Navigation Mesh
 ---------------

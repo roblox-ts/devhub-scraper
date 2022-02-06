@@ -13,7 +13,7 @@ Unlike BindableFunctions, [BindableEvents](https://developer.roblox.com/en-us/ap
 BindableFunctions vs RemoteFunctions
 ------------------------------------
 
-While BindableFunctions allow for two-way communication server-server scripts or client-client [LocalScripts](https://developer.roblox.com/en-us/api-reference/class/LocalScript), [RemoteFunctions](https://developer.roblox.com/en-us/api-reference/class/RemoteFunction) allow for two-way communicate the server and client. For more information on RemoteFunctions, read the [Remote Functions and Events](https://developer.roblox.com/en-us/articles/Remote-Functions-and-Events) article.
+While BindableFunctions allow for two-way communication server-server scripts or client-client [LocalScripts](https://developer.roblox.com/en-us/api-reference/class/LocalScript), [RemoteFunctions](https://developer.roblox.com/en-us/api-reference/class/RemoteFunction) allow for two-way communicate the server and client. For more information on RemoteFunctions, read the [Remote Functions and Events](https://developer.roblox.com/en-us/articles/remote-functions-and-events) article.
 
 Limitations
 -----------

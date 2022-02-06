@@ -9,4 +9,4 @@ The SelectionBox object does not capture any form of input; it is solely a visua
 See also
 --------
 
-*   [Selection Boxes](https://developer.roblox.com/en-us/articles/Selection-Boxes), to learn more about using this object
+*   [Selection Boxes](https://developer.roblox.com/en-us/articles/selection-boxes), to learn more about using this object

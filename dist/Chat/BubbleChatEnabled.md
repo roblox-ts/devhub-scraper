@@ -8,4 +8,4 @@ This must be done on the client, toggling this value in a server-side [Script](h
 See also
 --------
 
-Developers who are interested interested in configuring their games' bubble chat system even further should take a look at the [Bubble Chat](https://developer.roblox.com/en-us/articles/Bubble-Chat) article.
+Developers who are interested interested in configuring their games' bubble chat system even further should take a look at the [Bubble Chat](https://developer.roblox.com/en-us/articles/bubble-chat) article.

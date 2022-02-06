@@ -3,4 +3,4 @@ This property indicates when the data store was created in milliseconds since ep
 See Also
 --------
 
-*   [Data Stores](https://developer.roblox.com/en-us/articles/Data-store), an in-depth guide on data structure, management, error handling, etc.
+*   [Data Stores](https://developer.roblox.com/en-us/articles/data-store), an in-depth guide on data structure, management, error handling, etc.

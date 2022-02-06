@@ -3,7 +3,7 @@ MeshParts are a form of [BasePart](https://developer.roblox.com/en-us/api-refere
 How do I use MeshParts
 ----------------------
 
-The mesh and texture of a MeshPart are determined by the [MeshPart.MeshId](https://developer.roblox.com/en-us/api-reference/property/MeshPart/MeshId) and [MeshPart.TextureID](https://developer.roblox.com/en-us/api-reference/property/MeshPart/TextureID) properties. For more information on how to use MeshParts please see [here](https://developer.roblox.com/en-us/articles/Mesh-Parts).
+The mesh and texture of a MeshPart are determined by the [MeshPart.MeshId](https://developer.roblox.com/en-us/api-reference/property/MeshPart/MeshId) and [MeshPart.TextureID](https://developer.roblox.com/en-us/api-reference/property/MeshPart/TextureID) properties. For more information on how to use MeshParts please see [here](https://developer.roblox.com/en-us/articles/mesh-parts).
 
 SpecialMesh or MeshPart?
 ------------------------
