@@ -53,6 +53,7 @@ class Generator {
 
 	public async run() {
 		const tasks = new Array<[string, string | undefined]>();
+
 		for (const apiClass of this.apiDump.Classes) {
 			tasks.push([apiClass.Name, undefined]);
 			for (const apiMember of apiClass.Members) {
@@ -62,7 +63,7 @@ class Generator {
 
 		for (let i = 0; i < tasks.length; i++) {
 			const [className, fieldName] = tasks[i];
-			console.log(`[${i} / ${tasks.length}] ${className}${fieldName ? "/" + fieldName : ""}`);
+			console.log(`[${i + 1} / ${tasks.length}] ${className}${fieldName ? "/" + fieldName : ""}`);
 			await this.write(className, fieldName);
 			await sleep(100);
 		}
