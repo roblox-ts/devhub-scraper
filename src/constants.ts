@@ -13,5 +13,5 @@ export const FIELD_SELECTOR = "div.markdown-field-data.description";
 export const API_DUMP_URL =
 	"https://raw.githubusercontent.com/CloneTrooper1019/Roblox-Client-Watch/roblox/API-Dump.json";
 
-export const LINK_TEXT_REGEX = /^\/?([^\|]+)\|(\w+)$/;
-export const FIELD_REGEX = /^\/?(\w+)\/(\w+)$/;
+export const LINK_TEXT_REGEX = /^\/?([^\|]+)\|([^\|]+)$/;
+export const FIELD_REGEX = /^\/?([^\/]+)\/([^\/]+)$/;
