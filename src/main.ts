@@ -91,7 +91,7 @@ class Generator {
 	}
 
 	private makeArticlesLink(articleName: string, text: string | undefined) {
-		return `[${text ?? articleName}](${ARTICLES_URL}/${articleName.replace(/ /g, "-")})`;
+		return `[${text ?? articleName}](${ARTICLES_URL}/${articleName.toLowerCase().replace(/ /g, "-")})`;
 	}
 
 	private makeDataTypeLink(dataType: string, text: string | undefined) {
