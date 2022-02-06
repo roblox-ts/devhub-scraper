@@ -1,17 +1,61 @@
-**TeleportInitFailed** fires on both the client and server when a request to teleport from a function such as [TeleportService:Teleport](https://developer.roblox.com/en-us/api-reference/function/TeleportService/Teleport) fails and causes the player to **not leave** the current place server. The [TeleportResult](https://developer.roblox.com/en-us/api-reference/enum/TeleportResult) provided by this event describes the reason the teleport failed, along with the error message displayed to the player.
+This event fires on both the client and the server when a request to teleport from a function such as [TeleportService:TeleportAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportAsync) fails and the player does not leave the current server. It provides a reason for the failure, as well as all of the information necessary to retry the teleport. If a group teleport fails, the event will fire once per player.
 
-Sometimes a teleportation can fail **after** the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) has left the place due to Roblox server issues. This event **does not fire** in this case, and the player would be disconnected. They would need to rejoin the game.
+TeleportOptions
+---------------
 
-Studio Limitation
------------------
+The [TeleportOptions](https://developer.roblox.com/en-us/api-reference/class/TeleportOptions) object provided by this event is not identical to the one passed to the original [TeleportService:TeleportAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportAsync) call. It is a new object populated with the necessary parameters to retry the teleport and send the player to the exact same destination. This is especially important for facilitating group teleports when they fail.
 
-This service does not work during playtesting in Roblox Studio — To test aspects of your game using it, you must publish the game and play it in the Roblox application.
+Original Teleport Type
+
+Teleport Data
+
+ReservedServerAccessCode
+
+ServerInstanceId
+
+ShouldReserveServer
+
+Individual player to place
+
+Original value
+
+None
+
+None
+
+false
+
+Player(s) to reserved server
+
+Original value
+
+Original value, or the code generated if ShouldReserveServer was originally true
+
+None
+
+false
+
+Player(s) to specific server
+
+Original value
+
+None
+
+Original value
+
+false
+
+Players to place
+
+Original value
+
+None
+
+Same destination ID as the other players in the original teleport
+
+false
 
 See also
 --------
 
-*   [TeleportService:Teleport](https://developer.roblox.com/en-us/api-reference/function/TeleportService/Teleport)
-*   [TeleportService:TeleportPartyAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportPartyAsync)
-*   [TeleportService:TeleportToPrivateServer](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportToPrivateServer)
-*   [TeleportService:TeleportToPlaceInstance](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportToPlaceInstance)
-*   [TeleportService:TeleportToSpawnByName](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportToSpawnByName)
+For an in-depth guide on teleporting players and properly handling teleport failures, see the [Teleporting Between Places](https://developer.roblox.com/en-us/articles/Teleporting-Between-Places) article.

@@ -1,5 +1,3 @@
-**Beta Feature** This class is currently a part of the PathfindingModifier beta feature. Eligible developers must enable the feature within Studio and functionality may change.
-
 For a more detailed overview of the [PathfindingService](https://developer.roblox.com/en-us/api-reference/class/PathfindingService) and [PathfindingModifiers](https://developer.roblox.com/en-us/api-reference/class/PathfindingModifier), see the `Articles/Pathfinding|Pathfinding` article.
 
 Pathfinding modifiers can be used to represent space that has a higher or lower cost to be traversed. When added as a child to a [Part](https://developer.roblox.com/en-us/api-reference/class/Part), it takes that Part's volume to annotate areas of the navmesh that are inside and on top of it.

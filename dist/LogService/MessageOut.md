@@ -1,1 +1,1 @@
-Fired when text is added to the output.
+Fires when the client outputs text.

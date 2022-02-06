@@ -1,20 +1,20 @@
 This function serves as the all-encompassing method to teleport a player or group of players from one server to another.
 
-Previous iterations of the [TeleportService](https://developer.roblox.com/en-us/api-reference/class/TeleportService) relied on several different functions for each scenario. This function combines the previous functions into a single method.
+All forms of player teleportation are consolidated into this single function, which is used to:
 
-There are several scenarios where this may be used, including:
+*   Teleport players to a different place
+*   Teleport players to a specific server
+*   Teleport players to a reserved server
 
-*   Teleport any number of players to a Public Server
-*   Follow a Friend to a Different Place
-*   Teleport any number of Players to a Reserved Server
+**Group Teleport Limitations**  
 
-**Limitation when teleporting multiple players**  
-When teleporting multiple players, they can only be teleported to a place within the same game universe. This function can not teleport more than 50 players in a single party.
+*   Groups of players can only be teleported within a single experience.
+*   No more than 50 players can be teleported with a single [TeleportService:TeleportAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportAsync) call.
 
-Errors
-------
+Potential Errors
+----------------
 
-The errors we have listed here are mainly input validation, there could also be unexpected runtime errors (for example an http request error) that could cause the API to fail.
+This is a list of potential reasons a teleport may fail, ranging from invalid teleports to network issues.
 
 Error
 
@@ -22,25 +22,27 @@ Description
 
 Invalid placeId
 
-placeId below 0
+The provided placeId is below 0.
 
 Players empty
 
-If the size of list of players is less than 1
+The provided list of players to teleport is empty.
 
 List of players instances is incorrect
 
-Any member of the players list is not of type [Player](https://developer.roblox.com/en-us/api-reference/class/Player)
+Any of the provided players is not a Player object.
 
 TeleportOptions not of correct type
 
-teleportOption is not of type [TeleportOptions](https://developer.roblox.com/en-us/api-reference/class/TeleportOptions)
+The provided teleportOption is not a TeleportOptions object.
 
 TeleportAsync called from Client
 
-Can only be called from the server
+The client called TeleportAsync, which can only be called from the server.
 
 Incompatible Parameters
+
+Conflicting teleport options were used and TeleportService doesn't know where to send the player:
 
 *   ReservedServerAccessCode + ServerInstanceId
 *   ShouldReserveServer + ServerInstanceId
@@ -49,4 +51,4 @@ Incompatible Parameters
 See also
 --------
 
-For more information on how to teleport players between servers, take a look at the [Telporting Between Places](../../../articles/Teleporting-Between-Places) article.
+For an in-depth guide on teleporting players and properly handling teleport failures, see the [Teleporting Between Places](https://developer.roblox.com/articles/Teleporting-Between-Places) article.

@@ -1,0 +1,1 @@
+Returns the list of currently playing [AnimationTracks](https://developer.roblox.com/en-us/api-reference/class/AnimationTracks).
