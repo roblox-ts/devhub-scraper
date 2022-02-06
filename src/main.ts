@@ -7,6 +7,7 @@ import { ApiDump, ApiMember } from "./api";
 import {
 	API_DUMP_URL,
 	API_URL,
+	ARTICLES_URL,
 	BASE_URL,
 	CLASS_SELECTOR,
 	DIST,
@@ -89,6 +90,10 @@ class Generator {
 		}
 	}
 
+	private makeArticlesLink(articleName: string, text: string | undefined) {
+		return `[${text ?? articleName}](${ARTICLES_URL}/${articleName.replace(/ /g, "-")})`;
+	}
+
 	private makeDataTypeLink(dataType: string, text: string | undefined) {
 		return `[${text ?? dataType}](${API_URL}/datatype/${dataType})`;
 	}
@@ -112,6 +117,10 @@ class Generator {
 		if (fieldMatch) {
 			className = fieldMatch[1];
 			fieldName = fieldMatch[2];
+		}
+
+		if (className.toLowerCase() === "articles" && fieldName) {
+			return this.makeArticlesLink(fieldName, text);
 		}
 
 		if (className.toLowerCase() === "datatype" && fieldName) {

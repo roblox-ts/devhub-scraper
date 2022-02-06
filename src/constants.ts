@@ -3,7 +3,9 @@ import path from "path";
 export const DIST = path.resolve(__dirname, "..", "dist");
 
 export const BASE_URL = "https://developer.roblox.com";
-export const API_URL = `${BASE_URL}/en-us/api-reference`;
+export const EN_US_URL = `${BASE_URL}/en-us`;
+export const API_URL = `${EN_US_URL}/api-reference`;
+export const ARTICLES_URL = `${EN_US_URL}/articles`;
 
 export const CLASS_SELECTOR = "div.markdown-field-data";
 export const FIELD_SELECTOR = "div.markdown-field-data.description";
