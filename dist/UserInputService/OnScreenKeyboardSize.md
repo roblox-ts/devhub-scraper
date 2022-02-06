@@ -1,4 +1,4 @@
-This property describes the size of the on-screen keyboard in pixels. The keyboard's size is `DataType/Vector2|Vector2.new(0, 0)` when it is not [visible](https://developer.roblox.com/en-us/api-reference/property/UserInputService/OnScreenKeyboardVisible).
+This property describes the size of the on-screen keyboard in pixels. The keyboard's size is [Vector2.new(0, 0)](https://developer.roblox.com/en-us/api-reference/datatype/Vector2) when it is not [visible](https://developer.roblox.com/en-us/api-reference/property/UserInputService/OnScreenKeyboardVisible).
 
 The code snippet below prints the size of the keyboard.
 

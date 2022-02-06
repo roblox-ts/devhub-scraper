@@ -5,4 +5,4 @@ After calling LoadCharacterWithHumanoidDescription for an individual player, it 
 See also
 --------
 
-*   `Articles/HumanoidDescription System|Humanoid Description System`, an article which explains the humanoid description system in greater detail and provides several scripting examples
+*   [Humanoid Description System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), an article which explains the humanoid description system in greater detail and provides several scripting examples

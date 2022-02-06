@@ -7,4 +7,4 @@ Plugin-related instances such as [PluginToolbarButtons](https://developer.roblox
 See also
 --------
 
-`articles/Intro to Plugins`, an introductory article to plugin use and development
+[Intro to Plugins](https://developer.roblox.com/en-us/articles/Intro-to-Plugins), an introductory article to plugin use and development

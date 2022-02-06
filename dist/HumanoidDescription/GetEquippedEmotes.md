@@ -14,6 +14,6 @@ end
 See also
 --------
 
-*   `articles/HumanoidDescription System`, for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
 *   [SetEquippedEmotes](https://developer.roblox.com/en-us/api-reference/function/HumanoidDescription/SetEquippedEmotes), which sets the currently equipped emotes and changes what this function returns
 *   [EquippedEmotesChanged](https://developer.roblox.com/en-us/api-reference/event/HumanoidDescription/EquippedEmotesChanged), which fires when the function returned by this value may have changed

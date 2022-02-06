@@ -1,6 +1,6 @@
 Returns the localized text string in a [LocalizationTable](https://developer.roblox.com/en-us/api-reference/class/LocalizationTable) based on its [Translator](https://developer.roblox.com/en-us/api-reference/class/Translator) locale. This string will be in the context of the provided object, given the provided **Source** text.
 
-See `articles/utilizing localization apis|Utilizing Localization APIs` for more details and usage examples of this function.
+See [Utilizing Localization APIs](https://developer.roblox.com/en-us/articles/utilizing-localization-apis) for more details and usage examples of this function.
 
 Context Overrides
 -----------------

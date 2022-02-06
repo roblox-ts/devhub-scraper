@@ -1,4 +1,4 @@
-This function is used by _'PopperCam'_ in the default [camera scripts](http://robloxdev.com/articles/Movement-and-camera-controls) to ensure obstructions do not come between the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) and the `Camera|Camera's` subject.
+This function is used by _'PopperCam'_ in the default [camera scripts](http://robloxdev.com/articles/Movement-and-camera-controls) to ensure obstructions do not come between the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) and the [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) subject.
 
 This function will check all [BaseParts](https://developer.roblox.com/en-us/api-reference/class/BasePart) and [Terrain](https://developer.roblox.com/en-us/api-reference/class/Terrain) in the [Workspace](https://developer.roblox.com/en-us/api-reference/class/Workspace) with the following exceptions:
 

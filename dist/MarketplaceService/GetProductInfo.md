@@ -164,7 +164,7 @@ number
 
 This is the asset ID of the product/pass icon, or 0 if there isn't one
 
-\* See `articles/Asset types|Asset Types` for the asset type ID numbers.  
+\* See [Asset Types](https://developer.roblox.com/en-us/articles/Asset-types) for the asset type ID numbers.  
 †Timestamps are formatted using [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 
 Possible Errors

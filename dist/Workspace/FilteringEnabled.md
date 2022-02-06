@@ -20,7 +20,7 @@ Whilst FilteringEnabled prevents almost everything from replicating from the cli
 *   [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) playback, when [SoundService.RespectFilteringEnabled](https://developer.roblox.com/en-us/api-reference/property/SoundService/RespectFilteringEnabled) is set to false
 *   [ClickDetector](https://developer.roblox.com/en-us/api-reference/class/ClickDetector) input events
 *   [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) playback
-*   Physics simulated on [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart)s which the client has `Articles/Network Ownership — Making physics smoother!|network ownership` of
+*   Physics simulated on [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart)s which the client has [network ownership](https://developer.roblox.com/en-us/articles/Network-Ownership-—-Making-physics-smoother!) of
 
 Is FilteringEnabled more secure?
 --------------------------------
@@ -29,7 +29,7 @@ Enabling FilteringEnabled is the best way of restricting exploiters from ruining
 
 Enabling FilteringEnabled however, has implications on a game's design that developers must consider. Before using it, it is highly recommended developers familiarize themselves on the following topics:
 
-*   `Articles/Experimental Mode|Experimental Mode` A brief introduction to the client-server model
-*   `Articles/Building Games with Experimental Mode Off|Building games with Experimental Mode off` How to approach building a game with FilteringEnabled
+*   [Experimental Mode](https://developer.roblox.com/en-us/articles/Experimental-Mode) A brief introduction to the client-server model
+*   [Building games with Experimental Mode off](https://developer.roblox.com/en-us/articles/Building-Games-with-Experimental-Mode-Off) How to approach building a game with FilteringEnabled
 *   [Converting Experimental Mode games](https://developer.roblox.com/articles/Converting-From-Experimental-Mode) Converting a game to use FilteringEnabled
 *   [Game Security](https://developer.roblox.com/articles/Game-Security) How to use FilteringEnabled to improve the security of your game

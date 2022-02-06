@@ -19,11 +19,11 @@ Direction of force
 
 The direction of the force is determined by the Vector3 defined by force, but it will also be affected by the [VectorForce.RelativeTo](https://developer.roblox.com/en-us/api-reference/property/VectorForce/RelativeTo) property.
 
-By default, [VectorForce.RelativeTo](https://developer.roblox.com/en-us/api-reference/property/VectorForce/RelativeTo) is set to `Enum/ActuatorRelativeTo|Enum.ActuatorRelativeTo.Attachment0`, meaning the force will be applied in the space local to the attachment. Remember that when visualizing an attachment, the yellow arrow shows the direction of positive X, and the orange bar shows the direction of positive Y. If the part the attachment is connected to rotates, the force will change direction to make sure it is still in the context of the attachment.
+By default, [VectorForce.RelativeTo](https://developer.roblox.com/en-us/api-reference/property/VectorForce/RelativeTo) is set to [Enum.ActuatorRelativeTo.Attachment0](https://developer.roblox.com/en-us/api-reference/enum/ActuatorRelativeTo), meaning the force will be applied in the space local to the attachment. Remember that when visualizing an attachment, the yellow arrow shows the direction of positive X, and the orange bar shows the direction of positive Y. If the part the attachment is connected to rotates, the force will change direction to make sure it is still in the context of the attachment.
 
-RelativeTo can also be set to `Enum/ActuatorRelativeTo|Enum.ActuatorRelativeTo.Attachment1`. In this case, the force will be applied in the space local to [Attachment1](https://developer.roblox.com/en-us/api-reference/property/Constraint/Attachment1), regardless of the orientation of Attachment0 or its connected part. If Attachment1 rotates, then the force will change to stay oriented correctly.
+RelativeTo can also be set to [Enum.ActuatorRelativeTo.Attachment1](https://developer.roblox.com/en-us/api-reference/enum/ActuatorRelativeTo). In this case, the force will be applied in the space local to [Attachment1](https://developer.roblox.com/en-us/api-reference/property/Constraint/Attachment1), regardless of the orientation of Attachment0 or its connected part. If Attachment1 rotates, then the force will change to stay oriented correctly.
 
-Lastly, RelativeTo can also be set to `Enum/ActuatorRelativeTo|Enum.ActuatorRelativeTo.World`. In this mode, the force is applied in world coordinates, regardless of the orientation of Attachment0 or its part.
+Lastly, RelativeTo can also be set to [Enum.ActuatorRelativeTo.World](https://developer.roblox.com/en-us/api-reference/enum/ActuatorRelativeTo). In this mode, the force is applied in world coordinates, regardless of the orientation of Attachment0 or its part.
 
 See also
 --------

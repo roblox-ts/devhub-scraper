@@ -1,4 +1,4 @@
-This function returns `SoundService|SoundService's` current listener type and what is set as listener.
+This function returns [SoundService's](https://developer.roblox.com/en-us/api-reference/class/SoundService) current listener type and what is set as listener.
 
 The first result returned is the [ListenerType](https://developer.roblox.com/en-us/api-reference/enum/ListenerType) of the listener, the second result is dependent on the ListenerType:
 

@@ -7,7 +7,7 @@ Private servers
 
 Private servers refer to the following:
 
-*   `Articles/Creating a VIP Server on Roblox|VIP servers`, private servers that can be purchased by players from the games page
+*   [VIP servers](https://developer.roblox.com/en-us/articles/Creating-a-VIP-Server-on-Roblox), private servers that can be purchased by players from the games page
 *   Reserved servers, private servers created by the developer using [TeleportService:ReserveServer](https://developer.roblox.com/en-us/api-reference/function/TeleportService/ReserveServer)
 
 PrivateServerId vs JobId

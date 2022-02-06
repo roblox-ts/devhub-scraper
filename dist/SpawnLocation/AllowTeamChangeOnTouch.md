@@ -5,4 +5,4 @@ This will not function when [SpawnLocation.Enabled](https://developer.roblox.com
 Making Checkpoints
 ------------------
 
-This feature is often used to make checkpoints in obstacle courses or similar games. See `Articles/How to use Spawn Objects with Roblox Studio|Using Player Spawns` for details.
+This feature is often used to make checkpoints in obstacle courses or similar games. See [Using Player Spawns](https://developer.roblox.com/en-us/articles/How-to-use-Spawn-Objects-with-Roblox-Studio) for details.

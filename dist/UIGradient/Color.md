@@ -5,4 +5,4 @@ The **Color** of a [UIGradient](https://developer.roblox.com/en-us/api-reference
 See Also
 --------
 
-*   `articles/Applying UIGradients`, for more information on creating UIGradient objects and how they work.
+*   [Applying UIGradients](https://developer.roblox.com/en-us/articles/Applying-UIGradients), for more information on creating UIGradient objects and how they work.

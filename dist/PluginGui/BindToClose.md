@@ -1,8 +1,8 @@
-This function binds a function to the `PluginGui|PluginGui's` close button, overriding the default behavior.
+This function binds a function to the [PluginGui's](https://developer.roblox.com/en-us/api-reference/class/PluginGui) close button, overriding the default behavior.
 
 By default, when the user clicks the 'x' button in the top right corner of the [PluginGui](https://developer.roblox.com/en-us/api-reference/class/PluginGui) the [Enabled](https://developer.roblox.com/en-us/api-reference/property/LayerCollector/Enabled) property is set to _false_, closing the window. When a custom function is bound using BindToClose this behavior is overwritten, allowing you to check if the user really wants to close the window or give them an opportunity to save their work.
 
-As the default closing behavior is overwritten by this function, you'll need to configure the [PluginGui](https://developer.roblox.com/en-us/api-reference/class/PluginGui) to close manually by setting `LayerCollector/Enabled|PluginGui.Enabled` to _false_. For example, in the below snippet users are required to click a confirm button to close the GUI:
+As the default closing behavior is overwritten by this function, you'll need to configure the [PluginGui](https://developer.roblox.com/en-us/api-reference/class/PluginGui) to close manually by setting [PluginGui.Enabled](https://developer.roblox.com/en-us/api-reference/property/LayerCollector/Enabled) to _false_. For example, in the below snippet users are required to click a confirm button to close the GUI:
 
 local closing = false
 pluginGui:BindToClose(function()

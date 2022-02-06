@@ -4,4 +4,4 @@ The [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) obje
 
 ### See also
 
-*   `articles/ViewportFrame GUI|ViewportFrame-GUI`, an article exploring how the ViewportFrame GUI can render 3D objects inside its bounds
+*   [ViewportFrame-GUI](https://developer.roblox.com/en-us/articles/ViewportFrame-GUI), an article exploring how the ViewportFrame GUI can render 3D objects inside its bounds

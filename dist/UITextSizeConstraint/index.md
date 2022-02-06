@@ -2,4 +2,4 @@ A **UITextSizeConstraint** ensures that the size of text rendered by certain [Gu
 
 ![Constraints visual](https://developer.roblox.com/assets/blte9c47efb631349e0/UITextSizeConstraintDemo.gif)
 
-It's recommended that no values lower than 9 be used for [MinTextSize](https://developer.roblox.com/en-us/api-reference/property/UITextSizeConstraint/MinTextSize) property, otherwise text may not be readable to most users. See `articles/Accessibility Best Practices` for more information.
+It's recommended that no values lower than 9 be used for [MinTextSize](https://developer.roblox.com/en-us/api-reference/property/UITextSizeConstraint/MinTextSize) property, otherwise text may not be readable to most users. See [Accessibility Best Practices](https://developer.roblox.com/en-us/articles/Accessibility-Best-Practices) for more information.

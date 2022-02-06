@@ -9,6 +9,6 @@ The image below demonstrates the same ViewportFrame with two different transpare
 
 ### See also
 
-*   `articles/ViewportFrame GUI|ViewportFrame-GUI`, an article exploring how the ViewportFrame GUI can render 3D objects inside its bounds
+*   [ViewportFrame-GUI](https://developer.roblox.com/en-us/articles/ViewportFrame-GUI), an article exploring how the ViewportFrame GUI can render 3D objects inside its bounds
 *   [ViewportFrame.ImageColor3](https://developer.roblox.com/en-us/api-reference/property/ViewportFrame/ImageColor3), determines how a rendered image will be colorized
 *   [ViewportFrame.CurrentCamera](https://developer.roblox.com/en-us/api-reference/property/ViewportFrame/CurrentCamera), the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) that is used to render children objects

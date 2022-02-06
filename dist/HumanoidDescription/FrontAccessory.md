@@ -5,5 +5,5 @@ Any accessory can used in this property, even if it is meant to go in a differen
 See also
 --------
 
-*   `articles/HumanoidDescription System`, for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
 *   [BackAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/BackAccessory), [FaceAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/FaceAccessory), [HairAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HairAccessory), [HatAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HatAccessory), [NeckAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/NeckAccessory), [ShouldersAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/ShouldersAccessory) and [WaistAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/WaistAccessory), which are similar properties that apply accessories like this one

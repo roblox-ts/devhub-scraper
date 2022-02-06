@@ -1,4 +1,4 @@
-This blocking function returns back a copy of the `Humanoid|Humanoid's` cached [HumanoidDescription](https://developer.roblox.com/en-us/api-reference/class/HumanoidDescription), which describes its current look.
+This blocking function returns back a copy of the [Humanoid's](https://developer.roblox.com/en-us/api-reference/class/Humanoid) cached [HumanoidDescription](https://developer.roblox.com/en-us/api-reference/class/HumanoidDescription), which describes its current look.
 
 This can be used to quickly determine a player's look and to assign their look to other players using the [Humanoid:ApplyDescription](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) function.
 

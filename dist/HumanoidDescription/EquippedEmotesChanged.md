@@ -15,6 +15,6 @@ hd:SetEquippedEmotes({"Salute", "Agree"}) --> We have 2 emotes equipped
 See also
 --------
 
-*   `articles/HumanoidDescription System`, for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
 *   [SetEquippedEmotes](https://developer.roblox.com/en-us/api-reference/function/HumanoidDescription/SetEquippedEmotes), which fires this event
 *   [GetEquippedEmotes](https://developer.roblox.com/en-us/api-reference/function/HumanoidDescription/GetEquippedEmotes), which can be used to query the currently equipped emotes without this event firing

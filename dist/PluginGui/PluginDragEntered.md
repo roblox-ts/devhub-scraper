@@ -5,7 +5,7 @@ This event is useful for displaying a “Drop Here” UI on PluginGuis where a d
 See Also
 --------
 
-*   `articles/Drag and Drop in Studio Widgets`
+*   [Drag and Drop in Studio Widgets](https://developer.roblox.com/en-us/articles/Drag-and-Drop-in-Studio-Widgets)
 *   [PluginGui.PluginDragLeft](https://developer.roblox.com/en-us/api-reference/event/PluginGui/PluginDragLeft)
 *   [PluginGui.PluginDragMoved](https://developer.roblox.com/en-us/api-reference/event/PluginGui/PluginDragMoved)
 *   [PluginGui.PluginDragDropped](https://developer.roblox.com/en-us/api-reference/event/PluginGui/PluginDragDropped)

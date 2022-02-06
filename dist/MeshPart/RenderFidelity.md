@@ -21,4 +21,4 @@ Lowest
 See also
 --------
 
-*   `articles/Improving Performance`, an article discussing tips for analyzing and improving game performance
+*   [Improving Performance](https://developer.roblox.com/en-us/articles/Improving-Performance), an article discussing tips for analyzing and improving game performance

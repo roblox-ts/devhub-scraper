@@ -27,7 +27,7 @@ In general teleport settings should be used to preserve client side information 
 Teleport settings and security
 ------------------------------
 
-As teleport settings are stored locally, it is possible they can be manipulated by malicious users. This risk can be mitigated by employing server side validation, for more information on this please see the article on `Articles/Game Security`.
+As teleport settings are stored locally, it is possible they can be manipulated by malicious users. This risk can be mitigated by employing server side validation, for more information on this please see the article on [Game Security](https://developer.roblox.com/en-us/articles/Game-Security).
 
 Studio limitation
 -----------------

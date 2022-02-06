@@ -1,6 +1,6 @@
-This event fires when one of the `Humanoid|Humanoid's` limbs come in contact with another [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart).
+This event fires when one of the [Humanoid's](https://developer.roblox.com/en-us/api-reference/class/Humanoid) limbs come in contact with another [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart).
 
-The [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) the `Humanoid|Humanoid's` limb is touching along with the limb itself is given.
+The [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) the [Humanoid's](https://developer.roblox.com/en-us/api-reference/class/Humanoid) limb is touching along with the limb itself is given.
 
 This event will not fire when limbs belonging to the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) come into contact with themselves.
 
@@ -16,4 +16,4 @@ Notes
 -----
 
 *   Connecting to this event will cause a [TouchTransmitter](https://developer.roblox.com/en-us/api-reference/class/TouchTransmitter) to be created in every limb
-*   There is currently no equivalent of `BasePart/TouchEnded|BasePart.TouchEnded` for [Humanoids](https://developer.roblox.com/en-us/api-reference/class/Humanoid)
+*   There is currently no equivalent of [BasePart.TouchEnded](https://developer.roblox.com/en-us/api-reference/event/BasePart/TouchEnded) for [Humanoids](https://developer.roblox.com/en-us/api-reference/class/Humanoid)

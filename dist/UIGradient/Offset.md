@@ -7,6 +7,6 @@ In the animation above, the offset of a UIGradient is animated back and forth be
 See Also
 --------
 
-*   `articles/Applying UIGradients`, for more information on creating UIGradient objects and how they work.
+*   [Applying UIGradients](https://developer.roblox.com/en-us/articles/Applying-UIGradients), for more information on creating UIGradient objects and how they work.
     
 *   [UIGradient.Rotation](https://developer.roblox.com/en-us/api-reference/property/UIGradient/Rotation), which also affects the geometry of the applied gradient

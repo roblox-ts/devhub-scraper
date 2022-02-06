@@ -13,7 +13,7 @@ An instance that applies an outline to text or a UI border. Key features include
 Rich Text
 ---------
 
-If your text object has `articles/gui rich text|rich text` enabled, you can control stroke properties on segments of the string via the `<stroke>` tag.
+If your text object has [rich text](https://developer.roblox.com/en-us/articles/gui-rich-text) enabled, you can control stroke properties on segments of the string via the `<stroke>` tag.
 
 Property
 

@@ -3,4 +3,4 @@
 See also
 --------
 
-*   `Articles/building studio widgets|Building Studio Widgets`, for more information on working with Studio widgets.
+*   [Building Studio Widgets](https://developer.roblox.com/en-us/articles/building-studio-widgets), for more information on working with Studio widgets.

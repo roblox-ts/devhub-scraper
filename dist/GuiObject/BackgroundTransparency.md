@@ -1,4 +1,4 @@
-This property determines the transparency of the `GuiObject|GUI's` background and border.
+This property determines the transparency of the [GUI's](https://developer.roblox.com/en-us/api-reference/class/GuiObject) background and border.
 
 It does not, however, determine the transparency of text if the GUI is a `Textbox`, [TextButton](https://developer.roblox.com/en-us/api-reference/class/TextButton), or [TextLabel](https://developer.roblox.com/en-us/api-reference/class/TextLabel). Text transparency is determined `TextBox/TextTransparency|`, [TextButton.TextTransparency](https://developer.roblox.com/en-us/api-reference/property/TextButton/TextTransparency), and [TextLabel.TextTransparency](https://developer.roblox.com/en-us/api-reference/property/TextLabel/TextTransparency) respectively.
 

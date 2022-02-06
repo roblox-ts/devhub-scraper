@@ -5,4 +5,4 @@ Instead, when creating a custom chat system, or a system that needs access to th
 See also
 --------
 
-*   `articles/Lua-Chat-System|Lua Chat System`, a tutorial for creating a more advanced chat system
+*   [Lua Chat System](https://developer.roblox.com/en-us/articles/Lua-Chat-System), a tutorial for creating a more advanced chat system

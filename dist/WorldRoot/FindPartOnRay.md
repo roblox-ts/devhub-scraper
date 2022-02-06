@@ -27,6 +27,6 @@ Notes
 *   Theoretically, a ray extends infinitely in one direction. However, the max length of the direction vector on Roblox is 5000 studs.
 *   The length (magnitude) of the directional vector is important, as parts further away than its length will not be tested.
 *   If the ray does not intersect anything, the return values will be `nil` and the point at the end of the ray, respectively.
-*   Parts that are in a `articles/Collision Filtering|collision group` that does not collide with the “Default” collision group are ignored implicitly.
+*   Parts that are in a [collision group](https://developer.roblox.com/en-us/articles/Collision-Filtering) that does not collide with the “Default” collision group are ignored implicitly.
 
 For a demonstration of how raycasting works in Roblox, see the [Intro to Raycasting](https://developer.roblox.com/articles/Raycasting) article.

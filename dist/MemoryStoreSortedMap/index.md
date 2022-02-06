@@ -1,1 +1,1 @@
-Provides access to a sorted map within MemoryStore. A sorted map is a collection of items where string keys are associated with arbitrary values (up to the maximum allowed size – see `articles/Memory Store|MemoryStore Limits`). The keys are arranged in alphabetical order.
+Provides access to a sorted map within MemoryStore. A sorted map is a collection of items where string keys are associated with arbitrary values (up to the maximum allowed size – see [MemoryStore Limits](https://developer.roblox.com/en-us/articles/Memory-Store)). The keys are arranged in alphabetical order.

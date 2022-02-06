@@ -8,7 +8,7 @@ This function creates joints between the specified Parts and any planar touching
 
 The first parameter is an array of [BaseParts](https://developer.roblox.com/en-us/api-reference/class/BasePart). Joints will only be created between the parts in the array and not in the array. Joints will not be created between the parts in the array.
 
-The second parameter is a [JointCreationMode](https://developer.roblox.com/en-us/api-reference/enum/JointCreationMode) that determines how joints will be created. Passing in either enum value, `enum/JointCreationMode|Enum.JointCreationMode.All` or `enum/JointCreationMode|Enum.JointCreationMode.Surface`, has the same behavior which equates to Join Always
+The second parameter is a [JointCreationMode](https://developer.roblox.com/en-us/api-reference/enum/JointCreationMode) that determines how joints will be created. Passing in either enum value, [Enum.JointCreationMode.All](https://developer.roblox.com/en-us/api-reference/enum/JointCreationMode) or [Enum.JointCreationMode.Surface](https://developer.roblox.com/en-us/api-reference/enum/JointCreationMode), has the same behavior which equates to Join Always
 
 This function is used by the Roblox Studio Move tool when the user finishes moving a selection. In conjunction with [Plugin:GetJoinMode](https://developer.roblox.com/en-us/api-reference/function/Plugin/GetJoinMode) and [Workspace:UnjoinFromOutsiders](https://developer.roblox.com/en-us/api-reference/function/Workspace/UnjoinFromOutsiders) it can be used to retain join functionality when developing custom studio build tools. See the snippets below for an example.
 

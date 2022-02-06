@@ -15,5 +15,5 @@ Caveats
 *   When the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is not standing on a floor, the value of this property will be set to _Air_.
     *   This occurs because Enum properties cannot have an empty value.
     *   This can cause some confusion if a part has its material is set to Air, though in practice, parts are not supposed to use that material in the first place.
-*   The `Humanoid|Humanoid's` character model must be able to collide with the floor, or else it will not be detected.
-    *   You cannot test if the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is swimming with this property. You should instead use the `Humanoid|Humanoid's` [Humanoid:GetState](https://developer.roblox.com/en-us/api-reference/function/Humanoid/GetState) function.
+*   The [Humanoid's](https://developer.roblox.com/en-us/api-reference/class/Humanoid) character model must be able to collide with the floor, or else it will not be detected.
+    *   You cannot test if the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is swimming with this property. You should instead use the [Humanoid's](https://developer.roblox.com/en-us/api-reference/class/Humanoid) [Humanoid:GetState](https://developer.roblox.com/en-us/api-reference/function/Humanoid/GetState) function.

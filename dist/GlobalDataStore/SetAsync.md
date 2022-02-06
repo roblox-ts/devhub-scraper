@@ -6,7 +6,7 @@ Values in data stores are versioned, meaning [GlobalDataStore:SetAsync](https://
 
 Metadata definitions must always be updated with a value, even if there are no changes to the current value; otherwise the current value will be lost.
 
-Any string being stored in a data store must be valid `Articles/Lua Libraries/utf8|UTF-8`. In UTF-8, values greater than 127 are used exclusively for encoding multi-byte codepoints, so a single byte greater than 127 will not be valid UTF-8 and the [GlobalDataStore:SetAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/SetAsync) attempt will fail.
+Any string being stored in a data store must be valid [UTF-8](https://developer.roblox.com/en-us/api-reference/class/Articles/Lua Libraries/utf8). In UTF-8, values greater than 127 are used exclusively for encoding multi-byte codepoints, so a single byte greater than 127 will not be valid UTF-8 and the [GlobalDataStore:SetAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/SetAsync) attempt will fail.
 
 ##### Set vs. Update
 
@@ -17,4 +17,4 @@ Any string being stored in a data store must be valid `Articles/Lua Libraries/ut
 See Also
 --------
 
-*   `Articles/Data store|Data Stores`, an in-depth guide on data structure, management, error handling, etc.
+*   [Data Stores](https://developer.roblox.com/en-us/articles/Data-store), an in-depth guide on data structure, management, error handling, etc.

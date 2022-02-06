@@ -7,4 +7,4 @@ Use this to control which part of an assembly is the root part and keep the root
 See also
 --------
 
-*   `articles/understanding root parts|Understanding Root Parts`, an article documenting what root parts are and how to use them
+*   [Understanding Root Parts](https://developer.roblox.com/en-us/articles/understanding-root-parts), an article documenting what root parts are and how to use them

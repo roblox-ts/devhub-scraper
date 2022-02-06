@@ -1,6 +1,6 @@
 This function sets the attribute with the given name to the given value. If the value given is nil, then the attribute will be removed (since nil is returned by default).
 
-For example, the following code snippet will set the instance's `InitialPosition` attribute to `DataType/Vector3|Vector3.new(0, 0, 0)`. Note that this code sample does not define [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance):
+For example, the following code snippet will set the instance's `InitialPosition` attribute to [Vector3.new(0, 0, 0)](https://developer.roblox.com/en-us/api-reference/datatype/Vector3). Note that this code sample does not define [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance):
 
 instance:SetAttribute("InitialPosition", Vector3.new(0, 0, 0))
 

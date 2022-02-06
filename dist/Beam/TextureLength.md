@@ -3,7 +3,7 @@ Sets the length of the [Beam](https://developer.roblox.com/en-us/api-reference/c
 Beam texture behavior
 ---------------------
 
-How a `Beam|Beam's` texture scales or repeats is dependent on the [Beam.TextureMode](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureMode) property.
+How a [Beam's](https://developer.roblox.com/en-us/api-reference/class/Beam) texture scales or repeats is dependent on the [Beam.TextureMode](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureMode) property.
 
 When [Beam.TextureMode](https://developer.roblox.com/en-us/api-reference/property/Beam/TextureMode) is 'Wrap' the size of the repeating texture is equal to TextureLength in studs. For an example of this see the image below:
 

@@ -7,7 +7,7 @@ KeyframeMarkers should always be parented to a Keyframe via setting the parent d
 
 Whenever a Keyframe is detected as an animation is running, there will be an event fired for each KeyframeMarker that is parented to the Keyframe. These events are identifiable by the name of the KeyframeMarker. You can retrieve and listen to these events using the `AnimationTrack/GetKeyframeMarkerReached` function. Optionally, you may set the [KeyframeMarker.Value](https://developer.roblox.com/en-us/api-reference/property/KeyframeMarker/Value) property of the KeyframeMarker in order to pass along a value with the event being fired.
 
-It inherits the `Instance/Name|Keyframe.Name` property from [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) and behaves identically. Names are used for identification and no not need to be unique. When multiple KeyFrameMarkers with the same name are attached to a KeyFrame, events such as the one returned by [AnimationTrack:GetMarkerReachedSignal](https://developer.roblox.com/en-us/api-reference/function/AnimationTrack/GetMarkerReachedSignal) will fire for every marker.
+It inherits the [Keyframe.Name](https://developer.roblox.com/en-us/api-reference/property/Instance/Name) property from [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) and behaves identically. Names are used for identification and no not need to be unique. When multiple KeyFrameMarkers with the same name are attached to a KeyFrame, events such as the one returned by [AnimationTrack:GetMarkerReachedSignal](https://developer.roblox.com/en-us/api-reference/function/AnimationTrack/GetMarkerReachedSignal) will fire for every marker.
 
 See also
 --------

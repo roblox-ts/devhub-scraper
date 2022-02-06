@@ -6,7 +6,7 @@ See the images below for an example of how different FieldOfView settings can im
 
 ![A demonstration of the default FOV of 70](https://developer.roblox.com/assets/bltd7070fca08aa332f/Fov70.png)
 
-However when the FOV is reduced to 30, although the `Camera|Camera's` [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) has not changed, a much smaller portion of the game world is rendered:
+However when the FOV is reduced to 30, although the [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) has not changed, a much smaller portion of the game world is rendered:
 
 ![A demonstration of a reduced FOV of 30](https://developer.roblox.com/assets/bltdfff0429f210bfb2/Fov30.png)
 

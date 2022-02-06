@@ -1,4 +1,4 @@
-This function takes a player as an argument returns cloud localization data for that `Player|player's` locale has been loaded, and then returns a [Translator](https://developer.roblox.com/en-us/api-reference/class/Translator) object which can be used to perform translations for that locale if any are available.
+This function takes a player as an argument returns cloud localization data for that [player's](https://developer.roblox.com/en-us/api-reference/class/Player) locale has been loaded, and then returns a [Translator](https://developer.roblox.com/en-us/api-reference/class/Translator) object which can be used to perform translations for that locale if any are available.
 
 It will only return data for embedded localization tables, and won't include any data from web-based tables.
 

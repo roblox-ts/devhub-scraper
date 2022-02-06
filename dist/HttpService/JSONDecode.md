@@ -4,7 +4,7 @@ The JSONDecode function transforms a [JSON object or array](http://robloxdev.com
 *   An empty JSON object generates an empty Lua table `{}`.
 *   If the _input_ string is not a valid JSON object, this function will throw an error.
 
-To encode a Lua table into a JSON object, you can use `HttpService|HttpService's` [HttpService:JSONEncode](https://developer.roblox.com/en-us/api-reference/function/HttpService/JSONEncode) function.
+To encode a Lua table into a JSON object, you can use [HttpService's](https://developer.roblox.com/en-us/api-reference/class/HttpService) [HttpService:JSONEncode](https://developer.roblox.com/en-us/api-reference/function/HttpService/JSONEncode) function.
 
 Many web endpoints use JSON, as it is commonly used on the Internet. Visit [JSON.org](http://www.json.org/) to become more familiar with the format.
 

@@ -2,7 +2,7 @@ This function marks the specified key as deleted by creating a new â€œtombstoneâ
 
 After a key is removed via this function, [GlobalDataStore:GetAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/GetAsync) calls for the key will return `nil`. Older versions of the key remain accessible through [DataStore:ListVersionsAsync](https://developer.roblox.com/en-us/api-reference/function/DataStore/ListVersionsAsync) and [DataStore:GetVersionAsync](https://developer.roblox.com/en-us/api-reference/function/DataStore/GetVersionAsync), assuming they have not expired.
 
-[OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) does not support versioning, so calling `GlobalDataStore/RemoveAsync|RemoveAsync()` on an [OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) key will permanently delete it.
+[OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) does not support versioning, so calling [RemoveAsync()](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/RemoveAsync) on an [OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) key will permanently delete it.
 
 Removed objects will be deleted permanently after 30 days.
 
@@ -11,4 +11,4 @@ If the previous values were already deleted via [GlobalDataStore:RemoveAsync](ht
 See Also
 --------
 
-*   `Articles/Data store|Data Stores`, an in-depth guide on data structure, management, error handling, etc.
+*   [Data Stores](https://developer.roblox.com/en-us/articles/Data-store), an in-depth guide on data structure, management, error handling, etc.

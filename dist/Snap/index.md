@@ -2,7 +2,7 @@ An object that holds two objects rigidly together. Most commonly created when [B
 
 Functionally identical to [Weld](https://developer.roblox.com/en-us/api-reference/class/Weld).
 
-See also [WeldConstraint](https://developer.roblox.com/en-us/api-reference/class/WeldConstraint) for a newer alternative using the `Articles/Constraints|constraints` system that does not require [C0](https://developer.roblox.com/en-us/api-reference/property/JointInstance/C0) or [C1](https://developer.roblox.com/en-us/api-reference/property/JointInstance/C1) properties to be manually set.
+See also [WeldConstraint](https://developer.roblox.com/en-us/api-reference/class/WeldConstraint) for a newer alternative using the [constraints](https://developer.roblox.com/en-us/articles/Constraints) system that does not require [C0](https://developer.roblox.com/en-us/api-reference/property/JointInstance/C0) or [C1](https://developer.roblox.com/en-us/api-reference/property/JointInstance/C1) properties to be manually set.
 
 Root part
 ---------

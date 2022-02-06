@@ -3,7 +3,7 @@ The Content ID of the image to be applied by the [Decal](https://developer.roblo
 How can I upload a Decal?
 -------------------------
 
-Images can be uploaded to Roblox provided they adhere to the community guidelines. Information on how to upload images can be found [here](https://developer.roblox.com/en-us/api-reference/class/Articles/How to upload a Decal).
+Images can be uploaded to Roblox provided they adhere to the community guidelines. Information on how to upload images can be found [here](https://developer.roblox.com/en-us/articles/How-to-upload-a-Decal).
 
 How to find do I find a Decal's Content ID?
 -------------------------------------------

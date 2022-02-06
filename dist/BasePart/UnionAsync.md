@@ -1,4 +1,4 @@
-This is a server-only function that uses [CSG](https://developer.roblox.com/en-us/api-reference/class/articles/3D Modeling with Parts) to combine the geometry of the calling [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) with a table of other BaseParts.  
+This is a server-only function that uses [CSG](https://developer.roblox.com/en-us/articles/3D-Modeling-with-Parts) to combine the geometry of the calling [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) with a table of other BaseParts.  
 The following properties from the calling part will be applied to the resulting part:
 
 *   Color
@@ -31,7 +31,7 @@ The image below visualizes parts before and after the operation. The green parts
 
 ![Union Visualization](https://developer.roblox.com/assets/bltca314c0a724d0212/UnionAsync.jpg)
 
-Note that if a [NegateOperation](https://developer.roblox.com/en-us/api-reference/class/NegateOperation) is provided, it will also be unioned additively. For subtraction, use `BasePart/SubtractAsync|SubtractAsync()`.
+Note that if a [NegateOperation](https://developer.roblox.com/en-us/api-reference/class/NegateOperation) is provided, it will also be unioned additively. For subtraction, use [SubtractAsync()](https://developer.roblox.com/en-us/api-reference/function/BasePart/SubtractAsync).
 
 The original parts remain unchanged following a successful union operation. In most cases, you should destroy all of the original parts and parent the returned [UnionOperation](https://developer.roblox.com/en-us/api-reference/class/UnionOperation) to the same place as the calling [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart).
 
@@ -59,6 +59,6 @@ Blast pieces out of rotating windows or fuse new material onto them. Includes a 
 See also
 --------
 
-*   `articles/In Game Solid Modeling`, create custom plugins for solid modeling techniques like unions, negations, and separations
-*   `articles/3D Modeling with Parts`, how to combine and subtract parts to create complex solid shapes
-*   `articles/Making an Arch`, make an arch for your environment using the Negate tool
+*   [In Game Solid Modeling](https://developer.roblox.com/en-us/articles/In-Game-Solid-Modeling), create custom plugins for solid modeling techniques like unions, negations, and separations
+*   [3D Modeling with Parts](https://developer.roblox.com/en-us/articles/3D-Modeling-with-Parts), how to combine and subtract parts to create complex solid shapes
+*   [Making an Arch](https://developer.roblox.com/en-us/articles/Making-an-Arch), make an arch for your environment using the Negate tool

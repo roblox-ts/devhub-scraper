@@ -1,4 +1,4 @@
-This property indicates the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) automatically chosen to represent the `Assembly|assembly's` root part. It is the same part that's returned when developers call `BasePart/GetRootPart|GetRootPart()`.
+This property indicates the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) automatically chosen to represent the [assembly's](https://developer.roblox.com/en-us/api-reference/class/Assembly) root part. It is the same part that's returned when developers call [GetRootPart()](https://developer.roblox.com/en-us/api-reference/function/BasePart/GetRootPart).
 
 The root part can be changed by changing the [RootPriority](https://developer.roblox.com/en-us/api-reference/property/BasePart/RootPriority) of the parts in the assembly.
 

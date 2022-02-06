@@ -2,4 +2,4 @@ Whether the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Hu
 
 ![A character jumping over stairs that are 7 studs tall](https://developer.roblox.com/assets/blt61a464c982798678/Jumping.gif)
 
-[Humanoids](https://developer.roblox.com/en-us/api-reference/class/Humanoid) are able to jump roughly 7.5 studs high by default, depending on both the `Workspace|Workspace's` [Workspace.Gravity](https://developer.roblox.com/en-us/api-reference/property/Workspace/Gravity), and the [Humanoid.JumpPower](https://developer.roblox.com/en-us/api-reference/property/Humanoid/JumpPower) of the humanoid itself.
+[Humanoids](https://developer.roblox.com/en-us/api-reference/class/Humanoid) are able to jump roughly 7.5 studs high by default, depending on both the [Workspace's](https://developer.roblox.com/en-us/api-reference/class/Workspace) [Workspace.Gravity](https://developer.roblox.com/en-us/api-reference/property/Workspace/Gravity), and the [Humanoid.JumpPower](https://developer.roblox.com/en-us/api-reference/property/Humanoid/JumpPower) of the humanoid itself.

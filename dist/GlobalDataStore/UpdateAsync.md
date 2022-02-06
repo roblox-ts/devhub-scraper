@@ -6,7 +6,7 @@ If the update succeeds, a new version of the value will be created and prior ver
 
 In cases where another game server updated the key in the short timespan between retrieving the key's current value and setting the key's value, [GlobalDataStore:UpdateAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/UpdateAsync) will call the function again to ensure that no data is overwritten. The function will be called as many times as needed until the data is saved **or** until the callback function returns `nil`.
 
-Any string being stored in a data store must be valid `Articles/Lua Libraries/utf8|UTF-8`. In UTF-8, values greater than 127 are used exclusively for encoding multi-byte codepoints, so a single byte greater than 127 will not be valid UTF-8 and the [GlobalDataStore:UpdateAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/UpdateAsync) attempt will fail.
+Any string being stored in a data store must be valid [UTF-8](https://developer.roblox.com/en-us/api-reference/class/Articles/Lua Libraries/utf8). In UTF-8, values greater than 127 are used exclusively for encoding multi-byte codepoints, so a single byte greater than 127 will not be valid UTF-8 and the [GlobalDataStore:UpdateAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/UpdateAsync) attempt will fail.
 
 ##### Set vs. Update
 
@@ -33,4 +33,4 @@ The callback function cannot yield, so do **not** include calls like `wait()`.
 See Also
 --------
 
-*   `Articles/Data store|Data Stores`, an in-depth guide on data structure, management, error handling, etc.
+*   [Data Stores](https://developer.roblox.com/en-us/articles/Data-store), an in-depth guide on data structure, management, error handling, etc.

@@ -1,6 +1,6 @@
 This function is outdated and no longer considered best practice.
 
-This function sets the current roll, in radians, of the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera). The roll is applied after the [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) and represents the rotation around the `Camera|Camera's` Z-axis.
+This function sets the current roll, in radians, of the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera). The roll is applied after the [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) and represents the rotation around the [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) Z-axis.
 
 For example, the following would invert the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera):
 

@@ -2,7 +2,7 @@ The **StreamingTargetRadius** property controls the maximum distance away from t
 
 Note that the engine is allowed to retain previously loaded content beyond the target radius, memory permitting.
 
-For a detailed explanation of game content streaming, best practices, and implementation notes, see `articles/content streaming|Game Content Streaming`.
+For a detailed explanation of game content streaming, best practices, and implementation notes, see [Game Content Streaming](https://developer.roblox.com/en-us/articles/content-streaming).
 
 See also
 --------

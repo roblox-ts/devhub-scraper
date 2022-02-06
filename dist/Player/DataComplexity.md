@@ -1,4 +1,4 @@
-This property was once used by an ancient data persistence method to indicate the total amount of data currently being stored in the `Player|Player's` cache on the current place.
+This property was once used by an ancient data persistence method to indicate the total amount of data currently being stored in the [Player's](https://developer.roblox.com/en-us/api-reference/class/Player) cache on the current place.
 
 Notes
 -----

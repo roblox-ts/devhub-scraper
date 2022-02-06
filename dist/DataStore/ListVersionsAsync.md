@@ -3,4 +3,4 @@ This function enumerates versions of the specified key in either ascending or de
 See Also
 --------
 
-*   `Articles/Data store|Data Stores`, an in-depth guide on data structure, management, error handling, and more.
+*   [Data Stores](https://developer.roblox.com/en-us/articles/Data-store), an in-depth guide on data structure, management, error handling, and more.

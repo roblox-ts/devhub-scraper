@@ -10,6 +10,6 @@ Height = (0.5 \* RootPart.Size.Y) + HipHeight
 HipHeight for R6 Humanoids
 --------------------------
 
-For R6 rigs, the `Humanoid/RootPart|RootPart's` height is determined by the height of the character's legs and [Humanoid.RootPart](https://developer.roblox.com/en-us/api-reference/property/Humanoid/RootPart). HipHeight instead describes a relative offset. The overall height of the Humanoid can be described in the following formula:
+For R6 rigs, the [RootPart's](https://developer.roblox.com/en-us/api-reference/property/Humanoid/RootPart) height is determined by the height of the character's legs and [Humanoid.RootPart](https://developer.roblox.com/en-us/api-reference/property/Humanoid/RootPart). HipHeight instead describes a relative offset. The overall height of the Humanoid can be described in the following formula:
 
 Height = LeftLeg.Size.Y + (0.5 \* RootPart.Size.Y) + HipHeight

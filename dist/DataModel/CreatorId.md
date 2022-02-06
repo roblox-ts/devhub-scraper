@@ -1,3 +1,3 @@
-This property describes the ID of the user or group that owns the `Articles/Place|place`
+This property describes the ID of the user or group that owns the [place](https://developer.roblox.com/en-us/articles/Place)
 
 If the [DataModel.CreatorType](https://developer.roblox.com/en-us/api-reference/property/DataModel/CreatorType) property is _'User'_ then CreatorId will be the [Player.UserId](https://developer.roblox.com/en-us/api-reference/property/Player/UserId) of the place's owner. If the [DataModel.CreatorType](https://developer.roblox.com/en-us/api-reference/property/DataModel/CreatorType) is _'Group'_ then CreatorId will be the ID of the group that owns the place.

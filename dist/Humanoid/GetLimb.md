@@ -10,4 +10,4 @@ print(humanoid:GetLimb(character.LeftFoot)) -- Enum.Limb.LeftLeg
 -- For R6
 print(humanoid:GetLimb(character:FindFirstChild("Left Leg"))) -- Enum.Limb.LeftLeg
 
-GetLimb will throw an error if the `Part|Part's` parent is not set to the `Humanoid|Humanoid's` parent.
+GetLimb will throw an error if the [Part's](https://developer.roblox.com/en-us/api-reference/class/Part) parent is not set to the [Humanoid's](https://developer.roblox.com/en-us/api-reference/class/Humanoid) parent.

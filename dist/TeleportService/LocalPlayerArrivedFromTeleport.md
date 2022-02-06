@@ -7,9 +7,9 @@ This event should be connected immediately in a [LocalScript](https://developer.
 Loading screen
 --------------
 
-During a teleport, whilst the destination place is loading, the _customLoadingScreen_ is parented to the [CoreGui](https://developer.roblox.com/en-us/api-reference/class/CoreGui). Once the place has loaded the `ScreenGui|loading screen` is [parented](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) to _nil_.
+During a teleport, whilst the destination place is loading, the _customLoadingScreen_ is parented to the [CoreGui](https://developer.roblox.com/en-us/api-reference/class/CoreGui). Once the place has loaded the [loading screen](https://developer.roblox.com/en-us/api-reference/class/ScreenGui) is [parented](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) to _nil_.
 
-If you wish to preserve the _customLoadingScreen_ and perform your own transitions, you will need to parent it to the `Players/LocalPlayer|LocalPlayer's` [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui). For example, using the following code inside a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript) in [ReplicatedFirst](https://developer.roblox.com/en-us/api-reference/class/ReplicatedFirst):
+If you wish to preserve the _customLoadingScreen_ and perform your own transitions, you will need to parent it to the [LocalPlayer's](https://developer.roblox.com/en-us/api-reference/property/Players/LocalPlayer) [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui). For example, using the following code inside a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript) in [ReplicatedFirst](https://developer.roblox.com/en-us/api-reference/class/ReplicatedFirst):
 
 local TeleportService = game:GetService("TeleportService")
 local Players = game:GetService("Players")

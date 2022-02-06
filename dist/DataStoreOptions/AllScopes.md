@@ -3,4 +3,4 @@ This property specifies whether the [GlobalDataStore](https://developer.roblox.c
 See Also
 --------
 
-*   `Articles/Data store|Data Stores`, an in-depth guide on data structure, management, error handling, etc.
+*   [Data Stores](https://developer.roblox.com/en-us/articles/Data-store), an in-depth guide on data structure, management, error handling, etc.

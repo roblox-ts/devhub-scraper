@@ -1,6 +1,6 @@
 **Icon** is a property that determines the image used as the pointer. If blank, a default arrow is used. While the cursor hovers over a [GuiButton](https://developer.roblox.com/en-us/api-reference/class/GuiButton), this property is temporarily ignored.
 
-To hide the cursor entirely, **do not** use a transparent image – instead, set [UserInputService.MouseIconEnabled](https://developer.roblox.com/en-us/api-reference/property/UserInputService/MouseIconEnabled) to false. For more information on how to change the mouse's icon, please see `Articles/Mouse Icon Appearance|this tutorial`.
+To hide the cursor entirely, **do not** use a transparent image – instead, set [UserInputService.MouseIconEnabled](https://developer.roblox.com/en-us/api-reference/property/UserInputService/MouseIconEnabled) to false. For more information on how to change the mouse's icon, please see [this tutorial](https://developer.roblox.com/en-us/articles/Mouse-Icon-Appearance).
 
 Designing a Cursor
 ------------------

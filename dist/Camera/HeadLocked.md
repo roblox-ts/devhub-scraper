@@ -21,6 +21,6 @@ However in some circumstances you may wish to develop your own head tracking sys
 See also
 --------
 
-*   `UserInputService|UserInputService's` [UserInputService:GetUserCFrame](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetUserCFrame) function, which can be used to obtain the [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) of the head
-*   `UserInputService|UserInputService's` [UserInputService:RecenterUserHeadCFrame](https://developer.roblox.com/en-us/api-reference/function/UserInputService/RecenterUserHeadCFrame) which is used to recenter the head to the current position and orientation of the VR device
+*   [UserInputService's](https://developer.roblox.com/en-us/api-reference/class/UserInputService) [UserInputService:GetUserCFrame](https://developer.roblox.com/en-us/api-reference/function/UserInputService/GetUserCFrame) function, which can be used to obtain the [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) of the head
+*   [UserInputService's](https://developer.roblox.com/en-us/api-reference/class/UserInputService) [UserInputService:RecenterUserHeadCFrame](https://developer.roblox.com/en-us/api-reference/function/UserInputService/RecenterUserHeadCFrame) which is used to recenter the head to the current position and orientation of the VR device
 *   The [Camera:GetRenderCFrame](https://developer.roblox.com/en-us/api-reference/function/Camera/GetRenderCFrame) function which returns the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) combined with the [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) of the user's head

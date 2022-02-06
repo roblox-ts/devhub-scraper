@@ -9,9 +9,9 @@ camera:Interpolate(
 	5
 )
 
-Throughout the tween, the `Camera|Camera's` [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) will be orientated towards the `Camera|Camera's` [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus).
+Throughout the tween, the [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) will be orientated towards the [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus).
 
-When the tween has completed, the `Camera|Camera's` [Camera.InterpolationFinished](https://developer.roblox.com/en-us/api-reference/event/Camera/InterpolationFinished) event will fire.
+When the tween has completed, the [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) [Camera.InterpolationFinished](https://developer.roblox.com/en-us/api-reference/event/Camera/InterpolationFinished) event will fire.
 
 If this function is called while the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) is already tweening the older tween will be stopped (without firing [Camera.InterpolationFinished](https://developer.roblox.com/en-us/api-reference/event/Camera/InterpolationFinished)) and overridden by the new tween.
 

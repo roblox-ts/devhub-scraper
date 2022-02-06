@@ -10,4 +10,4 @@ In most cases, games do not need to sell third party assets. However, some games
 What third party products can I sell?
 -------------------------------------
 
-Note, `Articles/Developer Products – In-Game Purchases|developer products` can only be sold in the game they are associated with, regardless of what AllowThirdPartySales is set to. This property will function for `Articles/Game Passes – Abilities and Bonuses|game passes` and [clothing](https://developer.roblox.com/en-us/api-reference/class/Articles/How to Make Shirts and Pants for Roblox Characters) however.
+Note, [developer products](https://developer.roblox.com/en-us/articles/Developer-Products-–-In-Game-Purchases) can only be sold in the game they are associated with, regardless of what AllowThirdPartySales is set to. This property will function for [game passes](https://developer.roblox.com/en-us/articles/Game-Passes-–-Abilities-and-Bonuses) and [clothing](https://developer.roblox.com/en-us/articles/How-to-Make-Shirts-and-Pants-for-Roblox-Characters) however.

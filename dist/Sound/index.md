@@ -1,4 +1,4 @@
-A [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) is an object that emits sound. See `Articles/Adding Sounds|Adding Sounds` for more info on how to upload a sound file.
+A [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) is an object that emits sound. See [Adding Sounds](https://developer.roblox.com/en-us/articles/Adding-Sounds) for more info on how to upload a sound file.
 
 2D and 3D Sound
 ---------------

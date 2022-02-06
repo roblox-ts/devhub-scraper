@@ -1,6 +1,6 @@
-This function applies an instant force impulse to this `BasePart|part's` assembly.
+This function applies an instant force impulse to this [part's](https://developer.roblox.com/en-us/api-reference/class/BasePart) assembly.
 
-The force is applied at the assembly's `BasePart/AssemblyCenterOfMass|center of mass`, so the resulting movement will only be linear.
+The force is applied at the assembly's [center of mass](https://developer.roblox.com/en-us/api-reference/property/BasePart/AssemblyCenterOfMass), so the resulting movement will only be linear.
 
 The resulting velocity from the impulse relies on the assembly's [mass](https://developer.roblox.com/en-us/api-reference/property/BasePart/AssemblyMass). So a higher impulse is required to move more massive assemblies. Impulses are useful for cases where you want a force applied instantly, such as an explosion or collision.
 

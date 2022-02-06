@@ -7,4 +7,4 @@ There are two other chat modes, [Players.ClassicChat](https://developer.roblox.c
 See also
 --------
 
-Developers who are interested interested in configuring their games' bubble chat system even further should take a look at the `articles/Bubble Chat|Bubble Chat` article.
+Developers who are interested interested in configuring their games' bubble chat system even further should take a look at the [Bubble Chat](https://developer.roblox.com/en-us/articles/Bubble-Chat) article.

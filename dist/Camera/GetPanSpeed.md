@@ -7,6 +7,6 @@ The 'pan' speed of the [Camera](https://developer.roblox.com/en-us/api-reference
 See also
 --------
 
-*   [Camera:GetTiltSpeed](https://developer.roblox.com/en-us/api-reference/function/Camera/GetTiltSpeed) for the speed at which the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) is rotating around its [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus) on the `Camera|Camera's` X axis
+*   [Camera:GetTiltSpeed](https://developer.roblox.com/en-us/api-reference/function/Camera/GetTiltSpeed) for the speed at which the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) is rotating around its [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus) on the [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) X axis
 *   [Camera:PanUnits](https://developer.roblox.com/en-us/api-reference/function/Camera/PanUnits) to 'pan' the camera
 *   [Camera:TiltUnits](https://developer.roblox.com/en-us/api-reference/function/Camera/TiltUnits) to 'tilt' the camera

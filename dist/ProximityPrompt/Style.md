@@ -1,4 +1,4 @@
-This property indicates the `ProximityPrompt|ProximityPrompt's` style. When set to Custom, no default UI will be provided.
+This property indicates the [ProximityPrompt's](https://developer.roblox.com/en-us/api-reference/class/ProximityPrompt) style. When set to Custom, no default UI will be provided.
 
 The provided UI can be swapped out for a custom UI. In order to do this, set Style to Custom. Then, listen to the [ProximityPrompt.PromptShown](https://developer.roblox.com/en-us/api-reference/event/ProximityPrompt/PromptShown) and [ProximityPrompt.PromptHidden](https://developer.roblox.com/en-us/api-reference/event/ProximityPrompt/PromptHidden) events in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript), where developers should create and tear down the UI.
 

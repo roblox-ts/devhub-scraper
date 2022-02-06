@@ -1,6 +1,6 @@
-This function 'tilts' the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) by rotating it around the [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus) around the `Camera|Camera's` X axis by a given multiple of 10 degrees.
+This function 'tilts' the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) by rotating it around the [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus) around the [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) X axis by a given multiple of 10 degrees.
 
-The rotation is applied to the `Camera|Camera's` [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) property and is constrained between _\-81.05_ and _81.05_ degrees.
+The rotation is applied to the [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) property and is constrained between _\-81.05_ and _81.05_ degrees.
 
 This function tilts the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) in 10 degree increments, for example:
 

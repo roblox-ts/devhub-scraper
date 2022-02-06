@@ -7,7 +7,7 @@ The JSONEncode function transforms a Lua [table](http://robloxdev.com/articles/T
 
 This function allows values such as _inf_ and _nan_, which are not valid JSON. This may cause problems if you want to use the outputted JSON elsewhere.
 
-To reverse the encoding process, and decode a JSON object, you can use `HttpService|HttpService's` [HttpService:JSONDecode](https://developer.roblox.com/en-us/api-reference/function/HttpService/JSONDecode) function.
+To reverse the encoding process, and decode a JSON object, you can use [HttpService's](https://developer.roblox.com/en-us/api-reference/class/HttpService) [HttpService:JSONDecode](https://developer.roblox.com/en-us/api-reference/function/HttpService/JSONDecode) function.
 
 Many web endpoints use JSON, as it is commonly used on the Internet. Visit [JSON.org](http://robloxdev.com/articles/JSON-Storage-Format) to become more familiar with the format.
 

@@ -7,4 +7,4 @@ When a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoi
 See also
 --------
 
-*   To force a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) to fall over, use the [Humanoid:ChangeState](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ChangeState) function to change the `Humanoid|Humanoid's` state to _FallingDown_
+*   To force a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) to fall over, use the [Humanoid:ChangeState](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ChangeState) function to change the [Humanoid's](https://developer.roblox.com/en-us/api-reference/class/Humanoid) state to _FallingDown_

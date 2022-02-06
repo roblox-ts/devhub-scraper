@@ -1,6 +1,6 @@
 The **StreamingEnabled** property determines whether game content streaming is enabled for the place. This property is not scriptable and therefore must be set on the **Workspace** object in Studio.
 
-For a detailed explanation of game content streaming, best practices, and implementation notes, see `articles/content streaming|Game Content Streaming`.
+For a detailed explanation of game content streaming, best practices, and implementation notes, see [Game Content Streaming](https://developer.roblox.com/en-us/articles/content-streaming).
 
 See also
 --------

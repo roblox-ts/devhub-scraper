@@ -1,4 +1,4 @@
-The linear velocity vector of this `BasePart|part's` assembly. It's the rate of change in position of the assembly's `BasePart/AssemblyCenterOfMass|center of mass` in studs per second.
+The linear velocity vector of this [part's](https://developer.roblox.com/en-us/api-reference/class/BasePart) assembly. It's the rate of change in position of the assembly's [center of mass](https://developer.roblox.com/en-us/api-reference/property/BasePart/AssemblyCenterOfMass) in studs per second.
 
 If you want to know the velocity at a point other than the assembly's center of mass, use [BasePart:GetVelocityAtPosition](https://developer.roblox.com/en-us/api-reference/function/BasePart/GetVelocityAtPosition).
 

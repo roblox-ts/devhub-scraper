@@ -1,6 +1,6 @@
 Currently this function only returns the correct value on the client
 
-This function returns whether gear of the given [GeareType](https://developer.roblox.com/en-us/api-reference/enum/GeareType) is permitted to be added to `Player|Players'` [StarterGears](https://developer.roblox.com/en-us/api-reference/class/StarterGear). For example:
+This function returns whether gear of the given [GeareType](https://developer.roblox.com/en-us/api-reference/enum/GeareType) is permitted to be added to [Players'](https://developer.roblox.com/en-us/api-reference/class/Player) [StarterGears](https://developer.roblox.com/en-us/api-reference/class/StarterGear). For example:
 
 local meleeWeaponsAllowed = game:IsGearTypeAllowed(Enum.GearType.MeleeWeapons)
 

@@ -1,4 +1,4 @@
-This function returns an array of [Instances](https://developer.roblox.com/en-us/api-reference/class/Instance) associated with the given `Articles/Content|content` URL.
+This function returns an array of [Instances](https://developer.roblox.com/en-us/api-reference/class/Instance) associated with the given [content](https://developer.roblox.com/en-us/articles/Content) URL.
 
 This function can be used to insert content from the Roblox [library](https://www.roblox.com/develop/library), such as:
 
@@ -8,7 +8,7 @@ This function can be used to insert content from the Roblox [library](https://ww
 *   Plugins
 *   Animations
 
-It is not possible to insert [Sounds](https://developer.roblox.com/en-us/api-reference/class/Sound) using this method as they do not have an [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) associated with them (rather just a `Articles/Content|content` URL).
+It is not possible to insert [Sounds](https://developer.roblox.com/en-us/api-reference/class/Sound) using this method as they do not have an [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) associated with them (rather just a [content](https://developer.roblox.com/en-us/articles/Content) URL).
 
 Unlike [InsertService:LoadAsset](https://developer.roblox.com/en-us/api-reference/function/InsertService/LoadAsset), GetObjects does not require an asset to be 'trusted'. This means that an asset does not need to be owned by the logged in user, or created by Roblox, to be inserted. However, if the asset is not owned by the logged in user it must be freely available.
 

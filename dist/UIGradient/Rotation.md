@@ -7,6 +7,6 @@ The animation above shows the snapping behavior of the gradient control points. 
 See Also
 --------
 
-*   `articles/Applying UIGradients`, for more information on creating UIGradient objects and how they work.
+*   [Applying UIGradients](https://developer.roblox.com/en-us/articles/Applying-UIGradients), for more information on creating UIGradient objects and how they work.
     
 *   [UIGradient.Offset](https://developer.roblox.com/en-us/api-reference/property/UIGradient/Offset), which also affects the geometry of the applied gradient

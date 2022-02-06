@@ -5,5 +5,5 @@ If [AddEmote](https://developer.roblox.com/en-us/api-reference/function/Humanoid
 See also
 --------
 
-*   `articles/HumanoidDescription System`, for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
 *   [AddEmote](https://developer.roblox.com/en-us/api-reference/function/HumanoidDescription/AddEmote), [RemoveEmote](https://developer.roblox.com/en-us/api-reference/function/HumanoidDescription/RemoveEmote) and [HumanoidDescription:SetEmotes](https://developer.roblox.com/en-us/api-reference/function/HumanoidDescription/SetEmotes), which can cause this event to be fired

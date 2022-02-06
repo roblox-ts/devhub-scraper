@@ -10,4 +10,4 @@ Changing this property will not change the [ScreenOrientation](https://developer
 
 You can also get the current screen orientation for a user's device using [PlayerGui.CurrentScreenOrientation](https://developer.roblox.com/en-us/api-reference/property/PlayerGui/CurrentScreenOrientation). This is useful when using the 'sensor' [ScreenOrientation](https://developer.roblox.com/en-us/api-reference/enum/ScreenOrientation) settings.
 
-For more information, please see this article on `Articles/Device Orientation for Mobile Roblox Games|device orientation`.
+For more information, please see this article on [device orientation](https://developer.roblox.com/en-us/articles/Device-Orientation-for-Mobile-Roblox-Games).

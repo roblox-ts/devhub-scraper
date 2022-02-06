@@ -1,6 +1,6 @@
 The UrlEncode function [percent-encodes](https://en.wikipedia.org/wiki/Percent-encoding) a given string so that reserved characters properly encoded with '%' and two hexadecimal characters.
 
-This is useful when formatting URLs for use with [HttpService:GetAsync](https://developer.roblox.com/en-us/api-reference/function/HttpService/GetAsync)/[HttpService:PostAsync](https://developer.roblox.com/en-us/api-reference/function/HttpService/PostAsync), or POST data of the media type `application/x-www-form-urlencoded` (`Enum/HttpContentType|Enum.HttpContentType.ApplicationUrlEncoded`).
+This is useful when formatting URLs for use with [HttpService:GetAsync](https://developer.roblox.com/en-us/api-reference/function/HttpService/GetAsync)/[HttpService:PostAsync](https://developer.roblox.com/en-us/api-reference/function/HttpService/PostAsync), or POST data of the media type `application/x-www-form-urlencoded` ([Enum.HttpContentType.ApplicationUrlEncoded](https://developer.roblox.com/en-us/api-reference/enum/HttpContentType)).
 
 For instance, when you encode the URL:
 

@@ -1,4 +1,4 @@
-This function fetches a `Articles/Content|content URL` of an image of a player's avatar given their [UserId](https://developer.roblox.com/en-us/api-reference/property/Player/UserId), the image size (as an enum) and type (also an enum: avatar, bust, headshot). It also returns a bool describing if the image is ready to be used.
+This function fetches a [content URL](https://developer.roblox.com/en-us/articles/Content) of an image of a player's avatar given their [UserId](https://developer.roblox.com/en-us/api-reference/property/Player/UserId), the image size (as an enum) and type (also an enum: avatar, bust, headshot). It also returns a bool describing if the image is ready to be used.
 
 Most often, this method is used with [ImageLabel.Image](https://developer.roblox.com/en-us/api-reference/property/ImageLabel/Image) to display player pictures next to their username in-game. It is also appropriate for [Decal.Texture](https://developer.roblox.com/en-us/api-reference/property/Decal/Texture) as well.
 

@@ -1,4 +1,4 @@
-The GetUserCFrame function returns a [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) describing the position and orientation of a specified [UserCFrame](https://developer.roblox.com/en-us/api-reference/enum/UserCFrame) virtual reality (VR) device. If the specified device is not connected, the function returns `DataType/CFrame|CFrame.new()`.
+The GetUserCFrame function returns a [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) describing the position and orientation of a specified [UserCFrame](https://developer.roblox.com/en-us/api-reference/enum/UserCFrame) virtual reality (VR) device. If the specified device is not connected, the function returns [CFrame.new()](https://developer.roblox.com/en-us/api-reference/datatype/CFrame).
 
 For example, the code snippet below prints the CFrame of the user's VR headset.
 

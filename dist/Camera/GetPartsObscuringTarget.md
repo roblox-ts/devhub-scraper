@@ -1,6 +1,6 @@
-This function returns an array of [BaseParts](https://developer.roblox.com/en-us/api-reference/class/BasePart) that are obscuring the lines of sight between `Camera|Camera's` [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) and the _castPoints_.
+This function returns an array of [BaseParts](https://developer.roblox.com/en-us/api-reference/class/BasePart) that are obscuring the lines of sight between [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) and the _castPoints_.
 
-GetPartsObscuringTarget is used by the 'Invisicam' in in the default [camera scripts](http://robloxdev.com/articles/Movement-and-camera-controls) to hide parts between the `Camera|Camera's` [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) and [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus).
+GetPartsObscuringTarget is used by the 'Invisicam' in in the default [camera scripts](http://robloxdev.com/articles/Movement-and-camera-controls) to hide parts between the [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) and [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus).
 
 Any [Instances](https://developer.roblox.com/en-us/api-reference/class/Instance) included in the _ignoreList_ array will, along with their descendants, be ignored.
 

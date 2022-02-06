@@ -35,7 +35,7 @@ Reflects the _teleportData_ parameter specified in the original teleport functio
 GetJoinData and TeleportData
 ----------------------------
 
-If the teleport the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) arrived in the current place due to was initiated on a server (as opposed to a client) the `Player|Player's` _teleportData_ is included in the dictionary returned by this function.
+If the teleport the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) arrived in the current place due to was initiated on a server (as opposed to a client) the [Player's](https://developer.roblox.com/en-us/api-reference/class/Player) _teleportData_ is included in the dictionary returned by this function.
 
 This function can only be used to fetch _teleportData_ on the server, to retrieve it on the client use [TeleportService:GetLocalPlayerTeleportData](https://developer.roblox.com/en-us/api-reference/function/TeleportService/GetLocalPlayerTeleportData).
 
@@ -51,4 +51,4 @@ Despite this, it is still appropriate for the secure transmission of [immutable 
 
 You should not use this function for data that can be changed. For example, the amount of in-game currency the user currently has. This is because GetJoinData cannot guarantee a malicious user is not transmitting data from a previous session. For data like this, you should rely on [GlobalDataStores](https://developer.roblox.com/en-us/api-reference/class/GlobalDataStore).
 
-As with all cases, you should implement proper server validation to ensure your game is secure. For more information see this article on `Articles/Game Security`.
+As with all cases, you should implement proper server validation to ensure your game is secure. For more information see this article on [Game Security](https://developer.roblox.com/en-us/articles/Game-Security).

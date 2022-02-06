@@ -1,8 +1,8 @@
 **PathfindingService** is used to find paths between two points. These paths make sure that characters can move between the points without running into walls or other obstacles. Paths can be used for both player-controlled characters and non-player characters.
 
-This service has one function, `PathfindingService/CreatePath|CreatePath()`, which creates a [Path](https://developer.roblox.com/en-us/api-reference/class/Path) object based on various parameters.
+This service has one function, [CreatePath()](https://developer.roblox.com/en-us/api-reference/function/PathfindingService/CreatePath), which creates a [Path](https://developer.roblox.com/en-us/api-reference/class/Path) object based on various parameters.
 
-See the `Articles/Pathfinding|Pathfinding` guide for details and examples on using pathfinding in Roblox.
+See the [Pathfinding](https://developer.roblox.com/en-us/articles/Pathfinding) guide for details and examples on using pathfinding in Roblox.
 
 Navigation Mesh
 ---------------

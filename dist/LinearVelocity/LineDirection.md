@@ -1,1 +1,1 @@
-The normalized [Vector3](https://developer.roblox.com/en-us/api-reference/datatype/Vector3) direction for constraining the velocity along a line, when `LinearVelocity/VelocityConstraintMode| VelocityConstraintMode` is set to **Line**. Default is \[1, 0, 0\].
+The normalized [Vector3](https://developer.roblox.com/en-us/api-reference/datatype/Vector3) direction for constraining the velocity along a line, when [ VelocityConstraintMode](https://developer.roblox.com/en-us/api-reference/property/LinearVelocity/VelocityConstraintMode) is set to **Line**. Default is \[1, 0, 0\].

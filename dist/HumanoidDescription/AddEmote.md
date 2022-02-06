@@ -5,7 +5,7 @@ You can add multiple emotes of the same name. All emotes of the same name can be
 See also
 --------
 
-*   `articles/HumanoidDescription System`, for more information on HumanoidDescriptions
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/HumanoidDescription-System), for more information on HumanoidDescriptions
 *   [GetEmotes](https://developer.roblox.com/en-us/api-reference/function/HumanoidDescription/RemoveEmote), which can be used to retrieve the emotes that have been added by this function
 *   [SetEmotes](https://developer.roblox.com/en-us/api-reference/function/HumanoidDescription/SetEmotes) and [RemoveEmote](https://developer.roblox.com/en-us/api-reference/function/HumanoidDescription/RemoveEmote), which also manipulate what emotes have been added
 *   [EmotesChanged](https://developer.roblox.com/en-us/api-reference/event/HumanoidDescription/EmotesChanged), which fires after this function is called

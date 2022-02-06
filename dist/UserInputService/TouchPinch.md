@@ -14,7 +14,7 @@ This event only fires when the Roblox client window is in focus. For example, in
 
 As this event only fires locally, it can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
 
-`CoreScript|Core scripts` use similar logic to zoom the user's camera when a user pinches their fingers on a mobile device. For more info on these scripts, see [here](https://www.robloxdev.com/articles/Movement-and-camera-controls). Best practice for this event is to use it when creating a mobile camera system to override the default core script.
+[Core scripts](https://developer.roblox.com/en-us/api-reference/class/CoreScript) use similar logic to zoom the user's camera when a user pinches their fingers on a mobile device. For more info on these scripts, see [here](https://www.robloxdev.com/articles/Movement-and-camera-controls). Best practice for this event is to use it when creating a mobile camera system to override the default core script.
 
 See also
 --------

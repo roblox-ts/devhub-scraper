@@ -1,6 +1,6 @@
 This function returns an [InputObject](https://developer.roblox.com/en-us/api-reference/class/InputObject) describing the device's current gravity vector.
 
-The gravity vector is determined by the device's orientation relative to the real-world force of gravity. For instance, if a device is perfectly upright (portrait), the gravity vector is `DataType/Vector3|Vector3.new(0, 0, -9.18)`. If the left side of the device is pointing down, the vector is Vector3.new(9.81, 0, 0). Finally, if the back of the device is pointing down, the vector is Vector3.new(0, -9.81, 0).
+The gravity vector is determined by the device's orientation relative to the real-world force of gravity. For instance, if a device is perfectly upright (portrait), the gravity vector is [Vector3.new(0, 0, -9.18)](https://developer.roblox.com/en-us/api-reference/datatype/Vector3). If the left side of the device is pointing down, the vector is Vector3.new(9.81, 0, 0). Finally, if the back of the device is pointing down, the vector is Vector3.new(0, -9.81, 0).
 
 This function might be used to enable the user's device to impact or control gravity within the game or move in-game objects such as a ball.
 

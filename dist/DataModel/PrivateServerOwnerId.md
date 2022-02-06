@@ -1,4 +1,4 @@
-This property describes the [UserId](https://developer.roblox.com/en-us/api-reference/property/Player/UserId) of the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) that owns the `Articles/Creating a VIP Server on Roblox|VIP server` if the server is a VIP server.
+This property describes the [UserId](https://developer.roblox.com/en-us/api-reference/property/Player/UserId) of the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) that owns the [VIP server](https://developer.roblox.com/en-us/articles/Creating-a-VIP-Server-on-Roblox) if the server is a VIP server.
 
 If the server is a standard or reserved server then this property will be set to _0_.
 
@@ -22,4 +22,4 @@ end
 See also
 --------
 
-*   [DataModel.PrivateServerId](https://developer.roblox.com/en-us/api-reference/property/DataModel/PrivateServerId), a property describing the unique ID of VIP and `TeleportService/ReserveServer|reserved servers`
+*   [DataModel.PrivateServerId](https://developer.roblox.com/en-us/api-reference/property/DataModel/PrivateServerId), a property describing the unique ID of VIP and [reserved servers](https://developer.roblox.com/en-us/api-reference/function/TeleportService/ReserveServer)

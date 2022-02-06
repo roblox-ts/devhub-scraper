@@ -20,4 +20,4 @@ This service does not work during playtesting in Roblox Studio — To test asp
 See also
 --------
 
-*   For more information about teleporting please see [TeleportService:Teleport](https://developer.roblox.com/en-us/api-reference/function/TeleportService/Teleport) or the `Articles/Teleporting Between Places` tutorial
+*   For more information about teleporting please see [TeleportService:Teleport](https://developer.roblox.com/en-us/api-reference/function/TeleportService/Teleport) or the [Teleporting Between Places](https://developer.roblox.com/en-us/articles/Teleporting-Between-Places) tutorial

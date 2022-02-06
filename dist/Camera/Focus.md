@@ -9,4 +9,4 @@ The default Roblox [camera scripts](http://robloxdev.com/articles/Movement-and-c
 
 In these cases, you should update Focus every frame, using [RunService:BindToRenderStep](https://developer.roblox.com/en-us/api-reference/function/RunService/BindToRenderStep) function at the _'Camera'_ [RenderPriority](https://developer.roblox.com/en-us/api-reference/enum/RenderPriority).
 
-Focus has no bearing on the positioning or orientation of the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) (see `Camera/CFrame|Camera.CFrame` for this).
+Focus has no bearing on the positioning or orientation of the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) (see [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) for this).

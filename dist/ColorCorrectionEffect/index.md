@@ -2,4 +2,4 @@ The **ColorCorrectionEffect** can be used to adjust several color-related proper
 
 Like other post-processing effects, **ColorCorrectionEffect** will only work while [Enabled](https://developer.roblox.com/en-us/api-reference/property/PostEffect/Enabled) and when parented to [Lighting](https://developer.roblox.com/en-us/api-reference/class/Lighting) or [Workspace.CurrentCamera](https://developer.roblox.com/en-us/api-reference/property/Workspace/CurrentCamera). Also, it may render differently depending on your Studio settings (see the **Quality Level** settings in **Rendering** → **Performance**).
 
-For more details on this effect and others, see the `articles/post processing effects|Post-Processing Effects` article.
+For more details on this effect and others, see the [Post-Processing Effects](https://developer.roblox.com/en-us/articles/post-processing-effects) article.

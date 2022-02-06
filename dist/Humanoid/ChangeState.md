@@ -2,7 +2,7 @@ This function causes the [Humanoid](https://developer.roblox.com/en-us/api-refer
 
 The humanoid state describes the activity the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is currently doing.
 
-You should check the page for [HumanoidStateType](https://developer.roblox.com/en-us/api-reference/enum/HumanoidStateType) for more information on what particular states do as some have unintuitive names. For example, running describes a state where the `Humanoid|Humanoid's` legs are on the ground, including when stationary
+You should check the page for [HumanoidStateType](https://developer.roblox.com/en-us/api-reference/enum/HumanoidStateType) for more information on what particular states do as some have unintuitive names. For example, running describes a state where the [Humanoid's](https://developer.roblox.com/en-us/api-reference/class/Humanoid) legs are on the ground, including when stationary
 
 Due to the default behavior of the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) some states will automatically be changed when set to. For example:
 

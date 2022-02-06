@@ -13,7 +13,7 @@ The two images below demonstrate how the property behaves using a non-colliding 
 Collision Groups
 ----------------
 
-This collision logic can be enabled and disabled for `articles/Collision Filtering|Collision Groups` using the [Workspace.TouchesUseCollisionGroups](https://developer.roblox.com/en-us/api-reference/property/Workspace/TouchesUseCollisionGroups) property. In this case, when TouchesUseCollisionGroups is `true` parts in different groups set to not collide will ignore collisions and touch events - thereby ignoring this property
+This collision logic can be enabled and disabled for [Collision Groups](https://developer.roblox.com/en-us/articles/Collision-Filtering) using the [Workspace.TouchesUseCollisionGroups](https://developer.roblox.com/en-us/api-reference/property/Workspace/TouchesUseCollisionGroups) property. In this case, when TouchesUseCollisionGroups is `true` parts in different groups set to not collide will ignore collisions and touch events - thereby ignoring this property
 
 Performance
 -----------

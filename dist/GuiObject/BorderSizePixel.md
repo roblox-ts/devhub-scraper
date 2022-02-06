@@ -1,4 +1,4 @@
-This property determines how wide a `GuiObject|GUI's` border should render, in pixels.
+This property determines how wide a [GUI's](https://developer.roblox.com/en-us/api-reference/class/GuiObject) border should render, in pixels.
 
 This property, [GuiObject.BorderColor3](https://developer.roblox.com/en-us/api-reference/property/GuiObject/BorderColor3), and [GuiObject.BackgroundTransparency](https://developer.roblox.com/en-us/api-reference/property/GuiObject/BackgroundTransparency) determine how the border of a GUI element should look.
 

@@ -1,6 +1,6 @@
-This function pplies an instant force impulse to this `BasePart|part's` assembly, at the specified position in world space.
+This function pplies an instant force impulse to this [part's](https://developer.roblox.com/en-us/api-reference/class/BasePart) assembly, at the specified position in world space.
 
-If the position is not at the assembly's `BasePart/AssemblyCenterOfMass|center of mass`, the impulse will cause a positional and rotational movement.
+If the position is not at the assembly's [center of mass](https://developer.roblox.com/en-us/api-reference/property/BasePart/AssemblyCenterOfMass), the impulse will cause a positional and rotational movement.
 
 The resulting velocity from the impulse relies on the assembly's [mass](https://developer.roblox.com/en-us/api-reference/property/BasePart/AssemblyMass). So a higher impulse is required to move more massive assemblies. Impulses are useful for cases where developers want a force applied instantly, such as an explosion or collision.
 

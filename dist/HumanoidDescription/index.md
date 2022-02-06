@@ -12,4 +12,4 @@ You can get a HumanoidDescription by using the following functions:
 See also
 --------
 
-*   `articles/humanoiddescription system|HumanoidDescription System`, for more information on HumanoidDescription
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescription

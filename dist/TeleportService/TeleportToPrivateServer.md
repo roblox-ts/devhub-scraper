@@ -36,7 +36,7 @@ Loading screen
 
 A _customLoadingScreen_ argument can be specified. This is a [ScreenGui](https://developer.roblox.com/en-us/api-reference/class/ScreenGui) that is copied (without scripts) into the [CoreGui](https://developer.roblox.com/en-us/api-reference/class/CoreGui) of the destination place.
 
-You are advised to instead set the loading screen on the client using [TeleportService:SetTeleportGui](https://developer.roblox.com/en-us/api-reference/function/TeleportService/SetTeleportGui). The loading [ScreenGui](https://developer.roblox.com/en-us/api-reference/class/ScreenGui) should also be parented to the `Player|Player's` [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui) a few seconds before the teleport to ensure a smooth transition using a [RemoteEvent](https://developer.roblox.com/en-us/api-reference/class/RemoteEvent). For an example of this see [SetTeleportGui](https://developer.roblox.com/en-us/api-reference/function/TeleportService/SetTeleportGui)
+You are advised to instead set the loading screen on the client using [TeleportService:SetTeleportGui](https://developer.roblox.com/en-us/api-reference/function/TeleportService/SetTeleportGui). The loading [ScreenGui](https://developer.roblox.com/en-us/api-reference/class/ScreenGui) should also be parented to the [Player's](https://developer.roblox.com/en-us/api-reference/class/Player) [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui) a few seconds before the teleport to ensure a smooth transition using a [RemoteEvent](https://developer.roblox.com/en-us/api-reference/class/RemoteEvent). For an example of this see [SetTeleportGui](https://developer.roblox.com/en-us/api-reference/function/TeleportService/SetTeleportGui)
 
 The loading [ScreenGui](https://developer.roblox.com/en-us/api-reference/class/ScreenGui) can be obtained in the destination place using [TeleportService:GetArrivingTeleportGui](https://developer.roblox.com/en-us/api-reference/function/TeleportService/GetArrivingTeleportGui), where developers can parent it to the [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui).
 
@@ -56,4 +56,4 @@ This service does not work during playtesting in Roblox Studio — To test asp
 See also
 --------
 
-For more information on how to teleport players, see the `Articles/Teleporting Between Places` tutorial.
+For more information on how to teleport players, see the [Teleporting Between Places](https://developer.roblox.com/en-us/articles/Teleporting-Between-Places) tutorial.

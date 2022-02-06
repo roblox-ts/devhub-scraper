@@ -2,11 +2,11 @@ This event is a signal invoked when a player has closed the game invite prompt a
 
 ### How Game Invites Work
 
-*   User joins a game and presses a developer-constructed button. Activating the button will invoke `SocialService/PromptGameInvite|PromptGameInvite(localPlayer)`.
+*   User joins a game and presses a developer-constructed button. Activating the button will invoke [PromptGameInvite(localPlayer)](https://developer.roblox.com/en-us/api-reference/function/SocialService/PromptGameInvite).
 
 ![](https://developer.roblox.com/assets/blt1db52ca2f16787a5/inviteFlow1.png)
 
-*   This function call will fire a `DataType/RBXScriptSignal|rbx::signal` (called [SocialService.PromptInviteRequested](https://developer.roblox.com/en-us/api-reference/event/SocialService/PromptInviteRequested)). The [CoreScripts](https://developer.roblox.com/en-us/api-reference/class/CoreScript) are bound to this signal through Reflection and once invoked will show the user a version of the following screen:
+*   This function call will fire a [rbx::signal](https://developer.roblox.com/en-us/api-reference/datatype/RBXScriptSignal) (called [SocialService.PromptInviteRequested](https://developer.roblox.com/en-us/api-reference/event/SocialService/PromptInviteRequested)). The [CoreScripts](https://developer.roblox.com/en-us/api-reference/class/CoreScript) are bound to this signal through Reflection and once invoked will show the user a version of the following screen:
 
 ![](https://developer.roblox.com/assets/blte2b2aeda3da94cb2/inviteFlow2.png)
 

@@ -1,4 +1,4 @@
-The angular velocity vector of this `BasePart|part's` assembly. It's the rate of change of orientation in radians per second.
+The angular velocity vector of this [part's](https://developer.roblox.com/en-us/api-reference/class/BasePart) assembly. It's the rate of change of orientation in radians per second.
 
 Angular velocity is the same at every point of the assembly.
 

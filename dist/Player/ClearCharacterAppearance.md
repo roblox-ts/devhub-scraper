@@ -3,4 +3,4 @@ The ClearCharacterAppearance function removes all [Accessory](https://developer.
 Note
 ----
 
-It does not remove `ShirtGraphic|t-shirts`, head meshes, or faces.
+It does not remove [t-shirts](https://developer.roblox.com/en-us/api-reference/class/ShirtGraphic), head meshes, or faces.

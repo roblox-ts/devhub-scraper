@@ -1,4 +1,4 @@
-This function fteches information about a [badge](https://developer.roblox.com/en-us/api-reference/class/articles/Badges Special Game Awards) given its ID. It takes a brief moment to load the information from the Roblox website; repeated calls will cache for a short duration. It returns a dictionary with the following fields:
+This function fteches information about a [badge](https://developer.roblox.com/en-us/articles/Badges-Special-Game-Awards) given its ID. It takes a brief moment to load the information from the Roblox website; repeated calls will cache for a short duration. It returns a dictionary with the following fields:
 
 Key
 
@@ -33,5 +33,5 @@ Indicates whether the badge is available to be awarded.
 See also
 --------
 
-*   `BadgeService/AwardBadge|BadgeService:AwardBadge()`
-*   `BadgeService/UserHasBadgeAsync|BadgeService:UserHasBadgeAsync()`
+*   [BadgeService:AwardBadge()](https://developer.roblox.com/en-us/api-reference/function/BadgeService/AwardBadge)
+*   [BadgeService:UserHasBadgeAsync()](https://developer.roblox.com/en-us/api-reference/function/BadgeService/UserHasBadgeAsync)

@@ -1,4 +1,4 @@
-The Grip property stores the `Tool|Tool's` Grip properties as a single [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame). This includes the `Grip/Up|Up`, `Grip/Right|Right`, `Grip/Forward|Forward`, and `Grip/Pos|Pos` properties.
+The Grip property stores the [Tool's](https://developer.roblox.com/en-us/api-reference/class/Tool) Grip properties as a single [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame). This includes the `Grip/Up|Up`, `Grip/Right|Right`, `Grip/Forward|Forward`, and `Grip/Pos|Pos` properties.
 
 The grip properties are used to position how the player holds the tool.
 

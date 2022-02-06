@@ -2,7 +2,7 @@ This function is broken and should not be used
 
 This function returns the current 'tilt' speed of the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera).
 
-The 'tilt' speed of the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) describes the speed at which the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) is rotating around its [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus) around the `Camera|Camera's` X axis.
+The 'tilt' speed of the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) describes the speed at which the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) is rotating around its [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus) around the [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) X axis.
 
 See also
 --------

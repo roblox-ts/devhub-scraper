@@ -6,4 +6,4 @@ The effect of this call will be temporary and there are no guarantees of what wi
 
 Requesting streaming around an area is **not a guarantee** that the content will be present when the request completes, as streaming is affected by the client's network bandwidth, memory limitations, and other factors.
 
-For more details, see the `articles/content streaming|Game Content Streaming` article.
+For more details, see the [Game Content Streaming](https://developer.roblox.com/en-us/articles/content-streaming) article.
