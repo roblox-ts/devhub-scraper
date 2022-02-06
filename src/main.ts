@@ -54,6 +54,10 @@ class Generator {
 	public async run() {
 		const tasks = new Array<[string, string | undefined]>();
 
+		// debugging
+		// tasks.push(["Accoutrement", undefined]);
+		// tasks.push(["AlignOrientation", "AlignType"]);
+
 		for (const apiClass of this.apiDump.Classes) {
 			tasks.push([apiClass.Name, undefined]);
 			for (const apiMember of apiClass.Members) {
