@@ -1,0 +1,3 @@
+Provides a utility to query the current data of all [LocalizationTable](https://developer.roblox.com/en-us/api-reference/class/LocalizationTable) that exist as children of [LocalizationService](https://developer.roblox.com/en-us/api-reference/class/LocalizationService) as well as the current data of the cloud [LocalizationTable](https://developer.roblox.com/en-us/api-reference/class/LocalizationTable).
+
+These are the same tables used for autotranslation.
