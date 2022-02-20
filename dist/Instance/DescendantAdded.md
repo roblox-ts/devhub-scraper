@@ -1,4 +1,4 @@
-The DescendantAdded even fires when a descendant is added to the [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance).
+The DescendantAdded event fires after a descendant is added to the [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance).
 
 As DescendantAdded fires for every descendant, parenting an object to the [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) will fire the event for this object and all of its descendants individually.
 

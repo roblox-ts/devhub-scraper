@@ -5,14 +5,14 @@ Checking the Existence of An Object
 
 FindFirstChild is necessary if you need to verify an object something exists before continuing. Attempting to index a child by name using the dot operator throws an error if the child doesn't exist.
 
- -- The following line errors if Part doesn't exist in the Workspace:
-workspace.Part.Transparency = .5
+\-- The following line errors if Part doesn't exist in the Workspace:
+workspace.Part.Transparency = 0.5
 
 Use FindFirstChild to first check for Part, then use an if-statement to run code that needs it.
 
 local part = workspace:FindFirstChild("Part")
 if part then
-	part.Transparency = .5
+	part.Transparency = 0.5
 end
 
 Finding a Child Whose Name Matches a Property

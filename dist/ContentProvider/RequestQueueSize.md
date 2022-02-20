@@ -1,4 +1,4 @@
-RequestQueueSize gives the number of items in [ContentProvider](https://developer.roblox.com/en-us/api-reference/class/ContentProvider)'s request queue that are waiting to be downloaded.
+Gives the number of items in [ContentProvider](https://developer.roblox.com/en-us/api-reference/class/ContentProvider)'s request queue that need to be downloaded.
 
 Items are added to the client's request queue when an asset is used for the first time or [ContentProvider:PreloadAsync](https://developer.roblox.com/en-us/api-reference/function/ContentProvider/PreloadAsync) is called.
 

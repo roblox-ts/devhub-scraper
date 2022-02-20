@@ -1,4 +1,4 @@
-Fires when an object is parented to this [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance).
+Fires after an object is parented to this [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance).
 
 Note, when using this function on a client to detect objects created by the server it is necessary to use [Instance:WaitForChild](https://developer.roblox.com/en-us/api-reference/function/Instance/WaitForChild) when indexing these object's descendants. This is because the object and its descendants are not guaranteed to replicate from the server to the client simultaneously. For example:
 

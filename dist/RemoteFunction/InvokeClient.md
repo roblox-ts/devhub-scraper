@@ -2,7 +2,7 @@ Calls the method bound to the RemoteFunction by [RemoteFunction.OnClientInvoke](
 
 If the result is not needed then it is recommended to use a [RemoteEvent:FireClient](https://developer.roblox.com/en-us/api-reference/function/RemoteEvent/FireClient) instead, as its call is asynchronous and doesn't need to wait for a response to continue execution.
 
-This is used to bind functions to invoke the client when the remote event is invoked by the server. This function is in place to provide a method for communicating between the client and server, which is well documented in [this](https://developer.roblox.com/articles/Remote-Functions-and-Events) article.
+This is used to bind functions to invoke the client when the remote function is invoked by the server. This function is in place to provide a method for communicating between the client and server, which is well documented in [this](https://developer.roblox.com/articles/Remote-Functions-and-Events) article.
 
 To fire from the server to the client, you should use [RemoteFunction:InvokeServer](https://developer.roblox.com/en-us/api-reference/function/RemoteFunction/InvokeServer) and [RemoteFunction.OnServerInvoke](https://developer.roblox.com/en-us/api-reference/property/RemoteFunction/OnServerInvoke).
 

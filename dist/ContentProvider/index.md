@@ -1,5 +1,5 @@
-The ContentProvider is a service that is used to load content, or assets, into a game.
+Service that is used to load content, or assets, into a game.
 
-The service's main use is to preload assets into a game. When a new asset, such as a [Decal](https://developer.roblox.com/en-us/api-reference/class/Decal) or [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) is used in a game, Roblox will load the content associated with it from Roblox servers. In some cases this can be undesirable for developers as it can lead to a delay before the content loads into the game.
+The service's main use is to preload assets into a game. When a new asset such as a [Decal](https://developer.roblox.com/en-us/api-reference/class/Decal) or [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) is used in a game, Roblox will load the content associated with it from Roblox servers. In some cases, this can be undesirable for developers as it can lead to a delay before the content loads into the game.
 
 With ContentProvider, developers can preload assets using the [ContentProvider:PreloadAsync](https://developer.roblox.com/en-us/api-reference/function/ContentProvider/PreloadAsync) function. Another useful property is [ContentProvider.RequestQueueSize](https://developer.roblox.com/en-us/api-reference/property/ContentProvider/RequestQueueSize), which can be used to measure what proportion of assets in the request queue have been downloaded.
