@@ -1,4 +1,4 @@
-This function allows the developer to schedule the removal of the object without yielding any code.
+Allows the developer to schedule the removal of the object without yielding any code.
 
 Registers a given [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) to the [Debris](https://developer.roblox.com/en-us/api-reference/class/Debris) service for removal after the specified delay. The first argument is the object being removed, and the second argument is the amount of time in seconds the [Debris](https://developer.roblox.com/en-us/api-reference/class/Debris) service will wait before removing the object. The delay argument is optional, if it is not specified, it defaults to 10 seconds. The delay argument is a number, so it accepts decimal points, such as '1.5', or '0.25'.
 

@@ -1,0 +1,1 @@
+Color that applies to all descendants.

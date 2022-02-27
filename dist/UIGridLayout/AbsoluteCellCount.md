@@ -1,0 +1,1 @@
+Measures the maximum number of elements in each direction. Read-only.

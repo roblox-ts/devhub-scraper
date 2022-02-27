@@ -2,6 +2,7 @@ The RemoveCharacter [Player](https://developer.roblox.com/en-us/api-reference/cl
 
 To reload a players character after using this function, simply use the [Player:LoadCharacter](https://developer.roblox.com/en-us/api-reference/function/Player/LoadCharacter) function.
 
-##Note
+Note
+----
 
 *   This function does not remove a player from the game. It only removes their character. To remove a player from the game, you can use the [Player:Kick](https://developer.roblox.com/en-us/api-reference/function/Player/Kick) function.

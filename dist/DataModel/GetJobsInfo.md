@@ -1,4 +1,4 @@
-Returns a table containing basic information about the jobs performed by the task scheduler
+Returns a table containing basic information about the jobs performed by the task scheduler.
 
 In computing, a task scheduler is a system responsible for executing key tasks at the appropriate intervals.
 

@@ -1,6 +1,6 @@
 This property describes the ID of the [game](https://developer.roblox.com/en-us/articles/multi-place-games) the [place](https://developer.roblox.com/en-us/articles/place) running on the server belongs to.
 
-This ID can be found in the top right corner of the [game explorer](https://www.robloxdev.com/resources/studio/Game-Explorer) in Roblox Studio.  
+This ID can be found in the top right corner of the [Asset Manager](https://developer.roblox.com/en-us/resources/studio/Asset-Manager) in Roblox Studio.  
 When using Roblox Studio, if the place has not been published to Roblox then the GameId will correspond with the template being used.
 
 See also

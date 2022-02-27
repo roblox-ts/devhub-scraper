@@ -1,3 +1,3 @@
-The read-only property TextBounds reflects the absolute pixel size of rendered text. In other words, if you were to try to fit text into a rectangle, this property would reflect the minimum dimensions of the rectangle you would need in order to fit the text.
+The read-only property TextBounds reflects the absolute size of rendered text in offsets. In other words, if you were to try to fit text into a rectangle, this property would reflect the minimum dimensions of the rectangle you would need in order to fit the text.
 
 Using [TextService:GetTextSize](https://developer.roblox.com/en-us/api-reference/function/TextService/GetTextSize), you can predict what TextBounds will be on a TextLabel given a string, [TextLabel.Font](https://developer.roblox.com/en-us/api-reference/property/TextLabel/Font), [TextLabel.TextSize](https://developer.roblox.com/en-us/api-reference/property/TextLabel/TextSize) and frame size.

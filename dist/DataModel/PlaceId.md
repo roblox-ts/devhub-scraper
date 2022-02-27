@@ -4,7 +4,7 @@ This ID corresponds with the number in the [place's](https://developer.roblox.co
 
 > [https://www.roblox.com/games/1818/Classic-Crossroads](https://www.roblox.com/games/1818/Classic-Crossroads)
 
-The place ID can also be found in the [game explorer](https://www.robloxdev.com/resources/studio/Game-Explorer) in Roblox Studio by right clicking on the place and selecting 'Copy ID to clipboard'.
+The place ID can also be found in the [Asset Manager](https://developer.roblox.com/en-us/resources/studio/Asset-Manager) in Roblox Studio by right clicking on the place inside of the [Places](https://developer.roblox.com/en-us/resources/studio/Asset-Manager#places) folder and selecting 'Copy ID to clipboard'.
 
 When using Roblox Studio, if the place has not been published to Roblox then the PlaceId will correspond with the template being used.
 

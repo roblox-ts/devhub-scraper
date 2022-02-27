@@ -1,4 +1,4 @@
-The TextSize property determines the pixel height of one line of rendered text. The unit is in screen pixels, not points (which is used in most document editing programs). It's worth noting that the “Legacy” font's line height behaves differently, and won't match this property exactly.
+The TextSize property determines the height in offsets of one line of rendered text. The unit is in offsets, not points (which is used in most document editing programs). It's worth noting that the “Legacy” font's line height behaves differently, and won't match this property exactly.
 
 This property and [TextLabel.TextColor3](https://developer.roblox.com/en-us/api-reference/property/TextLabel/TextColor3), [TextLabel.TextTransparency](https://developer.roblox.com/en-us/api-reference/property/TextLabel/TextTransparency), [TextLabel.TextStrokeColor3](https://developer.roblox.com/en-us/api-reference/property/TextLabel/TextStrokeColor3) and [TextLabel.TextStrokeTransparency](https://developer.roblox.com/en-us/api-reference/property/TextLabel/TextStrokeTransparency) each influence the way text is rendered.
 

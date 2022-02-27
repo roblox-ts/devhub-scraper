@@ -2,7 +2,9 @@ The DistanceFromCharacter [Player](https://developer.roblox.com/en-us/api-refere
 
 This is useful when determining the distance between a player and another object or location in game.
 
-##Note  
+Note
+----
+
 If you would like to determine the distance between two non-player instances or positions, you can use the following:
 
 local distance = (position1 - position2).magnitude

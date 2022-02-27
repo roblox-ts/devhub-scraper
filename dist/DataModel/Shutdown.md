@@ -1,4 +1,5 @@
-This function shuts down the current game instance.  
+This function shuts down the current game instance.
+
 This function cannot be used by developers to 'shut down' live game servers due to its security context level. Game servers can only be shutdown by the developer from the place's page on the Roblox website.
 
 See also

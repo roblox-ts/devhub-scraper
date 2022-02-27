@@ -3,5 +3,5 @@
 See also
 --------
 
-*   [StudsOffset](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/StudsOffset), which works similar except the offset orientation is relative to the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera)
-*   [ExtentsOffsetWorldSpace](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/ExtentsOffsetWorldSpace), which works similar except the units are half the dimensions of the model's axis-aligned bounding box
+*   [StudsOffset](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/StudsOffset), which works similarly except the offset orientation is relative to the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera)
+*   [ExtentsOffsetWorldSpace](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/ExtentsOffsetWorldSpace), which works similarly except the units are half the dimensions of the model's axis-aligned bounding box

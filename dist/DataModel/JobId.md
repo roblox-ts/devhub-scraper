@@ -1,4 +1,4 @@
-This property is a unique identifier for the game server instance running.
+This property is a unique identifier for the running game server instance.
 
 The JobId is a [universally unique identifier (UUID)](https://en.wikipedia.org/wiki/Universally_unique_identifier) meaning that no two servers, past or present, will ever have the same JobId.
 

@@ -3,5 +3,5 @@
 See also
 --------
 
-*   [ExtentsOffsetWorldSpace](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/ExtentsOffsetWorldSpace), which works similar except the offset orientation is relative to the global axes
-*   [StudsOffset](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/StudsOffset), which works similar except the units are studs
+*   [ExtentsOffsetWorldSpace](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/ExtentsOffsetWorldSpace), which works similarly except the offset orientation is relative to the global axes
+*   [StudsOffset](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/StudsOffset), which works similarly except the units are studs

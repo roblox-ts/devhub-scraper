@@ -1,1 +1,1 @@
-The movement type in-use by the client via Computer input.
+The type of controls being used by the client on desktop.

@@ -1,4 +1,4 @@
-A **HingeConstraint** allows two [Attachments](https://developer.roblox.com/en-us/api-reference/class/Attachment) to rotate about one axis, constraining the two attachments so that they both occupy the same position and that their **X** axes point in the same direction.
+A **HingeConstraint** allows two [Attachments](https://developer.roblox.com/en-us/api-reference/class/Attachment) to rotate about one axis, constraining the two [Attachments](https://developer.roblox.com/en-us/api-reference/class/Attachment) so that they both occupy the same position and that their **X** axes point in the same direction.
 
 Hinges can also be configured to actuate rotation, as follows:
 
