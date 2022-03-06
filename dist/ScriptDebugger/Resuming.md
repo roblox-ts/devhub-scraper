@@ -1,1 +1,1 @@
-Fired when the game is resumed after being paused by a breakpoint.
+Fires when the game is resumed after being paused by a breakpoint.

@@ -1,1 +1,1 @@
-Returns an array of all active call stacks in the script.
+Returns an array of all active call stack frames in the script.

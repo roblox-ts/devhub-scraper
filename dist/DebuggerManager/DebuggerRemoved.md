@@ -1,1 +1,1 @@
-Fired when a registered [ScriptDebugger](https://developer.roblox.com/api-reference/class/ScriptDebugger "ScriptDebugger") has been discontinued.
+Fires when a registered [ScriptDebugger](https://developer.roblox.com/en-us/api-reference/class/ScriptDebugger) has been discontinued.

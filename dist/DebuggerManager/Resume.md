@@ -1,1 +1,1 @@
-Resumes the Lua Debugger if it paused.
+Resumes the Lua Debugger if it is paused.

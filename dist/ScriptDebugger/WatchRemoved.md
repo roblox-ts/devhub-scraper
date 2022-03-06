@@ -1,1 +1,1 @@
-Fired when an expression watch is removed from this script debugger.
+Fires when a [DebuggerWatch](https://developer.roblox.com/en-us/api-reference/class/DebuggerWatch) is removed from this script debugger.

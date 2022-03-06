@@ -1,1 +1,1 @@
-Fired when a breakpoint is encountered by the script.
+Fires when a [DebuggerBreakpoint](https://developer.roblox.com/en-us/api-reference/class/DebuggerBreakpoint) is encountered by the script.

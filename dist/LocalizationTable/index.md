@@ -1,4 +1,4 @@
-A LocalizationTable is a database of translations. It contains source strings and translations for various languages. It is used with [Translator](https://developer.roblox.com/en-us/api-reference/class/Translator) and the [LocalizationService](https://developer.roblox.com/en-us/api-reference/class/LocalizationService) auto-translator system to control text translations in the game.  
+A LocalizationTable is a database of translations. It contains source strings and translations for various languages. It is used with the [Translator](https://developer.roblox.com/en-us/api-reference/class/Translator) and [LocalizationService](https://developer.roblox.com/en-us/api-reference/class/LocalizationService) auto-translator system to control text translations in the game.  
   
 LocalizationTables are designed to be treated as resources, like a texture or a script. They are not optimized to be modified at runtime. Changing the contents of a table will cause the entire contents of the table to be replicated to all players.  
   

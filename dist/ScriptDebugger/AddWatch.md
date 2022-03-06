@@ -1,1 +1,1 @@
-Adds a watch with the given expression.
+Adds a [DebuggerWatch](https://developer.roblox.com/en-us/api-reference/class/DebuggerWatch) with the given expression.
