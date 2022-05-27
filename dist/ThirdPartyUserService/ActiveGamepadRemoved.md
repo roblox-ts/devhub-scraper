@@ -1,1 +1,0 @@
-Fires when an active gamepad is removed.

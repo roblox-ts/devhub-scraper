@@ -1,1 +1,0 @@
-Returns true if a user has been registered by the ThirdPartyUserService.

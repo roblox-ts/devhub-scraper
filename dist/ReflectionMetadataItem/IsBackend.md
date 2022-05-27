@@ -1,1 +1,2 @@
-This should determine if a method needs to use stuff on the Roblox main servers. This property isn't applied where it should be, though.
+This should determine if a method needs to use stuff on the Roblox main
+servers. This property isn't applied where it should be, though.

@@ -1,1 +1,0 @@
-Stores a chunk of terrain into a [TerrainRegion](https://developer.roblox.com/en-us/api-reference/class/TerrainRegion) object so it can be loaded back later. Note: [TerrainRegion](https://developer.roblox.com/en-us/api-reference/class/TerrainRegion) data does not replicate between server and client.

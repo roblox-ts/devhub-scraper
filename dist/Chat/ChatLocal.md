@@ -1,3 +1,0 @@
-The ChatLocal function fires the Chatted event with the parameters specified in this method. Functions identically to the [Chat:Chat](https://developer.roblox.com/en-us/api-reference/function/Chat/Chat) method, but the [Chat.Chatted](https://developer.roblox.com/en-us/api-reference/event/Chat/Chatted) event will not be replicated to other players.
-
-By default, there is a LocalScript inside of each player's PlayerScripts object named BubbleChat, which causes a dialog-like billboard to appear above the partOrCharacter when the chatted event is fired.

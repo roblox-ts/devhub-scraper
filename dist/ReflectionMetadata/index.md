@@ -1,1 +1,2 @@
-A currently unused object whose functionality was split into [ReflectionMetadataClasses](https://developer.roblox.com/en-us/api-reference/class/ReflectionMetadataClasses) and [ReflectionMetadataEnums](https://developer.roblox.com/en-us/api-reference/class/ReflectionMetadataEnums).
+A currently unused object whose functionality was split into
+[ReflectionMetadataClasses](https://create.roblox.com/docs/reference/engine/classes/ReflectionMetadataClasses) and [ReflectionMetadataEnums](https://create.roblox.com/docs/reference/engine/classes/ReflectionMetadataEnums).

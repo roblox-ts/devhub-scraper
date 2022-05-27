@@ -1,23 +1,42 @@
 Toggles voxel-based dynamic lighting in the game
 
-What does GlobalShadows do?
----------------------------
+#### What does GlobalShadows do?
 
-When set to true, shadows are rendered in sheltered areas depending on the position of the sun and moon. The lighting hue applied to these areas is determined by the [Lighting.Ambient](https://developer.roblox.com/en-us/api-reference/property/Lighting/Ambient) property. The lighting hue in all other areas is determined by the [Lighting.OutdoorAmbient](https://developer.roblox.com/en-us/api-reference/property/Lighting/OutdoorAmbient) property.
+When set to true, shadows are rendered in sheltered areas depending on the
+position of the sun and moon. The lighting hue applied to these areas is
+determined by the [Lighting.Ambient](https://create.roblox.com/docs/reference/engine/classes/Lighting#Ambient) property. The lighting hue in all
+other areas is determined by the [Lighting.OutdoorAmbient](https://create.roblox.com/docs/reference/engine/classes/Lighting#OutdoorAmbient) property.
 
-When disabled, shadows are not drawn and no distinction is made between indoor and outdoor areas. As a result, the [Lighting.Ambient](https://developer.roblox.com/en-us/api-reference/property/Lighting/Ambient) property determines the lighting hue and [Lighting.OutdoorAmbient](https://developer.roblox.com/en-us/api-reference/property/Lighting/OutdoorAmbient) will do nothing.
+When disabled, shadows are not drawn and no distinction is made between
+indoor and outdoor areas. As a result, the [Lighting.Ambient](https://create.roblox.com/docs/reference/engine/classes/Lighting#Ambient) property
+determines the lighting hue and [Lighting.OutdoorAmbient](https://create.roblox.com/docs/reference/engine/classes/Lighting#OutdoorAmbient) will do nothing.
 
-Shadows are calculated using a voxel system, and each lighting voxel is 4x4x4 studs. This means objects need to be larger than 4x4x4 studs to display a realistic shadow. Shadows are also recalculated when [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart)s are moving.
+Shadows are calculated using a voxel system, and each lighting voxel is
+4x4x4 studs. This means objects need to be larger than 4x4x4 studs to
+display a realistic shadow. Shadows are also recalculated when [BasePart](https://create.roblox.com/docs/reference/engine/classes/BasePart)s
+are moving.
 
-Note, this property is unrelated to shadows from characters which are displayed regardless of what GlobalShadows is set to.
+Note, this property is unrelated to shadows from characters which are
+displayed regardless of what GlobalShadows is set to.
 
-For more information about Roblox's dynamic lighting, please see this [blog post](https://blog.roblox.com/2013/02/dynamic-lighting-and-shadows-the-voxel-solution/).
+For more information about Roblox's dynamic lighting, please see this
+[blog post][1].
 
-Toggling GlobalShadows
-----------------------
+#### Toggling GlobalShadows
 
-Developers toggling the GlobalShadows setting will notice that disabling it makes the place considerably darker. This is because when GlobalShadows is disabled [Lighting.Ambient](https://developer.roblox.com/en-us/api-reference/property/Lighting/Ambient) is used to calculate the lighting hue in both indoor and ourdoor spaces. This darkness can be resolved by setting [Lighting.Ambient](https://developer.roblox.com/en-us/api-reference/property/Lighting/Ambient) to a higher value such as [Lighting.OutdoorAmbient](https://developer.roblox.com/en-us/api-reference/property/Lighting/OutdoorAmbient)'s default value of 127, 127, 127.
+Developers toggling the GlobalShadows setting will notice that disabling
+it makes the place considerably darker. This is because when GlobalShadows
+is disabled [Lighting.Ambient](https://create.roblox.com/docs/reference/engine/classes/Lighting#Ambient) is used to calculate the lighting hue in
+both indoor and ourdoor spaces. This darkness can be resolved by setting
+[Lighting.Ambient](https://create.roblox.com/docs/reference/engine/classes/Lighting#Ambient) to a higher value such as [Lighting.OutdoorAmbient](https://create.roblox.com/docs/reference/engine/classes/Lighting#OutdoorAmbient)'s
+default value of 127, 127, 127.
 
-In most cases developers are recommended to leave GlobalShadows enabled due to the superior visual appearance. See the image below for a comparison.
+In most cases developers are recommended to leave GlobalShadows enabled
+due to the superior visual appearance. See the image below for a
+comparison.
 
-![enter image description here](https://developer.roblox.com/assets/blt23745970e2437872/GlobalShadows.png)
+![enter image description here][2]
+
+[1]:
+  https://blog.roblox.com/2013/02/dynamic-lighting-and-shadows-the-voxel-solution/
+[2]: https://prod.docsiteassets.roblox.com/assets/blt23745970e2437872/GlobalShadows.png

@@ -1,1 +1,1 @@
-The [Hole](https://developer.roblox.com/en-us/api-reference/class/Hole) linked to this VelocityMotor.
+The [Hole](https://create.roblox.com/docs/reference/engine/classes/Hole) linked to this VelocityMotor.

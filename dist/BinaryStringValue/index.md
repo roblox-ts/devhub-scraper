@@ -1,1 +1,1 @@
-An internal type of [StringValue](https://developer.roblox.com/en-us/api-reference/class/StringValue) object, that stores a `BinaryString` value.
+An internal type of [StringValue](https://create.roblox.com/docs/reference/engine/classes/StringValue) object, that stores a `BinaryString` value.

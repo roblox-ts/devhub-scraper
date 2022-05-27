@@ -1,1 +1,0 @@
-This event fires when the [VideoFrame.Video](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Video) is loaded.

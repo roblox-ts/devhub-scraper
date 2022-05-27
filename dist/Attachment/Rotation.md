@@ -1,1 +1,2 @@
-A [Vector3](https://developer.roblox.com/api-reference/datatype/Vector3 "Vector3") that describes the rotation of the Attachment relative to the rotation of its parent, in degrees. Rotations are applied in Z, Y, X order.
+The rotation of the Attachment relative to the rotation of its parent, in
+degrees. Rotations are in Z, Y, X order.

@@ -1,1 +1,0 @@
-This function computes and returns a [Path](https://developer.roblox.com/en-us/api-reference/class/Path) between two [Vector3s](https://developer.roblox.com/en-us/api-reference/datatype/Vector3). If the given MaxDistance is greater than 512, an error will be thrown. (MaxDistance is too large).

@@ -1,1 +1,2 @@
-The number of polygons in this solid model. This value will always be <= 5000.
+The number of polygons in this solid model. This value will always be
+<= 5000.

@@ -1,1 +1,2 @@
-A service that is internally responsible for fetching, parsing, and caching meshes.
+A service that is internally responsible for fetching, parsing, and caching
+meshes.

@@ -1,1 +1,0 @@
-Simulates the user holding the right mouse button down.

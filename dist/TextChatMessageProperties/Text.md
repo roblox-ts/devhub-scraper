@@ -1,0 +1,1 @@
+The `TextChatMessage.Text` to override.

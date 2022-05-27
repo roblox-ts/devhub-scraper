@@ -1,1 +1,0 @@
-Adds ''impulseWorld'' to the SkateboardPlatform's [BasePart.Velocity](https://developer.roblox.com/en-us/api-reference/property/BasePart/Velocity).

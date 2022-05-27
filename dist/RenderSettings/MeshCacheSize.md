@@ -1,3 +1,1 @@
-The size in bytes of the mesh cache.
-
-Defaults to 32 MBs.
+The size in bytes of the mesh cache. Defaults to 32 MBs.

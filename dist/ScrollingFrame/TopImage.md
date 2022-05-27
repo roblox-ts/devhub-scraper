@@ -1,1 +1,3 @@
-The Up image on the vertical scrollbar. The size of this is always ScrollBarThickness by ScrollBarThickness. This is also used as the left image on the horizontal scroll bar.
+The Up image on the vertical scrollbar. The size of this is always
+ScrollBarThickness by ScrollBarThickness. This is also used as the left
+image on the horizontal scroll bar.

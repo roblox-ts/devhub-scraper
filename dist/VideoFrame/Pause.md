@@ -1,3 +1,0 @@
-Sets [VideoFrame.Playing](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Playing) to false, pausing playback if the [VideoFrame.Video](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Video) is playing.
-
-As [VideoFrame.TimePosition](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/TimePosition) is not reset, when the video is resumed it will continue from its previous position.

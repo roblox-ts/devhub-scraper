@@ -1,1 +1,4 @@
-If the [PhysicsSettings.PhysicsEnvironmentalThrottle](https://developer.roblox.com/en-us/api-reference/property/PhysicsSettings/PhysicsEnvironmentalThrottle) is set to _DefaultAuto_, this specifies the maximum time that the physics environmental throttle has to wait before it is allowed to automatically change.
+If the [PhysicsSettings.PhysicsEnvironmentalThrottle](https://create.roblox.com/docs/reference/engine/classes/PhysicsSettings#PhysicsEnvironmentalThrottle) is set to
+`DefaultAuto`, this specifies the maximum time that the physics
+environmental throttle has to wait before it is allowed to automatically
+change.

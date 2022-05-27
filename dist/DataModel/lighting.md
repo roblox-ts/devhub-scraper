@@ -1,1 +1,1 @@
-This property was once used to get the game's [Lighting](https://developer.roblox.com/en-us/api-reference/class/Lighting) service.
+This property was once used to get the game's [Lighting](https://create.roblox.com/docs/reference/engine/classes/Lighting) service.

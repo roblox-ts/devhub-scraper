@@ -1,9 +1,17 @@
-The distance, in studs, the [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam)s display is offset by relative to the [Workspace.CurrentCamera](https://developer.roblox.com/en-us/api-reference/property/Workspace/CurrentCamera).
+The distance, in studs, the [Beam](https://create.roblox.com/docs/reference/engine/classes/Beam)s display is offset by relative to the
+[Workspace.CurrentCamera](https://create.roblox.com/docs/reference/engine/classes/Workspace#CurrentCamera).
 
-When ZOffset is 0, the [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam) will be displayed in its standard position between [Beam.Attachment0](https://developer.roblox.com/en-us/api-reference/property/Beam/Attachment0) and [Beam.Attachment1](https://developer.roblox.com/en-us/api-reference/property/Beam/Attachment1). ZOffset can be both positive and negative.
+When ZOffset is 0, the [Beam](https://create.roblox.com/docs/reference/engine/classes/Beam) will be displayed in its standard position
+between [Beam.Attachment0](https://create.roblox.com/docs/reference/engine/classes/Beam#Attachment0) and [Beam.Attachment1](https://create.roblox.com/docs/reference/engine/classes/Beam#Attachment1). ZOffset can be both
+positive and negative.
 
-This property can be particularly useful when using multiple [Beams](https://developer.roblox.com/en-us/api-reference/class/Beam) between the same [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment)s. Here, ZOffset can be used to layer the [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam)s and avoid [Z-fighting](https://en.wikipedia.org/wiki/Z-fighting). For example:
+This property can be particularly useful when using multiple [Beams](https://create.roblox.com/docs/reference/engine/classes/Beam)
+between the same [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment)s. Here, ZOffset can be used to layer the
+[Beam](https://create.roblox.com/docs/reference/engine/classes/Beam)s and avoid [Z-fighting][1]. For example:
 
 See the image below for a visual demonstration of ZOffset:
 
-![ZOffset](https://developer.roblox.com/assets/blta08e9828cbe14d33/ZOffset.gif)
+![ZOffset][2]
+
+[1]: https://en.wikipedia.org/wiki/Z-fighting
+[2]: https://prod.docsiteassets.roblox.com/assets/blta08e9828cbe14d33/ZOffset.gif

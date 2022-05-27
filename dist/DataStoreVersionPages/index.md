@@ -1,6 +1,9 @@
-A special type of [Pages](https://developer.roblox.com/en-us/api-reference/class/Pages) object whose pages contain [DataStoreObjectVersionInfo](https://developer.roblox.com/en-us/api-reference/class/DataStoreObjectVersionInfo) instances from a [GlobalDataStore](https://developer.roblox.com/en-us/api-reference/class/GlobalDataStore). [Pages:GetCurrentPage](https://developer.roblox.com/en-us/api-reference/function/Pages/GetCurrentPage) can be used to retrieve an array of the [DataStoreObjectVersionInfo](https://developer.roblox.com/en-us/api-reference/class/DataStoreObjectVersionInfo) instances.
+A special type of [Pages](https://create.roblox.com/docs/reference/engine/classes/Pages) object whose pages contain
+[DataStoreObjectVersionInfo](https://create.roblox.com/docs/reference/engine/classes/DataStoreObjectVersionInfo) instances from a [GlobalDataStore](https://create.roblox.com/docs/reference/engine/classes/GlobalDataStore).
+[Pages:GetCurrentPage](https://create.roblox.com/docs/reference/engine/classes/Pages#GetCurrentPage) can be used to retrieve an array of the
+[DataStoreObjectVersionInfo](https://create.roblox.com/docs/reference/engine/classes/DataStoreObjectVersionInfo) instances.
 
-See Also
---------
+See also:
 
-*   [Data Stores](https://developer.roblox.com/en-us/articles/data-store), an in-depth guide on data structure, management, error handling, etc.
+- [Data Stores](/scripting/data/data-stores), an in-depth guide on data
+  structure, management, error handling, etc.

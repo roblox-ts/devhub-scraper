@@ -1,1 +1,2 @@
-An internal service responsible for scheduling timed events. It is used by the [Debris](https://developer.roblox.com/en-us/api-reference/class/Debris) class. Its functionality can not be accessed by developers.
+An internal service responsible for scheduling timed events. It is used by the
+[Debris](https://create.roblox.com/docs/reference/engine/classes/Debris) class. Its functionality can not be accessed by developers.

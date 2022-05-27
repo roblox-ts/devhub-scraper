@@ -1,1 +1,0 @@
-Fires when the client receives an output from the server.

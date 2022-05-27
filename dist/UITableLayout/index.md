@@ -1,11 +1,28 @@
-A UITableLayout lays out sibling UI elements as rows in a table. Child UI elements (the table cells) of these rows are then arranged in columns (within rows). Each cell within a row has the same height, and each cell within a column has the same width. The hierarchy in the explorer should look like this ([Frame](https://developer.roblox.com/en-us/api-reference/class/Frame)s are yellow rows, [TextLabel](https://developer.roblox.com/en-us/api-reference/class/TextLabel)s are cells)
+A UITableLayout lays out sibling UI elements as rows in a table. Child UI
+elements (the table cells) of these rows are then arranged in columns (within
+rows). Each cell within a row has the same height, and each cell within a
+column has the same width. The hierarchy in the explorer should look like this
+([Frame](https://create.roblox.com/docs/reference/engine/classes/Frame)s are yellow rows, [TextLabel](https://create.roblox.com/docs/reference/engine/classes/TextLabel)s are cells)
 
-![Hierarchy of UI elements used with a UITableLayout](https://developer.roblox.com/assets/bltae19601e50058387/UITableLayout_Hierarchy.png) ![UITableLayout result](https://developer.roblox.com/assets/bltfda742fd4e1d6db9/UITableLayout_Padding.png)
+![Hierarchy of UI elements used with a UITableLayout](https://prod.docsiteassets.roblox.com/assets/bltae19601e50058387/UITableLayout_Hierarchy.png)
+![UITableLayout result](https://prod.docsiteassets.roblox.com/assets/bltfda742fd4e1d6db9/UITableLayout_Padding.png)
 
-By changing the [UIGridStyleLayout.FillDirection](https://developer.roblox.com/en-us/api-reference/property/UIGridStyleLayout/FillDirection), sibling UI elements can act as columns instead.
+By changing the [UIGridStyleLayout.FillDirection](https://create.roblox.com/docs/reference/engine/classes/UIGridStyleLayout#FillDirection), sibling UI elements can act
+as columns instead.
 
-When applied, a UITableLayout will take control of sibling and cell elements' [GuiObject.Size](https://developer.roblox.com/en-us/api-reference/property/GuiObject/Size) and [GuiObject.Position](https://developer.roblox.com/en-us/api-reference/property/GuiObject/Position). Changing these in the Properties window is still possible will not produce any effect.
+When applied, a UITableLayout will take control of sibling and cell elements'
+[GuiObject.Size](https://create.roblox.com/docs/reference/engine/classes/GuiObject#Size) and [GuiObject.Position](https://create.roblox.com/docs/reference/engine/classes/GuiObject#Position). Changing these in the Properties
+window is still possible will not produce any effect.
 
-Dimensions of the cells in the resulting table are controlled by the parent UI element's dimensions. Unless [UITableLayout.FillEmptySpaceColumns](https://developer.roblox.com/en-us/api-reference/property/UITableLayout/FillEmptySpaceColumns) or [UITableLayout.FillEmptySpaceRows](https://developer.roblox.com/en-us/api-reference/property/UITableLayout/FillEmptySpaceRows) is enabled, the cell dimensions will be that of the parent UI element (and thus tables with more than one cell extend outside of their parent).
+Dimensions of the cells in the resulting table are controlled by the parent UI
+element's dimensions. Unless [UITableLayout.FillEmptySpaceColumns](https://create.roblox.com/docs/reference/engine/classes/UITableLayout#FillEmptySpaceColumns) or
+[UITableLayout.FillEmptySpaceRows](https://create.roblox.com/docs/reference/engine/classes/UITableLayout#FillEmptySpaceRows) is enabled, the cell dimensions will be
+that of the parent UI element (and thus tables with more than one cell extend
+outside of their parent).
 
-Cells will continue to respect [UISizeConstraint](https://developer.roblox.com/en-us/api-reference/class/UISizeConstraint) objects within them. In other words, setting [UISizeConstraint.MinSize](https://developer.roblox.com/en-us/api-reference/property/UISizeConstraint/MinSize) on [UISizeConstraint](https://developer.roblox.com/en-us/api-reference/class/UISizeConstraint)s within the header cells can determine the size of the rest of the cells. If [UISizeConstraint.MaxSize](https://developer.roblox.com/en-us/api-reference/property/UISizeConstraint/MaxSize) restricts a cell's size from filling the allotted space (i.e. another row/column is wider than it), it will align to the top-left.
+Cells will continue to respect [UISizeConstraint](https://create.roblox.com/docs/reference/engine/classes/UISizeConstraint) objects within them. In
+other words, setting [UISizeConstraint.MinSize](https://create.roblox.com/docs/reference/engine/classes/UISizeConstraint#MinSize) on [UISizeConstraint](https://create.roblox.com/docs/reference/engine/classes/UISizeConstraint)s within
+the header cells can determine the size of the rest of the cells. If
+[UISizeConstraint.MaxSize](https://create.roblox.com/docs/reference/engine/classes/UISizeConstraint#MaxSize) restricts a cell's size from filling the allotted
+space (i.e. another row/column is wider than it), it will align to the
+top-left.

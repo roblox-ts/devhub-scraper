@@ -1,1 +1,0 @@
-The Guest property indicates whether or not the user is a guest. Since the removal of “Guest” accounts, this property has no known usage.

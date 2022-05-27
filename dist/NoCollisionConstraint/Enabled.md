@@ -1,1 +1,3 @@
-This property determines whether the two constrained parts, [NoCollisionConstraint.Part0](https://developer.roblox.com/en-us/api-reference/property/NoCollisionConstraint/Part0) and [NoCollisionConstraint.Part1](https://developer.roblox.com/en-us/api-reference/property/NoCollisionConstraint/Part1), will collide with each other.
+This property determines whether the two constrained parts,
+[NoCollisionConstraint.Part0](https://create.roblox.com/docs/reference/engine/classes/NoCollisionConstraint#Part0) and [NoCollisionConstraint.Part1](https://create.roblox.com/docs/reference/engine/classes/NoCollisionConstraint#Part1), will
+collide with each other.

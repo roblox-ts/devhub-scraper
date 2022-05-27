@@ -1,1 +1,2 @@
-When true, the force magnitude is multiplied by the inverse square of the distance.
+When true, the force magnitude is multiplied by the inverse square of the
+distance.

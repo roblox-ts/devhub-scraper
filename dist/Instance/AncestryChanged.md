@@ -1,5 +1,0 @@
-Fires when the [Instance.Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) property of the object or one of its ancestors is changed.
-
-This event includes two parameters, _child_ and _parent_. _Child_ refers to the [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) whose [Instance.Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) was actually changed. _Parent_ refers to this [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance)'s new [Instance.Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent).
-
-If you need to detect when an instance is destroyed via [Instance:Destroy](https://developer.roblox.com/en-us/api-reference/function/Instance/Destroy), consider the [Instance.Destroying](https://developer.roblox.com/en-us/api-reference/event/Instance/Destroying) event instead.

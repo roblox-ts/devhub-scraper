@@ -1,1 +1,5 @@
-Specifies the AccessoryType of the Accessory. Will be [AccessoryType.Unknown](https://developer.roblox.com/en-us/api-reference/enum/AccessoryType) unless the Accessory has been equipped through the player spawning process or [Humanoid:ApplyDescription](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription). If available on the Avatar shop, the Accessory item is categorized by the set [AccessoryType](https://developer.roblox.com/en-us/api-reference/enum/AccessoryType) (for example, “Hat” or “Face”).
+Specifies the AccessoryType of the Accessory. Is
+[AccessoryType.Unknown](https://developer.roblox.com/en-us/api-reference/enum/AccessoryType) unless you equip the Accessory
+through the player spawning process or [Humanoid:ApplyDescription](https://create.roblox.com/docs/reference/engine/classes/Humanoid#ApplyDescription). If
+available on the Avatar shop, you can set [AccessoryType](https://developer.roblox.com/en-us/api-reference/enum/AccessoryType) to
+categorize the Accessory item (for example, "Hat" or "Face").

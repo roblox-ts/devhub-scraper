@@ -1,3 +1,0 @@
-CallFunction will calls the action handler function (passed to [BindAction](https://developer.roblox.com/en-us/api-reference/function/ContextActionService/BindAction)) associated with an action given its name and the arguments to pass to the handler. It then returns the same values returned by the handler, usually `nil` or `Enum.ContextActionResult.Pass`.
-
-This function acts as a way to trigger actions involving user input detected through other means, like [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService).

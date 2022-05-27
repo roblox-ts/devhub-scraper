@@ -1,1 +1,1 @@
-Toggles the visibility of the Attachment in-game.
+Toggles the visibility of the Attachment in-experience.

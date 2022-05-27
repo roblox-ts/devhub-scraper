@@ -1,1 +1,0 @@
-The BroadcastNotification function is used to broadcast information to the Roblox mobile app.

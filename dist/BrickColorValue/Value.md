@@ -1,1 +1,2 @@
-Used to hold a [BrickColor](https://developer.roblox.com/api-reference/datatype/BrickColor "BrickColor") value.
+Used to hold a
+[BrickColor](/reference/engine/datatypes/BrickColor) value.

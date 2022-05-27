@@ -1,1 +1,2 @@
-Controls the overrides of NextSelection{Up,Down,Left,Right}. Defaults to true.
+Controls the overrides of `NextSelection{Up,Down,Left,Right}`. Defaults to
+true.

@@ -1,1 +1,2 @@
-Acts as abstract properties for generic information about Classes, Members, Enums, and EnumItems.
+Acts as abstract properties for generic information about Classes, Members,
+Enums, and EnumItems.

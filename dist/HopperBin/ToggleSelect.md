@@ -1,1 +1,0 @@
-Changes the Active property of the HopperBin to be the opposite of what it was originally.

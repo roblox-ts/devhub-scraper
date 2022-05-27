@@ -1,1 +1,0 @@
-The children function returns an array of the object's children.

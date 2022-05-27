@@ -1,1 +1,0 @@
-This function gets custom metadata associated with this [DataStoreSetOptions](https://developer.roblox.com/en-us/api-reference/class/DataStoreSetOptions) instance.

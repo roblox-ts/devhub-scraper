@@ -1,1 +1,0 @@
-The MouseSensitivityThirdPerson describes the sensitivity of the mouse while the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) is in third person.

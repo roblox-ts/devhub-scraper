@@ -1,0 +1,1 @@
+Internal property that helps show warning icons in studio.

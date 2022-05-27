@@ -1,5 +1,9 @@
-This read-only property will return true when the [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) is not playing. Note that this property will not only return true once a sound has been paused using the [Sound:Pause](https://developer.roblox.com/en-us/api-reference/function/Sound/Pause) function but also if it has been stopped using the [Sound:Stop](https://developer.roblox.com/en-us/api-reference/function/Sound/Stop) function or never been played.
+This read-only property will return true when the [Sound](https://create.roblox.com/docs/reference/engine/classes/Sound) is not playing.
+Note that this property will not only return true once a sound has been
+paused using the [Sound:Pause](https://create.roblox.com/docs/reference/engine/classes/Sound#Pause) function but also if it has been stopped
+using the [Sound:Stop](https://create.roblox.com/docs/reference/engine/classes/Sound#Stop) function or never been played.
 
-This property will only be true when [Sound.IsPlaying](https://developer.roblox.com/en-us/api-reference/property/Sound/IsPlaying) is false.
+This property will only be true when [Sound.IsPlaying](https://create.roblox.com/docs/reference/engine/classes/Sound#IsPlaying) is false.
 
-As IsPaused is read only it can not be used to stop the sound, [Sound:Stop](https://developer.roblox.com/en-us/api-reference/function/Sound/Stop) and [Sound:Pause](https://developer.roblox.com/en-us/api-reference/function/Sound/Pause) should be used instead.
+As IsPaused is read only it can not be used to stop the sound,
+[Sound:Stop](https://create.roblox.com/docs/reference/engine/classes/Sound#Stop) and [Sound:Pause](https://create.roblox.com/docs/reference/engine/classes/Sound#Pause) should be used instead.

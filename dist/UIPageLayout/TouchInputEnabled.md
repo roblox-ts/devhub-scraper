@@ -1,1 +1,2 @@
-Controls touch scrolling, in case this is a non-interactive layout. Defaults to true.
+Controls touch scrolling, in case this is a non-interactive layout.
+Defaults to true.

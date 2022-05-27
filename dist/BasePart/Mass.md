@@ -1,6 +1,15 @@
-**Mass** is a read-only property that describes the product of a part's volume and density. It is returned by the [GetMass](https://developer.roblox.com/en-us/api-reference/function/BasePart/GetMass) function.
+**Mass** is a read-only property that describes the product of a part's
+volume and density. It is returned by the [GetMass](https://create.roblox.com/docs/reference/engine/classes/BasePart#GetMass)
+function.
 
-*   The volume of a part is determined by its [Size](https://developer.roblox.com/en-us/api-reference/property/BasePart/Size) and its [Shape](https://developer.roblox.com/en-us/api-reference/property/Part/Shape), which varies depending on the kind of BasePart used, such as [WedgePart](https://developer.roblox.com/en-us/api-reference/class/WedgePart).
-*   The density of a part is determined by its [Material](https://developer.roblox.com/en-us/api-reference/property/BasePart/Material) or [CustomPhysicalProperties](https://developer.roblox.com/en-us/api-reference/property/BasePart/CustomPhysicalProperties), if specified.
+- The volume of a part is determined by its [Size](https://create.roblox.com/docs/reference/engine/classes/BasePart#Size) and its
+  [Shape](https://create.roblox.com/docs/reference/engine/classes/Part#Shape), which varies depending on the kind of BasePart used,
+  such as [WedgePart](https://create.roblox.com/docs/reference/engine/classes/WedgePart).
+- The density of a part is determined by its [Material](https://create.roblox.com/docs/reference/engine/classes/BasePart#Material)
+  or [CustomPhysicalProperties](https://create.roblox.com/docs/reference/engine/classes/BasePart#CustomPhysicalProperties), if
+  specified.
 
-A common use of the Mass property is using it to calculate the magnitude of a gravity-counteracting force. Using a [BodyForce](https://developer.roblox.com/en-us/api-reference/class/BodyForce), apply a upward force equal to the product of a part's Mass and [Workspace.Gravity](https://developer.roblox.com/en-us/api-reference/property/Workspace/Gravity). This will completely counteract the force of gravity on the part.
+A common use of the Mass property is using it to calculate the magnitude
+of a gravity-counteracting force. Using a [BodyForce](https://create.roblox.com/docs/reference/engine/classes/BodyForce), apply a upward
+force equal to the product of a part's Mass and [Workspace.Gravity](https://create.roblox.com/docs/reference/engine/classes/Workspace#Gravity). This
+will completely counteract the force of gravity on the part.

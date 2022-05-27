@@ -1,1 +1,0 @@
-This event triggers when the [prompt](https://developer.roblox.com/en-us/api-reference/class/ProximityPrompt) becomes visible. This event is triggered client-side for `LocalScripts`.

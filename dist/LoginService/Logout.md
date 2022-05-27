@@ -1,1 +1,0 @@
-Makes the user log out.

@@ -1,1 +1,1 @@
-The [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment) that is connected to [Constraint.Attachment0](https://developer.roblox.com/en-us/api-reference/property/Constraint/Attachment0)
+The [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment) that is connected to [Constraint.Attachment0](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0)

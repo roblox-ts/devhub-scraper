@@ -1,18 +1,34 @@
-**Note**  
+The RocketPropulsion object applies a force on a part so that it both
+**follows** and **faces** a target part. It acts like a hybrid of
+[BodyPosition](https://create.roblox.com/docs/reference/engine/classes/BodyPosition) and [BodyGyro](https://create.roblox.com/docs/reference/engine/classes/BodyGyro). Unlike other [BodyMover](https://create.roblox.com/docs/reference/engine/classes/BodyMover)s, a RocketPropulsion
+must be instructed to begin applying a force: call
+[Fire](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#Fire) to start, or call [Abort](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#Abort)
+to stop.
 
-This body mover has been superseded by [LineForce](LineForce). It's highly recommended that you use LineForce for future work.
+You can detect when the part reaches its target using the
+[ReachedTarget](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#ReachedTarget) event, which fires once the
+part is within the [TargetRadius](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#TargetRadius) of the
+[Target](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#Target).
 
-The RocketPropulsion object applies a force on a part so that it both **follows** and **faces** a target part. It acts like a hybrid of [BodyPosition](https://developer.roblox.com/en-us/api-reference/class/BodyPosition) and [BodyGyro](https://developer.roblox.com/en-us/api-reference/class/BodyGyro). Unlike other [BodyMover](https://developer.roblox.com/en-us/api-reference/class/BodyMover)s, a RocketPropulsion must be instructed to begin applying a force: call [Fire](https://developer.roblox.com/en-us/api-reference/function/RocketPropulsion/Fire) to start, or call [Abort](https://developer.roblox.com/en-us/api-reference/function/RocketPropulsion/Abort) to stop.
+RocketPropulsion has the most physics-related properties out of all the
+BodyMovers. It is helpful to separate the properties out into categories based
+on what they control:
 
-Below is an animation of a blue [Part](https://developer.roblox.com/en-us/api-reference/class/Part) with a RocketPropulsion. The [Target](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/Target) is set to a tall red [Part](https://developer.roblox.com/en-us/api-reference/class/Part) that is being dragged around in a circle in Studio. Notice how the blue part homes in to the target:  
-![A blue Part with a RocketPropulsion following a tall red Part that is being dragged around in Studio](https://developer.roblox.com/assets/blte54f405a7b2ba6a9/RocketPropulsion.gif)
+- **Goal:** [Target](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#Target),
+  [TargetOffset](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#TargetOffset) and
+  [TargetRadius](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#TargetRadius)
+- **Position (Thrust):** [MaxSpeed](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#MaxSpeed),
+  [MaxThrust](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#MaxThrust), [ThrustD](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#ThrustD)
+  and [ThrustP](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#ThrustP)
+- **Rotation (Turn):** - [CartoonFactor](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#CartoonFactor),
+  [MaxTorque](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#MaxTorque), [TurnD](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#TurnD) and
+  [TurnP](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#TurnP)
 
-You can detect when the part reaches its target using the [ReachedTarget](https://developer.roblox.com/en-us/api-reference/event/RocketPropulsion/ReachedTarget) event, which fires once the part is within the [TargetRadius](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/TargetRadius) of the [Target](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/Target).
-
-RocketPropulsion has the most physics-related properties out of all the BodyMovers. It is helpful to separate the properties out into categories based on what they control:
-
-*   **Goal:** [Target](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/Target), [TargetOffset](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/TargetOffset) and [TargetRadius](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/TargetRadius)
-*   **Position (Thrust):** [MaxSpeed](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/MaxSpeed), [MaxThrust](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/MaxThrust), [ThrustD](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/ThrustD) and [ThrustP](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/ThrustP)
-*   **Rotation (Turn):** - [CartoonFactor](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/CartoonFactor), [MaxTorque](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/MaxTorque), [TurnD](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/TurnD) and [TurnP](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/TurnP)
-
-Remember, you don't need to use both the translational and rotational force features of a RocketPropulsion: by setting [MaxThrust](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/MaxThrust) to 0, you can make a part just face the target **without** having it follow the target around (consider also using a [BodyPosition](https://developer.roblox.com/en-us/api-reference/class/BodyPosition) in addition). Similarly, by setting [MaxTorque](https://developer.roblox.com/en-us/api-reference/property/RocketPropulsion/MaxTorque) to `(0, 0, 0)`, you can have a part simply follow another object without facing it (use a [BodyGyro](https://developer.roblox.com/en-us/api-reference/class/BodyGyro) if you want the object to maintain a specific orientation).
+Remember, you don't need to use both the translational and rotational force
+features of a RocketPropulsion: by setting
+[MaxThrust](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#MaxThrust) to 0, you can make a part just face the
+target **without** having it follow the target around (consider also using a
+[BodyPosition](https://create.roblox.com/docs/reference/engine/classes/BodyPosition) in addition). Similarly, by setting
+[MaxTorque](https://create.roblox.com/docs/reference/engine/classes/RocketPropulsion#MaxTorque) to `(0, 0, 0)`, you can have a part
+simply follow another object without facing it (use a [BodyGyro](https://create.roblox.com/docs/reference/engine/classes/BodyGyro) if you want
+the object to maintain a specific orientation).

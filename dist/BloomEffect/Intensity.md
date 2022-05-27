@@ -1,1 +1,3 @@
-Intensity determines how intensely the colors that bloom (determined by the [Threshold](https://developer.roblox.com/en-us/api-reference/property/BloomEffect/Threshold)) will additively blend with themselves. Higher values will produce brighter colors.
+Intensity determines how intensely the colors that bloom (determined by
+the [Threshold](https://create.roblox.com/docs/reference/engine/classes/BloomEffect#Threshold)) will additively blend with
+themselves. Higher values will produce brighter colors.

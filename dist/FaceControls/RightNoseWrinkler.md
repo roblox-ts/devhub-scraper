@@ -1,1 +1,2 @@
-Raises the right nostril, pulls the brow down slightly, and wrinkles on the side of the nose
+Raises the right nostril, pulls the brow down slightly, and wrinkles on
+the side of the nose

@@ -1,1 +1,0 @@
-Performs a GET request on an [official Roblox web API](http://api.roblox.com/docs)

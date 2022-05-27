@@ -1,1 +1,1 @@
-The stored [string](https://developer.roblox.com/articles/String "API:Type/string").
+The stored [string](/scripting/luau/strings).

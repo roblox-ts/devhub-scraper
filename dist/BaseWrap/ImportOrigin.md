@@ -1,12 +1,16 @@
-This property is set up automatically by the Avatar Importer plugin.
+This property is set up automatically by the Avatar Importer plugin.
 
-Describes where a global zero was while authoring the cage mesh in an asset creation tool such as Blender or Maya. This property is not used by the deformer but it is useful for tools/aligning scripts, for example aligning two parts by matching their pivots as follows:
+Describes where a global zero was while authoring the cage mesh in an
+asset creation tool such as Blender or Maya. This property is not used by
+the deformer but it is useful for tools/aligning scripts, for example
+aligning two parts by matching their pivots as follows:
 
+```lua
 local function alignWraps()
 	local selectionService = game:GetService("Selection")
 	local selectedObjects = selectionService:Get()
 	local alignObjects = {}
-	for \_, obj in pairs(selectedObjects) do
+	for _, obj in pairs(selectedObjects) do
 		if obj:IsA("BaseWrap") then
 			--print("Wrap: " .. obj.Name)
 			table.insert(alignObjects, obj)
@@ -20,16 +24,17 @@ local function alignWraps()
 		return
 	end
 
-	local anchorWrap = alignObjects\[1\]
-	local worldA\_from\_Wrap = anchorWrap.ImportOriginWorld
+	local anchorWrap = alignObjects[1]
+	local worldA_from_Wrap = anchorWrap.ImportOriginWorld
 	print("Anchor: " .. anchorWrap.Name)
 	for i = 2, #alignObjects do
-		local wrapToAlign = alignObjects\[i\]
+		local wrapToAlign = alignObjects[i]
 		print("Align: " .. wrapToAlign.Name)
-		local wrap\_from\_WorldB = wrapToAlign.ImportOriginWorld:Inverse()
-		local worldA\_from\_WorldB = worldA\_from\_Wrap \* wrap\_from\_WorldB
+		local wrap_from_WorldB = wrapToAlign.ImportOriginWorld:Inverse()
+		local worldA_from_WorldB = worldA_from_Wrap * wrap_from_WorldB
 		local worldB = wrapToAlign.Parent.CFrame
 		-- Note: adjust CFrame of the parent part
-		wrapToAlign.Parent.CFrame = (worldB\_from\_WorldB \* worldB)
-	end	
+		wrapToAlign.Parent.CFrame = (worldB_from_WorldB * worldB)
+	end
 end
+```

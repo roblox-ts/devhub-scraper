@@ -1,1 +1,0 @@
-The CustomStatusRemoved event fires when a status is removed from the Humanoid via the [Humanoid:RemoveCustomStatus](https://developer.roblox.com/en-us/api-reference/function/Humanoid/RemoveCustomStatus) method.

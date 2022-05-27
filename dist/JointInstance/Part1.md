@@ -1,1 +1,1 @@
-The second [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) that the joint connects.
+The second [BasePart](https://create.roblox.com/docs/reference/engine/classes/BasePart) that the joint connects.

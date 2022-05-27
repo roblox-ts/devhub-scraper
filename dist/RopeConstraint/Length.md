@@ -1,1 +1,2 @@
-The maximum distance two [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment) can be when connected with a [RopeConstraint](https://developer.roblox.com/en-us/api-reference/class/RopeConstraint). Measured in studs.
+The maximum distance two [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment) can be when connected with a
+[RopeConstraint](https://create.roblox.com/docs/reference/engine/classes/RopeConstraint). Measured in studs.

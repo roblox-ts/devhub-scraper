@@ -1,20 +1,35 @@
-An object that references an animation asset (AnimationId) which can be loaded by a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) or [AnimationController](https://developer.roblox.com/en-us/api-reference/class/AnimationController)
+An object that references an animation asset (`AnimationId`) which can be
+loaded by a [Humanoid](https://create.roblox.com/docs/reference/engine/classes/Humanoid) or [AnimationController](https://create.roblox.com/docs/reference/engine/classes/AnimationController).
 
-Should I load an Animation on the client or server?
----------------------------------------------------
+## Load an Animation on the client or server
 
-In order for [AnimationTracks](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) to replicate correctly, it's important to know when they should be loaded on the client (via a[LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript)) or on the server (via a [Script](https://developer.roblox.com/en-us/api-reference/class/Script)).
+In order for [AnimationTracks](https://create.roblox.com/docs/reference/engine/classes/AnimationTrack) to replicate correctly, it's
+important to know when they should be loaded on the client (via
+a[LocalScript](https://create.roblox.com/docs/reference/engine/classes/LocalScript)) or on the server (via a [Script](https://create.roblox.com/docs/reference/engine/classes/Script)).
 
-If an [Animator](https://developer.roblox.com/en-us/api-reference/class/Animator) is a descendant of a Humanoid or AnimationController in a Player's [Character](https://developer.roblox.com/en-us/api-reference/property/Player/Character) then animations started on that Player's client will be replicated to the server and other clients.
+If an [Animator](https://create.roblox.com/docs/reference/engine/classes/Animator) is a descendant of a Humanoid or AnimationController in a
+Player's [Character](https://create.roblox.com/docs/reference/engine/classes/Player#Character) then animations started on that Player's
+client will be replicated to the server and other clients.
 
-If the Animator is not a descendant of a player character, its animations must be loaded and started on the server to replicate.
+If the Animator is not a descendant of a player character, its animations must
+be loaded and started on the server to replicate.
 
-The Animator object must be initially created on the server and replicated to clients for animation replication to work at all. If an Animator is created locally, then AnimationTracks loaded with that Animator will not replicate.
+The Animator object must be initially created on the server and replicated to
+clients for animation replication to work at all. If an Animator is created
+locally, then AnimationTracks loaded with that Animator will not replicate.
 
-Both [Humanoid:LoadAnimation](https://developer.roblox.com/en-us/api-reference/function/Humanoid/LoadAnimation) and [AnimationController:LoadAnimation](https://developer.roblox.com/en-us/api-reference/function/AnimationController/LoadAnimation) will create an Animator if one does not already exist. When calling LoadAnimation from LocalScripts you need to be careful to wait for the Animator to replicate from the server before calling LoadAnimation if you want character animations to replicate. You can do this with WaitForChild(“Animator”).
+Both [Humanoid:LoadAnimation](https://create.roblox.com/docs/reference/engine/classes/Humanoid#LoadAnimation) and [AnimationController:LoadAnimation](https://create.roblox.com/docs/reference/engine/classes/AnimationController#LoadAnimation) will
+create an Animator if one does not already exist. When calling LoadAnimation
+from LocalScripts you need to be careful to wait for the Animator to replicate
+from the server before calling LoadAnimation if you want character animations
+to replicate. You can do this with WaitForChild("Animator").
 
-See also
---------
+See also:
 
-*   [Using the Animation Editor](https://developer.roblox.com/articles/using-animation-editor), explore this powerful built-in plugin for creating custom animations
-*   [Using Animations in Games](https://developer.roblox.com/articles/using-animations-in-games), learn how to add pre-built and custom animations to your game
+- [Using the Animation Editor][1], explore this powerful built-in plugin for
+  creating custom animations
+- [Using Animations in Games][2], learn how to add pre-built and custom
+  animations to your game
+
+[1]: /building-and-visuals/animation/animation-editor
+[2]: /building-and-visuals/animation/using-animations

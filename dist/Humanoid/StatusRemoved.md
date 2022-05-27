@@ -1,1 +1,0 @@
-The StatusRemoved event fires when a status is removed from the Humanoid.

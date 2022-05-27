@@ -1,7 +1,0 @@
-The MouseButton1Click event fires when the user's [Mouse](https://developer.roblox.com/en-us/api-reference/class/Mouse) fully right clicks the GUI button.
-
-By clicking, the mouse has to be in bounds of the button and has to be pressed down and up again before this event fires. If the mouse leaves the bounds of the button and is released, the even will not fire. If you would like to avoid this limitation, you can use [GuiButton.MouseButton2Down](https://developer.roblox.com/en-us/api-reference/event/GuiButton/MouseButton2Down) and `MouseButton2Up`. These events are similar, but will fire whenever the user pressed their left mouse down or up, respectively.
-
-This event is similar to [GuiButton.MouseButton1Click](https://developer.roblox.com/en-us/api-reference/event/GuiButton/MouseButton1Click), which behaves identically except that it is connected to the user's left mouse button.
-
-Note that this event will only fire for GUI buttons, including [TextButtons](https://developer.roblox.com/en-us/api-reference/class/TextButton) and [ImageButton](https://developer.roblox.com/en-us/api-reference/class/ImageButton). It will not fire for other [GuiObjects](https://developer.roblox.com/en-us/api-reference/class/GuiObject).

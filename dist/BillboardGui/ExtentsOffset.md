@@ -1,7 +1,12 @@
-**ExtentsOffset** determines how the BillboardGui is offset from its [Adornee](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/Adornee), relative to the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) orientation and units are half the dimensions of the model's [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera)\-aligned bounding box.
+**ExtentsOffset** determines how the BillboardGui is offset from its
+[Adornee](https://create.roblox.com/docs/reference/engine/classes/BillboardGui#Adornee), relative to the [Camera](https://create.roblox.com/docs/reference/engine/classes/Camera) orientation and
+units are half the dimensions of the model's [Camera](https://create.roblox.com/docs/reference/engine/classes/Camera)-aligned bounding
+box.
 
-See also
---------
+See also:
 
-*   [ExtentsOffsetWorldSpace](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/ExtentsOffsetWorldSpace), which works similarly except the offset orientation is relative to the global axes
-*   [StudsOffset](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/StudsOffset), which works similarly except the units are studs
+- [ExtentsOffsetWorldSpace](https://create.roblox.com/docs/reference/engine/classes/BillboardGui#ExtentsOffsetWorldSpace), which
+  works similarly except the offset orientation is relative to the global
+  axes
+- [StudsOffset](https://create.roblox.com/docs/reference/engine/classes/BillboardGui#StudsOffset), which works similarly except the
+  units are studs

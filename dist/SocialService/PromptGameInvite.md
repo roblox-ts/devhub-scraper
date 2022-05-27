@@ -1,3 +1,0 @@
-**PromptGameInvite** will display an invite screen to the given [Player](https://developer.roblox.com/en-us/api-reference/class/Player). On this screen, the player may invite their friends to the current game.
-
-Before using this function, you should use the [CanSendGameInviteAsync](https://developer.roblox.com/en-us/api-reference/function/SocialService/CanSendGameInviteAsync) function to determine whether a player can send a game invite, as this can vary depending on the platform or player. After determining that invites are possible for this player, allow the player to opt-in to inviting others. For example, the player clicked on an “Invite Friends” button, shown after `CanSendGameInviteAsync` returned true.\`

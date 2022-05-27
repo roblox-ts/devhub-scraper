@@ -1,1 +1,3 @@
-A [PVInstance](https://developer.roblox.com/en-us/api-reference/class/PVInstance) (“Position Velocity Instance”) is an abstract class that cannot be created. It is the base for all objects that have a physical location in the world, specifically [BaseParts](https://developer.roblox.com/en-us/api-reference/class/BasePart) and [Models](https://developer.roblox.com/en-us/api-reference/class/Model).
+A [PVInstance](https://create.roblox.com/docs/reference/engine/classes/PVInstance) ("Position Velocity Instance") is an abstract class that cannot
+be created. It is the base for all objects that have a physical location in
+the world, specifically [BaseParts](https://create.roblox.com/docs/reference/engine/classes/BasePart) and [Models](https://create.roblox.com/docs/reference/engine/classes/Model).

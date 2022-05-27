@@ -1,1 +1,2 @@
-The minimum rotation angle the [HingeConstraint](https://developer.roblox.com/en-us/api-reference/class/HingeConstraint) will allow if [HingeConstraint.LimitsEnabled](https://developer.roblox.com/en-us/api-reference/property/HingeConstraint/LimitsEnabled) is true. Measured in degrees.
+The minimum rotation angle the [HingeConstraint](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint) will allow if
+[HingeConstraint.LimitsEnabled](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint#LimitsEnabled) is true. Measured in degrees.

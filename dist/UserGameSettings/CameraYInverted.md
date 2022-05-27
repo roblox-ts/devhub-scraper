@@ -1,1 +1,0 @@
-If set to true, the player's Y-axis rotation is inverted.

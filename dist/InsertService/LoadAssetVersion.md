@@ -1,1 +1,0 @@
-Returns a model inserted into [InsertService](https://developer.roblox.com/en-us/api-reference/class/InsertService) containing the asset with the given assetVersionId.

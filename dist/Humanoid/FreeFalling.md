@@ -1,5 +1,0 @@
-This event fires when the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) enters or leaves the _Freefall_ [HumanoidStateType](https://developer.roblox.com/en-us/api-reference/enum/HumanoidStateType).
-
-The _active_ parameter represents whether the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is entering or leaving the _Freefall_ state.
-
-Although the _Freefall_ state generally ends when the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) reaches the ground, this event may fire with _active_ equal to _false_ if the state is changed while the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is falling. For this reason, you should use [Humanoid.StateChanged](https://developer.roblox.com/en-us/api-reference/event/Humanoid/StateChanged) and listen for the _Landed_ state to work out when a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) has landed.

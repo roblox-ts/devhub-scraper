@@ -1,1 +1,0 @@
-Returns the text in a properly filtered manner for all users.

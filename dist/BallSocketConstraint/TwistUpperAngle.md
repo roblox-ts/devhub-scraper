@@ -1,1 +1,2 @@
-Sets the upper twist rotation limit of the [BallSocketConstraint](https://developer.roblox.com/en-us/api-reference/class/BallSocketConstraint), as long as [BallSocketConstraint.TwistLimitsEnabled](https://developer.roblox.com/en-us/api-reference/property/BallSocketConstraint/TwistLimitsEnabled) is `true`.
+Sets the upper twist rotation limit of the [BallSocketConstraint](https://create.roblox.com/docs/reference/engine/classes/BallSocketConstraint), as long
+as [BallSocketConstraint.TwistLimitsEnabled](https://create.roblox.com/docs/reference/engine/classes/BallSocketConstraint#TwistLimitsEnabled) is `true`.

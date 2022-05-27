@@ -1,1 +1,3 @@
-The upper position limit along the x-axis of [Constraint.Attachment0](https://developer.roblox.com/en-us/api-reference/property/Constraint/Attachment0) for a [SlidingBallConstraint](https://developer.roblox.com/en-us/api-reference/class/SlidingBallConstraint) if [SlidingBallConstraint.LimitsEnabled](https://developer.roblox.com/en-us/api-reference/property/SlidingBallConstraint/LimitsEnabled) is true.
+The upper position limit along the x-axis of [Constraint.Attachment0](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0) for
+a [SlidingBallConstraint](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint) if [SlidingBallConstraint.LimitsEnabled](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint#LimitsEnabled) is
+true.

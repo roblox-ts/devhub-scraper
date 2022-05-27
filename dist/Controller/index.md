@@ -1,1 +1,2 @@
-The base class for controller objects, such as the [HumanoidController](https://developer.roblox.com/en-us/api-reference/class/HumanoidController) object.
+The base class for controller objects, such as the [HumanoidController](https://create.roblox.com/docs/reference/engine/classes/HumanoidController)
+object.

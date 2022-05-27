@@ -1,1 +1,1 @@
-A `BrickColor` version of [SurfaceColor3](https://developer.roblox.com/en-us/api-reference/property/SelectionBox/SurfaceColor3)…
+A `BrickColor` version of [SurfaceColor3](https://create.roblox.com/docs/reference/engine/classes/SelectionBox#SurfaceColor3)..

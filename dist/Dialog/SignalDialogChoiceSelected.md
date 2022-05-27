@@ -1,1 +1,0 @@
-Fires the Dialog's [DialogChoiceSelected](https://developer.roblox.com/api-reference/event/Dialog/DialogChoiceSelected "DialogChoiceSelected") event with the specified parameters.

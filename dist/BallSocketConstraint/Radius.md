@@ -1,1 +1,1 @@
-The visualized radius of the [BallSocketConstraint](https://developer.roblox.com/en-us/api-reference/class/BallSocketConstraint).
+The visualized radius of the [BallSocketConstraint](https://create.roblox.com/docs/reference/engine/classes/BallSocketConstraint).

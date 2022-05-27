@@ -1,1 +1,0 @@
-Removes a SpecialKey that was added using [GuiService:AddSpecialKey](https://developer.roblox.com/en-us/api-reference/function/GuiService/AddSpecialKey)

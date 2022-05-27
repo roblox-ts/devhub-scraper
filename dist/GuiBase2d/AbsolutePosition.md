@@ -1,3 +1,13 @@
-AbsolutePosition is a read-only property that provides the screen position of a UI element in pixels. This represents the actual pixel position at which an element renders as a result of its ancestors' sizes and positions. The [GuiObject.AnchorPoint](https://developer.roblox.com/en-us/api-reference/property/GuiObject/AnchorPoint) also influences the AbsolutePosition. This property, [GuiBase2d.AbsoluteSize](https://developer.roblox.com/en-us/api-reference/property/GuiBase2d/AbsoluteSize) and [GuiBase2d.AbsoluteRotation](https://developer.roblox.com/en-us/api-reference/property/GuiBase2d/AbsoluteRotation) are a group of properties that all describe the final rendered orientation of a UI element.
+AbsolutePosition is a read-only property that provides the screen position
+of a UI element in pixels. This represents the actual pixel position at
+which an element renders as a result of its ancestors' sizes and
+positions. The [GuiObject.AnchorPoint](https://create.roblox.com/docs/reference/engine/classes/GuiObject#AnchorPoint) also influences the
+AbsolutePosition. This property, [GuiBase2d.AbsoluteSize](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#AbsoluteSize) and
+[GuiBase2d.AbsoluteRotation](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#AbsoluteRotation) are a group of properties that all describe
+the final rendered orientation of a UI element.
 
-For example, on a 1920 by 1080 screen, a [Frame](https://developer.roblox.com/en-us/api-reference/class/Frame) with position {0.5, 0}, {0.5, 0} would have an AbsolutePosition of (960, 540). If you were to place another Frame with position {0, 50}, {0, 50} inside that one, its AbsolutePosition would be (1010, 590). This example assumes each Frame has the defualt [GuiObject.AnchorPoint](https://developer.roblox.com/en-us/api-reference/property/GuiObject/AnchorPoint) of (0, 0), the top left corner.
+For example, on a 1920 by 1080 screen, a [Frame](https://create.roblox.com/docs/reference/engine/classes/Frame) with position {0.5, 0},
+{0.5, 0} would have an AbsolutePosition of (960, 540). If you were to
+place another Frame with position {0, 50}, {0, 50} inside that one, its
+AbsolutePosition would be (1010, 590). This example assumes each Frame has
+the defualt [GuiObject.AnchorPoint](https://create.roblox.com/docs/reference/engine/classes/GuiObject#AnchorPoint) of (0, 0), the top left corner.

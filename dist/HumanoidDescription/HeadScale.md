@@ -1,12 +1,24 @@
-![](https://developer.roblox.com/assets/blt1da684150a0bfdfb/HeadScale.jpg)
+![undefined](https://prod.docsiteassets.roblox.com/assets/blt1da684150a0bfdfb/HeadScale.jpg)
 
-**HeadScale** determines by what factor the Head of a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is scaled, as well as any accessories attached to it (such as those specified by [HatAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HatAccessory) and [HairAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HairAccessory)). When the description is [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) to a Humanoid, this value maps to a “HeadScale” [NumberValue](https://developer.roblox.com/en-us/api-reference/class/NumberValue) within the Humanoid.
+**HeadScale** determines by what factor the Head of a [Humanoid](https://create.roblox.com/docs/reference/engine/classes/Humanoid) is
+scaled, as well as any accessories attached to it (such as those specified
+by [HatAccessory](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#HatAccessory) and
+[HairAccessory](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#HairAccessory)). When the description
+is [applied](https://create.roblox.com/docs/reference/engine/classes/Humanoid#ApplyDescription) to a Humanoid, this value maps to a
+"HeadScale" [NumberValue](https://create.roblox.com/docs/reference/engine/classes/NumberValue) within the Humanoid.
 
-In the image, three R15 figures whose [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid)s have [HumanoidDescription](https://developer.roblox.com/en-us/api-reference/class/HumanoidDescription)s applied with the following HeadScale values (from left-to-right): 0.5, 1.0, 1.5.
+In the image, three R15 figures whose [Humanoid](https://create.roblox.com/docs/reference/engine/classes/Humanoid)s have
+[HumanoidDescription](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription)s applied with the following HeadScale values (from
+left-to-right): 0.5, 1.0, 1.5.
 
-See also
---------
+See also:
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
-*   [BodyTypeScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/BodyTypeScale) and [ProportionScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/ProportionScale), which can provide realistic rig proportions
-*   [WidthScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HeightScale), [HeightScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/DepthScale) and [DepthScale](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/DepthScale), which provide finer control over other dimensions of a rig
+- [HumanoidDescription System](/avatar/characters/character-customization#humanoiddescription),
+  for more information on [HumanoidDescription](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription).
+- [BodyTypeScale](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#BodyTypeScale) and
+  [ProportionScale](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#ProportionScale), which can provide
+  realistic rig proportions
+- [WidthScale](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#HeightScale),
+  [HeightScale](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#DepthScale) and
+  [DepthScale](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#DepthScale), which provide finer control
+  over other dimensions of a rig

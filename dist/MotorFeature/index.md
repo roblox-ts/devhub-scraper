@@ -1,1 +1,2 @@
-A MotorFeature is an unused type of surface joint. It can be connected to a [Hole](https://developer.roblox.com/en-us/api-reference/class/Hole) object by using a [VelocityMotor](https://developer.roblox.com/en-us/api-reference/class/VelocityMotor).
+A MotorFeature is an unused type of surface joint. It can be connected to a
+[Hole](https://create.roblox.com/docs/reference/engine/classes/Hole) object by using a [VelocityMotor](https://create.roblox.com/docs/reference/engine/classes/VelocityMotor).

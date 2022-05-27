@@ -1,1 +1,4 @@
-When the constraint's [Mode](https://developer.roblox.com/en-us/api-reference/property/AlignPosition/Mode) is set to [OneAttachment](https://developer.roblox.com/en-us/api-reference/enum/PositionAlignmentMode), it uses the [Position](https://developer.roblox.com/en-us/api-reference/property/AlignPosition/Position) as a goal to move the [Attachment0](https://developer.roblox.com/en-us/api-reference/property/Constraint/Attachment0) to.
+When the constraint's [Mode](https://create.roblox.com/docs/reference/engine/classes/AlignPosition#Mode) is set to
+[OneAttachment](https://developer.roblox.com/en-us/api-reference/enum/PositionAlignmentMode), it uses the
+[Position](https://create.roblox.com/docs/reference/engine/classes/AlignPosition#Position) as a goal to move the
+[Attachment0](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0) to.

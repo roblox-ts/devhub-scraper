@@ -1,8 +1,16 @@
-This class is an optional parameter to the [TeleportService:TeleportAsync](https://developer.roblox.com/en-us/api-reference/function/TeleportService/TeleportAsync) function that allows developers to provide arguments for the teleport call.
+This class is an optional parameter to the [TeleportService:TeleportAsync](https://create.roblox.com/docs/reference/engine/classes/TeleportService#TeleportAsync)
+function that allows developers to provide arguments for the teleport call.
 
-Certain arguments in the class are not compatible with each other and these error cases will be handled by TeleportAsync (more details in the `Error` section on the function page).
+Certain arguments in this class are not compatible with each other and cause
+an error when passed to [TeleportService:TeleportAsync](https://create.roblox.com/docs/reference/engine/classes/TeleportService#TeleportAsync):
 
-See also
---------
+- ReservedServerAccessCode + ServerInstanceId
+- ShouldReserveServer + ServerInstanceId
+- ShouldReserveServer + ReservedServerAccessCode
 
-For more information on how to teleport players between servers, take a look at the [Telporting Between Places](../../../articles/Teleporting-Between-Places) article.
+See also:
+
+For more information on how to teleport players between servers, take a look
+at the [Teleporting Between Places][1] article.
+
+[1]: https://developer.roblox.com/articles/Teleporting-Between-Places

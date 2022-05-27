@@ -1,5 +1,17 @@
-An Accoutrement is an object that welds its child [part](https://developer.roblox.com/en-us/api-reference/class/Part) called “Handle” to the Head of a player's character. The position and rotation of the Handle part can be changed with the [AttachmentPos](https://developer.roblox.com/en-us/api-reference/property/Accoutrement/AttachmentPos)/[Right](https://developer.roblox.com/en-us/api-reference/property/Accoutrement/AttachmentRight)/[Forward](https://developer.roblox.com/en-us/api-reference/property/Accoutrement/AttachmentForward)/[Up](https://developer.roblox.com/en-us/api-reference/property/Accoutrement/AttachmentUp) properties.
+An Accoutrement welds its child [part](https://create.roblox.com/docs/reference/engine/classes/Part) called "Handle" to the player's
+character. You can change the position and rotation of the Handle part using
+the [AttachmentPos](https://create.roblox.com/docs/reference/engine/classes/Accoutrement#AttachmentPos),
+[Right](https://create.roblox.com/docs/reference/engine/classes/Accoutrement#AttachmentRight),
+[Forward](https://create.roblox.com/docs/reference/engine/classes/Accoutrement#AttachmentForward), and [Up](https://create.roblox.com/docs/reference/engine/classes/Accoutrement#AttachmentUp)
+properties.
 
-Parts descending from an accoutrement will be massless when attached to other parts (e.g. with a Weld) as long as they are not the root part of the assembly returned by [GetRootPart()](https://developer.roblox.com/en-us/api-reference/function/BasePart/GetRootPart). [GetMass()](https://developer.roblox.com/en-us/api-reference/function/BasePart/GetMass) will return 0 for parts in this case and it will not add to the total mass or rotational inertia of the Assembly.
+Parts descending from an accoutrement are massless when attach to other parts
+(e.g. with a Weld) as long as they are not the root part of the assembly that
+[GetRootPart()](https://create.roblox.com/docs/reference/engine/classes/BasePart#GetRootPart) returns. [GetMass()](https://create.roblox.com/docs/reference/engine/classes/BasePart#GetMass)
+returns 0 for parts in this case, and it doesn't add to the total mass or
+rotational inertia of the Assembly.
 
-This will not apply to a part descending from an accoutrement when an accoutrement is not welded to another part that is _**not**_ massless or one if its parts otherwise becomes root. This will not apply for the root part, it will have mass like a normal part.
+This doesn't apply to a part descending from an accoutrement when an
+accoutrement welds to another part that is massless or one if its parts
+otherwise becomes root. This also doesn't apply for the root part, and it has
+mass like a normal part.

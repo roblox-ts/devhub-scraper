@@ -1,1 +1,2 @@
-Describes whether the previous state of this [DockWidgetPluginGui](https://developer.roblox.com/en-us/api-reference/class/DockWidgetPluginGui) was restored when it was created.
+Describes whether the previous state of this [DockWidgetPluginGui](https://create.roblox.com/docs/reference/engine/classes/DockWidgetPluginGui) was
+restored when it was created.

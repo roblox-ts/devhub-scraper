@@ -1,1 +1,0 @@
-Plays the StockSound that matches the given [SoundType](https://developer.roblox.com/en-us/api-reference/enum/SoundType).

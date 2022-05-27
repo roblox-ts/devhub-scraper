@@ -1,7 +1,0 @@
-Casts a ray using an origin, direction, and optional [RaycastParams](https://developer.roblox.com/en-us/api-reference/datatype/RaycastParams). If it finds an eligible [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) or [Terrain](https://developer.roblox.com/en-us/api-reference/class/Terrain) cell, a [RaycastResult](https://developer.roblox.com/en-us/api-reference/datatype/RaycastResult) is returned containing the results of the operation. If no [RaycastParams](https://developer.roblox.com/en-us/api-reference/datatype/RaycastParams) object is provided, the defaults are used (all parts are considered and [Terrain](https://developer.roblox.com/en-us/api-reference/class/Terrain) water is not ignored).
-
-Note that the length (magnitude) of the directional vector is important, as objects/terrain further away than its length will not be tested. If you're using a [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) to help create the ray components, consider using `CFrame.LookVector` as the directional vector and multiply it by the desired length as shown in the example below. The maximum length of the direction vector is 5,000 studs.
-
-For a demonstration of how raycasting works, see the [Intro to Raycasting](https://developer.roblox.com/en-us/articles/raycasting) article.
-
-This method does **not** use a [Ray](https://developer.roblox.com/en-us/api-reference/datatype/Ray) object, but its origin and direction components can be borrowed from `Ray.Origin` and `Ray.Direction`.

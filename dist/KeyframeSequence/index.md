@@ -1,38 +1,63 @@
-This object stores all the [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe)s for an animation, determines if the animation is looped, and determines its priority against other animations.
+This object stores all the [Keyframe](https://create.roblox.com/docs/reference/engine/classes/Keyframe)s for an animation, determines if the
+animation is looped, and determines its priority against other animations.
 
-What is a Keyframe Sequence?
-----------------------------
+## What is a KeyframeSequence?
 
-The animation data Roblox uses in the playback of an animation, referenced by the [Animation.AnimationId](https://developer.roblox.com/en-us/api-reference/property/Animation/AnimationId) property, is constructed from a KeyframeSequence. Every animation has a KeyframeSequence associated with it. KeyframeSequences are usually created by the Roblox Animation Editor but can be created through other plugins or even manually. Once uploaded to Roblox, their Content ID is used for the [Animation.AnimationId](https://developer.roblox.com/en-us/api-reference/property/Animation/AnimationId) property.
+Roblox constructs the animation data it uses in the playback of an animation,
+referenced by the [Animation.AnimationId](https://create.roblox.com/docs/reference/engine/classes/Animation#AnimationId) property from a KeyframeSequence.
+Every animation refers to a KeyframeSequence or to a CurveAnimation
+internally. Although, usually created by the Roblox Animation Editor,
+KeyframeSequence can also be created by other plugins or even manually. Once
+uploaded to Roblox, Roblox assigns a Content ID that [Animation](https://create.roblox.com/docs/reference/engine/classes/Animation)s use for the
+[Animation.AnimationId](https://create.roblox.com/docs/reference/engine/classes/Animation#AnimationId) property to refer to the uploaded KeyframeSequence.
 
-Note, in most cases developers do not need to manipulate KeyframeSequences as the animation editor covers most animation functionality. However, in some cases a developer may wish to generate an animation from a [Script](https://developer.roblox.com/en-us/api-reference/class/Script) or build their own plugin.
+Note, in most cases, you do not need to manipulate KeyframeSequences, as the
+animation editor covers most animation functionality. However, in some cases
+you may wish to generate an animation from a [Script](https://create.roblox.com/docs/reference/engine/classes/Script) or build your own
+plugin. However, only Roblox Studio can use a KeyframeSequence created in such
+a way. If you wish to use such a KeyframeSequence, you will need to upload it
+to Roblox as described below.
 
-KeyframeSequence Properties
----------------------------
+## KeyframeSequence Properties
 
-The priority and looped animation settings are set by `KeyframeSequence/Priority` and `KeyframeSequence/Loop`. Note these can be eventually overwritten by the [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) properties.
+[KeyframeSequence.Priority](https://create.roblox.com/docs/reference/engine/classes/KeyframeSequence#Priority) and [KeyframeSequence.Loop](https://create.roblox.com/docs/reference/engine/classes/KeyframeSequence#Loop) save the priority and
+looped animation settings for the sequence. Note that [AnimationTrack](https://create.roblox.com/docs/reference/engine/classes/AnimationTrack)
+properties can eventually overwrite these properties at playback time.
 
-The length of an animation is determined by the last [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe) in the sequence, meaning the [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe) with the highest [Keyframe.Time](https://developer.roblox.com/en-us/api-reference/property/Keyframe/Time) property.
+The last [Keyframe](https://create.roblox.com/docs/reference/engine/classes/Keyframe) in the sequence, meaning the [Keyframe](https://create.roblox.com/docs/reference/engine/classes/Keyframe) with the highest
+[Keyframe.Time](https://create.roblox.com/docs/reference/engine/classes/Keyframe#Time) property, determines the length of an animation.
 
-KeyframeSequence Structure
---------------------------
+## KeyframeSequence Structure
 
-KeyframeSequences are a container that hold [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe)s. Keyframes represent a 'key' frame in the animation, that are interpolated between during playback.
+KeyframeSequences act as a container that hold [Keyframe](https://create.roblox.com/docs/reference/engine/classes/Keyframe)s. Keyframes
+represent a 'key' frame in the animation, that are interpolated between during
+playback.
 
-Keyframes contain [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose)s. [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose)s are specific to each [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) being animated and contain the `CFrame` applied to the [Motor6D](https://developer.roblox.com/en-us/api-reference/class/Motor6D) connecting to the part. Poses are named according to the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) they correspond with. For this reason, animations require distinct part names to play correctly.
+Keyframes contain [Pose](https://create.roblox.com/docs/reference/engine/classes/Pose)s. [Pose](https://create.roblox.com/docs/reference/engine/classes/Pose)s, specific to each [BasePart](https://create.roblox.com/docs/reference/engine/classes/BasePart) being
+animated, contain the `CFrame` applied to the [Motor6D](https://create.roblox.com/docs/reference/engine/classes/Motor6D) connecting two parts.
+Poses match the [BasePart](https://create.roblox.com/docs/reference/engine/classes/BasePart) they correspond with by name and apply their data
+to the [Motor6D](https://create.roblox.com/docs/reference/engine/classes/Motor6D) with this same-named part identified as [Motor6D.P1](https://create.roblox.com/docs/reference/engine/classes/Motor6D#P1) . For
+this reason, animations require distinct part names to play correctly.
 
-Poses are structured based on joint hierarchy. Each [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose) is parented to the [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose) corresponding to the part it is attached to. In practice, this means the poses branch out from the root part. See below for a visual example.
+Poses follow a structure based on joint hierarchy. The parent of each [Pose](https://create.roblox.com/docs/reference/engine/classes/Pose)
+corresponds to the [Pose](https://create.roblox.com/docs/reference/engine/classes/Pose) of the part it is attached to. In practice, this
+means the poses branch out from the root part. See below for a visual example.
 
-![](https://developer.roblox.com/assets/blt2e767397c28fecda/KeyframeSequence_-_Copy.png)
+## Using KeyframeSequences when making animations
 
-Using KeyframeSequences when making animations
-----------------------------------------------
+You must first upload KeyframeSequences to Roblox before they can be played in
+an experience. In Studio, right click on the KeyframeSequence and click 'Save
+to Roblox'. Alternatively, you can use the [Plugin:SaveSelectedToRoblox](https://create.roblox.com/docs/reference/engine/classes/Plugin#SaveSelectedToRoblox)
+function. Either method will bring up the animation upload window and allow
+you to upload your KeyframeSequence as an animation.
 
-KeyframeSequences must be first uploaded to Roblox before they can be played. This can be done by right clicking on the KeyframeSequence and clicking 'Save to Roblox'. Alternatively, [Plugin:SaveSelectedToRoblox](https://developer.roblox.com/en-us/api-reference/function/Plugin/SaveSelectedToRoblox) can be used. This will bring up the animation upload window.
+In some cases, you may want to preview an Animation before uploading it to the
+Roblox site. You can generate a temporary id using
+[KeyframeSequenceProvider:RegisterKeyframeSequence](https://create.roblox.com/docs/reference/engine/classes/KeyframeSequenceProvider#RegisterKeyframeSequence). This will generate a hash
+id that can be used for localized animation testing.
 
-In some cases, a developer may want to preview an Animation before uploading it to the Roblox site. This can be achieved by generating a temporary id using [KeyframeSequenceProvider:RegisterKeyframeSequence](https://developer.roblox.com/en-us/api-reference/function/KeyframeSequenceProvider/RegisterKeyframeSequence). This will generate a hash id that can be used for localized animation testing.
+## Obtaining KeyframeSequences
 
-Obtaining KeyframeSequences
----------------------------
-
-In some cases the developer may wish to download the KeyframeSequence corresponding to an existing uploaded Animation. This can be done so using [KeyframeSequenceProvider:GetKeyframeSequenceAsync](https://developer.roblox.com/en-us/api-reference/function/KeyframeSequenceProvider/GetKeyframeSequenceAsync).
+In some cases you may wish to download the KeyframeSequence corresponding to
+an existing uploaded Animation. You can use
+[AnimationClipProvider:GetAnimationClipAsync](https://create.roblox.com/docs/reference/engine/classes/AnimationClipProvider#GetAnimationClipAsync) to download an animation.

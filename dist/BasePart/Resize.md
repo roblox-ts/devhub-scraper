@@ -1,1 +1,0 @@
-Changes the size of an object just like using the Studio resize tool.

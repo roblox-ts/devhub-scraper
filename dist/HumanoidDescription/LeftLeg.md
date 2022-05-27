@@ -1,8 +1,14 @@
-**LeftLeg** determines the asset ID of the LeftLeg to be [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) to a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid).
+**LeftLeg** determines the asset ID of the LeftLeg to be
+[applied](https://create.roblox.com/docs/reference/engine/classes/Humanoid#ApplyDescription) to a [Humanoid](https://create.roblox.com/docs/reference/engine/classes/Humanoid).
 
-See also
---------
+See also:
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
-*   [Head](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/Head), [Torso](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/Torso), [RightArm](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/RightArm), [LeftArm](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/LeftArm), and [RightLeg](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/RightLeg), which are similar properties that also control body part
-*   [LeftLegColor](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/LeftLegColor), which controls the color of this limb
+- [HumanoidDescription System](/avatar/characters/character-customization#humanoiddescription),
+  for more information on [HumanoidDescription](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription).
+- [Head](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#Head), [Torso](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#Torso),
+  [RightArm](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#RightArm),
+  [LeftArm](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#LeftArm), and
+  [RightLeg](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#RightLeg), which are similar properties
+  that also control body part
+- [LeftLegColor](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#LeftLegColor), which controls the
+  color of this limb

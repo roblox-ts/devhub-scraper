@@ -1,1 +1,1 @@
-The stored [Vector3](https://developer.roblox.com/api-reference/datatype/Vector3 "Vector3").
+The stored [Vector3](/reference/engine/datatypes/Vector3).

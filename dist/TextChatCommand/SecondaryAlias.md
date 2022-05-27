@@ -1,0 +1,1 @@
+A secondary alias used to trigger the [TextChatCommand](https://create.roblox.com/docs/reference/engine/classes/TextChatCommand).

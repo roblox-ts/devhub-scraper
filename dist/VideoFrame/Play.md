@@ -1,1 +1,0 @@
-Sets [VideoFrame.Playing](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Playing) to true, This plays the [VideoFrame.Video](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Video), continuing from the current [VideoFrame.TimePosition](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/TimePosition).

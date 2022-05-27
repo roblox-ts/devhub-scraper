@@ -1,1 +1,2 @@
-This property dictates how shiny the decal is. It takes a value between 0 and 1, where 1 is “full shininess”.
+This property dictates how shiny the decal is. It takes a value between 0
+and 1, where 1 is "full shininess".

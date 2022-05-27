@@ -1,1 +1,3 @@
-A TerrainRegion is a snapshot of [Terrain](https://developer.roblox.com/en-us/api-reference/class/Terrain) retrieved from the [CopyRegion](https://developer.roblox.com/api-reference/function/Terrain/CopyRegion "CopyRegion") method. Can be later pasted into the Terrain using [PasteRegion](https://developer.roblox.com/api-reference/function/Terrain/PasteRegion "PasteRegion").
+A TerrainRegion is a snapshot of [Terrain](https://create.roblox.com/docs/reference/engine/classes/Terrain) retrieved from the
+`Terrain:CopyRegion()` method. Can be later pasted into the Terrain using
+`Terrain:PasteRegion()`.

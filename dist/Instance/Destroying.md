@@ -1,1 +1,0 @@
-Fires immediately before the instance is destroyed via [Instance:Destroy](https://developer.roblox.com/en-us/api-reference/function/Instance/Destroy). The [Instance.Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) property is locked when this event fires and cannot be changed.

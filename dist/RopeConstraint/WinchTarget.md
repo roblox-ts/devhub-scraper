@@ -1,0 +1,1 @@
+The target length for the winch motor.

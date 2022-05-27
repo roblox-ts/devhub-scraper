@@ -1,1 +1,2 @@
-**ManualGlue** is a joint created in a similar manner to the [ManualWeld](https://developer.roblox.com/en-us/api-reference/class/ManualWeld) class. It functions identically to the [Glue](https://developer.roblox.com/en-us/api-reference/class/Glue) class.
+**ManualGlue** is a joint created in a similar manner to the [ManualWeld](https://create.roblox.com/docs/reference/engine/classes/ManualWeld)
+class. It functions identically to the [Glue](https://create.roblox.com/docs/reference/engine/classes/Glue) class.

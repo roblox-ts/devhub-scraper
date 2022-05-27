@@ -1,1 +1,0 @@
-This function was historically used to show mobile video adverts. It no longer does anything, as the [AdService](https://developer.roblox.com/en-us/api-reference/class/AdService) has been decommissioned.

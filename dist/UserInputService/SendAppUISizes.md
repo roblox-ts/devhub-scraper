@@ -1,1 +1,0 @@
-Sends the sizes of Roblox UI to the server. These UI elements include the StatusBar, NavBar, and BottomBar.

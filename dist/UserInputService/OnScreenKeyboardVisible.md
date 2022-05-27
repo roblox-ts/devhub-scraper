@@ -1,7 +1,9 @@
-This property describes whether an on-screen keyboard is currently visible on the user's screen.
+This property describes whether an on-screen keyboard is currently visible
+on the user's screen.
 
 The code snippet below prints whether the keyboard is visible.
 
+```lua
 local userInputService = game:GetService("UserInputService")
 
 local keyboardIsVisible = userInputService.OnScreenKeyboardIsVisible
@@ -10,13 +12,16 @@ if (keyboardIsVisible) then
 else
 	print("On-screen keyboard is not visible!")
 end
+```
 
-As [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService) is client-side only, this property can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).
+As `UserInputService` is client-side only, this property can only be used
+in a `LocalScript`.
 
-![On screen keyboard](https://developer.roblox.com/assets/bltd883fb9830c26628/ClientKeyboard.png)
+![On screen keyboard][1]
 
-See also
---------
+See also:
 
-*   [UserInputService.OnScreenKeyboardSize](https://developer.roblox.com/en-us/api-reference/property/UserInputService/OnScreenKeyboardSize)
-*   [UserInputService.OnScreenKeyboardPosition](https://developer.roblox.com/en-us/api-reference/property/UserInputService/OnScreenKeyboardPosition)
+- `UserInputService/OnScreenKeyboardSize`
+- `UserInputService/OnScreenKeyboardPosition`
+
+[1]: https://prod.docsiteassets.roblox.com/assets/bltd883fb9830c26628/ClientKeyboard.png

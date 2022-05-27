@@ -1,2 +1,3 @@
-An ancient property that hasn't worked correctly since late 2007.  
-It's supposed to render a large XYZ axis in the center of each [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart), but the axis rendering component doesn't work correctly.
+An ancient property that hasn't worked correctly since late 2007. It's
+supposed to render a large XYZ axis in the center of each [BasePart](https://create.roblox.com/docs/reference/engine/classes/BasePart), but
+the axis rendering component doesn't work correctly.

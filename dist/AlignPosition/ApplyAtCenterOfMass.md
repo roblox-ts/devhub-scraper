@@ -1,1 +1,2 @@
-When true, applies force at center of mass of Attachment0's parent Part. When false, applied at Attachment0.
+When true, applies force at center of mass of Attachment0's parent Part.
+When false, applied at Attachment0.

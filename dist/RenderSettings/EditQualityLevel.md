@@ -1,1 +1,2 @@
-Sets the graphics quality level in Roblox Studio, when [RenderSettings.EnableFRM](https://developer.roblox.com/en-us/api-reference/property/RenderSettings/EnableFRM) is set to false.
+Sets the graphics quality level in Roblox Studio, when
+[RenderSettings.EnableFRM](https://create.roblox.com/docs/reference/engine/classes/RenderSettings#EnableFRM) is set to false.

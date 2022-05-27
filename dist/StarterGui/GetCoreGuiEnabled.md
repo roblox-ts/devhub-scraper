@@ -1,5 +1,0 @@
-This function returns whether the given [CoreGuiType](https://developer.roblox.com/en-us/api-reference/enum/CoreGuiType) is enabled or if it has been disabled using [StarterGui:SetCoreGuiEnabled](https://developer.roblox.com/en-us/api-reference/function/StarterGui/SetCoreGuiEnabled).
-
-This function should be called on the client and is used by the core scripts to help determine which core GUI elements to show.
-
-GetCoreGuiEnabled only returns _false_ if the given [CoreGuiType](https://developer.roblox.com/en-us/api-reference/enum/CoreGuiType) has been disabled using [StarterGui:SetCoreGuiEnabled](https://developer.roblox.com/en-us/api-reference/function/StarterGui/SetCoreGuiEnabled). Setting _TopbarEnabled_ to _false_ using [StarterGui:SetCore](https://developer.roblox.com/en-us/api-reference/function/StarterGui/SetCore) hides all [CoreGuiTypes](https://developer.roblox.com/en-us/api-reference/enum/CoreGuiType) and does not affect the result of function.

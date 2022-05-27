@@ -1,1 +1,0 @@
-This event triggers when the player interacts with this prompt.

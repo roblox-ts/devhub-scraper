@@ -1,1 +1,0 @@
-This function fires the [MarketplaceService.PromptPurchaseFinished](https://developer.roblox.com/en-us/api-reference/event/MarketplaceService/PromptPurchaseFinished) event with the specified parameters.

@@ -1,17 +1,30 @@
-Sets the horizontal size, in studs, of the tiled image applied by the [Texture](https://developer.roblox.com/en-us/api-reference/class/Texture).
+Sets the horizontal size, in studs, of the tiled image applied by the
+[Texture](https://create.roblox.com/docs/reference/engine/classes/Texture).
 
-Larger values for this property will lead to the [Texture](https://developer.roblox.com/en-us/api-reference/class/Texture) appearing larger, and repeating less frequently. Unlike with [Decal](https://developer.roblox.com/en-us/api-reference/class/Decal)s, the size of the repeated image is unaffected by the dimensions of the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart). Instead, resizing the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) only increases the number of times the texture repeats.
+Larger values for this property will lead to the [Texture](https://create.roblox.com/docs/reference/engine/classes/Texture) appearing
+larger, and repeating less frequently. Unlike with [Decal](https://create.roblox.com/docs/reference/engine/classes/Decal)s, the size of
+the repeated image is unaffected by the dimensions of the [BasePart](https://create.roblox.com/docs/reference/engine/classes/BasePart).
+Instead, resizing the [BasePart](https://create.roblox.com/docs/reference/engine/classes/BasePart) only increases the number of times the
+texture repeats.
 
-See the code snippet below for an example of how this property can be used.
+See the code snippet below for an example of how this property can be
+used.
 
+```
 local texture = Instance.new("Texture")
 texture.Texture = "http://www.roblox.com/asset/?id=732339893" -- roblox logo
 -- 1x1 studs repeating texture
 texture.StudsPerTileU = 1
 texture.StudsPerTileV = 1
+``[
 
-Notes
------
+Note:
 
-*   This property can be set to very low values, but not zero
-*   The horisontal / vertical distinction is relative to the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart)s axis. Therefore, the [Texture](https://developer.roblox.com/en-us/api-reference/class/Texture) will rotate along with the [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart).
+- This property can be set to very low values, but not zero
+- The horisontal . vertical distinction is relative to the ](https://create.roblox.com/docs/reference/engine/classes/
+
+Note:
+
+- This property can be set to very low values, but not zero
+- The horisontal # vertical distinction is relative to the )BasePart`s
+  axis. Therefore, the `Texture` will rotate along with the `BasePart`.

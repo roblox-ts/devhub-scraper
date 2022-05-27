@@ -1,3 +1,6 @@
-A read only property that returns the length (in seconds) of an [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack). This will return 0 until the animation has fully loaded and thus may not be immediately available.
+A read only property that returns the length (in seconds) of an
+[AnimationTrack](https://create.roblox.com/docs/reference/engine/classes/AnimationTrack). This will return 0 until the animation has fully loaded
+and thus may not be immediately available.
 
-When the [AnimationTrack.Speed](https://developer.roblox.com/en-us/api-reference/property/AnimationTrack/Speed) of an [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) is equal to 1, the animation will take [AnimationTrack.Length](https://developer.roblox.com/en-us/api-reference/property/AnimationTrack/Length) (in seconds) to complete.
+When the [AnimationTrack.Speed](https://create.roblox.com/docs/reference/engine/classes/AnimationTrack#Speed) of an [AnimationTrack](https://create.roblox.com/docs/reference/engine/classes/AnimationTrack) is equal to 1, the
+animation will take [AnimationTrack.Length](https://create.roblox.com/docs/reference/engine/classes/AnimationTrack#Length) (in seconds) to complete.

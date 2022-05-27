@@ -1,1 +1,1 @@
-The visualized radius of the [HingeConstraint](https://developer.roblox.com/en-us/api-reference/class/HingeConstraint).
+The visualized radius of the [HingeConstraint](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint).

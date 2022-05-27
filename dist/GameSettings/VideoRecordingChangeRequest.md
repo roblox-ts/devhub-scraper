@@ -1,1 +1,0 @@
-The VideoRecordingChangeRequest event fires when the user starts or stops recording.

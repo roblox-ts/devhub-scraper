@@ -1,1 +1,0 @@
-This event fires when the receiver is attached to a different [CustomEvent](https://developer.roblox.com/en-us/api-reference/class/CustomEvent), when the `CustomEventReciever/Source` property is changed.

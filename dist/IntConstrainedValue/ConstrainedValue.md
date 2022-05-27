@@ -1,1 +1,3 @@
-Hold a `Integer` value between [IntConstrainedValue.MinValue](https://developer.roblox.com/en-us/api-reference/property/IntConstrainedValue/MinValue) and [IntConstrainedValue.MaxValue](https://developer.roblox.com/en-us/api-reference/property/IntConstrainedValue/MaxValue). Replaced by [IntConstrainedValue.Value](https://developer.roblox.com/en-us/api-reference/property/IntConstrainedValue/Value), but still functional.
+Hold a `Integer` value between [IntConstrainedValue.MinValue](https://create.roblox.com/docs/reference/engine/classes/IntConstrainedValue#MinValue) and
+[IntConstrainedValue.MaxValue](https://create.roblox.com/docs/reference/engine/classes/IntConstrainedValue#MaxValue). Replaced by [IntConstrainedValue.Value](https://create.roblox.com/docs/reference/engine/classes/IntConstrainedValue#Value),
+but still functional.

@@ -1,3 +1,8 @@
-An instance representing a 1D float curve encoded via a sorted list of [FloatCurveKeys](https://developer.roblox.com/en-us/api-reference/datatype/FloatCurveKey).
+An instance representing a 1D float curve encoded via a sorted list of
+[FloatCurveKeys](https://developer.roblox.com/en-us/api-reference/datatype/FloatCurveKey).
 
-[FloatCurveKeys](https://developer.roblox.com/en-us/api-reference/datatype/FloatCurveKey) are value-time points that represent the changes in value over time. The changes of a single value over time are represented by a curve. Animators can edit keys to modify a curve. The shape of the curve is dictated by the [KeyInterpolationMode](https://developer.roblox.com/en-us/api-reference/enum/KeyInterpolationMode) chosen at each key.
+[FloatCurveKeys](https://developer.roblox.com/en-us/api-reference/datatype/FloatCurveKey) are value-time points that represent
+the changes in value over time. The changes of a single value over time are
+represented by a curve. Animators can edit keys to modify a curve. The shape
+of the curve is dictated by the [KeyInterpolationMode](https://developer.roblox.com/en-us/api-reference/enum/KeyInterpolationMode) chosen at each
+key.

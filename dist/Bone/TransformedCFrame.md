@@ -1,7 +1,9 @@
-**TransformedCFrame** describes the combined [CFrame](https://developer.roblox.com/en-us/api-reference/property/Attachment/CFrame) offset of the bone and the current animation offset ([Transform](https://developer.roblox.com/en-us/api-reference/property/Bone/Transform)) in the bone's local space.
+**TransformedCFrame** describes the combined [CFrame](https://create.roblox.com/docs/reference/engine/classes/Attachment#CFrame)
+offset of the bone and the current animation offset
+([Transform](https://create.roblox.com/docs/reference/engine/classes/Bone#Transform)) in the bone's local space.
 
-See also
---------
+See also:
 
-*   [Transform](https://developer.roblox.com/en-us/api-reference/property/Bone/Transform), a property which partially determines this property's value
-*   [Bone.TransformedWorldCFrame](https://developer.roblox.com/en-us/api-reference/property/Bone/TransformedWorldCFrame), a world-space variant of this property
+- [Transform](https://create.roblox.com/docs/reference/engine/classes/Bone#Transform), a property which partially determines this
+  property's value
+- [Bone.TransformedWorldCFrame](https://create.roblox.com/docs/reference/engine/classes/Bone#TransformedWorldCFrame), a world-space variant of this property

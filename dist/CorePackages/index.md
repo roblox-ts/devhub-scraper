@@ -1,1 +1,2 @@
-An internal service which stores [ModuleScript](https://developer.roblox.com/en-us/api-reference/class/ModuleScript)s used by Roblox's [CoreScript](https://developer.roblox.com/en-us/api-reference/class/CoreScript)s.
+An internal service which stores [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript)s used by Roblox's
+[CoreScript](https://create.roblox.com/docs/reference/engine/classes/CoreScript)s.

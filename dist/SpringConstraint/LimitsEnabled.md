@@ -1,1 +1,7 @@
-Sets whether the [SpringConstraint](https://developer.roblox.com/en-us/api-reference/class/SpringConstraint) enforces a minimum and maximum length. If the [SpringConstraint](https://developer.roblox.com/en-us/api-reference/class/SpringConstraint)'s [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment) reach these limits, they will simply stop moving apart from one another without restitution. If you need restitution or elasticity at the ends of the range of motion, you can combine a [SpringConstraint](https://developer.roblox.com/en-us/api-reference/class/SpringConstraint) with another constraint that allows restitution at the end of its range, such as a [PrismaticConstraint](https://developer.roblox.com/en-us/api-reference/class/PrismaticConstraint) or [RopeConstraint](https://developer.roblox.com/en-us/api-reference/class/RopeConstraint).
+Sets whether the [SpringConstraint](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint) enforces a minimum and maximum length.
+If the [SpringConstraint](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint)'s [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment) reach these limits, they will
+simply stop moving apart from one another without restitution. If you need
+restitution or elasticity at the ends of the range of motion, you can
+combine a [SpringConstraint](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint) with another constraint that allows
+restitution at the end of its range, such as a [PrismaticConstraint](https://create.roblox.com/docs/reference/engine/classes/PrismaticConstraint) or
+[RopeConstraint](https://create.roblox.com/docs/reference/engine/classes/RopeConstraint).

@@ -1,1 +1,0 @@
-Returns a list of [TouchMovementMode](https://developer.roblox.com/en-us/api-reference/enum/TouchMovementMode) that were registered using [PlayerScripts:RegisterTouchMovementMode](https://developer.roblox.com/en-us/api-reference/function/PlayerScripts/RegisterTouchMovementMode).

@@ -1,6 +1,7 @@
-An object that specifies additional parameters for a [GlobalDataStore:IncrementAsync](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/IncrementAsync) call.
+An object that specifies additional parameters for a
+[GlobalDataStore:IncrementAsync](https://create.roblox.com/docs/reference/engine/classes/GlobalDataStore#IncrementAsync) call.
 
-See Also
---------
+See also:
 
-*   [Data Stores](https://developer.roblox.com/en-us/articles/data-store), an in-depth guide on data structure, management, error handling, etc.
+- [Data Stores](/scripting/data/data-stores), an in-depth guide on data
+  structure, management, error handling, etc.

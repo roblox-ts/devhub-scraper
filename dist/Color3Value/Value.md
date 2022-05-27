@@ -1,1 +1,1 @@
-The stored [Color3](https://developer.roblox.com/api-reference/datatype/Color3 "Color3").
+The stored [Color3](/reference/engine/datatypes/Color3).

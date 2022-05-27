@@ -1,12 +1,46 @@
-A ParticleEmitter allows for the creation of [particle systems](https://en.wikipedia.org/wiki/Particle_system). It is a special effect object that emits customizable 2D billboard particles into the world. On Roblox, a particle is a square 2D image, like a [BillboardGui](https://developer.roblox.com/en-us/api-reference/class/BillboardGui) or [SurfaceGui](https://developer.roblox.com/en-us/api-reference/class/SurfaceGui) with an [ImageLabel](https://developer.roblox.com/en-us/api-reference/class/ImageLabel).
+A ParticleEmitter allows for the creation of [particle systems][1]. It is a
+special effect object that emits customizable 2D billboard particles into the
+world. On Roblox, a particle is a square 2D image, like a [BillboardGui](https://create.roblox.com/docs/reference/engine/classes/BillboardGui) or
+[SurfaceGui](https://create.roblox.com/docs/reference/engine/classes/SurfaceGui) with an [ImageLabel](https://create.roblox.com/docs/reference/engine/classes/ImageLabel).
 
-To emit and render particles, a ParticleEmitter must be parented to a [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart) (such as a [Part](https://developer.roblox.com/en-us/api-reference/class/Part)) or an [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment) within such a part. Particles are emit automatically when the emitter is [Enabled](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Enabled) with a non-zero [Rate](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Rate), or manually when the [Emit](https://developer.roblox.com/en-us/api-reference/function/ParticleEmitter/Emit) method is called. The starting positions of particles are determined by the [Shape](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Shape) and [ShapePartial](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/ShapePartial) properties as well as the parent [BasePart.Size](https://developer.roblox.com/en-us/api-reference/property/BasePart/Size). By default, particles spawn randomly in the **bounding box** of the parent part, although this can be configured to be on a specific surface by the emitter's [ShapeStyle](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/ShapeStyle) and [EmissionDirection](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/EmissionDirection). With a non-zero [Speed](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Speed), particles are set in motion outwards and/or inwards, depending on the [ShapeInOut](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/ShapeInOut) property. The direction can be randomized with [SpreadAngle](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/SpreadAngle). By default, particles face the camera, but the [Orientation](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Orientation) can be modified to respect the particle velocity instead.
+To emit and render particles, a ParticleEmitter must be parented to a
+[BasePart](https://create.roblox.com/docs/reference/engine/classes/BasePart) (such as a [Part](https://create.roblox.com/docs/reference/engine/classes/Part)) or an [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment) within such a part. Particles
+are emit automatically when the emitter is [Enabled](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Enabled)
+with a non-zero [Rate](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Rate), or manually when the
+[Emit](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Emit) method is called. The starting positions of
+particles are determined by the [Shape](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Shape) and
+[ShapePartial](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#ShapePartial) properties as well as the parent
+[BasePart.Size](https://create.roblox.com/docs/reference/engine/classes/BasePart#Size). By default, particles spawn randomly in the **bounding box**
+of the parent part, although this can be configured to be on a specific
+surface by the emitter's [ShapeStyle](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#ShapeStyle) and
+[EmissionDirection](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#EmissionDirection). With a non-zero
+[Speed](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Speed), particles are set in motion outwards and/or
+inwards, depending on the [ShapeInOut](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#ShapeInOut) property.
+The direction can be randomized with
+[SpreadAngle](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#SpreadAngle). By default, particles face the
+camera, but the [Orientation](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Orientation) can be modified to
+respect the particle velocity instead.
 
-During the [Lifetime](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Lifetime) of the particles, they can change appearance according to the [Color](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Color) and [Size](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Size). Their motion can change over time according to the [Drag](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Drag) and [Acceleration](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Acceleration) properties, and they can also move as their parent moves when they are [LockedToPart](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/LockedToPart) or have a non-zero [VelocityInheritance](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/VelocityInheritance).
+During the [Lifetime](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Lifetime) of the particles, they can
+change appearance according to the [Color](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Color) and
+[Size](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Size). Their motion can change over time according to
+the [Drag](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Drag) and
+[Acceleration](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Acceleration) properties, and they can also move
+as their parent moves when they are
+[LockedToPart](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#LockedToPart) or have a non-zero
+[VelocityInheritance](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#VelocityInheritance).
 
-Roblox provides several pre-made particle effect objects - [Fire](https://developer.roblox.com/en-us/api-reference/class/Fire), [Smoke](https://developer.roblox.com/en-us/api-reference/class/Smoke) and [Sparkles](https://developer.roblox.com/en-us/api-reference/class/Sparkles). They behave similarly to a ParticleEmitter, but they are not as customizable. They also lack the particle-controlling methods ([Emit](https://developer.roblox.com/en-us/api-reference/function/ParticleEmitter/Emit) and [Clear](https://developer.roblox.com/en-us/api-reference/function/ParticleEmitter/Clear)). An [Explosion](https://developer.roblox.com/en-us/api-reference/class/Explosion) also creates particles, but provides little-to-no control with regards to how the effect looks.
+Roblox provides several pre-made particle effect objects - [Fire](https://create.roblox.com/docs/reference/engine/classes/Fire), [Smoke](https://create.roblox.com/docs/reference/engine/classes/Smoke) and
+[Sparkles](https://create.roblox.com/docs/reference/engine/classes/Sparkles). They behave similarly to a ParticleEmitter, but they are not as
+customizable. They also lack the particle-controlling methods
+([Emit](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Emit) and [Clear](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Clear)). An
+[Explosion](https://create.roblox.com/docs/reference/engine/classes/Explosion) also creates particles, but provides little-to-no control with
+regards to how the effect looks.
 
-See also
---------
+See also:
 
-*   To learn more about creating, using, and customizing particle emitters check out [this](https://developer.roblox.com/articles/Particle-Emitters) article
+- To learn more about creating, using, and customizing particle emitters check
+  out [this][2] article
+
+[1]: https://en.wikipedia.org/wiki/Particle_system
+[2]: /building-and-visuals/lighting-and-effects/particle-emitters

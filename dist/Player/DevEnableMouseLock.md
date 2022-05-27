@@ -1,8 +1,18 @@
-This property determines if a player is able to toggle **[mouse](https://developer.roblox.com/en-us/api-reference/class/Mouse) lock** by pressing **Shift**. A player can disable the mouse lock switch in Roblox's game settings. By default, this property is set to the value of [StarterPlayer.EnableMouseLockOption](https://developer.roblox.com/en-us/api-reference/property/StarterPlayer/EnableMouseLockOption). This can be set server-side during run-time by using a [Script](https://developer.roblox.com/en-us/api-reference/class/Script). It can not be set client-side.
+This property determines if a player is able to toggle **[mouse](https://create.roblox.com/docs/reference/engine/classes/Mouse)
+lock** by pressing **Shift**. A player can disable the mouse lock switch
+in Roblox's game settings. By default, this property is set to the value
+of [StarterPlayer.EnableMouseLockOption](https://create.roblox.com/docs/reference/engine/classes/StarterPlayer#EnableMouseLockOption). This can be set server-side
+during run-time by using a [Script](https://create.roblox.com/docs/reference/engine/classes/Script). It can not be set client-side.
 
-What is Mouse Lock?
--------------------
+#### What is Mouse Lock?
 
-When mouse lock is enabled, the player's cursor is locked to the center of the screen. Moving the mouse will orbit the camera around the player's [character](https://developer.roblox.com/en-us/api-reference/property/Player/Character), and character will face the same direction as the [camera](https://developer.roblox.com/en-us/api-reference/class/Camera). It also offsets the camera view just over the right shoulder of the player's character.
+When mouse lock is enabled, the player's cursor is locked to the center of
+the screen. Moving the mouse will orbit the camera around the player's
+[character](https://create.roblox.com/docs/reference/engine/classes/Player#Character), and character will face the same direction
+as the [camera](https://create.roblox.com/docs/reference/engine/classes/Camera). It also offsets the camera view just over the
+right shoulder of the player's character.
 
-Below, the camera is moved left and right first by holding right-click. Then, mouse lock is enabled which changes the mouse to a target reticule, and offsets the camera. The camera is again moved left and right (without holding right click).
+Below, the camera is moved left and right first by holding right-click.
+Then, mouse lock is enabled which changes the mouse to a target reticule,
+and offsets the camera. The camera is again moved left and right (without
+holding right click).

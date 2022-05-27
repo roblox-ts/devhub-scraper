@@ -1,1 +1,0 @@
-Forces Roblox to toggle its fullscreen state.

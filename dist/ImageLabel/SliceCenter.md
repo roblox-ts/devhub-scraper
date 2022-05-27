@@ -1,4 +1,11 @@
-The SliceCenter property sets the slice boundaries of a 9-sliced image when [ImageLabel.ScaleType](https://developer.roblox.com/en-us/api-reference/property/ImageLabel/ScaleType) is set to [Enum.ScaleType.Slice](https://developer.roblox.com/en-us/api-reference/class/Enum/ScaleType/Slice). Please note that this property is only visible in the Studio Properties Pane if [ImageLabel.ScaleType](https://developer.roblox.com/en-us/api-reference/property/ImageLabel/ScaleType) is set to [Enum.ScaleType.Slice](https://developer.roblox.com/en-us/api-reference/class/Enum/ScaleType/Slice).  
-Select this property and click the “…” button to open the 9-Slice Editor, a built-in visual editor for setting the slice boundaries.
+The SliceCenter property sets the slice boundaries of a 9-sliced image
+when [ImageLabel.ScaleType](https://create.roblox.com/docs/reference/engine/classes/ImageLabel#ScaleType) is set to
+[Enum.ScaleType.Slice](https://create.roblox.com/docs/reference/engine/classes/Enum/ScaleType/Slice). Please note that this
+property is only visible in the Studio Properties Pane if
+[ImageLabel.ScaleType](https://create.roblox.com/docs/reference/engine/classes/ImageLabel#ScaleType) is set to
+[Enum.ScaleType.Slice](https://create.roblox.com/docs/reference/engine/classes/Enum/ScaleType/Slice). Select this property and
+click the "..." button to open the 9-Slice Editor, a built-in visual
+editor for setting the slice boundaries.
 
-To learn more about 9-sliced images, check out this tutorial: [UI 9 Slice Design](https://developer.roblox.com/articles/ui-9-slice-design).
+To learn more about 9-sliced images, check out this tutorial:
+[UI 9 Slice Design](/building-and-visuals/ui/ui-9-slice-design).

@@ -1,1 +1,0 @@
-Prompts the [Players.LocalPlayer](https://developer.roblox.com/en-us/api-reference/property/Players/LocalPlayer) to delete the given outfit. Does not yield. The result can be retrieved by listening to the [AvatarEditorService.PromptDeleteOutfitCompleted](https://developer.roblox.com/en-us/api-reference/event/AvatarEditorService/PromptDeleteOutfitCompleted) event.

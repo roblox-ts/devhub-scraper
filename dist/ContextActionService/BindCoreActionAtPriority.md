@@ -1,1 +1,0 @@
-Functions identically to [ContextActionService:BindActionAtPriority](https://developer.roblox.com/en-us/api-reference/function/ContextActionService/BindActionAtPriority), but the action is bound at a CoreScript level, so it has higher priority over developer defined actions.

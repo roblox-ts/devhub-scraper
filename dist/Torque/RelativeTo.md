@@ -1,1 +1,2 @@
-The [CFrame](https://developer.roblox.com/api-reference/datatype/CFrame "CFrame") in which the Torque is expressed.
+The [CFrame](/reference/engine/datatypes/CFrame) in which the
+Torque is expressed.

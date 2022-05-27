@@ -1,1 +1,0 @@
-Samples the [EulerRotationCurve](https://developer.roblox.com/en-us/api-reference/class/EulerRotationCurve) at a given time and returns the corresponding rotation. Empty Euler angles channels are interpreted as zero.

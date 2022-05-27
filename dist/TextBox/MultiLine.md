@@ -1,1 +1,3 @@
-When set to true, text inside a TextBox is able to move onto multiple lines. This also enables players to use the enter key to move onto a new line.
+When set to true, text inside a TextBox is able to move onto multiple
+lines. This also enables players to use the enter key to move onto a new
+line.

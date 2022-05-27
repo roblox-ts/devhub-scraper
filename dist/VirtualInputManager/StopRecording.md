@@ -1,1 +1,0 @@
-Stops recording input, and fires the [VirtualInputManager.RecordingCompleted](https://developer.roblox.com/en-us/api-reference/event/VirtualInputManager/RecordingCompleted) event with the data that was recorded.

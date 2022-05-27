@@ -1,1 +1,2 @@
-The [SecondaryAxis](https://developer.roblox.com/en-us/api-reference/property/Attachment/SecondaryAxis) is the direction of the [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment)'s Y-Axis, represented as a unit `Vector3`.
+The direction of the [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment)'s Y-Axis, represented as a unit
+[Vector3](https://developer.roblox.com/en-us/api-reference/datatype/Vector3).

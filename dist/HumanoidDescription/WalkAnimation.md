@@ -1,7 +1,16 @@
-When this description is [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) to a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid), **WalkAnimation** determines the [Animation.AnimationId](https://developer.roblox.com/en-us/api-reference/property/Animation/AnimationId) to play when its [state](https://developer.roblox.com/en-us/api-reference/function/Humanoid/GetState) is [Running](https://developer.roblox.com/en-us/api-reference/enum/HumanoidStateType) at a low speed
+When this description is [applied](https://create.roblox.com/docs/reference/engine/classes/Humanoid#ApplyDescription) to a
+[Humanoid](https://create.roblox.com/docs/reference/engine/classes/Humanoid), **WalkAnimation** determines the [Animation.AnimationId](https://create.roblox.com/docs/reference/engine/classes/Animation#AnimationId) to
+play when its [state](https://create.roblox.com/docs/reference/engine/classes/Humanoid#GetState) is
+[Running](https://developer.roblox.com/en-us/api-reference/enum/HumanoidStateType) at a low speed
 
-See also
---------
+See also:
 
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
-*   [ClimbAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/FallAnimation), [FallAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/FallAnimation), [IdleAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/IdleAnimation), [JumpAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/JumpAnimation), [RunAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/RunAnimation) and [SwimAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/SwimAnimation), which are similar properties that determine animations to play on the rig
+- [HumanoidDescription System](/avatar/characters/character-customization#humanoiddescription),
+  for more information on [HumanoidDescription](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription).
+- [ClimbAnimation](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#FallAnimation),
+  [FallAnimation](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#FallAnimation),
+  [IdleAnimation](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#IdleAnimation),
+  [JumpAnimation](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#JumpAnimation),
+  [RunAnimation](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#RunAnimation) and
+  [SwimAnimation](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#SwimAnimation), which are similar
+  properties that determine animations to play on the rig

@@ -1,1 +1,0 @@
-Controls whether or not the [Debris.MaxItems](https://developer.roblox.com/en-us/api-reference/property/Debris/MaxItems) property should use a legacy method or not.

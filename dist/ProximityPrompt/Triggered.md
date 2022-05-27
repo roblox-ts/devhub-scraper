@@ -1,1 +1,0 @@
-This event is triggered when the prompt [key](https://developer.roblox.com/en-us/api-reference/property/ProximityPrompt/KeyboardKeyCode)/button is pressed, or after a specified amount of time holding the button, if [ProximityPrompt.HoldDuration](https://developer.roblox.com/en-us/api-reference/property/ProximityPrompt/HoldDuration) is used.

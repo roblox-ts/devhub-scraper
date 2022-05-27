@@ -1,1 +1,2 @@
-Allows the StarterGui service to process input like [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui) and [CoreGui](https://developer.roblox.com/en-us/api-reference/class/CoreGui) do. The default value is false.
+Allows the StarterGui service to process input like [PlayerGui](https://create.roblox.com/docs/reference/engine/classes/PlayerGui) and
+[CoreGui](https://create.roblox.com/docs/reference/engine/classes/CoreGui) do. The default value is false.

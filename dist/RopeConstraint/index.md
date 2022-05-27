@@ -1,1 +1,3 @@
-A RopeConstraint constrains two [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment) to separate no further than the length specified by [RopeConstraint.Length](https://developer.roblox.com/en-us/api-reference/property/RopeConstraint/Length). The attachments can move closer together than this length and can both freely rotate.
+A RopeConstraint constrains two [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment) to separate no further than the
+length specified by [RopeConstraint.Length](https://create.roblox.com/docs/reference/engine/classes/RopeConstraint#Length). The attachments can move closer
+together than this length and can both freely rotate.

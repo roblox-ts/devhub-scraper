@@ -1,1 +1,0 @@
-Fired whenever the [DoubleConstrainedValue.Value](https://developer.roblox.com/en-us/api-reference/property/DoubleConstrainedValue/Value) of the [DoubleConstrainedValue](https://developer.roblox.com/en-us/api-reference/class/DoubleConstrainedValue) is changed.

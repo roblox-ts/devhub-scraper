@@ -1,1 +1,0 @@
-This function is used to read the contents of the [File](https://developer.roblox.com/en-us/api-reference/class/File) as a raw binary string. This allows the file to be uploaded to web endpoints, or to be processed by plugins.

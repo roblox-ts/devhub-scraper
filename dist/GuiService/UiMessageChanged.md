@@ -1,1 +1,0 @@
-Fired when [GuiService:SetUiMessage](https://developer.roblox.com/en-us/api-reference/function/GuiService/SetUiMessage) is called.

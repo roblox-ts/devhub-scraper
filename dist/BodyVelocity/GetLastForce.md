@@ -1,1 +1,0 @@
-**GetLastForce** is not implemented. It will always return the 0 vector. Developers are advised to use [AlignPosition](https://developer.roblox.com/api-reference/class/AlignPosition) instead

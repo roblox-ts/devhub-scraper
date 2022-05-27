@@ -1,3 +1,0 @@
-Fires whenever the [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) finishes playing.
-
-This event has a number of uses. It can be used to wait until an [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) has stopped before continuing (for example, if chaining a series of animations to play after each other). It can also be used to clean up any [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance)s created during the animation playback.

@@ -1,0 +1,1 @@
+Immutable data object representing a text chat message.

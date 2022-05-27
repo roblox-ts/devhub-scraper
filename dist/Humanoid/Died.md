@@ -1,3 +1,0 @@
-This event fires when the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) dies, usually when [Humanoid.Health](https://developer.roblox.com/en-us/api-reference/property/Humanoid/Health) reaches 0. This could be caused either by disconnecting their head from their [Humanoid.Torso](https://developer.roblox.com/en-us/api-reference/property/Humanoid/Torso), or directly setting the health property.
-
-This event only fires if the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is a descendant of the [Workspace](https://developer.roblox.com/en-us/api-reference/class/Workspace). If the _Dead_ [HumanoidStateType](https://developer.roblox.com/en-us/api-reference/enum/HumanoidStateType) is disabled it will not fire.

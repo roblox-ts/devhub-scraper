@@ -1,1 +1,1 @@
-Number of rotation keys in this curve
+Number of rotation keys in this curve.

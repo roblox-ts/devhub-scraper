@@ -1,2 +1,0 @@
-Indicates whether or not this game should run in full-screen.  
-This property cannot be read by LocalScripts, you should use the [UserGameSettings:InFullScreen](https://developer.roblox.com/en-us/api-reference/function/UserGameSettings/InFullScreen) function to detect it instead.

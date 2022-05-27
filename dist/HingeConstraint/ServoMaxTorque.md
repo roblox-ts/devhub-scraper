@@ -1,1 +1,3 @@
-The maximum torque a [HingeConstraint](https://developer.roblox.com/en-us/api-reference/class/HingeConstraint) with [HingeConstraint.ActuatorType](https://developer.roblox.com/en-us/api-reference/property/HingeConstraint/ActuatorType) set to [Servo](https://developer.roblox.com/en-us/api-reference/enum/ActuatorType) can apply when trying to reach its desired [HingeConstraint.AngularSpeed](https://developer.roblox.com/en-us/api-reference/property/HingeConstraint/AngularSpeed).
+The maximum torque a [HingeConstraint](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint) with [HingeConstraint.ActuatorType](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint#ActuatorType)
+set to [Servo](https://developer.roblox.com/en-us/api-reference/enum/ActuatorType) can apply when trying to reach its
+desired [HingeConstraint.AngularSpeed](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint#AngularSpeed).

@@ -1,1 +1,2 @@
-The original name of the [ScreenGui](https://developer.roblox.com/en-us/api-reference/class/ScreenGui). This class functions identically to the ScreenGui, and should not be used.
+The original name of the [ScreenGui](https://create.roblox.com/docs/reference/engine/classes/ScreenGui). This class functions identically to the
+ScreenGui, and should not be used.

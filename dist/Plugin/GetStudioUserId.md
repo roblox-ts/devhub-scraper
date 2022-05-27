@@ -1,1 +1,0 @@
-Returns the studio user's userId if they're logged in, otherwise returns 0.

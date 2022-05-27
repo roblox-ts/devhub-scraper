@@ -1,1 +1,0 @@
-Preloads a generated asset thumbnail, waiting until it is generated to return. Returns the URL to the image, and a boolean describing if the preload was successful.

@@ -1,29 +1,45 @@
-The NoCollisionConstraint is an instance used to prevent collisions between two specific parts. Connected [Parts](https://developer.roblox.com/en-us/api-reference/class/BasePart) will have no collision reaction between them, but can still have collisions with the rest of the world. Both parts can still receive touch events.
+The NoCollisionConstraint is an instance used to prevent collisions between
+two specific parts. Connected [Parts](https://create.roblox.com/docs/reference/engine/classes/BasePart) will have no collision reaction
+between them, but can still have collisions with the rest of the world. Both
+parts can still receive touch events.
 
-Using a NoCollisionConstraint will allow you to create and share [Models](https://developer.roblox.com/en-us/api-reference/class/Model) with customized collision filtering. While you can still achieve collision filtering with [Collision Groups](https://developer.roblox.com/articles/Collision-Filtering), you are unable to export that information to a model without adding a script to set them when the game runs.
+Using a NoCollisionConstraint allows you to create and share [Models](https://create.roblox.com/docs/reference/engine/classes/Model)
+with customized collision filtering. You can still achieve collision filtering
+with [Collision Groups][1], but you can't export that information to a model
+without adding a script to set them when the game runs.
 
-It also provides a quicker way to disable specific problematic collisions. However, if you are trying to spot a large number of parts from colliding with another, it might be better to use [Collision Groups](https://developer.roblox.com/articles/Collision-Filtering).
+It also provides a quicker way to disable specific problematic collisions.
+However, if you are trying to spot a large number of parts from colliding with
+another, it might be better to use [Collision Groups][2].
 
-![NoCollisionConstraint Demo](https://developer.roblox.com/assets/blt1bdbb753907c17e2/NoCollisionConstraintDemo-min.gif)
+![NoCollisionConstraint Demo][3]
 
-The easiest way to add an NoCollisionConstraint is from the Create Constraint dropdown menu.
+The easiest way to add an NoCollisionConstraint is from the Create Constraint
+dropdown menu.
 
-![Creating a NoCollisionConstraint](https://developer.roblox.com/assets/bltfc3e108f2decb90f/SettingNoCollisionConstraint-min.gif)
+![Creating a NoCollisionConstraint][4]
 
-Similar to other constraints, this tool will act differently based on how many parts are selected when the tool is activated.
+Similar to other constraints, this tool will act differently based on how many
+parts are selected when the tool is activated.
 
-No Parts Selected
------------------
+## No Parts Selected
 
-If no parts are selected when the NoCollisionConstraint tool is clicked, the next two parts that are clicked on will be connected. If the same part is clicked twice no link will be created.
+If no parts are selected when the NoCollisionConstraint tool is clicked, the
+next two parts that are clicked on will be connected. If the same part is
+clicked twice no link will be created.
 
-One Part Selected
------------------
+## One Part Selected
 
-If one part is selected when the NoCollisionConstraint tool is clicked, the next part that is clicked on will be connected to the selected part.
+If one part is selected when the NoCollisionConstraint tool is clicked, the
+next part that is clicked on will be connected to the selected part.
 
-Two Parts Selected
-------------------
+## Two Parts Selected
 
-If two parts are selected when the NoCollisionConstraint tool is clicked, the two parts will be connected.  
-You cannot create an NoCollisionConstraint with more than two parts selected.
+If two parts are selected when the NoCollisionConstraint tool is clicked, the
+two parts will be connected. You cannot create an NoCollisionConstraint with
+more than two parts selected.
+
+[1]: /building-and-visuals/physics/collision-filtering
+[2]: /building-and-visuals/physics/collision-filtering
+[3]: https://prod.docsiteassets.roblox.com/assets/blt1bdbb753907c17e2/NoCollisionConstraintDemo-min.gif
+[4]: https://prod.docsiteassets.roblox.com/assets/bltfc3e108f2decb90f/SettingNoCollisionConstraint-min.gif

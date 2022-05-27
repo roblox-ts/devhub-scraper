@@ -1,1 +1,0 @@
-The GetTutorialState function returns the boolean state of a specified _tutorialId_.

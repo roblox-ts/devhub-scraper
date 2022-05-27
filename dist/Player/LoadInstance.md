@@ -1,1 +1,0 @@
-This function returns an instance that was previously saved to the player with [Player:SaveInstance](https://developer.roblox.com/en-us/api-reference/function/Player/SaveInstance) with the same key. Returns nil if the key doesn't exist.

@@ -1,1 +1,4 @@
-The desired speed a [SlidingBallConstraint](https://developer.roblox.com/en-us/api-reference/class/SlidingBallConstraint) with [SlidingBallConstraint.ActuatorType](https://developer.roblox.com/en-us/api-reference/property/SlidingBallConstraint/ActuatorType) set to [ActuatorType](https://developer.roblox.com/en-us/api-reference/enum/ActuatorType) will attempt to maintain while translating towards its [SlidingBallConstraint.TargetPosition](https://developer.roblox.com/en-us/api-reference/property/SlidingBallConstraint/TargetPosition). Measured in studs/second.
+The desired speed a [SlidingBallConstraint](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint) with
+[SlidingBallConstraint.ActuatorType](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint#ActuatorType) set to [ActuatorType](https://developer.roblox.com/en-us/api-reference/enum/ActuatorType) will
+attempt to maintain while translating towards its
+[SlidingBallConstraint.TargetPosition](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint#TargetPosition). Measured in studs/second.

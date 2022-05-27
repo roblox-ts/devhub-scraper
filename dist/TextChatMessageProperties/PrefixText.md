@@ -1,0 +1,1 @@
+The `TextChatMessage.PrefixText` to override.

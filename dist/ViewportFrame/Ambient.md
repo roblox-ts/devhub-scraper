@@ -1,1 +1,2 @@
-This property determines the lighting hue applied to the area within the [ViewportFrame](https://developer.roblox.com/en-us/api-reference/class/ViewportFrame). This property defaults to 200, 200, 200 (ghost grey).
+This property determines the lighting hue applied to the area within the
+[ViewportFrame](https://create.roblox.com/docs/reference/engine/classes/ViewportFrame). This property defaults to 200, 200, 200 (ghost grey).

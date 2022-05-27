@@ -1,1 +1,0 @@
-The Insert function is an ancient method used to insert an [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) into Workspace.

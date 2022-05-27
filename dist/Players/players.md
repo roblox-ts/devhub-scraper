@@ -1,1 +1,0 @@
-This function was once used to return a list of players in a game, but has since been deprecated in favor of [Players:GetPlayers](https://developer.roblox.com/en-us/api-reference/function/Players/GetPlayers)

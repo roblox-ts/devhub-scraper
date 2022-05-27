@@ -1,1 +1,0 @@
-Simulates the user holding a key down.

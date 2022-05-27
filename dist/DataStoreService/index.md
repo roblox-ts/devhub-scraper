@@ -1,3 +1,7 @@
-**DataStoreService** exposes methods for getting [GlobalDataStore](https://developer.roblox.com/en-us/api-reference/class/GlobalDataStore) and [OrderedDataStore](https://developer.roblox.com/en-us/api-reference/class/OrderedDataStore) objects. Data stores can only be accessed by game servers, so you can only use [DataStoreService](https://developer.roblox.com/en-us/api-reference/class/DataStoreService) within a [Script](https://developer.roblox.com/en-us/api-reference/class/Script) or a [ModuleScript](https://developer.roblox.com/en-us/api-reference/class/ModuleScript) that is used by a [Script](https://developer.roblox.com/en-us/api-reference/class/Script).
+**DataStoreService** exposes methods for getting [GlobalDataStore](https://create.roblox.com/docs/reference/engine/classes/GlobalDataStore) and
+[OrderedDataStore](https://create.roblox.com/docs/reference/engine/classes/OrderedDataStore) objects. Data stores can only be accessed by game servers,
+so you can only use [DataStoreService](https://create.roblox.com/docs/reference/engine/classes/DataStoreService) within a [Script](https://create.roblox.com/docs/reference/engine/classes/Script) or a [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript)
+that is used by a [Script](https://create.roblox.com/docs/reference/engine/classes/Script).
 
-See the [Data Stores](https://developer.roblox.com/en-us/articles/data-store) article for an in-depth guide on data structure, management, error handling, etc.
+See [Data Stores](/scripting/data/data-stores) for an in-depth guide on data
+structure, management, error handling, etc.

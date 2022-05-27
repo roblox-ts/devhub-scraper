@@ -1,1 +1,0 @@
-The GetShouldUserLuaChat function returns true if the game should be using the new [PlayerScripts](https://developer.roblox.com/en-us/api-reference/class/PlayerScripts)\-based chat system, or the legacy [CoreScript](https://developer.roblox.com/en-us/api-reference/class/CoreScript) chat system.
