@@ -1,40 +1,37 @@
 import axios from "axios";
-import cheerio from "cheerio";
 import fs from "fs-extra";
 import path from "path";
-import TurndownService from "turndown";
 import { ApiDump, ApiMember } from "./api";
+
 import {
 	API_DUMP_URL,
 	API_URL,
 	ARTICLES_URL,
-	BASE_URL,
-	CLASS_SELECTOR,
+	ASSETS_SITE_URL,
+	BUILD_ID_REGEX,
+	CREATE_DOCS_URL,
 	DIST,
 	FIELD_REGEX,
-	FIELD_SELECTOR,
 	LINK_TEXT_REGEX,
 } from "./constants";
 import { sleep } from "./util/sleep";
+import { transformHtml } from "./util/transformHtml";
 
-type ApiType = "property" | "function" | "event";
-
-const MEMBER_TYPE_TO_API_TYPE: { [K in ApiMember["MemberType"]]: ApiType } = {
-	Property: "property",
-	Function: "function",
-	Event: "event",
-	Callback: "property",
-};
+const HTML_BLACKLIST = new Set([
+	"BodyAngularVelocity.P", // misinterprets "<https" as an element
+	"BodyGyro.P", // misinterprets "<https" as an element
+	"BodyPosition.P", // misinterprets "<https" as an element
+	"BodyVelocity.P", // misinterprets "<https" as an element
+	"RocketPropulsion.ThrustP", // misinterprets "<https" as an element
+	"RocketPropulsion.TurnP", // misinterprets "<https" as an element
+	"UIStroke", // misinterprets "<stroke>" as an element
+]);
 
 class Generator {
-	private readonly turndownService: TurndownService;
-
 	private constructor(
 		private readonly apiDump: ApiDump,
 		private readonly apiTypeMap: Map<string, Map<string, ApiMember["MemberType"]>>,
-	) {
-		this.turndownService = this.createTurndownService();
-	}
+	) {}
 
 	public static async create() {
 		const apiDumpResponse = await axios.get(API_DUMP_URL);
@@ -52,24 +49,31 @@ class Generator {
 		return new Generator(apiDump, apiTypeMap);
 	}
 
+	public async getBuildId() {
+		const response = await axios.get<string>(CREATE_DOCS_URL);
+		return response.data.match(BUILD_ID_REGEX)?.[1];
+	}
+
 	public async run() {
-		const tasks = new Array<[string, string | undefined]>();
+		const tasks = new Array<string>();
 
 		// debugging
-		// tasks.push(["Accoutrement", undefined]);
-		// tasks.push(["AlignOrientation", "AlignType"]);
+		// tasks.push("TextBox");
+		// tasks.push("AlignOrientation");
 
 		for (const apiClass of this.apiDump.Classes) {
-			tasks.push([apiClass.Name, undefined]);
-			for (const apiMember of apiClass.Members) {
-				tasks.push([apiClass.Name, apiMember.Name]);
-			}
+			tasks.push(apiClass.Name);
+		}
+
+		const buildId = await this.getBuildId();
+		if (buildId === undefined) {
+			throw "Unable to fetch build ID!";
 		}
 
 		for (let i = 0; i < tasks.length; i++) {
-			const [className, fieldName] = tasks[i];
-			console.log(`[${i + 1} / ${tasks.length}] ${className}${fieldName ? "/" + fieldName : ""}`);
-			await this.write(className, fieldName);
+			const className = tasks[i];
+			console.log(`[${i + 1} / ${tasks.length}] ${className}`);
+			await this.write(buildId, className);
 			await sleep(100);
 		}
 	}
@@ -136,51 +140,39 @@ class Generator {
 		}
 	}
 
-	private processCode(content: string, node: TurndownService.Node): string {
-		if (node.parentElement?.tagName === "PRE") {
-			return "```lua\n" + content.replace(/\t/g, " ".repeat(4)) + "\n```";
-		}
-		return this.processCodeLink(content) ?? "`" + content + "`";
-	}
-
-	private createTurndownService() {
-		return new TurndownService()
-			.addRule("pre", {
-				filter: "pre",
-				replacement: content => content,
-			})
-			.addRule("code", {
-				filter: "code",
-				replacement: (content, node) => this.processCode(content, node),
-			});
-	}
-
 	private makeApiLink(className: string, fieldName?: string) {
-		if (fieldName === undefined) {
-			return `${API_URL}/class/${className}`;
+		let url = `${CREATE_DOCS_URL}/reference/engine/classes/${className}`;
+		if (fieldName !== undefined) {
+			url += `#${fieldName}`;
 		}
-		const type = this.apiTypeMap.get(className)?.get(fieldName);
-		if (type) {
-			return `${API_URL}/${MEMBER_TYPE_TO_API_TYPE[type]}/${className}/${fieldName}`;
-		} else {
-			console.warn(`Warning: No API type for ${className}.${fieldName}`);
-		}
+		return url;
 	}
 
-	public async write(className: string, fieldName?: string) {
-		const link = this.makeApiLink(className, fieldName);
-		if (!link) return;
-		const repsonse = await axios.get<string>(link);
-		const $ = cheerio.load(repsonse.data);
-		const selector = fieldName !== undefined ? FIELD_SELECTOR : CLASS_SELECTOR;
-		const html = $(selector).first().html()?.trim() ?? "";
-		const fixedHTML = html.replace(/href=\"\//g, `href="${BASE_URL}/`).replace(/src=\"\//g, `src="${BASE_URL}/`);
-		const markdown = this.turndownService.turndown(fixedHTML);
-		const fixedMarkdown = markdown
-			.replace(/[‘’]/g, "'") // fix weird quotes
-			.replace(/\*\//g, "* /"); // fix */ breaking out of jsdoc
-		if (fixedMarkdown.length > 0) {
-			await fs.outputFile(path.join(DIST, className, (fieldName ?? "index") + ".md"), fixedMarkdown);
+	private processDescription(description: string, skipHtml: boolean): string {
+		if (!skipHtml) {
+			description = transformHtml(description);
+		}
+		description = description.replace(/`([^`]+)`/gm, (raw, match) => this.processCodeLink(match) ?? raw);
+		description = description.replace(/(?<!com)(\/assets\/)/g, raw => `${ASSETS_SITE_URL}${raw}`);
+		description = description.trim();
+		return description;
+	}
+
+	private async write(buildId: string, className: string) {
+		const url = `${CREATE_DOCS_URL}/_next/data/${buildId}/reference/engine/classes/${className}.json`;
+		const response = await axios.get(url);
+
+		const apiReference = response.data.pageProps.data.apiReference;
+
+		await fs.outputFile(
+			path.join(DIST, className, "index.md"),
+			this.processDescription(apiReference.description, HTML_BLACKLIST.has(className)),
+		);
+		for (const property of apiReference.properties) {
+			await fs.outputFile(
+				path.join(DIST, className, `${property.name.split(".")[1]}.md`),
+				this.processDescription(property.description, HTML_BLACKLIST.has(property.name)),
+			);
 		}
 	}
 }
@@ -190,4 +182,4 @@ async function main() {
 	await generator.run();
 }
 
-main();
+void main();
