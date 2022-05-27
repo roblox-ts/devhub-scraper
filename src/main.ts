@@ -170,7 +170,7 @@ class Generator {
 		description = description.replace(/`([^`]+)`/gm, (raw, match) => this.processCodeLink(match) ?? raw);
 		description = description.replace(/(?<!com)(\/assets\/)/g, raw => `${ASSETS_SITE_URL}${raw}`);
 		for (const pair of HTML_ENTITIES) {
-			description = description.replace(pair[0], pair[1]);
+			description = description.replace(new RegExp(pair[0], "g"), pair[1]);
 		}
 		description = description.trim();
 		return description;

@@ -51,9 +51,9 @@ enabled, you can control stroke properties on segments of the string via the
 </table>
 
 ```html
-The &lt;font color="#c80032"&gt;<mark
-  >&lt;stroke color="#fcc633" thickness="4"&gt;dragon&lt;/stroke&gt;</mark
->&lt;/font&gt; is hungry.
+The <font color="#c80032"><mark
+  ><stroke color="#fcc633" thickness="4">dragon</stroke></mark
+></font> is hungry.
 ```
 
 <img src="https://prod.docsiteassets.roblox.com/assets/blt2fa6854d87124e34/Stroke-RichText.png" />
