@@ -71,7 +71,7 @@ const TAG_TRANSFORMERS: { [K in string]?: (node: Element) => string } = {
 			const row = new Array<string>();
 			for (const cellNode of getChildren(rowNode)) {
 				assertTag(cellNode, ["th", "td"], "Unexpected table cell");
-				row.push(transformNodeList(cellNode.children));
+				row.push(transformNodeList(cellNode.children).trim());
 			}
 			data.push(row);
 		}

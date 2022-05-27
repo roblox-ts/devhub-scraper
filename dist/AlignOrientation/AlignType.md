@@ -11,11 +11,7 @@ This property is visible in Studio and meaningful only when
 
 It can be set to any of the possible [AlignType](https://developer.roblox.com/en-us/api-reference/enum/AlignType) values.
 
-| Name                       | Value | Description            |
-| -------------------------- | ----- | ---------------------- |
-| 
-				**Parallel**
-			      | 0     | Two parallel axes      |
-| 
-				**Perpendicular**
-			 | 1     | Two perpendicular axes |
+| Name              | Value | Description            |
+| ----------------- | ----- | ---------------------- |
+| **Parallel**      | 0     | Two parallel axes      |
+| **Perpendicular** | 1     | Two perpendicular axes |
