@@ -1,1 +1,3 @@
-Fires immediately before the instance is destroyed via [Instance:Destroy](https://developer.roblox.com/en-us/api-reference/function/Instance/Destroy). The [Instance.Parent](https://developer.roblox.com/en-us/api-reference/property/Instance/Parent) property is locked when this event fires and cannot be changed.
+The Destroying event fires immediately before the Instance or one of its ancestors is destroyed.
+
+The Instance will never be deleted from memory while a connected function is still using it. However, if the function yields at any point, the Instance and its descendants will be parented to `nil`.
