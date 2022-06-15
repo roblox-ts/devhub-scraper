@@ -1,1 +1,0 @@
-Closes the left eyelid

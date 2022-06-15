@@ -1,1 +1,0 @@
-Returns a [StandardPages](https://developer.roblox.com/en-us/api-reference/class/StandardPages) object which contains the name and placeId of places within the current 'Game' (otherwise known as a 'Universe').

@@ -1,3 +1,0 @@
-A **OrderedDataStore** is essentially a [GlobalDataStore](https://developer.roblox.com/en-us/api-reference/class/GlobalDataStore) with the exception that stored values must be **positive integers**. It exposes a method [GetSortedAsync()](https://developer.roblox.com/en-us/api-reference/function/OrderedDataStore/GetSortedAsync) which allows inspection of the entries in sorted order using a [DataStorePages](https://developer.roblox.com/en-us/api-reference/class/DataStorePages) object.
-
-See the [Data Stores](https://developer.roblox.com/en-us/articles/data-store) article for an overview on using ordered data stores.

@@ -1,1 +1,0 @@
-The Position property determines the goal position towards which the [BodyPosition](https://developer.roblox.com/en-us/api-reference/class/BodyPosition) will apply force.

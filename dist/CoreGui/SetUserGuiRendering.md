@@ -1,1 +1,0 @@
-When enabled, forces the contents of the [PlayerGui](https://developer.roblox.com/en-us/api-reference/class/PlayerGui) to be rendered like a [SurfaceGui](https://developer.roblox.com/en-us/api-reference/class/SurfaceGui) adorned to a [Part](https://developer.roblox.com/en-us/api-reference/class/Part)'s face. This is used for VR.

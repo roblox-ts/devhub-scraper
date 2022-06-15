@@ -1,1 +1,0 @@
-Returns a list of [LocalizationTable](https://developer.roblox.com/en-us/api-reference/class/LocalizationTable) objects used for localizing CoreScripts.

@@ -1,1 +1,0 @@
-Functions similarly to [GuiService:AddSelectionParent](https://developer.roblox.com/en-us/api-reference/function/GuiService/AddSelectionParent), but you can give it a tuple of [GuiObject](https://developer.roblox.com/en-us/api-reference/class/GuiObject) that you want to be contained in the group.

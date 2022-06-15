@@ -1,1 +1,0 @@
-Fires when a new [ScriptDebugger](https://developer.roblox.com/en-us/api-reference/class/ScriptDebugger) is created through the [DebuggerManager:AddDebugger](https://developer.roblox.com/en-us/api-reference/function/DebuggerManager/AddDebugger) method.

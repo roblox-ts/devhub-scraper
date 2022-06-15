@@ -1,3 +1,0 @@
-A read only property that returns true when the [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) is playing.
-
-This property can be used by developers to check if an animation is already playing before playing it (as that would cause it to restart). If a developer wishes to obtain all playing [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack)s on a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) or [AnimationController](https://developer.roblox.com/en-us/api-reference/class/AnimationController) they should use [Humanoid:GetPlayingAnimationTracks](https://developer.roblox.com/en-us/api-reference/function/Humanoid/GetPlayingAnimationTracks)

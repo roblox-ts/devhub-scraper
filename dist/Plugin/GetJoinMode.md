@@ -1,1 +1,0 @@
-Returns the [JointCreationMode](https://developer.roblox.com/en-us/api-reference/enum/JointCreationMode) the user has set in studio under the Model tab.

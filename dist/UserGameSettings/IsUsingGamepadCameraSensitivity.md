@@ -1,1 +1,0 @@
-Describes whether or not the [UserGameSettings.GamepadCameraSensitivity](https://developer.roblox.com/en-us/api-reference/property/UserGameSettings/GamepadCameraSensitivity) value should be acknowledged.

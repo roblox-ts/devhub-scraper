@@ -1,1 +1,0 @@
-This property was string that could identify the current server as a VIP server.

@@ -1,1 +1,0 @@
-Any object containing additional parameters that are used by [DataStoreService:GetDataStore](https://developer.roblox.com/en-us/api-reference/function/DataStoreService/GetDataStore).

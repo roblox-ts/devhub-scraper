@@ -1,1 +1,0 @@
-The maximum separation the [SpringConstraint](https://developer.roblox.com/en-us/api-reference/class/SpringConstraint) will allow if [SpringConstraint.LimitsEnabled](https://developer.roblox.com/en-us/api-reference/property/SpringConstraint/LimitsEnabled) is true.

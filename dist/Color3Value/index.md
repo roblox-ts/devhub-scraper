@@ -1,1 +1,0 @@
-A container object for a single [Color3](https://developer.roblox.com/en-us/api-reference/datatype/Color3) value.

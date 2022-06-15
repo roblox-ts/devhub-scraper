@@ -1,1 +1,0 @@
-Fires when a HTTP request result is detected by the client.

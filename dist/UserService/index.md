@@ -1,1 +1,0 @@
-A service that handles queries regarding users on the Roblox platform.

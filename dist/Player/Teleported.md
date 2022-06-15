@@ -1,1 +1,0 @@
-This property indicates whether the user is currently teleporting. If set to true, the user is currently teleporting.

@@ -1,1 +1,0 @@
-This event fires when a call is made to [MarketplaceService:PromptProductPurchase](https://developer.roblox.com/en-us/api-reference/function/MarketplaceService/PromptProductPurchase).

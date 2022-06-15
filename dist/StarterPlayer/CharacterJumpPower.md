@@ -1,5 +1,0 @@
-**CharacterJumpPower** determines the starting value of [Humanoid.JumpPower](https://developer.roblox.com/en-us/api-reference/property/Humanoid/JumpPower) for a [Player](https://developer.roblox.com/en-us/api-reference/class/Player)'s [Character](https://developer.roblox.com/en-us/api-reference/property/Player/Character). The value of this property defaults to 50 and is constrained between 1 and 1000.
-
-This property is only visible in the Properties window If [StarterPlayer.CharacterUseJumpPower](https://developer.roblox.com/en-us/api-reference/property/StarterPlayer/CharacterUseJumpPower) is set to **true**, as it would not be relevant otherwise.
-
-Since this property is only relevant for characters being spawned in the future, changing it will not change any existing player characters. Changes to this property will only take effect when a player respawns.

@@ -1,2 +1,0 @@
-The CFrame that the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) will use when this RenderingTest is executed.  
-The value of this property is reflected into [RenderingTest.Position](https://developer.roblox.com/en-us/api-reference/property/RenderingTest/Position) and [RenderingTest.Orientation](https://developer.roblox.com/en-us/api-reference/property/RenderingTest/Orientation).

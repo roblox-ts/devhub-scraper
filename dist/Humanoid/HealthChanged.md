@@ -1,3 +1,0 @@
-This event fires when the [Humanoid.Health](https://developer.roblox.com/en-us/api-reference/property/Humanoid/Health) changes. However, it will not fire if the health is increasing from a value equal to or greater than the [Humanoid.MaxHealth](https://developer.roblox.com/en-us/api-reference/property/Humanoid/MaxHealth).
-
-When [Humanoid.Health](https://developer.roblox.com/en-us/api-reference/property/Humanoid/Health) reaches zero, the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) will die and the [Humanoid.Died](https://developer.roblox.com/en-us/api-reference/event/Humanoid/Died) event will fire. This event will fire with a value of zero.

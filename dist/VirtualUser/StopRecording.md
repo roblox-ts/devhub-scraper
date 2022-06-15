@@ -1,1 +1,0 @@
-Stops recording the user's input. Returns a Lua script as a string, that allows you to playback the inputs that were recorded.

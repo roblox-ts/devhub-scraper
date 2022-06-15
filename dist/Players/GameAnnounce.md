@@ -1,1 +1,0 @@
-Fires when the game sends out a message.

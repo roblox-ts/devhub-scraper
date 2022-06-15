@@ -1,1 +1,0 @@
-The RevokeFriendship function revokes friendship with another player.

@@ -1,1 +1,0 @@
-This function triggers a signal indicating that the user began pressing the [ProximityPrompt](https://developer.roblox.com/en-us/api-reference/class/ProximityPrompt) prompt button. It should be used by developers who wish to customize the prompt and trigger it from a prompt GUI button press.

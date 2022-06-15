@@ -1,7 +1,0 @@
-This property is a [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) instance that is used to render children objects. Defaults to _nil_.
-
-The [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) object will not replicate so the [ViewportFrame.CurrentCamera](https://developer.roblox.com/en-us/api-reference/property/ViewportFrame/CurrentCamera) won't replicate either. If you save a Camera in the server, it will not appear in the client. When you set this property, [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) and [Camera.FieldOfView](https://developer.roblox.com/en-us/api-reference/property/Camera/FieldOfView) will be saved and replicate with [ViewportFrame](https://developer.roblox.com/en-us/api-reference/class/ViewportFrame) internally so the client can render ViewportFrame without a Camera object. If you want to change the client's Camera, you have to create a new Camera using a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript) at runtime.
-
-### See also
-
-*   [ViewportFrame-GUI](https://developer.roblox.com/en-us/articles/viewportframe-gui), an article exploring how the ViewportFrame GUI can render 3D objects inside its bounds

@@ -1,1 +1,0 @@
-The GazeSelectionEnabled property determines whether gaze selection is enabled by the client.

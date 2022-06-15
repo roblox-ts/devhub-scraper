@@ -1,1 +1,0 @@
-Attempts to gain priority over the hardware controller's input, in favor of the VirtualUser's simulated input.

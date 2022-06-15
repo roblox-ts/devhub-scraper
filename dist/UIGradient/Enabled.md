@@ -1,1 +1,0 @@
-Whether the gradient is enabled or not.

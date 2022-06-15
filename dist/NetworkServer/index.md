@@ -1,1 +1,0 @@
-The NetworkServer stores all the [NetworkReplicator](https://developer.roblox.com/en-us/api-reference/class/NetworkReplicator) in the game and handles all connections. [NetworkPeer:SetOutgoingKBPSLimit](https://developer.roblox.com/en-us/api-reference/function/NetworkPeer/SetOutgoingKBPSLimit) can be used to imitate latency while using _Start Server_.

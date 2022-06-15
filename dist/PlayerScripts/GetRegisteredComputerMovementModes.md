@@ -1,1 +1,0 @@
-Returns a list of [ComputerMovementMode](https://developer.roblox.com/en-us/api-reference/enum/ComputerMovementMode) that were registered using [PlayerScripts:RegisterComputerMovementMode](https://developer.roblox.com/en-us/api-reference/function/PlayerScripts/RegisterComputerMovementMode).

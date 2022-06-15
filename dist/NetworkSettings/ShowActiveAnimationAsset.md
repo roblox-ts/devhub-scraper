@@ -1,1 +1,0 @@
-When set to true, a label will be shown above each [Player](https://developer.roblox.com/en-us/api-reference/class/Player)'s head, showing the current animation being played by the Player's [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid), if any.

@@ -1,1 +1,0 @@
-Returns true if the specified [UserInputType](https://developer.roblox.com/en-us/api-reference/enum/UserInputType) supports haptic feedback.

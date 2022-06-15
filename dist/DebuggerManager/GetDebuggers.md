@@ -1,1 +1,0 @@
-Returns a list of [ScriptDebugger](https://developer.roblox.com/en-us/api-reference/class/ScriptDebugger) present in the experience.

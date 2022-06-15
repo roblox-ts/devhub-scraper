@@ -1,1 +1,0 @@
-This property used to protect objects in the [CoreGui](https://developer.roblox.com/en-us/api-reference/class/CoreGui) service from being altered by users in an unauthorized manner. It has been deprecated and does not do anything.

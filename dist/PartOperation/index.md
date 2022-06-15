@@ -1,1 +1,0 @@
-An abstract class that all parts based on [solid modeling](https://developer.roblox.com/en-us/articles/3d-modeling-with-parts) inherit from.

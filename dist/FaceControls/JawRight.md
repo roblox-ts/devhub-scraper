@@ -1,1 +1,0 @@
-Moves mouth and jaw to the right (character right)

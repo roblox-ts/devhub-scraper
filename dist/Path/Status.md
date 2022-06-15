@@ -1,1 +1,0 @@
-The success of the generated [Path](https://developer.roblox.com/en-us/api-reference/class/Path).

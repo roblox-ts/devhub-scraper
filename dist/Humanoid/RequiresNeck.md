@@ -1,1 +1,0 @@
-Allows developers to disable the behavior where a player [character](https://developer.roblox.com/en-us/api-reference/class/Character) dies if the Neck [Motor6D](https://developer.roblox.com/en-us/api-reference/class/Motor6D) is removed or disconnected even momentarily. This property defaults to true.

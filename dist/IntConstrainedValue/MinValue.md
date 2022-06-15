@@ -1,1 +1,0 @@
-The lowest number that the [IntConstrainedValue.Value](https://developer.roblox.com/en-us/api-reference/property/IntConstrainedValue/Value) property can be.

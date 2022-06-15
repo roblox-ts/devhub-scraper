@@ -1,1 +1,0 @@
-This method is no longer useful and will always return false. Use [RunService:IsServer](https://developer.roblox.com/en-us/api-reference/function/RunService/IsServer) to see if your code is running on the server.

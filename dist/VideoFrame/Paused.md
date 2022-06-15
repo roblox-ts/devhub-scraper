@@ -1,1 +1,0 @@
-This event fires whenever the [VideoFrame.Video](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Video) is paused using [VideoFrame:Pause](https://developer.roblox.com/en-us/api-reference/function/VideoFrame/Pause) or by setting [VideoFrame.Playing](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Playing) to false.

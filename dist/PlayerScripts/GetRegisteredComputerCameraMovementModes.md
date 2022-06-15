@@ -1,1 +1,0 @@
-Returns a list of [ComputerCameraMovementMode](https://developer.roblox.com/en-us/api-reference/enum/ComputerCameraMovementMode) that were registered using [PlayerScripts:RegisterComputerCameraMovementMode](https://developer.roblox.com/en-us/api-reference/function/PlayerScripts/RegisterComputerCameraMovementMode).

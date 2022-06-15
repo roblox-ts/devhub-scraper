@@ -1,1 +1,0 @@
-Stretches the corners of the mouth apart

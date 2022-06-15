@@ -1,1 +1,0 @@
-RobloxReplicatedStorage is an internal version of the [ReplicatedStorage](https://developer.roblox.com/en-us/api-reference/class/ReplicatedStorage) service. It is used by Roblox's [CoreScript](https://developer.roblox.com/en-us/api-reference/class/CoreScript)s for backend server/client interactions, and it cannot be utilized by developers in-game.

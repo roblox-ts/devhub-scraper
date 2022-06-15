@@ -1,1 +1,0 @@
-The BottomBarSize property indicates the size of the user's _BottomBar_ UI element.

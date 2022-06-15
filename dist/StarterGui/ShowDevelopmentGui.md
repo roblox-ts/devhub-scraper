@@ -1,1 +1,0 @@
-This property determines whether the contents of [StarterGui](https://developer.roblox.com/en-us/api-reference/class/StarterGui) is visible in studio

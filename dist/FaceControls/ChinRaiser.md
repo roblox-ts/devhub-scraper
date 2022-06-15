@@ -1,1 +1,0 @@
-Raises the chin up; moves the lower lip upwards

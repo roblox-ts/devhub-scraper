@@ -1,7 +1,0 @@
-The `Camera|Camera's` zoom is defined as the distance in studs between the [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) and it's [Camera.Focus](https://developer.roblox.com/en-us/api-reference/property/Camera/Focus).
-
-This function was previously used by Roblox's core scripts to zoom the [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) in and out. It cannot be accessed by developers.
-
-Currently, the default [camera scripts](http://robloxdev.com/articles/Movement-and-camera-controls) handle [Camera](https://developer.roblox.com/en-us/api-reference/class/Camera) zooming and do not use this function.
-
-You can use [Player.CameraMinZoomDistance](https://developer.roblox.com/en-us/api-reference/property/Player/CameraMinZoomDistance) and [Player.CameraMaxZoomDistance](https://developer.roblox.com/en-us/api-reference/property/Player/CameraMaxZoomDistance) properties to constrain the `Camera|Camera's` zoom. [StarterPlayer](https://developer.roblox.com/en-us/api-reference/class/StarterPlayer) also includes these properties, allowing them to be set for all new [Players](https://developer.roblox.com/en-us/api-reference/class/Player).

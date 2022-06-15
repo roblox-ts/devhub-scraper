@@ -1,1 +1,0 @@
-The asset name of the package.

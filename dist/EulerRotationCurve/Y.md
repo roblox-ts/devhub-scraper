@@ -1,1 +1,0 @@
-Returns the [FloatCurve](https://developer.roblox.com/en-us/api-reference/class/FloatCurve) controlling the Y channel. It is the first child instance of type [FloatCurve](https://developer.roblox.com/en-us/api-reference/class/FloatCurve) named 'Y'. If none is found an empty [FloatCurve](https://developer.roblox.com/en-us/api-reference/class/FloatCurve) is created.

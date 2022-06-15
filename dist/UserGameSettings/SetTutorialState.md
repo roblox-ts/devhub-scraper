@@ -1,1 +1,0 @@
-The SetTutorialState function saves a persistent boolean under the _tutorialId_ key.

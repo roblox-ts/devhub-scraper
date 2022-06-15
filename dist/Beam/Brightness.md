@@ -1,3 +1,0 @@
-Scales the light emitted from [Beam](https://developer.roblox.com/en-us/api-reference/class/Beam).  
-By default, this property is 1 and can set to any number within the range \[0, 10000\].  
-Increasing the value of [LightInfluence](https://developer.roblox.com/en-us/api-reference/property/Beam/LightInfluence) decreases the effect of **Brightness**. **Brightness** doesn't have any effect when [LightInfluence](https://developer.roblox.com/en-us/api-reference/property/Beam/LightInfluence) is 1.

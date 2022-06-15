@@ -1,1 +1,0 @@
-The StatusBarSize property indicates the size of the user's _Status Bar_.

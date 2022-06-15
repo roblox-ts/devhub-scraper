@@ -1,1 +1,0 @@
-Specifies whether or not the [Lua Debugger](https://developer.roblox.com/articles/Lua-debugger "Lua Debugger") feature is enabled.

@@ -1,1 +1,0 @@
-Fired when the user closes a browser window that was opened using [GuiService:OpenBrowserWindow](https://developer.roblox.com/en-us/api-reference/function/GuiService/OpenBrowserWindow).

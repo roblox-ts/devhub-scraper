@@ -1,1 +1,0 @@
-Lowers the jaw downward opening the mouth

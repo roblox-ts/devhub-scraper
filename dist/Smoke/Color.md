@@ -1,6 +1,0 @@
-The Color property determines the color of all the particles emit by a [Smoke](https://developer.roblox.com/en-us/api-reference/class/Smoke) object (both existing and future particles). It behaves similarly to [ParticleEmitter.Color](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Color), except that it is only one color and not a [ColorSequence](https://developer.roblox.com/en-us/api-reference/datatype/ColorSequence). A color of white with some [Smoke.Opacity](https://developer.roblox.com/en-us/api-reference/property/Smoke/Opacity) makes for a nice fog effect, and a very opaque black color can compliment a [Fire](https://developer.roblox.com/en-us/api-reference/class/Fire) object nicely.
-
-![Two Smoke objects with different colors](https://developer.roblox.com/assets/blt6952d1f0943c1f61/Smoke_Color.png)
-
-In the screenshot below, a [Fire](https://developer.roblox.com/en-us/api-reference/class/Fire) object within a torch model is complimented by a [Smoke](https://developer.roblox.com/en-us/api-reference/class/Smoke) object above it with [Smoke.RiseVelocity](https://developer.roblox.com/en-us/api-reference/property/Smoke/RiseVelocity) set to 5 and Color set to black.  
-![A Smoke object complimenting a Fire object on a torch](https://developer.roblox.com/assets/blt02d5fee090b5bc62/Smoke_Fire.png)

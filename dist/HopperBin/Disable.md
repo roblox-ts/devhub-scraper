@@ -1,1 +1,0 @@
-Forces the Active property of a HopperBin to be false, effectively unequipping it if it is in use.

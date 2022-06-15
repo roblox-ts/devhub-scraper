@@ -1,1 +1,0 @@
-Functions identically to [ContextActionService:BindAction](https://developer.roblox.com/en-us/api-reference/function/ContextActionService/BindAction) but takes priority over input callbacks that were created in BindAction.

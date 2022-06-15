@@ -1,1 +1,0 @@
-This event triggers when the player stops holding down the [key](https://developer.roblox.com/en-us/api-reference/property/ProximityPrompt/KeyboardKeyCode)/button while triggering a prompt. This is intended to allow interactions which require the player to hold a button while something happens in-game.

@@ -1,1 +1,0 @@
-A deprecated variant of `BodyForce.Force` that indicates the amount of force applied on each axis.

@@ -1,1 +1,0 @@
-Determines the acceleration due to gravity applied to falling [BaseParts](https://developer.roblox.com/en-us/api-reference/class/BasePart). This value is measured in studs per second squared and by default is set to 196.2 studs/second2. By changing this value, developers can simulate the effects of lower or higher gravity in game.

@@ -1,3 +1,0 @@
-The volume multiplier applied to [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound)s that are in the [SoundGroup](https://developer.roblox.com/en-us/api-reference/class/SoundGroup). This value ranges from 0 to 10.
-
-This property acts as a multiplier, and thus sounds in a [SoundGroup](https://developer.roblox.com/en-us/api-reference/class/SoundGroup) will retain their relative volumes when it is set. This means if a sound's [Sound.Volume](https://developer.roblox.com/en-us/api-reference/property/Sound/Volume) is 0.5 and it is assigned to a [SoundGroup](https://developer.roblox.com/en-us/api-reference/class/SoundGroup) with a volume of 0.5, its effective volume will be 0.25.

@@ -1,1 +1,0 @@
-Simulates the user clicking the right mouse button.

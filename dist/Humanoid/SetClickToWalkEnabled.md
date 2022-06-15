@@ -1,1 +1,0 @@
-This function sets whether or not the click to walk mode is enabled.

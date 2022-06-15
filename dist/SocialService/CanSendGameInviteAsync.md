@@ -1,3 +1,0 @@
-**CanSendGameInviteAsync** indicates whether the given [Player](https://developer.roblox.com/en-us/api-reference/class/Player) can invite other players to the current game. If they can, it returns true.
-
-You should always use the result of this function before the [PromptGameInvite](https://developer.roblox.com/en-us/api-reference/function/SocialService/PromptGameInvite) function, since the ability to invite players can vary depending on the platform or player. Only after determining that invites are possible for this player, should you allow the player to opt-in (eg, a button press) to inviting others using the `PromptGameInvite` function.

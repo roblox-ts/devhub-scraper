@@ -1,3 +1,0 @@
-This property controls the material color of cloud particles. However, cloud color is influenced by several [Lighting](https://developer.roblox.com/en-us/api-reference/class/Lighting) and [Atmosphere](https://developer.roblox.com/en-us/api-reference/class/Atmosphere) properties, so it is not intended as a dedicated property to simulate colored sunsets, sunrises, etc.
-
-See the [Dynamic Clouds](https://developer.roblox.com/articles/dynamic-clouds) article for a summary of properties and expected results.

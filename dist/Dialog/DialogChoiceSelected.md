@@ -1,3 +1,0 @@
-Fired when a player chooses something to say, through a [Dialog](https://developer.roblox.com/en-us/api-reference/class/Dialog) instance.
-
-This event is client-side only and will not fire on the server. It should be connected to in either a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript) or a [ModuleScript](https://developer.roblox.com/en-us/api-reference/class/ModuleScript) required by a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).

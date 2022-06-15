@@ -1,1 +1,0 @@
-Sets whether or not the user has the Escape (ESC) menu open

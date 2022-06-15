@@ -1,1 +1,0 @@
-Fired when a [part](https://developer.roblox.com/en-us/api-reference/class/BasePart) stops touching another part. This event fires under similar conditions to those of [BasePart.Touched](https://developer.roblox.com/en-us/api-reference/event/BasePart/Touched).

@@ -1,1 +1,0 @@
-Unbinds a core action that was specified with [ContextActionService:BindCoreAction](https://developer.roblox.com/en-us/api-reference/function/ContextActionService/BindCoreAction).

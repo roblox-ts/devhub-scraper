@@ -1,1 +1,0 @@
-This property determines if text wraps to multiple lines within the [GUI](https://developer.roblox.com/en-us/api-reference/class/TextLabel) element space, truncating excess text.

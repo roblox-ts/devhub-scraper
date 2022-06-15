@@ -1,1 +1,0 @@
-The second [Part](https://developer.roblox.com/en-us/api-reference/class/BasePart) that the constraint connects.

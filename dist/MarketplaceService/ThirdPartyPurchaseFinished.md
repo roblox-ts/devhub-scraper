@@ -1,1 +1,0 @@
-Fires when a third-party purchase has been completed.

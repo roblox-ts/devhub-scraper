@@ -1,1 +1,0 @@
-[Vector3](https://developer.roblox.com/en-us/api-reference/datatype/Vector3) velocity value when [VelocityConstraintMode](https://developer.roblox.com/en-us/api-reference/property/LinearVelocity/VelocityConstraintMode) is set to **Vector**. Default is \[0, 0, 0\].

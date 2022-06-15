@@ -1,1 +1,0 @@
-Returns to the engagement screen.

@@ -1,1 +1,0 @@
-Registers a SpecialKey as active, and surpresses any input events of this key from [InputObject](https://developer.roblox.com/en-us/api-reference/class/InputObject).

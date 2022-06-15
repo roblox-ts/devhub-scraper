@@ -1,1 +1,0 @@
-The angular velocity a [HingeConstraint](https://developer.roblox.com/en-us/api-reference/class/HingeConstraint) with [HingeConstraint.ActuatorType](https://developer.roblox.com/en-us/api-reference/property/HingeConstraint/ActuatorType) set to [Motor](https://developer.roblox.com/en-us/api-reference/enum/ActuatorType) will attempt to achieve. Measured in radians/second.

@@ -1,5 +1,0 @@
-This property indicated the smallest size in pixels the font is allowed to be. This value defaults to 1 pixel and must be set less than or equal to [UITextSizeConstraint.MaxTextSize](https://developer.roblox.com/en-us/api-reference/property/UITextSizeConstraint/MaxTextSize).
-
-![Max and min constraints demo](https://developer.roblox.com/assets/blte9c47efb631349e0/UITextSizeConstraintDemo.gif)
-
-If the affected [GuiObject](https://developer.roblox.com/en-us/api-reference/class/GuiObject) has its [TextScaled](https://developer.roblox.com/en-us/api-reference/property/TextLabel/TextScaled) property set to true the text size constrained by this property will scale dynamically with the container's size. It will scale downwards with the GuiObject's size until the min size is reached, at which point it will stay constant if the UI element continues to shrink.

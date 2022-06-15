@@ -1,2 +1,0 @@
-Returns a dictionary of all variables that are present in the global environment of the stack frame, where the keys are the names of the variables, and the values are the actual values of the variables.  
-Each stack frame might see different global variables if function environments are different.

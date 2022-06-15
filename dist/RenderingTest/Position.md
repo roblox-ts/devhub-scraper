@@ -1,1 +1,0 @@
-The derived position of the RenderingTest's CFrame.

@@ -1,1 +1,0 @@
-The IsMemoryTrackerEnabled function indicates whether the memory tracker is enabled for the [GuiService](https://developer.roblox.com/en-us/api-reference/class/GuiService). It returns true if the memory tracker is enabled.

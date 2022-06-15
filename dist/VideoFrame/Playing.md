@@ -1,1 +1,0 @@
-This property indicates whether the [VideoFrame.Video](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Video) is currently playing. It can be set to start or pause playback as an alternative to the [VideoFrame:Play](https://developer.roblox.com/en-us/api-reference/function/VideoFrame/Play) and VideoFrame/Pause\` functions.

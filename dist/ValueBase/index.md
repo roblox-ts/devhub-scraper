@@ -1,1 +1,0 @@
-Base class of all 'Value Instance' objects.

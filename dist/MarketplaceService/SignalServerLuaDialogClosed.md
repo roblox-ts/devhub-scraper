@@ -1,1 +1,0 @@
-This function tells the server that the user closed the Lua dialog that was prompted by the server.

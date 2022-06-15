@@ -1,1 +1,0 @@
-The content ID of the video file a [VideoFrame](https://developer.roblox.com/en-us/api-reference/class/VideoFrame) object is associated with.

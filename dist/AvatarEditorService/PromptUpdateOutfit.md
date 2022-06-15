@@ -1,1 +1,0 @@
-Prompts the [Players.LocalPlayer](https://developer.roblox.com/en-us/api-reference/property/Players/LocalPlayer) to update the given outfit with the given HumanoidDescription.

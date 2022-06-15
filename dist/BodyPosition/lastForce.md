@@ -1,1 +1,0 @@
-The lastForce function returns the last force in the object.

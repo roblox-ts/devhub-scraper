@@ -1,3 +1,0 @@
-Sets the text of a [Message](https://developer.roblox.com/en-us/api-reference/class/Message) or [Hint](https://developer.roblox.com/en-us/api-reference/class/Hint).
-
-A [Message](https://developer.roblox.com/en-us/api-reference/class/Message) will be invisible if its [Message.Text](https://developer.roblox.com/en-us/api-reference/property/Message/Text) property is blank, however the black bar of a [Hint](https://developer.roblox.com/en-us/api-reference/class/Hint) will remain visible.

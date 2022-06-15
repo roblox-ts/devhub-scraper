@@ -1,5 +1,0 @@
-This function is used to find a [Path](https://developer.roblox.com/en-us/api-reference/class/Path) between two provided points. This path uses the navigation grid created by [PathfindingService](https://developer.roblox.com/en-us/api-reference/class/PathfindingService) and makes sure that the path can be followed by a regular-sized Roblox character.
-
-This function returns a [Path](https://developer.roblox.com/en-us/api-reference/class/Path) object which contains the coordinates of the path. If no path is found between the two points, this function will still return a [Path](https://developer.roblox.com/en-us/api-reference/class/Path) object, but that object's [Path.Status](https://developer.roblox.com/en-us/api-reference/property/Path/Status) will be `Enum.PathStatus.NoPath`.
-
-To get the waypoints of a [Path](https://developer.roblox.com/en-us/api-reference/class/Path) object, you can use the [Path:GetWaypoints](https://developer.roblox.com/en-us/api-reference/function/Path/GetWaypoints) function.

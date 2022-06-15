@@ -1,1 +1,0 @@
-The RemoveStatus function removes the defined status from the Status model in the Humanoid.

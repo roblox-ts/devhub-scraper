@@ -1,1 +1,0 @@
-Fires when a [TouchMovementMode](https://developer.roblox.com/en-us/api-reference/enum/TouchMovementMode) is registered using [PlayerScripts:RegisterTouchMovementMode](https://developer.roblox.com/en-us/api-reference/function/PlayerScripts/RegisterTouchMovementMode).

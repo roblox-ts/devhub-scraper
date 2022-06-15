@@ -1,3 +1,0 @@
-A **BallSocketConstraint** constrains its [Attachments](https://developer.roblox.com/en-us/api-reference/class/Attachment) so that they occupy the same position. By default it allows both attachments to freely rotate about all of their axes, but if [BallSocketConstraint.LimitsEnabled](https://developer.roblox.com/en-us/api-reference/property/BallSocketConstraint/LimitsEnabled) is `true`, the attachments can only rotate in a limited cone.
-
-Note that if this constraint attaches one part (**A**) to another part (**B**) that is anchored or connected to an anchored part (**Z**), part **A** will not be locally simulated when interacting with a player.

@@ -1,1 +1,0 @@
-Whether or not the current page is the last page available.

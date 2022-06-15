@@ -1,1 +1,0 @@
-Allows switching between different debugging visualization modes for cage meshes.

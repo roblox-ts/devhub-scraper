@@ -1,1 +1,0 @@
-Fires when a call is made to [ContextActionService:GetButton](https://developer.roblox.com/en-us/api-reference/function/ContextActionService/GetButton).

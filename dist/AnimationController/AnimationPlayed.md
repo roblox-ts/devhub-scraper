@@ -1,5 +1,0 @@
-This event fires whenever the [AnimationController](https://developer.roblox.com/en-us/api-reference/class/AnimationController) begins playing an animation. It returns the [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) playing.
-
-The [AnimationTrack](https://developer.roblox.com/en-us/api-reference/class/AnimationTrack) can be used to access the animation's playback functions and events. It will only fire for animations playing on the specific [AnimationController](https://developer.roblox.com/en-us/api-reference/class/AnimationController).
-
-See [Humanoid.AnimationPlayed](https://developer.roblox.com/en-us/api-reference/event/Humanoid/AnimationPlayed) for the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) variant of this function.

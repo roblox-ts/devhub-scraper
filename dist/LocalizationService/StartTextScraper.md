@@ -1,1 +1,0 @@
-Activates the text scraper, which is responsible for handling the contents of the generated LocalizationTable for the Localization Plugin.

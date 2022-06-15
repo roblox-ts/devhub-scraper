@@ -1,1 +1,0 @@
-Enables the DebuggerManager.

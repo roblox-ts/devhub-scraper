@@ -1,1 +1,0 @@
-The GetCurrentPlayers function of a Dialog will return a list of [Player](https://developer.roblox.com/en-us/api-reference/class/Player) currently using the Dialog. If there are no players using the dialog then the returned list will be empty.

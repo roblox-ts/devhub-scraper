@@ -1,3 +1,0 @@
-This function returns an array containing all sub [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose)s that have been added to a [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose). This is functionally the same as using the [Instance:GetChildren](https://developer.roblox.com/en-us/api-reference/function/Instance/GetChildren) function on the [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose).
-
-Note, this function will return all children of the [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose), including non [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose) [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance)s if any are present.

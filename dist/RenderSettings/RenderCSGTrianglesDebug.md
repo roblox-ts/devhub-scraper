@@ -1,1 +1,0 @@
-When set to true, a wireframe of polygons will be shown on all [PartOperation](https://developer.roblox.com/en-us/api-reference/class/PartOperation) objects.

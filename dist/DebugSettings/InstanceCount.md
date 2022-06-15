@@ -1,1 +1,0 @@
-The number of instances active in the simulation.

@@ -1,2 +1,0 @@
-Since adornments are usually parented to some GUI, this property determines which [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance) they are adorning.  
-They render in 3D positioned relative to the “adornee”, not to their parent.

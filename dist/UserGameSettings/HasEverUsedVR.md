@@ -1,1 +1,0 @@
-The HasEverUsedVR property indicates whether a user has ever used a VR (virtual reality) device. True if a user has used a VR device.

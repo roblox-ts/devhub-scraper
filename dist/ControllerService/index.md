@@ -1,1 +1,0 @@
-Container class for the [HumanoidController](https://developer.roblox.com/en-us/api-reference/class/HumanoidController) among other classes.

@@ -1,1 +1,0 @@
-An internal [ContentProvider](https://developer.roblox.com/en-us/api-reference/class/ContentProvider) for preloading solid models.

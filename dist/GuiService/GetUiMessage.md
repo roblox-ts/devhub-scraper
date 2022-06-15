@@ -1,1 +1,0 @@
-Returns the message that was set using [GuiService:SetUiMessage](https://developer.roblox.com/en-us/api-reference/function/GuiService/SetUiMessage).

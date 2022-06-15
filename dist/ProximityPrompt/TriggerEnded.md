@@ -1,1 +1,0 @@
-This event is triggered when the [key](https://developer.roblox.com/en-us/api-reference/property/ProximityPrompt/KeyboardKeyCode)/button is released, for longer events where the user is required to hold down the button (e.g. heal another player over time.)

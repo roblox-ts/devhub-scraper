@@ -1,1 +1,0 @@
-The OpenVideosFolder function opens the user's videos folder.

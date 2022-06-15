@@ -1,1 +1,0 @@
-The GetModelSize function returns the `Vector3` size of the [Model](https://developer.roblox.com/en-us/api-reference/class/Model).

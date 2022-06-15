@@ -1,3 +1,0 @@
-This property gives the [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe)'s time position (in seconds) in an animation. This determines the time at which the [Pose](https://developer.roblox.com/en-us/api-reference/class/Pose)s inside the keyframe will be shown.
-
-Note the [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe) with the highest time value in a [KeyframeSequence](https://developer.roblox.com/en-us/api-reference/class/KeyframeSequence) is used to determine the length of the animation.

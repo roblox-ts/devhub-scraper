@@ -1,1 +1,0 @@
-The CoreEffectFolder property is a reference to the core effects folder. It is meant for internal usage only, and should not be used in work.

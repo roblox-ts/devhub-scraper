@@ -1,5 +1,0 @@
-The rotation of the part in degrees for the three axes.
-
-When setting this property any [Welds](https://developer.roblox.com/en-us/api-reference/class/Weld), [ManualWelds](https://developer.roblox.com/en-us/api-reference/class/ManualWeld), [Snap](https://developer.roblox.com/en-us/api-reference/class/Snap), [Motor](https://developer.roblox.com/en-us/api-reference/class/Motor), and [Motor6Ds](https://developer.roblox.com/en-us/api-reference/class/Motor6D) connected to this part will have the matching [C0](https://developer.roblox.com/en-us/api-reference/property/JointInstance/C0)/[C1](https://developer.roblox.com/en-us/api-reference/property/JointInstance/C1) property updated and to allow the part to move relative to any other parts it is joined to.
-
-WeldConstraints will also be temporarily disabled and re-enabled during the move.

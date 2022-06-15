@@ -1,1 +1,0 @@
-This property has been superseded by [Camera.CFrame](https://developer.roblox.com/en-us/api-reference/property/Camera/CFrame) which functions identically and should be used instead.

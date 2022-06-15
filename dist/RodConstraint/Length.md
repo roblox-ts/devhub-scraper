@@ -1,1 +1,0 @@
-The distance apart the [RodConstraint](https://developer.roblox.com/en-us/api-reference/class/RodConstraint) attempts to keep its [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment) at. Measured in studs.

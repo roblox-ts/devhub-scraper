@@ -1,1 +1,0 @@
-Forces all sounds that are being played by the plugin to stop playing.

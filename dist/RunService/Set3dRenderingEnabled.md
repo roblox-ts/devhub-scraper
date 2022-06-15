@@ -1,1 +1,0 @@
-Sets whether or not 3D rendering should be enabled.

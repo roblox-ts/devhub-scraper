@@ -1,1 +1,0 @@
-Sets whether or not the specified player is using this dialog.

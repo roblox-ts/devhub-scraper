@@ -1,1 +1,0 @@
-The HttpPostAsync function performs a POST request to the specified url, using the specified data, and the specified contentType.

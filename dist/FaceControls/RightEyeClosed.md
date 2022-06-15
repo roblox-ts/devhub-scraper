@@ -1,1 +1,0 @@
-Closes the right eyelid

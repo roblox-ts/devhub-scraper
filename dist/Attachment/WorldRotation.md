@@ -1,1 +1,0 @@
-Determines the rotation (in degrees) of the attachment relative to the world, rather than the parent of the [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment).

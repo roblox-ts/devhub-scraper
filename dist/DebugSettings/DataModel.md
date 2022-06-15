@@ -1,1 +1,0 @@
-Describes whether a [DataModel](https://developer.roblox.com/en-us/api-reference/class/DataModel) is actively in memory, as an integer (where 1 = true, and 0 = false).

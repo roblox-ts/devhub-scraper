@@ -1,1 +1,0 @@
-This is an abstract class that [BlockMesh](https://developer.roblox.com/en-us/api-reference/class/BlockMesh) and [CylinderMesh](https://developer.roblox.com/en-us/api-reference/class/CylinderMesh) inherit from.

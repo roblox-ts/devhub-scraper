@@ -1,1 +1,0 @@
-Sets the microphone device that should be used when recording.

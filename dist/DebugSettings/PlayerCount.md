@@ -1,1 +1,0 @@
-The number of players currently in the active game-instance.

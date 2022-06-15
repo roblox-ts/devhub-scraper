@@ -1,1 +1,0 @@
-Sets the region that GUIs believe is the full screen size.

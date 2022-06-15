@@ -1,3 +1,0 @@
-A TextButton behaves similarly to [TextLabel](https://developer.roblox.com/en-us/api-reference/class/TextLabel) in regards to rendering with the additional behaviors of a [GuiButton](https://developer.roblox.com/en-us/api-reference/class/GuiButton). It defines the same text-rendering properties as a [TextLabel](https://developer.roblox.com/en-us/api-reference/class/TextLabel) does.
-
-You can disable text rendering by setting [TextButton.TextTransparency](https://developer.roblox.com/en-us/api-reference/property/TextButton/TextTransparency) to 1. This will leave you with a plain rectangle that can be used as a button.

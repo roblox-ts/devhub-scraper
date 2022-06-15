@@ -1,1 +1,0 @@
-Euler angles rotation order

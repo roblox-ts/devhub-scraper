@@ -1,1 +1,0 @@
-This member is for a feature that is not yet released.

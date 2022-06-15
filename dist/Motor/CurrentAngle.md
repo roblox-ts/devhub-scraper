@@ -1,1 +1,0 @@
-Displays the current rotation of the motor in radians.

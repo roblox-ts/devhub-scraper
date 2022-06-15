@@ -1,3 +1,0 @@
-This function gets the pivot of a [PVInstance](https://developer.roblox.com/en-us/api-reference/class/PVInstance). This is often used with [PVInstance:PivotTo](https://developer.roblox.com/en-us/api-reference/function/PVInstance/PivotTo) to move a model.
-
-[Models](https://developer.roblox.com/en-us/api-reference/class/Model) and [BaseParts](https://developer.roblox.com/en-us/api-reference/class/BasePart) are both [PVInstances](https://developer.roblox.com/en-us/api-reference/class/PVInstance) (“Position Velocity Instances”) and so both have this function.

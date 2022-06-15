@@ -1,1 +1,0 @@
-Fires when there is an interaction between two players regarding the status of their friendship.

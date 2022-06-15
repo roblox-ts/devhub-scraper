@@ -1,1 +1,0 @@
-Sets whether [BaseScript](https://developer.roblox.com/en-us/api-reference/class/BaseScript) objects run their code. Scripts that are already running won't stop running.

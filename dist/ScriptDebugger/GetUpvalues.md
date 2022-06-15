@@ -1,1 +1,0 @@
-Returns a dictionary of all upvalues present in the specified stack frame, where the keys are the names of the upvalues, and the values are the actual values of the upvalues.

@@ -1,1 +1,0 @@
-This is a corner piece which has the same properties as a [Part](https://developer.roblox.com/en-us/api-reference/class/Part).

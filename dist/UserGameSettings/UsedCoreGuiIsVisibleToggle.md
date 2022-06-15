@@ -1,1 +1,0 @@
-Persistently saves the toggled state of the CoreGui.

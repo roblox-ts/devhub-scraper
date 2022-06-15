@@ -1,1 +1,0 @@
-A `BrickColor` version of [SelectionSphere.SurfaceColor3](https://developer.roblox.com/en-us/api-reference/property/SelectionSphere/SurfaceColor3).

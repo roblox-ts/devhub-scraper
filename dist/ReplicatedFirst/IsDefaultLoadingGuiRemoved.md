@@ -1,1 +1,0 @@
-Returns true if a call to [ReplicatedFirst:RemoveDefaultLoadingScreen](https://developer.roblox.com/en-us/api-reference/function/ReplicatedFirst/RemoveDefaultLoadingScreen) has been made. This function is used by Roblox core scripts to determine when to hide the loading screen.

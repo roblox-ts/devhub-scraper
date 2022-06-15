@@ -1,1 +1,0 @@
-Simulates the user typing a key.

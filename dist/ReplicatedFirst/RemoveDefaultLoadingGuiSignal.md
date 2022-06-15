@@ -1,1 +1,0 @@
-Fired when the [ReplicatedFirst:RemoveDefaultLoadingScreen](https://developer.roblox.com/en-us/api-reference/function/ReplicatedFirst/RemoveDefaultLoadingScreen) function is called.

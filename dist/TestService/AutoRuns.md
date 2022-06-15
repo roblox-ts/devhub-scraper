@@ -1,1 +1,0 @@
-If set to true, the game will start running when the TestService's [TestService:Run](https://developer.roblox.com/en-us/api-reference/function/TestService/Run) method is called.

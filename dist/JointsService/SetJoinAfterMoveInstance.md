@@ -1,1 +1,0 @@
-Sets the PVInstance that will be connected with the target PVInstance specified by [JointsService:SetJoinAfterMoveTarget](https://developer.roblox.com/en-us/api-reference/function/JointsService/SetJoinAfterMoveTarget).

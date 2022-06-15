@@ -1,1 +1,0 @@
-Evens the number of people on each team. This function does not work correctly and should not be used.

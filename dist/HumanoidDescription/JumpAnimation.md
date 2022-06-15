@@ -1,7 +1,0 @@
-When this description is [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription) to a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid), **JumpAnimation** determines the [Animation.AnimationId](https://developer.roblox.com/en-us/api-reference/property/Animation/AnimationId) to play when its [state](https://developer.roblox.com/en-us/api-reference/function/Humanoid/GetState) is [Jumping](https://developer.roblox.com/en-us/api-reference/enum/HumanoidStateType).
-
-See also
---------
-
-*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
-*   [ClimbAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/FallAnimation), [FallAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/FallAnimation), [IdleAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/IdleAnimation), [RunAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/RunAnimation), [SwimAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/SwimAnimation) and [WalkAnimation](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/WalkAnimation), which are similar properties that determine animations to play on the rig

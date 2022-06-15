@@ -1,5 +1,0 @@
-This property indicates the [ProximityPrompt's](https://developer.roblox.com/en-us/api-reference/class/ProximityPrompt) style. When set to Custom, no default UI will be provided.
-
-The provided UI can be swapped out for a custom UI. In order to do this, set Style to Custom. Then, listen to the [ProximityPrompt.PromptShown](https://developer.roblox.com/en-us/api-reference/event/ProximityPrompt/PromptShown) and [ProximityPrompt.PromptHidden](https://developer.roblox.com/en-us/api-reference/event/ProximityPrompt/PromptHidden) events in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript), where developers should create and tear down the UI.
-
-Developers may also use [ProximityPrompt.PromptButtonHoldBegan](https://developer.roblox.com/en-us/api-reference/event/ProximityPrompt/PromptButtonHoldBegan) and [ProximityPrompt.PromptButtonHoldEnded](https://developer.roblox.com/en-us/api-reference/event/ProximityPrompt/PromptButtonHoldEnded) in order to utilize the [ProximityPrompt.HoldDuration](https://developer.roblox.com/en-us/api-reference/property/ProximityPrompt/HoldDuration) progress animation feature.

@@ -1,1 +1,0 @@
-Fires when [Chat:Chat](https://developer.roblox.com/en-us/api-reference/function/Chat/Chat) is called.

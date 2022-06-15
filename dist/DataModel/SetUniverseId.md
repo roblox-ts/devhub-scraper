@@ -1,3 +1,0 @@
-This function sets the [DataModel.GameId](https://developer.roblox.com/en-us/api-reference/property/DataModel/GameId) of the current game instance to the given _universeId_. This is useful when testing local .rbxl files that have not been published to Roblox.
-
-If you want to access the [DataStoreService](https://developer.roblox.com/en-us/api-reference/class/DataStoreService) in an unpublished place, you should use [DataModel:SetPlaceId](https://developer.roblox.com/en-us/api-reference/function/DataModel/SetPlaceId) instead.

@@ -1,1 +1,0 @@
-A textureId that could be set on the [ImageButton's](https://developer.roblox.com/en-us/api-reference/class/ImageButton) properties. When the button is hovered, it will render HoverImage if specified.

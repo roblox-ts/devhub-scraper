@@ -1,1 +1,0 @@
-This event fires when a property of any object in the [DataModel](https://developer.roblox.com/en-us/api-reference/class/DataModel) is changed.

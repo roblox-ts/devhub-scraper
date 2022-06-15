@@ -1,1 +1,0 @@
-Resumes a sound that was previously being played (via [Plugin:PlaySound](https://developer.roblox.com/en-us/api-reference/function/Plugin/PlaySound)).

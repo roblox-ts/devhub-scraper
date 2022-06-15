@@ -1,1 +1,0 @@
-This function is only accessible by [CoreScripts](https://developer.roblox.com/en-us/api-reference/class/CoreScript) that returns the session ID of the game.

@@ -1,1 +1,0 @@
-PlaySound allows you to play a [Sound](https://developer.roblox.com/en-us/api-reference/class/Sound) object regardless if the game is running or not.

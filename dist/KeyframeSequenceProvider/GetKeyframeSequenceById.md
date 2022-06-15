@@ -1,1 +1,0 @@
-Returns a [KeyframeSequence](https://developer.roblox.com/en-us/api-reference/class/KeyframeSequence) from the supplied assetId. Can optionally cache to reduce unnecessary loading freezes.

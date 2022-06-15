@@ -1,1 +1,0 @@
-The current distance in studs that the [BillboardGui](https://developer.roblox.com/en-us/api-reference/class/BillboardGui) is from the player's camera. A changed event does not fire for this property unless the gui's [BillboardGui.DistanceStep](https://developer.roblox.com/en-us/api-reference/property/BillboardGui/DistanceStep) is more than 0.

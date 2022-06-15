@@ -1,1 +1,0 @@
-The current distance between the [SpringConstraint](https://developer.roblox.com/en-us/api-reference/class/SpringConstraint)'s [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment).

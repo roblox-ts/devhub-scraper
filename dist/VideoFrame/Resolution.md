@@ -1,1 +1,0 @@
-This property gets the original source resolution of the [VideoFrame.Video](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Video) file.

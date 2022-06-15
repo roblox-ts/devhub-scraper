@@ -1,3 +1,0 @@
-The CanBeDropped property controls whether the player can drop the [Tool](https://developer.roblox.com/en-us/api-reference/class/Tool).
-
-If true, when the backspace button is pressed the tool will be parented to the [Workspace](https://developer.roblox.com/en-us/api-reference/class/Workspace) and removed from the player's [Backpack](https://developer.roblox.com/en-us/api-reference/class/Backpack). If false, the when the backspace button is pressed the tool will go back to the player's Backpack and it will not be dropped.
