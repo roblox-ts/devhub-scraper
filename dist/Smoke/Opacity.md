@@ -1,0 +1,5 @@
+Opacity determines the opaqueness of the smoke particles. It must be in the range \[0, 1\]. This property works **inversely** in comparison to a part's [BasePart.Transparency](https://developer.roblox.com/en-us/api-reference/property/BasePart/Transparency) or ParticleEmitter's [ParticleEmitter.Transparency](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Transparency): a value of 0 is completely invisible, 1 is completely visible. Below, the left [Smoke](https://developer.roblox.com/en-us/api-reference/class/Smoke) effect has an Opacity of 0.25 (or, 25%), the center has the default 0.5 (50%), and the right has 1.0 (or 100%).
+
+![Smoke with varying opacity levels](https://developer.roblox.com/assets/blt40432eff6f9ab4f2/Smoke_Opacity.png)
+
+It should be noted that the texture that Roblox uses for [Smoke](https://developer.roblox.com/en-us/api-reference/class/Smoke) particles is partially transparent, so setting this property to 1 will still yield transparency in rendered smoke.

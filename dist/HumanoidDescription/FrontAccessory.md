@@ -1,0 +1,9 @@
+**FrontAccessory** is a comma-separated list of asset IDs that determine what accessories should be added when the description is [applied](https://developer.roblox.com/en-us/api-reference/function/Humanoid/ApplyDescription), usually those attached to front of its torso (such as medals or ties). The list is kept sorted in descending order without duplicates.
+
+Any accessory can used in this property, even if it is meant to go in a different accessory spot. For example, an accessory meant to go on your back (such as a cape) could be included in [HairAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HairAccessory). An error is thrown if you try to apply a new description which shares any assets with the existing description but a different accessory property.
+
+See also
+--------
+
+*   [HumanoidDescription System](https://developer.roblox.com/en-us/articles/humanoiddescription-system), for more information on HumanoidDescriptions
+*   [BackAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/BackAccessory), [FaceAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/FaceAccessory), [HairAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HairAccessory), [HatAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/HatAccessory), [NeckAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/NeckAccessory), [ShouldersAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/ShouldersAccessory) and [WaistAccessory](https://developer.roblox.com/en-us/api-reference/property/HumanoidDescription/WaistAccessory), which are similar properties that apply accessories like this one

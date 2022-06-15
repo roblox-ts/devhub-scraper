@@ -1,0 +1,1 @@
+Determines whether touch controls are enabled. Defaults to true.

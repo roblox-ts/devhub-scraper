@@ -1,0 +1,1 @@
+An instance used to display a “lasso” between a [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) Torso and a [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart). It should be noted that the [GuiBase3d.Transparency](https://developer.roblox.com/en-us/api-reference/property/GuiBase3d/Transparency) property doesn't currently work.

@@ -1,0 +1,1 @@
+The CustomStatusAdded event fires when a status is added to the Humanoid via the [Humanoid:AddCustomStatus](https://developer.roblox.com/en-us/api-reference/function/Humanoid/AddCustomStatus) method.

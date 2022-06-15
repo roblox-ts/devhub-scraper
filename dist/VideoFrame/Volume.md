@@ -1,0 +1,1 @@
+This property determines how loud the [VideoFrame.Video](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Video) plays back. It can be set to a number between 0 and 100.

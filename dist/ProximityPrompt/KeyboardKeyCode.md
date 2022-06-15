@@ -1,0 +1,1 @@
+This property determines the key the player should press to trigger the [prompt](https://developer.roblox.com/en-us/api-reference/class/ProximityPrompt).

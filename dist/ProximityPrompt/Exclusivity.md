@@ -1,0 +1,1 @@
+This property is used to customize which prompts can be shown at the same time.

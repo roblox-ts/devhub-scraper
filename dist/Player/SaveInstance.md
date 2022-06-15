@@ -1,0 +1,1 @@
+This function was once used by an ancient data persistence method to save an instance which can be loaded again at a later time using [Player:LoadInstance](https://developer.roblox.com/en-us/api-reference/function/Player/LoadInstance)…

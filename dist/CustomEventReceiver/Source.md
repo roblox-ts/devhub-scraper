@@ -1,0 +1,1 @@
+This property attaches the [CustomEventReceiver](https://developer.roblox.com/en-us/api-reference/class/CustomEventReceiver) object to a [CustomEvent](https://developer.roblox.com/en-us/api-reference/class/CustomEvent).

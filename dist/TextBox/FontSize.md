@@ -1,0 +1,1 @@
+This property determines the font size of a [GUI](https://developer.roblox.com/en-us/api-reference/class/TextBox) object.

@@ -1,0 +1,1 @@
+The texture of a CharacterMesh. It can be overridden by Shirts, Pants, T-Shirts, and the [CharacterMesh.OverlayTextureId](https://developer.roblox.com/en-us/api-reference/property/CharacterMesh/OverlayTextureId) property.

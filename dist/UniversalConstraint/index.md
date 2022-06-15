@@ -1,0 +1,7 @@
+A physics constraint that ensures two axes on two rigid bodies remain perpendicular. An example use of this constraint are power transmission between the transmission and rear drive shafts of rear-wheel drive cars, robotics, etc.
+
+The constraint ensures that two attachments are co-located (similar to [BallSocketConstraint](https://developer.roblox.com/en-us/api-reference/class/BallSocketConstraint)) and that their secondary axes remain perpendicular (see the picture below). In this sense, this constraint is more restrictive than the BallSocketConstraint but is less restrictive than [HingeConstraint](https://developer.roblox.com/en-us/api-reference/class/HingeConstraint) (by one degree of freedom).
+
+![Example UniversalConstraint](https://developer.roblox.com/assets/blt96586dfb35538032/UniversalConstraintDemo.jpg?auto=yes&bg=222&fg=000)
+
+If [LimitsEnabled](https://developer.roblox.com/en-us/api-reference/property/UniversalConstraint/LimitsEnabled) is `true`, then the relative motion of the primary axis of [Attachment1](https://developer.roblox.com/en-us/api-reference/property/Constraint/Attachment1) is limited by a cone. This cone is formed via [Attachment0](https://developer.roblox.com/en-us/api-reference/property/Constraint/Attachment0) and its primary axis and makes an angle of [MaxAngle](https://developer.roblox.com/en-us/api-reference/property/UniversalConstraint/MaxAngle) with it.

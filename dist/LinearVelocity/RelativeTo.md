@@ -1,0 +1,1 @@
+Sets the [ActuatorRelativeTo](https://developer.roblox.com/en-us/api-reference/enum/ActuatorRelativeTo) property for the [LinearVelocity](https://developer.roblox.com/en-us/api-reference/class/LinearVelocity) constraint.

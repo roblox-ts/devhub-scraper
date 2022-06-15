@@ -1,0 +1,3 @@
+Scales the light emitted from [Trail](https://developer.roblox.com/en-us/api-reference/class/Trail). By default, this property is 1 and can set to any number within the range \[0, 10000\].
+
+Increasing the value of [LightInfluence](https://developer.roblox.com/en-us/api-reference/property/Trail/LightInfluence) decreases the effect of **Brightness**. **Brightness** doesn't have any effect when [LightInfluence](https://developer.roblox.com/en-us/api-reference/property/Trail/LightInfluence) is 1.

@@ -1,0 +1,1 @@
+This property indicates the pixel offset applied to the prompt's UI.

@@ -1,0 +1,1 @@
+This function was used by an ancient data persistence method to load the user's Data Persistence.

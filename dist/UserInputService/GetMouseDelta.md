@@ -1,0 +1,5 @@
+This function returns the change, in pixels, of the position of the player's [Mouse](https://developer.roblox.com/en-us/api-reference/class/Mouse) in the last rendered frame as a [Vector2](https://developer.roblox.com/en-us/api-reference/datatype/Vector2). This function only works if the mouse has been locked using the `UserInputService.MouseBehavior` property. If the mouse has not been locked, the returned [Vector2](https://developer.roblox.com/en-us/api-reference/datatype/Vector2) values will be zero.
+
+The sensitivity of the mouse, determined in the client's settings and [UserInputService.MouseDeltaSensitivity](https://developer.roblox.com/en-us/api-reference/property/UserInputService/MouseDeltaSensitivity), will influence the result.
+
+As [UserInputService](https://developer.roblox.com/en-us/api-reference/class/UserInputService) is client-side only, this function can only be used in a [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript).

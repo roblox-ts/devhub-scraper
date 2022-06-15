@@ -1,0 +1,1 @@
+This property determines the maximum distance a Player's [character](https://developer.roblox.com/en-us/api-reference/property/Player/Character) can be from the [ProximityPrompt](https://developer.roblox.com/en-us/api-reference/class/ProximityPrompt) for the prompt to appear.

@@ -1,0 +1,1 @@
+This indicates whether a [GUI](https://developer.roblox.com/en-us/api-reference/class/GuiObject) (and its descendants) can be dragged around the screen.

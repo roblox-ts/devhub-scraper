@@ -1,0 +1,1 @@
+This property determines the lighting system used to render the 3D world (e.g. legacy, Future is Bright, shadow map). It is only changeable in Studio. Its purpose is to facilitate a smooth transition to the Future Is Bright system. See the [Technology](https://developer.roblox.com/en-us/api-reference/enum/Technology) enum for details on each available system.

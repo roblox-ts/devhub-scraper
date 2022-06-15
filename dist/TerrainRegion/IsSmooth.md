@@ -1,0 +1,1 @@
+The state of this property shows whether or not this `/TerrainRegion` contains _smooth terrain_.

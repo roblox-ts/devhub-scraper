@@ -1,0 +1,3 @@
+The MembershipType [Player](https://developer.roblox.com/en-us/api-reference/class/Player) property can be used to determine the membership type of the player. It holds a [MembershipType](https://developer.roblox.com/en-us/api-reference/enum/MembershipType) enum of the account's membership type.
+
+This property can only be read from to determine membership (it cannot be set to another membership type). The property can only be changed via [CoreScript](https://developer.roblox.com/en-us/api-reference/class/CoreScript)s using [Player:SetMembershipType](https://developer.roblox.com/en-us/api-reference/function/Player/SetMembershipType) - which are not accessible.

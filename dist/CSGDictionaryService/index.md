@@ -1,0 +1,1 @@
+CSGDictionaryService is an internal service that stores a cache of [BinaryStringValue](https://developer.roblox.com/en-us/api-reference/class/BinaryStringValue) objects, each value representing a unique data set for [solid modeling](https://developer.roblox.com/articles/3D-Modeling-with-Parts) data. In general, it serves no purpose to developers.

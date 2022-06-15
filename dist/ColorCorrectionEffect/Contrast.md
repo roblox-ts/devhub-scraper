@@ -1,0 +1,1 @@
+Contrast determines the separation between the dark and light colors. Values less than 0 have reduced contrast while values greater than 0 have increased contrast.

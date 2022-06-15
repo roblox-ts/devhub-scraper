@@ -1,0 +1,1 @@
+The highest number that the [DoubleConstrainedValue.Value](https://developer.roblox.com/en-us/api-reference/property/DoubleConstrainedValue/Value) property can be.

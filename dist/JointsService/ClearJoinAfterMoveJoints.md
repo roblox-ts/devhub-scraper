@@ -1,0 +1,1 @@
+Will remove any 'create joints' that were made visible via the [JointsService:ShowPermissibleJoints](https://developer.roblox.com/en-us/api-reference/function/JointsService/ShowPermissibleJoints) method.

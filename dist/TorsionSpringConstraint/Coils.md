@@ -1,0 +1,1 @@
+This property indicates the number of spring coils for visualization. The default value is 8.

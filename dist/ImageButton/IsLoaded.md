@@ -1,0 +1,1 @@
+The IsLoaded property indicates if the [ImageButton.Image](https://developer.roblox.com/en-us/api-reference/property/ImageButton/Image) property finished loading from the Roblox website. Images declined by moderation will never load.

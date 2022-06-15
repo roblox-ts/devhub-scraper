@@ -1,0 +1,1 @@
+Prompts a third-party purchase.

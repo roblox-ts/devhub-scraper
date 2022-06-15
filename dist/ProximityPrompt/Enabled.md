@@ -1,0 +1,1 @@
+This property indicates whether or this [ProximityPrompt](https://developer.roblox.com/en-us/api-reference/class/ProximityPrompt) should be shown.

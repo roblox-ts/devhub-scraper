@@ -1,0 +1,1 @@
+Measures how many warning calls have been recorded in the test session.

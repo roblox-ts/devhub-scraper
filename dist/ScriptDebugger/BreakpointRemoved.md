@@ -1,0 +1,1 @@
+Fires when a [DebuggerBreakpoint](https://developer.roblox.com/en-us/api-reference/class/DebuggerBreakpoint) is removed from the script.

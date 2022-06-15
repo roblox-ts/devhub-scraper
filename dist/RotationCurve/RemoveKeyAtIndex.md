@@ -1,0 +1,1 @@
+Removes a given number of Keys starting from a given index. Returns the number of keys that were removed.

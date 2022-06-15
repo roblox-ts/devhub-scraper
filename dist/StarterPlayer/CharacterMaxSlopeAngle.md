@@ -1,0 +1,3 @@
+**CharacterMaxSlopeAngle** determines the starting value of [Humanoid.MaxSlopeAngle](https://developer.roblox.com/en-us/api-reference/property/Humanoid/MaxSlopeAngle) for a [Player](https://developer.roblox.com/en-us/api-reference/class/Player)'s [Character](https://developer.roblox.com/en-us/api-reference/property/Player/Character). It defaults to 89°, so humanoids can climb pretty much any slope they want by default.
+
+Since this property is only relevant for characters being spawned in the future, changing it will not change any existing player characters. Changes to this property will only take effect when a player respawns.

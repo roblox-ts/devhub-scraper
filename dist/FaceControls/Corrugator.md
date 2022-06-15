@@ -1,0 +1,1 @@
+Brings the left and right brows inward together

@@ -1,0 +1,3 @@
+This property determines whether the [CharacterJumpHeight](https://developer.roblox.com/en-us/api-reference/property/StarterPlayer/CharacterJumpHeight) (false) or [StarterPlayer.CharacterJumpPower](https://developer.roblox.com/en-us/api-reference/property/StarterPlayer/CharacterJumpPower) (true) property is used.
+
+When a character spawns, this property is set according to the value of [StarterPlayer.CharacterUseJumpPower](https://developer.roblox.com/en-us/api-reference/property/StarterPlayer/CharacterUseJumpPower) which defaults to true.

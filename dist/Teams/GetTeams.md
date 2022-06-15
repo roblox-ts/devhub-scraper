@@ -1,0 +1,3 @@
+The GetTeam function returns a table containing the game's [Team](https://developer.roblox.com/en-us/api-reference/class/Team) objects.
+
+Note this will only return Team objects that are directly parented to the [Teams](https://developer.roblox.com/en-us/api-reference/class/Teams) service. For this reason it is recommended developers only parent [Team](https://developer.roblox.com/en-us/api-reference/class/Team) objects to the [Teams](https://developer.roblox.com/en-us/api-reference/class/Teams) service and not to other [Instance](https://developer.roblox.com/en-us/api-reference/class/Instance)s (or to each other).

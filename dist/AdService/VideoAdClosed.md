@@ -1,0 +1,1 @@
+This function longer fires, because the [AdService](https://developer.roblox.com/en-us/api-reference/class/AdService) has been decommissioned.

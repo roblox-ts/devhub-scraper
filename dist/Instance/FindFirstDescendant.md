@@ -1,0 +1,1 @@
+Returns the first descendant found with the given [Instance.Name](https://developer.roblox.com/en-us/api-reference/property/Instance/Name).

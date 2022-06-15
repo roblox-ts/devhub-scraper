@@ -1,0 +1,1 @@
+This event fires when the PromptSaveOutfit operation is completed. It gives a status [enum](https://developer.roblox.com/en-us/api-reference/enum/AvatarPromptResult) indicating whether the prompt succeeded, failed or permission was not granted by the user.

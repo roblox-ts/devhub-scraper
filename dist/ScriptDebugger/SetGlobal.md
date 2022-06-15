@@ -1,0 +1,1 @@
+Sets the value of the variable _name_ as _value_ in the global environment of the specified stack frame.

@@ -1,0 +1,5 @@
+The PlayerConnecting [Players](https://developer.roblox.com/en-us/api-reference/class/Players) event fires when a player is connecting to the game. It indicates the [Player](https://developer.roblox.com/en-us/api-reference/class/Player) instance connecting.
+
+This event is not intended for wide use and will not work in [Script](https://developer.roblox.com/en-us/api-reference/class/Script)s or [LocalScript](https://developer.roblox.com/en-us/api-reference/class/LocalScript)s. Instead, you can use the `Player/PlayersAdded` and [Players.PlayerRemoving](https://developer.roblox.com/en-us/api-reference/event/Players/PlayerRemoving) events.
+
+Similarly, if you want to track when a player's character is added or removed from the game, such as when a player respawns or dies, you can use the [Player.CharacterAdded](https://developer.roblox.com/en-us/api-reference/event/Player/CharacterAdded) and [Player.CharacterRemoving](https://developer.roblox.com/en-us/api-reference/event/Player/CharacterRemoving) functions.

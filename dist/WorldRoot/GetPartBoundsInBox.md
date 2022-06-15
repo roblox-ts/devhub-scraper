@@ -1,0 +1,7 @@
+**GetPartBoundsInBox** returns an array of parts whose _bounding boxes_ overlap a box whose volume is described using the given center (CFrame) and size (Vector3).
+
+Beware that this spatial query function efficiently considers the volume of parts' bounding boxes rather than their actual occupied volume. This may be important when considering cylinders, spheres, unions, and [MeshPart](https://developer.roblox.com/en-us/api-reference/class/MeshPart), which have non-block shapes. For cases where accuracy particularly matters, use [GetPartsInPart](https://developer.roblox.com/en-us/api-reference/function/WorldRoot/GetPartsInPart) instead or further filter the results of this function yourself.
+
+This function uses an [OverlapParams](https://developer.roblox.com/en-us/api-reference/datatype/OverlapParams) object to describe reusable portions of the spatial query, such as an instance whitelist/blacklist, the maximum number of parts to query, and what [collision group](https://developer.roblox.com/en-us/articles/collision-filtering) to use. When making repeated spatial queries using functions like this, you should construct just one of these objects and reuse it.
+
+This and other spatial query functions do not consider parts' [CanCollide](https://developer.roblox.com/en-us/api-reference/property/BasePart/CanCollide) or [CanTouch](https://developer.roblox.com/en-us/api-reference/property/BasePart/CanTouch) properties. However, it will consider parts' collision group if specified by the given OverlapParams.

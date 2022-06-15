@@ -1,0 +1,3 @@
+The Emit method will cause the [ParticleEmitter](https://developer.roblox.com/en-us/api-reference/class/ParticleEmitter) to emit the given number of particles similar to how [ParticleEmitter.Rate](https://developer.roblox.com/en-us/api-reference/property/ParticleEmitter/Rate) does on `ParticleEmitter/Enalbed` emitters. Be warned - this always emits exactly the number of particles even if Roblox' graphics settings are lower. Emitting too many particles can cause performance issues on lower-end hardware.
+
+To clear any emit particles, use [ParticleEmitter:Clear](https://developer.roblox.com/en-us/api-reference/function/ParticleEmitter/Clear).

@@ -1,0 +1,5 @@
+The Accessory class is the successor to the legacy Hat system. It's designed to be cross-compatible with both the legacy R6 character system, and the new R15 character system.
+
+If an [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment) is inserted into the Accessory's Handle with the same name as an [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment) found in one of the character's limbs, they will connect, and the properties inherited from the [Accoutrement](https://developer.roblox.com/en-us/api-reference/class/Accoutrement) class will be ignored. Otherwise, the Accessory functions identically to a [Hat](https://developer.roblox.com/en-us/api-reference/class/Hat).
+
+Note: If two matching [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment) are found the resulting [Weld](https://developer.roblox.com/en-us/api-reference/class/Weld) will be a child of the Handle of the Accessory. This differs from the legacy behavior of Hats where the Weld is always a child of the Head of the character.

@@ -1,0 +1,3 @@
+Sets the maximum frictional torque applied to keep its [Attachments](https://developer.roblox.com/en-us/api-reference/class/Attachment) aligned.
+
+`MaxFrictionTorque` specifies the stiffness of the [BallSocketConstraint](https://developer.roblox.com/en-us/api-reference/class/BallSocketConstraint), i.e. how much it resists rotation around its [Attachments](https://developer.roblox.com/en-us/api-reference/class/Attachment). Constrained to be greater than or equal to 0.

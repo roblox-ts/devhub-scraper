@@ -1,0 +1,1 @@
+Transparency that applies to all descendants.

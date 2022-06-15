@@ -1,0 +1,1 @@
+The [Axis](https://developer.roblox.com/en-us/api-reference/property/Attachment/Axis) is the direction of the [Attachment](https://developer.roblox.com/en-us/api-reference/class/Attachment)'s X-Axis, represented as a unit `Vector3`.

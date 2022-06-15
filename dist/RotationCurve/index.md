@@ -1,0 +1,1 @@
+A sorted list of [RotationCurveKey](https://developer.roblox.com/en-us/api-reference/class/RotationCurveKeys). RotationCurveKeys are value-time points on a curve that dictate the animation curves. It provides a sampling method returning its result as the rotation component of a CFrame.

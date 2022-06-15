@@ -1,0 +1,1 @@
+This property sets whether or not the [VideoFrame.Video](https://developer.roblox.com/en-us/api-reference/property/VideoFrame/Video) repeats once it has finished when it is playing.

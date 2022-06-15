@@ -1,0 +1,1 @@
+The CenterOfMass property describes the position in which a [part](https://developer.roblox.com/en-us/api-reference/class/BasePart)'s [center of mass](https://en.wikipedia.org/wiki/Center_of_mass) is located. Should a force be applied to the part toward this point, the part would not rotate as a result of this force. **CenterOfMass is currently not enabled.**

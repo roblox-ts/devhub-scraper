@@ -1,0 +1,5 @@
+The Enabled property relates to whether or not the [Tool](https://developer.roblox.com/en-us/api-reference/class/Tool) can be used. This is useful if you want to prevent a player from using a tool, but do not want to remove it from their [Backpack](https://developer.roblox.com/en-us/api-reference/class/Backpack).
+
+When set to true, the tool can use the tool.
+
+When set to false, the tool is disabled and the player cannot use the tool. It prevents the tool from being activated or deactivated by `the Tool/Activate` and [Tool:Deactivate](https://developer.roblox.com/en-us/api-reference/function/Tool/Deactivate) functions. It also prevents the [Tool.Activated](https://developer.roblox.com/en-us/api-reference/event/Tool/Activated) and [Tool.Deactivated](https://developer.roblox.com/en-us/api-reference/event/Tool/Deactivated) events from firing for the tool.

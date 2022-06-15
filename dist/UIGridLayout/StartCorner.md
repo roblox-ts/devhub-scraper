@@ -1,0 +1,5 @@
+StartCorner ([StartCorner](https://developer.roblox.com/en-us/api-reference/enum/StartCorner)) determines from which corner the grid starts laying out UI elements. The grid continues in the [UIGridStyleLayout.FillDirection](https://developer.roblox.com/en-us/api-reference/property/UIGridStyleLayout/FillDirection), filling elements one by one until `UIGridLayout/FIllDirectionMaxCells` cells have been laid out in that row/column or if all the parent UI element's space has been occupied by previous cells.
+
+![UIGridLayout with a StartCorner of BottomRight](https://developer.roblox.com/assets/bltb27258f9e16b81e2/UIGridLayout_StartCorner.png)
+
+Above, the potion is the first [ImageLabel](https://developer.roblox.com/en-us/api-reference/class/ImageLabel), followed by the gem and the sword. The UIGridLayout is using a [StartCorner](https://developer.roblox.com/en-us/api-reference/enum/StartCorner) of BottomRight. The [UIGridStyleLayout.FillDirection](https://developer.roblox.com/en-us/api-reference/property/UIGridStyleLayout/FillDirection) is Horizontal.

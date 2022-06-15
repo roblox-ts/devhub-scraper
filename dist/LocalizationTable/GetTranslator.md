@@ -1,0 +1,1 @@
+Returns a [Translator](https://developer.roblox.com/en-us/api-reference/class/Translator) for entries in this LocalizationTable, in the specified language. The translator will first search in this table and then look in ancestor tables.

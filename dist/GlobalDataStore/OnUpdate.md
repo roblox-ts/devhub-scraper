@@ -1,0 +1,5 @@
+This function sets **callback** as the function to be run any time the value associated with the [data store's](https://developer.roblox.com/en-us/api-reference/class/GlobalDataStore) key changes. Once every minute, OnUpdate polls for changes by other servers. Changes made on the same server will run the function immediately. In other words, functions like [IncrementAsync()](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/IncrementAsync), [SetAsync()](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/SetAsync), and [UpdateAsync()](https://developer.roblox.com/en-us/api-reference/function/GlobalDataStore/UpdateAsync) change the key's value in the data store and will cause the function to run.
+
+See the [Data Stores](https://developer.roblox.com/en-us/articles/data-store) article for an in-depth guide on data structure, management, error handling, etc.
+
+It's recommended that you **disconnect** the connection when the subscription to the key is no longer needed.

@@ -1,0 +1,1 @@
+Simulates the user moving the mouse cursor to a specific position.

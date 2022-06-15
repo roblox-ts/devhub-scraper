@@ -1,0 +1,7 @@
+The Texture property is the texture to draw on a [Trail](https://developer.roblox.com/en-us/api-reference/class/Trail)'s segments. This property sets which image asset to use for the texture. This is set the same way as textures in other objects, such as [ImageLabel](https://developer.roblox.com/en-us/api-reference/class/ImageLabel) or [ParticleEmitter](https://developer.roblox.com/en-us/api-reference/class/ParticleEmitter). The simplest way to set this property is to use an image uploaded to the Game Explorer (this requires the current place to be Published to Roblox).
+
+If a texture is not provided, then just the [Trail.Color](https://developer.roblox.com/en-us/api-reference/property/Trail/Color) of the Trail will be used. With a texture, the trail will draw the texture as its attachments move.
+
+![A trail with a pawprint texture.](https://developer.roblox.com/assets/blt799ab8f34ca0d660/TrailTexture.gif)
+
+Textures can be displayed in a variety of different ways based on the trail's [Trail.TextureMode](https://developer.roblox.com/en-us/api-reference/property/Trail/TextureMode) and [Trail.TextureLength](https://developer.roblox.com/en-us/api-reference/property/Trail/TextureLength) properties.

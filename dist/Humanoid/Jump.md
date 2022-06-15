@@ -1,0 +1,5 @@
+Whether the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) is jumping. If set to true, it will cause the [Humanoid](https://developer.roblox.com/en-us/api-reference/class/Humanoid) to jump. The humanoid jumps with an upwards force equal to the value of its [Humanoid.JumpPower](https://developer.roblox.com/en-us/api-reference/property/Humanoid/JumpPower) property.
+
+![A character jumping over stairs that are 7 studs tall](https://developer.roblox.com/assets/blt61a464c982798678/Jumping.gif)
+
+[Humanoids](https://developer.roblox.com/en-us/api-reference/class/Humanoid) are able to jump roughly 7.5 studs high by default, depending on both the [Workspace's](https://developer.roblox.com/en-us/api-reference/class/Workspace) [Workspace.Gravity](https://developer.roblox.com/en-us/api-reference/property/Workspace/Gravity), and the [Humanoid.JumpPower](https://developer.roblox.com/en-us/api-reference/property/Humanoid/JumpPower) of the humanoid itself.

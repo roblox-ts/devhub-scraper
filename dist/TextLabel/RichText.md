@@ -1,0 +1,3 @@
+This property determines whether the [TextLabel](https://developer.roblox.com/en-us/api-reference/class/TextLabel) renders the [TextLabel.Text](https://developer.roblox.com/en-us/api-reference/property/TextLabel/Text) string using rich text formatting. Rich text uses simple markup tags to style sections of the string in bold, italics, specific colors, and more.
+
+To use rich text, simply include formatting tags in the [TextLabel.Text](https://developer.roblox.com/en-us/api-reference/property/TextLabel/Text) string. Reference on formatting tags can be found in the [Using Rich Text](https://developer.roblox.com/en-us/articles/gui-rich-text) article.

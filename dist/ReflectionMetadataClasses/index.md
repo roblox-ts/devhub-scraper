@@ -1,0 +1,1 @@
+Acts as a [Folder](https://developer.roblox.com/en-us/api-reference/class/Folder) for [ReflectionMetadataClass](https://developer.roblox.com/en-us/api-reference/class/ReflectionMetadataClass) objects.

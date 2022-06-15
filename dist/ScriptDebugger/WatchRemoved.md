@@ -1,0 +1,1 @@
+Fires when a [DebuggerWatch](https://developer.roblox.com/en-us/api-reference/class/DebuggerWatch) is removed from this script debugger.

@@ -1,0 +1,1 @@
+Returns true if the object is connected to a part that will hold it in place (eg an [BasePart.Anchored](https://developer.roblox.com/en-us/api-reference/property/BasePart/Anchored) part), otherwise returns false.

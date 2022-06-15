@@ -1,0 +1,1 @@
+Opens or closes the player Emotes menu.

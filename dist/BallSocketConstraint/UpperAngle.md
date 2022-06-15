@@ -1,0 +1,1 @@
+Sets the upper rotation limit of the [BallSocketConstraint](https://developer.roblox.com/en-us/api-reference/class/BallSocketConstraint), as long as [BallSocketConstraint.LimitsEnabled](https://developer.roblox.com/en-us/api-reference/property/BallSocketConstraint/LimitsEnabled) is `true`.

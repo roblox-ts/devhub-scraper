@@ -1,0 +1,1 @@
+A counterpoint to [ProximityPrompt:InputHoldBegin](https://developer.roblox.com/en-us/api-reference/function/ProximityPrompt/InputHoldBegin), this signals that the user ended pressing the prompt GUI button.

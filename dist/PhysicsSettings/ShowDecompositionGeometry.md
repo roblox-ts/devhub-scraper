@@ -1,0 +1,1 @@
+When set to true, the underlying collision geometry for [PartOperation](https://developer.roblox.com/en-us/api-reference/class/PartOperation) and [MeshPart](https://developer.roblox.com/en-us/api-reference/class/MeshPart) is rendered.

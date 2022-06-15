@@ -1,0 +1,1 @@
+Returns true if any menu of [CoreGui](https://developer.roblox.com/en-us/api-reference/class/CoreGui) is open.

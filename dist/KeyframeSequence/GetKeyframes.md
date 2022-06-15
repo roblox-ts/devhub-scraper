@@ -1,0 +1,1 @@
+**GetKeyframes** returns an array that contains all [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe)s that have been added to a [KeyframeSequence](https://developer.roblox.com/en-us/api-reference/class/KeyframeSequence).

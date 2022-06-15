@@ -1,0 +1,1 @@
+This function returns an array containing all [Poses](https://developer.roblox.com/en-us/api-reference/class/Pose) that have been added to a [Keyframe](https://developer.roblox.com/en-us/api-reference/class/Keyframe).

@@ -1,0 +1,1 @@
+The FaceInstance class is an abstract class from which the [Decal](https://developer.roblox.com/en-us/api-reference/class/Decal) class inherits.

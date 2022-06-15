@@ -1,0 +1,1 @@
+An abstract class for GUI elements that are adorned to (displayed as attached to) objects deriving from [BasePart](https://developer.roblox.com/en-us/api-reference/class/BasePart).

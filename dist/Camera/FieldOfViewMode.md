@@ -1,0 +1,4 @@
+The [Camera's](https://developer.roblox.com/en-us/api-reference/class/Camera) FOV must be updated to reflect [Camera/ViewportSize](https://developer.roblox.com/en-us/api-reference/class/ViewportSize) changes. The value of the FieldOfViewMode property determines which FOV value will be kept constant.
+
+For example, when the value of FieldOfViewMode is set to `FieldOfViewMode/Vertical`, the horizontal FOV is updated when the viewport is resized, while the vertical FOV is kept constant.  
+On the other hand, if the value is set to `FieldOfViewMode/Diagonal`, both horizontal and vertical FOV might be changed to keep the diagonal FOV constant.
