@@ -34,19 +34,11 @@ async function write(buildId: string, className: string) {
 	}
 
 	if (apiReference.description !== "") {
-		await fs.outputFile(
-			path.join(DIST, className, "index.json"),
-			JSON.stringify(apiReference.description, undefined, 4),
-		);
 		await fs.outputFile(path.join(DIST, className, "index.md"), renderDescription(apiReference.description));
 	}
 	for (const property of apiReference.properties) {
 		if (property.description === "") continue;
 		const [, propName] = property.name.split(".");
-		await fs.outputFile(
-			path.join(DIST, className, `${propName}.json`),
-			JSON.stringify(property.description, undefined, 4),
-		);
 		await fs.outputFile(path.join(DIST, className, `${propName}.md`), renderDescription(property.description));
 	}
 }
@@ -58,9 +50,7 @@ async function main() {
 	const tasks = new Array<string>();
 
 	// debugging
-	// tasks.push("Humanoid");
-	// tasks.push("ScrollingFrame");
-	// tasks.push("AlignOrientation");
+	// tasks.push("Accessory");
 
 	for (const apiClass of apiDump.Classes) {
 		tasks.push(apiClass.Name);

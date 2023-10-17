@@ -1,4 +1,4 @@
-import { CLASS_URL } from "../constants";
+import { CLASS_URL, ENUM_URL } from "../constants";
 import md from "../nodes";
 import { assetUrl, url } from "../urls";
 import { assert } from "../util/assert";
@@ -44,33 +44,36 @@ function renderCodeElementNode(node: md.CodeElementNode): string {
 	const [path, textOverride] = innerText.split("|");
 	const pathSegments = path.split(".");
 
-	if (pathSegments.length > 0) {
-		const namespaceName = pathSegments.shift();
-		if (namespaceName === "Class") {
-			let isMethod = false;
-			const last = pathSegments.pop();
-			assert(last !== undefined);
-			const [lastSegment, methodCall] = last.split(":");
-			pathSegments.push(lastSegment);
-			if (methodCall) {
-				isMethod = true;
-				assert(methodCall.endsWith("()"));
-				const methodName = methodCall.endsWith("()") ? methodCall.slice(0, -2) : methodCall;
-				pathSegments.push(methodName);
-			}
+	const namespaceName = pathSegments.shift();
+	if (namespaceName === "Class") {
+		let isMethod = false;
+		const last = pathSegments.pop();
+		assert(last !== undefined);
+		const [lastSegment, methodCall] = last.split(":");
+		pathSegments.push(lastSegment);
+		if (methodCall) {
+			isMethod = true;
+			assert(methodCall.endsWith("()"));
+			const methodName = methodCall.endsWith("()") ? methodCall.slice(0, -2) : methodCall;
+			pathSegments.push(methodName);
+		}
 
-			const className = pathSegments.shift();
-			assert(className !== undefined);
-
-			if (pathSegments.length > 0) {
-				const memberName = pathSegments.pop();
-				assert(memberName !== undefined);
+		const className = pathSegments.shift();
+		if (className) {
+			const memberName = pathSegments.shift();
+			if (memberName) {
 				const text = textOverride ?? (isMethod ? `${className}:${memberName}()` : `${className}.${memberName}`);
 				return `[\`${text}\`](${CLASS_URL}/${className}#${memberName})`;
 			} else {
 				const text = textOverride ?? className;
 				return `[\`${text}\`](${CLASS_URL}/${className})`;
 			}
+		}
+	} else if (namespaceName === "Enum") {
+		const enumName = pathSegments.shift();
+		if (enumName) {
+			const text = textOverride ?? `Enum.${enumName}`;
+			return `[\`${text}\`](${ENUM_URL}/${enumName})`;
 		}
 	}
 
