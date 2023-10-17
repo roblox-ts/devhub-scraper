@@ -1,0 +1,574 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Field of view, often shortened to FOV, is the extent of the observable\ngame world that can be seen on screen at a given moment. The FieldOfView\nproperty is clamped between 1 and 120 degrees and defaults at 70. Very low\nor very high fields of view are not recommended as they can be\ndisorientating to players.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 27,
+                            "offset": 308
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 27,
+                    "offset": 308
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The FieldOfView property sets how many degrees in the vertical direction\n(y-axis) the camera can view. Uniform scaling is enforced meaning the\nvertical and horizontal field of view are always related by the\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 310
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 517
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://en.wikipedia.org/wiki/Aspect_ratio_(image)"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "aspect ratio",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 2,
+                                    "offset": 518
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 14,
+                                    "offset": 530
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 517
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 69,
+                            "offset": 585
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of\nthe screen. This means the FieldOfView property also determines the\nhorizontal field of view.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 69,
+                            "offset": 585
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 26,
+                            "offset": 682
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 310
+                },
+                "end": {
+                    "line": 12,
+                    "column": 26,
+                    "offset": 682
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See the images below for an example of how different FieldOfView settings\ncan impact the extent of the perceptive game world. At a FOV of 70, a\nconsiderable portion of the game world is visible:",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 684
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 51,
+                            "offset": 878
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 684
+                },
+                "end": {
+                    "line": 16,
+                    "column": 51,
+                    "offset": 878
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/Fov70.png",
+                        "alt": "A demonstration of the default FOV of 70"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 880
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 70,
+                            "offset": 949
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 880
+                },
+                "end": {
+                    "line": 18,
+                    "column": 70,
+                    "offset": 949
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "However when the FOV is reduced to 30, although the ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 951
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 53,
+                            "offset": 1003
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 53,
+                            "offset": 1003
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 67,
+                            "offset": 1017
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "'s\n",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 67,
+                            "offset": 1017
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 1020
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 1020
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 22,
+                            "offset": 1041
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " has not changed, a much smaller portion of the game\nworld is rendered:",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 22,
+                            "offset": 1041
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 19,
+                            "offset": 1112
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 951
+                },
+                "end": {
+                    "line": 22,
+                    "column": 19,
+                    "offset": 1112
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/Fov30.png",
+                        "alt": "A demonstration of a reduced FOV of 30"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1114
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 68,
+                            "offset": 1181
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 24,
+                    "column": 1,
+                    "offset": 1114
+                },
+                "end": {
+                    "line": 24,
+                    "column": 68,
+                    "offset": 1181
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Suggested uses for FieldOfView",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 6,
+                            "offset": 1188
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 36,
+                            "offset": 1218
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 26,
+                    "column": 1,
+                    "offset": 1183
+                },
+                "end": {
+                    "line": 26,
+                    "column": 36,
+                    "offset": 1218
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Changing FOV can produce a variety of effects, such as:",
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 1,
+                            "offset": 1220
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 56,
+                            "offset": 1275
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 28,
+                    "column": 1,
+                    "offset": 1220
+                },
+                "end": {
+                    "line": 28,
+                    "column": 56,
+                    "offset": 1275
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Reducing FOV to give the impression of magnification (for example when\nusing binoculars)",
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 3,
+                                    "offset": 1279
+                                },
+                                "end": {
+                                    "line": 31,
+                                    "column": 20,
+                                    "offset": 1369
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 1,
+                            "offset": 1277
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 20,
+                            "offset": 1369
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Increasing FOV when the player is 'sprinting' to give the impression of\na lack of control",
+                            "position": {
+                                "start": {
+                                    "line": 32,
+                                    "column": 3,
+                                    "offset": 1372
+                                },
+                                "end": {
+                                    "line": 33,
+                                    "column": 20,
+                                    "offset": 1463
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1370
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 20,
+                            "offset": 1463
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 30,
+                    "column": 1,
+                    "offset": 1277
+                },
+                "end": {
+                    "line": 33,
+                    "column": 20,
+                    "offset": 1463
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

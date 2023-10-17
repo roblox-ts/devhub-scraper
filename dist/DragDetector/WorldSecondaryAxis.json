@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DragDetector.SecondaryAxis|SecondaryAxis"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " expressed in world\nspace. Relates to orientation using the same paradigm as\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 129
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment|Attachments"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 129
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 159
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 159
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 160
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 32,
+                    "offset": 160
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

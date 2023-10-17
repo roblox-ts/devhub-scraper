@@ -1,1 +1,1 @@
-Container class for the [HumanoidController](https://create.roblox.com/docs/reference/engine/classes/HumanoidController) among other classes.
+Container class for the [`HumanoidController`](https://create.roblox.com/docs/reference/engine/classes/HumanoidController) among other classes.

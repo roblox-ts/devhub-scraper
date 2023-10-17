@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "AbsolutePosition is a read-only property that provides the screen position\nof a UI element in pixels. This represents the actual pixel position at\nwhich an element renders as a result of its ancestors' sizes and\npositions. The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 16,
+                            "offset": 227
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.AnchorPoint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 16,
+                            "offset": 227
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 45,
+                            "offset": 256
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " also influences the\nAbsolutePosition. This property, ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 45,
+                            "offset": 256
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 34,
+                            "offset": 310
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiBase2d.AbsoluteSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 34,
+                            "offset": 310
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 64,
+                            "offset": 340
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 64,
+                            "offset": 340
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 345
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiBase2d.AbsoluteRotation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 345
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 35,
+                            "offset": 379
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are a group of properties that all\ndescribe the final rendered orientation of a UI element.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 35,
+                            "offset": 379
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 57,
+                            "offset": 471
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 7,
+                    "column": 57,
+                    "offset": 471
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For example, on a 1920 by 1080 screen, a ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 473
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 42,
+                            "offset": 514
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Frame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 42,
+                            "offset": 514
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 55,
+                            "offset": 527
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " with position {0.5,\n0}, {0.5, 0} would have an AbsolutePosition of (960, 540). If you were to\nplace another Frame with position {0, 50}, {0, 50} inside that one, its\nAbsolutePosition would be (1010, 590). This example assumes each Frame has\nthe default ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 55,
+                            "offset": 527
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 13,
+                            "offset": 781
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.AnchorPoint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 13,
+                            "offset": 781
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 42,
+                            "offset": 810
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of (0, 0), the top left corner.",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 42,
+                            "offset": 810
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 74,
+                            "offset": 842
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 473
+                },
+                "end": {
+                    "line": 13,
+                    "column": 74,
+                    "offset": 842
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

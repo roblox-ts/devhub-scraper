@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Locked property determines whether a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart|part"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 63,
+                            "offset": 62
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " (or a\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 63,
+                            "offset": 62
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 69
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model|model"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 69
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 88
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " it is contained within) may be selected in Roblox\nStudio by clicking on it. This property is most often enabled on parts\nwithin environment models that aren't being edited at the moment. Roblox\nStudio has a Lock/Unlock All tool that can toggle the Locked state of\nevery part descendant in a model at once.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 88
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 42,
+                            "offset": 394
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 42,
+                    "offset": 394
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

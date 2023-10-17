@@ -1,70 +1,43 @@
-**WeldConstraints** are used to attach two [parts](https://create.roblox.com/docs/reference/engine/classes/BasePart) together. The
-constraint makes sure that the parts stay in the same relative position and
-orientation to one another, meaning that if one part moves, the other will
-move the same amount. Even if the two parts are not touching one another, they
-can be welded together with a weld constraint.
+**WeldConstraint** connects two [`BaseParts`](https://create.roblox.com/docs/reference/engine/classes/BasePart) and ensures they
+stay in the same relative position/orientation to each other, meaning that if
+one part moves, the other moves the same amount. Even if the two parts are not
+touching, they can be welded together.
 
-The most common way to create a weld constraint is through the Studio
-**Create** menu in the **Model** tab (select **Weld**). This tool will act
-differently based on how many parts are selected when the tool is activated:
+The most common way to create a weld constraint is by selecting **Weld**
+through Studio's **Create** menu in the [Model](https://create.roblox.com/docs/studio/model-tab)
+tab.
 
-- If no parts are selected when the **Weld** tool is clicked, the next two
-  parts that are clicked on will be welded together. If the same part is
-  clicked twice, no weld will be created.
-- If one part is selected when the **Weld** tool is clicked, the next part
-  that is clicked on will be welded to the selected part.
-- If several parts are selected when the **Weld** tool is clicked, any parts
-  in that selection that are touching or overlapping will be welded together.
+![Constraint picker indicated in Studio toolbar](https://prod.docsiteassets.roblox.com/assets/studio/general/Model-Tab-Constraints-Create-Menu.png)
 
-## Repositioning Welded Parts
+Note that this tool behaves differently depending on how many
+[`BaseParts`](https://create.roblox.com/docs/reference/engine/classes/BasePart) are selected when the tool is activated:
 
-Roblox handles moving a welded part differently depending on whether the part
-was moved using its [Position](https://create.roblox.com/docs/reference/engine/classes/BasePart#Position) or with its
-[CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame).
+- If no [`BaseParts`](https://create.roblox.com/docs/reference/engine/classes/BasePart) are selected, the next two
+[`BaseParts`](https://create.roblox.com/docs/reference/engine/classes/BasePart) clicked will be connected by a new
+[`WeldConstraint`](https://create.roblox.com/docs/reference/engine/classes/WeldConstraint). If the same [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) is clicked twice, no
+constraint will be created.
+- If one [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) is already selected, the next [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart)
+clicked will be connected to the selected one with a new
+[`WeldConstraint`](https://create.roblox.com/docs/reference/engine/classes/WeldConstraint).
+- If multiple [`BaseParts`](https://create.roblox.com/docs/reference/engine/classes/BasePart) are selected, those which are
+touching or overlapping will be automatically welded together by new
+[`WeldConstraints`](https://create.roblox.com/docs/reference/engine/classes/WeldConstraint).
 
-If a welded part's [Position](https://create.roblox.com/docs/reference/engine/classes/BasePart#Position) is updated, the part will move
-but none of the connected parts will move with it. The weld will recalculate
-the offset from the other part based on the part's new position.
+#### Repositioning Behavior
 
-```lua
--- Create two parts and position them at the same height
-local partA = Instance.new("Part")
-local partB = Instance.new("Part")
-partA.Position = Vector3.new(0, 10, 0)
-partB.Position = Vector3.new(0, 10, 10)
-partA.Parent = workspace
-partB.Parent = workspace
+Moving a welded [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) behaves differently depending on whether the
+part was moved through its [`Position`](https://create.roblox.com/docs/reference/engine/classes/BasePart#Position) or through its
+`Datatype.CFrame`.
 
--- Weld the two parts together
-local weld = Instance.new("WeldConstraint")
-weld.Parent = workspace
-weld.Part0 = partA
-weld.Part1 = partB
+- 
 
--- Update the position of the first part; the first part will move but the second will stay where it started
-partA.Position = Vector3.new(0, 20, 0)
-```
+If a welded part's [`Position`](https://create.roblox.com/docs/reference/engine/classes/BasePart#Position) is updated, that part
+will move but none of the connected parts will move with it. The weld will
+recalculate the offset from the other parts based on the moved part's new
+position.
 
-In contrast, if a part's `datatype/CFrame|CFrame` is updated, that part will
-move and any part welded to that part will also move. These other parts will
-be moved to make sure they maintain the same offset as when the weld was
-created.
+- 
 
-```lua
--- Create two parts and position them at the same height
-local partA = Instance.new("Part")
-local partB = Instance.new("Part")
-partA.Position = Vector3.new(0, 10, 0)
-partB.Position = Vector3.new(0, 10, 10)
-partA.Parent = workspace
-partB.Parent = workspace
-
--- Weld the two parts together
-local weld = Instance.new("WeldConstraint")
-weld.Parent = workspace
-weld.Part0 = partA
-weld.Part1 = partB
-
--- Update the CFrame of the first part; the second part will also move to maintain the offset of the weld
-partA.CFrame = CFrame.new(0, 20, 0)
-```
+If a welded part's `Datatype.CFrame` is updated, that part will move **and**
+all of the connected parts will also move, ensuring they maintain the same
+offset as when the weld was created.

@@ -1,0 +1,367 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines what behavior this ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 31,
+                            "offset": 30
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SensorBase"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 31,
+                            "offset": 30
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 49,
+                            "offset": 48
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " uses when sensing other\nparts.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 49,
+                            "offset": 48
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 7,
+                            "offset": 79
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 7,
+                    "offset": 79
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A setting of ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 81
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 14,
+                            "offset": 94
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.SensorMode.Ladder"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 14,
+                            "offset": 94
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 38,
+                            "offset": 118
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " performs the same ladder detection\nlogic used by a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 38,
+                            "offset": 118
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 17,
+                            "offset": 170
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 17,
+                            "offset": 170
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 33,
+                            "offset": 186
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to populate sensor output. It currently\nalways senses along the forward vector of its parent ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 33,
+                            "offset": 186
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 54,
+                            "offset": 280
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 54,
+                            "offset": 280
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 70,
+                            "offset": 296
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 70,
+                            "offset": 296
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 71,
+                            "offset": 297
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 81
+                },
+                "end": {
+                    "line": 6,
+                    "column": 71,
+                    "offset": 297
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A setting of ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 299
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 14,
+                            "offset": 312
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.SensorMode.Floor"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 14,
+                            "offset": 312
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 37,
+                            "offset": 335
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " performs the same floor detection\nlogic used by a ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 37,
+                            "offset": 335
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 17,
+                            "offset": 386
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 17,
+                            "offset": 386
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 33,
+                            "offset": 402
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to populate sensor output. It currently\nalways senses along the negative up vector of the world.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 33,
+                            "offset": 402
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 57,
+                            "offset": 499
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 299
+                },
+                "end": {
+                    "line": 10,
+                    "column": 57,
+                    "offset": 499
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,1 @@
+Background color of bubbles in `Datatype.Color3`.

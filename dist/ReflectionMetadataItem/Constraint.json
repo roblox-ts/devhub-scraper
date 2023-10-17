@@ -1,0 +1,611 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Describes a constraint for a single-argument function whose argument type\nis a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 6,
+                            "offset": 79
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance.ClassName"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 6,
+                            "offset": 79
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 32,
+                            "offset": 105
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Currently there are two constraints\navailable:",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 32,
+                            "offset": 105
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 11,
+                            "offset": 153
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 11,
+                    "offset": 153
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "table",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 8,
+                            "offset": 162
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 163
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "tbody",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 6,
+                                            "column": 12,
+                                            "offset": 174
+                                        },
+                                        "end": {
+                                            "line": 7,
+                                            "column": 1,
+                                            "offset": 175
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "th",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Constraint",
+                                            "position": {
+                                                "start": {
+                                                    "line": 7,
+                                                    "column": 5,
+                                                    "offset": 179
+                                                },
+                                                "end": {
+                                                    "line": 7,
+                                                    "column": 15,
+                                                    "offset": 189
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 7,
+                                            "column": 1,
+                                            "offset": 175
+                                        },
+                                        "end": {
+                                            "line": 7,
+                                            "column": 20,
+                                            "offset": 194
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 7,
+                                            "column": 20,
+                                            "offset": 194
+                                        },
+                                        "end": {
+                                            "line": 8,
+                                            "column": 1,
+                                            "offset": 195
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "th",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Description",
+                                            "position": {
+                                                "start": {
+                                                    "line": 8,
+                                                    "column": 5,
+                                                    "offset": 199
+                                                },
+                                                "end": {
+                                                    "line": 8,
+                                                    "column": 16,
+                                                    "offset": 210
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 8,
+                                            "column": 1,
+                                            "offset": 195
+                                        },
+                                        "end": {
+                                            "line": 8,
+                                            "column": 21,
+                                            "offset": 215
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 8,
+                                            "column": 21,
+                                            "offset": 215
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 1,
+                                            "offset": 216
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 8,
+                                    "offset": 170
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 6,
+                                    "offset": 221
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 6,
+                                    "offset": 221
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 1,
+                                    "offset": 222
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 10,
+                                            "column": 5,
+                                            "offset": 226
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 1,
+                                            "offset": 227
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "isScriptCreatable",
+                                            "position": {
+                                                "start": {
+                                                    "line": 11,
+                                                    "column": 5,
+                                                    "offset": 231
+                                                },
+                                                "end": {
+                                                    "line": 11,
+                                                    "column": 22,
+                                                    "offset": 248
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 1,
+                                            "offset": 227
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 27,
+                                            "offset": 253
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 27,
+                                            "offset": 253
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 1,
+                                            "offset": 254
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "The specified class must be creatable with Instance.new",
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 5,
+                                                    "offset": 258
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 60,
+                                                    "offset": 313
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 1,
+                                            "offset": 254
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 65,
+                                            "offset": 318
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 65,
+                                            "offset": 318
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 1,
+                                            "offset": 319
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 1,
+                                    "offset": 222
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 6,
+                                    "offset": 324
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 6,
+                                    "offset": 324
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 1,
+                                    "offset": 325
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 14,
+                                            "column": 5,
+                                            "offset": 329
+                                        },
+                                        "end": {
+                                            "line": 15,
+                                            "column": 1,
+                                            "offset": 330
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "isService",
+                                            "position": {
+                                                "start": {
+                                                    "line": 15,
+                                                    "column": 5,
+                                                    "offset": 334
+                                                },
+                                                "end": {
+                                                    "line": 15,
+                                                    "column": 14,
+                                                    "offset": 343
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 15,
+                                            "column": 1,
+                                            "offset": 330
+                                        },
+                                        "end": {
+                                            "line": 15,
+                                            "column": 19,
+                                            "offset": 348
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 15,
+                                            "column": 19,
+                                            "offset": 348
+                                        },
+                                        "end": {
+                                            "line": 16,
+                                            "column": 1,
+                                            "offset": 349
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "The specified class must be a service.",
+                                            "position": {
+                                                "start": {
+                                                    "line": 16,
+                                                    "column": 5,
+                                                    "offset": 353
+                                                },
+                                                "end": {
+                                                    "line": 16,
+                                                    "column": 43,
+                                                    "offset": 391
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 16,
+                                            "column": 1,
+                                            "offset": 349
+                                        },
+                                        "end": {
+                                            "line": 16,
+                                            "column": 48,
+                                            "offset": 396
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 16,
+                                            "column": 48,
+                                            "offset": 396
+                                        },
+                                        "end": {
+                                            "line": 17,
+                                            "column": 1,
+                                            "offset": 397
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 1,
+                                    "offset": 325
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 6,
+                                    "offset": 402
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 6,
+                                    "offset": 402
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 1,
+                                    "offset": 403
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 163
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 9,
+                            "offset": 411
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 155
+                },
+                "end": {
+                    "line": 18,
+                    "column": 17,
+                    "offset": 419
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

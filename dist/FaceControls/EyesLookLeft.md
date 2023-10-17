@@ -1,1 +1,1 @@
-Moves gaze left
+Moves gaze left. This is a required pose for avatars.

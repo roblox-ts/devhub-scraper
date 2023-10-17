@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Enables a reaction force (equal an opposite) to be applied to the parent\nof ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 4,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Constraint.Attachment1|Attachment1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 4,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 46,
+                            "offset": 118
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". By default line force only\napplies a force on the parent of\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 46,
+                            "offset": 118
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 180
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Constraint.Attachment0|Attachment0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 180
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 222
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and uses\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 222
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 232
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Constraint.Attachment1|Attachment1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 232
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 43,
+                            "offset": 274
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " as the target direction without\nany dynamic relationship.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 43,
+                            "offset": 274
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 26,
+                            "offset": 332
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 26,
+                    "offset": 332
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

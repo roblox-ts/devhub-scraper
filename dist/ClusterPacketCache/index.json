@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "An internal service meant to cache cluster packets. This service will only be\npresent if a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 14,
+                            "offset": 91
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.NetworkServer"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 14,
+                            "offset": 91
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 112
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is present.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 112
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 47,
+                            "offset": 124
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 47,
+                    "offset": 124
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

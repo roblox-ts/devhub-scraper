@@ -1,0 +1,584 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "HealthDisplayType",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 20,
+                                    "offset": 19
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " controls when a humanoid's health bar is allowed to\nbe displayed. By default, this property is set to\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 124
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.HumanoidHealthDisplayType|DisplayWhenDamaged"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 124
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 52,
+                            "offset": 175
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which makes the\nhealth bar only display when a humanoid's ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 52,
+                            "offset": 175
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 235
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid.Health"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 235
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 66,
+                            "offset": 258
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is less\nthan its ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 66,
+                            "offset": 258
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 276
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid.MaxHealth"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 276
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 36,
+                            "offset": 302
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". It can also be set to\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 36,
+                            "offset": 302
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 326
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.HumanoidHealthDisplayType|AlwaysOn"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 326
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 42,
+                            "offset": 367
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which makes the health bar\nalways display, or ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 42,
+                            "offset": 367
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 20,
+                            "offset": 415
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.HumanoidHealthDisplayType|AlwaysOff"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 20,
+                            "offset": 415
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 62,
+                            "offset": 457
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which\nprevents it from ever displaying.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 62,
+                            "offset": 457
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 34,
+                            "offset": 498
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 8,
+                    "column": 34,
+                    "offset": 498
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property functions independently of the humanoid's\n",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 500
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 556
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "HealthDisplayDistance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 556
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 24,
+                            "offset": 579
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property, which is responsible for making the\nhealth bar fade out at certain distances. If ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 24,
+                            "offset": 579
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 46,
+                            "offset": 671
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "HealthDisplayType",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 48,
+                                    "offset": 673
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 65,
+                                    "offset": 690
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 46,
+                            "offset": 671
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 67,
+                            "offset": 692
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set\nto ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 67,
+                            "offset": 692
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 4,
+                            "offset": 703
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.HumanoidHealthDisplayType|AlwaysOn"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 4,
+                            "offset": 703
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 45,
+                            "offset": 744
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", it will still fade out\ndepending the how ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 45,
+                            "offset": 744
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 19,
+                            "offset": 787
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid.HealthDisplayDistance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 19,
+                            "offset": 787
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 57,
+                            "offset": 825
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is configured.",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 57,
+                            "offset": 825
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 72,
+                            "offset": 840
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 500
+                },
+                "end": {
+                    "line": 14,
+                    "column": 72,
+                    "offset": 840
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See\n",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 842
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 846
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/characters/name-health-display"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Character Name/Health Display",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 2,
+                                    "offset": 847
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 31,
+                                    "offset": 876
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 846
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 65,
+                            "offset": 910
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nfor an in-depth guide on controlling the appearance of character names and\nhealth bars.",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 65,
+                            "offset": 910
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 13,
+                            "offset": 998
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 842
+                },
+                "end": {
+                    "line": 19,
+                    "column": 13,
+                    "offset": 998
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

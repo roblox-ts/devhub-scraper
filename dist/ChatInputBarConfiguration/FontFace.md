@@ -1,0 +1,1 @@
+Determines the font used to render text in the default chat input bar.

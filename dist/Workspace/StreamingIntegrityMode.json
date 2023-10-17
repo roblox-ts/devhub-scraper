@@ -1,0 +1,237 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 4,
+                            "offset": 3
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace.StreamingEnabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 4,
+                            "offset": 3
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 38,
+                            "offset": 37
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is activated, an experience may\nbehave in unintended ways if a player's character moves into a region of\nthe world that has not been streamed to their client. The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 38,
+                            "offset": 37
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 59,
+                            "offset": 201
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Streaming\nIntegrity",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 61,
+                                    "offset": 203
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 10,
+                                    "offset": 222
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 59,
+                            "offset": 201
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 12,
+                            "offset": 224
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " feature offers a way to avoid those potentially problematic\nsituations. Please see the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 12,
+                            "offset": 224
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 28,
+                            "offset": 312
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.StreamingIntegrityMode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 28,
+                            "offset": 312
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 57,
+                            "offset": 341
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " documentation and\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 57,
+                            "offset": 341
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 5,
+                            "offset": 364
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/workspace/streaming"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Content Streaming",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 6,
+                                    "offset": 365
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 23,
+                                    "offset": 382
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 5,
+                            "offset": 364
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 46,
+                            "offset": 405
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " article for more\ndetails.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 46,
+                            "offset": 405
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 9,
+                            "offset": 431
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 7,
+                    "column": 9,
+                    "offset": 431
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,718 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject|GUI's"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " pixel and scalar size\nusing a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 9,
+                            "offset": 81
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.UDim2"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 9,
+                            "offset": 81
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 97
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Its value can be expressed as\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 129
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "UDim2.new(ScalarX, PixelX, ScalarY, PixelY)"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 129
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 46,
+                            "offset": 174
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 46,
+                            "offset": 174
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 178
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "({ScalarX, PixelX}, {ScalarY, PixelY})"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 178
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 41,
+                            "offset": 218
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Position is centered around a\nGUI's ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 41,
+                            "offset": 218
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 7,
+                            "offset": 256
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.AnchorPoint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 7,
+                            "offset": 256
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 36,
+                            "offset": 285
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 36,
+                            "offset": 285
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 37,
+                            "offset": 286
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 37,
+                    "offset": 286
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "An element's position can also be set by modifying both its scalar and\npixel positions at the same time. For instance, its position can be set to\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 288
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 434
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "({0.25, 100}, {0.25, 100})"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 434
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 29,
+                            "offset": 462
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 29,
+                            "offset": 462
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 30,
+                            "offset": 463
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 288
+                },
+                "end": {
+                    "line": 9,
+                    "column": 30,
+                    "offset": 463
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The scalar position is relative to the size of the parent GUI element. For\nexample, if AnchorPoint is set to ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 465
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 35,
+                            "offset": 574
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "0, 0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 35,
+                            "offset": 574
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 41,
+                            "offset": 580
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and Position is set to\n",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 41,
+                            "offset": 580
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 604
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "{0, 0}, {0, 0}"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 604
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 17,
+                            "offset": 620
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the element's top left corner renders at the top left\ncorner of the parent element. Similarly, if AnchorPoint is set to ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 17,
+                            "offset": 620
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 67,
+                            "offset": 742
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "0, 0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 67,
+                            "offset": 742
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 73,
+                            "offset": 748
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nand Position is set to ",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 73,
+                            "offset": 748
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 24,
+                            "offset": 772
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "{0.5, 0}, {0.5, 0}"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 24,
+                            "offset": 772
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 44,
+                            "offset": 792
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the element's top left corner\nwill render at the direct center of the parent element.",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 44,
+                            "offset": 792
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 56,
+                            "offset": 879
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 465
+                },
+                "end": {
+                    "line": 16,
+                    "column": 56,
+                    "offset": 879
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The pixel portions of the ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 881
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 27,
+                            "offset": 907
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.UDim2"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 27,
+                            "offset": 907
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 43,
+                            "offset": 923
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " value are the same regardless\nof the parent GUI's size. The values represent the position of the object\nin pixels. For example, if set to ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 43,
+                            "offset": 923
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 35,
+                            "offset": 1062
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "{0, 100}, {0, 150}"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 35,
+                            "offset": 1062
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 55,
+                            "offset": 1082
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " the element's\nAnchorPoint will render with on the screen 100 pixels from the left and\n150 pixels from the top.",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 55,
+                            "offset": 1082
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 25,
+                            "offset": 1193
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 881
+                },
+                "end": {
+                    "line": 22,
+                    "column": 25,
+                    "offset": 1193
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "An object's actual pixel position can be read from the\n",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1195
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 1250
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiBase2d.AbsolutePosition"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 1250
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 35,
+                            "offset": 1284
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property.",
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 35,
+                            "offset": 1284
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 45,
+                            "offset": 1294
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 24,
+                    "column": 1,
+                    "offset": 1195
+                },
+                "end": {
+                    "line": 25,
+                    "column": 45,
+                    "offset": 1294
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

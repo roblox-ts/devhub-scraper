@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The distance apart at which the constraint attempts to keep its\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 64
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment|Attachments"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 64
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 94
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Measured in studs.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 94
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 51,
+                            "offset": 114
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 51,
+                    "offset": 114
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

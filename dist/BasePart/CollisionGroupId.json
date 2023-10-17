@@ -1,0 +1,301 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.CollisionGroupId"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 38,
+                            "offset": 37
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property describes the ID number of\nthe part's collision group. Parts start off in the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 38,
+                            "offset": 37
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 125
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\"Default\""
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 125
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 63,
+                            "offset": 136
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " group whose\nID is 0. If a part is unregistered, the value becomes -1. This value\ncannot be less than -1 and it cannot exceed\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 63,
+                            "offset": 136
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 262
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PhysicsService:GetMaxCollisionGroups()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 262
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 47,
+                            "offset": 308
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Invalid IDs are clamped.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 47,
+                            "offset": 308
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 73,
+                            "offset": 334
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 73,
+                    "offset": 334
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Although this property can be directly changed, it's recommended that you\nspecify the collision group by setting ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 336
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 40,
+                            "offset": 449
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.CollisionGroup"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 40,
+                            "offset": 449
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 71,
+                            "offset": 480
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to\nthe collision group's ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 71,
+                            "offset": 480
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 23,
+                            "offset": 506
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "name",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 25,
+                                    "offset": 508
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 29,
+                                    "offset": 512
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 23,
+                            "offset": 506
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 31,
+                            "offset": 514
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 31,
+                            "offset": 514
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 32,
+                            "offset": 515
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 336
+                },
+                "end": {
+                    "line": 9,
+                    "column": 32,
+                    "offset": 515
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

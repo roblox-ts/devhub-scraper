@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When set to true, portions of GuiObjects that fall outside of the\nBillboardGui's canvas borders will not be drawn.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 49,
+                            "offset": 114
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 49,
+                    "offset": 114
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Even when this property is false, objects that are completely outside of\nthe canvas of the BillboardGui will not render.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 116
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 48,
+                            "offset": 236
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 116
+                },
+                "end": {
+                    "line": 5,
+                    "column": 48,
+                    "offset": 236
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

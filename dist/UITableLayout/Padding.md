@@ -5,6 +5,4 @@ visible between the cells contained within them. In the image below, you
 can see the padding of 5 pixels applied between the cells (and the sibling
 UI elements acting as rows in yellow).
 
-![UITableLayout with padding between cells][1]
-
-[1]: https://prod.docsiteassets.roblox.com/assets/bltff6ce5d154eee764/UITableLayout_Padding.png
+![UITableLayout with padding between cells](https://prod.docsiteassets.roblox.com/assets/legacy/UITableLayout_Padding.png)

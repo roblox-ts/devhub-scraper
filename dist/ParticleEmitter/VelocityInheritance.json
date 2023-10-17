@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The VelocityInheritance property determines how much of the parent part's\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 74
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Velocity"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 74
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 99
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is inherited by particles when they are emitted.\nA value of 0 means that no velocity is inherited, and a value of 1 means\nthe particle will have the exact same speed as the parent\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 99
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 280
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 280
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 17,
+                            "offset": 296
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 17,
+                            "offset": 296
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 18,
+                            "offset": 297
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 18,
+                    "offset": 297
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When used in conjunction with ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 299
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 31,
+                            "offset": 329
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.Drag"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 31,
+                            "offset": 329
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 59,
+                            "offset": 357
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", a particle\nemitter can make appear to be \"shedding\" particles from a moving part.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 59,
+                            "offset": 357
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 71,
+                            "offset": 440
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 299
+                },
+                "end": {
+                    "line": 8,
+                    "column": 71,
+                    "offset": 440
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When set to true, all scene updates will be given an unlimited budget,\nregardless of how computationally expensive it may be. This ensures each\nframe will look as it should, at the cost of a more unstable frame rate.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 73,
+                            "offset": 216
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 73,
+                    "offset": 216
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This is used when rendering game thumbnails.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 218
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 45,
+                            "offset": 262
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 218
+                },
+                "end": {
+                    "line": 5,
+                    "column": 45,
+                    "offset": 262
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

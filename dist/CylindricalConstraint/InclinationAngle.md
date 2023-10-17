@@ -1,2 +1,3 @@
-Direction of the rotation axis as an angle from the x-axis in the xy-plane
-of Attachment0. Value in [-180, 180].
+Direction of the rotation axis as an angle from the **X** axis in the
+**XY** plane of [`Attachment0`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0). Valid range
+between -180 and 180.

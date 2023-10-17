@@ -1,18 +1,18 @@
-A physics constraint that ensures two axes on two rigid bodies remain
-perpendicular. An example use of this constraint are power transmission
-between the transmission and rear drive shafts of rear-wheel drive cars,
-robotics, etc.
+A **UniversalConstraint** ensures two axes on two bodies remain perpendicular.
+Contextually, this constraint is more restrictive than a
+[`BallSocketConstraint`](https://create.roblox.com/docs/reference/engine/classes/BallSocketConstraint) but less restrictive than a
+[`HingeConstraint`](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint) by one degree of freedom.
 
-The constraint ensures that two attachments are co-located (similar to
-[BallSocketConstraint](https://create.roblox.com/docs/reference/engine/classes/BallSocketConstraint)) and that their secondary axes remain perpendicular
-(see the picture below). In this sense, this constraint is more restrictive
-than the BallSocketConstraint but is less restrictive than [HingeConstraint](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint)
-(by one degree of freedom).
+Example applications of this constraint include transmitting power between the
+transmission and drive shafts of cars, robotics, and more.
 
-![Example UniversalConstraint](https://prod.docsiteassets.roblox.com/assets/blt96586dfb35538032/UniversalConstraintDemo.jpg?auto=yes&bg=222&fg=000)
+When configuring this constraint, it may be helpful to study
+[Roblox Units](https://create.roblox.com/docs/physics/units) to understand how Roblox units
+compare to metric units.
+#### Limits
 
-If [LimitsEnabled](https://create.roblox.com/docs/reference/engine/classes/UniversalConstraint#LimitsEnabled) is `true`, then the
-relative motion of the primary axis of [Attachment1](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment1) is
-limited by a cone. This cone is formed via
-[Attachment0](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0) and its primary axis and makes an angle
-of [MaxAngle](https://create.roblox.com/docs/reference/engine/classes/UniversalConstraint#MaxAngle) with it.
+Enabling the [`LimitsEnabled`](https://create.roblox.com/docs/reference/engine/classes/UniversalConstraint#LimitsEnabled) property
+exposes the [`MaxAngle`](https://create.roblox.com/docs/reference/engine/classes/UniversalConstraint#MaxAngle) limit to restrict
+tilt within a cone, as well as
+[`Restitution`](https://create.roblox.com/docs/reference/engine/classes/UniversalConstraint#Restitution) which defines the
+elasticity of the attachments when they reach the limit.

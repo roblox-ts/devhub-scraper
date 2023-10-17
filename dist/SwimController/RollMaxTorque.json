@@ -1,0 +1,145 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The maximum torque applied to rotate on the local ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Z",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 53,
+                                    "offset": 52
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 54,
+                                    "offset": 53
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " axis to the\ndesired roll orientation. Has no effect if\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 111
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ControllerBase.RigidityEnabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 111
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 39,
+                            "offset": 149
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is true.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 39,
+                            "offset": 149
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 48,
+                            "offset": 158
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 48,
+                    "offset": 158
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

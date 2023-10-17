@@ -1,0 +1,55 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "PhysicsReceiveKbps is a measurement of roughly how many kilobytes of\nphysics data are being received by the current instance, per second.If\nfrom the server's perspective, this represents the total amount of physics\ndata being received from the clients connected to the server.If from a\nclient's perspective, this represents the total amount of physics data\nbeing received from the server.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 32,
+                            "offset": 388
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 32,
+                    "offset": 388
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

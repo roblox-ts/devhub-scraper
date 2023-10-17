@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Controls whether this ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " loops when exceeding the end of\nits ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 78
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.TimeLength|TimeLength"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 78
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 46,
+                            "offset": 119
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 46,
+                            "offset": 119
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 121
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.LoopRegion|LoopRegion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 121
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 162
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", or\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 162
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 167
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.PlaybackRegion|PlaybackRegion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 167
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 50,
+                            "offset": 216
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 50,
+                            "offset": 216
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 51,
+                            "offset": 217
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 51,
+                    "offset": 217
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

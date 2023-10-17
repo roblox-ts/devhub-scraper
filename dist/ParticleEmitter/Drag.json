@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Drag property determines the rate in seconds at which individual\nparticles will lose half their speed via exponential decay.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 60,
+                            "offset": 128
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 60,
+                    "offset": 128
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Drag is applied by scaling the expected velocity (from\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 130
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 185
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.Speed"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 185
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 30,
+                            "offset": 214
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and any velocity inherited from the parent\nfrom ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 30,
+                            "offset": 214
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 6,
+                            "offset": 263
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.VelocityInheritance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 6,
+                            "offset": 263
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 49,
+                            "offset": 306
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") by the following\nformula: ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 49,
+                            "offset": 306
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 10,
+                            "offset": 334
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "2 ^ (elapsedTime * -drag)"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 10,
+                            "offset": 334
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 37,
+                            "offset": 361
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", where ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 37,
+                            "offset": 361
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 45,
+                            "offset": 369
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "elapsedTime"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 45,
+                            "offset": 369
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 58,
+                            "offset": 382
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is the time\nsince the particle was emit. Consequently, setting Drag to a negative\nvalue will cause particles' velocities to grow exponentially.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 58,
+                            "offset": 382
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 62,
+                            "offset": 526
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 130
+                },
+                "end": {
+                    "line": 9,
+                    "column": 62,
+                    "offset": 526
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Warning: if Drag is set to a sufficiently negative value, this can cause\nall particles emit by the emitter to completely disappear. Be careful when\nsetting this property lower than -100.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 528
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 39,
+                            "offset": 714
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 528
+                },
+                "end": {
+                    "line": 13,
+                    "column": 39,
+                    "offset": 714
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

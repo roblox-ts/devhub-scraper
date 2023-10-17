@@ -1,0 +1,358 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "LightInfluence",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 17,
+                                    "offset": 16
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines the factor the light in the environment\naffects the appearance of the Trail. A value of zero (0) ensures no\ninfluence which allows a trail to be visible even in complete darkness.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 72,
+                            "offset": 209
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 72,
+                    "offset": 209
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Changing this property immediately affects all existing and future\nsegments of the trail.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 211
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 23,
+                            "offset": 300
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 211
+                },
+                "end": {
+                    "line": 6,
+                    "column": 23,
+                    "offset": 300
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 302
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 10,
+                            "offset": 311
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 302
+                },
+                "end": {
+                    "line": 8,
+                    "column": 10,
+                    "offset": 311
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Trail.LightEmission|LightEmission"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 3,
+                                    "offset": 315
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 44,
+                                    "offset": 356
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", another Trail property\nrelated to light",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 44,
+                                    "offset": 356
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 19,
+                                    "offset": 399
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 313
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 19,
+                            "offset": 399
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Beam.LightEmission"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 3,
+                                    "offset": 402
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 29,
+                                    "offset": 428
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", an identical property used by ",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 29,
+                                    "offset": 428
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 61,
+                                    "offset": 460
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Beam"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 61,
+                                    "offset": 460
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 73,
+                                    "offset": 472
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "s",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 73,
+                                    "offset": 472
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 74,
+                                    "offset": 473
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 400
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 74,
+                            "offset": 473
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 313
+                },
+                "end": {
+                    "line": 12,
+                    "column": 74,
+                    "offset": 473
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

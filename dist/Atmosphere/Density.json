@@ -1,0 +1,106 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Defines the amount of particles in the air. The higher the density, the\nmore particles and the more in-game objects/terrain will be obscured by\nthem. Note that density does not ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 34,
+                            "offset": 177
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "directly",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 36,
+                                    "offset": 179
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 44,
+                                    "offset": 187
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 34,
+                            "offset": 177
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 46,
+                            "offset": 189
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " affect the skybox — it\nmerely affects in-game objects/terrain and visibility of the skybox\nthrough them.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 46,
+                            "offset": 189
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 14,
+                            "offset": 300
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 14,
+                    "offset": 300
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

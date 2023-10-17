@@ -1,0 +1,715 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "CFrame",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 13,
+                                    "offset": 12
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 15,
+                            "offset": 14
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property determines both the position and orientation of\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 15,
+                            "offset": 14
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 92
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in the world. It acts as an arbitrary reference\nlocation on the geometry, but ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 92
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 171
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.ExtentsCFrame|ExtentsCFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 171
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 75,
+                            "offset": 215
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nrepresents the actual ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 75,
+                            "offset": 215
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 23,
+                            "offset": 238
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 23,
+                            "offset": 238
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 255
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of its physical center.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 255
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 64,
+                            "offset": 279
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 64,
+                    "offset": 279
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When setting ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 281
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 14,
+                            "offset": 294
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "CFrame",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 16,
+                                    "offset": 296
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 22,
+                                    "offset": 302
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 14,
+                            "offset": 294
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 24,
+                            "offset": 304
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " on a part, other joined parts are also moved\nrelative to the part, but it is recommended that you use\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 24,
+                            "offset": 304
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 407
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PVInstance:PivotTo()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 407
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 29,
+                            "offset": 435
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to move an entire model, such as when\nteleporting a player's character.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 29,
+                            "offset": 435
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 34,
+                            "offset": 507
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 281
+                },
+                "end": {
+                    "line": 9,
+                    "column": 34,
+                    "offset": 507
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Unlike setting ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 509
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 16,
+                            "offset": 524
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Position"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 16,
+                            "offset": 524
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 41,
+                            "offset": 549
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", setting ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 41,
+                            "offset": 549
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 51,
+                            "offset": 559
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 51,
+                            "offset": 559
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 74,
+                            "offset": 582
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nwill always move the part to the exact given ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 74,
+                            "offset": 582
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 46,
+                            "offset": 628
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 46,
+                            "offset": 628
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 63,
+                            "offset": 645
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "; in other\nwords: ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 63,
+                            "offset": 645
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 8,
+                            "offset": 663
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "no overlap checking is done",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 10,
+                                    "offset": 665
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 37,
+                                    "offset": 692
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 8,
+                            "offset": 663
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 39,
+                            "offset": 694
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and the physics solver will attempt\nto resolve any overlap unless both parts are\n",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 39,
+                            "offset": 694
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 776
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Anchored|Anchored"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 776
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 35,
+                            "offset": 810
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 35,
+                            "offset": 810
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 36,
+                            "offset": 811
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 509
+                },
+                "end": {
+                    "line": 15,
+                    "column": 36,
+                    "offset": 811
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For keeping track of positions relative to a part's ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 813
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 53,
+                            "offset": 865
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 53,
+                            "offset": 865
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 70,
+                            "offset": 882
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", an\n",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 70,
+                            "offset": 882
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 887
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 887
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 19,
+                            "offset": 905
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " may be useful.",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 19,
+                            "offset": 905
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 34,
+                            "offset": 920
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 813
+                },
+                "end": {
+                    "line": 18,
+                    "column": 34,
+                    "offset": 920
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

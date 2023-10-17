@@ -1,17 +1,6 @@
-The CursorIcon sets the mouse icon that will be displayed when the
-[Mouse.mouse](https://create.roblox.com/docs/reference/engine/classes/Mouse#mouse) hovers over this [ClickDetector](https://create.roblox.com/docs/reference/engine/classes/ClickDetector).
+Sets the cursor icon to display when the mouse is hovered over the parent
+of this [`ClickDetector`](https://create.roblox.com/docs/reference/engine/classes/ClickDetector) or [`DragDetector`](https://create.roblox.com/docs/reference/engine/classes/DragDetector). If this property is
+left blank, the detector will use the default icon.
 
-If this property is left blank, the ClickDetector will use the default
-icon:
-
-![Default cursor icon][1]
-
-To change the ClickDetector's cursor icon, set the property to the asset
-id or URL of the image you would like to use. For instance, setting the
-property to `2287179377` or [this][2] URL changes the cursor icon to:
-
-![Custom cursor icon][3]
-
-[1]: https://prod.docsiteassets.roblox.com/assets/blt93eee9eb25194ca8/ClickDetectorCursorIcon.png
-[2]: https://www.roblox.com/My/Item.aspx?ID=2287179377
-[3]: https://prod.docsiteassets.roblox.com/assets/blt59eec7aa0c76851a/InterestCursorIcon.png
+To change the cursor icon, set this property to the asset ID of the image
+you'd like to use.

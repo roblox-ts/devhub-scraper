@@ -1,0 +1,645 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "FrontAccessory",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 17,
+                                    "offset": 16
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is a comma-separated list of asset IDs that determine\nwhat accessories should be added when the description is\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 130
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid:ApplyDescription()|applied"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 130
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 44,
+                            "offset": 173
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", usually those attached to\nfront of its torso (such as medals or ties). The list does not contain\nduplicates.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 44,
+                            "offset": 173
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 12,
+                            "offset": 283
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 12,
+                    "offset": 283
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "An error is thrown if you try to apply a new description which shares any\nassets with the existing description but a different accessory property.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 285
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 73,
+                            "offset": 431
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 285
+                },
+                "end": {
+                    "line": 8,
+                    "column": 73,
+                    "offset": 431
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 433
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 10,
+                            "offset": 442
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 433
+                },
+                "end": {
+                    "line": 10,
+                    "column": 10,
+                    "offset": 442
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                                "href": "/characters/appearance#humanoiddescription"
+                            },
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "HumanoidDescription System",
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 4,
+                                            "offset": 447
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 30,
+                                            "offset": 473
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 3,
+                                    "offset": 446
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 75,
+                                    "offset": 518
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\nfor more information on ",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 75,
+                                    "offset": 518
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 27,
+                                    "offset": 546
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 27,
+                                    "offset": 546
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 54,
+                                    "offset": 573
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 54,
+                                    "offset": 573
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 55,
+                                    "offset": 574
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 444
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 55,
+                            "offset": 574
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.BackAccessory|BackAccessory"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 3,
+                                    "offset": 577
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 58,
+                                    "offset": 632
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\n",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 58,
+                                    "offset": 632
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 1,
+                                    "offset": 634
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.FaceAccessory|FaceAccessory"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 3,
+                                    "offset": 636
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 58,
+                                    "offset": 691
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\n",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 58,
+                                    "offset": 691
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 1,
+                                    "offset": 693
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.HairAccessory|HairAccessory"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 3,
+                                    "offset": 695
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 58,
+                                    "offset": 750
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\n",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 58,
+                                    "offset": 750
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 1,
+                                    "offset": 752
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.HatAccessory|HatAccessory"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 3,
+                                    "offset": 754
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 56,
+                                    "offset": 807
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\n",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 56,
+                                    "offset": 807
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 1,
+                                    "offset": 809
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.NeckAccessory|NeckAccessory"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 3,
+                                    "offset": 811
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 58,
+                                    "offset": 866
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\n",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 58,
+                                    "offset": 866
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 1,
+                                    "offset": 868
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.ShouldersAccessory|ShouldersAccessory"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 3,
+                                    "offset": 870
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 68,
+                                    "offset": 935
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " and\n",
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 68,
+                                    "offset": 935
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 1,
+                                    "offset": 940
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.WaistAccessory|WaistAccessory"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 3,
+                                    "offset": 942
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 60,
+                                    "offset": 999
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which are\nsimilar properties that apply accessories like this one",
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 60,
+                                    "offset": 999
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 58,
+                                    "offset": 1068
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 575
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 58,
+                            "offset": 1068
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 444
+                },
+                "end": {
+                    "line": 21,
+                    "column": 58,
+                    "offset": 1068
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

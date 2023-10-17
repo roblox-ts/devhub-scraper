@@ -1,2 +1,1 @@
-Used to hold a [CFrame](/reference/engine/datatypes/CFrame)
-value.
+Used to hold a `Datatype.CFrame` value.

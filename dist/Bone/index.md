@@ -1,57 +1,30 @@
-Bones allow you to define and animate the positions of visual-only bones
-within a skinned mesh part.
+Bones are non-rendered objects that drive the movement of one or more parts
+for the purposes of animation, or creating clothing and characters. Bones are
+part of a [`Model`](https://create.roblox.com/docs/reference/engine/classes/Model) or [`MeshPart`](https://create.roblox.com/docs/reference/engine/classes/MeshPart) object's skeletal **rig** that you
+typically access and animate through the
+[Animation Editor](https://create.roblox.com/docs/animation/editor).
 
-Bone extends [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment). The inherited CFrame property is used as the
-reference position of the Bone. The inherited WorldCFrame and the other World
-properties will continue to return the initial un-transformed position.
+Rigs are created during the modeling process in third-party software such as
+Blender or Maya. After importing the rigged model into Studio, you can add the
+model directly to your experience, or save and share the model as an asset.
+See [Rigging](https://create.roblox.com/docs/art/modeling/rigging) for more details on creating
+and using rigged models.
 
-Unlike [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment) instances, Bones can be children of other Bones in
-addition to [`Parts`](/reference/engine/classes/Part). When parented to
-another Bone the child bone's world position will be relative to the parent
-Bone's position. Bones form an explicit hierarchy.
+Note that you can parent [`Bones`](https://create.roblox.com/docs/reference/engine/classes/Bone) under other [`Bones`](https://create.roblox.com/docs/reference/engine/classes/Bone) and
+parts. When parenting a bone to another bone, the child bone's world position
+will be relative to the parent bone's position, and the hierarchy of parented
+[`Bone`](https://create.roblox.com/docs/reference/engine/classes/Bone) objects can change the behavior of affected parts during posing
+or animation.
+##### Relationship with Motor6D
 
-To support animation, Bones have a `Bone.Transform` property that functions
-similarly to `Motor6D.Transform`. It is not replicated or serialized and is
-meant to be driven by animation as an offset from the reference pose.
+To support animations with older rigs using joints, such as [`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D),
+you can use the [`Bone.Transform`](https://create.roblox.com/docs/reference/engine/classes/Bone#Transform) property in the same way as
+[`Motor6D.Transform`](https://create.roblox.com/docs/reference/engine/classes/Motor6D#Transform). Roblox uses the offset of the bones from the
+default pose to drive an animation, and bones are not replicated or
+serialized.
+##### Bone.CFrame
 
-The movement of Bones can affect the appearance of parts, but does not change
-the shape of the part physically for collision detection.
-
-Bones internally implement the animatable joint interface and can be driven by
-Animators interchangeably with Motor6Ds. Animation data authored for a tree of
-motors can be played as-is on an equivalent tree of bones and vice versa.
-
-For a [Motor6D](https://create.roblox.com/docs/reference/engine/classes/Motor6D) the child part is relative to Transform _ ParentPart.CFrame _
-CParent
-
-For a [Bone](https://create.roblox.com/docs/reference/engine/classes/Bone) all child Bones are relative to Transform _ ParentPart.CFrame _
-`Bone.CFrame`
-
-Physical Constraints directly attached to Bones will use the transformed
-positions for simulation.
-
-Many bones, like bones in a character's face, hands, or corrective "twist
-joints" in limbs, may not need physical representation because they are only
-meant for small, but expressive, movements.
-
-The mesh importer supports importing meshes with skeletal joint data with
-vertices weighted to those joints. This will be saved in the mesh asset data
-for each part.
-
-Named joints defined within a [MeshPart](https://create.roblox.com/docs/reference/engine/classes/MeshPart) or [FileMesh](https://create.roblox.com/docs/reference/engine/classes/FileMesh) mesh asset data will
-skin to Bones with the same name found as children of that part, Bones that
-are direct children of those Bones (recursively), or children of other parts
-in the same Model that are connected to the part directly or indirectly by
-[Motor6D](https://create.roblox.com/docs/reference/engine/classes/Motor6D), [Weld](https://create.roblox.com/docs/reference/engine/classes/Weld), [BallSocketConstraint](https://create.roblox.com/docs/reference/engine/classes/BallSocketConstraint), [HingeConstraint](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint), or other
-skinning-enabled joints within the same [Model](https://create.roblox.com/docs/reference/engine/classes/Model). Other descendant Models are
-considered separate models.
-
-In the absence of Bones, skinning will skin mesh joints relative to a
-connected [MeshPart](https://create.roblox.com/docs/reference/engine/classes/MeshPart) or [FileMesh](https://create.roblox.com/docs/reference/engine/classes/FileMesh) parent part with the same instance name as
-the mesh joint using the offset defined by that part's mesh asset joint data
-as if it contained a [Bone](https://create.roblox.com/docs/reference/engine/classes/Bone) instance with the same name.
-
-Skinning is based on joint connections so that classic dismemberment on death
-works as expected. The "within the same Model" rule prevents characters that
-are welded together from unexpectedly skinning together as a singular visual
-entity.
+Bones inherit the [`CFrame`](https://create.roblox.com/docs/reference/engine/classes/Attachment#CFrame) property of
+[`Attachments`](https://create.roblox.com/docs/reference/engine/classes/Attachment) which Roblox uses as the bone's reference
+position. The inherited [`WorldCFrame`](https://create.roblox.com/docs/reference/engine/classes/Attachment#WorldCFrame) and other
+world properties return the initial un-transformed position.

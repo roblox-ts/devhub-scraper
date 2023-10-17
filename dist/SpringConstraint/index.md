@@ -1,54 +1,35 @@
-A **SpringConstraint** applies a force to its [Attachments](https://create.roblox.com/docs/reference/engine/classes/Attachment) based
-on spring and damper behavior. Assuming the constraint has
-[SpringConstraint.Stiffness](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#Stiffness), it will apply forces based on how far apart the
-attachments are. If the attachments are further apart than the constraint's
-[SpringConstraint.FreeLength](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#FreeLength), the attachments will be forced together. If
-they are closer than the [SpringConstraint.FreeLength](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#FreeLength), the attachments will
-be forced apart. In addition, if [SpringConstraint.Damping](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#Damping) is set, there will
-be a damping component to the applied force that scales with the velocity of
-the attachments.
-
-This constraint, along with a [CylindricalConstraint](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint), is ideal for building
-vehicle suspension.
+A **SpringConstraint** applies a force to its [`Attachments`](https://create.roblox.com/docs/reference/engine/classes/Attachment)
+based on spring and damper behavior. This constraint, along with a
+[`CylindricalConstraint`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint), is ideal for building vehicle suspension.
 
 Note that if this constraint attaches one part (**A**) to another part (**B**)
 that is anchored or connected to an anchored part (**Z**), part **A** will not
 be locally simulated when interacting with a player.
 
-## Calculating SpringConstraint Force
+When configuring this constraint, it may be helpful to study
+[Roblox Units](https://create.roblox.com/docs/physics/units) to understand how Roblox units
+compare to metric units.
+#### Free Length
 
-The following helper function exhibits how the force of a [SpringConstraint](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint)
-is calculated based on various properties of the constraint and its
-attachments.
+[`FreeLength`](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#FreeLength) defines the natural resting
+length of the spring. If the attachments are further apart than the free
+length, they are forced together; if the attachments are closer together than
+the free length, they are forced apart.
+#### Damping
 
-```lua
-local function getSpringForce(spring)
-	if not spring:IsA("SpringConstraint") then
-		warn(spring .. " is not a spring constraint!")
-		return
-	end
+The [`Damping`](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#Damping) value controls how fast the
+spring's oscillation dies down. A value of 0 allows the spring to oscillate
+endlessly, while higher values bring the spring to a rest more quickly.
+#### Stiffness
 
-	local currentLength = spring.CurrentLength
-	local freeLength = spring.FreeLength
-	if (spring.LimitsEnabled) then
-		currentLength = math.clamp(currentLength, spring.MinLength, spring.MaxLength)
-		freeLength = math.clamp(freeLength, spring.MinLength, spring.MaxLength)
-	end
-	local springLength = currentLength - freeLength
+[`Stiffness`](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#Stiffness) sets the strength of the spring.
+Higher values create a spring that responds with more force when its
+attachments are closer together or further apart than
+[`FreeLength`](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#FreeLength).
+#### Limits
 
-	local axis = spring.Attachment0.WorldPosition - spring.Attachment1.WorldPosition
-	if axis.Magnitude > 0 then
-		axis = axis.Unit
-	end
-	local effectiveVelocity = spring.Attachment0.Parent.Velocity - spring.Attachment1.Parent.Velocity
-
-	-- https://en.wikipedia.org/wiki/Harmonic_oscillator
-	-- f = -k * x - c * dx/dt + fext
-	-- Gravity may not be all of the external forces; friction may affect this, but it's harder to account for
-	local forceExternal = Vector3.new(0, -workspace.Gravity, 0)
-	local force = -spring.Stiffness * springLength - spring.Damping * axis:Dot(effectiveVelocity) + axis:Dot(forceExternal)
-
-	force = math.clamp(force, -spring.MaxForce, spring.MaxForce)
-	return force
-end
-```
+Enabling the [`LimitsEnabled`](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#LimitsEnabled) property
+exposes the [`MinLength`](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#MinLength) and
+[`MaxLength`](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#MaxLength) values for setting the minimum
+and maximum length of the spring. If the spring's attachments reach these
+limits, they stop moving apart from one another without restitution.

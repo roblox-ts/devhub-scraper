@@ -1,0 +1,225 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is used to automatically size parent UI objects based on the\nsize of its descendants. Developers can use this property to dynamically\nadd text and other content to a UI object at edit or run time, and the\nsize will adjust to fit that content.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 38,
+                            "offset": 256
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 38,
+                    "offset": 256
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When AutomaticSize is set to an ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 258
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 33,
+                            "offset": 290
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.AutomaticSize|Enum.AutomaticSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 33,
+                            "offset": 290
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 72,
+                            "offset": 329
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nvalue to anything other than None, this UI object may resize depending on\nits child content.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 72,
+                            "offset": 329
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 19,
+                            "offset": 422
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 258
+                },
+                "end": {
+                    "line": 8,
+                    "column": 19,
+                    "offset": 422
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For more information on how to use this property and how it works, please\nsee ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 424
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 5,
+                            "offset": 502
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/ui/automatic-sizing"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "here",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 6,
+                                    "offset": 503
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 10,
+                                    "offset": 507
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 5,
+                            "offset": 502
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 33,
+                            "offset": 530
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 33,
+                            "offset": 530
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 34,
+                            "offset": 531
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 424
+                },
+                "end": {
+                    "line": 11,
+                    "column": 34,
+                    "offset": 531
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

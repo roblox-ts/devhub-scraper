@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The GuiService is a service which currently allows developers to control what\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 78
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 78
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 95
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is currently being selected by the gamepad navigator. It\nalso allows clients to check if Roblox's main menu is currently open.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 95
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 70,
+                            "offset": 222
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 70,
+                    "offset": 222
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This service has a lot of hidden members, which are mainly used internally by\nRoblox's ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 224
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 10,
+                            "offset": 311
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.CoreScript|CoreScripts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 10,
+                            "offset": 311
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 40,
+                            "offset": 341
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 40,
+                            "offset": 341
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 342
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 224
+                },
+                "end": {
+                    "line": 6,
+                    "column": 41,
+                    "offset": 342
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

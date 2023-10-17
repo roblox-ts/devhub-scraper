@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The constraint's maximum acceleration when\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 43
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SlidingBallConstraint.ActuatorType|ActuatorType"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 43
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 98
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 98
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 109
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ActuatorType|Motor"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 109
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 134
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", as the constraint attempts to reach its desired\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 134
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 184
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SlidingBallConstraint.Velocity|Velocity"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 184
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 48,
+                            "offset": 231
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 48,
+                            "offset": 231
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 49,
+                            "offset": 232
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 49,
+                    "offset": 232
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines the context under which the script will run.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 56,
+                    "offset": 55
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When using the Legacy RunContext scripts will only run when parented to\ncertain containers dependent on whether they are a ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 57
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 52,
+                            "offset": 180
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 52,
+                            "offset": 180
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 66,
+                            "offset": 194
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 66,
+                            "offset": 194
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 198
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 198
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 20,
+                            "offset": 217
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 20,
+                            "offset": 217
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 21,
+                            "offset": 218
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 57
+                },
+                "end": {
+                    "line": 5,
+                    "column": 21,
+                    "offset": 218
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If RunContext is assigned while the script is running any threads created\nby the script will be terminated and the script will start running under\nthe new context if possible.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 220
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 29,
+                            "offset": 395
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 220
+                },
+                "end": {
+                    "line": 9,
+                    "column": 29,
+                    "offset": 395
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note, RunContext cannot be used from a LocalScript.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 397
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 52,
+                            "offset": 448
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 397
+                },
+                "end": {
+                    "line": 11,
+                    "column": 52,
+                    "offset": 448
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

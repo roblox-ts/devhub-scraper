@@ -1,0 +1,199 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The RightSurfaceInput property determines the kind of input provided to a",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 74,
+                            "offset": 73
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 74,
+                    "offset": 73
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "For Sin, the motor rotates at a velocity equal to\n",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 3,
+                                    "offset": 77
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 1,
+                                    "offset": 127
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "ParamA * math.sin(workspace.DistributedGameTime * ParamB)"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 3,
+                                    "offset": 129
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 62,
+                                    "offset": 188
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ". See\n",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 62,
+                                    "offset": 188
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 1,
+                                    "offset": 194
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Workspace.DistributedGameTime"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 3,
+                                    "offset": 196
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 40,
+                                    "offset": 233
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 40,
+                                    "offset": 233
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 41,
+                                    "offset": 234
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 75
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 234
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 75
+                },
+                "end": {
+                    "line": 5,
+                    "column": 41,
+                    "offset": 234
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

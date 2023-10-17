@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "CustomPhysicalProperties lets you customize various physical aspects of a\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 74
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart|Part"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 74
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 95
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", such as its density, friction, and elasticity.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 95
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 70,
+                            "offset": 143
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 70,
+                    "offset": 143
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If enabled, this property let's you configure these physical properties.\nIf disabled, these physical properties are determined by the\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 145
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 279
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Material"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 279
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 26,
+                            "offset": 304
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the part. The page for ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 26,
+                            "offset": 304
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 53,
+                            "offset": 331
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.Material"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 53,
+                            "offset": 331
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 68,
+                            "offset": 346
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\ncontains list of the various part materials.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 68,
+                            "offset": 346
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 45,
+                            "offset": 391
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 145
+                },
+                "end": {
+                    "line": 7,
+                    "column": 45,
+                    "offset": 391
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

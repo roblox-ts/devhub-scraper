@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Controls the height of lines, as a multiple of the font's em square size,\nby scaling the spacing between lines of text in the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 53,
+                            "offset": 126
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextBox"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 53,
+                            "offset": 126
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 68,
+                            "offset": 141
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Valid\nvalues range from 1.0 to 3.0, defaulting to 1.0.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 68,
+                            "offset": 141
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 197
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 49,
+                    "offset": 197
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

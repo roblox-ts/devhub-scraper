@@ -1,0 +1,315 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "ViewportFrame",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 5,
+                                    "offset": 4
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 18,
+                                    "offset": 17
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is a type of ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject|GUI"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 55,
+                            "offset": 54
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that can render 3D\nobjects inside its bounds. This is a great way to display 3D objects/models in\na 2D GUI space like a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 55,
+                            "offset": 54
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 23,
+                            "offset": 175
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScreenGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 23,
+                            "offset": 175
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 40,
+                            "offset": 192
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". At the moment, no shadow or post\neffects are available. Neon and Glass ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 40,
+                            "offset": 192
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 39,
+                            "offset": 265
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.Material|materials"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 39,
+                            "offset": 265
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 64,
+                            "offset": 290
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will be\nrendered on lowest quality. Nested GUIs aren't supported, which means\nGuiObjects don't work as expected under ViewportFrame.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 64,
+                            "offset": 290
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 55,
+                            "offset": 423
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 55,
+                    "offset": 423
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For a step-by-step walkthrough, see the ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 425
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 41,
+                            "offset": 465
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/ui/frames"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Frames",
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 42,
+                                    "offset": 466
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 48,
+                                    "offset": 472
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 41,
+                            "offset": 465
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 61,
+                            "offset": 485
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 61,
+                            "offset": 485
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 62,
+                            "offset": 486
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 425
+                },
+                "end": {
+                    "line": 8,
+                    "column": 62,
+                    "offset": 486
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

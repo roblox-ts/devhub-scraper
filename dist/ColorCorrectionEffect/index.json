@@ -1,0 +1,765 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "ColorCorrectionEffect",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 28,
+                                    "offset": 27
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 30,
+                            "offset": 29
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " can be used to adjust several color-related\nproperties at once: ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 30,
+                            "offset": 29
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 94
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ColorCorrectionEffect.Saturation|Saturation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 94
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 72,
+                            "offset": 145
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 72,
+                            "offset": 145
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 147
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ColorCorrectionEffect.TintColor|TintColor"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 147
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 50,
+                            "offset": 196
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 50,
+                            "offset": 196
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 198
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ColorCorrectionEffect.Brightness|Brightness"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 198
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 52,
+                            "offset": 249
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 52,
+                            "offset": 249
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 254
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ColorCorrectionEffect.Contrast|Contrast"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 254
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 48,
+                            "offset": 301
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". It's useful for fine-tuning\nthe visual aesthetic of a world or communicating status effects to the player.\nMultiple ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 48,
+                            "offset": 301
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 10,
+                            "offset": 419
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "ColorCorrectionEffect",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 12,
+                                    "offset": 421
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 33,
+                                    "offset": 442
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 10,
+                            "offset": 419
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 35,
+                            "offset": 444
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " objects can be applied at once and they\nwill compose their effects together.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 35,
+                            "offset": 444
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 37,
+                            "offset": 521
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 8,
+                    "column": 37,
+                    "offset": 521
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Like other post-processing effects, ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 523
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 37,
+                            "offset": 559
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "ColorCorrectionEffect",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 39,
+                                    "offset": 561
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 60,
+                                    "offset": 582
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 37,
+                            "offset": 559
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 62,
+                            "offset": 584
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will only work\nwhile ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 62,
+                            "offset": 584
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 7,
+                            "offset": 606
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PostEffect.Enabled|Enabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 7,
+                            "offset": 606
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 41,
+                            "offset": 640
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and when parented to ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 41,
+                            "offset": 640
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 63,
+                            "offset": 662
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 63,
+                            "offset": 662
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 79,
+                            "offset": 678
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nor ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 79,
+                            "offset": 678
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 4,
+                            "offset": 682
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace.CurrentCamera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 4,
+                            "offset": 682
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 35,
+                            "offset": 713
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Also, it may render differently depending\non your Studio settings (see the ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 35,
+                            "offset": 713
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 34,
+                            "offset": 790
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Quality Level",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 36,
+                                    "offset": 792
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 49,
+                                    "offset": 805
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 34,
+                            "offset": 790
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 51,
+                            "offset": 807
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " settings in ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 51,
+                            "offset": 807
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 64,
+                            "offset": 820
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Rendering",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 66,
+                                    "offset": 822
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 75,
+                                    "offset": 831
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 64,
+                            "offset": 820
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 77,
+                            "offset": 833
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n→ ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 77,
+                            "offset": 833
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 8,
+                            "offset": 841
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Performance",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 10,
+                                    "offset": 843
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 21,
+                                    "offset": 854
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 8,
+                            "offset": 841
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 23,
+                            "offset": 856
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ").",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 23,
+                            "offset": 856
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 25,
+                            "offset": 858
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 523
+                },
+                "end": {
+                    "line": 14,
+                    "column": 25,
+                    "offset": 858
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For more details on this effect and others, see\n",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 860
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 908
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/environment/post-processing-effects"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Post-Processing Effects",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 2,
+                                    "offset": 909
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 25,
+                                    "offset": 932
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 908
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 64,
+                            "offset": 971
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 64,
+                            "offset": 971
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 65,
+                            "offset": 972
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 860
+                },
+                "end": {
+                    "line": 17,
+                    "column": 65,
+                    "offset": 972
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

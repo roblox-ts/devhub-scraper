@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If set to true, the hover selection box that is shown when mousing over\nselectable objects in the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 27,
+                            "offset": 98
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 27,
+                            "offset": 98
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 115
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will flash between\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 115
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 135
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Hover Over Color"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 135
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 19,
+                            "offset": 153
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 19,
+                            "offset": 153
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 158
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Select Color"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 158
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 38,
+                            "offset": 172
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " based on the ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 38,
+                            "offset": 172
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 52,
+                            "offset": 186
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Hover Animate Speed"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 52,
+                            "offset": 186
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 73,
+                            "offset": 207
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 73,
+                            "offset": 207
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 74,
+                            "offset": 208
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 74,
+                    "offset": 208
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

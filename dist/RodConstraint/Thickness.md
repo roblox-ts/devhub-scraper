@@ -1,1 +1,1 @@
-The visualized thickness of the RodConstraint.
+The visualized thickness of the [`RodConstraint`](https://create.roblox.com/docs/reference/engine/classes/RodConstraint).

@@ -1,0 +1,450 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines to what degree the colors of the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 45,
+                            "offset": 44
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 45,
+                            "offset": 44
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 57,
+                            "offset": 56
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are blended with\nthe colors behind it.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 57,
+                            "offset": 56
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 95
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 22,
+                    "offset": 95
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The LightEmission property determines the blending of the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 59,
+                            "offset": 155
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 59,
+                            "offset": 155
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 71,
+                            "offset": 167
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nwith the colors behind it. It should be set in the range [0, 1]. A value\nof 0 uses normal blending modes, and a value of 1 will use additive\nblending. The value of the additive blending is determined by this\nproperty.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 71,
+                            "offset": 167
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 10,
+                            "offset": 385
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 97
+                },
+                "end": {
+                    "line": 8,
+                    "column": 10,
+                    "offset": 385
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Pictured below are two sets of overlapping ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 387
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 44,
+                            "offset": 430
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 44,
+                            "offset": 430
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 56,
+                            "offset": 442
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s. The right one\nhas its LightEmission set to 1, so the texture appears brighter due to the\nadditive blending on the overlaps.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 56,
+                            "offset": 442
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 35,
+                            "offset": 568
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 387
+                },
+                "end": {
+                    "line": 12,
+                    "column": 35,
+                    "offset": 568
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/BeamLightEmission.png",
+                        "alt": ""
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 570
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 42,
+                            "offset": 611
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 570
+                },
+                "end": {
+                    "line": 14,
+                    "column": 42,
+                    "offset": 611
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property should not be confused with ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 613
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 43,
+                            "offset": 655
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.LightInfluence"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 43,
+                            "offset": 655
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 70,
+                            "offset": 682
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\nwhich determines how particles are affected by environment light. This\nproperty does not cause the ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 70,
+                            "offset": 682
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 29,
+                            "offset": 783
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 29,
+                            "offset": 783
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 41,
+                            "offset": 795
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to light the environment. To do\nthat, consider using a ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 41,
+                            "offset": 795
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 24,
+                            "offset": 851
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SurfaceLight"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 24,
+                            "offset": 851
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 44,
+                            "offset": 871
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 44,
+                            "offset": 871
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 45,
+                            "offset": 872
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 613
+                },
+                "end": {
+                    "line": 19,
+                    "column": 45,
+                    "offset": 872
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

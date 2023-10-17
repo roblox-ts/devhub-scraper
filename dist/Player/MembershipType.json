@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The MembershipType ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property can be used to determine the\nmembership type of the player. It holds a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 43,
+                            "offset": 114
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.MembershipType"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 43,
+                            "offset": 114
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 64,
+                            "offset": 135
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " enum of\nthe account's membership type.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 64,
+                            "offset": 135
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 174
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 31,
+                    "offset": 174
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property can only be read from to determine membership (it cannot be\nset to another membership type). The property can only be changed via\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 176
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 320
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.CoreScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 320
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 19,
+                            "offset": 338
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s using ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 19,
+                            "offset": 338
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 27,
+                            "offset": 346
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player:SetMembershipType()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 27,
+                            "offset": 346
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 61,
+                            "offset": 380
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " - which are\nnot accessible.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 61,
+                            "offset": 380
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 16,
+                            "offset": 408
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 176
+                },
+                "end": {
+                    "line": 8,
+                    "column": 16,
+                    "offset": 408
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

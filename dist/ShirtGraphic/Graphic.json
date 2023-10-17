@@ -1,0 +1,347 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The content ID link pointing to the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 37,
+                            "offset": 36
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ShirtGraphic"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 37,
+                            "offset": 36
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 57,
+                            "offset": 56
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " texture hosted on\nthe Roblox website. This property sets the texture associated with a\nt-shirt.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 57,
+                            "offset": 56
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 9,
+                            "offset": 152
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 9,
+                    "offset": 152
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Finding the ID",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 6,
+                            "offset": 159
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 20,
+                            "offset": 173
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 154
+                },
+                "end": {
+                    "line": 5,
+                    "column": 20,
+                    "offset": 173
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This content ID is different than the website URL of the t-shirt. It can\nbe found by pasting the website URL of the t-shirt into the ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 175
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 61,
+                            "offset": 308
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Graphic",
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 63,
+                                    "offset": 310
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 70,
+                                    "offset": 317
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 61,
+                            "offset": 308
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 72,
+                            "offset": 319
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nproperty of the ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 72,
+                            "offset": 319
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 17,
+                            "offset": 336
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ShirtGraphic"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 17,
+                            "offset": 336
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 37,
+                            "offset": 356
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in Roblox Studio, as Studio will\ncorrect it. Alternatively ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 37,
+                            "offset": 356
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 27,
+                            "offset": 416
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.InsertService:LoadAsset()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 27,
+                            "offset": 416
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 60,
+                            "offset": 449
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " can be used to\ninsert the t-shirt into the workspace, for example:",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 60,
+                            "offset": 449
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 52,
+                            "offset": 516
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 175
+                },
+                "end": {
+                    "line": 11,
+                    "column": 52,
+                    "offset": 516
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local webURL = \"https://www.roblox.com/catalog/2591161/Sword-Fight-on-the-Heights-Ring-of-Fire-T-Shirt\"\nlocal assetId = tonumber(string.match(webURL, \"%d+\") or 0)  -- Extract the number\n\nlocal success, model = pcall(function()\n\treturn game:GetService(\"InsertService\"):LoadAsset(assetId)\nend)\n\nif success then\n\tmodel.Parent = workspace\nend\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 518
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 4,
+                            "offset": 864
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 518
+                },
+                "end": {
+                    "line": 24,
+                    "column": 4,
+                    "offset": 864
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

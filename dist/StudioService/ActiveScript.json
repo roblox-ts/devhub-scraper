@@ -1,0 +1,214 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "ActiveScript",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 15,
+                                    "offset": 14
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 17,
+                            "offset": 16
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " refers to the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 17,
+                            "offset": 16
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LuaSourceContainer"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " currently being\nedited by the user. If the user is not editing a script, this will be\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 144
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "nil"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 144
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 6,
+                            "offset": 149
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Below is an example that shows how you can use this property to\nmeasure for how long a script was active.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 6,
+                            "offset": 149
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 42,
+                            "offset": 256
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 42,
+                    "offset": 256
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local startTime = os.time()\nlocal activeScript\nlocal function onActiveScriptChanged(newActiveScript)\n\tif newActiveScript ~= activeScript then\n\t\tlocal deltaTime = os.time() - startTime\n\t\tprint((\"You edited %s for %d:%2.d\"):format(activeScript.Name, math.floor(deltaTime / 60), deltaTime % 60))\n\tend\n\tstartTime = os.time()\n\tactiveScript = newActiveScript\nend\ngame:GetService(\"StudioService\"):GetPropertyChangedSignal(\"ActiveScript\"):Connect(onActiveScriptChanged)\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 258
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 4,
+                            "offset": 730
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 258
+                },
+                "end": {
+                    "line": 18,
+                    "column": 4,
+                    "offset": 730
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

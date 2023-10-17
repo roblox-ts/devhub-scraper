@@ -1,0 +1,367 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property describes whether the user's device has a keyboard\navailable. This property is ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 93
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "true"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 93
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 99
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when the user's device has an available\nkeyboard, and ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 99
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 154
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "false"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 154
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 22,
+                            "offset": 161
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when it does not.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 22,
+                            "offset": 161
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 40,
+                            "offset": 179
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 40,
+                    "offset": 179
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "It can be used to determine whether the user has an available keyboard -\nwhich can be important if you want to check if you can use\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 181
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 313
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService:IsKeyDown()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 313
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 37,
+                            "offset": 349
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 37,
+                            "offset": 349
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 353
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService:GetKeysPressed()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 353
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 42,
+                            "offset": 394
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to check for keyboard input.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 42,
+                            "offset": 394
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 71,
+                            "offset": 423
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 181
+                },
+                "end": {
+                    "line": 8,
+                    "column": 71,
+                    "offset": 423
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "As ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 425
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 4,
+                            "offset": 428
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 4,
+                            "offset": 428
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 28,
+                            "offset": 452
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is client-side only, this property can only be\nused in a ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 28,
+                            "offset": 452
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 11,
+                            "offset": 510
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 11,
+                            "offset": 510
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 30,
+                            "offset": 529
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 30,
+                            "offset": 529
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 31,
+                            "offset": 530
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 425
+                },
+                "end": {
+                    "line": 11,
+                    "column": 31,
+                    "offset": 530
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

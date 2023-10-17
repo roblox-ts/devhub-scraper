@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property controls the maximum number of graphemes (or units of text)\nthat are shown on the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 96
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 96
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 114
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". It is primarily provided as an\neasy way to create a \"typewriter effect\" where the characters appear one\nat a time.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 114
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 11,
+                            "offset": 230
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 11,
+                    "offset": 230
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Changing the property does not change the position or size of the visible\ngraphemes - the layout will be calculated as if all graphemes are visible.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 232
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 75,
+                            "offset": 380
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 232
+                },
+                "end": {
+                    "line": 7,
+                    "column": 75,
+                    "offset": 380
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Setting the property to -1 disables the limit and shows the entirety of\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 382
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 5,
+                            "offset": 458
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton.Text"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 5,
+                            "offset": 458
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 28,
+                            "offset": 481
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 28,
+                            "offset": 481
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 29,
+                            "offset": 482
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 382
+                },
+                "end": {
+                    "line": 10,
+                    "column": 29,
+                    "offset": 482
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

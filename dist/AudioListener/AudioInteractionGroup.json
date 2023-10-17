@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Controls which ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioEmitter|AudioEmitters"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are audible to this\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioListener"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 91
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Emitters that share an interaction group can be\nheard by this Listener.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 91
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 164
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 24,
+                    "offset": 164
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

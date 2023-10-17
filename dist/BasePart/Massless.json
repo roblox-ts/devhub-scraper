@@ -1,0 +1,303 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If this property is enabled, the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart|BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will not\ncontribute to the total mass or inertia of its assembly as long as it is\nwelded to another part that has mass.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 38,
+                            "offset": 178
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 38,
+                    "offset": 178
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If the part is its own root part according to\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 180
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 226
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.AssemblyRootPart|AssemblyRootPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 226
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 51,
+                            "offset": 276
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", this will be ignored\nfor that part, and it will still contribute mass and inertia to its\nassembly like a normal part. Parts that are massless should never become\nan assembly root part unless all other parts in the assembly are also\nmassless.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 51,
+                            "offset": 276
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 10,
+                            "offset": 519
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 180
+                },
+                "end": {
+                    "line": 10,
+                    "column": 10,
+                    "offset": 519
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This might be useful for things like optional accessories on vehicles that\nyou don't want to affect the handling of the car or a massless render mesh\nwelded to a simpler collision mesh.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 521
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 36,
+                            "offset": 706
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 521
+                },
+                "end": {
+                    "line": 14,
+                    "column": 36,
+                    "offset": 706
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 708
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 10,
+                            "offset": 717
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/physics/assemblies"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Understanding Assemblies",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 11,
+                                    "offset": 718
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 35,
+                                    "offset": 742
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 10,
+                            "offset": 717
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 57,
+                            "offset": 764
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", an\narticle documenting what root parts are and how to use them.",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 57,
+                            "offset": 764
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 61,
+                            "offset": 829
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 708
+                },
+                "end": {
+                    "line": 17,
+                    "column": 61,
+                    "offset": 829
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

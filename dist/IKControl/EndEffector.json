@@ -1,0 +1,484 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.EndEffector|EndEffector"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 46,
+                            "offset": 45
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " describes the last part in\nthe chain of your character that you want to affect. For example, it could\nbe the hand when you want to move the whole arm to reach a point. It can\nbe a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 46,
+                            "offset": 45
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 6,
+                            "offset": 226
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 6,
+                            "offset": 226
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 242
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " on a character, that has a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 242
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 50,
+                            "offset": 270
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 50,
+                            "offset": 270
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 65,
+                            "offset": 285
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " as its\nchild, a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 65,
+                            "offset": 285
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 302
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 302
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 25,
+                            "offset": 317
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " directly, a ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 25,
+                            "offset": 317
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 38,
+                            "offset": 330
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Bone"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 38,
+                            "offset": 330
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 50,
+                            "offset": 342
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", or a\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 50,
+                            "offset": 342
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 349
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 349
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 19,
+                            "offset": 367
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The pivot of the selected\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 19,
+                            "offset": 367
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 395
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.EndEffector|EndEffector"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 395
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 42,
+                            "offset": 436
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " moves to the\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 42,
+                            "offset": 436
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 450
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.Target|Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 450
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 32,
+                            "offset": 481
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", so you can use ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 32,
+                            "offset": 481
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 49,
+                            "offset": 498
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 49,
+                            "offset": 498
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 67,
+                            "offset": 516
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s to\nmodify which point of a ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 67,
+                            "offset": 516
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 25,
+                            "offset": 545
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 25,
+                            "offset": 545
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 41,
+                            "offset": 561
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " should reach the\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 41,
+                            "offset": 561
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 579
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.Target|Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 579
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 32,
+                            "offset": 610
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 32,
+                            "offset": 610
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 33,
+                            "offset": 611
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 10,
+                    "column": 33,
+                    "offset": 611
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

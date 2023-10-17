@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The root-mean-square average volume observed during the last audio buffer.\nThis property is generally more stable than\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 119
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioAnalyzer.PeakLevel|PeakLevel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 119
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 160
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " but it may not capture momentary\nvolume spikes.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 160
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 15,
+                            "offset": 208
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 15,
+                    "offset": 208
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

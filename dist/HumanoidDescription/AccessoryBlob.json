@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A JSON formatted array of Layered Accessories where each table in the\nentry in the array describes an acccessory's AssetId, AccessoryType,\nOrder, and (optionally) Puffiness as key-value pairs. This can be edited\nin the properties windows for the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 246
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HumanoidDescription"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 246
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 62,
+                            "offset": 273
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 62,
+                            "offset": 273
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 63,
+                            "offset": 274
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 63,
+                    "offset": 274
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "To make changes from Lua (which is recommended over editing the JSON\ndirectly), use ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 276
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 16,
+                            "offset": 360
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HumanoidDescription:SetAccessories()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 16,
+                            "offset": 360
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 60,
+                            "offset": 404
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 60,
+                            "offset": 404
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 409
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HumanoidDescription:GetAccessories()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 409
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 45,
+                            "offset": 453
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". These methods can also be\nenabled to work with rigid accessories by setting IncludeRigidAccessories\nparameters to true.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 45,
+                            "offset": 453
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 20,
+                            "offset": 574
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 276
+                },
+                "end": {
+                    "line": 10,
+                    "column": 20,
+                    "offset": 574
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,686 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A container object that holds a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 33,
+                            "offset": 32
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 33,
+                            "offset": 32
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "'s inventory. Any ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 65,
+                            "offset": 64
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 65,
+                            "offset": 64
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 77,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nin a player's Backpack will be displayed in their inventory at the bottom of\ntheir screen. Selecting ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 77,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 25,
+                            "offset": 178
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 25,
+                            "offset": 178
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 190
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s from the inventory will equip the\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 190
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 226
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 226
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 13,
+                            "offset": 238
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", moving it from the Backpack to the player's character.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 13,
+                            "offset": 238
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 69,
+                            "offset": 294
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 69,
+                    "offset": 294
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Backpack can also store ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 296
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 29,
+                            "offset": 324
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script|Scripts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 29,
+                            "offset": 324
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 51,
+                            "offset": 346
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 51,
+                            "offset": 346
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 351
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript|LocalScripts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 351
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 33,
+                            "offset": 383
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which run when placed in a player's\nBackpack.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 33,
+                            "offset": 383
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 10,
+                            "offset": 430
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 296
+                },
+                "end": {
+                    "line": 8,
+                    "column": 10,
+                    "offset": 430
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When a player's character spawns, the contents of the ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 432
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 55,
+                            "offset": 486
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 55,
+                            "offset": 486
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 74,
+                            "offset": 505
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\ntheir ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 74,
+                            "offset": 505
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 7,
+                            "offset": 516
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterGear"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 7,
+                            "offset": 516
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 26,
+                            "offset": 535
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are copied into their Backpack. Once a character\ndies, the Backpack is removed and a new one will be created -- populating it\nwith the contents of ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 26,
+                            "offset": 535
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 22,
+                            "offset": 683
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 22,
+                            "offset": 683
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 41,
+                            "offset": 702
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 41,
+                            "offset": 702
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 46,
+                            "offset": 707
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterGear"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 46,
+                            "offset": 707
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 65,
+                            "offset": 726
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 65,
+                            "offset": 726
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 66,
+                            "offset": 727
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 432
+                },
+                "end": {
+                    "line": 13,
+                    "column": 66,
+                    "offset": 727
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Roblox provides an interface for a player to access their backpack and\ninventory by default at the bottom of the screen. If a developer wishes to\ndisable the default Roblox backpack GUI and replace it with their own, they\nmay do so using ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 729
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 17,
+                            "offset": 967
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterGui:SetCoreGuiEnabled()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 17,
+                            "offset": 967
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 55,
+                            "offset": 1005
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 55,
+                            "offset": 1005
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 56,
+                            "offset": 1006
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 729
+                },
+                "end": {
+                    "line": 18,
+                    "column": 56,
+                    "offset": 1006
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Backpack can be accessed from both the client and the server.",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 1008
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 66,
+                            "offset": 1073
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 1008
+                },
+                "end": {
+                    "line": 20,
+                    "column": 66,
+                    "offset": 1073
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "-- Accessing Backpack from a Server Script:\ngame.Players.PlayerName.Backpack\n\n-- Accessing Backpack from a LocalScript:\ngame.Players.LocalPlayer.Backpack\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 1075
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 4,
+                            "offset": 1239
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 1075
+                },
+                "end": {
+                    "line": 28,
+                    "column": 4,
+                    "offset": 1239
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

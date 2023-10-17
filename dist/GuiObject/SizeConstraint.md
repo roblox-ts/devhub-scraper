@@ -1,7 +1,7 @@
-This property works in conjunction with the [Size](https://create.roblox.com/docs/reference/engine/classes/GuiObject.Size) property
-to determine the screen size of a GUI element.
+This property works in conjunction with the [`Size`](https://create.roblox.com/docs/reference/engine/classes/GuiObject#Size)
+property to determine the screen size of a GUI element.
 
-The [SizeConstraint](https://developer.roblox.com/en-us/api-reference/enum/SizeConstraint) enum will determine the axes that influence the
+The `Enum.SizeConstraint` enum will determine the axes that influence the
 scalar size of an object.
 
 This property is useful for creating onscreen controls that are meant to

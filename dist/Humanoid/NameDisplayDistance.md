@@ -1,31 +1,8 @@
-The NameDisplayDistance property is a number used in conjunction with the
-[Humanoid](https://create.roblox.com/docs/reference/engine/classes/Humanoid)'s [Humanoid.DisplayDistanceType](https://create.roblox.com/docs/reference/engine/classes/Humanoid#DisplayDistanceType) property to control how far a
-humanoid's name can be seen from.
+The **NameDisplayDistance** property is a number used in conjunction with
+the [`Humanoid.DisplayDistanceType`](https://create.roblox.com/docs/reference/engine/classes/Humanoid#DisplayDistanceType) property to control the distance
+from which a humanoid's name can be seen.
 
-The DisplayDistanceType property is set to one of three values using the
-[HumanoidDisplayDistanceType](https://developer.roblox.com/en-us/api-reference/enum/HumanoidDisplayDistanceType) enum.
-
-#### DisplayDistanceType set to "None"##
-
-When a humanoid's DisplayDistanceType is set to **None**, its name will
-never be visible to anyone under any circumstances.
-
-#### DisplayDistanceType set to "Viewer"##
-
-When a humanoid's DisplayDistanceType is set to **Viewer**, the visibility
-of its name is dependent upon the NameDisplayDistance of the player
-viewing it.
-
-If the distance between the character models of the viewer and the
-humanoid is outside the range of the viewer's NameDisplayDistance, then
-the humanoid's name will not be shown to the viewer.
-
-#### DisplayDistanceType set to "Subject"##
-
-When a humanoid's DisplayDistanceType is set to **Subject**, the
-visibility of its name is dependent upon the value of the humanoid's own
-NameDisplayDistance.
-
-If the distance between the character models of the viewing player and the
-humanoid is outside the range of the humanoid's NameDisplayDistance, then
-the humanoid's name will not be shown to the viewing player.
+See
+[Character Name/Health Display](https://create.roblox.com/docs/characters/name-health-display)
+for an in-depth guide on controlling the appearance of character names and
+health bars.

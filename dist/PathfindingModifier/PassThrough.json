@@ -1,0 +1,108 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines if the parts enclosed by the modifier are traversable, even if\nthey would normally be collided with. See\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 116
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/characters/pathfinding"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Character Pathfinding",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 2,
+                                    "offset": 117
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 23,
+                                    "offset": 138
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 116
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 164
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for details.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 164
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 62,
+                            "offset": 177
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 62,
+                    "offset": 177
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

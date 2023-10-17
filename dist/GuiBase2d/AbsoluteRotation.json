@@ -1,0 +1,301 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "AbsoluteRotation is a read-only property that describes the actual screen\nrotation of a UI element, in degrees. This property,\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 127
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiBase2d.AbsoluteSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 127
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 157
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 157
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 36,
+                            "offset": 162
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiBase2d.AbsolutePosition"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 36,
+                            "offset": 162
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 70,
+                            "offset": 196
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are\na group of properties that all describe the final rendered orientation of\na UI element. It composes (sums) each of the UI element's ancestors'\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 70,
+                            "offset": 196
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 344
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.Rotation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 344
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 27,
+                            "offset": 370
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " into one value. It does ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 27,
+                            "offset": 370
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 395
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "not",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 54,
+                                    "offset": 397
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 57,
+                                    "offset": 400
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 395
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 59,
+                            "offset": 402
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " perform bounds\nchecking, so its value may not be in the range 0 ≤ x < 360 degrees.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 59,
+                            "offset": 402
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 71,
+                            "offset": 488
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 7,
+                    "column": 71,
+                    "offset": 488
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For example, if FrameA has a rotation of 40 degrees, and FrameB within it\nhas a ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 490
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 7,
+                            "offset": 570
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.Rotation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 7,
+                            "offset": 570
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 33,
+                            "offset": 596
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of 50 degrees, then FrameB's\nAbsoluteRotation would be 90 degrees.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 33,
+                            "offset": 596
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 38,
+                            "offset": 663
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 490
+                },
+                "end": {
+                    "line": 11,
+                    "column": 38,
+                    "offset": 663
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

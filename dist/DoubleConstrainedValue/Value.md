@@ -1,2 +1,3 @@
-Used to hold a number value between [DoubleConstrainedValue.MinValue](https://create.roblox.com/docs/reference/engine/classes/DoubleConstrainedValue#MinValue) and
-[DoubleConstrainedValue.MaxValue](https://create.roblox.com/docs/reference/engine/classes/DoubleConstrainedValue#MaxValue).
+Used to hold a number value between
+[`DoubleConstrainedValue.MinValue`](https://create.roblox.com/docs/reference/engine/classes/DoubleConstrainedValue#MinValue) and
+[`DoubleConstrainedValue.MaxValue`](https://create.roblox.com/docs/reference/engine/classes/DoubleConstrainedValue#MaxValue).

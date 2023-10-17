@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "An object used to make movable ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " between two Parts.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 72,
+                            "offset": 71
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 72,
+                    "offset": 71
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

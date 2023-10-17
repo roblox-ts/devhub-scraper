@@ -1,11 +1,10 @@
-The [WeldConstraint.Part0](https://create.roblox.com/docs/reference/engine/classes/WeldConstraint#Part0) and **Part1** properties of a [WeldConstraint](https://create.roblox.com/docs/reference/engine/classes/WeldConstraint)
-set which two [BasePart](https://create.roblox.com/docs/reference/engine/classes/BasePart) the weld connects. As soon as both properties are
-set and the weld is [WeldConstraint.Enabled](https://create.roblox.com/docs/reference/engine/classes/WeldConstraint#Enabled), the weld will lock the two
-parts together.
+The [`WeldConstraint.Part0`](https://create.roblox.com/docs/reference/engine/classes/WeldConstraint#Part0) and **Part1** properties of a
+[`WeldConstraint`](https://create.roblox.com/docs/reference/engine/classes/WeldConstraint) set which two [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) the weld connects.
+As soon as both properties are set and the weld is
+[`WeldConstraint.Enabled`](https://create.roblox.com/docs/reference/engine/classes/WeldConstraint#Enabled), the weld will lock the two parts together.
 
 If Part0 or Part1 are ever set to new parts, then the WeldConstraint will
 instantly link the new part. The old part will no longer be constrained.
-
 ```lua
 local partA = Instance.new("Part")
 local partB = Instance.new("Part")

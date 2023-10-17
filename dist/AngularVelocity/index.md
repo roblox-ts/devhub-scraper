@@ -1,10 +1,23 @@
-**AngularVelocity** is an object that applies a torque (up to
-[MaxTorque](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#MaxTorque)) on a [BasePart](https://create.roblox.com/docs/reference/engine/classes/BasePart) such that the part
-maintains a constant [AngularVelocity](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#AngularVelocity). The
-goal angular velocity defined using world- or attachment-space coordinates by
-setting [RelativeTo](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#RelativeTo).
+The **AngularVelocity** constraint applies torque on an assembly to maintain a
+**constant** angular velocity. Alternatively:
 
-This object maintains all functionality of [BodyAngularVelocity](https://create.roblox.com/docs/reference/engine/classes/BodyAngularVelocity), a legacy
-body mover. To instead apply a constant torque, use a [Torque](https://create.roblox.com/docs/reference/engine/classes/Torque) object instead.
-To instead apply a torque such that a constant orientation is maintained, use
-a [AlignOrientation](https://create.roblox.com/docs/reference/engine/classes/AlignOrientation) instead.
+- If you want to control the amount of torque applied, use a [`Torque`](https://create.roblox.com/docs/reference/engine/classes/Torque)
+constraint.
+- If you only need **initial** angular velocity, set the
+[`AssemblyAngularVelocity`](https://create.roblox.com/docs/reference/engine/classes/BasePart#AssemblyAngularVelocity) method
+directly on the assembly.
+
+When configuring this constraint, it may be helpful to study
+[Roblox Units](https://create.roblox.com/docs/physics/units) to understand how Roblox units
+compare to metric units.
+#### Relativity
+
+Application of velocity can be controlled through the constraint's
+[`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#RelativeTo) property. If set to
+`Enum.ActuatorRelativeTo|World`, the angular velocity vector is used as is. If
+set to `Enum.ActuatorRelativeTo|Attachment1` and the constraint's
+[`Attachment1`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment1) property is set to another
+attachment, the angular velocity will be affected by that of the other
+attachment. Setting [`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#RelativeTo) to
+`Enum.ActuatorRelativeTo|Attachment1` also exposes the
+[`ReactionTorqueEnabled`](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#ReactionTorqueEnabled) property.

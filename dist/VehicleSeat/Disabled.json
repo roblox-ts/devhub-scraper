@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Toggles whether the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.VehicleSeat"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 40,
+                            "offset": 39
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is active or not. If the seat is\ndisabled then it will not automatically weld a character to it on\ncollision and will not allow a character to control the connected vehicle.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 40,
+                            "offset": 39
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 75,
+                            "offset": 213
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 75,
+                    "offset": 213
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

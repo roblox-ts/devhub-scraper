@@ -1,0 +1,466 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The texture applied to the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MeshPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 44,
+                            "offset": 43
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". When this property is set to\nan empty string, no texture will be applied to the mesh.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 44,
+                            "offset": 43
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 130
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 57,
+                    "offset": 130
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "MeshPart.TextureID = \"\" -- no texture\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 132
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 4,
+                            "offset": 177
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 132
+                },
+                "end": {
+                    "line": 6,
+                    "column": 4,
+                    "offset": 177
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note, although the ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 179
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 20,
+                            "offset": 198
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MeshPart.MeshId"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 20,
+                            "offset": 198
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 43,
+                            "offset": 221
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property cannot be changed\nduring runtime, the texture can.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 43,
+                            "offset": 221
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 33,
+                            "offset": 281
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 179
+                },
+                "end": {
+                    "line": 9,
+                    "column": 33,
+                    "offset": 281
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How can I change the texture of a mesh?",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 6,
+                            "offset": 288
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 45,
+                            "offset": 327
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 283
+                },
+                "end": {
+                    "line": 11,
+                    "column": 45,
+                    "offset": 327
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Using the TextureId property, the texture of a mesh can be changed without\nhaving to reupload the mesh. To do this, a new image will need to be\nuploaded to Roblox with the desired texture. The original texture image\nfile can be obtained by exporting the mesh using the 'Export Selection'\noption in Roblox Studio. The image file will be saved alongside the\nexported .obj file.",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 329
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 20,
+                            "offset": 704
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 329
+                },
+                "end": {
+                    "line": 18,
+                    "column": 20,
+                    "offset": 704
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The new texture can then be re-uploaded to Roblox as a Decal and its\ncontent ID can be applied to the mesh using the TextureId property.",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 706
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 68,
+                            "offset": 842
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 706
+                },
+                "end": {
+                    "line": 21,
+                    "column": 68,
+                    "offset": 842
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How can I make a textured mesh?",
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 6,
+                            "offset": 849
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 37,
+                            "offset": 880
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 23,
+                    "column": 1,
+                    "offset": 844
+                },
+                "end": {
+                    "line": 23,
+                    "column": 37,
+                    "offset": 880
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A mesh can only be textured if the mesh has been UV mapped. UV mapping\nrefers to the practice of projecting a texture map onto a mesh. This\ncannot be done using Roblox Studio and has to be done using an external 3D\nmodelling application such as ",
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 882
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 31,
+                            "offset": 1127
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://www.blender.org/"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Blender",
+                            "position": {
+                                "start": {
+                                    "line": 28,
+                                    "column": 32,
+                                    "offset": 1128
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "column": 39,
+                                    "offset": 1135
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 31,
+                            "offset": 1127
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 43,
+                            "offset": 1139
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 43,
+                            "offset": 1139
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 44,
+                            "offset": 1140
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 25,
+                    "column": 1,
+                    "offset": 882
+                },
+                "end": {
+                    "line": 28,
+                    "column": 44,
+                    "offset": 1140
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

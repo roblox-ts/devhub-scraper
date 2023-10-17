@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines the starting position of a text selection, or -1 if the TextBox\nhas no range of selected text. If the value is -1 or equivalent to\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 142
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextBox.CursorPosition|CursorPosition"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 142
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 46,
+                            "offset": 187
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", there is no range of text\nselected. This property uses the same positioning logic as CursorPosition.\nSelectionStart will be greater than CursorPosition if the cursor is at the\nbeginning of a selection, and less than CursorPosition if the cursor is at\nthe end.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 46,
+                            "offset": 187
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 9,
+                            "offset": 448
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 7,
+                    "column": 9,
+                    "offset": 448
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

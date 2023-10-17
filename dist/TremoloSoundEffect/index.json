@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The TremoloSoundEffect creates a trembling effect on a sound by varying the\nvolume of the sound up and down.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 33,
+                            "offset": 108
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 33,
+                    "offset": 108
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Like all other ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 110
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 16,
+                            "offset": 125
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SoundEffect"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 16,
+                            "offset": 125
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 144
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s, a TremoloSoundEffect can be applied\neither to a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 144
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 13,
+                            "offset": 195
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 13,
+                            "offset": 195
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 208
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 208
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 30,
+                            "offset": 212
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SoundGroup"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 30,
+                            "offset": 212
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 48,
+                            "offset": 230
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " by being parented to either.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 48,
+                            "offset": 230
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 77,
+                            "offset": 259
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 110
+                },
+                "end": {
+                    "line": 5,
+                    "column": 77,
+                    "offset": 259
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

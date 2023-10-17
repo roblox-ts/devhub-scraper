@@ -1,0 +1,182 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "SocialService",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 16,
+                                    "offset": 15
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 18,
+                            "offset": 17
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " facilitates social functions that impact relationships made\non the Roblox platform. Its primary usage is to show\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 18,
+                            "offset": 17
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 131
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/production/promotion/invite-prompts"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "invite prompts",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 2,
+                                    "offset": 132
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 16,
+                                    "offset": 146
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 131
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 55,
+                            "offset": 185
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to players\nwhich allow them to send invitation requests to their friends through\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 55,
+                            "offset": 185
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 267
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SocialService:PromptGameInvite()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 267
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 307
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and leverage signals when such\nrequests are made.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 307
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 19,
+                            "offset": 357
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 19,
+                    "offset": 357
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

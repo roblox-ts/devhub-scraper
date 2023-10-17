@@ -1,0 +1,771 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "An object that holds two objects rigidly together. Most commonly created when\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 78
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart:MakeJoints()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 78
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 30,
+                            "offset": 107
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is called on parts where Inlet and Stud\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 30,
+                            "offset": 107
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 148
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.SurfaceType"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 148
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 19,
+                            "offset": 166
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are touching.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 19,
+                            "offset": 166
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 33,
+                            "offset": 180
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 33,
+                    "offset": 180
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Functionally identical to ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 182
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 27,
+                            "offset": 208
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Weld"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 27,
+                            "offset": 208
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 220
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 220
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 40,
+                            "offset": 221
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 182
+                },
+                "end": {
+                    "line": 5,
+                    "column": 40,
+                    "offset": 221
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 223
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 10,
+                            "offset": 232
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.WeldConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 10,
+                            "offset": 232
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 32,
+                            "offset": 254
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for a newer alternative using the\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 32,
+                            "offset": 254
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 289
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/physics/mechanical-constraints"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "constraints",
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 2,
+                                    "offset": 290
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 13,
+                                    "offset": 301
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 289
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 47,
+                            "offset": 335
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " system that does not\nrequire ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 47,
+                            "offset": 335
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 9,
+                            "offset": 365
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.C0|C0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 9,
+                            "offset": 365
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 36,
+                            "offset": 392
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 36,
+                            "offset": 392
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 40,
+                            "offset": 396
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.C1|C1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 40,
+                            "offset": 396
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 67,
+                            "offset": 423
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " properties\nto be manually set.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 67,
+                            "offset": 423
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 20,
+                            "offset": 454
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 223
+                },
+                "end": {
+                    "line": 10,
+                    "column": 20,
+                    "offset": 454
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Root part",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 4,
+                            "offset": 459
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 13,
+                            "offset": 468
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 456
+                },
+                "end": {
+                    "line": 12,
+                    "column": 13,
+                    "offset": 468
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Every Assembly has a root part, see ",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 470
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 37,
+                            "offset": 506
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart:GetRootPart()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 37,
+                            "offset": 506
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 67,
+                            "offset": 536
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". When a\nSnap's ",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 67,
+                            "offset": 536
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 8,
+                            "offset": 552
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.C0|C0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 8,
+                            "offset": 552
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 35,
+                            "offset": 579
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "/",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 35,
+                            "offset": 579
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 36,
+                            "offset": 580
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.C1|C1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 36,
+                            "offset": 580
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 63,
+                            "offset": 607
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is modified the\nroot part will stay where it was.",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 63,
+                            "offset": 607
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 34,
+                            "offset": 657
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 470
+                },
+                "end": {
+                    "line": 16,
+                    "column": 34,
+                    "offset": 657
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Directionality",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 4,
+                            "offset": 662
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 18,
+                            "offset": 676
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 659
+                },
+                "end": {
+                    "line": 18,
+                    "column": 18,
+                    "offset": 676
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Snaps do not have any directionality. ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 678
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 39,
+                            "offset": 716
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.Part0|Part0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 39,
+                            "offset": 716
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 72,
+                            "offset": 749
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 72,
+                            "offset": 749
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 753
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.Part1|Part1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 753
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 34,
+                            "offset": 786
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", doesn't matter. You can imagine rigid\njoints forming a tree branching down from the root part. All the parts down\nthe tree from root will move, and their welded \"children\" in this tree will\nmove with them.",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 34,
+                            "offset": 786
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 16,
+                            "offset": 993
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 678
+                },
+                "end": {
+                    "line": 24,
+                    "column": 16,
+                    "offset": 993
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

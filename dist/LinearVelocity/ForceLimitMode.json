@@ -1,0 +1,367 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines how the constraint force will be limited. When set to\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 65
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ForceLimitMode|Magnitude"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 65
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 32,
+                            "offset": 96
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the constraint force will have a\nmagntiude less than ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 32,
+                            "offset": 96
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 21,
+                            "offset": 151
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LinearVelocity.MaxForce|MaxForce"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 21,
+                            "offset": 151
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 61,
+                            "offset": 191
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". When set to\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 61,
+                            "offset": 191
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 205
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ForceLimitMode|PerAxis"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 205
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 234
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the force along each axis will be less than\nthe corresponding value in\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 234
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 307
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LinearVelocity.MaxAxesForce|MaxAxesForce"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 307
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 49,
+                            "offset": 355
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 49,
+                            "offset": 355
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 361
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LinearVelocity.VelocityConstraintMode|VelocityConstraintMode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 361
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 69,
+                            "offset": 429
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 69,
+                            "offset": 429
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 433
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.VelocityConstraintMode|Vector' or the corresponding value in "
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 433
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 69,
+                            "offset": 501
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "Class.LinearVelocity.MaxPlanarAxesForce|MaxPlanarAxesForce",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 69,
+                            "offset": 501
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 127,
+                            "offset": 559
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "when"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 127,
+                            "offset": 559
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 133,
+                            "offset": 565
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "Class.LinearVelocity.VelocityConstraintMode|VelocityConstraintMode",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 133,
+                            "offset": 565
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 199,
+                            "offset": 631
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "is"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 199,
+                            "offset": 631
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 203,
+                            "offset": 635
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "Enum.VelocityConstraintMode|Plane`.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 203,
+                            "offset": 635
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 238,
+                            "offset": 670
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 8,
+                    "column": 238,
+                    "offset": 670
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

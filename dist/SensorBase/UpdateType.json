@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines how the sensor will update its output data.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 55,
+                            "offset": 54
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 55,
+                    "offset": 54
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "With ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 56
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 6,
+                            "offset": 61
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.SensorUpdateType.OnRead"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 6,
+                            "offset": 61
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 36,
+                            "offset": 91
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", internal sensor logic is run so that\nthe output properties are always up to date. In this mode, the sensor will\nonly run if you read the properties and they are currently outdated.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 36,
+                            "offset": 91
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 69,
+                            "offset": 273
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 56
+                },
+                "end": {
+                    "line": 5,
+                    "column": 69,
+                    "offset": 273
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "With ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 275
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 6,
+                            "offset": 280
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.SensorUpdateType.Manual"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 6,
+                            "offset": 280
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 36,
+                            "offset": 310
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the output properties will never\nchange. Instead, you can write your own scripts to set the output\nproperties as you like.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 36,
+                            "offset": 310
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 24,
+                            "offset": 434
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 275
+                },
+                "end": {
+                    "line": 9,
+                    "column": 24,
+                    "offset": 434
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

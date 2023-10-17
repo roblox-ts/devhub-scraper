@@ -1,0 +1,1723 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Mouse",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 8,
+                                    "offset": 7
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 10,
+                            "offset": 9
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " has been superseded by ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 10,
+                            "offset": 9
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 62
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ContextActionService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 62
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 90
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which cover a broader scope, are more feature\nrich, and support ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 90
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 19,
+                            "offset": 156
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "cross-platform",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 21,
+                                    "offset": 158
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 35,
+                                    "offset": 172
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 19,
+                            "offset": 156
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 174
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " patterns better. It remains supported\nbecause of its widespread use, but you should strongly consider using these\nalternatives.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 174
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 14,
+                            "offset": 302
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 14,
+                    "offset": 302
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 304
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 5,
+                            "offset": 308
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Mouse",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 7,
+                                    "offset": 310
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 12,
+                                    "offset": 315
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 5,
+                            "offset": 308
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 317
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object houses various API for pointers, primarily for buttons\nand raycasting. It can be accessed through ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 317
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 44,
+                            "offset": 423
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player:GetMouse()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 44,
+                            "offset": 423
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 69,
+                            "offset": 448
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " called on\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 69,
+                            "offset": 448
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 5,
+                            "offset": 463
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Players.LocalPlayer"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 5,
+                            "offset": 463
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 32,
+                            "offset": 490
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in a ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 32,
+                            "offset": 490
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 38,
+                            "offset": 496
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 38,
+                            "offset": 496
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 57,
+                            "offset": 515
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". It is also passed by\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 57,
+                            "offset": 515
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 5,
+                            "offset": 542
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.Equipped"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 5,
+                            "offset": 542
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 26,
+                            "offset": 563
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " event.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 26,
+                            "offset": 563
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 33,
+                            "offset": 570
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 304
+                },
+                "end": {
+                    "line": 10,
+                    "column": 33,
+                    "offset": 570
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "It is most notable for the ",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 3,
+                                    "offset": 574
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 30,
+                                    "offset": 601
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Mouse.Icon|Icon"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 30,
+                                    "offset": 601
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 53,
+                                    "offset": 624
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " property, which changes\nthe cursor's appearance.",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 53,
+                                    "offset": 624
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 27,
+                                    "offset": 675
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 572
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 27,
+                            "offset": 675
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "It continually raycasts the screen mouse position into the 3D world using\nthe ",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 3,
+                                    "offset": 678
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 7,
+                                    "offset": 758
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Mouse.TargetFilter|TargetFilter"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 7,
+                                    "offset": 758
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 46,
+                                    "offset": 797
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " property, storing the results of\nthe raycast in the ",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 46,
+                                    "offset": 797
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 22,
+                                    "offset": 852
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Mouse.Hit|Hit"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 22,
+                                    "offset": 852
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 43,
+                                    "offset": 873
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", ",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 43,
+                                    "offset": 873
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 45,
+                                    "offset": 875
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Mouse.Target|Target"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 45,
+                                    "offset": 875
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 72,
+                                    "offset": 902
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", and\n",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 72,
+                                    "offset": 902
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 1,
+                                    "offset": 908
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Mouse.TargetSurface|TargetSurface"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 3,
+                                    "offset": 910
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 44,
+                                    "offset": 951
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " properties. These can be useful\nfor simple cases, but ",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 44,
+                                    "offset": 951
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 25,
+                                    "offset": 1008
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.WorldRoot:Raycast()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 25,
+                                    "offset": 1008
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 52,
+                                    "offset": 1035
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " should be used in more\ncomplicated ",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 52,
+                                    "offset": 1035
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 15,
+                                    "offset": 1073
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                                "href": "/workspace/raycasting"
+                            },
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "raycasting",
+                                    "position": {
+                                        "start": {
+                                            "line": 19,
+                                            "column": 16,
+                                            "offset": 1074
+                                        },
+                                        "end": {
+                                            "line": 19,
+                                            "column": 26,
+                                            "offset": 1084
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 15,
+                                    "offset": 1073
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 50,
+                                    "offset": 1108
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " scenarios.",
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 50,
+                                    "offset": 1108
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 61,
+                                    "offset": 1119
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 676
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 61,
+                            "offset": 1119
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Plugin|Plugins"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 3,
+                                    "offset": 1122
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 25,
+                                    "offset": 1144
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " can use use ",
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 25,
+                                    "offset": 1144
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 38,
+                                    "offset": 1157
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Plugin:GetMouse()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 38,
+                                    "offset": 1157
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 63,
+                                    "offset": 1182
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " to get a\n",
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 63,
+                                    "offset": 1182
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 1,
+                                    "offset": 1192
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PluginMouse"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 3,
+                                    "offset": 1194
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 22,
+                                    "offset": 1213
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which behaves similarly.",
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 22,
+                                    "offset": 1213
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 48,
+                                    "offset": 1239
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 1120
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 48,
+                            "offset": 1239
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 572
+                },
+                "end": {
+                    "line": 21,
+                    "column": 48,
+                    "offset": 1239
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "-- From a LocalScript:\nlocal Players = game:GetService(\"Players\")\nlocal player = Players.LocalPlayer\nlocal mouse = player:GetMouse()\n-- Setting the mouse icon\nmouse.Icon = \"rbxasset://SystemCursors/Wait\"\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 1241
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 4,
+                            "offset": 1455
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 23,
+                    "column": 1,
+                    "offset": 1241
+                },
+                "end": {
+                    "line": 30,
+                    "column": 4,
+                    "offset": 1455
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note:",
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1457
+                        },
+                        "end": {
+                            "line": 32,
+                            "column": 6,
+                            "offset": 1462
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 32,
+                    "column": 1,
+                    "offset": 1457
+                },
+                "end": {
+                    "line": 32,
+                    "column": 6,
+                    "offset": 1462
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "p",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "This object does not control/restrict pointer movement. For this, see\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 34,
+                                            "column": 3,
+                                            "offset": 1466
+                                        },
+                                        "end": {
+                                            "line": 35,
+                                            "column": 1,
+                                            "offset": 1536
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "code",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Class.UserInputService.MouseBehavior"
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 35,
+                                            "column": 3,
+                                            "offset": 1538
+                                        },
+                                        "end": {
+                                            "line": 35,
+                                            "column": 41,
+                                            "offset": 1576
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " and\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 35,
+                                            "column": 41,
+                                            "offset": 1576
+                                        },
+                                        "end": {
+                                            "line": 36,
+                                            "column": 1,
+                                            "offset": 1581
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "code",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Class.UserInputService.MouseDeltaSensitivity"
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 36,
+                                            "column": 3,
+                                            "offset": 1583
+                                        },
+                                        "end": {
+                                            "line": 36,
+                                            "column": 49,
+                                            "offset": 1629
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ".",
+                                    "position": {
+                                        "start": {
+                                            "line": 36,
+                                            "column": 49,
+                                            "offset": 1629
+                                        },
+                                        "end": {
+                                            "line": 36,
+                                            "column": 50,
+                                            "offset": 1630
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 34,
+                                    "column": 3,
+                                    "offset": 1466
+                                },
+                                "end": {
+                                    "line": 36,
+                                    "column": 50,
+                                    "offset": 1630
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 34,
+                            "column": 1,
+                            "offset": 1464
+                        },
+                        "end": {
+                            "line": 36,
+                            "column": 50,
+                            "offset": 1630
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "p",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "If two functions are connected to same input event, such as\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 37,
+                                            "column": 3,
+                                            "offset": 1633
+                                        },
+                                        "end": {
+                                            "line": 38,
+                                            "column": 1,
+                                            "offset": 1693
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "code",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Class.Mouse.Button1Down|Button1Down"
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 38,
+                                            "column": 3,
+                                            "offset": 1695
+                                        },
+                                        "end": {
+                                            "line": 38,
+                                            "column": 40,
+                                            "offset": 1732
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ", ",
+                                    "position": {
+                                        "start": {
+                                            "line": 38,
+                                            "column": 40,
+                                            "offset": 1732
+                                        },
+                                        "end": {
+                                            "line": 38,
+                                            "column": 42,
+                                            "offset": 1734
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "strong",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "both",
+                                            "position": {
+                                                "start": {
+                                                    "line": 38,
+                                                    "column": 44,
+                                                    "offset": 1736
+                                                },
+                                                "end": {
+                                                    "line": 38,
+                                                    "column": 48,
+                                                    "offset": 1740
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 38,
+                                            "column": 42,
+                                            "offset": 1734
+                                        },
+                                        "end": {
+                                            "line": 38,
+                                            "column": 50,
+                                            "offset": 1742
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " functions will run when the\nevent fires. There is no concept of sinking/passing input, as events don't\nsupport this behavior. However, ",
+                                    "position": {
+                                        "start": {
+                                            "line": 38,
+                                            "column": 50,
+                                            "offset": 1742
+                                        },
+                                        "end": {
+                                            "line": 40,
+                                            "column": 35,
+                                            "offset": 1882
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "code",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Class.ContextActionService"
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 40,
+                                            "column": 35,
+                                            "offset": 1882
+                                        },
+                                        "end": {
+                                            "line": 40,
+                                            "column": 63,
+                                            "offset": 1910
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " does have this\nbehavior through ",
+                                    "position": {
+                                        "start": {
+                                            "line": 40,
+                                            "column": 63,
+                                            "offset": 1910
+                                        },
+                                        "end": {
+                                            "line": 41,
+                                            "column": 20,
+                                            "offset": 1945
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "code",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Class.ContextActionService:BindAction()|BindAction"
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 41,
+                                            "column": 20,
+                                            "offset": 1945
+                                        },
+                                        "end": {
+                                            "line": 41,
+                                            "column": 72,
+                                            "offset": 1997
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ".",
+                                    "position": {
+                                        "start": {
+                                            "line": 41,
+                                            "column": 72,
+                                            "offset": 1997
+                                        },
+                                        "end": {
+                                            "line": 41,
+                                            "column": 73,
+                                            "offset": 1998
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 37,
+                                    "column": 3,
+                                    "offset": 1633
+                                },
+                                "end": {
+                                    "line": 41,
+                                    "column": 73,
+                                    "offset": 1998
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 37,
+                            "column": 1,
+                            "offset": 1631
+                        },
+                        "end": {
+                            "line": 41,
+                            "column": 73,
+                            "offset": 1998
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "p",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "While a mouse may not be available on all platforms, Mouse will still\nfunction on mobile (touch) and console (gamepad), which don't typically have\nmice or pointer hardware. For explicit cross-platform behaviors, use\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 42,
+                                            "column": 3,
+                                            "offset": 2001
+                                        },
+                                        "end": {
+                                            "line": 45,
+                                            "column": 1,
+                                            "offset": 2221
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "code",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Class.UserInputService"
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 45,
+                                            "column": 3,
+                                            "offset": 2223
+                                        },
+                                        "end": {
+                                            "line": 45,
+                                            "column": 27,
+                                            "offset": 2247
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " and ",
+                                    "position": {
+                                        "start": {
+                                            "line": 45,
+                                            "column": 27,
+                                            "offset": 2247
+                                        },
+                                        "end": {
+                                            "line": 45,
+                                            "column": 32,
+                                            "offset": 2252
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "code",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Class.ContextActionService"
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 45,
+                                            "column": 32,
+                                            "offset": 2252
+                                        },
+                                        "end": {
+                                            "line": 45,
+                                            "column": 60,
+                                            "offset": 2280
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ".",
+                                    "position": {
+                                        "start": {
+                                            "line": 45,
+                                            "column": 60,
+                                            "offset": 2280
+                                        },
+                                        "end": {
+                                            "line": 45,
+                                            "column": 61,
+                                            "offset": 2281
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 42,
+                                    "column": 3,
+                                    "offset": 2001
+                                },
+                                "end": {
+                                    "line": 45,
+                                    "column": 61,
+                                    "offset": 2281
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "p",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "See ",
+                                    "position": {
+                                        "start": {
+                                            "line": 47,
+                                            "column": 3,
+                                            "offset": 2285
+                                        },
+                                        "end": {
+                                            "line": 47,
+                                            "column": 7,
+                                            "offset": 2289
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "a",
+                                    "properties": {
+                                        "href": "/input"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Input and Camera",
+                                            "position": {
+                                                "start": {
+                                                    "line": 47,
+                                                    "column": 8,
+                                                    "offset": 2290
+                                                },
+                                                "end": {
+                                                    "line": 47,
+                                                    "column": 24,
+                                                    "offset": 2306
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 47,
+                                            "column": 7,
+                                            "offset": 2289
+                                        },
+                                        "end": {
+                                            "line": 47,
+                                            "column": 33,
+                                            "offset": 2315
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " for more information on\ncustomizing inputs in your experience.",
+                                    "position": {
+                                        "start": {
+                                            "line": 47,
+                                            "column": 33,
+                                            "offset": 2315
+                                        },
+                                        "end": {
+                                            "line": 48,
+                                            "column": 41,
+                                            "offset": 2380
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 47,
+                                    "column": 3,
+                                    "offset": 2285
+                                },
+                                "end": {
+                                    "line": 48,
+                                    "column": 41,
+                                    "offset": 2380
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 42,
+                            "column": 1,
+                            "offset": 1999
+                        },
+                        "end": {
+                            "line": 48,
+                            "column": 41,
+                            "offset": 2380
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 34,
+                    "column": 1,
+                    "offset": 1464
+                },
+                "end": {
+                    "line": 48,
+                    "column": 41,
+                    "offset": 2380
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

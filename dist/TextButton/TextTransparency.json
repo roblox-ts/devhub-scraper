@@ -1,0 +1,296 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The TextColor3 property determines the transparency of all the text\nrendered by a UI element. This property along with\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 119
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton.Font"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 119
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 142
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 142
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 144
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton.TextSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 144
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 53,
+                            "offset": 171
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 53,
+                            "offset": 171
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 176
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton.TextColor3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 176
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 205
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will determine the visual properties of\ntext. Text is rendered after the text stroke\n(",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 205
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 2,
+                            "offset": 292
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton.TextStrokeTransparency"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 2,
+                            "offset": 292
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 43,
+                            "offset": 333
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ").",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 43,
+                            "offset": 333
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 335
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 45,
+                    "offset": 335
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Fading text in using a numeric for-loop is a fantastic way to draw a\nplayer's attention to text appearing on screen.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 337
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 48,
+                            "offset": 453
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 337
+                },
+                "end": {
+                    "line": 9,
+                    "column": 48,
+                    "offset": 453
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "-- Count backwards from 1 to 0, decrementing by 0.1\nfor i = 1, 0, -.1 do\n   textLabel.TextTransparency = i\n   wait(.1)\nend\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 455
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 4,
+                            "offset": 585
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 455
+                },
+                "end": {
+                    "line": 17,
+                    "column": 4,
+                    "offset": 585
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

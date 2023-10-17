@@ -1,0 +1,223 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "MeshId",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 13,
+                                    "offset": 12
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 15,
+                            "offset": 14
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is the content ID of the mesh that is to be displayed on\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 15,
+                            "offset": 14
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MeshPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 92
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 92
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 93
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 22,
+                    "offset": 93
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that this property currently cannot be changed by scripts as the\ncollision model of the mesh cannot be recomputed during runtime.\nDevelopers should not rely on this behavior as it may change in the\nfuture. Those looking for a custom mesh object that can be updated during\nruntime should use ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 95
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 20,
+                            "offset": 391
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpecialMesh"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 20,
+                            "offset": 391
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 39,
+                            "offset": 410
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 39,
+                            "offset": 410
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 40,
+                            "offset": 411
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 95
+                },
+                "end": {
+                    "line": 8,
+                    "column": 40,
+                    "offset": 411
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

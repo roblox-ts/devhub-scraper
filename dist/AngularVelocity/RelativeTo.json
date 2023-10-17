@@ -1,0 +1,351 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in which the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AngularVelocity"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " force is\nspecified. If set to ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 89
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ActuatorRelativeTo|World"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 89
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 53,
+                            "offset": 120
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the angular velocity\nvector is used as is. If set to ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 53,
+                            "offset": 120
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 33,
+                            "offset": 175
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ActuatorRelativeTo|Attachment1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 33,
+                            "offset": 175
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 70,
+                            "offset": 212
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the\nangular velocity is transformed by the ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 70,
+                            "offset": 212
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 257
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 257
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 274
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the assigned\nattachment.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 274
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 12,
+                            "offset": 302
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 12,
+                    "offset": 302
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AngularVelocity.RelativeTo|RelativeTo"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 304
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 46,
+                            "offset": 349
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " can also be set to\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 46,
+                            "offset": 349
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 369
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ActuatorRelativeTo|Attachment0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 369
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 38,
+                            "offset": 406
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", but it makes no physical sense and\nwill lead to unpredictable behaviors.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 38,
+                            "offset": 406
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 38,
+                            "offset": 480
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 304
+                },
+                "end": {
+                    "line": 9,
+                    "column": 38,
+                    "offset": 480
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

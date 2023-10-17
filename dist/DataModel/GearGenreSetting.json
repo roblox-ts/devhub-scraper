@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is broken and should not be used.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 48,
+                    "offset": 47
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property historically described the ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 49
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 90
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.GearGenreSetting"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 90
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 65,
+                            "offset": 113
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the\nplace, reflecting the gear permissions configured in the place settings.\nThese settings determine what gear could be added to a\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 65,
+                            "offset": 113
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 249
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player|Player's"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 249
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 24,
+                            "offset": 272
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 24,
+                            "offset": 272
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 25,
+                            "offset": 273
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterGear"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 25,
+                            "offset": 273
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 44,
+                            "offset": 292
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 44,
+                            "offset": 292
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 293
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 49
+                },
+                "end": {
+                    "line": 6,
+                    "column": 45,
+                    "offset": 293
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property, along with ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 295
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 27,
+                            "offset": 321
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DataModel.Genre"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 27,
+                            "offset": 321
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 50,
+                            "offset": 344
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", no longer functions\ncorrectly and attempting to read it may throw an error.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 50,
+                            "offset": 344
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 56,
+                            "offset": 421
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 295
+                },
+                "end": {
+                    "line": 9,
+                    "column": 56,
+                    "offset": 421
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

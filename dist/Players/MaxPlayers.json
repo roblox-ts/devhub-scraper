@@ -1,0 +1,212 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "MaxPlayers",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 17,
+                                    "offset": 16
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property determines the maximum number of players that\ncan be in a server. This property can only be set through a specific\nplace's settings on the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 167
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://create.roblox.com/creations"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Creator Dashboard",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 2,
+                                    "offset": 168
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 19,
+                                    "offset": 185
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 167
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 223
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or through\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 223
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 235
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/studio/game-settings"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Game Settings",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 2,
+                                    "offset": 236
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 15,
+                                    "offset": 249
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 235
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 273
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 273
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 40,
+                            "offset": 274
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 40,
+                    "offset": 274
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

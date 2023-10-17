@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Specifies the \"sharpness\" of the linear servo motor in reaching the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 68
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SlidingBallConstraint.TargetPosition|TargetPosition"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 68
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 60,
+                            "offset": 127
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when the\nderived classes' actuator type is set to ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 60,
+                            "offset": 127
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 178
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ActuatorType|Servo"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 178
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 67,
+                            "offset": 203
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Larger\nvalues correspond to faster a response and smaller values results in more\ndamping and a slower response.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 67,
+                            "offset": 203
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 31,
+                            "offset": 316
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 31,
+                    "offset": 316
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

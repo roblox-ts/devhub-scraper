@@ -1,0 +1,195 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "An instance representing a 1D float curve encoded via a sorted list of\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 71
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.FloatCurveKey|FloatCurveKeys"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 71
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 40,
+                            "offset": 110
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 40,
+                            "offset": 110
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 111
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 41,
+                    "offset": 111
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.FloatCurveKey|FloatCurveKeys"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 113
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 152
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are value-time points that represent\nthe changes in value over time. The changes of a single value over time are\nrepresented by a curve. Animators can edit keys to modify a curve. The shape\nof the curve is dictated by the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 152
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 33,
+                            "offset": 375
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.KeyInterpolationMode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 33,
+                            "offset": 375
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 60,
+                            "offset": 402
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " chosen at each\nkey.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 60,
+                            "offset": 402
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 5,
+                            "offset": 422
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 113
+                },
+                "end": {
+                    "line": 8,
+                    "column": 5,
+                    "offset": 422
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

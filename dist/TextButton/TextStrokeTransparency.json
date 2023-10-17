@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The TextStrokeTransparency property sets the transparency of the stroke,\nor outline, of rendered text. This property and\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 121
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton.TextStrokeColor3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 121
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 36,
+                            "offset": 156
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determine the visual properties of the\ntext stroke.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 36,
+                            "offset": 156
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 13,
+                            "offset": 208
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 13,
+                    "offset": 208
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Text stroke is rendered before normal text and is simply 4 renderings of\nthe same text in +/- 1 pixel offsets in each direction. Text stroke\nrendering works independently and identically to\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 210
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 400
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton.TextColor3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 400
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 30,
+                            "offset": 429
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 30,
+                            "offset": 429
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 35,
+                            "offset": 434
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton.TextTransparency"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 35,
+                            "offset": 434
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 70,
+                            "offset": 469
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".\nSince text stroke is simply multiple renderings of the same transparency,\nthis property is essentially multiplicative on itself four times over\n(e.g. a TextStrokeTransparency of 0.5 appears about the same as\nTextTransparency of 0.0625, or 0.5^4). Therefore, it's recommended to set\nTextStrokeTransparency to a value in the range of 0.75 to 1 for more a\nmore subtle effect.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 70,
+                            "offset": 469
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 20,
+                            "offset": 843
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 210
+                },
+                "end": {
+                    "line": 15,
+                    "column": 20,
+                    "offset": 843
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

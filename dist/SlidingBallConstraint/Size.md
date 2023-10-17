@@ -1,1 +1,1 @@
-The visualized size of the SlidingBallConstraint.
+The constraint's visualized size.

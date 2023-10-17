@@ -1,0 +1,156 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Vector3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " velocity value when\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 39
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LinearVelocity.VelocityConstraintMode|VelocityConstraintMode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 39
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 69,
+                            "offset": 107
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is\nset to ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 69,
+                            "offset": 107
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 8,
+                            "offset": 118
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.VelocityConstraintMode|Vector"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 8,
+                            "offset": 118
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 44,
+                            "offset": 154
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 44,
+                            "offset": 154
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 45,
+                            "offset": 155
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 45,
+                    "offset": 155
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

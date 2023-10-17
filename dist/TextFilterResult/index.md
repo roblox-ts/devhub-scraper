@@ -1,2 +1,2 @@
-Represents the result of a call to [TextService:FilterStringAsync](https://create.roblox.com/docs/reference/engine/classes/TextService#FilterStringAsync). Used to
-distribute a filtered string accordingly.
+Represents the result of a call to [`TextService:FilterStringAsync()`](https://create.roblox.com/docs/reference/engine/classes/TextService#FilterStringAsync).
+Used to distribute a filtered string accordingly.

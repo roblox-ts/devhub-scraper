@@ -1,0 +1,537 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The PlayerMouse behaves identically to the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 44,
+                            "offset": 43
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 44,
+                            "offset": 43
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 57,
+                            "offset": 56
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object that is\nobtained using ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 57,
+                            "offset": 56
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 16,
+                            "offset": 87
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.Equipped"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 16,
+                            "offset": 87
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 108
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". It can be accessed from\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 108
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 134
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 134
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 20,
+                            "offset": 153
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s using the local player's ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 20,
+                            "offset": 153
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 47,
+                            "offset": 180
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player:GetMouse()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 47,
+                            "offset": 180
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 72,
+                            "offset": 205
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nmethod. Both PlayerMouse and ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 72,
+                            "offset": 205
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 235
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 235
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 248
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are legacy APIs, superseded by\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 248
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 280
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 280
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 25,
+                            "offset": 304
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 25,
+                            "offset": 304
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 305
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 26,
+                    "offset": 305
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The only difference between the PlayerMouse and the ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 307
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 53,
+                            "offset": 359
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 53,
+                            "offset": 359
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 66,
+                            "offset": 372
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object is\nthe PlayerMouse can be obtained using the ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 66,
+                            "offset": 372
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 43,
+                            "offset": 425
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player:GetMouse()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 43,
+                            "offset": 425
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 68,
+                            "offset": 450
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " method.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 68,
+                            "offset": 450
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 76,
+                            "offset": 458
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 307
+                },
+                "end": {
+                    "line": 8,
+                    "column": 76,
+                    "offset": 458
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "In most cases developers are advised to use the new ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 460
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 53,
+                            "offset": 512
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 53,
+                            "offset": 512
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 77,
+                            "offset": 536
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".\nHowever the PlayerMouse and Mouse objects remain supported for a number of\nreasons. See ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 77,
+                            "offset": 536
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 14,
+                            "offset": 626
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/input"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Input and Camera",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 15,
+                                    "offset": 627
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 31,
+                                    "offset": 643
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 14,
+                            "offset": 626
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 40,
+                            "offset": 652
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for more information\non customizing inputs in your experience.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 40,
+                            "offset": 652
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 42,
+                            "offset": 715
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 460
+                },
+                "end": {
+                    "line": 13,
+                    "column": 42,
+                    "offset": 715
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

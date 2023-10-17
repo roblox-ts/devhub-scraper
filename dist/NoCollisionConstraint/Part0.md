@@ -1,1 +1,1 @@
-The second [Part](https://create.roblox.com/docs/reference/engine/classes/BasePart) that the constraint connects.
+The second [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) that the constraint connects.

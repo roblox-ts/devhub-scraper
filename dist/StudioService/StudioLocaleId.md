@@ -3,7 +3,6 @@ Studio, e.g. `en_US`. It is useful when localizing plugins.
 
 Below is a trivial example of localization based on the value returned by
 this function.
-
 ```lua
 local locale = game:GetService("StudioService").StudioLocaleId
 if locale == "en_US" then

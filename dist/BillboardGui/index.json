@@ -1,0 +1,1096 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "BillboardGuis are containers for ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject|GuiObjects"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 62,
+                            "offset": 61
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that appear in\nthe 3D space. BillboardGuis always face the camera, and can either change size\nwith distance or remain the same size on the screen based on the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 62,
+                            "offset": 61
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 221
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BillboardGui.Size"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 221
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 26,
+                            "offset": 246
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 26,
+                            "offset": 246
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 36,
+                            "offset": 256
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 36,
+                    "offset": 256
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Their position is relative to the ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 258
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 35,
+                            "offset": 292
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BillboardGui.Adornee"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 35,
+                            "offset": 292
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 63,
+                            "offset": 320
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". If no Adornee\nis set, then the parent of the BillboardGui will be used as the adornee. For\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 63,
+                            "offset": 320
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 413
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart|BaseParts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 413
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 27,
+                            "offset": 439
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 27,
+                            "offset": 439
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 33,
+                            "offset": 445
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Position|Position"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 33,
+                            "offset": 445
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 67,
+                            "offset": 479
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property\nwill be used. For ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 67,
+                            "offset": 479
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 19,
+                            "offset": 507
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment|Attachments"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 19,
+                            "offset": 507
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 49,
+                            "offset": 537
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 49,
+                            "offset": 537
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 543
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment.WorldPosition|WorldPosition"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 543
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 47,
+                            "offset": 589
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property will be used.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 47,
+                            "offset": 589
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 70,
+                            "offset": 612
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 258
+                },
+                "end": {
+                    "line": 10,
+                    "column": 70,
+                    "offset": 612
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 614
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 5,
+                            "offset": 618
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BillboardGui.Size|Size"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 5,
+                            "offset": 618
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 35,
+                            "offset": 648
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property of a BillboardGui works slightly\ndifferently than ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 35,
+                            "offset": 648
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 18,
+                            "offset": 708
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.Size"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 18,
+                            "offset": 708
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 40,
+                            "offset": 730
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The Offset portion works the same,\nbut the Scale portion is used as a size in studs in 3D space.",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 40,
+                            "offset": 730
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 62,
+                            "offset": 828
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 614
+                },
+                "end": {
+                    "line": 14,
+                    "column": 62,
+                    "offset": 828
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A size of ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 830
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 11,
+                            "offset": 840
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "UDim2.fromScale(4, 5)"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 11,
+                            "offset": 840
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 34,
+                            "offset": 863
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is 4x5 studs, and scales the UI larger and\nsmaller depending on distance from the camera. A size of\n",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 34,
+                            "offset": 863
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 964
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "UDim2.fromOffset(200, 100)"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 964
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 29,
+                            "offset": 992
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is always 200x100 on the screen, and does not\nchange size with distance. Scale and Offset values can also be combined\ntogether, like with ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 29,
+                            "offset": 992
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 21,
+                            "offset": 1131
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.Size"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 21,
+                            "offset": 1131
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 43,
+                            "offset": 1153
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 43,
+                            "offset": 1153
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 44,
+                            "offset": 1154
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 830
+                },
+                "end": {
+                    "line": 20,
+                    "column": 44,
+                    "offset": 1154
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When creating size-scaled BillboardGuis, it's important to make sure all the\nUI objects within are using Scale sizing and all text has\n",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 1156
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1291
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextScaled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1291
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 29,
+                            "offset": 1319
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " enabled, to ensure correct scaling.",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 29,
+                            "offset": 1319
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 65,
+                            "offset": 1355
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 1156
+                },
+                "end": {
+                    "line": 24,
+                    "column": 65,
+                    "offset": 1355
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The AbsolutePosition property of a BillboardGui and all of its descendants is\nrelative to the top left corner of its canvas, and so is always ",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1357
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 65,
+                            "offset": 1499
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "0, 0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 65,
+                            "offset": 1499
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 71,
+                            "offset": 1505
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for the\nBillboardGui instance.",
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 71,
+                            "offset": 1505
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 23,
+                            "offset": 1536
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 26,
+                    "column": 1,
+                    "offset": 1357
+                },
+                "end": {
+                    "line": 28,
+                    "column": 23,
+                    "offset": 1536
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Caching Static UI for Performance",
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 4,
+                            "offset": 1541
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 37,
+                            "offset": 1574
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 30,
+                    "column": 1,
+                    "offset": 1538
+                },
+                "end": {
+                    "line": 30,
+                    "column": 37,
+                    "offset": 1574
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A Gui's appearance is cached until one of the following events occurs:",
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1576
+                        },
+                        "end": {
+                            "line": 32,
+                            "column": 71,
+                            "offset": 1646
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 32,
+                    "column": 1,
+                    "offset": 1576
+                },
+                "end": {
+                    "line": 32,
+                    "column": 71,
+                    "offset": 1646
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "A descendant is added to the Gui.",
+                            "position": {
+                                "start": {
+                                    "line": 34,
+                                    "column": 3,
+                                    "offset": 1650
+                                },
+                                "end": {
+                                    "line": 34,
+                                    "column": 36,
+                                    "offset": 1683
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 34,
+                            "column": 1,
+                            "offset": 1648
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 36,
+                            "offset": 1683
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "A descendant is removed from the Gui.",
+                            "position": {
+                                "start": {
+                                    "line": 35,
+                                    "column": 3,
+                                    "offset": 1686
+                                },
+                                "end": {
+                                    "line": 35,
+                                    "column": 40,
+                                    "offset": 1723
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 1,
+                            "offset": 1684
+                        },
+                        "end": {
+                            "line": 35,
+                            "column": 40,
+                            "offset": 1723
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "A property of a descendant of the Gui changes.",
+                            "position": {
+                                "start": {
+                                    "line": 36,
+                                    "column": 3,
+                                    "offset": 1726
+                                },
+                                "end": {
+                                    "line": 36,
+                                    "column": 49,
+                                    "offset": 1772
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 36,
+                            "column": 1,
+                            "offset": 1724
+                        },
+                        "end": {
+                            "line": 36,
+                            "column": 49,
+                            "offset": 1772
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "A property of the Gui changes.",
+                            "position": {
+                                "start": {
+                                    "line": 37,
+                                    "column": 3,
+                                    "offset": 1775
+                                },
+                                "end": {
+                                    "line": 37,
+                                    "column": 33,
+                                    "offset": 1805
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 37,
+                            "column": 1,
+                            "offset": 1773
+                        },
+                        "end": {
+                            "line": 37,
+                            "column": 33,
+                            "offset": 1805
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 34,
+                    "column": 1,
+                    "offset": 1648
+                },
+                "end": {
+                    "line": 37,
+                    "column": 33,
+                    "offset": 1805
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If any of these events occur, the Gui's appearance will be recomputed the next\nframe it gets rendered.",
+                    "position": {
+                        "start": {
+                            "line": 39,
+                            "column": 1,
+                            "offset": 1807
+                        },
+                        "end": {
+                            "line": 40,
+                            "column": 24,
+                            "offset": 1909
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 39,
+                    "column": 1,
+                    "offset": 1807
+                },
+                "end": {
+                    "line": 40,
+                    "column": 24,
+                    "offset": 1909
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

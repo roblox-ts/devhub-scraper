@@ -1,12 +1,11 @@
 When set to true, debug information is printed to the output regarding the
-replication of instances when [Workspace.StreamingEnabled](https://create.roblox.com/docs/reference/engine/classes/Workspace#StreamingEnabled) is set to true.
-There are several debug outputs that are made available when this property
-is set to true, as listed below.
+replication of instances when [`Workspace.StreamingEnabled`](https://create.roblox.com/docs/reference/engine/classes/Workspace#StreamingEnabled) is set to
+true. There are several debug outputs that are made available when this
+property is set to true, as listed below.
 
 Note that this property is intended for Roblox engineers who are debugging
 network replication. This documentation may become outdated in the future,
 as Roblox's network code is always changing behind the scenes.
-
 #### Streaming Capacity Update
 
 When the client's streaming capacity is updated, the following debug
@@ -31,4 +30,5 @@ message will be printed:
 
 - `{1}` – The id of the client instance quota.
 - `{2}` – The maximum radius of space around the client's
-  [Player.ReplicationFocus](https://create.roblox.com/docs/reference/engine/classes/Player#ReplicationFocus) that can have physical instances streamed in.
+[`Player.ReplicationFocus`](https://create.roblox.com/docs/reference/engine/classes/Player#ReplicationFocus) that can have physical instances
+streamed in.

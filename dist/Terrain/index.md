@@ -5,4 +5,4 @@ occupy the cell, and the material of the cell. The occupancy determines how
 the cell will morph together with surrounding cells, and the result is the
 illusion of having no grid constraint.
 
-For more information, see [Terrain](/building-and-visuals/modeling/terrain).
+For more information, see [Terrain](https://create.roblox.com/docs/parts/terrain).

@@ -1,0 +1,264 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The name of the navigation area inside or on top of the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 56
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Part|Part's"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 56
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 75
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " volume.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 75
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 28,
+                            "offset": 83
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 28,
+                    "offset": 83
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For a more detailed overview of ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 85
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 33,
+                            "offset": 117
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PathfindingService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 33,
+                            "offset": 117
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 59,
+                            "offset": 143
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 59,
+                            "offset": 143
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 148
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PathfindingModifier"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 148
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 28,
+                            "offset": 175
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", see\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 28,
+                            "offset": 175
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 181
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/characters/pathfinding"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Character Pathfinding",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 2,
+                                    "offset": 182
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 23,
+                                    "offset": 203
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 181
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 49,
+                            "offset": 229
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 49,
+                            "offset": 229
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 50,
+                            "offset": 230
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 85
+                },
+                "end": {
+                    "line": 6,
+                    "column": 50,
+                    "offset": 230
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

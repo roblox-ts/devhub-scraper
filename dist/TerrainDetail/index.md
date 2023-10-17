@@ -1,5 +1,5 @@
-TerrainDetail has to be a child of a [MaterialVariant](https://create.roblox.com/docs/reference/engine/classes/MaterialVariant) object.
-The [MaterialVariant.BaseMaterial](https://create.roblox.com/docs/reference/engine/classes/MaterialVariant#BaseMaterial) property of the parent MaterialVariant
+TerrainDetail has to be a child of a [`MaterialVariant`](https://create.roblox.com/docs/reference/engine/classes/MaterialVariant) object. The
+[`MaterialVariant.BaseMaterial`](https://create.roblox.com/docs/reference/engine/classes/MaterialVariant#BaseMaterial) property of the parent MaterialVariant
 object need to be one of the supported terrain Material, for example, it can
 be Basalt but not Plastic.
 

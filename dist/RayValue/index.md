@@ -2,8 +2,8 @@ A RayValue is an object whose purpose is to store a single Ray. Similar to
 CFrameValue, a RayValue's stored ray cannot be viewed or edited within the
 Properties window within studio. Instead, use the Command bar to get and set
 the value of these objects. For example, you can use a line like the one below
-to create a new RayValue named "Value" within the [Workspace](https://create.roblox.com/docs/reference/engine/classes/Workspace). It creates a
-ray at (0, 50, 0) and it faces in the positive-X direction.
+to create a new RayValue named "Value" within the [`Workspace`](https://create.roblox.com/docs/reference/engine/classes/Workspace). It
+creates a ray at (0, 50, 0) and it faces in the positive-X direction.
 
 `Instance.new("RayValue").Value = Ray.new(Vector3.new(0, 50, 0), Vector3.new(10, 0, 0))`
 

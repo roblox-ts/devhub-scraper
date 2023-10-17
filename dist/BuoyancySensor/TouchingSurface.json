@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is true when any position on the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 64,
+                            "offset": 63
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is\ntouching ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 64,
+                            "offset": 63
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 10,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Terrain"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 10,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 91
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " water. The detection measurements are not exact\nand may use the bounding box of the part instead of its exact geometry.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 91
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 72,
+                            "offset": 211
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 72,
+                    "offset": 211
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

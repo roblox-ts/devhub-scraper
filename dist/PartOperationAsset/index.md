@@ -1,3 +1,3 @@
 An internal instance used to save/load
-[solid models](/building-and-visuals/modeling/solid-modeling) onto
-the Roblox cloud.
+[solid models](https://create.roblox.com/docs/parts/solid-modeling) onto the Roblox
+cloud.

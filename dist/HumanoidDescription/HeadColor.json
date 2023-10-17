@@ -1,0 +1,769 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "HeadColor",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 12,
+                                    "offset": 11
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 14,
+                            "offset": 13
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 14,
+                            "offset": 13
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 30,
+                            "offset": 29
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BodyColors.HeadColor3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 30,
+                            "offset": 29
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 63
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BodyColors.HeadColor"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 63
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 91
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of a ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 91
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 97
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 51,
+                            "offset": 113
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when the description is\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 51,
+                            "offset": 113
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 138
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid:ApplyDescription()|applied"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 138
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 44,
+                            "offset": 181
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 44,
+                            "offset": 181
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 45,
+                            "offset": 182
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 45,
+                    "offset": 182
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 184
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 193
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 184
+                },
+                "end": {
+                    "line": 5,
+                    "column": 10,
+                    "offset": 193
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                                "href": "/characters/appearance#humanoiddescription"
+                            },
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "HumanoidDescription System",
+                                    "position": {
+                                        "start": {
+                                            "line": 7,
+                                            "column": 4,
+                                            "offset": 198
+                                        },
+                                        "end": {
+                                            "line": 7,
+                                            "column": 30,
+                                            "offset": 224
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 3,
+                                    "offset": 197
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 75,
+                                    "offset": 269
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\nfor more information on ",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 75,
+                                    "offset": 269
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 27,
+                                    "offset": 297
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 27,
+                                    "offset": 297
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 54,
+                                    "offset": 324
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 54,
+                                    "offset": 324
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 55,
+                                    "offset": 325
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 195
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 55,
+                            "offset": 325
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.TorsoColor|TorsoColor"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 3,
+                                    "offset": 328
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 52,
+                                    "offset": 377
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\n",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 52,
+                                    "offset": 377
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 1,
+                                    "offset": 379
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.LeftArmColor|LeftArmColor"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 3,
+                                    "offset": 381
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 56,
+                                    "offset": 434
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\n",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 56,
+                                    "offset": 434
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 1,
+                                    "offset": 436
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.RightArmColor|RightArmColor"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 3,
+                                    "offset": 438
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 58,
+                                    "offset": 493
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\n",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 58,
+                                    "offset": 493
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 1,
+                                    "offset": 495
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.LeftLegColor|LeftLegColor"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 3,
+                                    "offset": 497
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 56,
+                                    "offset": 550
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", and\n",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 56,
+                                    "offset": 550
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 1,
+                                    "offset": 556
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.RightLegColor|RightLegColor"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 3,
+                                    "offset": 558
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 58,
+                                    "offset": 613
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which are\nsimilar properties that also control body colors",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 58,
+                                    "offset": 613
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 51,
+                                    "offset": 675
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 326
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 51,
+                            "offset": 675
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.Head|Head"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 3,
+                                    "offset": 678
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 40,
+                                    "offset": 715
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which controls the mesh used for\nthe head",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 40,
+                                    "offset": 715
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 11,
+                                    "offset": 760
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 676
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 11,
+                            "offset": 760
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.Face|Face"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 3,
+                                    "offset": 763
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 40,
+                                    "offset": 800
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which applies a texture to the\nfront of the head",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 40,
+                                    "offset": 800
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 20,
+                                    "offset": 852
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 761
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 20,
+                            "offset": 852
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 195
+                },
+                "end": {
+                    "line": 18,
+                    "column": 20,
+                    "offset": 852
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

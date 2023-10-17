@@ -1,0 +1,1356 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "RemoteFunction",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 21,
+                                    "offset": 20
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object facilitates synchronous, two-way communication\nacross the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 12,
+                            "offset": 88
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/projects/client-server"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "client-server",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 13,
+                                    "offset": 89
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 26,
+                                    "offset": 102
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 12,
+                            "offset": 88
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 128
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " boundary. You\ncan use it to define a custom callback function and invoke it manually by\ncalling ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 128
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 9,
+                            "offset": 225
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RemoteFunction:InvokeClient()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 9,
+                            "offset": 225
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 46,
+                            "offset": 262
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 46,
+                            "offset": 262
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 266
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RemoteFunction:InvokeServer()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 266
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 38,
+                            "offset": 303
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The code invoking the function\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 38,
+                            "offset": 303
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 336
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "yields",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 3,
+                                    "offset": 338
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 9,
+                                    "offset": 344
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 336
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 11,
+                            "offset": 346
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " until it receives a response from the recipient.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 11,
+                            "offset": 346
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 60,
+                            "offset": 395
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 60,
+                    "offset": 395
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "In order for both the server and clients to access a ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 397
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 54,
+                            "offset": 450
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RemoteFunction"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 54,
+                            "offset": 450
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 76,
+                            "offset": 472
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\ninstance, it must be in a place where both sides can see it, such as\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 76,
+                            "offset": 472
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 542
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ReplicatedStorage"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 542
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 26,
+                            "offset": 567
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", although in some cases it's appropriate to store it\nin ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 26,
+                            "offset": 567
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 4,
+                            "offset": 624
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 4,
+                            "offset": 624
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 21,
+                            "offset": 641
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or inside a ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 21,
+                            "offset": 641
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 34,
+                            "offset": 654
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 34,
+                            "offset": 654
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 46,
+                            "offset": 666
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 46,
+                            "offset": 666
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 47,
+                            "offset": 667
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 397
+                },
+                "end": {
+                    "line": 11,
+                    "column": 47,
+                    "offset": 667
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If the result is ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 669
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 18,
+                            "offset": 686
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "not",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 20,
+                                    "offset": 688
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 23,
+                                    "offset": 691
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 18,
+                            "offset": 686
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 25,
+                            "offset": 693
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " needed, it is recommended that you use a\n",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 25,
+                            "offset": 693
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 735
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RemoteEvent"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 735
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 20,
+                            "offset": 754
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " instead, since its call is asynchronous and doesn't need\nto wait for a response to continue execution. See\n",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 20,
+                            "offset": 754
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 862
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/scripting/events/remote"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Remote Events and Callbacks",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 2,
+                                    "offset": 863
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 29,
+                                    "offset": 890
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 862
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 56,
+                            "offset": 917
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for code\nsamples and further details on ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 56,
+                            "offset": 917
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 32,
+                            "offset": 958
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RemoteFunction"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 32,
+                            "offset": 958
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 54,
+                            "offset": 980
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 54,
+                            "offset": 980
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 55,
+                            "offset": 981
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 669
+                },
+                "end": {
+                    "line": 17,
+                    "column": 55,
+                    "offset": 981
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Streaming Precautions",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 6,
+                            "offset": 988
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 27,
+                            "offset": 1009
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 19,
+                    "column": 1,
+                    "offset": 983
+                },
+                "end": {
+                    "line": 19,
+                    "column": 27,
+                    "offset": 1009
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that if an invoked ",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 1011
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 25,
+                            "offset": 1035
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RemoteFunction"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 25,
+                            "offset": 1035
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 47,
+                            "offset": 1057
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " creates an instance on the\nserver, there is no guarantee that it exists on the client when the function\nreturns. This is particularly important in places that are\n",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 47,
+                            "offset": 1057
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1221
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace.StreamingEnabled|StreamingEnabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1221
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 52,
+                            "offset": 1272
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when the created instances\nare ",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 52,
+                            "offset": 1272
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 5,
+                            "offset": 1304
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart|BaseParts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 5,
+                            "offset": 1304
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 31,
+                            "offset": 1330
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 31,
+                            "offset": 1330
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 35,
+                            "offset": 1334
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model|Models"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 35,
+                            "offset": 1334
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 55,
+                            "offset": 1354
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", since parts that are\nfar away from the player's character may not be streamed to the client, and\nmodels that are ",
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 55,
+                            "offset": 1354
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 17,
+                            "offset": 1469
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ModelStreamingMode|Atomic"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 17,
+                            "offset": 1469
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 49,
+                            "offset": 1501
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " depend on whether their parts\nare streamed. Even if a model is ",
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 49,
+                            "offset": 1501
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 34,
+                            "offset": 1565
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ModelStreamingMode|Persistent"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 34,
+                            "offset": 1565
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 70,
+                            "offset": 1601
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", there\nmay be some delay between the creation of the model and when it is replicated\nto the client.",
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 70,
+                            "offset": 1601
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 15,
+                            "offset": 1701
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 21,
+                    "column": 1,
+                    "offset": 1011
+                },
+                "end": {
+                    "line": 30,
+                    "column": 15,
+                    "offset": 1701
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For additional details on streaming and recommendations on dealing with this\ndelay, see ",
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1703
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 12,
+                            "offset": 1791
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/workspace/streaming"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Content Streaming",
+                            "position": {
+                                "start": {
+                                    "line": 33,
+                                    "column": 13,
+                                    "offset": 1792
+                                },
+                                "end": {
+                                    "line": 33,
+                                    "column": 30,
+                                    "offset": 1809
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 12,
+                            "offset": 1791
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 53,
+                            "offset": 1832
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 53,
+                            "offset": 1832
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 54,
+                            "offset": 1833
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 32,
+                    "column": 1,
+                    "offset": 1703
+                },
+                "end": {
+                    "line": 33,
+                    "column": 54,
+                    "offset": 1833
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Parameter Limitations",
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 6,
+                            "offset": 1840
+                        },
+                        "end": {
+                            "line": 35,
+                            "column": 27,
+                            "offset": 1861
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 35,
+                    "column": 1,
+                    "offset": 1835
+                },
+                "end": {
+                    "line": 35,
+                    "column": 27,
+                    "offset": 1861
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Any type of Roblox object such as an ",
+                    "position": {
+                        "start": {
+                            "line": 37,
+                            "column": 1,
+                            "offset": 1863
+                        },
+                        "end": {
+                            "line": 37,
+                            "column": 38,
+                            "offset": 1900
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Enum"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 37,
+                            "column": 38,
+                            "offset": 1900
+                        },
+                        "end": {
+                            "line": 37,
+                            "column": 53,
+                            "offset": 1915
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 37,
+                            "column": 53,
+                            "offset": 1915
+                        },
+                        "end": {
+                            "line": 37,
+                            "column": 55,
+                            "offset": 1917
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 37,
+                            "column": 55,
+                            "offset": 1917
+                        },
+                        "end": {
+                            "line": 37,
+                            "column": 71,
+                            "offset": 1933
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", or\nothers can be passed as a parameter when a ",
+                    "position": {
+                        "start": {
+                            "line": 37,
+                            "column": 71,
+                            "offset": 1933
+                        },
+                        "end": {
+                            "line": 38,
+                            "column": 44,
+                            "offset": 1981
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RemoteFunction"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 38,
+                            "column": 44,
+                            "offset": 1981
+                        },
+                        "end": {
+                            "line": 38,
+                            "column": 66,
+                            "offset": 2003
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is invoked,\nas well as Luau types such as numbers, strings, and booleans, although you\nshould carefully explore the\n",
+                    "position": {
+                        "start": {
+                            "line": 38,
+                            "column": 66,
+                            "offset": 2003
+                        },
+                        "end": {
+                            "line": 41,
+                            "column": 1,
+                            "offset": 2120
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/scripting/events/remote#argument-limitations"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "limitations",
+                            "position": {
+                                "start": {
+                                    "line": 41,
+                                    "column": 2,
+                                    "offset": 2121
+                                },
+                                "end": {
+                                    "line": 41,
+                                    "column": 13,
+                                    "offset": 2132
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 41,
+                            "column": 1,
+                            "offset": 2120
+                        },
+                        "end": {
+                            "line": 41,
+                            "column": 61,
+                            "offset": 2180
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 41,
+                            "column": 61,
+                            "offset": 2180
+                        },
+                        "end": {
+                            "line": 41,
+                            "column": 62,
+                            "offset": 2181
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 37,
+                    "column": 1,
+                    "offset": 1863
+                },
+                "end": {
+                    "line": 41,
+                    "column": 62,
+                    "offset": 2181
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,626 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+                "src": "/assets/legacy/GraphicTShirt.jpg"
+            },
+            "children": [],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 48,
+                    "offset": 47
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "GraphicTShirt",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 3,
+                                    "offset": 51
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 16,
+                                    "offset": 64
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 49
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 18,
+                            "offset": 66
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines the ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 18,
+                            "offset": 66
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 34,
+                            "offset": 82
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ShirtGraphic.Graphic|Graphic"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 34,
+                            "offset": 82
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 70,
+                            "offset": 118
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " used\nby a ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 70,
+                            "offset": 118
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 6,
+                            "offset": 129
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ShirtGraphic"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 6,
+                            "offset": 129
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 26,
+                            "offset": 149
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 26,
+                            "offset": 149
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 32,
+                            "offset": 155
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid:ApplyDescription()|applied"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 32,
+                            "offset": 155
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 75,
+                            "offset": 198
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nto a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 75,
+                            "offset": 198
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 6,
+                            "offset": 204
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 6,
+                            "offset": 204
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 22,
+                            "offset": 220
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The asset type ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 22,
+                            "offset": 220
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 237
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "must be for a T-Shirt",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 41,
+                                    "offset": 239
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 62,
+                                    "offset": 260
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 237
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 64,
+                            "offset": 262
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and not a\nDecal or Image.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 64,
+                            "offset": 262
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 16,
+                            "offset": 288
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 49
+                },
+                "end": {
+                    "line": 6,
+                    "column": 16,
+                    "offset": 288
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 290
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 10,
+                            "offset": 299
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 290
+                },
+                "end": {
+                    "line": 8,
+                    "column": 10,
+                    "offset": 299
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                                "href": "/characters/appearance#humanoiddescription"
+                            },
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "HumanoidDescription System",
+                                    "position": {
+                                        "start": {
+                                            "line": 10,
+                                            "column": 4,
+                                            "offset": 304
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "column": 30,
+                                            "offset": 330
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 3,
+                                    "offset": 303
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 75,
+                                    "offset": 375
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\nfor more information on ",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 75,
+                                    "offset": 375
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 27,
+                                    "offset": 403
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 27,
+                                    "offset": 403
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 54,
+                                    "offset": 430
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 54,
+                                    "offset": 430
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 55,
+                                    "offset": 431
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 301
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 55,
+                            "offset": 431
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.Shirt|Shirt"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 3,
+                                    "offset": 434
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 42,
+                                    "offset": 473
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which can provide the same\nfunctionality in addition to providing textures for the entire torso and\narms",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 42,
+                                    "offset": 473
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 7,
+                                    "offset": 583
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 432
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 7,
+                            "offset": 583
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.TorsoColor|TorsoColor"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 3,
+                                    "offset": 586
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 52,
+                                    "offset": 635
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which can change the\ncolor of the torso underneath the t-shirt texture",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 52,
+                                    "offset": 635
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 52,
+                                    "offset": 709
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 584
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 52,
+                            "offset": 709
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 301
+                },
+                "end": {
+                    "line": 16,
+                    "column": 52,
+                    "offset": 709
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

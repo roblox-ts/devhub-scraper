@@ -1,0 +1,264 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The MeshId is the content ID of the mesh that is to be displayed.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 66,
+                            "offset": 65
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 66,
+                    "offset": 65
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The content ID for a mesh is generated when a developer uploads a mesh to\nthe Roblox website.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 67
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 20,
+                            "offset": 160
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 67
+                },
+                "end": {
+                    "line": 4,
+                    "column": 20,
+                    "offset": 160
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How do I create a mesh?",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 6,
+                            "offset": 167
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 29,
+                            "offset": 190
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 162
+                },
+                "end": {
+                    "line": 6,
+                    "column": 29,
+                    "offset": 190
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Meshes can currently only uploaded using ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 192
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 42,
+                            "offset": 233
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MeshPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 42,
+                            "offset": 233
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 58,
+                            "offset": 249
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s or the asset\nmanager. Once uploaded however, the content ID for the mesh can be used\nfor the MeshId property. For more information, see\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 58,
+                            "offset": 249
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 387
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/parts/meshes"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Meshes",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 2,
+                                    "offset": 388
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 8,
+                                    "offset": 394
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 387
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 24,
+                            "offset": 410
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 24,
+                            "offset": 410
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 25,
+                            "offset": 411
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 192
+                },
+                "end": {
+                    "line": 11,
+                    "column": 25,
+                    "offset": 411
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

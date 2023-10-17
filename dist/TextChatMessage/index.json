@@ -1,0 +1,147 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Immutable data object representing a text chat message.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 56,
+                    "offset": 55
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "To learn more about using TextChatMessages, see\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 57
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 105
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/chat/customizing-in-experience-text-chat"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "In-Experience Text Chat",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 2,
+                                    "offset": 106
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 25,
+                                    "offset": 129
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 105
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 69,
+                            "offset": 173
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 69,
+                            "offset": 173
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 70,
+                            "offset": 174
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 57
+                },
+                "end": {
+                    "line": 4,
+                    "column": 70,
+                    "offset": 174
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

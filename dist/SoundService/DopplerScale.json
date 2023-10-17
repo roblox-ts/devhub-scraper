@@ -1,0 +1,505 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines the degree to with a 3D ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 63,
+                            "offset": 62
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s pitch\nvaries due to the Doppler effect.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 63,
+                            "offset": 62
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 34,
+                            "offset": 103
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 34,
+                    "offset": 103
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Doppler effect describes a phenomenon whereby the pitch of a sound\nchanges as the source and observer of the sound move further away, or\ncloser together. The Doppler effect can often be seen in real life, such\nas when a car with a siren drives past.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 105
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 40,
+                            "offset": 358
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 105
+                },
+                "end": {
+                    "line": 7,
+                    "column": 40,
+                    "offset": 358
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Increasing this value exaggerates the impact of the Doppler effect,\nwhereas decreasing it minimizes it. By default, the value of this property\nis 1.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 360
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 6,
+                            "offset": 508
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 360
+                },
+                "end": {
+                    "line": 11,
+                    "column": 6,
+                    "offset": 508
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local SoundService = game:GetService(\"SoundService\")\nSoundService.DopplerScale = 1 -- default\nSoundService.DopplerScale = 2 -- exaggerated Doppler effect\nSoundService.DopplerEffect = 0.5 -- subdued Doppler effect\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 510
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 4,
+                            "offset": 730
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 510
+                },
+                "end": {
+                    "line": 18,
+                    "column": 4,
+                    "offset": 730
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note the Doppler effect has no impact on 2D ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 732
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 45,
+                            "offset": 776
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 45,
+                            "offset": 776
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 58,
+                            "offset": 789
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s,\n(",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 58,
+                            "offset": 789
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 2,
+                            "offset": 793
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 2,
+                            "offset": 793
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 15,
+                            "offset": 806
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s not parented to a ",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 15,
+                            "offset": 806
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 35,
+                            "offset": 826
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 35,
+                            "offset": 826
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 51,
+                            "offset": 842
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 51,
+                            "offset": 842
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 55,
+                            "offset": 846
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 55,
+                            "offset": 846
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 73,
+                            "offset": 864
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ").",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 73,
+                            "offset": 864
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 75,
+                            "offset": 866
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 732
+                },
+                "end": {
+                    "line": 21,
+                    "column": 75,
+                    "offset": 866
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Developers wishing to learn more about the different settings Roblox's\nsound engine uses should consult the\n",
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 868
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 976
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://www.fmod.com/docs/api/content/generated/overview/3dsound.html"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "FMOD documentation",
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 2,
+                                    "offset": 977
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 20,
+                                    "offset": 995
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 976
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 92,
+                            "offset": 1067
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 92,
+                            "offset": 1067
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 93,
+                            "offset": 1068
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 23,
+                    "column": 1,
+                    "offset": 868
+                },
+                "end": {
+                    "line": 25,
+                    "column": 93,
+                    "offset": 1068
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

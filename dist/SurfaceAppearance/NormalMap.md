@@ -10,7 +10,7 @@ range is stretched slightly from -1 to 1 so that a byte value of 127 maps
 to exactly 0. The normal vector's Z axis is always defined as the
 direction of the underlying mesh's normal. A uniform (127,127,255) image
 translates to a completely flat normal map where the normal is everywhere
-perpendicular to the mesh surface. This format is called “tangent space”
+perpendicular to the mesh surface. This format is called "tangent space"
 normal maps. Roblox does not support world space or object space normal
 maps.
 
@@ -23,18 +23,14 @@ editor as if it were displayed on a surface, normals pointing towards the
 right side of the screen should appear more red, and normals pointing
 towards the top side of your screen should appear more green.
 
-![Bread normal map][1]
+![Bread normal map](https://prod.docsiteassets.roblox.com/assets/legacy/bread-nmap.png)
 
-The terms “DirectX format” and “OpenGL format” are sometimes used to
+The terms "DirectX format" and "OpenGL format" are sometimes used to
 describe whether the G channel of the normal map is inverted or not.
 Roblox expects the OpenGL format.
 
-#### Note
-
 Roblox expects imported meshes to include tangents. Modeling software may
-also refer to this as “tangent space” information. If you apply a normal
+also refer to this as "tangent space" information. If you apply a normal
 map and it does not seem to make any visual difference, you may need to
 re-export your mesh along with its tangent information from modeling
 software.
-
-[1]: https://prod.docsiteassets.roblox.com/assets/blt013e67a5f211cd0d/bread-nmap.png

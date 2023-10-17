@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If set to true, each child parented to the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 44,
+                            "offset": 43
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 44,
+                            "offset": 43
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 62,
+                            "offset": 61
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will be\ncloned into a player's ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 62,
+                            "offset": 61
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 93
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PlayerGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 93
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 110
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when that player's character is\nrespawned.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 110
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 11,
+                            "offset": 153
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 11,
+                    "offset": 153
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If one of the children is a PlayerGui and it has its PlayerGui property\nset to false, it will not be cloned.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 155
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 37,
+                            "offset": 263
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 155
+                },
+                "end": {
+                    "line": 6,
+                    "column": 37,
+                    "offset": 263
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

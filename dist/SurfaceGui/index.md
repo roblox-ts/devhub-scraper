@@ -1,8 +1,6 @@
-**Note** SurfaceGuis must be descendants of PlayerGui in order to know the
-player who is interacting with it.Allows for the rendering of GUI elements
-onto a part's surface in the 3D world, whilst allowing for basic user
-interaction to occur.
-
+Allows for the rendering of GUI elements onto a part's surface in the 3D
+world, while allowing for basic user interaction to occur. SurfaceGuis must be
+descendants of PlayerGui in order to know which player is interacting with it.
 ##### Caching static UI for performance improvements
 
 A Gui's appearance is cached until one of the following events occurs:

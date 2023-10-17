@@ -1,0 +1,239 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Describes the context where this member can be used. If set to\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 63
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/luau/strings"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\"Server\"",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 25,
+                                    "offset": 87
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 33,
+                                    "offset": 95
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 63
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 99
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", this member will not be\navailable to auto fill when editing a ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 99
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 39,
+                            "offset": 163
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 39,
+                            "offset": 163
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 58,
+                            "offset": 182
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". If set to\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 58,
+                            "offset": 182
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 194
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/luau/strings"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\"Client\"",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 25,
+                                    "offset": 218
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 33,
+                                    "offset": 226
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 194
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 230
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", this member will not be\navailable to auto fill when editing a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 230
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 294
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 294
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 308
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 308
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 54,
+                            "offset": 309
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 54,
+                    "offset": 309
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

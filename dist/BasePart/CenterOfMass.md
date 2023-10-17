@@ -1,6 +1,5 @@
-The CenterOfMass property describes the position in which a
-[part](https://create.roblox.com/docs/reference/engine/classes/BasePart)'s [center of mass][1] is located. Should a force be
-applied to the part toward this point, the part would not rotate as a
-result of this force. **CenterOfMass is currently not enabled.**
-
-[1]: https://en.wikipedia.org/wiki/Center_of_mass
+The CenterOfMass property describes the **local** position of a
+[`part`](https://create.roblox.com/docs/reference/engine/classes/BasePart)'s center of mass. If this is a single part assembly,
+this is the `AssemblyCenterOfMass` converted from world space to local. On
+simple [`Parts`](https://create.roblox.com/docs/reference/engine/classes/Part), the center of mass is always (0,0,0). It can
+vary for [`WedgePart`](https://create.roblox.com/docs/reference/engine/classes/WedgePart) or [`MeshPart`](https://create.roblox.com/docs/reference/engine/classes/MeshPart) however.

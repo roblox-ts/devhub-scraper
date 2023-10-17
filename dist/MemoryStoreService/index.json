@@ -1,0 +1,200 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A top-level singleton class which exposes methods to access specific\nprimitives within the MemoryStoreService. Use it for any data that rapidly\nchanges that other servers can restore, such as global leaderboards,\nmatchmaking queues, and auction houses.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 252
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 40,
+                    "offset": 252
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For a more in-depth look, see\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 254
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 284
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/cloud-services/memory-stores"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Memory Stores",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 2,
+                                    "offset": 285
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 15,
+                                    "offset": 298
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 284
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 47,
+                            "offset": 330
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". For the\nlimits and quotas of the service, see\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 47,
+                            "offset": 330
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 378
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/cloud-services/memory-stores#limits-and-quotas"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Limits and Quotas",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 2,
+                                    "offset": 379
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 19,
+                                    "offset": 396
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 378
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 69,
+                            "offset": 446
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 69,
+                            "offset": 446
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 70,
+                            "offset": 447
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 254
+                },
+                "end": {
+                    "line": 9,
+                    "column": 70,
+                    "offset": 447
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

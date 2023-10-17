@@ -1,0 +1,498 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The distance, in studs, the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s display is offset by relative to\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 79
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace.CurrentCamera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 79
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 110
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 110
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 111
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 37,
+                    "offset": 111
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When ZOffset is 0, the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 113
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 24,
+                            "offset": 136
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 24,
+                            "offset": 136
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 36,
+                            "offset": 148
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will be displayed in its standard\nposition between ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 36,
+                            "offset": 148
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 18,
+                            "offset": 200
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.Attachment0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 18,
+                            "offset": 200
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 42,
+                            "offset": 224
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 42,
+                            "offset": 224
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 47,
+                            "offset": 229
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.Attachment1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 47,
+                            "offset": 229
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 71,
+                            "offset": 253
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".\nZOffset can be both positive and negative.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 71,
+                            "offset": 253
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 43,
+                            "offset": 297
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 113
+                },
+                "end": {
+                    "line": 6,
+                    "column": 43,
+                    "offset": 297
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property can be particularly useful when using multiple\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 299
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 360
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam|Beams"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 360
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 19,
+                            "offset": 378
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " between the same ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 19,
+                            "offset": 378
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 37,
+                            "offset": 396
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 37,
+                            "offset": 396
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 55,
+                            "offset": 414
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s. It can be used to\nlayer the ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 55,
+                            "offset": 414
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 11,
+                            "offset": 445
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 11,
+                            "offset": 445
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 23,
+                            "offset": 457
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s and avoid\n",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 23,
+                            "offset": 457
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 469
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://en.wikipedia.org/wiki/Z-fighting"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Z-fighting",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 2,
+                                    "offset": 470
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 12,
+                                    "offset": 480
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 469
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 55,
+                            "offset": 523
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 55,
+                            "offset": 523
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 56,
+                            "offset": 524
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 299
+                },
+                "end": {
+                    "line": 11,
+                    "column": 56,
+                    "offset": 524
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

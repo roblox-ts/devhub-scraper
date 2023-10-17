@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 4,
+                            "offset": 3
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RenderSettings.EnableFRM"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 4,
+                            "offset": 3
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to true, this property controls\nthe quality level in Roblox Studio.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 110
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 36,
+                    "offset": 110
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,6 +1,6 @@
-The ambient sound environment preset used by [SoundService](https://create.roblox.com/docs/reference/engine/classes/SoundService).
+The ambient sound environment preset used by [`SoundService`](https://create.roblox.com/docs/reference/engine/classes/SoundService).
 
-The [ReverbType](https://developer.roblox.com/en-us/api-reference/enum/ReverbType) this property simulates a range of different
+The `Enum.ReverbType` this property simulates a range of different
 environment's impact on sound. Each different option corresponds with a
 preset available in the FMOD sound engine. For example, when AmbientReverb
 is set to Hangar, the sound will reverberate differently to simulate being
@@ -23,9 +23,7 @@ Roblox's sound engine.
 - Room effect level at mid frequencies
 
 Those interested in finding more out about ambient reverb presets should
-see the [FMOD documentation on the topic][1]. For most developers however,
-the [ReverbType](https://developer.roblox.com/en-us/api-reference/enum/ReverbType) names are descriptive enough to be able to use this
-setting without advanced knowledge.
-
-[1]:
-  https://www.fmod.com/docs/api/content/generated/FMOD_REVERB_PRESETS.html
+see the
+[FMOD documentation on the topic](https://create.roblox.com/docs/https://www.fmod.com/docs/api/content/generated/FMOD_REVERB_PRESETS.html).
+For most developers however, the `Enum.ReverbType` names are descriptive
+enough to be able to use this setting without advanced knowledge.

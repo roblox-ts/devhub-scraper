@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines how the image looks when it is scaled.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 50,
+                    "offset": 49
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "By default, the image smooths out texture when displayed on the screen\nlarger or smaller than its size in texture memory. When set to\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 51
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 185
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ResamplerMode.Pixelated|Enum.ResamplerMode.Pixelated"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 185
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 60,
+                            "offset": 244
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the image\npreserves the sharp edges of pixels.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 60,
+                            "offset": 244
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 37,
+                            "offset": 292
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 51
+                },
+                "end": {
+                    "line": 6,
+                    "column": 37,
+                    "offset": 292
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

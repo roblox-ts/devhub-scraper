@@ -1,0 +1,1370 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines whether ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 43,
+                            "offset": 42
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " should create default\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 43,
+                            "offset": 42
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 65
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChannel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 65
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 84
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 84
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 86
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 22,
+                    "offset": 86
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If true, ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 88
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 10,
+                            "offset": 97
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Team"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 10,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 109
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " based ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 109
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 29,
+                            "offset": 116
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChannel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 29,
+                            "offset": 116
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 48,
+                            "offset": 135
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s are automatically created\n(and removed when ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 48,
+                            "offset": 135
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 19,
+                            "offset": 181
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Team"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 19,
+                            "offset": 181
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 31,
+                            "offset": 193
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s are removed), along with the following\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 31,
+                            "offset": 193
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 234
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChannel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 234
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 20,
+                            "offset": 253
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s in a ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 20,
+                            "offset": 253
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 27,
+                            "offset": 260
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Folder"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 27,
+                            "offset": 260
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 274
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " named ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 274
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 48,
+                            "offset": 281
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "TextChannels",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 50,
+                                    "offset": 283
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 62,
+                                    "offset": 295
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 48,
+                            "offset": 281
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 64,
+                            "offset": 297
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " inside\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 64,
+                            "offset": 297
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 305
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 305
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 24,
+                            "offset": 328
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ":",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 24,
+                            "offset": 328
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 25,
+                            "offset": 329
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 88
+                },
+                "end": {
+                    "line": 7,
+                    "column": 25,
+                    "offset": 329
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        },
+        {
+            "type": "element",
+            "tagName": "table",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "thead",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "element",
+                                    "tagName": "th",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Name",
+                                            "position": {
+                                                "start": {
+                                                    "line": 9,
+                                                    "column": 3,
+                                                    "offset": 333
+                                                },
+                                                "end": {
+                                                    "line": 9,
+                                                    "column": 7,
+                                                    "offset": 337
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 1,
+                                            "offset": 331
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 40,
+                                            "offset": 370
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "th",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Description",
+                                            "position": {
+                                                "start": {
+                                                    "line": 9,
+                                                    "column": 41,
+                                                    "offset": 371
+                                                },
+                                                "end": {
+                                                    "line": 9,
+                                                    "column": 52,
+                                                    "offset": 382
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 40,
+                                            "offset": 370
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 241,
+                                            "offset": 571
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 1,
+                                    "offset": 331
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 241,
+                                    "offset": 571
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 331
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 241,
+                            "offset": 571
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "tbody",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "RBXGeneral",
+                                            "position": {
+                                                "start": {
+                                                    "line": 11,
+                                                    "column": 3,
+                                                    "offset": 815
+                                                },
+                                                "end": {
+                                                    "line": 11,
+                                                    "column": 13,
+                                                    "offset": 825
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 1,
+                                            "offset": 813
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 40,
+                                            "offset": 852
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "For all messages.",
+                                            "position": {
+                                                "start": {
+                                                    "line": 11,
+                                                    "column": 41,
+                                                    "offset": 853
+                                                },
+                                                "end": {
+                                                    "line": 11,
+                                                    "column": 58,
+                                                    "offset": 870
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 40,
+                                            "offset": 852
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 241,
+                                            "offset": 1053
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 1,
+                                    "offset": 813
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 241,
+                                    "offset": 1053
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "RBXSystem",
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 3,
+                                                    "offset": 1056
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 12,
+                                                    "offset": 1065
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 1,
+                                            "offset": 1054
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 40,
+                                            "offset": 1093
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "For system messages.",
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 41,
+                                                    "offset": 1094
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 61,
+                                                    "offset": 1114
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 40,
+                                            "offset": 1093
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 241,
+                                            "offset": 1294
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 1,
+                                    "offset": 1054
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 241,
+                                    "offset": 1294
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "RBXTeam<",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 3,
+                                                    "offset": 1297
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 11,
+                                                    "offset": 1305
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Datatype.BrickColor.Name"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 11,
+                                                    "offset": 1305
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 37,
+                                                    "offset": 1331
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": ">",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 37,
+                                                    "offset": 1331
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 38,
+                                                    "offset": 1332
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 13,
+                                            "column": 1,
+                                            "offset": 1295
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 40,
+                                            "offset": 1334
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "For team messages. Name of the ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 41,
+                                                    "offset": 1335
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 72,
+                                                    "offset": 1366
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Class.TextChannel"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 72,
+                                                    "offset": 1366
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 91,
+                                                    "offset": 1385
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": " is the string \"RBXTeam\" followed by the name of ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 91,
+                                                    "offset": 1385
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 140,
+                                                    "offset": 1434
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Class.Team.BrickColor"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 140,
+                                                    "offset": 1434
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 163,
+                                                    "offset": 1457
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": ". (Ex: \"RBXTeamNavy blue\" for a team with \"Navy blue\" ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 163,
+                                                    "offset": 1457
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 217,
+                                                    "offset": 1511
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Datatype.BrickColor"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 217,
+                                                    "offset": 1511
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 238,
+                                                    "offset": 1532
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": ")",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 238,
+                                                    "offset": 1532
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 239,
+                                                    "offset": 1533
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 13,
+                                            "column": 40,
+                                            "offset": 1334
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 241,
+                                            "offset": 1535
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 1,
+                                    "offset": 1295
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 241,
+                                    "offset": 1535
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 813
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 241,
+                            "offset": 1535
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 331
+                },
+                "end": {
+                    "line": 13,
+                    "column": 241,
+                    "offset": 1535
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If false, ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 1537
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 11,
+                            "offset": 1547
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Team"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 11,
+                            "offset": 1547
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 23,
+                            "offset": 1559
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " based ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 23,
+                            "offset": 1559
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 30,
+                            "offset": 1566
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChannel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 30,
+                            "offset": 1566
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 49,
+                            "offset": 1585
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s are ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 49,
+                            "offset": 1585
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 55,
+                            "offset": 1591
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "not",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 57,
+                                    "offset": 1593
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 60,
+                                    "offset": 1596
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 55,
+                            "offset": 1591
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 62,
+                            "offset": 1598
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nautomatically created and destroyed.",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 62,
+                            "offset": 1598
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 37,
+                            "offset": 1635
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 1537
+                },
+                "end": {
+                    "line": 16,
+                    "column": 37,
+                    "offset": 1635
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Developers can edit, create, and remove ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 1637
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 41,
+                            "offset": 1677
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChannel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 41,
+                            "offset": 1677
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 60,
+                            "offset": 1696
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s even if\n",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 60,
+                            "offset": 1696
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1706
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatService.CreateDefaultTextChannels"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1706
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 50,
+                            "offset": 1755
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is ",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 50,
+                            "offset": 1755
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 54,
+                            "offset": 1759
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "true"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 54,
+                            "offset": 1759
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 60,
+                            "offset": 1765
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 60,
+                            "offset": 1765
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 61,
+                            "offset": 1766
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 1637
+                },
+                "end": {
+                    "line": 19,
+                    "column": 61,
+                    "offset": 1766
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

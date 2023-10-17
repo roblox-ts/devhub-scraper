@@ -1,0 +1,262 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Opacity determines the opaqueness of the smoke particles. It must be in\nthe range [0, 1]. This property works ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 39,
+                            "offset": 110
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "inversely",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 41,
+                                    "offset": 112
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 50,
+                                    "offset": 121
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 39,
+                            "offset": 110
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 123
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in comparison to a\npart's ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 123
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 8,
+                            "offset": 150
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Transparency"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 8,
+                            "offset": 150
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 179
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ParticleEmitter's\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 179
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 201
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.Transparency"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 201
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 237
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ": a value of 0 is completely\ninvisible, 1 is completely visible.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 237
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 36,
+                            "offset": 301
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 36,
+                    "offset": 301
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The texture that Roblox uses for ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 303
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 34,
+                            "offset": 336
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Smoke"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 34,
+                            "offset": 336
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 47,
+                            "offset": 349
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " particles is partially\ntransparent, so setting this property to 1 still yields transparency in\nrendered smoke.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 47,
+                            "offset": 349
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 16,
+                            "offset": 460
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 303
+                },
+                "end": {
+                    "line": 9,
+                    "column": 16,
+                    "offset": 460
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

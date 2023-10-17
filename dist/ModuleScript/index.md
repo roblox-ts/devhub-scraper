@@ -24,11 +24,11 @@ Note that the first call to `require` on a ModuleScript will not yield (halt)
 unless the ModuleScript yields (e.g. calls `wait`). The current thread that
 called `require` will yield until a ModuleScript returns a value. A run time
 error is generated if this doesn't happen. If a ModuleScript is attempting to
-`require` another ModuleScript that in turn tries to `require`s it, the
+`require` another ModuleScript that in turn tries to `require` it, the
 **thread will hang and never halt (cyclic `require` calls do not generate
 errors).** Be mindful of your module dependencies in large projects!
 
-If a ModuleScript object is has its Name property set to 'MainModule' and is
+If a ModuleScript object has its Name property set to 'MainModule' and is
 uploaded to Roblox as a model to your account, Scripts can use `require` with
 the uploaded model's AssetId instead. This allows you to create private
 modules on your Roblox account!

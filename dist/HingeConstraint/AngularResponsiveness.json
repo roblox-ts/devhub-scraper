@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property specifies the sharpness of the servo motor in reaching the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 73
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HingeConstraint.TargetAngle|TargetAngle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 73
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 48,
+                            "offset": 120
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", when\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 48,
+                            "offset": 120
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 127
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HingeConstraint.ActuatorType|ActuatorType"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 127
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 50,
+                            "offset": 176
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 50,
+                            "offset": 176
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 187
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ActuatorType|Servo"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 187
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 26,
+                            "offset": 212
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Larger values correspond to a faster response\nand smaller values results in more damping and a slower response.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 26,
+                            "offset": 212
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 66,
+                            "offset": 325
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 66,
+                    "offset": 325
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

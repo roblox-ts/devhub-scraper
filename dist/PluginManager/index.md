@@ -1,6 +1,6 @@
-A singleton class used to create [Plugins](https://create.roblox.com/docs/reference/engine/classes/Plugin). Has been superseded by the
-[official
-plugins feature](https://developer.roblox.com/articles/Intro-to-Plugins), but can be used to create plugins with the command bar.
+A singleton class used to create [`Plugins`](https://create.roblox.com/docs/reference/engine/classes/Plugin). This has been
+superseded by the [Plugins](https://create.roblox.com/docs/studio/plugins) but it can be used to
+create plugins with the command bar.
 
 The PluginManager object can be retrieved using the deprecated
-`PluginManager()` function.
+[`PluginManager()`](https://create.roblox.com/docs/reference/engine/classes/PluginManager) function.

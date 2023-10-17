@@ -1,0 +1,204 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "PathfindingService",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 21,
+                                    "offset": 20
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is used to find logical paths between two points,\nensuring that characters can move between the points without running into\nwalls or other obstacles. By default, the shortest path is calculated, but you\ncan implement pathfinding modifiers to compute smarter paths across various\nmaterials, around defined regions, or through obstacles.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 57,
+                            "offset": 358
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 57,
+                    "offset": 358
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 360
+                },
+                "end": {
+                    "line": 7,
+                    "column": 87,
+                    "offset": 446
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 448
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 5,
+                            "offset": 452
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/characters/pathfinding"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Character Pathfinding",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 6,
+                                    "offset": 453
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 27,
+                                    "offset": 474
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 5,
+                            "offset": 452
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 53,
+                            "offset": 500
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for usage\ndetails.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 53,
+                            "offset": 500
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 9,
+                            "offset": 519
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 448
+                },
+                "end": {
+                    "line": 10,
+                    "column": 9,
+                    "offset": 519
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

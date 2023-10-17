@@ -1,3 +1,4 @@
-The maximum force a [SlidingBallConstraint](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint) with
-[SlidingBallConstraint.ActuatorType](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint#ActuatorType) set to [ActuatorType](https://developer.roblox.com/en-us/api-reference/enum/ActuatorType) can apply
-when trying to reach its desired [SlidingBallConstraint.Velocity](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint#Velocity).
+The constraint's maximum force when
+[`ActuatorType`](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint#ActuatorType) is set to
+`Enum.ActuatorType|Motor`, as the constraint attempts to reach its desired
+[`Velocity`](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint#Velocity).

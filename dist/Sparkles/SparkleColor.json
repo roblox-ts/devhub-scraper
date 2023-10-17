@@ -1,0 +1,328 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property functions identically to ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 40,
+                            "offset": 39
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sparkles.Color"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 40,
+                            "offset": 39
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 62,
+                            "offset": 61
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 62,
+                            "offset": 61
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 63,
+                            "offset": 62
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 63,
+                    "offset": 62
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The SparkleColor property determines the color of all the particles emit\nby a ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 64
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 6,
+                            "offset": 142
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sparkles"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 6,
+                            "offset": 142
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 158
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object (both existing and future particles). It\nbehaves similarly to ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 158
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 22,
+                            "offset": 228
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.Color"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 22,
+                            "offset": 228
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 51,
+                            "offset": 257
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", except that it is only\none color and not a ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 51,
+                            "offset": 257
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 21,
+                            "offset": 302
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.ColorSequence"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 21,
+                            "offset": 302
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 326
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Sparkles have a natural\ncolor sequence applied which is most apparent when this property is set to\nwhite; sparkles very faintly animate between a subtle green and red.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 326
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 69,
+                            "offset": 495
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 64
+                },
+                "end": {
+                    "line": 8,
+                    "column": 69,
+                    "offset": 495
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "It should be noted that sparkles have a partial\n",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 497
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 545
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.LightEmission"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 545
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 38,
+                            "offset": 582
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " effect, so dark colors tend to\nrender more transparent and white colors look very bright.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 38,
+                            "offset": 582
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 59,
+                            "offset": 672
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 497
+                },
+                "end": {
+                    "line": 12,
+                    "column": 59,
+                    "offset": 672
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

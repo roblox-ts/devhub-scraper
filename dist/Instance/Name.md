@@ -1,4 +1,4 @@
-A non-unique identifier of the [Instance](https://create.roblox.com/docs/reference/engine/classes/Instance).
+A non-unique identifier of the [`Instance`](https://create.roblox.com/docs/reference/engine/classes/Instance).
 
 This property is an identifier that describes an object. Names are not
 necessarily unique identifiers however; multiple children of an object may
@@ -7,8 +7,7 @@ organized, along with allowing scripts to access specific objects.
 
 The name of an object is often used to access the object through the data
 model hierarchy using the following methods:
-
-```
+```lua
 local baseplate = workspace.Baseplate
 local baseplate = workspace["Baseplate"]
 local baseplate = workspace:FindFirstChild("BasePlate")
@@ -23,10 +22,10 @@ operator and Lua will not interpret its name as an identifier.
 
 If more than one object with the same name are siblings then any attempt
 to index an object by that name will return the only one of the objects
-found similar to `Instance/FindFirstChild`, but not always the desired
-object. If a specific object needs to be accessed through code, it is
-recommended to give it a unique name, or guarantee that none of its
+found similar to [`Instance:FindFirstChild()`](https://create.roblox.com/docs/reference/engine/classes/Instance#FindFirstChild), but not always the
+desired object. If a specific object needs to be accessed through code, it
+is recommended to give it a unique name, or guarantee that none of its
 siblings share the same name as it.
 
 Note, a full name showing the instance's hierarchy can be obtained using
-`Instance/GetFullName`.
+[`Instance:GetFullName()`](https://create.roblox.com/docs/reference/engine/classes/Instance#GetFullName).

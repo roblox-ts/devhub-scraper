@@ -1,0 +1,1380 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Humanoid is a special object that gives models the functionality of a\ncharacter. It grants the model with the ability to physically walk around and\ninteract with various components of a Roblox level. Humanoids are always\nparented inside of a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 246
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 246
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 259
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", and the model is expected to be an\nassembly of ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 259
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 13,
+                            "offset": 308
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 13,
+                            "offset": 308
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 29,
+                            "offset": 324
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 29,
+                            "offset": 324
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 34,
+                            "offset": 329
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 34,
+                            "offset": 329
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 49,
+                            "offset": 344
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "; the root part of the\nassembly is expected to be named ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 49,
+                            "offset": 344
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 34,
+                            "offset": 400
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "HumanoidRootPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 34,
+                            "offset": 400
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 418
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". It also expects a part\nnamed ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 418
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 7,
+                            "offset": 449
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Head"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 7,
+                            "offset": 449
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 13,
+                            "offset": 455
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to be connected to the character's torso part, either directly or\nindirectly. By default, there are two official types of character rigs\nsupplied by Roblox, each with their own set of rules:",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 13,
+                            "offset": 455
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 54,
+                            "offset": 646
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 9,
+                    "column": 54,
+                    "offset": 646
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "R6",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 4,
+                            "offset": 651
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 6,
+                            "offset": 653
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 648
+                },
+                "end": {
+                    "line": 11,
+                    "column": 6,
+                    "offset": 653
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "A basic character rig that uses 6 parts for limbs.",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 3,
+                                    "offset": 657
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 53,
+                                    "offset": 707
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 655
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 53,
+                            "offset": 707
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "The ",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 3,
+                                    "offset": 710
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 7,
+                                    "offset": 714
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Head"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 7,
+                                    "offset": 714
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 13,
+                                    "offset": 720
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " part must be attached to a part named ",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 13,
+                                    "offset": 720
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 52,
+                                    "offset": 759
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Torso"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 52,
+                                    "offset": 759
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 59,
+                                    "offset": 766
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", or the Humanoid\nwill die immediately.",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 59,
+                                    "offset": 766
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 24,
+                                    "offset": 807
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 708
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 24,
+                            "offset": 807
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "BodyPart appearances are applied using ",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 3,
+                                    "offset": 810
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 42,
+                                    "offset": 849
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.CharacterMesh"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 42,
+                                    "offset": 849
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 63,
+                                    "offset": 870
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " objects.",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 63,
+                                    "offset": 870
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 72,
+                                    "offset": 879
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 808
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 72,
+                            "offset": 879
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Certain properties, such as ",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 3,
+                                    "offset": 882
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 31,
+                                    "offset": 910
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Humanoid.LeftLeg"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 31,
+                                    "offset": 910
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 55,
+                                    "offset": 934
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " and\n",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 55,
+                                    "offset": 934
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 1,
+                                    "offset": 939
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Humanoid.RightLeg"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 3,
+                                    "offset": 941
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 28,
+                                    "offset": 966
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", only work with R6.",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 28,
+                                    "offset": 966
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 48,
+                                    "offset": 986
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 880
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 48,
+                            "offset": 986
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 655
+                },
+                "end": {
+                    "line": 18,
+                    "column": 48,
+                    "offset": 986
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "R15",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 4,
+                            "offset": 991
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 7,
+                            "offset": 994
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 988
+                },
+                "end": {
+                    "line": 20,
+                    "column": 7,
+                    "offset": 994
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "More complex than R6, but also far more flexible and robust.",
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 3,
+                                    "offset": 998
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 63,
+                                    "offset": 1058
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 996
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 63,
+                            "offset": 1058
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Uses 15 parts for limbs.",
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 3,
+                                    "offset": 1061
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 27,
+                                    "offset": 1085
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 1059
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 27,
+                            "offset": 1085
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "The ",
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 3,
+                                    "offset": 1088
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 7,
+                                    "offset": 1092
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Head"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 7,
+                                    "offset": 1092
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 13,
+                                    "offset": 1098
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " part must be attached to a part named ",
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 13,
+                                    "offset": 1098
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 52,
+                                    "offset": 1137
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "UpperTorso"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 52,
+                                    "offset": 1137
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 64,
+                                    "offset": 1149
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " or the\nHumanoid will die immediately.",
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 64,
+                                    "offset": 1149
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 33,
+                                    "offset": 1189
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1086
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 33,
+                            "offset": 1189
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "BodyPart appearances have to be assembled directly.",
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 3,
+                                    "offset": 1192
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 54,
+                                    "offset": 1243
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1190
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 54,
+                            "offset": 1243
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Can be dynamically rescaled by using special ",
+                            "position": {
+                                "start": {
+                                    "line": 27,
+                                    "column": 3,
+                                    "offset": 1246
+                                },
+                                "end": {
+                                    "line": 27,
+                                    "column": 48,
+                                    "offset": 1291
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.NumberValue"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 27,
+                                    "column": 48,
+                                    "offset": 1291
+                                },
+                                "end": {
+                                    "line": 27,
+                                    "column": 67,
+                                    "offset": 1310
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " objects\nparented inside of the Humanoid.",
+                            "position": {
+                                "start": {
+                                    "line": 27,
+                                    "column": 67,
+                                    "offset": 1310
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "column": 35,
+                                    "offset": 1353
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 1,
+                            "offset": 1244
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 35,
+                            "offset": 1353
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "The Humanoid will automatically create ",
+                            "position": {
+                                "start": {
+                                    "line": 29,
+                                    "column": 3,
+                                    "offset": 1356
+                                },
+                                "end": {
+                                    "line": 29,
+                                    "column": 42,
+                                    "offset": 1395
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Vector3Value"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 29,
+                                    "column": 42,
+                                    "offset": 1395
+                                },
+                                "end": {
+                                    "line": 29,
+                                    "column": 62,
+                                    "offset": 1415
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " objects named\n",
+                            "position": {
+                                "start": {
+                                    "line": 29,
+                                    "column": 62,
+                                    "offset": 1415
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "column": 1,
+                                    "offset": 1430
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "OriginalSize"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 3,
+                                    "offset": 1432
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "column": 17,
+                                    "offset": 1446
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " inside of each limb.",
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 17,
+                                    "offset": 1446
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "column": 38,
+                                    "offset": 1467
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 1,
+                            "offset": 1354
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 38,
+                            "offset": 1467
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "If a NumberValue is parented inside of the Humanoid and is named one of the\nfollowing, it will be used to control the scaling functionality:\n",
+                            "position": {
+                                "start": {
+                                    "line": 31,
+                                    "column": 3,
+                                    "offset": 1470
+                                },
+                                "end": null
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "ul",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "\n"
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "li",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "BodyDepthScale",
+                                            "position": {
+                                                "start": {
+                                                    "line": 33,
+                                                    "column": 5,
+                                                    "offset": 1617
+                                                },
+                                                "end": {
+                                                    "line": 33,
+                                                    "column": 19,
+                                                    "offset": 1631
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 33,
+                                            "column": 3,
+                                            "offset": 1615
+                                        },
+                                        "end": {
+                                            "line": 33,
+                                            "column": 19,
+                                            "offset": 1631
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n"
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "li",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "BodyHeightScale",
+                                            "position": {
+                                                "start": {
+                                                    "line": 34,
+                                                    "column": 5,
+                                                    "offset": 1636
+                                                },
+                                                "end": {
+                                                    "line": 34,
+                                                    "column": 20,
+                                                    "offset": 1651
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 34,
+                                            "column": 3,
+                                            "offset": 1634
+                                        },
+                                        "end": {
+                                            "line": 34,
+                                            "column": 20,
+                                            "offset": 1651
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n"
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "li",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "BodyWidthScale",
+                                            "position": {
+                                                "start": {
+                                                    "line": 35,
+                                                    "column": 5,
+                                                    "offset": 1656
+                                                },
+                                                "end": {
+                                                    "line": 35,
+                                                    "column": 19,
+                                                    "offset": 1670
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 35,
+                                            "column": 3,
+                                            "offset": 1654
+                                        },
+                                        "end": {
+                                            "line": 35,
+                                            "column": 19,
+                                            "offset": 1670
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n"
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "li",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "HeadScale",
+                                            "position": {
+                                                "start": {
+                                                    "line": 36,
+                                                    "column": 5,
+                                                    "offset": 1675
+                                                },
+                                                "end": {
+                                                    "line": 36,
+                                                    "column": 14,
+                                                    "offset": 1684
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 36,
+                                            "column": 3,
+                                            "offset": 1673
+                                        },
+                                        "end": {
+                                            "line": 36,
+                                            "column": 14,
+                                            "offset": 1684
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 33,
+                                    "column": 3,
+                                    "offset": 1615
+                                },
+                                "end": {
+                                    "line": 36,
+                                    "column": 14,
+                                    "offset": 1684
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 31,
+                            "column": 1,
+                            "offset": 1468
+                        },
+                        "end": {
+                            "line": 36,
+                            "column": 14,
+                            "offset": 1684
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 996
+                },
+                "end": {
+                    "line": 36,
+                    "column": 14,
+                    "offset": 1684
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

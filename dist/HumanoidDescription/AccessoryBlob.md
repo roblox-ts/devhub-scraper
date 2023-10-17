@@ -1,10 +1,10 @@
 A JSON formatted array of Layered Accessories where each table in the
 entry in the array describes an acccessory's AssetId, AccessoryType,
 Order, and (optionally) Puffiness as key-value pairs. This can be edited
-in the properties windows for the [HumanoidDescription](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription).
+in the properties windows for the [`HumanoidDescription`](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription).
 
 To make changes from Lua (which is recommended over editing the JSON
-directly), use `HumanoidDescription.SetAccessories()` and
-`HumanoidDescription.GetAccessories()`. These methods can also be enabled
-to work with rigid accessories by setting IncludeRigidAccessories
+directly), use [`HumanoidDescription:SetAccessories()`](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#SetAccessories) and
+[`HumanoidDescription:GetAccessories()`](https://create.roblox.com/docs/reference/engine/classes/HumanoidDescription#GetAccessories). These methods can also be
+enabled to work with rigid accessories by setting IncludeRigidAccessories
 parameters to true.

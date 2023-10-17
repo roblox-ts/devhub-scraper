@@ -1,0 +1,347 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Part0",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 12,
+                                    "offset": 11
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 14,
+                            "offset": 13
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 14,
+                            "offset": 13
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.WeldConstraint.Part1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " properties of a\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 63
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.WeldConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 63
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 85
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " set which two ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 85
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 38,
+                            "offset": 100
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 38,
+                            "offset": 100
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 54,
+                            "offset": 116
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " the weld connects.\nAs soon as both properties are set and the weld is\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 54,
+                            "offset": 116
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 187
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.WeldConstraint.Enabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 187
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 31,
+                            "offset": 217
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the weld will lock the two parts together.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 31,
+                            "offset": 217
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 75,
+                            "offset": 261
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 75,
+                    "offset": 261
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If Part0 or Part1 are ever set to new parts, then the WeldConstraint will\ninstantly link the new part. The old part will no longer be constrained.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 263
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 73,
+                            "offset": 409
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 263
+                },
+                "end": {
+                    "line": 7,
+                    "column": 73,
+                    "offset": 409
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local partA = Instance.new(\"Part\")\nlocal partB = Instance.new(\"Part\")\n\npartA.Position = Vector3.new(0, 10, 0)\npartA.Parent = game.Workspace\n\npartB.Position = Vector3.new(0, 10, 10)\npartB.Parent = game.Workspace\n\nlocal weld = Instance.new(\"WeldConstraint\")\nweld.Parent = partA\nweld.Part0 = partA\nweld.Part1 = partB\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 411
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 4,
+                            "offset": 735
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 411
+                },
+                "end": {
+                    "line": 23,
+                    "column": 4,
+                    "offset": 735
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

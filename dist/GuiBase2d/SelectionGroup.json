@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Toggling SelectionGroup on for a GUI allows customization of how gamepad\nselection can move between buttons, which are descendants of the\nSelectionGroup, leaves the group, and selects other buttons. Setting\nSelectionGroup to true exposes the SelectionBehaviorUp/Down/Left/ Right\nproperties, which can be set to ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 33,
+                            "offset": 311
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.SelectionBehavior.Escape"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 33,
+                            "offset": 311
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 64,
+                            "offset": 342
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 64,
+                            "offset": 342
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 346
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.SelectionBehavior.Stop"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 346
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 30,
+                            "offset": 375
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Escape is the default behavior. When set to\nEscape, the gamepad selection tries to first find a selection within the\nSelectionGroup and only moves outside if it does not find a suitable\nbutton. When set to Stop, gamepad selection only looks within the\nSelectionGroup and does not move outside of the group from the\nSelectionBehavior direction.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 30,
+                            "offset": 375
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 29,
+                            "offset": 720
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 11,
+                    "column": 29,
+                    "offset": 720
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

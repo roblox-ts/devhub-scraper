@@ -1,1 +1,1 @@
-A `BrickColor` version of [SelectionSphere.SurfaceColor3](https://create.roblox.com/docs/reference/engine/classes/SelectionSphere#SurfaceColor3).
+A `Datatype.BrickColor` version of [`SelectionSphere.SurfaceColor3`](https://create.roblox.com/docs/reference/engine/classes/SelectionSphere#SurfaceColor3).

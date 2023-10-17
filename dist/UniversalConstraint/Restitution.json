@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines the restitution of the two\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 52
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment|Attachments"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 52
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 82
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " connected by the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 82
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 100
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UniversalConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 100
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 28,
+                            "offset": 127
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when they reach the end of the range specified\nby ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 28,
+                            "offset": 127
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 4,
+                            "offset": 178
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UniversalConstraint.MaxAngle|MaxAngle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 4,
+                            "offset": 178
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 49,
+                            "offset": 223
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The value defaults to 0\nand can be any floating number in the range of 0 to 1. Only applies when\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 49,
+                            "offset": 223
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 322
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UniversalConstraint.LimitsEnabled|LimitsEnabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 322
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 56,
+                            "offset": 377
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to true.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 56,
+                            "offset": 377
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 72,
+                            "offset": 393
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 72,
+                    "offset": 393
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

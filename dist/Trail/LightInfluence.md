@@ -7,6 +7,6 @@ segments of the trail.
 
 See also:
 
-- [LightEmission](https://create.roblox.com/docs/reference/engine/classes/Trail#LightEmission), another Trail property related to
-  light
-- [Beam.LightEmission](https://create.roblox.com/docs/reference/engine/classes/Beam#LightEmission), an identical property used by [Beam](https://create.roblox.com/docs/reference/engine/classes/Beam)s
+- [`LightEmission`](https://create.roblox.com/docs/reference/engine/classes/Trail#LightEmission), another Trail property
+related to light
+- [`Beam.LightEmission`](https://create.roblox.com/docs/reference/engine/classes/Beam#LightEmission), an identical property used by [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam)s

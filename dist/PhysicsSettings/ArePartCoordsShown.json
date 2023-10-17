@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "An ancient property that hasn't worked correctly since late 2007. It's\nsupposed to render a large XYZ axis in the center of each\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 129
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 129
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 17,
+                            "offset": 145
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", but the axis rendering component doesn't work correctly.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 17,
+                            "offset": 145
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 75,
+                            "offset": 203
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 75,
+                    "offset": 203
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

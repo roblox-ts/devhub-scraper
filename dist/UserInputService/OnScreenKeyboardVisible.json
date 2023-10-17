@@ -1,0 +1,459 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property describes whether an on-screen keyboard is currently visible\non the user's screen.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 96
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 22,
+                    "offset": 96
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The code snippet below prints whether the keyboard is visible.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 98
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 63,
+                            "offset": 160
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 98
+                },
+                "end": {
+                    "line": 4,
+                    "column": 63,
+                    "offset": 160
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local userInputService = game:GetService(\"UserInputService\")\n\nlocal keyboardIsVisible = userInputService.OnScreenKeyboardIsVisible\nif (keyboardIsVisible) then\n\tprint(\"On-screen keyboard is visible!\")\nelse\n\tprint(\"On-screen keyboard is not visible!\")\nend\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 162
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 4,
+                            "offset": 426
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 162
+                },
+                "end": {
+                    "line": 15,
+                    "column": 4,
+                    "offset": 426
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "As ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 428
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 4,
+                            "offset": 431
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 4,
+                            "offset": 431
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 28,
+                            "offset": 455
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is client-side only, this property can only be\nused in a ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 28,
+                            "offset": 455
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 11,
+                            "offset": 513
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 11,
+                            "offset": 513
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 30,
+                            "offset": 532
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 30,
+                            "offset": 532
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 31,
+                            "offset": 533
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 428
+                },
+                "end": {
+                    "line": 18,
+                    "column": 31,
+                    "offset": 533
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/ClientKeyboard.png",
+                        "alt": "On screen keyboard"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 535
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 57,
+                            "offset": 591
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 535
+                },
+                "end": {
+                    "line": 20,
+                    "column": 57,
+                    "offset": 591
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 593
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 10,
+                            "offset": 602
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 593
+                },
+                "end": {
+                    "line": 22,
+                    "column": 10,
+                    "offset": 602
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.UserInputService.OnScreenKeyboardSize"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 3,
+                                    "offset": 606
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 48,
+                                    "offset": 651
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 604
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 48,
+                            "offset": 651
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.UserInputService.OnScreenKeyboardPosition"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 3,
+                                    "offset": 654
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 52,
+                                    "offset": 703
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 652
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 52,
+                            "offset": 703
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 24,
+                    "column": 1,
+                    "offset": 604
+                },
+                "end": {
+                    "line": 25,
+                    "column": 52,
+                    "offset": 703
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

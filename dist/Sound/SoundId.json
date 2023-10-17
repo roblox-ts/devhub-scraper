@@ -1,0 +1,257 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is the content ID of the sound file a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 66,
+                            "offset": 65
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object\nis associated with. Once a sound has been uploaded to Roblox the content\nID can be found in the uploaded sound's URL.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 66,
+                            "offset": 65
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 45,
+                            "offset": 190
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 45,
+                    "offset": 190
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "It's important to remember the URL is not the same as the content ID. It\nwill work when pasted directly into the SoundId property of a\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 192
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 327
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 327
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 340
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in Roblox studio, as Studio will automatically correct it,\nhowever if it is being set from a ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 340
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 35,
+                            "offset": 434
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 35,
+                            "offset": 434
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 49,
+                            "offset": 448
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " then the correct content\nID will need to be used, using the number from the URL. For example:",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 49,
+                            "offset": 448
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 69,
+                            "offset": 542
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 192
+                },
+                "end": {
+                    "line": 9,
+                    "column": 69,
+                    "offset": 542
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\"https://www.roblox.com/catalog/9120386436\" -- Web URL (will not work)\n\"http://www.roblox.com/asset/?id=9120386436\" -- Content ID (will work)\n\"rbxassetid://9120386436\" -- Content ID (alternative version, will work)\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 544
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 4,
+                            "offset": 769
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 544
+                },
+                "end": {
+                    "line": 15,
+                    "column": 4,
+                    "offset": 769
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

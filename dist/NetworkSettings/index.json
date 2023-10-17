@@ -1,0 +1,106 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "NetworkSettings is a settings class that allow you to debug a lot of features\nwith Roblox's server/client networking. It can be found in Roblox Studio's\nsettings, under the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 21,
+                            "offset": 173
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Network",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 23,
+                                    "offset": 175
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 30,
+                                    "offset": 182
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 21,
+                            "offset": 173
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 184
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " tab.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 184
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 189
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 37,
+                    "offset": 189
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

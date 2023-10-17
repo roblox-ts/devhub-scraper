@@ -1,3 +1,4 @@
-The maximum torque a [HingeConstraint](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint) with [HingeConstraint.ActuatorType](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint#ActuatorType)
-set to [Motor](https://developer.roblox.com/en-us/api-reference/enum/ActuatorType) can apply when trying to reach its
-desired [HingeConstraint.AngularVelocity](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint#AngularVelocity).
+The maximum torque a [`HingeConstraint`](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint) with
+[`ActuatorType`](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint#ActuatorType) set to
+`Enum.ActuatorType|Motor` can apply when trying to reach its desired
+[`AngularVelocity`](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint#AngularVelocity).

@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines the vertical alignment of the chat window. Behaves similarly to\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 75
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIGridStyleLayout.VerticalAlignment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 75
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 118
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Setting to ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 118
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 131
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Top"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 131
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 62,
+                            "offset": 136
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 62,
+                            "offset": 136
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 66,
+                            "offset": 140
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Bottom"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 66,
+                            "offset": 140
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 74,
+                            "offset": 148
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nadds a small padding away from touching the corresponding edge of the\nscreen. Setting to Center aligns the window in the vertical middle of the\nscreen. Default value is ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 74,
+                            "offset": 148
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 318
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Top"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 318
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 31,
+                            "offset": 323
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 31,
+                            "offset": 323
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 32,
+                            "offset": 324
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 32,
+                    "offset": 324
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

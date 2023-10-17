@@ -1,0 +1,803 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Character property contains a reference to a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 63,
+                            "offset": 62
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " containing\na ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 63,
+                            "offset": 62
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 3,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 3,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 19,
+                            "offset": 92
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", body parts, scripts and other objects required for\nsimulating the player's avatar in-game. The model is parented to the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 19,
+                            "offset": 92
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 214
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 214
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 18,
+                            "offset": 231
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", but may be moved. It is automatically loaded when\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 18,
+                            "offset": 231
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 283
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Players.CharacterAutoLoads"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 283
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 35,
+                            "offset": 317
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is true, but can be manually loaded\notherwise using ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 35,
+                            "offset": 317
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 17,
+                            "offset": 370
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player:LoadCharacter()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 17,
+                            "offset": 370
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 47,
+                            "offset": 400
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 47,
+                            "offset": 400
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 48,
+                            "offset": 401
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 48,
+                    "offset": 401
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Initially, this property is nil then set when the player's character first\nspawns. Use the ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 403
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 17,
+                            "offset": 494
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.CharacterAdded"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 17,
+                            "offset": 494
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 46,
+                            "offset": 523
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " event to detect when a\nplayer's character properly loads, and the\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 46,
+                            "offset": 523
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 590
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.CharacterRemoving"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 590
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 33,
+                            "offset": 622
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " event to detect when the character is\nabout to despawn. Avoid using ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 33,
+                            "offset": 622
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 31,
+                            "offset": 691
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance:GetPropertyChangedSignal()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 31,
+                            "offset": 691
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 74,
+                            "offset": 734
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\non this property.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 74,
+                            "offset": 734
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 18,
+                            "offset": 752
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 403
+                },
+                "end": {
+                    "line": 13,
+                    "column": 18,
+                    "offset": 752
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note: LocalScripts that are cloned from ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 754
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 41,
+                            "offset": 794
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 41,
+                            "offset": 794
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 59,
+                            "offset": 812
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 59,
+                            "offset": 812
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 816
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 816
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 20,
+                            "offset": 835
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " into a player's ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 20,
+                            "offset": 835
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 37,
+                            "offset": 852
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Backpack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 37,
+                            "offset": 852
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 53,
+                            "offset": 868
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 53,
+                            "offset": 868
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 57,
+                            "offset": 872
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PlayerGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 57,
+                            "offset": 872
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 74,
+                            "offset": 889
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nare often run before the old Character model is deleted. Player.Character\nstill refers to a model, but that model's parent is nil and it has been\ndestroyed. Because of this, if the Character already exists, you should\ncheck to make sure that the Character's parent is not nil before using it.",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 74,
+                            "offset": 889
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 75,
+                            "offset": 1182
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 754
+                },
+                "end": {
+                    "line": 20,
+                    "column": 75,
+                    "offset": 1182
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "So if you're writing a ",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 1184
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 24,
+                            "offset": 1207
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 24,
+                            "offset": 1207
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 43,
+                            "offset": 1226
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " under the ",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 43,
+                            "offset": 1226
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 54,
+                            "offset": 1237
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 54,
+                            "offset": 1237
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 72,
+                            "offset": 1255
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 72,
+                            "offset": 1255
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 1259
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 1259
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 20,
+                            "offset": 1278
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that requires access to the player's character, use\nthis:",
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 20,
+                            "offset": 1278
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 6,
+                            "offset": 1336
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 1184
+                },
+                "end": {
+                    "line": 24,
+                    "column": 6,
+                    "offset": 1336
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local Players = game:GetService(\"Players\")\nlocal player = Players.LocalPlayer\nlocal character = player.Character\nif not character or not character.Parent then\n    character = player.CharacterAdded:wait()\nend\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1338
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 4,
+                            "offset": 1556
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 26,
+                    "column": 1,
+                    "offset": 1338
+                },
+                "end": {
+                    "line": 33,
+                    "column": 4,
+                    "offset": 1556
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

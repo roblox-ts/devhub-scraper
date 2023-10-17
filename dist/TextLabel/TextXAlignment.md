@@ -6,6 +6,7 @@ left/right text bounds just touch the edge of the UI element rectangle.
 For Center, each line of text is centered on the very center of the UI
 element rectangle.
 
-This property is used in conjunction with [TextLabel.TextYAlignment](https://create.roblox.com/docs/reference/engine/classes/TextLabel#TextYAlignment) to
-fully determine text alignment on both axes. This property won't affect
-the read-only properties [TextLabel.TextBounds](https://create.roblox.com/docs/reference/engine/classes/TextLabel#TextBounds) and [TextLabel.TextFits](https://create.roblox.com/docs/reference/engine/classes/TextLabel#TextFits).
+This property is used in conjunction with [`TextLabel.TextYAlignment`](https://create.roblox.com/docs/reference/engine/classes/TextLabel#TextYAlignment)
+to fully determine text alignment on both axes. This property won't affect
+the read-only properties [`TextLabel.TextBounds`](https://create.roblox.com/docs/reference/engine/classes/TextLabel#TextBounds) and
+[`TextLabel.TextFits`](https://create.roblox.com/docs/reference/engine/classes/TextLabel#TextFits).

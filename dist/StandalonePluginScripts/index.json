@@ -1,0 +1,168 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "StandalonePluginScripts",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 26,
+                                    "offset": 25
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is a container of ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script|Scripts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 69,
+                            "offset": 68
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to be run\nin a standalone plugin ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 69,
+                            "offset": 68
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 102
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DataModel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 102
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 119
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when Roblox Studio starts (it is not\nuseful outside the context of plugins). When a place to be edited is loaded in\nRoblox Studio, scripts inside this container are not run.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 119
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 58,
+                            "offset": 293
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 58,
+                    "offset": 293
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

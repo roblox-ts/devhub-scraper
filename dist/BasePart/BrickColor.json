@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The BrickColor property determines the color of a part. If the part has a\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 74
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Material"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 74
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 99
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", this also determines the color used when\nrendering the material texture. For more control over the color, the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 99
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 211
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Color"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 211
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 23,
+                            "offset": 233
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property can be used (it is a Color3 variant of\nthis property). If Color set, this property will use the closest\nBrickColor.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 23,
+                            "offset": 233
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 12,
+                            "offset": 358
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 12,
+                    "offset": 358
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Other visual properties of a part are determined by\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 360
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 412
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Transparency"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 412
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 30,
+                            "offset": 441
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 30,
+                            "offset": 441
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 35,
+                            "offset": 446
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Reflectance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 35,
+                            "offset": 446
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 63,
+                            "offset": 474
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 63,
+                            "offset": 474
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 64,
+                            "offset": 475
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 360
+                },
+                "end": {
+                    "line": 9,
+                    "column": 64,
+                    "offset": 475
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

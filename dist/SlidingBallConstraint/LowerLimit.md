@@ -1,3 +1,3 @@
-The lower position limit along the x-axis of [Constraint.Attachment0](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0) for
-a [SlidingBallConstraint](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint) if [SlidingBallConstraint.LimitsEnabled](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint#LimitsEnabled) is
-true.
+The lower positional limit along the **X** axis of
+[`Attachment0`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0) if
+[`LimitsEnabled`](https://create.roblox.com/docs/reference/engine/classes/SlidingBallConstraint#LimitsEnabled) is true.

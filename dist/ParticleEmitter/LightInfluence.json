@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The LightInfluence property determines how much environment light affects\nthe color of individual particles when they render. It must be in the\nrange [0, 1]; behavior of values outside of this range are not defined. At\n0, particles are not influenced by light at all (they retain full\nbrightness), and at 1 particles are fully influenced by light (in complete\ndarkness, particles will be black).",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 36,
+                            "offset": 395
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 36,
+                    "offset": 395
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "By default, this value is 1 if inserted with Studio tools. If inserted\nusing ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 397
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 7,
+                            "offset": 474
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Instance.new()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 7,
+                            "offset": 474
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 32,
+                            "offset": 499
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", it is 0.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 32,
+                            "offset": 499
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 42,
+                            "offset": 509
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 397
+                },
+                "end": {
+                    "line": 9,
+                    "column": 42,
+                    "offset": 509
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

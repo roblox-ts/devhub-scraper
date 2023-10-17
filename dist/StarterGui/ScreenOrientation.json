@@ -1,0 +1,710 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property sets the preferred orientation mode for users with mobile\ndevices. For the different modes available, see ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 49,
+                            "offset": 120
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ScreenOrientation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 49,
+                            "offset": 120
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 73,
+                            "offset": 144
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 73,
+                            "offset": 144
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 74,
+                            "offset": 145
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 74,
+                    "offset": 145
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 147
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 8,
+                            "offset": 154
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 8,
+                            "offset": 154
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 168
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " joins the game, if they are using a mobile device,\nthis property will determine the device's starting orientation.\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 168
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 284
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PlayerGui.ScreenOrientation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 284
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 36,
+                            "offset": 319
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will be set to this value for\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 36,
+                            "offset": 319
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 350
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player|Players"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 350
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 23,
+                            "offset": 372
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " joining the game. For example, the following code\nwould set the default to ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 23,
+                            "offset": 372
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 26,
+                            "offset": 448
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "'Portrait'",
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 27,
+                                    "offset": 449
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 37,
+                                    "offset": 459
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 26,
+                            "offset": 448
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 38,
+                            "offset": 460
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ":",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 38,
+                            "offset": 460
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 39,
+                            "offset": 461
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 147
+                },
+                "end": {
+                    "line": 8,
+                    "column": 39,
+                    "offset": 461
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "game:GetService(\"StarterGui\").ScreenOrientation = Enum.ScreenOrientation.Portrait\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 463
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 4,
+                            "offset": 555
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 463
+                },
+                "end": {
+                    "line": 12,
+                    "column": 4,
+                    "offset": 555
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "By default, this property is set to ",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 557
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 37,
+                            "offset": 593
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "'LandscapeSensor'",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 38,
+                                    "offset": 594
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 55,
+                                    "offset": 611
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 37,
+                            "offset": 593
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 56,
+                            "offset": 612
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", meaning the\nviewport will rotate so it is always right-side-up in landscape.",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 56,
+                            "offset": 612
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 65,
+                            "offset": 690
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 557
+                },
+                "end": {
+                    "line": 15,
+                    "column": 65,
+                    "offset": 690
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Changing this property will not change the ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 692
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 44,
+                            "offset": 735
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ScreenOrientation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 44,
+                            "offset": 735
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 68,
+                            "offset": 759
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for\n",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 68,
+                            "offset": 759
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 764
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player|Players"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 764
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 23,
+                            "offset": 786
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " already in the game. To change the orientation for\nan existing player use their ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 23,
+                            "offset": 786
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 30,
+                            "offset": 867
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PlayerGui.ScreenOrientation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 30,
+                            "offset": 867
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 65,
+                            "offset": 902
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property.",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 65,
+                            "offset": 902
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 75,
+                            "offset": 912
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 692
+                },
+                "end": {
+                    "line": 19,
+                    "column": 75,
+                    "offset": 912
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "You can also get the current screen orientation for a user's device using\n",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 914
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 988
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PlayerGui.CurrentScreenOrientation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 988
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 43,
+                            "offset": 1030
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This is useful when using the\n'sensor' ",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 43,
+                            "offset": 1030
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 10,
+                            "offset": 1071
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ScreenOrientation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 10,
+                            "offset": 1071
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 34,
+                            "offset": 1095
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " settings.",
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 34,
+                            "offset": 1095
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 44,
+                            "offset": 1105
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 21,
+                    "column": 1,
+                    "offset": 914
+                },
+                "end": {
+                    "line": 23,
+                    "column": 44,
+                    "offset": 1105
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

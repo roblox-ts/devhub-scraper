@@ -1,0 +1,954 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A KeyframeMarker is an instance meant to represent an event that will\neventually be fired when a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 28,
+                            "offset": 97
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Keyframe"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 28,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 113
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is hit.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 113
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 121
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 52,
+                    "offset": 121
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Using a KeyframeMarker",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 4,
+                            "offset": 126
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 26,
+                            "offset": 148
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 123
+                },
+                "end": {
+                    "line": 4,
+                    "column": 26,
+                    "offset": 148
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "KeyframeMarkers should always be parented to a Keyframe via setting the parent\ndirectly or using the ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 150
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 23,
+                            "offset": 251
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Keyframe:AddMarker()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 23,
+                            "offset": 251
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 51,
+                            "offset": 279
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " function of Keyframe.\nKeyframeMarkers can also be removed directly or using the\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 51,
+                            "offset": 279
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 360
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Keyframe:RemoveMarker()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 360
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 32,
+                            "offset": 391
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " function, and polled to check which markers\nare attached to a specific Keyframe using ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 32,
+                            "offset": 391
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 43,
+                            "offset": 478
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Keyframe:GetMarkers()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 43,
+                            "offset": 478
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 72,
+                            "offset": 507
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 72,
+                            "offset": 507
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 73,
+                            "offset": 508
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 150
+                },
+                "end": {
+                    "line": 10,
+                    "column": 73,
+                    "offset": 508
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Whenever a Keyframe is detected as an animation is running, there will be an\nevent fired for each KeyframeMarker that is parented to the Keyframe. These\nevents are identifiable by the name of the KeyframeMarker. You can retrieve\nand listen to these events using the\n",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 510
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 776
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack.GetKeyframeMarkerReached"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 776
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 48,
+                            "offset": 823
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " function. Optionally, you may\nset the ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 48,
+                            "offset": 823
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 9,
+                            "offset": 862
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.KeyframeMarker.Value"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 9,
+                            "offset": 862
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 37,
+                            "offset": 890
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property of the KeyframeMarker in order\nto pass along a value with the event being fired.",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 37,
+                            "offset": 890
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 50,
+                            "offset": 980
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 510
+                },
+                "end": {
+                    "line": 18,
+                    "column": 50,
+                    "offset": 980
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "It inherits the ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 982
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 17,
+                            "offset": 998
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance.Name|Keyframe.Name"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 17,
+                            "offset": 998
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 52,
+                            "offset": 1033
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property from\n",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 52,
+                            "offset": 1033
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 1048
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 1048
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 17,
+                            "offset": 1064
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and behaves identically. Names are used for identification\nand no not need to be unique. When multiple KeyFrameMarkers with the same name\nare attached to a KeyFrame, events such as the one returned by\n",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 17,
+                            "offset": 1064
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1266
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack:GetMarkerReachedSignal()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1266
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 48,
+                            "offset": 1313
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will fire for every marker.",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 48,
+                            "offset": 1313
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 76,
+                            "offset": 1341
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 982
+                },
+                "end": {
+                    "line": 24,
+                    "column": 76,
+                    "offset": 1341
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1343
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 10,
+                            "offset": 1352
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 26,
+                    "column": 1,
+                    "offset": 1343
+                },
+                "end": {
+                    "line": 26,
+                    "column": 10,
+                    "offset": 1352
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Keyframe"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 28,
+                                    "column": 3,
+                                    "offset": 1356
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "column": 19,
+                                    "offset": 1372
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", holds the ",
+                            "position": {
+                                "start": {
+                                    "line": 28,
+                                    "column": 19,
+                                    "offset": 1372
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "column": 31,
+                                    "offset": 1384
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Pose|Poses"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 28,
+                                    "column": 31,
+                                    "offset": 1384
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "column": 49,
+                                    "offset": 1402
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " applied to joints in a\n",
+                            "position": {
+                                "start": {
+                                    "line": 28,
+                                    "column": 49,
+                                    "offset": 1402
+                                },
+                                "end": {
+                                    "line": 29,
+                                    "column": 1,
+                                    "offset": 1426
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Model"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 29,
+                                    "column": 3,
+                                    "offset": 1428
+                                },
+                                "end": {
+                                    "line": 29,
+                                    "column": 16,
+                                    "offset": 1441
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " at a given point of time in an animation",
+                            "position": {
+                                "start": {
+                                    "line": 29,
+                                    "column": 16,
+                                    "offset": 1441
+                                },
+                                "end": {
+                                    "line": 29,
+                                    "column": 57,
+                                    "offset": 1482
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 1,
+                            "offset": 1354
+                        },
+                        "end": {
+                            "line": 29,
+                            "column": 57,
+                            "offset": 1482
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.AnimationTrack"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 3,
+                                    "offset": 1485
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "column": 25,
+                                    "offset": 1507
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", controls the playback of an animation on a\n",
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 25,
+                                    "offset": 1507
+                                },
+                                "end": {
+                                    "line": 31,
+                                    "column": 1,
+                                    "offset": 1552
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Humanoid"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 31,
+                                    "column": 3,
+                                    "offset": 1554
+                                },
+                                "end": {
+                                    "line": 31,
+                                    "column": 19,
+                                    "offset": 1570
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " or ",
+                            "position": {
+                                "start": {
+                                    "line": 31,
+                                    "column": 19,
+                                    "offset": 1570
+                                },
+                                "end": {
+                                    "line": 31,
+                                    "column": 23,
+                                    "offset": 1574
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.AnimationController"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 31,
+                                    "column": 23,
+                                    "offset": 1574
+                                },
+                                "end": {
+                                    "line": 31,
+                                    "column": 50,
+                                    "offset": 1601
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 1,
+                            "offset": 1483
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 50,
+                            "offset": 1601
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Animation"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 32,
+                                    "column": 3,
+                                    "offset": 1604
+                                },
+                                "end": {
+                                    "line": 32,
+                                    "column": 20,
+                                    "offset": 1621
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", holds a reference to animation data required to play\ncustom animations on characters or other models using the Roblox animation\nsystem",
+                            "position": {
+                                "start": {
+                                    "line": 32,
+                                    "column": 20,
+                                    "offset": 1621
+                                },
+                                "end": {
+                                    "line": 34,
+                                    "column": 9,
+                                    "offset": 1761
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1602
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 9,
+                            "offset": 1761
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 28,
+                    "column": 1,
+                    "offset": 1354
+                },
+                "end": {
+                    "line": 34,
+                    "column": 9,
+                    "offset": 1761
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

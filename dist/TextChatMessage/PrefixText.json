@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A prefix to add to a user's message. This supports Rich Text, so\ndevelopers can set custom properties for this text to support chat tags.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 73,
+                            "offset": 137
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 73,
+                    "offset": 137
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "By default, ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 139
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 13,
+                            "offset": 151
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatMessage.PrefixText"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 13,
+                            "offset": 151
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 47,
+                            "offset": 185
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is the name of the\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 47,
+                            "offset": 185
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 205
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextSource"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 205
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 19,
+                            "offset": 223
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which is the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 19,
+                            "offset": 223
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 34,
+                            "offset": 238
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.DisplayName"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 34,
+                            "offset": 238
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 60,
+                            "offset": 264
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the user\nassociated with the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 60,
+                            "offset": 264
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 21,
+                            "offset": 297
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextSource"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 21,
+                            "offset": 297
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 39,
+                            "offset": 315
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " via ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 39,
+                            "offset": 315
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 44,
+                            "offset": 320
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextSource.UserId"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 44,
+                            "offset": 320
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 69,
+                            "offset": 345
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 69,
+                            "offset": 345
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 70,
+                            "offset": 346
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 139
+                },
+                "end": {
+                    "line": 6,
+                    "column": 70,
+                    "offset": 346
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

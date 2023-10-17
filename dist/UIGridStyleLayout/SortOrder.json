@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The SortOrder property determines the next UI element to be placed in a\nlayout. For Name, a simple alphabetic sort is used on the Name property of\nthe child UI elements. For LayoutOrder, a low-to-high sort is used on the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 221
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.LayoutOrder"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 221
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 250
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property of child UI elements. If two share\nthe same ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 250
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 304
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.LayoutOrder"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 304
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 333
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", whichever was added sooner to the\nparent object takes precedence. An easy way to reverse the sorting order\nis to negate LayoutOrder.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 333
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 26,
+                            "offset": 467
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 7,
+                    "column": 26,
+                    "offset": 467
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

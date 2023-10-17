@@ -1,5 +1,5 @@
-This property determines a [GUI's](https://create.roblox.com/docs/reference/engine/classes/GuiObject) scalar and pixel size using a
-`UDim2`. Its value can be expressed as
+This property determines a [`GUI's`](https://create.roblox.com/docs/reference/engine/classes/GuiObject) scalar and pixel size
+using a `Datatype.UDim2`. Its value can be expressed as
 `UDim2.new(ScalarX, PixelX, ScalarY, PixelY)` or
 `({ScalarX, PixelX}, {ScalarY, PixelY})`.
 
@@ -12,17 +12,17 @@ scalar size will render to be half the scalar size of its parent both
 horizontally and vertically and will occupy a quarter of the screen in
 both dimensions.
 
-The pixel portions of the `UDim2` value are the same regardless of the
-parent GUI's size. The values represent the size of the object in pixels.
-For example, if Position is set to `{0, 100}, {0, 150}` the element will
-render with a width of 100 pixels and height of 150 pixels.
+The pixel portions of the `Datatype.UDim2` value are the same regardless
+of the parent GUI's size. The values represent the size of the object in
+pixels. For example, if Position is set to `{0, 100}, {0, 150}` the
+element will render with a width of 100 pixels and height of 150 pixels.
 
 If the GUI has a parent, its size of each axis is also influenced by the
-parent's [SizeConstraint](https://create.roblox.com/docs/reference/engine/classes/GuiObject#SizeConstraint).
+parent's [`SizeConstraint`](https://create.roblox.com/docs/reference/engine/classes/GuiObject#SizeConstraint).
 
 Using negative sizes may result in undefined behavior in some cases, such
-as with [UIConstraint](https://create.roblox.com/docs/reference/engine/classes/UIConstraint). It is preferrable to change
-[AnchorPoint](https://create.roblox.com/docs/reference/engine/classes/GuiObject#AnchorPoint) instead of using negative sizes.
+as with [`UIConstraint`](https://create.roblox.com/docs/reference/engine/classes/UIConstraint). It is preferrable to change
+[`AnchorPoint`](https://create.roblox.com/docs/reference/engine/classes/GuiObject#AnchorPoint) instead of using negative sizes.
 
 An object's actual pixel size can be read from the
-[GuiBase2d.AbsoluteSize](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#AbsoluteSize) property.
+[`GuiBase2d.AbsoluteSize`](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#AbsoluteSize) property.

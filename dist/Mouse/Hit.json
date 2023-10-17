@@ -1,0 +1,888 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property indicates ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 25,
+                            "offset": 24
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 25,
+                            "offset": 24
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the mouse's position in 3D\nspace. Note that ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 89
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse.TargetFilter"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 89
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 115
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and its descendants will be\nignored.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 115
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 9,
+                            "offset": 152
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 9,
+                    "offset": 152
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Developers can get obtain the position of Hit like so:",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 154
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 55,
+                            "offset": 208
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 154
+                },
+                "end": {
+                    "line": 5,
+                    "column": 55,
+                    "offset": 208
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local position = mouse.Hit.p\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 210
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 4,
+                            "offset": 246
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 210
+                },
+                "end": {
+                    "line": 9,
+                    "column": 4,
+                    "offset": 246
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Hit is often used by ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 248
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 22,
+                            "offset": 269
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 22,
+                            "offset": 269
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 34,
+                            "offset": 281
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s to fire a weapon towards the mouse in\nthird person.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 34,
+                            "offset": 281
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 14,
+                            "offset": 334
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 248
+                },
+                "end": {
+                    "line": 12,
+                    "column": 14,
+                    "offset": 334
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Developers looking for the ",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 336
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 28,
+                            "offset": 363
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 28,
+                            "offset": 363
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 44,
+                            "offset": 379
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " the mouse is pointing at\nshould use ",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 44,
+                            "offset": 379
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 12,
+                            "offset": 416
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse.Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 12,
+                            "offset": 416
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 32,
+                            "offset": 436
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 32,
+                            "offset": 436
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 33,
+                            "offset": 437
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 336
+                },
+                "end": {
+                    "line": 15,
+                    "column": 33,
+                    "offset": 437
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How is Mouse.Hit calculated?",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 6,
+                            "offset": 444
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 34,
+                            "offset": 472
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 439
+                },
+                "end": {
+                    "line": 17,
+                    "column": 34,
+                    "offset": 472
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The position of the Hit CFrame is calculated as the point of intersection\nbetween the mouse's internal ",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 474
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 30,
+                            "offset": 577
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Ray"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 30,
+                            "offset": 577
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 44,
+                            "offset": 591
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " (an extended version of\n",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 44,
+                            "offset": 591
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 616
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse.UnitRay"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 616
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 22,
+                            "offset": 637
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") and an object in 3D space (such as a part).",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 22,
+                            "offset": 637
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 67,
+                            "offset": 682
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 19,
+                    "column": 1,
+                    "offset": 474
+                },
+                "end": {
+                    "line": 21,
+                    "column": 67,
+                    "offset": 682
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The orientation of the Hit CFrame corresponds with the direction of the\n",
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 684
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 756
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse.UnitRay"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 756
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 22,
+                            "offset": 777
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 22,
+                            "offset": 777
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 23,
+                            "offset": 778
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 23,
+                    "column": 1,
+                    "offset": 684
+                },
+                "end": {
+                    "line": 24,
+                    "column": 23,
+                    "offset": 778
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local unitRayDirection = mouse.UnitRay.Direction\nlocal mouseHitDirection = mouse.Hit.lookVector\n-- unitRayDirection ≈ mouseHitDirection\n-- the vectors are approximately equal\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 780
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 4,
+                            "offset": 962
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 26,
+                    "column": 1,
+                    "offset": 780
+                },
+                "end": {
+                    "line": 31,
+                    "column": 4,
+                    "offset": 962
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note, the roll of the ",
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 1,
+                            "offset": 964
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 23,
+                            "offset": 986
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace.CurrentCamera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 23,
+                            "offset": 986
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 54,
+                            "offset": 1017
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is not used when\ncalculating the orientation of the Hit ",
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 54,
+                            "offset": 1017
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 40,
+                            "offset": 1074
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 34,
+                            "column": 40,
+                            "offset": 1074
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 57,
+                            "offset": 1091
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 34,
+                            "column": 57,
+                            "offset": 1091
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 58,
+                            "offset": 1092
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 33,
+                    "column": 1,
+                    "offset": 964
+                },
+                "end": {
+                    "line": 34,
+                    "column": 58,
+                    "offset": 1092
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The mouse's internal ray extends for 1000 studs. If the mouse is not\npointing at an object in 3D space (for example when pointing at the sky),\nthis property will be 1000 studs away from the\n",
+                    "position": {
+                        "start": {
+                            "line": 36,
+                            "column": 1,
+                            "offset": 1094
+                        },
+                        "end": {
+                            "line": 39,
+                            "column": 1,
+                            "offset": 1284
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace.CurrentCamera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 39,
+                            "column": 1,
+                            "offset": 1284
+                        },
+                        "end": {
+                            "line": 39,
+                            "column": 32,
+                            "offset": 1315
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 39,
+                            "column": 32,
+                            "offset": 1315
+                        },
+                        "end": {
+                            "line": 39,
+                            "column": 33,
+                            "offset": 1316
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 36,
+                    "column": 1,
+                    "offset": 1094
+                },
+                "end": {
+                    "line": 39,
+                    "column": 33,
+                    "offset": 1316
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

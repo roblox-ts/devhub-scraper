@@ -1,0 +1,367 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Sets whether or not the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 25,
+                            "offset": 24
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 25,
+                            "offset": 24
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 46,
+                            "offset": 45
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is enabled. When disabled\nplayers cannot spawn at the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 46,
+                            "offset": 45
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 100
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 100
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 50,
+                            "offset": 121
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 50,
+                            "offset": 121
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 130
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation.AllowTeamChangeOnTouch"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 130
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 45,
+                            "offset": 174
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " functionality is disabled.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 45,
+                            "offset": 174
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 72,
+                            "offset": 201
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 72,
+                    "offset": 201
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property provides the most convenient way of preventing\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 203
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 264
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 264
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 15,
+                            "offset": 278
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s from spawning at a spawn.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 15,
+                            "offset": 278
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 42,
+                            "offset": 305
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 203
+                },
+                "end": {
+                    "line": 6,
+                    "column": 42,
+                    "offset": 305
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note, although team changing on touch using\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 307
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 351
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation.AllowTeamChangeOnTouch"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 351
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 45,
+                            "offset": 395
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is disabled when Enabled is\nset to false, other touched events using ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 45,
+                            "offset": 395
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 42,
+                            "offset": 465
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Touched"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 42,
+                            "offset": 465
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 66,
+                            "offset": 489
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will\nstill fire.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 66,
+                            "offset": 489
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 12,
+                            "offset": 506
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 307
+                },
+                "end": {
+                    "line": 11,
+                    "column": 12,
+                    "offset": 506
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

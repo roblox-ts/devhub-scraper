@@ -1,0 +1,598 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The DevTouchMovementMode property determines the manner in which a player\nmoves their character when using a\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 109
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService.TouchEnabled|TouchEnabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 109
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 51,
+                            "offset": 159
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " device. See\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 51,
+                            "offset": 159
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 172
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.DevTouchMovementMode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 172
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 28,
+                            "offset": 199
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for a description of each movement control\nmode available. This property cannot be set using a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 28,
+                            "offset": 199
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 295
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 295
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 72,
+                            "offset": 314
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n(it must be set on the server using a ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 72,
+                            "offset": 314
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 39,
+                            "offset": 353
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 39,
+                            "offset": 353
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 53,
+                            "offset": 367
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ").",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 53,
+                            "offset": 367
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 55,
+                            "offset": 369
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 55,
+                    "offset": 369
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The default value of this property is determined by\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 371
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 423
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPlayer.DevTouchMovementMode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 423
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 43,
+                            "offset": 465
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 43,
+                            "offset": 465
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 44,
+                            "offset": 466
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 371
+                },
+                "end": {
+                    "line": 9,
+                    "column": 44,
+                    "offset": 466
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When set to ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 468
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 13,
+                            "offset": 480
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "UserChoice",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 15,
+                                    "offset": 482
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 25,
+                                    "offset": 492
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 13,
+                            "offset": 480
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 27,
+                            "offset": 494
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", a player can choose between any control mode\n(except ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 27,
+                            "offset": 494
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 9,
+                            "offset": 549
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Scriptable",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 11,
+                                    "offset": 551
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 21,
+                                    "offset": 561
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 9,
+                            "offset": 549
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 23,
+                            "offset": 563
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") in the Roblox game settings. In general, it's a\ngood idea to allow players to choose their control mode to maximize\naccessibility.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 23,
+                            "offset": 563
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 15,
+                            "offset": 695
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 468
+                },
+                "end": {
+                    "line": 14,
+                    "column": 15,
+                    "offset": 695
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "It's possible to create a custom control scheme by setting this property\nto ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 697
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 4,
+                            "offset": 773
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Scriptable",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 6,
+                                    "offset": 775
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 16,
+                                    "offset": 785
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 4,
+                            "offset": 773
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 18,
+                            "offset": 787
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 18,
+                            "offset": 787
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 19,
+                            "offset": 788
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 697
+                },
+                "end": {
+                    "line": 17,
+                    "column": 19,
+                    "offset": 788
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property doesn't affect players who aren't using a touch-enabled\ndevice. See ",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 790
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 13,
+                            "offset": 872
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.DevComputerMovementMode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 13,
+                            "offset": 872
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 51,
+                            "offset": 910
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " instead.",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 51,
+                            "offset": 910
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 60,
+                            "offset": 919
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 19,
+                    "column": 1,
+                    "offset": 790
+                },
+                "end": {
+                    "line": 20,
+                    "column": 60,
+                    "offset": 919
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

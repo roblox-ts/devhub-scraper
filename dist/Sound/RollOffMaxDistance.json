@@ -1,0 +1,328 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The maximum distance, in studs, a client's listener can be from the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 68
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound|Sound's"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 68
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 89
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " origin and still hear it. Only applies to Sounds\nparented to a ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 89
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 153
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Part"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 153
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 27,
+                            "offset": 165
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 27,
+                            "offset": 165
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 169
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 169
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 187
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " (3D sounds).",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 187
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 62,
+                            "offset": 200
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 62,
+                    "offset": 200
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How RollOffMaxDistance impacts the attenuation of a sound (manner in which\nit fades out) is dependent on the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 202
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 35,
+                            "offset": 311
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound.RollOffMode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 35,
+                            "offset": 311
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 60,
+                            "offset": 336
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property. When\nRollOffMode is set to use an inverse type distance model (Inverse or\nInverseTapered) the RollOffMaxDistance will not effect the attenuation of\nthe sound. This means that low values for RollOffMaxDistance will cause\nthe sound to abruptly cut off when the listener reaches the\nRollOffMaxDistance. In most cases this is not desirable and developers are\nadvised not to use low RollOffMaxDistance values.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 60,
+                            "offset": 336
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 50,
+                            "offset": 751
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 202
+                },
+                "end": {
+                    "line": 12,
+                    "column": 50,
+                    "offset": 751
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When RollOffMode is set to a linear type distance model (Linear or\nLinearSquared) the sound will attenuate between ",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 753
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 49,
+                            "offset": 868
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound.EmitterSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 49,
+                            "offset": 868
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 74,
+                            "offset": 893
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nand MaxDistance (with playback volume reaching zero at\nRollOffMaxDistance). This is less realistic, but in some cases allows\nattenuation to be handled in a more intuitive way.",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 74,
+                            "offset": 893
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 51,
+                            "offset": 1069
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 753
+                },
+                "end": {
+                    "line": 18,
+                    "column": 51,
+                    "offset": 1069
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

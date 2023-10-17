@@ -9,10 +9,10 @@ sunset, foggy afternoon, and more.
 
 See also:
 
-- [Atmospheric Effects](/building-and-visuals/lighting-and-effects/atmospheric-effects)
-  for property comparisons and example environments.
-- [Skybox](/building-and-visuals/lighting-and-effects/skybox) for how to
-  change the default skybox for games and customize the lighting.
-- [Post-Processing Effects](/building-and-visuals/lighting-and-effects/post-processing-effects)
-  for how post-processing effects can quickly improve a game's visuals with a
-  variety of customizable filters.
+- [Atmospheric Effects](https://create.roblox.com/docs/environment/atmosphere) for property
+comparisons and example environments.
+- [Skybox](https://create.roblox.com/docs/environment/skybox) for how to change the default
+skybox for games and customize the lighting.
+- [Post-Processing Effects](https://create.roblox.com/docs/environment/post-processing-effects)
+for how post-processing effects can quickly improve a game's visuals with a
+variety of customizable filters.

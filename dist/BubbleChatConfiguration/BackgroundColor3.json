@@ -1,0 +1,117 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Color3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 18,
+                            "offset": 17
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " background color of bubbles. Default is\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 18,
+                            "offset": 17
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 58
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Color3|Color3.fromRGB(250, 250, 250)"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 58
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 48,
+                            "offset": 105
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 48,
+                            "offset": 105
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 49,
+                            "offset": 106
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 49,
+                    "offset": 106
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

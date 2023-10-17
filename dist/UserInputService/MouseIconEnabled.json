@@ -1,0 +1,374 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines whether the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 38,
+                            "offset": 37
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 38,
+                            "offset": 37
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " icon is visible When\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 72
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "true"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 72
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 7,
+                            "offset": 78
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " the mouse's icon is visible, when ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 7,
+                            "offset": 78
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 113
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "false"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 113
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 49,
+                            "offset": 120
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " it is not.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 49,
+                            "offset": 120
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 60,
+                            "offset": 131
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 60,
+                    "offset": 131
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For example, the code snippet below hides the mouse's icon.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 133
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 60,
+                            "offset": 192
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 133
+                },
+                "end": {
+                    "line": 4,
+                    "column": 60,
+                    "offset": 192
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local userInputService = game:GetService(\"UserInputService\")\n\nuserInputService.MouseIconEnabled = false\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 194
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 4,
+                            "offset": 308
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 194
+                },
+                "end": {
+                    "line": 10,
+                    "column": 4,
+                    "offset": 308
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "As ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 310
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 4,
+                            "offset": 313
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 4,
+                            "offset": 313
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 28,
+                            "offset": 337
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is client-side only, this property can only be\nused in a ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 28,
+                            "offset": 337
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 11,
+                            "offset": 395
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 11,
+                            "offset": 395
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 30,
+                            "offset": 414
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 30,
+                            "offset": 414
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 31,
+                            "offset": 415
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 310
+                },
+                "end": {
+                    "line": 13,
+                    "column": 31,
+                    "offset": 415
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

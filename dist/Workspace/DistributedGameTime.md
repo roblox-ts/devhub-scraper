@@ -11,11 +11,10 @@ property will be synchronized across clients and the server in the future.
 Those looking for the time since the program started running should use
 the 'time' function instead. See below for a comparison between
 DistributedGameTime and its alternatives.
-
-```
-print(workspace.DistributedGameTime) --> Time the game started running
-print(os.time()) --> Time since epoch (1 January 1970, 00:00:00) UTC
-print(tick()) --> Time since epoch (1 January 1970, 00:00:00) system time
-print(time()) --> Time the game started running
-print(elapsedTime()) --> Time since Roblox started running
+```lua
+print(workspace.DistributedGameTime)  --> Time the game started running
+print(os.time())  --> Time since epoch (1 January 1970, 00:00:00) UTC
+print(tick())  --> Time since epoch (1 January 1970, 00:00:00) system time
+print(time())  --> Time the game started running
+print(elapsedTime())  --> Time since Roblox started running
 ```

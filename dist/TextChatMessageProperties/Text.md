@@ -1,1 +1,1 @@
-The `TextChatMessage.Text` to override.
+The [`TextChatMessage.Text`](https://create.roblox.com/docs/reference/engine/classes/TextChatMessage#Text) to override.

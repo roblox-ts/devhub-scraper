@@ -1,0 +1,973 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Range in seconds denoting a desired start time (minimum) and stop time\n(maximum) within the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 92
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.TimeLength|TimeLength"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 92
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 63,
+                            "offset": 133
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 63,
+                            "offset": 133
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 64,
+                            "offset": 134
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 64,
+                    "offset": 134
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 136
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 8,
+                            "offset": 143
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.PlaybackRegion|PlaybackRegion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 8,
+                            "offset": 143
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 192
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " minimum is\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 192
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 204
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "greater",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 3,
+                                    "offset": 206
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 10,
+                                    "offset": 213
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 204
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 12,
+                            "offset": 215
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " than 0, the sound begins playing from the\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 12,
+                            "offset": 215
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 258
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.PlaybackRegion|PlaybackRegion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 258
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 50,
+                            "offset": 307
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " minimum time.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 50,
+                            "offset": 307
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 64,
+                            "offset": 321
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 136
+                },
+                "end": {
+                    "line": 6,
+                    "column": 64,
+                    "offset": 321
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If the ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 323
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 8,
+                            "offset": 330
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.PlaybackRegion|PlaybackRegion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 8,
+                            "offset": 330
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 57,
+                            "offset": 379
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " minimum is\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 57,
+                            "offset": 379
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 391
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "less",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 3,
+                                    "offset": 393
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 7,
+                                    "offset": 397
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 391
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 9,
+                            "offset": 399
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " than 0, the sound begins playing from 0.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 9,
+                            "offset": 399
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 50,
+                            "offset": 440
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 323
+                },
+                "end": {
+                    "line": 9,
+                    "column": 50,
+                    "offset": 440
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If the ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 442
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 8,
+                            "offset": 449
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.PlaybackRegion|PlaybackRegion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 8,
+                            "offset": 449
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 57,
+                            "offset": 498
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " maximum is\n",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 57,
+                            "offset": 498
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 510
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "greater",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 3,
+                                    "offset": 512
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 10,
+                                    "offset": 519
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 510
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 12,
+                            "offset": 521
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " than the ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 12,
+                            "offset": 521
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 22,
+                            "offset": 531
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.TimeLength|TimeLength"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 22,
+                            "offset": 531
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 63,
+                            "offset": 572
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the sound\nstops at ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 63,
+                            "offset": 572
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 10,
+                            "offset": 593
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.TimeLength|TimeLength"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 10,
+                            "offset": 593
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 51,
+                            "offset": 634
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 51,
+                            "offset": 634
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 52,
+                            "offset": 635
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 442
+                },
+                "end": {
+                    "line": 13,
+                    "column": 52,
+                    "offset": 635
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If the ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 637
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 8,
+                            "offset": 644
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.PlaybackRegion|PlaybackRegion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 8,
+                            "offset": 644
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 57,
+                            "offset": 693
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " maximum is\n",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 57,
+                            "offset": 693
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 705
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "less",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 3,
+                                    "offset": 707
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 7,
+                                    "offset": 711
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 705
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 9,
+                            "offset": 713
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " than the ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 9,
+                            "offset": 713
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 19,
+                            "offset": 723
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.TimeLength|TimeLength"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 19,
+                            "offset": 723
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 60,
+                            "offset": 764
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the sound\nstops at exactly the ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 60,
+                            "offset": 764
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 22,
+                            "offset": 797
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.PlaybackRegion|PlaybackRegion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 22,
+                            "offset": 797
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 71,
+                            "offset": 846
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nmaximum.",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 71,
+                            "offset": 846
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 9,
+                            "offset": 855
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 637
+                },
+                "end": {
+                    "line": 18,
+                    "column": 9,
+                    "offset": 855
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If the ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 857
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 8,
+                            "offset": 864
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.PlaybackRegion|PlaybackRegion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 8,
+                            "offset": 864
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 57,
+                            "offset": 913
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " minimum\n",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 57,
+                            "offset": 913
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 922
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "equals",
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 3,
+                                    "offset": 924
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 9,
+                                    "offset": 930
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 922
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 11,
+                            "offset": 932
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " the ",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 11,
+                            "offset": 932
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 16,
+                            "offset": 937
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.PlaybackRegion|PlaybackRegion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 16,
+                            "offset": 937
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 65,
+                            "offset": 986
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " maximum,\nthe sound plays in its entirety.",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 65,
+                            "offset": 986
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 33,
+                            "offset": 1028
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 857
+                },
+                "end": {
+                    "line": 22,
+                    "column": 33,
+                    "offset": 1028
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,430 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The CanLoadCharacterAppearance ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 46,
+                            "offset": 45
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property determines whether\nthe character's appearance will be loaded when the player spawns. The\ndefault value of this property is set by\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 46,
+                            "offset": 45
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 185
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPlayer.LoadPlayerAppearance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 185
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 227
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 227
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 44,
+                            "offset": 228
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 44,
+                    "offset": 228
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 230
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 4,
+                            "offset": 233
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "true",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 5,
+                                    "offset": 234
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 9,
+                                    "offset": 238
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 4,
+                            "offset": 233
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 10,
+                            "offset": 239
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the character will load the appearance of the player\ncorresponding to the player's ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 10,
+                            "offset": 239
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 31,
+                            "offset": 324
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.CharacterAppearanceId"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 31,
+                            "offset": 324
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 67,
+                            "offset": 360
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 67,
+                            "offset": 360
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 68,
+                            "offset": 361
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 230
+                },
+                "end": {
+                    "line": 7,
+                    "column": 68,
+                    "offset": 361
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 363
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 4,
+                            "offset": 366
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "false",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 5,
+                                    "offset": 367
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 10,
+                                    "offset": 372
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 4,
+                            "offset": 366
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 11,
+                            "offset": 373
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the player will spawn with a default appearance - a grey\ncharacter model without any hats, shirts, pants, etc.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 11,
+                            "offset": 373
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 54,
+                            "offset": 485
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 363
+                },
+                "end": {
+                    "line": 10,
+                    "column": 54,
+                    "offset": 485
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Attempting to set the property after the character has spawned will not\nchange the character, you must call ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 487
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 37,
+                            "offset": 595
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player:LoadCharacter()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 37,
+                            "offset": 595
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 67,
+                            "offset": 625
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to load\nthe new appearance.",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 67,
+                            "offset": 625
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 20,
+                            "offset": 653
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 487
+                },
+                "end": {
+                    "line": 14,
+                    "column": 20,
+                    "offset": 653
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

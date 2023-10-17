@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ratio of high frequency decay time to total decay time, where high\nfrequencies are determined to be anything above\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 117
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioReverb.ReferenceFrequency|ReferenceFrequency"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 117
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 58,
+                            "offset": 174
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", in hertz.\nRanges from 0.1 to 1.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 58,
+                            "offset": 174
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 207
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 22,
+                    "offset": 207
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,2 @@
+Read-only property that provides the screen position of the default chat
+window in pixels. Behaves similarly to [`GuiBase2d.AbsolutePosition`](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#AbsolutePosition).

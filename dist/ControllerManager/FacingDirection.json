@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The unit vector describing the desired direction to face. Aligns the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 69
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame.LookVector|LookVector"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 69
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 40,
+                            "offset": 108
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 40,
+                            "offset": 108
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 116
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ControllerManager.RootPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 116
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 35,
+                            "offset": 150
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to this. Any ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 35,
+                            "offset": 150
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 164
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Vector3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 164
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 67,
+                            "offset": 182
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nassigned will be automatically unitized.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 67,
+                            "offset": 182
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 41,
+                            "offset": 223
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 41,
+                    "offset": 223
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

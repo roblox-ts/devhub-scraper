@@ -1,0 +1,803 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Fog properties are hidden when Lighting contains an ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Atmosphere"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 71,
+                            "offset": 70
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nobject.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 71,
+                            "offset": 70
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 8,
+                            "offset": 78
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 8,
+                    "offset": 78
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The depth from the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 80
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 20,
+                            "offset": 99
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace.CurrentCamera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 20,
+                            "offset": 99
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 51,
+                            "offset": 130
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", in studs, at which fog\nbegins to show.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 51,
+                            "offset": 130
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 16,
+                            "offset": 170
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 80
+                },
+                "end": {
+                    "line": 5,
+                    "column": 16,
+                    "offset": 170
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How does fog work?",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 6,
+                            "offset": 177
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 24,
+                            "offset": 195
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 172
+                },
+                "end": {
+                    "line": 7,
+                    "column": 24,
+                    "offset": 195
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Fog in Roblox is displayed in a plane perpendicular to the\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 197
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 256
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace.CurrentCamera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 256
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 32,
+                            "offset": 287
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s look direction. It fades between the\nFogStart property where it is not visible, to the ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 32,
+                            "offset": 287
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 51,
+                            "offset": 376
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.FogEnd"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 51,
+                            "offset": 376
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 74,
+                            "offset": 399
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nproperty where it is fully opaque. The effect of fog is it blends color\nwith the ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 74,
+                            "offset": 399
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 10,
+                            "offset": 481
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.FogColor"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 10,
+                            "offset": 481
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 35,
+                            "offset": 506
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 35,
+                            "offset": 506
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 36,
+                            "offset": 507
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 197
+                },
+                "end": {
+                    "line": 13,
+                    "column": 36,
+                    "offset": 507
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "At distances greater than ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 509
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 27,
+                            "offset": 535
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.FogEnd"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 27,
+                            "offset": 535
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 50,
+                            "offset": 558
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", color will be\ndetermined entirely by the ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 50,
+                            "offset": 558
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 28,
+                            "offset": 601
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.FogColor"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 28,
+                            "offset": 601
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 53,
+                            "offset": 626
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". However at distances\nbetween FogStart and ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 53,
+                            "offset": 626
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 22,
+                            "offset": 670
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.FogEnd"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 22,
+                            "offset": 670
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 45,
+                            "offset": 693
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " the degree to which the color\nis blended depends on the position.",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 45,
+                            "offset": 693
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 36,
+                            "offset": 759
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 509
+                },
+                "end": {
+                    "line": 18,
+                    "column": 36,
+                    "offset": 759
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Roblox's fog uses linear interpolation between FogStart and\n",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 761
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 821
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.FogEnd"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 821
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 24,
+                            "offset": 844
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This means if FogStart is 10 and\n",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 24,
+                            "offset": 844
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 879
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.FogEnd"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 879
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 24,
+                            "offset": 902
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is 20, at a distance of 15 studs the fog will be\nat 50%. That means the color of a pixel at 15 studs will be 50% its normal\ncolor blended with 50% of the fog color.",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 24,
+                            "offset": 902
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 41,
+                            "offset": 1067
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 761
+                },
+                "end": {
+                    "line": 24,
+                    "column": 41,
+                    "offset": 1067
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local Lighting = game:GetService(\"Lighting\")\n-- fog will fade between 25 and 200 studs\nLighting.FogStart = 25\nLighting.FogEnd = 200\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1069
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 4,
+                            "offset": 1208
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 26,
+                    "column": 1,
+                    "offset": 1069
+                },
+                "end": {
+                    "line": 31,
+                    "column": 4,
+                    "offset": 1208
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The color of the fog can be adjusted using ",
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 1,
+                            "offset": 1210
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 44,
+                            "offset": 1253
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.FogColor"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 44,
+                            "offset": 1253
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 69,
+                            "offset": 1278
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 69,
+                            "offset": 1278
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 70,
+                            "offset": 1279
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 33,
+                    "column": 1,
+                    "offset": 1210
+                },
+                "end": {
+                    "line": 33,
+                    "column": 70,
+                    "offset": 1279
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note, fog does not obscure the skybox.",
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 1,
+                            "offset": 1281
+                        },
+                        "end": {
+                            "line": 35,
+                            "column": 39,
+                            "offset": 1319
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 35,
+                    "column": 1,
+                    "offset": 1281
+                },
+                "end": {
+                    "line": 35,
+                    "column": 39,
+                    "offset": 1319
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

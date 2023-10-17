@@ -1,0 +1,445 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "MaterialService is the game service responsible for managing materials. It is\nthe container for global ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 103
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MaterialVariant"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 103
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 49,
+                            "offset": 126
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " instances.\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 49,
+                            "offset": 126
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 138
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MaterialVariant"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 138
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 161
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " can be child or descendant of MaterialService. For\neach base Material type, MaterialService internally keeps a set of\nMaterialVariant references. ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 161
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 29,
+                            "offset": 308
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MaterialVariant.Name"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 29,
+                            "offset": 308
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 57,
+                            "offset": 336
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is the key to access\nit. The ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 57,
+                            "offset": 336
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 9,
+                            "offset": 366
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MaterialVariant.Name"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 9,
+                            "offset": 366
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 37,
+                            "offset": 394
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 37,
+                            "offset": 394
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 42,
+                            "offset": 399
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MaterialVariant.BaseMaterial"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 42,
+                            "offset": 399
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 78,
+                            "offset": 435
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nare combined to work as an identifier. If more than one MaterialVariant object\nhas the same name and BaseMaterial under MaterialService, only one of them can\nbe used.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 78,
+                            "offset": 435
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 9,
+                            "offset": 602
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 9,
+                    "column": 9,
+                    "offset": 602
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "MaterialService has some (Material)Name properties. Assigning a\nMaterialVariant Name replaces the built-in material with the specified\nMaterialVariant. If the MaterialService can't find a matching MaterialVariant,\nit falls back to built-in material. Note BaseMaterial should also match, for\nexample, a MaterialVariant with BaseMaterial Grass can only be assigned to\nMaterialService.GrassName, not AsphaltName or any other names. These\nproperties are not scriptable but can read and write using\n",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 604
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 1098
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MaterialService:GetBaseMaterialOverride()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 1098
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 50,
+                            "offset": 1147
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 50,
+                            "offset": 1147
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1152
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MaterialService:SetBaseMaterialOverride()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1152
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 50,
+                            "offset": 1201
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " function.",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 50,
+                            "offset": 1201
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 60,
+                            "offset": 1211
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 604
+                },
+                "end": {
+                    "line": 19,
+                    "column": 60,
+                    "offset": 1211
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "MaterialService has a ",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 1213
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 23,
+                            "offset": 1235
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MaterialService.Use2022Materials"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 23,
+                            "offset": 1235
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 63,
+                            "offset": 1275
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property that\nswitches between legacy materials and new materials introduced in year 2022.\nBecause legacy and user-generated (new) terrain materials use different\nencoding, using legacy terrain materials and MaterialVariant at the same time\nhas a performance penalty. If your game is using pre-2022 terrain materials,\navoid overriding any built-in materials. Migrate to 2022 materials if\npossible.",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 63,
+                            "offset": 1275
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 10,
+                            "offset": 1673
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 21,
+                    "column": 1,
+                    "offset": 1213
+                },
+                "end": {
+                    "line": 27,
+                    "column": 10,
+                    "offset": 1673
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

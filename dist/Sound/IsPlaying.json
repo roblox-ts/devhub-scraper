@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This read-only property will return true when the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 64,
+                            "offset": 63
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is\nplaying.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 64,
+                            "offset": 63
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 9,
+                            "offset": 75
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 9,
+                    "offset": 75
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property can only be true when ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 77
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 113
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound.IsPaused"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 113
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 59,
+                            "offset": 135
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is false.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 59,
+                            "offset": 135
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 69,
+                            "offset": 145
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 77
+                },
+                "end": {
+                    "line": 4,
+                    "column": 69,
+                    "offset": 145
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "As IsPlaying is read only it can not be used to play the sound,\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 147
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 211
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound:Play()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 211
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 21,
+                            "offset": 231
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " should be used instead.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 21,
+                            "offset": 231
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 45,
+                            "offset": 255
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 147
+                },
+                "end": {
+                    "line": 7,
+                    "column": 45,
+                    "offset": 255
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

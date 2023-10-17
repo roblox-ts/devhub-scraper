@@ -1,16 +1,15 @@
 A 24 hour string representation of the current time of day used by
-[Lighting](https://create.roblox.com/docs/reference/engine/classes/Lighting).
+[`Lighting`](https://create.roblox.com/docs/reference/engine/classes/Lighting).
 
 Note, this property does not correspond with the actual time of day and
 will not change during the game unless it has been changed by a script.
 
-For a numeric measure of [Lighting](https://create.roblox.com/docs/reference/engine/classes/Lighting)'s time use [Lighting.ClockTime](https://create.roblox.com/docs/reference/engine/classes/Lighting#ClockTime).
-Changing [Lighting.ClockTime](https://create.roblox.com/docs/reference/engine/classes/Lighting#ClockTime) or using [Lighting:SetMinutesAfterMidnight](https://create.roblox.com/docs/reference/engine/classes/Lighting#SetMinutesAfterMidnight)
-will also change this property.
+For a numeric measure of [`Lighting`](https://create.roblox.com/docs/reference/engine/classes/Lighting)'s time use
+[`Lighting.ClockTime`](https://create.roblox.com/docs/reference/engine/classes/Lighting#ClockTime). Changing [`Lighting.ClockTime`](https://create.roblox.com/docs/reference/engine/classes/Lighting#ClockTime) or using
+[`Lighting:SetMinutesAfterMidnight()`](https://create.roblox.com/docs/reference/engine/classes/Lighting#SetMinutesAfterMidnight) will also change this property.
 
 Using TimeOfDay requires the time to be normalized and a string formatted:
-
-```
+```lua
 minutesAfterMidnight = 0
 while true do
 	minutesAfterMidnight = minutesAfterMidnight + 1
@@ -28,37 +27,24 @@ while true do
 end
 ```
 
-Using `Lighting/ClockTime` requires the time to be normalized:
-
-``[
+Using [`Lighting.ClockTime`](https://create.roblox.com/docs/reference/engine/classes/Lighting#ClockTime) requires the time to be normalized:
+```lua
 minutesAfterMidnight = 0
 while true do
 	minutesAfterMidnight = minutesAfterMidnight + 1
 
 	local minutesNormalised = minutesAfterMidnight % (60 * 24)
-	local hours = minutesNormalised . 60
+	local hours = minutesNormalised / 60
 
 	Lighting.ClockTime = hours
 
 	wait()
 end
-](https://create.roblox.com/docs/reference/engine/classes/
-minutesAfterMidnight = 0
-while true do
-	minutesAfterMidnight = minutesAfterMidnight + 1
-
-	local minutesNormalised = minutesAfterMidnight % (60 * 24)
-	local hours = minutesNormalised # 60
-
-	Lighting.ClockTime = hours
-
-	wait()
-end
-)``
-
-Using `Lighting/SetMinutesAfterMidnight` requires no extra processing:
-
 ```
+
+Using [`Lighting:SetMinutesAfterMidnight()`](https://create.roblox.com/docs/reference/engine/classes/Lighting#SetMinutesAfterMidnight) requires no extra
+processing:
+```lua
 minutesAfterMidnight = 0
 while true do
 	minutesAfterMidnight = minutesAfterMidnight + 1

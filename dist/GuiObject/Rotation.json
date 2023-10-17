@@ -1,0 +1,352 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines the number of degrees by which a\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 58
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject|GUI"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 58
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 79
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is rotated. Rotation is relative to the ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 79
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 63,
+                            "offset": 120
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "center",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 65,
+                                    "offset": 122
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 71,
+                                    "offset": 128
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 63,
+                            "offset": 120
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 73,
+                            "offset": 130
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nof its parent GUI.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 73,
+                            "offset": 130
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 19,
+                            "offset": 149
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 19,
+                    "offset": 149
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A GUI's ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 151
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 9,
+                            "offset": 159
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.AnchorPoint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 9,
+                            "offset": 159
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 38,
+                            "offset": 188
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " does not influence it's rotation.\nThis means that you cannot change the center of rotation since it will\nalways be in the center of the object.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 38,
+                            "offset": 188
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 39,
+                            "offset": 332
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 151
+                },
+                "end": {
+                    "line": 7,
+                    "column": 39,
+                    "offset": 332
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Additionally, this property is ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 334
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 32,
+                            "offset": 365
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "not compatible",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 34,
+                                    "offset": 367
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 48,
+                                    "offset": 381
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 32,
+                            "offset": 365
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 50,
+                            "offset": 383
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " with\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 50,
+                            "offset": 383
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 389
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.ClipsDescendants"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 389
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 35,
+                            "offset": 423
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". If an ancestor (parent) object has\nClipsDescendants enabled and this property is nonzero, then descendant GUI\nelements will not be clipped.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 35,
+                            "offset": 423
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 30,
+                            "offset": 564
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 334
+                },
+                "end": {
+                    "line": 12,
+                    "column": 30,
+                    "offset": 564
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

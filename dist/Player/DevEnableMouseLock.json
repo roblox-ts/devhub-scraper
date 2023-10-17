@@ -1,0 +1,418 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines if a player is able to toggle ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 69,
+                            "offset": 68
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " lock\nby pressing ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 69,
+                            "offset": 68
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 13,
+                            "offset": 86
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Shift",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 15,
+                                    "offset": 88
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 20,
+                                    "offset": 93
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 13,
+                            "offset": 86
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 95
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". A player can disable the mouse lock switch in\nRoblox's game settings. By default, this property is set to the value of\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 95
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 216
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPlayer.EnableMouseLockOption"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 216
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 44,
+                            "offset": 259
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This can be set server-side\nduring run-time by using a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 44,
+                            "offset": 259
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 28,
+                            "offset": 316
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 28,
+                            "offset": 316
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 42,
+                            "offset": 330
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". It can not be set client-side.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 42,
+                            "offset": 330
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 74,
+                            "offset": 362
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 74,
+                    "offset": 362
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When mouse lock is enabled, the player's cursor is locked to the center of\nthe screen. Moving the mouse will orbit the camera around the player's\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 364
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 510
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.Character|character"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 510
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 35,
+                            "offset": 544
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", and the character will face the same\ndirection as the ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 35,
+                            "offset": 544
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 18,
+                            "offset": 600
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera|camera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 18,
+                            "offset": 600
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 39,
+                            "offset": 621
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". It also offsets the camera view\njust over the right shoulder of the player's character.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 39,
+                            "offset": 621
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 56,
+                            "offset": 710
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 364
+                },
+                "end": {
+                    "line": 11,
+                    "column": 56,
+                    "offset": 710
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that shift-lock related APIs are in the process of being deprecated,\nso it's recommended to use ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 712
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 28,
+                            "offset": 813
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService.MouseBehavior"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 28,
+                            "offset": 813
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 66,
+                            "offset": 851
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " instead\nto lock the mouse.",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 66,
+                            "offset": 851
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 19,
+                            "offset": 878
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 712
+                },
+                "end": {
+                    "line": 15,
+                    "column": 19,
+                    "offset": 878
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

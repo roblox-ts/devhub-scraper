@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " orientation (translation component ignored) with\nwhich the constraint will attempt to match the orientation of\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 133
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Constraint.Attachment0|Attachment0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 133
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 43,
+                            "offset": 175
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Only used when\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 43,
+                            "offset": 175
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 192
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AlignOrientation.Mode|Mode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 192
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 226
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 226
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 237
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.OrientationAlignmentMode|OneAttachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 237
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 46,
+                            "offset": 282
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 46,
+                            "offset": 282
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 47,
+                            "offset": 283
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 47,
+                    "offset": 283
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

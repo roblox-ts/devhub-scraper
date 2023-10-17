@@ -1,0 +1,613 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The StarterPlayerScripts is a container object located within the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 66
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPlayer"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 66
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 87
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " service. It contains ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 87
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 109
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 109
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 63,
+                            "offset": 128
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s and other\nobjects to be copied to the ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 63,
+                            "offset": 128
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 29,
+                            "offset": 168
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PlayerScripts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 29,
+                            "offset": 168
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 50,
+                            "offset": 189
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " container once when a\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 50,
+                            "offset": 189
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 212
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 212
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 15,
+                            "offset": 226
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " joins the game. For example, if you want to create special\neffects on the client when certain conditions are met, you can place a\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 15,
+                            "offset": 226
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 357
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 357
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 20,
+                            "offset": 376
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " within this object to do that.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 20,
+                            "offset": 376
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 51,
+                            "offset": 407
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 51,
+                    "offset": 407
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This object is also a good place for ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 409
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 38,
+                            "offset": 446
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 38,
+                            "offset": 446
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 57,
+                            "offset": 465
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s that define\nadditional inputs with ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 57,
+                            "offset": 465
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 24,
+                            "offset": 502
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ContextActionService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 24,
+                            "offset": 502
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 52,
+                            "offset": 530
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". For inputs that are only\nrelevant when a player has spawned in, you can use\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 52,
+                            "offset": 530
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 608
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ContextActionService:BindAction()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 608
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 42,
+                            "offset": 649
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when the ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 42,
+                            "offset": 649
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 52,
+                            "offset": 659
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Players.LocalPlayer"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 52,
+                            "offset": 659
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 79,
+                            "offset": 686
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\ncharacter spawns. Then, use ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 79,
+                            "offset": 686
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 29,
+                            "offset": 715
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ContextActionService:UnbindAction()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 29,
+                            "offset": 715
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 72,
+                            "offset": 758
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when\nthey die or despawn.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 72,
+                            "offset": 758
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 21,
+                            "offset": 784
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 409
+                },
+                "end": {
+                    "line": 13,
+                    "column": 21,
+                    "offset": 784
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When a game is run, this object will also house the default multi-platform\nRoblox control scripts for the camera and character. If ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 786
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 57,
+                            "offset": 917
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 57,
+                            "offset": 917
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 76,
+                            "offset": 936
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s\nnamed \"CameraScript\" or \"ControlScript\" are placed within this folder, they\nwill ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 76,
+                            "offset": 936
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 6,
+                            "offset": 1019
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "replace",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 8,
+                                    "offset": 1021
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 15,
+                                    "offset": 1028
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 6,
+                            "offset": 1019
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 17,
+                            "offset": 1030
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " the Roblox defaults for those scripts respectively. You can\nadd empty LocalScripts for each of these to simply disable them altogether.\nThis is useful for games that do not follow the usual control paradigms of a\n3rd person game.",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 17,
+                            "offset": 1030
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 17,
+                            "offset": 1260
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 786
+                },
+                "end": {
+                    "line": 21,
+                    "column": 17,
+                    "offset": 1260
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

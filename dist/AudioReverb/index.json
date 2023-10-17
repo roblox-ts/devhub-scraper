@@ -1,0 +1,219 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioReverb"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " reverberates audio streams, modeling the natural echoes of\na room or enclosed space. It provides one ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 43,
+                            "offset": 121
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Input",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 45,
+                                    "offset": 123
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 50,
+                                    "offset": 128
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 43,
+                            "offset": 121
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 130
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " pin and one ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 130
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 65,
+                            "offset": 143
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Output",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 67,
+                                    "offset": 145
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 73,
+                                    "offset": 151
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 65,
+                            "offset": 143
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 75,
+                            "offset": 153
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " pin\nwhich can be connected to/from by ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 75,
+                            "offset": 153
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 35,
+                            "offset": 192
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Wire|Wires"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 35,
+                            "offset": 192
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 53,
+                            "offset": 210
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 53,
+                            "offset": 210
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 54,
+                            "offset": 211
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 54,
+                    "offset": 211
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

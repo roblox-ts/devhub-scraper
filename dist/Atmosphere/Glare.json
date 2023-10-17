@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Specifies the glow/glare of the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 33,
+                            "offset": 32
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Atmosphere"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 33,
+                            "offset": 32
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " around the sun. More\nglare results in an increased effect of sunlight cast onto the sky and\nworld. Must be used with a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 28,
+                            "offset": 170
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Atmosphere.Haze"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 28,
+                            "offset": 170
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 51,
+                            "offset": 193
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " level higher than 0 to\nsee any effect.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 51,
+                            "offset": 193
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 16,
+                            "offset": 232
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 16,
+                    "offset": 232
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

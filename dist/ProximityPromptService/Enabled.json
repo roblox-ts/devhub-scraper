@@ -1,0 +1,225 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines whether ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ProximityPrompt|ProximityPrompts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 74,
+                            "offset": 73
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nare enabled, and therefore shown, in-game. When false, no prompts will be\nshown.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 74,
+                            "offset": 73
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 7,
+                            "offset": 154
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 7,
+                    "offset": 154
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For example, in a round based system developers could disable prompts at\ncertain points in the game to disable proximity-based interactions.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 156
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 68,
+                            "offset": 296
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 156
+                },
+                "end": {
+                    "line": 6,
+                    "column": 68,
+                    "offset": 296
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "-- Server Script 1\nlocal ProximityPromptService = game:GetService(\"ProximityPromptService\")\nlocal enablePrompts = workspace.EnablePrompts -- BindableEvent\n\n-- Connected to a BindableEvent that is fired by another script controlling game logic\nenablePrompts.OnServerEvent:Connect(function(enabled)\n\tProximityPromptService.Enabled = enabled\nend)\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 298
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 4,
+                            "offset": 652
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 298
+                },
+                "end": {
+                    "line": 17,
+                    "column": 4,
+                    "offset": 652
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "-- Server Script 2\nlocal enablePrompts = workspace.EnablePrompts -- BindableEvent\n\n-- Some game event\nenablePrompts:FireServer(false) -- Disable\nwait(5)\nenablePrompts:FireServer(true) -- Re-enable\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 654
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 4,
+                            "offset": 861
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 19,
+                    "column": 1,
+                    "offset": 654
+                },
+                "end": {
+                    "line": 27,
+                    "column": 4,
+                    "offset": 861
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

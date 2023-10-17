@@ -1,0 +1,357 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "SelectionSphere",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 18,
+                                    "offset": 17
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is an object which renders a 3D sphere around its\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PVAdornment.Adornee|Adornee"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 105
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when it is a descendant of the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 105
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 137
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 137
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 18,
+                            "offset": 154
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or anywhere where GUI objects are rendered. The sphere's\ngeometry consists of a ring/outline in addition to a surface. By default, only\nthe outline is visible.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 18,
+                            "offset": 154
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 24,
+                            "offset": 314
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 24,
+                    "offset": 314
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+                "src": "/assets/legacy/SelectionSphere.jpg",
+                "alt": "A default SelectionSphere adorned to a semi-transparent default Part"
+            },
+            "children": [],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 316
+                },
+                "end": {
+                    "line": 7,
+                    "column": 125,
+                    "offset": 440
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\nThere are a few properties available to configure the appearance of the\nsphere. The outline can modified through the\n`Class.GuiBase3d.Color3|Color3`† and\n`Class.GuiBase3d.Transparency|Transparency`† properties. The surface can\nbe modified through the `Class.SelectionSphere.SurfaceColor3|SurfaceColor3` and\n`Class.SelectionSphere.SurfaceTransparency|SurfaceTransparency` properties.\nFinally, rendering of the sphere can be toggled with the\n`Class.GuiBase3d.Visible|Visible`† property.\n",
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 125,
+                    "offset": 440
+                },
+                "end": null
+            }
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "† These properties come from this object's superclass,\n",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 948
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 1010
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiBase3d"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 1010
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 18,
+                            "offset": 1027
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 18,
+                            "offset": 1027
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 19,
+                            "offset": 1028
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 948
+                },
+                "end": {
+                    "line": 18,
+                    "column": 19,
+                    "offset": 1028
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The SelectionSphere object does not capture any form of input; it is solely a\nvisual effect. To capture simple pointer input on the adornee, consider using\na ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 1030
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 3,
+                            "offset": 1188
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ClickDetector"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 3,
+                            "offset": 1188
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 24,
+                            "offset": 1209
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 24,
+                            "offset": 1209
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 25,
+                            "offset": 1210
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 1030
+                },
+                "end": {
+                    "line": 22,
+                    "column": 25,
+                    "offset": 1210
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

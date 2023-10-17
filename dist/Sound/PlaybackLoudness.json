@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A number between 0 and 1000 indicating how loud the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 66,
+                            "offset": 65
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is\ncurrently playing back.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 66,
+                            "offset": 65
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 92
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 24,
+                    "offset": 92
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property reflects the amplitude of the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 94
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 45,
+                            "offset": 138
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 45,
+                            "offset": 138
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 58,
+                            "offset": 151
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "'s playback in\nthe instance of time it is read. Therefore, for most sounds it will\nfluctuate constantly. Due to this it can appear in the Roblox Studio\nproperties window as 0, however when read by code in the command bar or\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 58,
+                            "offset": 151
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 375
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 375
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 15,
+                            "offset": 389
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s it will return the correct value.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 15,
+                            "offset": 389
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 50,
+                            "offset": 424
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 94
+                },
+                "end": {
+                    "line": 8,
+                    "column": 50,
+                    "offset": 424
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

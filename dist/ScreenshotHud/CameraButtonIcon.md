@@ -1,0 +1,1 @@
+Asset ID of the icon used for the camera button.

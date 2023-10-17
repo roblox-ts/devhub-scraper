@@ -1,0 +1,546 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The hue represented in light reflected in the opposite surfaces to those\nfacing the sun or moon.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 96
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 24,
+                    "offset": 96
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The surfaces of a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 98
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 19,
+                            "offset": 116
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 19,
+                            "offset": 116
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 132
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " influenced by ColorShift_Bottom depends\non the position and orientation of the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 132
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 40,
+                            "offset": 212
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 40,
+                            "offset": 212
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 56,
+                            "offset": 228
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " relative to the\nsun or moon's position. Where the sun is directly overhead a\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 56,
+                            "offset": 228
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 306
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 306
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 17,
+                            "offset": 322
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the shift in color will only apply to the bottom\nsurface.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 17,
+                            "offset": 322
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 9,
+                            "offset": 381
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 98
+                },
+                "end": {
+                    "line": 8,
+                    "column": 9,
+                    "offset": 381
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This effect can be increased or reduced by altering\n",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 383
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 435
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.Brightness"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 435
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 28,
+                            "offset": 462
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 28,
+                            "offset": 462
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 29,
+                            "offset": 463
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 383
+                },
+                "end": {
+                    "line": 11,
+                    "column": 29,
+                    "offset": 463
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "ColorShift_Bottom influences the opposite surfaces to\n",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 465
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 519
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.ColorShift_Top"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 519
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 32,
+                            "offset": 550
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 465
+                },
+                "end": {
+                    "line": 14,
+                    "column": 32,
+                    "offset": 550
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note, ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 552
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 7,
+                            "offset": 558
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.ColorShift_Top"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 7,
+                            "offset": 558
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 38,
+                            "offset": 589
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ColorShift_Bottom will interact\nwith the ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 38,
+                            "offset": 589
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 10,
+                            "offset": 635
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.Ambient"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 10,
+                            "offset": 635
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 34,
+                            "offset": 659
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 34,
+                            "offset": 659
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 39,
+                            "offset": 664
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.OutdoorAmbient"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 39,
+                            "offset": 664
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 70,
+                            "offset": 695
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nproperties if they are greater than 0, 0, 0. Also, the influence of\nColorShift_Bottom can be very hard to identify when\n",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 70,
+                            "offset": 695
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 816
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.GlobalShadows"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 816
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 31,
+                            "offset": 846
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is enabled (as it is by default).",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 31,
+                            "offset": 846
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 65,
+                            "offset": 880
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 552
+                },
+                "end": {
+                    "line": 20,
+                    "column": 65,
+                    "offset": 880
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

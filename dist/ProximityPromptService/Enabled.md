@@ -1,10 +1,9 @@
-This property determines whether [ProximityPrompts](https://create.roblox.com/docs/reference/engine/classes/ProximityPrompt) are
-enabled, and therefore shown, in-game. When false, no prompts will be
+This property determines whether [`ProximityPrompts`](https://create.roblox.com/docs/reference/engine/classes/ProximityPrompt)
+are enabled, and therefore shown, in-game. When false, no prompts will be
 shown.
 
 For example, in a round based system developers could disable prompts at
 certain points in the game to disable proximity-based interactions.
-
 ```lua
 -- Server Script 1
 local ProximityPromptService = game:GetService("ProximityPromptService")
@@ -15,7 +14,6 @@ enablePrompts.OnServerEvent:Connect(function(enabled)
 	ProximityPromptService.Enabled = enabled
 end)
 ```
-
 ```lua
 -- Server Script 2
 local enablePrompts = workspace.EnablePrompts -- BindableEvent

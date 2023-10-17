@@ -1,1 +1,1 @@
-An object used to make movable [JointInstance](https://create.roblox.com/docs/reference/engine/classes/JointInstance) between two Parts.
+An object used to make movable [`JointInstance`](https://create.roblox.com/docs/reference/engine/classes/JointInstance) between two Parts.

@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Defines how the default camera scripts handle objects between the camera\nand the camera subject. Applies to all players as they join the experience\nand can't be changed for individual players.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 45,
+                            "offset": 192
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 45,
+                    "offset": 192
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The default value is ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 194
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 22,
+                            "offset": 215
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.DevCameraOcclusionMode|Zoom"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 22,
+                            "offset": 215
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 56,
+                            "offset": 249
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " (0). See\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 56,
+                            "offset": 249
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 259
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.DevCameraOcclusionMode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 259
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 30,
+                            "offset": 288
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for a list of available modes.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 30,
+                            "offset": 288
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 61,
+                            "offset": 319
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 194
+                },
+                "end": {
+                    "line": 6,
+                    "column": 61,
+                    "offset": 319
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

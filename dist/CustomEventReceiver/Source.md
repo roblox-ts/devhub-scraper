@@ -1,2 +1,2 @@
-This property attaches the [CustomEventReceiver](https://create.roblox.com/docs/reference/engine/classes/CustomEventReceiver) object to a
-[CustomEvent](https://create.roblox.com/docs/reference/engine/classes/CustomEvent).
+This property attaches the [`CustomEventReceiver`](https://create.roblox.com/docs/reference/engine/classes/CustomEventReceiver) object to a
+[`CustomEvent`](https://create.roblox.com/docs/reference/engine/classes/CustomEvent).

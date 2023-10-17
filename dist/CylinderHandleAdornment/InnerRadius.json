@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 4,
+                            "offset": 3
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "InnerRadius"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 4,
+                            "offset": 3
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 17,
+                            "offset": 16
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is >0, a hollow cylinder with that inner radius is\nrendered instead of a full cylinder. The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 17,
+                            "offset": 16
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 109
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "InnerRadius"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 109
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 55,
+                            "offset": 122
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property can be\ncombined with ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 55,
+                            "offset": 122
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 153
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Angle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 153
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 22,
+                            "offset": 160
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to render a sector of a hollow cylinder.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 22,
+                            "offset": 160
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 63,
+                            "offset": 201
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 63,
+                    "offset": 201
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

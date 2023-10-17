@@ -1,0 +1,601 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A NumberPose holds the value applied to a specific FACS control. The control\nwhich is affected depends on the name of the NumberPose.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 133
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 57,
+                    "offset": 133
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "NumberPoses are the building blocks of facial animation and, with\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 135
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 201
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Keyframe"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 201
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 17,
+                            "offset": 217
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s, make up ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 17,
+                            "offset": 217
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 28,
+                            "offset": 228
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.KeyframeSequence"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 28,
+                            "offset": 228
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 52,
+                            "offset": 252
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 52,
+                            "offset": 252
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 54,
+                            "offset": 254
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 135
+                },
+                "end": {
+                    "line": 5,
+                    "column": 54,
+                    "offset": 254
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "NumberPoses and Facial Animation",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 4,
+                            "offset": 259
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 36,
+                            "offset": 291
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 256
+                },
+                "end": {
+                    "line": 7,
+                    "column": 36,
+                    "offset": 291
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Although a NumberPose is assigned to a single FACS control by name, that\ncontrol can in turn affect multiple bones of the face rig. FACS controls act\nas an abstraction layer between facial muscle movements and how they are\ndefined in the rig.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 293
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 20,
+                            "offset": 535
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 293
+                },
+                "end": {
+                    "line": 12,
+                    "column": 20,
+                    "offset": 535
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "NumberPose and hierarchy",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 4,
+                            "offset": 540
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 28,
+                            "offset": 564
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 537
+                },
+                "end": {
+                    "line": 14,
+                    "column": 28,
+                    "offset": 564
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Contrary to ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 566
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 13,
+                            "offset": 578
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pose"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 13,
+                            "offset": 578
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 25,
+                            "offset": 590
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " Instances, ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 25,
+                            "offset": 590
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 37,
+                            "offset": 602
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.NumberPose"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 37,
+                            "offset": 602
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 55,
+                            "offset": 620
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s cannot be parented\ntogether. However, they all must be stored in a ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 55,
+                            "offset": 620
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 49,
+                            "offset": 689
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Folder"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 49,
+                            "offset": 689
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 63,
+                            "offset": 703
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " named\n'FaceControls' that is a child of the 'Head' ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 63,
+                            "offset": 703
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 46,
+                            "offset": 755
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pose"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 46,
+                            "offset": 755
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 58,
+                            "offset": 767
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 58,
+                            "offset": 767
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 59,
+                            "offset": 768
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 566
+                },
+                "end": {
+                    "line": 18,
+                    "column": 59,
+                    "offset": 768
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "NumberPose value",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 4,
+                            "offset": 773
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 20,
+                            "offset": 789
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 770
+                },
+                "end": {
+                    "line": 20,
+                    "column": 20,
+                    "offset": 789
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Roblox animation system applies ",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 791
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 37,
+                            "offset": 827
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.NumberPose.Value"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 37,
+                            "offset": 827
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 61,
+                            "offset": 851
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s to the\ncorresponding FACS controls. Because those controls only respond to values\nbetween 0 and 1, the values calculated by the animation system are always\nclamped to that range.",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 61,
+                            "offset": 851
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 23,
+                            "offset": 1031
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 791
+                },
+                "end": {
+                    "line": 25,
+                    "column": 23,
+                    "offset": 1031
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

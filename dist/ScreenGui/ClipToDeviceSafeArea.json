@@ -1,0 +1,893 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If this property is ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "true"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", all ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 33,
+                            "offset": 32
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 33,
+                            "offset": 32
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " descendants of this\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScreenGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 87
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will be clipped to the device's safe area (see\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 87
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 135
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ScreenInsets"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 135
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 20,
+                            "offset": 154
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "). The default is ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 20,
+                            "offset": 154
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 38,
+                            "offset": 172
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "true"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 38,
+                            "offset": 172
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 44,
+                            "offset": 178
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to maintain backwards\ncompatibility of UI that is intentionally hidden offscreen, such as\nobjects that slide into view from a screen edge when they're needed.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 44,
+                            "offset": 178
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 69,
+                            "offset": 337
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 69,
+                    "offset": 337
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "figure",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 9,
+                            "offset": 347
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 348
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/engine-api/classes/ScreenGui/ClipToDeviceSafeArea-True.png",
+                        "width": 840,
+                        "alt": "Mobile device showing UI button clipped by device safe\narea"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 348
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 9,
+                            "offset": 506
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 9,
+                            "offset": 506
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 507
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "figcaption",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "When set to ",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 13,
+                                    "offset": 519
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 25,
+                                    "offset": 531
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "true",
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 31,
+                                            "offset": 537
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 35,
+                                            "offset": 541
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 25,
+                                    "offset": 531
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 42,
+                                    "offset": 548
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", UI objects are clipped\nby the device's safe area",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 42,
+                                    "offset": 548
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 26,
+                                    "offset": 598
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 507
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 39,
+                            "offset": 611
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 39,
+                            "offset": 611
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 612
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 339
+                },
+                "end": {
+                    "line": 14,
+                    "column": 10,
+                    "offset": 621
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If this property is ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 623
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 21,
+                            "offset": 643
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "false"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 21,
+                            "offset": 643
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 28,
+                            "offset": 650
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 28,
+                            "offset": 650
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 30,
+                            "offset": 652
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 30,
+                            "offset": 652
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 47,
+                            "offset": 669
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " descendants will ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 47,
+                            "offset": 669
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 65,
+                            "offset": 687
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "not",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 67,
+                                    "offset": 689
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 70,
+                                    "offset": 692
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 65,
+                            "offset": 687
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 72,
+                            "offset": 694
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " be\nclipped to the device's safe area and may be obscured by the camera notch\nor other screen cutouts.",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 72,
+                            "offset": 694
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 25,
+                            "offset": 796
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 623
+                },
+                "end": {
+                    "line": 18,
+                    "column": 25,
+                    "offset": 796
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "figure",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 9,
+                            "offset": 806
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 807
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/engine-api/classes/ScreenGui/ClipToDeviceSafeArea-False.png",
+                        "width": 840,
+                        "alt": "Mobile device showing UI button overflowing device safe\narea, obscured by screen camera notch"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 807
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 42,
+                            "offset": 1000
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 42,
+                            "offset": 1000
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 1001
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "figcaption",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "When set to ",
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 13,
+                                    "offset": 1013
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 25,
+                                    "offset": 1025
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "false",
+                                    "position": {
+                                        "start": {
+                                            "line": 25,
+                                            "column": 31,
+                                            "offset": 1031
+                                        },
+                                        "end": {
+                                            "line": 25,
+                                            "column": 36,
+                                            "offset": 1036
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 25,
+                                    "offset": 1025
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 43,
+                                    "offset": 1043
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", UI objects may overflow the\nsafe area and become obscured",
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 43,
+                                    "offset": 1043
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 30,
+                                    "offset": 1102
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 1001
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 43,
+                            "offset": 1115
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 43,
+                            "offset": 1115
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 1,
+                            "offset": 1116
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 798
+                },
+                "end": {
+                    "line": 27,
+                    "column": 10,
+                    "offset": 1125
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that this property will be ignored if you set\n",
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 1,
+                            "offset": 1127
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 1,
+                            "offset": 1178
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScreenGui.ScreenInsets"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 1,
+                            "offset": 1178
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 31,
+                            "offset": 1208
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to ",
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 31,
+                            "offset": 1208
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 35,
+                            "offset": 1212
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ScreenInsets|None"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 35,
+                            "offset": 1212
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 59,
+                            "offset": 1236
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", as doing so\nimplies that you intentionally want to disregard the device's safe insets.",
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 59,
+                            "offset": 1236
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 75,
+                            "offset": 1324
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 29,
+                    "column": 1,
+                    "offset": 1127
+                },
+                "end": {
+                    "line": 31,
+                    "column": 75,
+                    "offset": 1324
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

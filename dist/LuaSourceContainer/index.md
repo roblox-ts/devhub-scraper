@@ -1,3 +1,3 @@
-The base class for all objects which contain Lua code. [Script](https://create.roblox.com/docs/reference/engine/classes/Script),
-[LocalScript](https://create.roblox.com/docs/reference/engine/classes/LocalScript), [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) and [CoreScript](https://create.roblox.com/docs/reference/engine/classes/CoreScript) all inherit from
-LuaSourceContainer.
+The base class for all objects which contain Lua code. [`Script`](https://create.roblox.com/docs/reference/engine/classes/Script),
+[`LocalScript`](https://create.roblox.com/docs/reference/engine/classes/LocalScript), [`ModuleScript`](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) and [`CoreScript`](https://create.roblox.com/docs/reference/engine/classes/CoreScript) all inherit
+from LuaSourceContainer.

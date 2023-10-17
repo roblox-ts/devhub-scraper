@@ -1,0 +1,897 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "An object which allows animations to be loaded and applied to a character or\nmodel in place of a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 97
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 113
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when a Humanoid is not needed. Creates an\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 113
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 156
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Animator"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 156
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 17,
+                            "offset": 172
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and loads animations to update ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 17,
+                            "offset": 172
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 204
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D|Motor6Ds"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 204
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 73,
+                            "offset": 228
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of\nsaid character to react in the way that is described within the animation\nasset referenced by an ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 73,
+                            "offset": 228
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 24,
+                            "offset": 329
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Animation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 24,
+                            "offset": 329
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 346
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 346
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 49,
+                            "offset": 354
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 49,
+                    "offset": 354
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Should I load an Animation on the client or server?",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 4,
+                            "offset": 359
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 55,
+                            "offset": 410
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 356
+                },
+                "end": {
+                    "line": 7,
+                    "column": 55,
+                    "offset": 410
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "In order for ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 412
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 14,
+                            "offset": 425
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack|AnimationTracks"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 14,
+                            "offset": 425
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 52,
+                            "offset": 463
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to replicate correctly,\nit's important to know when they should be loaded on the client (via\na",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 52,
+                            "offset": 463
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 2,
+                            "offset": 558
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 2,
+                            "offset": 558
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 21,
+                            "offset": 577
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") or on the server (via a ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 21,
+                            "offset": 577
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 47,
+                            "offset": 603
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 47,
+                            "offset": 603
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 61,
+                            "offset": 617
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ").",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 61,
+                            "offset": 617
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 63,
+                            "offset": 619
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 412
+                },
+                "end": {
+                    "line": 11,
+                    "column": 63,
+                    "offset": 619
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If an Animator is a descendant of a Humanoid or AnimationController in a\nPlayer's ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 621
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 10,
+                            "offset": 703
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.Character|Character"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 10,
+                            "offset": 703
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 44,
+                            "offset": 737
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " then animations started on that\nPlayer's client will be replicated to the server and other clients.",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 44,
+                            "offset": 737
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 68,
+                            "offset": 837
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 621
+                },
+                "end": {
+                    "line": 15,
+                    "column": 68,
+                    "offset": 837
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If the Animator is not a descendant of a player character, its animations must\nbe loaded and started on the server to replicate.",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 839
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 50,
+                            "offset": 967
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 839
+                },
+                "end": {
+                    "line": 18,
+                    "column": 50,
+                    "offset": 967
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Animator object must be initially created on the server and replicated to\nclients for animation replication to work at all. If an Animator is created\nlocally, then AnimationTracks loaded with that Animator will not replicate.",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 969
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 76,
+                            "offset": 1198
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 969
+                },
+                "end": {
+                    "line": 22,
+                    "column": 76,
+                    "offset": 1198
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Both ",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1200
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 6,
+                            "offset": 1205
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid:LoadAnimation()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 6,
+                            "offset": 1205
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 38,
+                            "offset": 1237
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 38,
+                            "offset": 1237
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 1242
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationController:LoadAnimation()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 1242
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 44,
+                            "offset": 1285
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will create an Animator if one\ndoes not already exist. When calling LoadAnimation from LocalScripts you need\nto be careful to wait for the Animator to replicate from the server before\ncalling LoadAnimation if you want character animations to replicate. You can\ndo this with WaitForChild(\"Animator\").",
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 44,
+                            "offset": 1285
+                        },
+                        "end": {
+                            "line": 29,
+                            "column": 39,
+                            "offset": 1585
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 24,
+                    "column": 1,
+                    "offset": 1200
+                },
+                "end": {
+                    "line": 29,
+                    "column": 39,
+                    "offset": 1585
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 31,
+                            "column": 1,
+                            "offset": 1587
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 10,
+                            "offset": 1596
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 31,
+                    "column": 1,
+                    "offset": 1587
+                },
+                "end": {
+                    "line": 31,
+                    "column": 10,
+                    "offset": 1596
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                                "href": "/animation/editor"
+                            },
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Animation Editor",
+                                    "position": {
+                                        "start": {
+                                            "line": 33,
+                                            "column": 4,
+                                            "offset": 1601
+                                        },
+                                        "end": {
+                                            "line": 33,
+                                            "column": 20,
+                                            "offset": 1617
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 33,
+                                    "column": 3,
+                                    "offset": 1600
+                                },
+                                "end": {
+                                    "line": 33,
+                                    "column": 40,
+                                    "offset": 1637
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " to explore this powerful\nbuilt-in plugin for creating custom animations",
+                            "position": {
+                                "start": {
+                                    "line": 33,
+                                    "column": 40,
+                                    "offset": 1637
+                                },
+                                "end": {
+                                    "line": 34,
+                                    "column": 49,
+                                    "offset": 1711
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 1,
+                            "offset": 1598
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 49,
+                            "offset": 1711
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                                "href": "/animation/using"
+                            },
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Using Animations",
+                                    "position": {
+                                        "start": {
+                                            "line": 35,
+                                            "column": 4,
+                                            "offset": 1715
+                                        },
+                                        "end": {
+                                            "line": 35,
+                                            "column": 20,
+                                            "offset": 1731
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 35,
+                                    "column": 3,
+                                    "offset": 1714
+                                },
+                                "end": {
+                                    "line": 35,
+                                    "column": 39,
+                                    "offset": 1750
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " to learn how to add\npre-built and custom animations to your game",
+                            "position": {
+                                "start": {
+                                    "line": 35,
+                                    "column": 39,
+                                    "offset": 1750
+                                },
+                                "end": {
+                                    "line": 36,
+                                    "column": 47,
+                                    "offset": 1817
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 1,
+                            "offset": 1712
+                        },
+                        "end": {
+                            "line": 36,
+                            "column": 47,
+                            "offset": 1817
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 33,
+                    "column": 1,
+                    "offset": 1598
+                },
+                "end": {
+                    "line": 36,
+                    "column": 47,
+                    "offset": 1817
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

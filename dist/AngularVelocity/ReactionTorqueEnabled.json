@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property, when enabled, causes the constraint to apply equal and\nopposite reaction forces. This is important if the two attached parts can\ncollide, since without reaction forces collisions can create energy that\nwould otherwise be disregarded.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 32,
+                            "offset": 248
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 32,
+                    "offset": 248
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When enabled, the reaction forces cause the constraint to act like an\nangular motor between the two attachments.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 250
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 43,
+                            "offset": 362
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 250
+                },
+                "end": {
+                    "line": 7,
+                    "column": 43,
+                    "offset": 362
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Only meaningful when ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 364
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 22,
+                            "offset": 385
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AngularVelocity.RelativeTo|RelativeTo"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 22,
+                            "offset": 385
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 67,
+                            "offset": 430
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set\nto ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 67,
+                            "offset": 430
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 4,
+                            "offset": 441
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ActuatorRelativeTo|Attachment1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 4,
+                            "offset": 441
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 41,
+                            "offset": 478
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 41,
+                            "offset": 478
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 42,
+                            "offset": 479
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 364
+                },
+                "end": {
+                    "line": 10,
+                    "column": 42,
+                    "offset": 479
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

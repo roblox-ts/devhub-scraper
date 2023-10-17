@@ -1,0 +1,147 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Trail object is used to create a trail like an effect between two points.\nAs the points move through space a texture is drawn on the plane the points\ndefine. This is commonly used to create effects to help visualize movements\nlike tracer trails behind projectiles, footprints, tire tracks, and many other\nsimilar effects.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 17,
+                            "offset": 325
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 17,
+                    "offset": 325
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 327
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 5,
+                            "offset": 331
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/effects/trails"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Trails",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 6,
+                                    "offset": 332
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 12,
+                                    "offset": 338
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 5,
+                            "offset": 331
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 30,
+                            "offset": 356
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for more information.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 30,
+                            "offset": 356
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 52,
+                            "offset": 378
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 327
+                },
+                "end": {
+                    "line": 7,
+                    "column": 52,
+                    "offset": 378
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

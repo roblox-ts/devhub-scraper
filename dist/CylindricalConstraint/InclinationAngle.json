@@ -1,0 +1,196 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Direction of the rotation axis as an angle from the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "X",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 55,
+                                    "offset": 54
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 56,
+                                    "offset": 55
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " axis in the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "XY",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 3,
+                                    "offset": 72
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 5,
+                                    "offset": 74
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 7,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " plane of ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 7,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 17,
+                            "offset": 86
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Constraint.Attachment0|Attachment0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 17,
+                            "offset": 86
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 59,
+                            "offset": 128
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Valid range\nbetween -180 and 180.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 59,
+                            "offset": 128
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 22,
+                            "offset": 163
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 22,
+                    "offset": 163
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

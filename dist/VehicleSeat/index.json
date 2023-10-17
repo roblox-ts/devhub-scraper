@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The VehicleSeat objects welds a player to the seat when the player touches the\nseat. It then forwards the movement keys to any connected motor joints,\nallowing control of a vehicle.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 181
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 31,
+                    "offset": 181
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "While VehicleSeats are great for making simple vehicles they do have some\nlimitations. Movement control will only detect motors connected directly to\nthe vehicle seat, or through another rigid connection. This means that if you\nhave a wheel connected to a beam which is then welded to the seat it will work\nfine, however if you have the wheel connected to a part, which is connected by\na hinge to the rest of the car, it will not work.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 183
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 50,
+                            "offset": 618
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 183
+                },
+                "end": {
+                    "line": 10,
+                    "column": 50,
+                    "offset": 618
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

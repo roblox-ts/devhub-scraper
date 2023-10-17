@@ -1,0 +1,418 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is a reference to the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 37,
+                            "offset": 36
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Terrain"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 37,
+                            "offset": 36
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 52,
+                            "offset": 51
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object parented to the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 52,
+                            "offset": 51
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 75
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 75
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 92
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 92
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 19,
+                            "offset": 93
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 19,
+                    "offset": 93
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/Terrain.png",
+                        "alt": "An example of Roblox terrain"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 95
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 60,
+                            "offset": 154
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 95
+                },
+                "end": {
+                    "line": 4,
+                    "column": 60,
+                    "offset": 154
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property, like ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 156
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 21,
+                            "offset": 176
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace.CurrentCamera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 21,
+                            "offset": 176
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 207
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ensures that\ndevelopers to not inadvertently index a descendant of ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 207
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 55,
+                            "offset": 276
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 55,
+                            "offset": 276
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 72,
+                            "offset": 293
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nnamed 'Terrain' when looking for a game's ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 72,
+                            "offset": 293
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 43,
+                            "offset": 336
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Terrain"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 43,
+                            "offset": 336
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 58,
+                            "offset": 351
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object. Without\nthis property, developers would need to use the\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 58,
+                            "offset": 351
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 416
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance:FindFirstChildOfClass()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 416
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 41,
+                            "offset": 456
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " function.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 41,
+                            "offset": 456
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 51,
+                            "offset": 466
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 156
+                },
+                "end": {
+                    "line": 10,
+                    "column": 51,
+                    "offset": 466
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "workspace.Terrain.WaterColor = Color3.new(0, 1, 0) -- make the water green\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 468
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 4,
+                            "offset": 553
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 468
+                },
+                "end": {
+                    "line": 14,
+                    "column": 4,
+                    "offset": 553
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

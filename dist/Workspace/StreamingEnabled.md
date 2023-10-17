@@ -4,6 +4,6 @@ therefore must be set on the **Workspace** object in Studio.
 
 See also:
 
-- [Workspace.StreamingMinRadius](https://create.roblox.com/docs/reference/engine/classes/Workspace#StreamingMinRadius)
-- [Workspace.StreamingTargetRadius](https://create.roblox.com/docs/reference/engine/classes/Workspace#StreamingTargetRadius)
-- [Workspace.StreamingPauseMode](https://create.roblox.com/docs/reference/engine/classes/Workspace#StreamingPauseMode)
+- [`Workspace.StreamingMinRadius`](https://create.roblox.com/docs/reference/engine/classes/Workspace#StreamingMinRadius)
+- [`Workspace.StreamingTargetRadius`](https://create.roblox.com/docs/reference/engine/classes/Workspace#StreamingTargetRadius)
+- [`Workspace.StreamingIntegrityMode`](https://create.roblox.com/docs/reference/engine/classes/Workspace#StreamingIntegrityMode)

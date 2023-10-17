@@ -1,0 +1,585 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A TextLabel renders a rectangle, like a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Frame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 54,
+                            "offset": 53
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", with styled text. The\nrectangle can be used to define text boundaries, text scaling\n(",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 54,
+                            "offset": 53
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 2,
+                            "offset": 140
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextScaled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 2,
+                            "offset": 140
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 30,
+                            "offset": 168
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") and wrapping (",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 30,
+                            "offset": 168
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 46,
+                            "offset": 184
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextWrapped"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 46,
+                            "offset": 184
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 75,
+                            "offset": 213
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 75,
+                            "offset": 213
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 215
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextXAlignment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 215
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 33,
+                            "offset": 247
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 33,
+                            "offset": 247
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 249
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextYAlignment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 249
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 67,
+                            "offset": 281
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ").",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 67,
+                            "offset": 281
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 69,
+                            "offset": 283
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 69,
+                    "offset": 283
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This class contains properties that control the display of the text, such as\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 285
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 362
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.Font"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 362
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 23,
+                            "offset": 384
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 23,
+                            "offset": 384
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 28,
+                            "offset": 389
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextColor3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 28,
+                            "offset": 389
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 56,
+                            "offset": 417
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". All text rendered by\na single text label will have the same visual properties; multiple TextLabel\nobjects must be used in order to render multiple styles of text. To display\nonly text and hide the rectangle, set ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 56,
+                            "offset": 417
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 39,
+                            "offset": 631
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.BackgroundTransparency"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 39,
+                            "offset": 631
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 79,
+                            "offset": 671
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nto 1.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 79,
+                            "offset": 671
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 6,
+                            "offset": 677
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 285
+                },
+                "end": {
+                    "line": 11,
+                    "column": 6,
+                    "offset": 677
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextService:GetTextSize()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 679
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 34,
+                            "offset": 712
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " can be used to get the size (bounds) of text\nthat would be rendered in a TextLabel given a font size, font, and frame size.",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 34,
+                            "offset": 712
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 79,
+                            "offset": 836
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 679
+                },
+                "end": {
+                    "line": 14,
+                    "column": 79,
+                    "offset": 836
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 838
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 3,
+                            "offset": 840
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UITextSizeConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 3,
+                            "offset": 840
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 31,
+                            "offset": 868
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object can be used to constrain the size of\ntext with ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 31,
+                            "offset": 868
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 11,
+                            "offset": 923
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextScaled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 11,
+                            "offset": 923
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 39,
+                            "offset": 951
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " enabled. It is recommended that the\nsize of text is no lower than 9, otherwise it may not be visible to most\nusers.",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 39,
+                            "offset": 951
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 7,
+                            "offset": 1067
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 838
+                },
+                "end": {
+                    "line": 19,
+                    "column": 7,
+                    "offset": 1067
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Font property selects one of several pre-defined fonts with which the\nUI element will render its text. Some fonts have bold, italic and/or light\nvariants (as there is no font-weight or font-style properties).",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 64,
+                            "offset": 212
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 64,
+                    "offset": 212
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "With the exception of the \"Legacy\" font, each font will render text with\nthe line height equal to the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 214
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 30,
+                            "offset": 316
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton.TextSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 30,
+                            "offset": 316
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 57,
+                            "offset": 343
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property. The\n\"Code\" font is the only monospace font. It has the unique property that\neach character has the exact same width and height ratio of 1:2. The width\nof each character is approximately half the ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 57,
+                            "offset": 343
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 45,
+                            "offset": 549
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton.TextSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 45,
+                            "offset": 549
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 72,
+                            "offset": 576
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nproperty.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 72,
+                            "offset": 576
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 10,
+                            "offset": 586
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 214
+                },
+                "end": {
+                    "line": 10,
+                    "column": 10,
+                    "offset": 586
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is kept in sync with the ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 588
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 40,
+                            "offset": 627
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton.FontFace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 40,
+                            "offset": 627
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 67,
+                            "offset": 654
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nproperty. When setting Font, the FontFace is set to\n",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 67,
+                            "offset": 654
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 707
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Font.fromEnum(value)"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 707
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 32,
+                            "offset": 738
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 32,
+                            "offset": 738
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 33,
+                            "offset": 739
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 588
+                },
+                "end": {
+                    "line": 14,
+                    "column": 33,
+                    "offset": 739
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

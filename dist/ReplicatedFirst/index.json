@@ -1,0 +1,713 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A container whose contents are replicated to all clients (but not back to the\nserver) first before anything else.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 113
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 36,
+                    "offset": 113
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "What is ReplicatedFirst for?",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 4,
+                            "offset": 118
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 32,
+                            "offset": 146
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 115
+                },
+                "end": {
+                    "line": 4,
+                    "column": 32,
+                    "offset": 146
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "ReplicatedFirst is most commonly used to store ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 148
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 48,
+                            "offset": 195
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 48,
+                            "offset": 195
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 67,
+                            "offset": 214
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s and other\nobjects that are essential for the game's start. As the contents of\nReplicatedFirst replicate to the client before anything else in the game, it\nis ideal for creating loading GUIs or tutorials.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 67,
+                            "offset": 214
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 49,
+                            "offset": 419
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 148
+                },
+                "end": {
+                    "line": 9,
+                    "column": 49,
+                    "offset": 419
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For objects that do not need to be replicated first, developers should use the\n",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 421
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 500
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ReplicatedStorage"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 500
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 26,
+                            "offset": 525
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " container instead.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 26,
+                            "offset": 525
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 45,
+                            "offset": 544
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 421
+                },
+                "end": {
+                    "line": 12,
+                    "column": 45,
+                    "offset": 544
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How can I use ReplicatedFirst?",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 4,
+                            "offset": 549
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 34,
+                            "offset": 579
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 546
+                },
+                "end": {
+                    "line": 14,
+                    "column": 34,
+                    "offset": 579
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 581
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 20,
+                            "offset": 600
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s placed within ReplicatedFirst will run. This means code\nfor custom loading screens or other ReplicatedFirst uses can be ran at the\nearliest possible point.",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 20,
+                            "offset": 600
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 25,
+                            "offset": 757
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 581
+                },
+                "end": {
+                    "line": 18,
+                    "column": 25,
+                    "offset": 757
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "There a number of key considerations developers need to remember when running\n",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 759
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 837
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 837
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 20,
+                            "offset": 856
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s in ReplicatedFirst.",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 20,
+                            "offset": 856
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 41,
+                            "offset": 877
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 759
+                },
+                "end": {
+                    "line": 21,
+                    "column": 41,
+                    "offset": 877
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Its contents replicate before anything else in the game, meaning\n",
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 3,
+                                    "offset": 881
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 1,
+                                    "offset": 946
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.LocalScript"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 3,
+                                    "offset": 948
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 22,
+                                    "offset": 967
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "s running in ReplicatedFirst will need to wait for any\nobjects they require to replicate using ",
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 22,
+                                    "offset": 967
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 43,
+                                    "offset": 1064
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Instance:WaitForChild()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 43,
+                                    "offset": 1064
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 74,
+                                    "offset": 1095
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 879
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 74,
+                            "offset": 1095
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Any objects that are to be used by a ",
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 3,
+                                    "offset": 1098
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 40,
+                                    "offset": 1135
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.LocalScript"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 40,
+                                    "offset": 1135
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 59,
+                                    "offset": 1154
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " in ReplicatedFirst\nshould also be parented to ReplicatedFirst. Otherwise, they may replicate to\nthe client late, yielding the script and negating the benefit of\nReplicatedFirst.",
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 59,
+                                    "offset": 1154
+                                },
+                                "end": {
+                                    "line": 29,
+                                    "column": 19,
+                                    "offset": 1338
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1096
+                        },
+                        "end": {
+                            "line": 29,
+                            "column": 19,
+                            "offset": 1338
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 23,
+                    "column": 1,
+                    "offset": 879
+                },
+                "end": {
+                    "line": 29,
+                    "column": 19,
+                    "offset": 1338
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "ReplicatedFirst also includes the function\n",
+                    "position": {
+                        "start": {
+                            "line": 31,
+                            "column": 1,
+                            "offset": 1340
+                        },
+                        "end": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1383
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ReplicatedFirst:RemoveDefaultLoadingScreen()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1383
+                        },
+                        "end": {
+                            "line": 32,
+                            "column": 53,
+                            "offset": 1435
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which can be used to\nimmediately remove the default Roblox loading screen. Note if any object has\nbeen placed in ReplicatedFirst, the default loading screen will remove after 5\nseconds regardless if this function has been called or not.",
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 53,
+                            "offset": 1435
+                        },
+                        "end": {
+                            "line": 35,
+                            "column": 60,
+                            "offset": 1673
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 31,
+                    "column": 1,
+                    "offset": 1340
+                },
+                "end": {
+                    "line": 35,
+                    "column": 60,
+                    "offset": 1673
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

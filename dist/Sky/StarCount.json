@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How many stars are shown in the skybox. Note that too many stars may cause\nsevere lag. Only works if ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 27,
+                            "offset": 101
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sky.CelestialBodiesShown"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 27,
+                            "offset": 101
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 59,
+                            "offset": 133
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is true.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 59,
+                            "offset": 133
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 68,
+                            "offset": 142
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 68,
+                    "offset": 142
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

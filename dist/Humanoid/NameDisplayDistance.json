@@ -1,0 +1,237 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "NameDisplayDistance",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 26,
+                                    "offset": 25
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property is a number used in conjunction with\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 78
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid.DisplayDistanceType"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 78
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 114
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property to control the distance\nfrom which a humanoid's name can be seen.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 114
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 189
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 42,
+                    "offset": 189
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 191
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 195
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/characters/name-health-display"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Character Name/Health Display",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 2,
+                                    "offset": 196
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 31,
+                                    "offset": 225
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 195
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 65,
+                            "offset": 259
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nfor an in-depth guide on controlling the appearance of character names and\nhealth bars.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 65,
+                            "offset": 259
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 13,
+                            "offset": 347
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 191
+                },
+                "end": {
+                    "line": 8,
+                    "column": 13,
+                    "offset": 347
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,1 +1,0 @@
-Whether the debugger is enabled or disabled.

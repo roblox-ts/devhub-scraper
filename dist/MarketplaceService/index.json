@@ -1,0 +1,728 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MarketplaceService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is responsible for in-experience transactions. The\nmost notable methods are\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 103
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MarketplaceService:PromptProductPurchase()|PromptProductPurchase"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 103
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 73,
+                            "offset": 175
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 73,
+                            "offset": 175
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 180
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MarketplaceService:PromptPurchase()|PromptPurchase"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 180
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 59,
+                            "offset": 238
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", as well as the\ncallback ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 59,
+                            "offset": 238
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 264
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MarketplaceService.ProcessReceipt|ProcessReceipt"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 264
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 66,
+                            "offset": 320
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " which must\nbe defined so that transactions do not fail.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 66,
+                            "offset": 320
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 376
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 45,
+                    "offset": 376
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MarketplaceService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 378
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 27,
+                            "offset": 404
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " also has methods that fetch information about\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 27,
+                            "offset": 404
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 451
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/production/monetization/developer-products"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "developer products",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 2,
+                                    "offset": 452
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 20,
+                                    "offset": 470
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 451
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 66,
+                            "offset": 516
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n(",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 66,
+                            "offset": 516
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 2,
+                            "offset": 518
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MarketplaceService:GetProductInfo()|GetProductInfo"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 2,
+                            "offset": 518
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 60,
+                            "offset": 576
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 60,
+                            "offset": 576
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 581
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MarketplaceService:GetDeveloperProductsAsync()|GetDeveloperProductsAsync"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 581
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 81,
+                            "offset": 661
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "),\n",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 81,
+                            "offset": 661
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 664
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/production/monetization/game-passes"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "passes",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 2,
+                                    "offset": 665
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 8,
+                                    "offset": 671
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 664
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 47,
+                            "offset": 710
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n(",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 47,
+                            "offset": 710
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 2,
+                            "offset": 712
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MarketplaceService:UserOwnsGamePassAsync()|UserOwnsGamePassAsync"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 2,
+                            "offset": 712
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 74,
+                            "offset": 784
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "),\nand other assets\n(",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 74,
+                            "offset": 784
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 2,
+                            "offset": 805
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MarketplaceService:PlayerOwnsAsset()|PlayerOwnsAsset"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 2,
+                            "offset": 805
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 62,
+                            "offset": 865
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 62,
+                            "offset": 865
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 867
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MarketplaceService:PlayerOwnsBundle()|PlayerOwnsBundle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 867
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 63,
+                            "offset": 929
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ").",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 63,
+                            "offset": 929
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 65,
+                            "offset": 931
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 378
+                },
+                "end": {
+                    "line": 16,
+                    "column": 65,
+                    "offset": 931
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Understanding ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 933
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 15,
+                            "offset": 947
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MarketplaceService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 15,
+                            "offset": 947
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 41,
+                            "offset": 973
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is the first step towards learning to\n",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 41,
+                            "offset": 973
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1012
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/production/monetization"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "monetize",
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 2,
+                                    "offset": 1013
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 10,
+                                    "offset": 1021
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1012
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 37,
+                            "offset": 1048
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " an experience on Roblox,\nas well as ",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 37,
+                            "offset": 1048
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 12,
+                            "offset": 1085
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DataStoreService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 12,
+                            "offset": 1085
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 36,
+                            "offset": 1109
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " which is responsible for saving and\nloading data related to purchases.",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 36,
+                            "offset": 1109
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 35,
+                            "offset": 1180
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 933
+                },
+                "end": {
+                    "line": 21,
+                    "column": 35,
+                    "offset": 1180
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

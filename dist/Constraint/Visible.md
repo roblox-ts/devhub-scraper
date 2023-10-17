@@ -1,1 +1,1 @@
-Toggles the visibility of this Constraint.
+Toggles the constraint's visibility.

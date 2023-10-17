@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Sets whether the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 18,
+                            "offset": 17
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HingeConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 18,
+                            "offset": 17
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will limit the range of rotation.\nIf enabled, the constraint will only allow the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 122
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HingeConstraint.CurrentAngle|CurrentAngle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 122
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 50,
+                            "offset": 171
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to be between\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 50,
+                            "offset": 171
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 186
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HingeConstraint.LowerAngle|LowerAngle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 186
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 46,
+                            "offset": 231
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 46,
+                            "offset": 231
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 236
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HingeConstraint.UpperAngle|UpperAngle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 236
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 46,
+                            "offset": 281
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". If the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 46,
+                            "offset": 281
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 55,
+                            "offset": 290
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 55,
+                            "offset": 290
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 73,
+                            "offset": 308
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nreach the end of the limited range of rotation then they will stop\nrotating. If ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 73,
+                            "offset": 308
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 389
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HingeConstraint.Restitution|Restitution"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 389
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 61,
+                            "offset": 436
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is greater\nthan 0 then the attachments will bounce when they hit the ends of the\nlimited range.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 61,
+                            "offset": 436
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 15,
+                            "offset": 532
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 9,
+                    "column": 15,
+                    "offset": 532
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

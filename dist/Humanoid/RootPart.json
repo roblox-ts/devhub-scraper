@@ -1,0 +1,357 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A reference to the humanoid's ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 31,
+                            "offset": 30
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "HumanoidRootPart",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 33,
+                                    "offset": 32
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 49,
+                                    "offset": 48
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 31,
+                            "offset": 30
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object, the root\ndriving part of the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 88
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 88
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 104
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that controls a humanoid's movement\nthrough the 3D world. This part is normally invisible.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 104
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 55,
+                            "offset": 195
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 55,
+                    "offset": 195
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/engine-api/classes/Humanoid/Character-HumanoidRootPart.jpg",
+                        "alt": "HumanoidRootPart made visible"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 197
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 101,
+                            "offset": 297
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 197
+                },
+                "end": {
+                    "line": 5,
+                    "column": 101,
+                    "offset": 297
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that in the case of player characters, ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 299
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 45,
+                            "offset": 343
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "RootPart",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 47,
+                                    "offset": 345
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 55,
+                                    "offset": 353
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 45,
+                            "offset": 343
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 57,
+                            "offset": 355
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is the same as\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 57,
+                            "offset": 355
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 5,
+                            "offset": 375
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model.PrimaryPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 5,
+                            "offset": 375
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 30,
+                            "offset": 400
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 30,
+                            "offset": 400
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 38,
+                            "offset": 408
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.Character"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 38,
+                            "offset": 408
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 62,
+                            "offset": 432
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " model.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 62,
+                            "offset": 432
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 69,
+                            "offset": 439
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 299
+                },
+                "end": {
+                    "line": 8,
+                    "column": 69,
+                    "offset": 439
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

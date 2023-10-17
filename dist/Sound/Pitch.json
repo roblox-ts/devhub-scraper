@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Sets how high pitched and fast a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is when it is played. The\ngreater the integer, the higher and faster the sound is.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 129
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 57,
+                    "offset": 129
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property has been deprecated in favor of ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 131
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 47,
+                            "offset": 177
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound.PlaybackSpeed"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 47,
+                            "offset": 177
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 74,
+                            "offset": 204
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nwhose name suits the behavior better.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 74,
+                            "offset": 204
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 38,
+                            "offset": 242
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 131
+                },
+                "end": {
+                    "line": 5,
+                    "column": 38,
+                    "offset": 242
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

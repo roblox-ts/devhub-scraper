@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Controls the playback of an animation on a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 44,
+                            "offset": 43
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 44,
+                            "offset": 43
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 60,
+                            "offset": 59
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 60,
+                            "offset": 59
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 63
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationController"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 63
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 28,
+                            "offset": 90
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This object cannot be created, instead it is\nreturned by the ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 28,
+                            "offset": 90
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 17,
+                            "offset": 153
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid:LoadAnimation()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 17,
+                            "offset": 153
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 185
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " method.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 185
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 57,
+                            "offset": 193
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 57,
+                    "offset": 193
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

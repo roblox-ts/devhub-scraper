@@ -1,19 +1,8 @@
-This property determines a [GUI](https://create.roblox.com/docs/reference/engine/classes/GuiObject), which is relative to its
-absolute size. The origin point determines from where the element is
-positioned (through [GuiObject.Position](https://create.roblox.com/docs/reference/engine/classes/GuiObject#Position)) and from which the rendered
-[GuiObject.Size](https://create.roblox.com/docs/reference/engine/classes/GuiObject#Size) expands.
+The **AnchorPoint** property determines the origin point of a
+[`GuiObject`](https://create.roblox.com/docs/reference/engine/classes/GuiObject), relative to its absolute size. The origin point
+determines from where the element is positioned (through
+[`GuiObject.Position`](https://create.roblox.com/docs/reference/engine/classes/GuiObject#Position)) and from which the rendered
+[`GuiObject.Size`](https://create.roblox.com/docs/reference/engine/classes/GuiObject#Size) expands.
 
-A good rule of thumb for this property: if the GUI in question is aligned
-to the left, the X value should be 0. If horizontally centered, set to
-0.5. Finally, if the element is aligned to the right, the X value ought to
-be 1. Similarly, set the Y value to 0, 0.5, and 1 for top, middle, and
-bottom for Y alignment.
-
-To understand how AnchorPoint works, try creating a [Frame](https://create.roblox.com/docs/reference/engine/classes/Frame) with
-[Frame.Position](https://create.roblox.com/docs/reference/engine/classes/Frame#Position) set to [UDim2.new(0.5, 0, 0.5, 0)](https://developer.roblox.com/en-us/api-reference/datatype/UDim2) (this
-will set the Frame in the center of its parent object). If you were to
-change [Frame.Size](https://create.roblox.com/docs/reference/engine/classes/Frame#Size), you would notice that the Frame will expand to the
-right and downward. The very center of the frame would also not be at the
-exact center of the parent object. However, if you were to set the
-AnchorPoint to `(0.5, 0.5)`, the Frame would expand in all directions and
-the center of the frame would indeed be at the parent object's center.
+See [here](https://create.roblox.com/docs/ui/positioning-and-sizing#anchorpoint) for
+illustrated diagrams and details.

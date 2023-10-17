@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Color3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " value which changes the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 45,
+                            "offset": 44
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Atmosphere"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 45,
+                            "offset": 44
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 63,
+                            "offset": 62
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " hue for\nsubtle environmental moods. This is best combined with increased\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 63,
+                            "offset": 62
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 136
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Atmosphere.Haze"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 136
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 159
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to expand the visible effect.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 159
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 54,
+                            "offset": 189
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 54,
+                    "offset": 189
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

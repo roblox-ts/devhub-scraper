@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Flag is a unit spawned with a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 35,
+                            "offset": 34
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.FlagStand"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 35,
+                            "offset": 34
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 52,
+                            "offset": 51
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object, and will respawn\nwhen captured. When a player touches this object's Handle, which must be a\nchild of the Flag object, which is a Part named \"Handle\", the flag will be\nadded to the player's backpack and will appear in their hand. A player cannot\nselect other weapons while carrying a flag, and can drop the flag at anytime\nby pressing \"Backspace\" on the keyboard. If the player carrying a flag steps\nonto another FlagStand of a different team color, the flag will be removed\nfrom the player's backpack and a point will be added to the user's\nleaderstats, if provided. The flag will then regenerate at the originating\nflag stand. This allows for 'Capture the Flag' to be made games very easily,\nwhich was the reason for its creation.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 52,
+                            "offset": 51
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 39,
+                            "offset": 791
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 11,
+                    "column": 39,
+                    "offset": 791
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

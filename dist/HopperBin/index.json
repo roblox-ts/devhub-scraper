@@ -1,0 +1,415 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "HopperBins are an outdated system for creating tools that can be used by a\nplayer. In place of HopperBins, please use ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 118
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 118
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 130
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " instead.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 130
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 65,
+                            "offset": 139
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 65,
+                    "offset": 139
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Historically, only HopperBins worked without a 'Handle' ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 141
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 197
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Part"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 197
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 69,
+                            "offset": 209
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", but this\nis no longer the case thanks to the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 69,
+                            "offset": 209
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 37,
+                            "offset": 256
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.RequiresHandle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 37,
+                            "offset": 256
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 64,
+                            "offset": 283
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property of\nTools.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 64,
+                            "offset": 283
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 7,
+                            "offset": 302
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 141
+                },
+                "end": {
+                    "line": 6,
+                    "column": 7,
+                    "offset": 302
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For capturing user input (from the Mouse for example), it is no longer\nnecessary to use HopperBins or Tools. Instead, please use these alternatives:",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 304
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 78,
+                            "offset": 452
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 304
+                },
+                "end": {
+                    "line": 9,
+                    "column": 78,
+                    "offset": 452
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.ContextActionService"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 3,
+                                    "offset": 456
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 31,
+                                    "offset": 484
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 454
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 31,
+                            "offset": 484
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.UserInputService"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 3,
+                                    "offset": 487
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 27,
+                                    "offset": 511
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 485
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 27,
+                            "offset": 511
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Player:GetMouse()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 3,
+                                    "offset": 514
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 28,
+                                    "offset": 539
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 512
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 28,
+                            "offset": 539
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 454
+                },
+                "end": {
+                    "line": 13,
+                    "column": 28,
+                    "offset": 539
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

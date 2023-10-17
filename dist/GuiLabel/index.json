@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "GuiLabel is an abstract class that inherits from ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 67,
+                            "offset": 66
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". It is the\nbase class for ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 67,
+                            "offset": 66
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 16,
+                            "offset": 93
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ImageLabel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 16,
+                            "offset": 93
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 34,
+                            "offset": 111
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 34,
+                            "offset": 111
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 39,
+                            "offset": 116
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 39,
+                            "offset": 116
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 133
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Unlike\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 133
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 142
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiButton"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 142
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 18,
+                            "offset": 159
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", objects of this type will not register click events, but\ninstead serve as non-interactive labels. It does not implement any further\nproperties, events or methods.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 18,
+                            "offset": 159
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 31,
+                            "offset": 323
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 31,
+                    "offset": 323
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,72 +1,27 @@
-A LineForce is used to apply a force along a line between two points. As the
-end points of the line move, the direction of the force will change
-accordingly.
+The **LineForce** constraint applies a force along the theoretical line
+connecting its two [`Attachments`](https://create.roblox.com/docs/reference/engine/classes/Attachment). As the end points
+(attachments) move, the direction of force will change accordingly.
 
-![LineForce Demo][1]
+When configuring this constraint, it may be helpful to study
+[Roblox Units](https://create.roblox.com/docs/physics/units) to understand how Roblox units
+compare to metric units.
+#### Force Location
 
-## Direction of force
+By default, force is applied to either parent at its attachment location. If
+desired, force can be focused at each parent's center of mass by enabling
+[`ApplyAtCenterOfMass`](https://create.roblox.com/docs/reference/engine/classes/LineForce#ApplyAtCenterOfMass).
+#### Inverse Square Law
 
-The direction that a LineForce applies its force in is determined by its
-[attachments](https://create.roblox.com/docs/reference/engine/classes/Attachment) and [LineForce.ApplyAtCenterOfMass](https://create.roblox.com/docs/reference/engine/classes/LineForce#ApplyAtCenterOfMass) properties. When
-ApplyAtCenter of mass is false, which it is by default, the direction of the
-force will be from the location of [Attachment0](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0) to the
-location of [Attachment1](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment1). If ApplyToCenter is true,
-then the direction will be from the center of mass of Attachment0's parent to
-the location of Attachment1. Note that if the parent of Attachment0 is rigidly
-connected to other parts, then the LineForce will use the center of mass of
-all of the parts to determine the origin of the direction.
+When [`InverseSquareLaw`](https://create.roblox.com/docs/reference/engine/classes/LineForce#InverseSquareLaw) is true, the force
+magnitude is multiplied by the inverse square of the distance, meaning the
+force will increase exponentially as the two attachments get closer together,
+like magnets. When using this setting, it's recommended that you set a
+[`MaxForce`](https://create.roblox.com/docs/reference/engine/classes/LineForce#MaxForce) threshold to prevent infinite force if the
+attachments align precisely.
+#### Reactionary Force
 
-## Location of force
-
-A LineForce will apply its force on the Parent of its Attachment0, but the
-location where the force is applied is determined by the LineForce's
-ApplyAtCenterOfMass property.
-
-When ApplyAtCenterOfMass is false, which it is by default, the force will be
-applied to the part at the Attachement0's location. This means that if the
-attachment is not at the center of the part, it can create a torque on the
-part.
-
-When ApplyAtCenterOfMass is set to true, the force will check if any other
-parts are rigidly connected to the parent part of its Attachment0. If there
-are, then the force will apply at the center of mass of all of the connected
-parts. If there are no rigid connections to other parts, the force will simply
-be applied at the center of mass of the part.
-
-## Strength of Force
-
-The strength of the force applied by a LineForce is determined by the
-[LineForce.Magnitude](https://create.roblox.com/docs/reference/engine/classes/LineForce#Magnitude) and [LineForce.InverseSquareLaw](https://create.roblox.com/docs/reference/engine/classes/LineForce#InverseSquareLaw) properties. The
-InverseSquareLaw property determines whether the force is constant or not.
-
-When InverseSquareLaw is false, which is is by default, the force applied is
-constant, and its magnitude is equal to the magnitude defined by the Magnitude
-property.
-
-When InverseSquareLaw is true, then the force will scale based on how much
-distance there is between the two endpoints. When the distance is 1 stud, then
-the force's magnitude will be the value of the Magnitude property. If the two
-points are further away, the force will decrease. Conversely, the force will
-increase if the two points move closer together. This function can be used to
-determine the force at any given separation:
-
-``[
-ActualMagnitude = Magnitude . (Separation ^ 2)
-](https://create.roblox.com/docs/reference/engine/classes/
-ActualMagnitude = Magnitude # (Separation ^ 2)
-)``
-
-LineForces with `LineForce.InverseSquareLaw` set to true can be used to
-simulate various physical systems such as gravity or electric fields.
-
-See also:
-
-- [Body Movers Example.rbxl][2], a sample place showcasing body movers in
-  various configurations.
-- [Attachments and Constraints][3], an article outlining how to create and use
-  attachments and constraints
-
-[1]: https://prod.docsiteassets.roblox.com/assets/blt1c206bd81152d773/LineForceDemo.gif
-[2]:
-  https://doy2mn9upadnk.cloudfront.net/uploads/default/original/3X/e/1/e17a844750802035b24f68ddcbd83f6312b8f1d6.rbxl
-[3]: https://developer.roblox.com/articles/Constraints
+By default, the constraint only applies force to
+[`Attachment0`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0), while
+[`Attachment1`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment1) remains unaffected. However, force
+can be applied to both attachments in **equal and opposite directions** by
+enabling [`ReactionForceEnabled`](https://create.roblox.com/docs/reference/engine/classes/LineForce#ReactionForceEnabled).

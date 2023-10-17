@@ -1,0 +1,219 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioFlanger"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " imparts a whooshing or sweeping sound on audio streams by\noverlaying a delayed copy of the input stream and modulating the pitch of the\ncopy. It provides one ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 23,
+                            "offset": 179
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Input",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 25,
+                                    "offset": 181
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 30,
+                                    "offset": 186
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 23,
+                            "offset": 179
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 188
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " pin and one ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 188
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 45,
+                            "offset": 201
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Output",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 47,
+                                    "offset": 203
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 53,
+                                    "offset": 209
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 45,
+                            "offset": 201
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 55,
+                            "offset": 211
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " pin which can be\nconnected to/from by ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 55,
+                            "offset": 211
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 250
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Wire|Wires"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 250
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 268
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 268
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 41,
+                            "offset": 269
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 41,
+                    "offset": 269
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,1 +1,1 @@
-The stored [Color3](/reference/engine/datatypes/Color3).
+The stored `Datatype.Color3`.

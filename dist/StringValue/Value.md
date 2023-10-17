@@ -1,1 +1,1 @@
-The stored [string](/scripting/luau/strings).
+The stored [string](https://create.roblox.com/docs/luau/strings).

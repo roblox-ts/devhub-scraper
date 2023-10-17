@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The base class for all objects which contain Lua code. ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 70,
+                            "offset": 69
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 70,
+                            "offset": 69
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 71
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 71
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 90
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 90
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 92
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ModuleScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 92
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 112
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 112
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 47,
+                            "offset": 117
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.CoreScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 47,
+                            "offset": 117
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 65,
+                            "offset": 135
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " all inherit\nfrom LuaSourceContainer.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 65,
+                            "offset": 135
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 25,
+                            "offset": 172
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 25,
+                    "offset": 172
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

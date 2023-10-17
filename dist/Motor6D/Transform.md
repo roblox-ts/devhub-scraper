@@ -1,14 +1,16 @@
-The internal CFrame that is manipulated by Animations when a Motor6D is
-being animated. It is recommended to use this property for custom
-animations rather than [JointInstance.C0](https://create.roblox.com/docs/reference/engine/classes/JointInstance#C0) and [JointInstance.C1](https://create.roblox.com/docs/reference/engine/classes/JointInstance#C1).
+The internal `Datatype.CFrame` that is manipulated when a [`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D)
+is being animated. It is recommended to use this property for custom
+animations rather than [`JointInstance.C0`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#C0) and
+[`JointInstance.C1`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#C1).
+##### Timing
 
-Transform is the transformation between the "parent" [part](https://create.roblox.com/docs/reference/engine/classes/BasePart) and
-the "child" part. The "parent" part will always be the part that is more
-directly connected to the JointInstance.C0. This is not affected by which
-part is assigned to [JointInstance.Part0](https://create.roblox.com/docs/reference/engine/classes/JointInstance#Part0) and which is
-[JointInstance.Part1](https://create.roblox.com/docs/reference/engine/classes/JointInstance#Part1). If the side the root part is on changes the
-interpretation of Transform will be inverted.
+[`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D) transforms are not applied immediately, unlike updating
+[`C0`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#C0) and [`C1`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#C1), but rather as
+a batch in a parallel job after [`RunService.Stepped`](https://create.roblox.com/docs/reference/engine/classes/RunService#Stepped), immediately
+before physics steps. The deferred batch update is much more efficient
+than many immediate updates.
 
-Similar to a [Weld](https://create.roblox.com/docs/reference/engine/classes/Weld), an active Motor6D will rigidly hold its two parts
-such that:
-`PartParent.CFrame * CParent * Transform == PartChild.CFrame * Child`
+If the [`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D) is part of an animated model with an
+[`Animator`](https://create.roblox.com/docs/reference/engine/classes/Animator), then [`Motor6D.Transform`](https://create.roblox.com/docs/reference/engine/classes/Motor6D#Transform) will usually be
+overwritten every frame by the [`Animator`](https://create.roblox.com/docs/reference/engine/classes/Animator) after
+[`RunService.PreAnimation`](https://create.roblox.com/docs/reference/engine/classes/RunService#PreAnimation) and before [`RunService.Stepped`](https://create.roblox.com/docs/reference/engine/classes/RunService#Stepped).

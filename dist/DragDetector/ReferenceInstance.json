@@ -1,0 +1,484 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "An instance whose ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is the reference frame for the drag\ndetector. The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 15,
+                            "offset": 86
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DragDetector.DragFrame|DragFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 15,
+                            "offset": 86
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 55,
+                            "offset": 126
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is expressed\nrelative to this ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 55,
+                            "offset": 126
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 18,
+                            "offset": 157
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 18,
+                            "offset": 157
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 35,
+                            "offset": 174
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " which may be retrieved via the\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 35,
+                            "offset": 174
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 206
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DragDetector:GetReferenceFrame()|GetReferenceFrame()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 206
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 61,
+                            "offset": 266
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " method.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 61,
+                            "offset": 266
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 69,
+                            "offset": 274
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 69,
+                    "offset": 274
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If this instance is a ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 276
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 23,
+                            "offset": 298
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PVInstance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 23,
+                            "offset": 298
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 316
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the reference frame will be its\npivot; if an ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 316
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 363
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 363
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 32,
+                            "offset": 381
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", then its world ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 32,
+                            "offset": 381
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 49,
+                            "offset": 398
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 49,
+                            "offset": 398
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 66,
+                            "offset": 415
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". If it\nis ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 66,
+                            "offset": 415
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 4,
+                            "offset": 426
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "nil"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 4,
+                            "offset": 426
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 9,
+                            "offset": 431
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or neither of the former, the reference frame will be based on\nthe pivot of the drag detector's parent ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 9,
+                            "offset": 431
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 41,
+                            "offset": 535
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 41,
+                            "offset": 535
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 57,
+                            "offset": 551
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 57,
+                            "offset": 551
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 61,
+                            "offset": 555
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 61,
+                            "offset": 555
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 74,
+                            "offset": 568
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 74,
+                            "offset": 568
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 75,
+                            "offset": 569
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 276
+                },
+                "end": {
+                    "line": 9,
+                    "column": 75,
+                    "offset": 569
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

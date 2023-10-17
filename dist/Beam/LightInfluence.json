@@ -1,0 +1,377 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines the degree to which the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is influenced by the\nenvironment's lighting.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 92
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 24,
+                    "offset": 92
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "LightInfluence is clamped between 0 and 1. When LightInfluence is 0, the\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 94
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 167
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 167
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 13,
+                            "offset": 179
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will be unaffected by the environment's lighting. When\nLightInfluence is 1 however, it will be fully affected by lighting (as a\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 13,
+                            "offset": 179
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 308
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 308
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 17,
+                            "offset": 324
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " would be).",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 17,
+                            "offset": 324
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 28,
+                            "offset": 335
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 94
+                },
+                "end": {
+                    "line": 7,
+                    "column": 28,
+                    "offset": 335
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For an example of this, and a demonstration of how this property interacts\nwith ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 337
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 6,
+                            "offset": 417
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.LightEmission"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 6,
+                            "offset": 417
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 32,
+                            "offset": 443
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", please see the images below.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 32,
+                            "offset": 443
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 62,
+                            "offset": 473
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 337
+                },
+                "end": {
+                    "line": 10,
+                    "column": 62,
+                    "offset": 473
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/BeamLight1.png",
+                        "alt": "Beam light"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 475
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 45,
+                            "offset": 519
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 475
+                },
+                "end": {
+                    "line": 12,
+                    "column": 45,
+                    "offset": 519
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/BeamLight2.png",
+                        "alt": "Beam light"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 521
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 45,
+                            "offset": 565
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 521
+                },
+                "end": {
+                    "line": 14,
+                    "column": 45,
+                    "offset": 565
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

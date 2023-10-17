@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The maximum angular acceleration a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HingeConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " with\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 64
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HingeConstraint.ActuatorType|ActuatorType"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 64
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 50,
+                            "offset": 113
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " set to\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 50,
+                            "offset": 113
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 121
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ActuatorType|Motor"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 121
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 146
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " can apply to achieve its\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 146
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 172
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HingeConstraint.AngularVelocity|AngularVelocity"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 172
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 56,
+                            "offset": 227
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Measured in\nradians/second².",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 56,
+                            "offset": 227
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 22,
+                            "offset": 262
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 22,
+                    "offset": 262
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

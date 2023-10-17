@@ -1,0 +1,452 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A read-only string representing the class this ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 64,
+                            "offset": 63
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " belongs\nto.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 64,
+                            "offset": 63
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 4,
+                            "offset": 75
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 4,
+                    "offset": 75
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property can be used with various other functions of Instance that\nare used to identify objects by type, such as ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 77
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 47,
+                            "offset": 195
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance:IsA()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 47,
+                            "offset": 195
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 69,
+                            "offset": 217
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 69,
+                            "offset": 217
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 221
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance:FindFirstChildOfClass()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 221
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 261
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 261
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 42,
+                            "offset": 262
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 77
+                },
+                "end": {
+                    "line": 6,
+                    "column": 42,
+                    "offset": 262
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note this property is read only and cannot be altered by scripts.\nDevelopers wishing to change an ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 264
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 33,
+                            "offset": 362
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 33,
+                            "offset": 362
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 49,
+                            "offset": 378
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "'s class will instead have\nto create a new ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 49,
+                            "offset": 378
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 17,
+                            "offset": 421
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 17,
+                            "offset": 421
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 33,
+                            "offset": 437
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 33,
+                            "offset": 437
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 34,
+                            "offset": 438
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 264
+                },
+                "end": {
+                    "line": 10,
+                    "column": 34,
+                    "offset": 438
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Unlike ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 440
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 8,
+                            "offset": 447
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance:IsA()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 8,
+                            "offset": 447
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 30,
+                            "offset": 469
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ClassName can be used to check if an object\nbelongs to a specific class ignoring class inheritance. For example:",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 30,
+                            "offset": 469
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 69,
+                            "offset": 583
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 440
+                },
+                "end": {
+                    "line": 13,
+                    "column": 69,
+                    "offset": 583
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "for _, child in ipairs(game.Workspace:GetChildren()) do\n    if child.ClassName == \"Part\" then\n        print(\"Found a Part\")\n        -- will find Parts in model, but NOT TrussParts, WedgeParts, etc\n    end\nend\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 585
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 4,
+                            "offset": 801
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 585
+                },
+                "end": {
+                    "line": 22,
+                    "column": 4,
+                    "offset": 801
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "(default {0, 100},{0, 100}) Determines the size of each element in the\ngrid. As with all UDim2s, this size can be both in a percentage of the\nparent container's size and raw pixel offset. If the element being size\nhas a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 7,
+                            "offset": 220
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 7,
+                            "offset": 220
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 27,
+                            "offset": 240
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " then the size will be determined by the\nconstraint, not the grid.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 27,
+                            "offset": 240
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 306
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 26,
+                    "offset": 306
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

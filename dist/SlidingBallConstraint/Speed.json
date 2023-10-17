@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The constraint's desired speed when\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 36
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SlidingBallConstraint.ActuatorType|ActuatorType"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 36
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 91
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 91
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 102
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ActuatorType|Servo"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 102
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 127
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", as the constraint translates towards its\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 127
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 170
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SlidingBallConstraint.TargetPosition|TargetPosition"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 170
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 60,
+                            "offset": 229
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Measured in\nstuds per second.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 60,
+                            "offset": 229
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 18,
+                            "offset": 260
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 18,
+                    "offset": 260
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

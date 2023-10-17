@@ -1,0 +1,147 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property defines the cloud cover within the overall skyscape layer.\nValid range is from 0 to 1 (sparse cloud cover to full cloud cover).",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 69,
+                            "offset": 141
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 69,
+                    "offset": 141
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 143
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 9,
+                            "offset": 151
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/environment/clouds"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Dynamic Clouds",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 39,
+                                    "offset": 181
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 53,
+                                    "offset": 195
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 9,
+                            "offset": 151
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 199
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\narticle for a summary of properties and expected results.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 199
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 58,
+                            "offset": 257
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 143
+                },
+                "end": {
+                    "line": 5,
+                    "column": 58,
+                    "offset": 257
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

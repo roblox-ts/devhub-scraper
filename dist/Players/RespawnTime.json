@@ -1,0 +1,366 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "RespawnTime",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 18,
+                                    "offset": 17
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property controls the time, in seconds, it takes for a\nplayer to respawn when ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 98
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Players.CharacterAutoLoads"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 98
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 58,
+                            "offset": 132
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is true. It\ndefaults to 5.0 seconds.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 58,
+                            "offset": 132
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 25,
+                            "offset": 169
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 25,
+                    "offset": 169
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This is useful when you want to change how long it takes to respawn based\non the type of your experience but don't want to handle spawning players\nindividually.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 171
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 331
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 171
+                },
+                "end": {
+                    "line": 7,
+                    "column": 14,
+                    "offset": 331
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Although this property can be set from within a ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 333
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 49,
+                            "offset": 381
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 49,
+                            "offset": 381
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 63,
+                            "offset": 395
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", you can\nmore easily set it directly on the ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 63,
+                            "offset": 395
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 36,
+                            "offset": 440
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Players",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 38,
+                                    "offset": 442
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 45,
+                                    "offset": 449
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 36,
+                            "offset": 440
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 47,
+                            "offset": 451
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object in Studio's\n",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 47,
+                            "offset": 451
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 471
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/studio/explorer"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Explorer",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 2,
+                                    "offset": 472
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 10,
+                                    "offset": 480
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 471
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 29,
+                            "offset": 499
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " window.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 29,
+                            "offset": 499
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 37,
+                            "offset": 507
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 333
+                },
+                "end": {
+                    "line": 11,
+                    "column": 37,
+                    "offset": 507
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

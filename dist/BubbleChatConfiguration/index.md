@@ -1,0 +1,2 @@
+Allows for customization of text chat bubbles through [`TextChatService`](https://create.roblox.com/docs/reference/engine/classes/TextChatService).
+See [Bubble Chat](https://create.roblox.com/docs/chat/bubble-chat) for implementation details.

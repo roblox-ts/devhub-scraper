@@ -1,0 +1,367 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The width in studs of the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 39,
+                            "offset": 38
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " at its base.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 39,
+                            "offset": 38
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 52,
+                            "offset": 51
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 52,
+                    "offset": 51
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The beam will be Width0 studs wide at ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 53
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 39,
+                            "offset": 91
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.Attachment0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 39,
+                            "offset": 91
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 63,
+                            "offset": 115
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and the\nwidth will change linearly to ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 63,
+                            "offset": 115
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 31,
+                            "offset": 154
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.Width1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 31,
+                            "offset": 154
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 50,
+                            "offset": 173
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " studs at\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 50,
+                            "offset": 173
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 183
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.Attachment1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 183
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 25,
+                            "offset": 207
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 25,
+                            "offset": 207
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 208
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 53
+                },
+                "end": {
+                    "line": 5,
+                    "column": 26,
+                    "offset": 208
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The width properties should not be confused with ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 210
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 50,
+                            "offset": 259
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.CurveSize0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 50,
+                            "offset": 259
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 73,
+                            "offset": 282
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nand ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 73,
+                            "offset": 282
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 5,
+                            "offset": 287
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.CurveSize1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 5,
+                            "offset": 287
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 28,
+                            "offset": 310
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " which control the curvature of the beam.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 28,
+                            "offset": 310
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 69,
+                            "offset": 351
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 210
+                },
+                "end": {
+                    "line": 8,
+                    "column": 69,
+                    "offset": 351
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

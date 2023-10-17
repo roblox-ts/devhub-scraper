@@ -1,0 +1,273 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A read only property that returns true when the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 49,
+                            "offset": 48
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 49,
+                            "offset": 48
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 71,
+                            "offset": 70
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is\nplaying.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 71,
+                            "offset": 70
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 9,
+                            "offset": 82
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 9,
+                    "offset": 82
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property can be used by developers to check if an animation is\nalready playing before playing it (as that would cause it to restart). If\na developer wishes to obtain all playing ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 84
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 42,
+                            "offset": 267
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 42,
+                            "offset": 267
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 64,
+                            "offset": 289
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s on a\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 64,
+                            "offset": 289
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 296
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 296
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 17,
+                            "offset": 312
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 17,
+                            "offset": 312
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 21,
+                            "offset": 316
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationController"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 21,
+                            "offset": 316
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 48,
+                            "offset": 343
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " they should use\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 48,
+                            "offset": 343
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 360
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid:GetPlayingAnimationTracks()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 360
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 45,
+                            "offset": 404
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 84
+                },
+                "end": {
+                    "line": 8,
+                    "column": 45,
+                    "offset": 404
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

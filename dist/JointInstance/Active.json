@@ -1,0 +1,445 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines if the joint is currently active in the world. If\ntrue, the joint is active.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 27,
+                            "offset": 101
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 27,
+                    "offset": 101
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 103
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 8,
+                            "offset": 110
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 8,
+                            "offset": 110
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 29,
+                            "offset": 131
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is not in ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 29,
+                            "offset": 131
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 142
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 142
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 159
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 159
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 163
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointsService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 163
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 22,
+                            "offset": 184
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", or one of its parts is not in Workspace the joint\nwill be inactive.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 22,
+                            "offset": 184
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 18,
+                            "offset": 253
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 103
+                },
+                "end": {
+                    "line": 6,
+                    "column": 18,
+                    "offset": 253
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Rigid joints like ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 255
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 19,
+                            "offset": 273
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Weld"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 19,
+                            "offset": 273
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 31,
+                            "offset": 285
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 31,
+                            "offset": 285
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 33,
+                            "offset": 287
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Snap"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 33,
+                            "offset": 287
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 45,
+                            "offset": 299
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 45,
+                            "offset": 299
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 47,
+                            "offset": 301
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.WeldConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 47,
+                            "offset": 301
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 69,
+                            "offset": 323
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 69,
+                            "offset": 323
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 325
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 325
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 14,
+                            "offset": 338
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", or ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 14,
+                            "offset": 338
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 19,
+                            "offset": 343
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 19,
+                            "offset": 343
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 34,
+                            "offset": 358
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " may also be disabled due to conflicts\nwith other rigid joints, such as joints between the same two parts or\nindirect cycles in the weld graph. Joints disabled this way may be\nre-enabled later when another joint or part is added or removed.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 34,
+                            "offset": 358
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 65,
+                            "offset": 598
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 255
+                },
+                "end": {
+                    "line": 12,
+                    "column": 65,
+                    "offset": 598
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

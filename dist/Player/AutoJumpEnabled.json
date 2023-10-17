@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The AutoJumpEnabled property determines whether the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 52
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.Character"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 52
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of a ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 82
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 82
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 45,
+                            "offset": 96
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " using a mobile device will\nautomatically jump when they hit an obstacle. This can make levels more\nnavigable while on a mobile device.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 45,
+                            "offset": 96
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 36,
+                            "offset": 231
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 36,
+                    "offset": 231
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When the player joins the game, the ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 233
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 37,
+                            "offset": 269
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPlayer.AutoJumpEnabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 37,
+                            "offset": 269
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 74,
+                            "offset": 306
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nvalue determines the initial state of this property. Then, this property\ndetermines the value of the ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 74,
+                            "offset": 306
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 29,
+                            "offset": 408
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid.AutoJumpEnabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 29,
+                            "offset": 408
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 61,
+                            "offset": 440
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property of\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 61,
+                            "offset": 440
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 5,
+                            "offset": 457
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.Character"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 5,
+                            "offset": 457
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 29,
+                            "offset": 481
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " on spawn. In other words, it is possible to\nset the auto-jump behavior on a per-character, per-player and per-game\nbasis using these three properties.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 29,
+                            "offset": 481
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 36,
+                            "offset": 632
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 233
+                },
+                "end": {
+                    "line": 11,
+                    "column": 36,
+                    "offset": 632
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,1439 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "HttpService",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 14,
+                                    "offset": 13
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " allows HTTP requests to be sent from game servers using\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 72
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HttpService:RequestAsync()|RequestAsync"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 72
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 48,
+                            "offset": 119
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 48,
+                            "offset": 119
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 121
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HttpService:GetAsync()|GetAsync"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 121
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 40,
+                            "offset": 160
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 40,
+                            "offset": 160
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 165
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HttpService:PostAsync()|PostAsync"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 165
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 42,
+                            "offset": 206
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This service allows games to be\nintegrated with off-Roblox web services such as analytics, data storage,\nremote server configuration, error reporting, advanced calculations or\nreal-time communication.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 42,
+                            "offset": 206
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 25,
+                            "offset": 408
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 7,
+                    "column": 25,
+                    "offset": 408
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "You should only send HTTP requests to trusted third-party platforms to avoid\nmaking your experience vulnerable to security risks.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 410
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 53,
+                            "offset": 539
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 410
+                },
+                "end": {
+                    "line": 10,
+                    "column": 53,
+                    "offset": 539
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Enabling HTTP Requests",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 4,
+                            "offset": 544
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 26,
+                            "offset": 566
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 541
+                },
+                "end": {
+                    "line": 12,
+                    "column": 26,
+                    "offset": 566
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Request-sending functions aren't enabled by default: attempting to use them\nwhile disabled will result in the error \"Http requests are not enabled. Enable\nvia game settings\". To send requests, set\n",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 568
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 765
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HttpService.HttpEnabled|HttpEnabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 765
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 44,
+                            "offset": 808
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to true through the Game Settings\ninterface in Studio under the Security section, or use the Command Bar for\nunpublished experiences. This property cannot be interacted with at runtime.",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 44,
+                            "offset": 808
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 77,
+                            "offset": 994
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 568
+                },
+                "end": {
+                    "line": 19,
+                    "column": 77,
+                    "offset": 994
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "-- For unpublished games, use this in the Command Bar:\ngame:GetService(\"HttpService\").HttpEnabled = true\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 996
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 4,
+                            "offset": 1111
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 21,
+                    "column": 1,
+                    "offset": 996
+                },
+                "end": {
+                    "line": 24,
+                    "column": 4,
+                    "offset": 1111
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Other Functions",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 4,
+                            "offset": 1116
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 19,
+                            "offset": 1131
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 26,
+                    "column": 1,
+                    "offset": 1113
+                },
+                "end": {
+                    "line": 26,
+                    "column": 19,
+                    "offset": 1131
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "HttpService also houses the ",
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 1,
+                            "offset": 1133
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 29,
+                            "offset": 1161
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HttpService:JSONEncode()|JSONEncode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 29,
+                            "offset": 1161
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 72,
+                            "offset": 1204
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 72,
+                            "offset": 1204
+                        },
+                        "end": {
+                            "line": 29,
+                            "column": 1,
+                            "offset": 1209
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HttpService:JSONDecode()|JSONDecode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 1,
+                            "offset": 1209
+                        },
+                        "end": {
+                            "line": 29,
+                            "column": 44,
+                            "offset": 1252
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " functions, which are useful for\ncommunicating with services that use the ",
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 44,
+                            "offset": 1252
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 42,
+                            "offset": 1326
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://json.org"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "JSON",
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 43,
+                                    "offset": 1327
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "column": 47,
+                                    "offset": 1331
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 42,
+                            "offset": 1326
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 66,
+                            "offset": 1350
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " format. In\naddition, the ",
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 66,
+                            "offset": 1350
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 15,
+                            "offset": 1376
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HttpService:GenerateGUID()|GenerateGUID"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 31,
+                            "column": 15,
+                            "offset": 1376
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 62,
+                            "offset": 1423
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " function\nprovides random 128-bit labels, which can be treated as probabilistically\nunique in a variety of scenarios.",
+                    "position": {
+                        "start": {
+                            "line": 31,
+                            "column": 62,
+                            "offset": 1423
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 34,
+                            "offset": 1540
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 28,
+                    "column": 1,
+                    "offset": 1133
+                },
+                "end": {
+                    "line": 33,
+                    "column": 34,
+                    "offset": 1540
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Use in Plugins",
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 4,
+                            "offset": 1545
+                        },
+                        "end": {
+                            "line": 35,
+                            "column": 18,
+                            "offset": 1559
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 35,
+                    "column": 1,
+                    "offset": 1542
+                },
+                "end": {
+                    "line": 35,
+                    "column": 18,
+                    "offset": 1559
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "HttpService can also be used by Roblox Studio plugins. They may do this to\ncheck for updates, send usage data, download content or other business logic.\nThe first time a plugin attempts to do this, the user may be prompted to give\nthe plugin permission to communicate with the particular web address. A user\nmay accept, deny and revoke such permissions at any time through the Plugin\nManagement window.",
+                    "position": {
+                        "start": {
+                            "line": 37,
+                            "column": 1,
+                            "offset": 1561
+                        },
+                        "end": {
+                            "line": 42,
+                            "column": 19,
+                            "offset": 1963
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 37,
+                    "column": 1,
+                    "offset": 1561
+                },
+                "end": {
+                    "line": 42,
+                    "column": 19,
+                    "offset": 1963
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Plugins may also communicate with other software running on the same computer\nthrough the ",
+                    "position": {
+                        "start": {
+                            "line": 44,
+                            "column": 1,
+                            "offset": 1965
+                        },
+                        "end": {
+                            "line": 45,
+                            "column": 13,
+                            "offset": 2055
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "localhost"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 45,
+                            "column": 13,
+                            "offset": 2055
+                        },
+                        "end": {
+                            "line": 45,
+                            "column": 24,
+                            "offset": 2066
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 45,
+                            "column": 24,
+                            "offset": 2066
+                        },
+                        "end": {
+                            "line": 45,
+                            "column": 29,
+                            "offset": 2071
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "127.0.0.1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 45,
+                            "column": 29,
+                            "offset": 2071
+                        },
+                        "end": {
+                            "line": 45,
+                            "column": 40,
+                            "offset": 2082
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " hosts. By running programs compatible\nwith such plugins, you can extend the functionality of your plugin beyond the\nnormal capabilities of Roblox Studio, such as interacting with your computer's\nfile system. Beware that such software must be distributed separately from the\nplugin itself, and can pose security hazards if you aren't careful.",
+                    "position": {
+                        "start": {
+                            "line": 45,
+                            "column": 40,
+                            "offset": 2082
+                        },
+                        "end": {
+                            "line": 49,
+                            "column": 68,
+                            "offset": 2424
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 44,
+                    "column": 1,
+                    "offset": 1965
+                },
+                "end": {
+                    "line": 49,
+                    "column": 68,
+                    "offset": 2424
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Considerations",
+                    "position": {
+                        "start": {
+                            "line": 51,
+                            "column": 4,
+                            "offset": 2429
+                        },
+                        "end": {
+                            "line": 51,
+                            "column": 18,
+                            "offset": 2443
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 51,
+                    "column": 1,
+                    "offset": 2426
+                },
+                "end": {
+                    "line": 51,
+                    "column": 18,
+                    "offset": 2443
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "There are port restrictions. You cannot use port 1194 or any port below\n1024, except 80 and 443. If you try to use a blocked port, you will receive\neither a ",
+                            "position": {
+                                "start": {
+                                    "line": 53,
+                                    "column": 3,
+                                    "offset": 2447
+                                },
+                                "end": {
+                                    "line": 55,
+                                    "column": 12,
+                                    "offset": 2608
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "403 Forbidden"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 55,
+                                    "column": 12,
+                                    "offset": 2608
+                                },
+                                "end": {
+                                    "line": 55,
+                                    "column": 27,
+                                    "offset": 2623
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " or ",
+                            "position": {
+                                "start": {
+                                    "line": 55,
+                                    "column": 27,
+                                    "offset": 2623
+                                },
+                                "end": {
+                                    "line": 55,
+                                    "column": 31,
+                                    "offset": 2627
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "ERR_ACCESS_DENIED"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 55,
+                                    "column": 31,
+                                    "offset": 2627
+                                },
+                                "end": {
+                                    "line": 55,
+                                    "column": 50,
+                                    "offset": 2646
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " error.",
+                            "position": {
+                                "start": {
+                                    "line": 55,
+                                    "column": 50,
+                                    "offset": 2646
+                                },
+                                "end": {
+                                    "line": 55,
+                                    "column": 57,
+                                    "offset": 2653
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 53,
+                            "column": 1,
+                            "offset": 2445
+                        },
+                        "end": {
+                            "line": 55,
+                            "column": 57,
+                            "offset": 2653
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "For each Roblox game server, there is a limit of 500 HTTP requests per\nminute. Exceeding this may cause request-sending functions to stall entirely\nfor about 30 seconds.",
+                            "position": {
+                                "start": {
+                                    "line": 56,
+                                    "column": 3,
+                                    "offset": 2656
+                                },
+                                "end": {
+                                    "line": 58,
+                                    "column": 24,
+                                    "offset": 2829
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 56,
+                            "column": 1,
+                            "offset": 2654
+                        },
+                        "end": {
+                            "line": 58,
+                            "column": 24,
+                            "offset": 2829
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Requests cannot be made to any Roblox website, such as ",
+                            "position": {
+                                "start": {
+                                    "line": 59,
+                                    "column": 3,
+                                    "offset": 2832
+                                },
+                                "end": {
+                                    "line": 59,
+                                    "column": 58,
+                                    "offset": 2887
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                                "href": "http://www.roblox.com"
+                            },
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "www.roblox.com",
+                                    "position": {
+                                        "start": {
+                                            "line": 59,
+                                            "column": 58,
+                                            "offset": 2887
+                                        },
+                                        "end": {
+                                            "line": 59,
+                                            "column": 72,
+                                            "offset": 2901
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 59,
+                                    "column": 58,
+                                    "offset": 2887
+                                },
+                                "end": {
+                                    "line": 59,
+                                    "column": 72,
+                                    "offset": 2901
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 59,
+                                    "column": 72,
+                                    "offset": 2901
+                                },
+                                "end": {
+                                    "line": 59,
+                                    "column": 73,
+                                    "offset": 2902
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 59,
+                            "column": 1,
+                            "offset": 2830
+                        },
+                        "end": {
+                            "line": 59,
+                            "column": 73,
+                            "offset": 2902
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Web requests can fail for many reasons, so it is important to \"code\ndefensively\" (use ",
+                            "position": {
+                                "start": {
+                                    "line": 60,
+                                    "column": 3,
+                                    "offset": 2905
+                                },
+                                "end": {
+                                    "line": 61,
+                                    "column": 21,
+                                    "offset": 2993
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "pcall"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 61,
+                                    "column": 21,
+                                    "offset": 2993
+                                },
+                                "end": {
+                                    "line": 61,
+                                    "column": 28,
+                                    "offset": 3000
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ") and have a plan for when requests fail.",
+                            "position": {
+                                "start": {
+                                    "line": 61,
+                                    "column": 28,
+                                    "offset": 3000
+                                },
+                                "end": {
+                                    "line": 61,
+                                    "column": 69,
+                                    "offset": 3041
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 60,
+                            "column": 1,
+                            "offset": 2903
+                        },
+                        "end": {
+                            "line": 61,
+                            "column": 69,
+                            "offset": 3041
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Although the ",
+                            "position": {
+                                "start": {
+                                    "line": 62,
+                                    "column": 3,
+                                    "offset": 3044
+                                },
+                                "end": {
+                                    "line": 62,
+                                    "column": 16,
+                                    "offset": 3057
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "http://"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 62,
+                                    "column": 16,
+                                    "offset": 3057
+                                },
+                                "end": {
+                                    "line": 62,
+                                    "column": 25,
+                                    "offset": 3066
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " protocol is supported, you should use ",
+                            "position": {
+                                "start": {
+                                    "line": 62,
+                                    "column": 25,
+                                    "offset": 3066
+                                },
+                                "end": {
+                                    "line": 62,
+                                    "column": 64,
+                                    "offset": 3105
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "https://"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 62,
+                                    "column": 64,
+                                    "offset": 3105
+                                },
+                                "end": {
+                                    "line": 62,
+                                    "column": 74,
+                                    "offset": 3115
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\nwherever possible.",
+                            "position": {
+                                "start": {
+                                    "line": 62,
+                                    "column": 74,
+                                    "offset": 3115
+                                },
+                                "end": {
+                                    "line": 63,
+                                    "column": 21,
+                                    "offset": 3136
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 62,
+                            "column": 1,
+                            "offset": 3042
+                        },
+                        "end": {
+                            "line": 63,
+                            "column": 21,
+                            "offset": 3136
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Requests sent should provide a secure form of authentication, such as a\npre-shared secret key, so that bad actors cannot pose as one of your Roblox\ngame servers.",
+                            "position": {
+                                "start": {
+                                    "line": 64,
+                                    "column": 3,
+                                    "offset": 3139
+                                },
+                                "end": {
+                                    "line": 66,
+                                    "column": 16,
+                                    "offset": 3304
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 64,
+                            "column": 1,
+                            "offset": 3137
+                        },
+                        "end": {
+                            "line": 66,
+                            "column": 16,
+                            "offset": 3304
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Be aware of the general capacity and rate-limiting policies of the web\nservers to which requests are being sent.",
+                            "position": {
+                                "start": {
+                                    "line": 67,
+                                    "column": 3,
+                                    "offset": 3307
+                                },
+                                "end": {
+                                    "line": 68,
+                                    "column": 44,
+                                    "offset": 3421
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 67,
+                            "column": 1,
+                            "offset": 3305
+                        },
+                        "end": {
+                            "line": 68,
+                            "column": 44,
+                            "offset": 3421
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 53,
+                    "column": 1,
+                    "offset": 2445
+                },
+                "end": {
+                    "line": 68,
+                    "column": 44,
+                    "offset": 3421
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

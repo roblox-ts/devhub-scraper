@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The MaxThrust property determines the upper limit of the thrust that may\nbe exerted to move the part. Parts or assemblies that have high\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 137
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart:GetMass()|mass"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 137
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 168
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will require more thrust in order to to\nremain airborne, and thus track the\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 168
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 245
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RocketPropulsion.Target|Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 245
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 283
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 283
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 40,
+                            "offset": 284
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 40,
+                    "offset": 284
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

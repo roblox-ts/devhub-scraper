@@ -1,0 +1,303 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The TextureId is the content ID of the image that is to be applied to used\nfor the meshes texture. When the TextureId property is set to an empty\nstring, no texture will be applied to the mesh.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 48,
+                            "offset": 193
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 48,
+                    "offset": 193
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How can I change the texture of a mesh?",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 6,
+                            "offset": 200
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 45,
+                            "offset": 239
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 195
+                },
+                "end": {
+                    "line": 5,
+                    "column": 45,
+                    "offset": 239
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Using the TextureId property, the texture of a mesh can be changed without\nhaving to reupload the mesh. To do this, a new image will need to be\nuploaded to Roblox with the desired texture. The original texture image\nfile can be obtained by exporting the mesh using the 'Export Selection'\noption in Roblox Studio. The image file will be saved alongside the\nexported .obj file.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 241
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 20,
+                            "offset": 616
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 241
+                },
+                "end": {
+                    "line": 12,
+                    "column": 20,
+                    "offset": 616
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The new texture can then be re-uploaded to Roblox as a Decal and its\ncontent ID can be applied to the mesh using the TextureId property.",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 618
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 68,
+                            "offset": 754
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 618
+                },
+                "end": {
+                    "line": 15,
+                    "column": 68,
+                    "offset": 754
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How can I make a textured mesh?",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 6,
+                            "offset": 761
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 37,
+                            "offset": 792
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 756
+                },
+                "end": {
+                    "line": 17,
+                    "column": 37,
+                    "offset": 792
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A mesh can only be textured if the mesh has been UV mapped. UV mapping\nrefers to the practice of projecting a texture map onto a mesh. This\ncannot be done using Roblox Studio and has to be done using an external 3D\nmodelling application such as ",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 794
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 31,
+                            "offset": 1039
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://www.blender.org/"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Blender",
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 32,
+                                    "offset": 1040
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 39,
+                                    "offset": 1047
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 31,
+                            "offset": 1039
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 43,
+                            "offset": 1051
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 43,
+                            "offset": 1051
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 44,
+                            "offset": 1052
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 19,
+                    "column": 1,
+                    "offset": 794
+                },
+                "end": {
+                    "line": 22,
+                    "column": 44,
+                    "offset": 1052
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

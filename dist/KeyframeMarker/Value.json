@@ -1,0 +1,463 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A value that is specified for a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 33,
+                            "offset": 32
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.KeyframeMarker"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 33,
+                            "offset": 32
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 55,
+                            "offset": 54
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Whenever the\nsignal created from ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 55,
+                            "offset": 54
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 89
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack:GetMarkerReachedSignal()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 89
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 68,
+                            "offset": 136
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " gets\nfired, this value will be passed into the connected function.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 68,
+                            "offset": 136
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 62,
+                            "offset": 203
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 62,
+                    "offset": 203
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 205
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 214
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 205
+                },
+                "end": {
+                    "line": 5,
+                    "column": 10,
+                    "offset": 214
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Keyframe"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 3,
+                                    "offset": 218
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 19,
+                                    "offset": 234
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", holds the ",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 19,
+                                    "offset": 234
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 31,
+                                    "offset": 246
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Pose|Poses"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 31,
+                                    "offset": 246
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 49,
+                                    "offset": 264
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " applied to joints in a\n",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 49,
+                                    "offset": 264
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 1,
+                                    "offset": 288
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Model"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 3,
+                                    "offset": 290
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 16,
+                                    "offset": 303
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " at a given point of time in an animation",
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 16,
+                                    "offset": 303
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 57,
+                                    "offset": 344
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 216
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 57,
+                            "offset": 344
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.AnimationTrack"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 3,
+                                    "offset": 347
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 25,
+                                    "offset": 369
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", controls the playback of an animation on a\n",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 25,
+                                    "offset": 369
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 1,
+                                    "offset": 414
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Humanoid"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 3,
+                                    "offset": 416
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 19,
+                                    "offset": 432
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " or ",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 19,
+                                    "offset": 432
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 23,
+                                    "offset": 436
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.AnimationController"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 23,
+                                    "offset": 436
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 50,
+                                    "offset": 463
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 345
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 50,
+                            "offset": 463
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 216
+                },
+                "end": {
+                    "line": 10,
+                    "column": 50,
+                    "offset": 463
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

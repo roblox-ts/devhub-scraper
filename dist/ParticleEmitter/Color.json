@@ -1,0 +1,367 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Color property determines the color of all active particles over their\nindividual lifetimes. The color applies to the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 122
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.Texture"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 122
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 153
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when rendering, and it uses the texture\nalpha along with the ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 153
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 215
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.Transparency"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 215
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 58,
+                            "offset": 251
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". If a particle\nhas a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 58,
+                            "offset": 251
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 7,
+                            "offset": 273
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.LightEmission"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 7,
+                            "offset": 273
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 44,
+                            "offset": 310
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " value that's greater than 0,\ndarker colors make particles appear more transparent.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 44,
+                            "offset": 310
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 54,
+                            "offset": 393
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 54,
+                    "offset": 393
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that the default ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 395
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 23,
+                            "offset": 417
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.Lifetime"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 23,
+                            "offset": 417
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 55,
+                            "offset": 449
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is 5 to 10 seconds,\nso some particles next to each other have small variations in color due to\nthe variations in individual particle lifetime.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 55,
+                            "offset": 449
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 48,
+                            "offset": 592
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 395
+                },
+                "end": {
+                    "line": 10,
+                    "column": 48,
+                    "offset": 592
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A particle's present color is determined by linearly interpolating on this\nColorSequence using the particle's age and the particle's total lifetime.\nFor example, if a particle spawned 2 seconds ago and has a 4 second\nlifetime, the color will be whatever is 50% of the way through the\n",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 594
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 878
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.ColorSequence"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 878
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 25,
+                            "offset": 902
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 25,
+                            "offset": 902
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 26,
+                            "offset": 903
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 594
+                },
+                "end": {
+                    "line": 16,
+                    "column": 26,
+                    "offset": 903
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Changing this property applies changes to all particles present in the\nsystem. This is because the color of a particle is determined using its\npresent lifetime and this ColorSequence (the ColorSequence when the\nparticle was emit is not stored on a per-particle basis).",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 905
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 58,
+                            "offset": 1173
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 905
+                },
+                "end": {
+                    "line": 21,
+                    "column": 58,
+                    "offset": 1173
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,524 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Orientation property describes the part's rotation in degrees around\nthe X, Y and Z axes using a Vector3. The rotations are applied in Y → X →\nZ order. This differs from proper ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 35,
+                            "offset": 181
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://en.wikipedia.org/wiki/Euler_angles"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Euler angles",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 36,
+                                    "offset": 182
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 48,
+                                    "offset": 194
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 35,
+                            "offset": 181
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 52,
+                            "offset": 198
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and is instead\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 52,
+                            "offset": 198
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 214
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://en.wikipedia.org/wiki/Euler_angles#Tait-Bryan_angles"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Tait-Bryan angles",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 2,
+                                    "offset": 215
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 19,
+                                    "offset": 232
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 214
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 23,
+                            "offset": 236
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which describe ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 23,
+                            "offset": 236
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 253
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "yaw, pitch and roll",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 42,
+                                    "offset": 255
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 61,
+                                    "offset": 274
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 253
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 63,
+                            "offset": 276
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". It is also\nworth noting how this property differs from the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 63,
+                            "offset": 276
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 49,
+                            "offset": 337
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame.Angles()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 49,
+                            "offset": 337
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 75,
+                            "offset": 363
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nconstructor, which applies rotations in a different order (Z → Y → X). For\nbetter control over the rotation of a part, it is recommended that\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 75,
+                            "offset": 363
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 506
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 506
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 24,
+                            "offset": 529
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set instead.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 24,
+                            "offset": 529
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 40,
+                            "offset": 545
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 8,
+                    "column": 40,
+                    "offset": 545
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When setting this property any ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 662
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 32,
+                            "offset": 693
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Weld|Welds"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 32,
+                            "offset": 693
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 50,
+                            "offset": 711
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 50,
+                            "offset": 711
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 715
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D|Motor6Ds"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 715
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 25,
+                            "offset": 739
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " connected to this part will have the matching\n",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 25,
+                            "offset": 739
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 786
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.C0|C0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 786
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 28,
+                            "offset": 813
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 28,
+                            "offset": 813
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 32,
+                            "offset": 817
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.C1|C1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 32,
+                            "offset": 817
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 59,
+                            "offset": 844
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property\nupdated and to allow the part to move relative to any other parts it is\njoined to.",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 59,
+                            "offset": 844
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 11,
+                            "offset": 936
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 662
+                },
+                "end": {
+                    "line": 17,
+                    "column": 11,
+                    "offset": 936
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "WeldConstraints will also be temporarily disabled and re-enabled during\nthe move.",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 938
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 10,
+                            "offset": 1019
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 19,
+                    "column": 1,
+                    "offset": 938
+                },
+                "end": {
+                    "line": 20,
+                    "column": 10,
+                    "offset": 1019
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

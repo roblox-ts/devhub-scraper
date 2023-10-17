@@ -1,0 +1,117 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Font"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the bubble text. Default is ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.Font.GothamMedium"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 72,
+                            "offset": 71
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 72,
+                            "offset": 71
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 73,
+                            "offset": 72
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 73,
+                    "offset": 72
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

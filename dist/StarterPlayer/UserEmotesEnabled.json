@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines if user-owned emotes are loaded when loading\navatars. Setting this property to false disables loading. Developers can\nset the property in Studio directly or through the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 194
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/studio/game-settings"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Game Settings menu",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 2,
+                                    "offset": 195
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 20,
+                                    "offset": 213
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 194
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 44,
+                            "offset": 237
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 44,
+                            "offset": 237
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 45,
+                            "offset": 238
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 45,
+                    "offset": 238
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When emote loading is disabled, the emotes UI will still work as long as\ndevelopers choose to use the emotes feature by adding emotes within their\ngame.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 240
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 6,
+                            "offset": 392
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 240
+                },
+                "end": {
+                    "line": 8,
+                    "column": 6,
+                    "offset": 392
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 394
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 10,
+                            "offset": 403
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 394
+                },
+                "end": {
+                    "line": 10,
+                    "column": 10,
+                    "offset": 403
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                                "href": "/characters/emotes"
+                            },
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Avatar Emotes",
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 4,
+                                            "offset": 408
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 17,
+                                            "offset": 421
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 3,
+                                    "offset": 407
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 38,
+                                    "offset": 442
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", an article detailing how\nto control, customize, and play avatar emotes",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 38,
+                                    "offset": 442
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 48,
+                                    "offset": 516
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 405
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 48,
+                            "offset": 516
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 405
+                },
+                "end": {
+                    "line": 13,
+                    "column": 48,
+                    "offset": 516
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

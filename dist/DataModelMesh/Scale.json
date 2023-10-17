@@ -1,0 +1,1378 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Scale of a mesh determines the size of the mesh relative to its\noriginal dimensions.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 88
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 21,
+                    "offset": 88
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How to use mesh scale",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 6,
+                            "offset": 95
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 27,
+                            "offset": 116
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 90
+                },
+                "end": {
+                    "line": 4,
+                    "column": 27,
+                    "offset": 116
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The scale property works slightly differently depending on the type of\nmesh being used. Note the size of the ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 118
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 39,
+                            "offset": 227
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 39,
+                            "offset": 227
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 55,
+                            "offset": 243
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " remains unchanged,\nmeaning the physics collision box of the part will remain the same.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 55,
+                            "offset": 243
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 68,
+                            "offset": 330
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 118
+                },
+                "end": {
+                    "line": 8,
+                    "column": 68,
+                    "offset": 330
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpecialMesh"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 3,
+                                    "offset": 334
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 22,
+                                    "offset": 353
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " objects with ",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 22,
+                                    "offset": 353
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 36,
+                                    "offset": 367
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpecialMesh.FileType"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 36,
+                                    "offset": 367
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 64,
+                                    "offset": 395
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " set to\n'FileMesh' scale relative to the original dimensions of the mesh when it\nwas uploaded to Roblox",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 64,
+                                    "offset": 395
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 25,
+                                    "offset": 502
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 332
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 25,
+                            "offset": 502
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.BlockMesh"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 3,
+                                    "offset": 505
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 20,
+                                    "offset": 522
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " objects or ",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 20,
+                                    "offset": 522
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 32,
+                                    "offset": 534
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpecialMesh"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 32,
+                                    "offset": 534
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 51,
+                                    "offset": 553
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " objects with\n",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 51,
+                                    "offset": 553
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 1,
+                                    "offset": 567
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpecialMesh.FileType"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 3,
+                                    "offset": 569
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 31,
+                                    "offset": 597
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " set to 'Brick', 'Wedge' or 'Sphere' scale\nuniformly relative to the ",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 31,
+                                    "offset": 597
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 29,
+                                    "offset": 668
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.BasePart.Size"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 29,
+                                    "offset": 668
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 50,
+                                    "offset": 689
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " of their parent",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 50,
+                                    "offset": 689
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 66,
+                                    "offset": 705
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 503
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 66,
+                            "offset": 705
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.CylinderMesh"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 3,
+                                    "offset": 708
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 23,
+                                    "offset": 728
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " objects or ",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 23,
+                                    "offset": 728
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 35,
+                                    "offset": 740
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpecialMesh"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 35,
+                                    "offset": 740
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 54,
+                                    "offset": 759
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " objects with\n",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 54,
+                                    "offset": 759
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 1,
+                                    "offset": 773
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpecialMesh.FileType"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 3,
+                                    "offset": 775
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 31,
+                                    "offset": 803
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " set to 'Cylinder' scale relative to the\n",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 31,
+                                    "offset": 803
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 1,
+                                    "offset": 844
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.BasePart.Size"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 3,
+                                    "offset": 846
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 24,
+                                    "offset": 867
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " of their parent. Uniformly for the cylinders\nheight axis and maintaining a 1:1 ratio for the length and width of the\ncylinder, using the lowest value.",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 24,
+                                    "offset": 867
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 36,
+                                    "offset": 1022
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 706
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 36,
+                            "offset": 1022
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpecialMesh"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 3,
+                                    "offset": 1025
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 22,
+                                    "offset": 1044
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " objects with ",
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 22,
+                                    "offset": 1044
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 36,
+                                    "offset": 1058
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpecialMesh.FileType"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 36,
+                                    "offset": 1058
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 64,
+                                    "offset": 1086
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " set to\n'Head' currently scale in a non standard manner. Developers should not\nrely on this as their are plans to change this behavior",
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 64,
+                                    "offset": 1086
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 58,
+                                    "offset": 1224
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 1023
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 58,
+                            "offset": 1224
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpecialMesh"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 3,
+                                    "offset": 1227
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 22,
+                                    "offset": 1246
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " objects with ",
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 22,
+                                    "offset": 1246
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 36,
+                                    "offset": 1260
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpecialMesh.FileType"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 36,
+                                    "offset": 1260
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 64,
+                                    "offset": 1288
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " set to\n'Torso' scale in a non standard manner. Developers should not rely on\nthis as their are plans to deprecate this mesh type.",
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 64,
+                                    "offset": 1288
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 55,
+                                    "offset": 1422
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1225
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 55,
+                            "offset": 1422
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 332
+                },
+                "end": {
+                    "line": 26,
+                    "column": 55,
+                    "offset": 1422
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Mesh scale demonstration",
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 6,
+                            "offset": 1429
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 30,
+                            "offset": 1453
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 28,
+                    "column": 1,
+                    "offset": 1424
+                },
+                "end": {
+                    "line": 28,
+                    "column": 30,
+                    "offset": 1453
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The above behavior can be seen in the following demonstration images.",
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 1,
+                            "offset": 1455
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 70,
+                            "offset": 1524
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 30,
+                    "column": 1,
+                    "offset": 1455
+                },
+                "end": {
+                    "line": 30,
+                    "column": 70,
+                    "offset": 1524
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Linear scaling relative to part size for 'Brick', 'Wedge' and 'Sphere'\nmeshes.",
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1526
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 8,
+                            "offset": 1604
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 32,
+                    "column": 1,
+                    "offset": 1526
+                },
+                "end": {
+                    "line": 33,
+                    "column": 8,
+                    "offset": 1604
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Linear scaling relative to original uploaded mesh for 'FileMesh' meshes",
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 1,
+                            "offset": 1606
+                        },
+                        "end": {
+                            "line": 35,
+                            "column": 72,
+                            "offset": 1677
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 35,
+                    "column": 1,
+                    "offset": 1606
+                },
+                "end": {
+                    "line": 35,
+                    "column": 72,
+                    "offset": 1677
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Non-uniform constrained scaling for 'Cylinder' meshes",
+                    "position": {
+                        "start": {
+                            "line": 37,
+                            "column": 1,
+                            "offset": 1679
+                        },
+                        "end": {
+                            "line": 37,
+                            "column": 54,
+                            "offset": 1732
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 37,
+                    "column": 1,
+                    "offset": 1679
+                },
+                "end": {
+                    "line": 37,
+                    "column": 54,
+                    "offset": 1732
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Other uses for mesh scale",
+                    "position": {
+                        "start": {
+                            "line": 39,
+                            "column": 6,
+                            "offset": 1739
+                        },
+                        "end": {
+                            "line": 39,
+                            "column": 31,
+                            "offset": 1764
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 39,
+                    "column": 1,
+                    "offset": 1734
+                },
+                "end": {
+                    "line": 39,
+                    "column": 31,
+                    "offset": 1764
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "There are a number of interesting uses for the mesh offset property.",
+                    "position": {
+                        "start": {
+                            "line": 41,
+                            "column": 1,
+                            "offset": 1766
+                        },
+                        "end": {
+                            "line": 41,
+                            "column": 69,
+                            "offset": 1834
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 41,
+                    "column": 1,
+                    "offset": 1766
+                },
+                "end": {
+                    "line": 41,
+                    "column": 69,
+                    "offset": 1834
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.DataModelMesh.Offset"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 43,
+                                    "column": 3,
+                                    "offset": 1838
+                                },
+                                "end": {
+                                    "line": 43,
+                                    "column": 31,
+                                    "offset": 1866
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " and Scale can be animated using\n",
+                            "position": {
+                                "start": {
+                                    "line": 43,
+                                    "column": 31,
+                                    "offset": 1866
+                                },
+                                "end": {
+                                    "line": 44,
+                                    "column": 1,
+                                    "offset": 1899
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TweenService"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 44,
+                                    "column": 3,
+                                    "offset": 1901
+                                },
+                                "end": {
+                                    "line": 44,
+                                    "column": 23,
+                                    "offset": 1921
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " relatively inexpensively as the engine does not\nneed to make any physics/collision calculations as the ",
+                            "position": {
+                                "start": {
+                                    "line": 44,
+                                    "column": 23,
+                                    "offset": 1921
+                                },
+                                "end": {
+                                    "line": 45,
+                                    "column": 58,
+                                    "offset": 2027
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.BasePart"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 45,
+                                    "column": 58,
+                                    "offset": 2027
+                                },
+                                "end": {
+                                    "line": 45,
+                                    "column": 74,
+                                    "offset": 2043
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\nis not changed.",
+                            "position": {
+                                "start": {
+                                    "line": 45,
+                                    "column": 74,
+                                    "offset": 2043
+                                },
+                                "end": {
+                                    "line": 46,
+                                    "column": 18,
+                                    "offset": 2061
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 43,
+                            "column": 1,
+                            "offset": 1836
+                        },
+                        "end": {
+                            "line": 46,
+                            "column": 18,
+                            "offset": 2061
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Changing the relationship between the mesh and its collision extents\n(determined by the ",
+                            "position": {
+                                "start": {
+                                    "line": 47,
+                                    "column": 3,
+                                    "offset": 2064
+                                },
+                                "end": {
+                                    "line": 48,
+                                    "column": 22,
+                                    "offset": 2154
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.BasePart"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 48,
+                                    "column": 22,
+                                    "offset": 2154
+                                },
+                                "end": {
+                                    "line": 48,
+                                    "column": 38,
+                                    "offset": 2170
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ")",
+                            "position": {
+                                "start": {
+                                    "line": 48,
+                                    "column": 38,
+                                    "offset": 2170
+                                },
+                                "end": {
+                                    "line": 48,
+                                    "column": 39,
+                                    "offset": 2171
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 47,
+                            "column": 1,
+                            "offset": 2062
+                        },
+                        "end": {
+                            "line": 48,
+                            "column": 39,
+                            "offset": 2171
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 43,
+                    "column": 1,
+                    "offset": 1836
+                },
+                "end": {
+                    "line": 48,
+                    "column": 39,
+                    "offset": 2171
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

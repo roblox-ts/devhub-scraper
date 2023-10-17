@@ -1,0 +1,328 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines whether or not the visual effect of an\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 64
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Explosion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 64
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 81
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is shown or not.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 81
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 98
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 35,
+                    "offset": 98
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When Visible is set to false, the explosion will still affect\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 100
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 162
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 162
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 17,
+                            "offset": 178
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s in its ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 17,
+                            "offset": 178
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 187
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Explosion.BlastRadius"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 187
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 55,
+                            "offset": 216
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the only\ndifference is it will not be seen.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 55,
+                            "offset": 216
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 35,
+                            "offset": 261
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 100
+                },
+                "end": {
+                    "line": 6,
+                    "column": 35,
+                    "offset": 261
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "One use for this property would be for a developer to make their own\ncustom explosion effects using a ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 263
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 34,
+                            "offset": 365
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 34,
+                            "offset": 365
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 57,
+                            "offset": 388
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", while retaining\nthe default ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 57,
+                            "offset": 388
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 13,
+                            "offset": 418
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Explosion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 13,
+                            "offset": 418
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 30,
+                            "offset": 435
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " functionality.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 30,
+                            "offset": 435
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 45,
+                            "offset": 450
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 263
+                },
+                "end": {
+                    "line": 10,
+                    "column": 45,
+                    "offset": 450
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

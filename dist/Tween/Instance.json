@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Instance property of a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tween"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " points to the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 72,
+                            "offset": 71
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nwhose properties are being interpolated by the tween. As with all\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 72,
+                            "offset": 71
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 138
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tween"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 138
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 14,
+                            "offset": 151
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " properties, the Instance property is read only. If a\ndeveloper wants to tween a different instance they must create a new\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 14,
+                            "offset": 151
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 274
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tween"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 274
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 14,
+                            "offset": 287
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " using ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 14,
+                            "offset": 287
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 21,
+                            "offset": 294
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TweenService:Create()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 21,
+                            "offset": 294
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 50,
+                            "offset": 323
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 50,
+                            "offset": 323
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 51,
+                            "offset": 324
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 51,
+                    "offset": 324
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

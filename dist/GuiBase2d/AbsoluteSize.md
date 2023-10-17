@@ -1,14 +1,14 @@
 AbsoluteSize is a read-only property that provides the screen size of a UI
 element in pixels. This represents the actual pixel size at which an
 element renders as a result of its ancestors' sizes. This property,
-[GuiBase2d.AbsolutePosition](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#AbsolutePosition) and [GuiBase2d.AbsoluteRotation](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#AbsoluteRotation) are a group
-of properties that all describe the final rendered orientation of a UI
-element.
+[`GuiBase2d.AbsolutePosition`](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#AbsolutePosition) and [`GuiBase2d.AbsoluteRotation`](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#AbsoluteRotation)
+are a group of properties that all describe the final rendered orientation
+of a UI element.
 
 For example, on a 1920 by 1080 screen, if FrameA exists within FrameB, and
 they both have a Size of {.5, 0}, {.5, 0}, then the AbsoluteSize of FrameA
-(the inner frame) would be (490, 270) as the [GuiObject.Size](https://create.roblox.com/docs/reference/engine/classes/GuiObject#Size) property
-determines the size of a child UI element relative to its parent. Both of
-the frames are set to 50% of the parent size. Since 50% of 50% is 25%, and
-25% of our screen size, 1920 by 1080, is (490, 270), this would be the
-resultant AbsoluteSize of the inner frame.
+(the inner frame) would be (480, 270) as the [`GuiObject.Size`](https://create.roblox.com/docs/reference/engine/classes/GuiObject#Size)
+property determines the size of a child UI element relative to its parent.
+Both of the frames are set to 50% of the parent size. Since 50% of 50% is
+25%, and 25% of our screen size, 1920 by 1080, is (480, 270), this would
+be the resultant AbsoluteSize of the inner frame.

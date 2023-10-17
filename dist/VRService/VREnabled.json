@@ -1,0 +1,585 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property describes whether the user is using a virtual reality (VR)\ndevice.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 8,
+                            "offset": 80
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 8,
+                    "offset": 80
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If a VR device is enabled, you can interact with its location and movement\nthrough functions such as ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 82
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 27,
+                            "offset": 183
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService:GetUserCFrame()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 27,
+                            "offset": 183
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 67,
+                            "offset": 223
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". You\ncan also react to VR device movement using the\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 67,
+                            "offset": 223
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 276
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService.UserCFrameChanged"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 276
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 43,
+                            "offset": 318
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " event.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 43,
+                            "offset": 318
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 50,
+                            "offset": 325
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 82
+                },
+                "end": {
+                    "line": 7,
+                    "column": 50,
+                    "offset": 325
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local userInputService = game:GetService(\"UserInputService\")\n\nlocal isUsingVR = userInputService.VREnabled\nif (isUsingVR) then\n    print(\"User is using a VR headset!\")\nelse\n    print(\"User is not using a VR headset!\")\nend\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 327
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 4,
+                            "offset": 559
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 327
+                },
+                "end": {
+                    "line": 18,
+                    "column": 4,
+                    "offset": 559
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "As ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 561
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 4,
+                            "offset": 564
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 4,
+                            "offset": 564
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 28,
+                            "offset": 588
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is client-side only, this property can only be\nused in a ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 28,
+                            "offset": 588
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 11,
+                            "offset": 646
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 11,
+                            "offset": 646
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 30,
+                            "offset": 665
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 30,
+                            "offset": 665
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 31,
+                            "offset": 666
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 561
+                },
+                "end": {
+                    "line": 21,
+                    "column": 31,
+                    "offset": 666
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 668
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 10,
+                            "offset": 677
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 23,
+                    "column": 1,
+                    "offset": 668
+                },
+                "end": {
+                    "line": 23,
+                    "column": 10,
+                    "offset": 677
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.VRService"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 3,
+                                    "offset": 681
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 20,
+                                    "offset": 698
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 679
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 20,
+                            "offset": 698
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Camera.HeadLocked"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 3,
+                                    "offset": 701
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 28,
+                                    "offset": 726
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 699
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 28,
+                            "offset": 726
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.UserInputService:GetUserCFrame()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 27,
+                                    "column": 3,
+                                    "offset": 729
+                                },
+                                "end": {
+                                    "line": 27,
+                                    "column": 43,
+                                    "offset": 769
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 1,
+                            "offset": 727
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 43,
+                            "offset": 769
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.UserInputService.UserCFrameChanged"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 28,
+                                    "column": 3,
+                                    "offset": 772
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "column": 45,
+                                    "offset": 814
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 1,
+                            "offset": 770
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 45,
+                            "offset": 814
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 25,
+                    "column": 1,
+                    "offset": 679
+                },
+                "end": {
+                    "line": 28,
+                    "column": 45,
+                    "offset": 814
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

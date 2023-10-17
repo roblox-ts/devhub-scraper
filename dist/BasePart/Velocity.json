@@ -1,0 +1,496 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Velocity of a part describes how its ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Position"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 67,
+                            "offset": 66
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is\npresently changing. The unit of this property is ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 67,
+                            "offset": 66
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 50,
+                            "offset": 119
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "studs per second",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 52,
+                                    "offset": 121
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 68,
+                                    "offset": 137
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 50,
+                            "offset": 119
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 70,
+                            "offset": 139
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". For\nreference, the default Roblox character moves at 16 studs per second via\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 70,
+                            "offset": 139
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 218
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid.WalkSpeed"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 218
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 27,
+                            "offset": 244
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The acceleration due to gravity is found in\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 27,
+                            "offset": 244
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 290
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace.Gravity"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 290
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 315
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " (by default, -196.2 studs per second per\nsecond).",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 315
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 9,
+                            "offset": 365
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 9,
+                    "offset": 365
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Setting the Velocity of an part that is ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 367
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 41,
+                            "offset": 407
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Anchored"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 41,
+                            "offset": 407
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 66,
+                            "offset": 432
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will\ncause it to act like a conveyor belt. Any object that touches the part\nwill begin to move in accordance with the Velocity.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 66,
+                            "offset": 432
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 52,
+                            "offset": 560
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 367
+                },
+                "end": {
+                    "line": 10,
+                    "column": 52,
+                    "offset": 560
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Some ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 562
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 6,
+                            "offset": 567
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BodyMover"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 6,
+                            "offset": 567
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 23,
+                            "offset": 584
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " objects will apply forces and thus change the\nVelocity of a part over time. The simplest of these is a ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 23,
+                            "offset": 584
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 58,
+                            "offset": 688
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BodyForce"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 58,
+                            "offset": 688
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 75,
+                            "offset": 705
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nwhich can be used to counteract the acceleration due to gravity on a\nsingle part (set the +Y axis of the ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 75,
+                            "offset": 705
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 37,
+                            "offset": 811
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BodyForce.Force"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 37,
+                            "offset": 811
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 60,
+                            "offset": 834
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to the product\nof the mass (",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 60,
+                            "offset": 834
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 14,
+                            "offset": 863
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart:GetMass()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 14,
+                            "offset": 863
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 40,
+                            "offset": 889
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") and the gravity constant).",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 40,
+                            "offset": 889
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 68,
+                            "offset": 917
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 562
+                },
+                "end": {
+                    "line": 16,
+                    "column": 68,
+                    "offset": 917
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,452 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines an object to be ignored by the mouse when\ncalculating ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 13,
+                            "offset": 79
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse.Hit"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 13,
+                            "offset": 79
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 30,
+                            "offset": 96
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 30,
+                            "offset": 96
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 101
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse.Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 101
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 55,
+                            "offset": 121
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The descendants of\nthe object are also ignored, so it is possible to ignore multiple objects\nso long as they are a descendant of the object to which this property is\nset. This property is useful when filtering models containing special\neffects or decorations that should not affect ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 55,
+                            "offset": 121
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 47,
+                            "offset": 405
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse.Hit"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 47,
+                            "offset": 405
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 64,
+                            "offset": 422
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 64,
+                            "offset": 422
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 426
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse.Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 426
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 21,
+                            "offset": 446
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 21,
+                            "offset": 446
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 22,
+                            "offset": 447
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 7,
+                    "column": 22,
+                    "offset": 447
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property can be set to any ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 449
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 33,
+                            "offset": 481
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 33,
+                            "offset": 481
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 49,
+                            "offset": 497
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or nil, for example:",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 49,
+                            "offset": 497
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 70,
+                            "offset": 518
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 449
+                },
+                "end": {
+                    "line": 9,
+                    "column": 70,
+                    "offset": 518
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local Players = game:GetService(\"Players\")\nlocal player = Players.LocalPlayer\nlocal mouse = player:GetMouse()\nmouse.TargetFilter = workspace.Model\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 520
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 4,
+                            "offset": 677
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 520
+                },
+                "end": {
+                    "line": 16,
+                    "column": 4,
+                    "offset": 677
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that the ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 679
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 15,
+                            "offset": 693
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.Character|Character"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 15,
+                            "offset": 693
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 49,
+                            "offset": 727
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the\n",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 49,
+                            "offset": 727
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 735
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Players.LocalPlayer"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 735
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 28,
+                            "offset": 762
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is ignored by the mouse automatically.",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 28,
+                            "offset": 762
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 67,
+                            "offset": 801
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 679
+                },
+                "end": {
+                    "line": 19,
+                    "column": 67,
+                    "offset": 801
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

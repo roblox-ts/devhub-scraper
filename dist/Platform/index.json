@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Platform object creates a brick that when touched by a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 60,
+                            "offset": 59
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 60,
+                            "offset": 59
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 74,
+                            "offset": 73
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will\nanchor their torso to the brick. This allows for the creation of vehicles that\nplayers can stand in and not be flung about the cabin/deck of the vehicle.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 74,
+                            "offset": 73
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 75,
+                            "offset": 232
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 75,
+                    "offset": 232
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Platform is almost identical to the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 234
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 274
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Seat"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 274
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 286
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object, except that\ninstead of sitting down the player will be standing while locked in place.\nGood for ships.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 286
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 16,
+                            "offset": 397
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 234
+                },
+                "end": {
+                    "line": 7,
+                    "column": 16,
+                    "offset": 397
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Platform object is very useful for making people's characters staying in\none spot while they move around, such as a ship or truck. When a player\ntouches the Platform a ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 399
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 24,
+                            "offset": 571
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Weld"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 24,
+                            "offset": 571
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 36,
+                            "offset": 583
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " constraint is created, so they are\n'attached' to the Platform and can't move until that weld is broken. It can be\nremoved by hitting the spacebar, when the player jumps to exit the Platform.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 36,
+                            "offset": 583
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 77,
+                            "offset": 774
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 399
+                },
+                "end": {
+                    "line": 13,
+                    "column": 77,
+                    "offset": 774
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

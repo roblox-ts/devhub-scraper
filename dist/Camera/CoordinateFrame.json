@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property has been superseded by ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 38,
+                            "offset": 37
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 38,
+                            "offset": 37
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " which functions\nidentically and should be used instead.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 40,
+                            "offset": 114
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 40,
+                    "offset": 114
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The default IETF tag to use if the ''languageKey'' parameter is excluded\nfrom the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 10,
+                            "offset": 82
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalizationTable:GetString()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 10,
+                            "offset": 82
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 47,
+                            "offset": 119
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " method.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 47,
+                            "offset": 119
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 55,
+                            "offset": 127
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 55,
+                    "offset": 127
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

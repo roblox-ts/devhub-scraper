@@ -1,7 +1,7 @@
-This property describes the [CreatorType](https://developer.roblox.com/en-us/api-reference/enum/CreatorType) of the place, whether the
+This property describes the `Enum.CreatorType` of the place, whether the
 place is owned by a user or a group.
 
-If the [CreatorType](https://developer.roblox.com/en-us/api-reference/enum/CreatorType) is _'User'_, then the [DataModel.CreatorId](https://create.roblox.com/docs/reference/engine/classes/DataModel#CreatorId)
-property will describe the [UserId](https://create.roblox.com/docs/reference/engine/classes/Player#UserId) of the account that owns
-the game. If the CreatorType is _'Group'_, then it will describe the group
-ID.
+If the `Enum.CreatorType` is *'User'*, then the
+[`DataModel.CreatorId`](https://create.roblox.com/docs/reference/engine/classes/DataModel#CreatorId) property will describe the
+[`UserId`](https://create.roblox.com/docs/reference/engine/classes/Player#UserId) of the account that owns the game. If the
+CreatorType is *'Group'*, then it will describe the group ID.

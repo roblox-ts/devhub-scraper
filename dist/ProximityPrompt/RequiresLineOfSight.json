@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property indicates whether the prompt is hidden if the path between\nthe player's ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 14,
+                            "offset": 86
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 14,
+                            "offset": 86
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 28,
+                            "offset": 100
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and object parented to the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 28,
+                            "offset": 100
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 128
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ProximityPrompt"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 128
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 151
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is obstructed. If true, this prompt will only be\nshown if there is a clear path from the camera to the object.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 151
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 62,
+                            "offset": 262
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 62,
+                    "offset": 262
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The parent ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 264
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 12,
+                            "offset": 275
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Part"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 12,
+                            "offset": 275
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 24,
+                            "offset": 287
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 24,
+                            "offset": 287
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 28,
+                            "offset": 291
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 28,
+                            "offset": 291
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 304
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the prompt will be excluded\nfrom this check.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 304
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 17,
+                            "offset": 352
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 264
+                },
+                "end": {
+                    "line": 7,
+                    "column": 17,
+                    "offset": 352
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

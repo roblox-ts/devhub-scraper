@@ -1,0 +1,145 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The maximum torque used to rotate on the local ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "X",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 50,
+                                    "offset": 49
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 51,
+                                    "offset": 50
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " axis to the desired\npitch orientation. Has no effect if ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 109
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ControllerBase.RigidityEnabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 109
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 75,
+                            "offset": 147
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nis true.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 75,
+                            "offset": 147
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 9,
+                            "offset": 156
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 9,
+                    "offset": 156
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

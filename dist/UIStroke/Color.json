@@ -1,0 +1,704 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIStroke"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " stroke color. You can also insert a\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 68
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIGradient"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 68
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 19,
+                            "offset": 86
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " instance as a child of the UIStroke to create gradient\nstrokes.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 19,
+                            "offset": 86
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 9,
+                            "offset": 150
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 9,
+                    "offset": 150
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "figure",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 9,
+                            "offset": 160
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 161
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/Outline-Color-Solid.png"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 161
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 53,
+                            "offset": 213
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 53,
+                            "offset": 213
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 214
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "figcaption",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Stroke ",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 13,
+                                    "offset": 226
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 20,
+                                    "offset": 233
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "UIStroke/Color|Color",
+                                    "position": {
+                                        "start": {
+                                            "line": 7,
+                                            "column": 26,
+                                            "offset": 239
+                                        },
+                                        "end": {
+                                            "line": 7,
+                                            "column": 46,
+                                            "offset": 259
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 20,
+                                    "offset": 233
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 53,
+                                    "offset": 266
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " of **0**, **95**, **225**",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 53,
+                                    "offset": 266
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 79,
+                                    "offset": 292
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 214
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 92,
+                            "offset": 305
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 92,
+                            "offset": 305
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 306
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 152
+                },
+                "end": {
+                    "line": 8,
+                    "column": 10,
+                    "offset": 315
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "figure",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 9,
+                            "offset": 325
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 326
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/Outline-Color-Gradient.png"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 326
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 56,
+                            "offset": 381
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 56,
+                            "offset": 381
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 382
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "figcaption",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "UIStroke",
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 19,
+                                            "offset": 400
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 27,
+                                            "offset": 408
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 13,
+                                    "offset": 394
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 34,
+                                    "offset": 415
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " with ",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 34,
+                                    "offset": 415
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 40,
+                                    "offset": 421
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "UIGradient",
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 46,
+                                            "offset": 427
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 56,
+                                            "offset": 437
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 40,
+                                    "offset": 421
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 63,
+                                    "offset": 444
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " child",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 63,
+                                    "offset": 444
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 69,
+                                    "offset": 450
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 382
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 82,
+                            "offset": 463
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 82,
+                            "offset": 463
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 464
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 317
+                },
+                "end": {
+                    "line": 13,
+                    "column": 10,
+                    "offset": 473
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that both the parent object and UIStroke can have child UIGradients,\nletting you set gradients on both the stroke and fill independently.",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 475
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 69,
+                            "offset": 617
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 475
+                },
+                "end": {
+                    "line": 16,
+                    "column": 69,
+                    "offset": 617
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For more details on the ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 619
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 25,
+                            "offset": 643
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "UIStroke",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 27,
+                                    "offset": 645
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 35,
+                                    "offset": 653
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 25,
+                            "offset": 643
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 37,
+                            "offset": 655
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object, see\n",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 37,
+                            "offset": 655
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 668
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/ui/layout-and-appearance#uistroke"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "here",
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 2,
+                                    "offset": 669
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 6,
+                                    "offset": 673
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 668
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 43,
+                            "offset": 710
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 43,
+                            "offset": 710
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 44,
+                            "offset": 711
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 619
+                },
+                "end": {
+                    "line": 19,
+                    "column": 44,
+                    "offset": 711
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

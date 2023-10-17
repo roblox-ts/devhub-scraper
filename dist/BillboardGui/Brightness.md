@@ -10,7 +10,7 @@ bright day.
 This property won't produce any effect in the following scenarios wherein
 the GUI does not emit light.:
 
-- When [AlwaysOnTop](https://create.roblox.com/docs/reference/engine/classes/BillboardGui#AlwaysOnTop) is true, the color of each
-  pixel is the color shown on-screen.
-- When [LightInfluence](https://create.roblox.com/docs/reference/engine/classes/BillboardGui#LightInfluence) is 1, all light from
-  the GUI is reflected from the environment instead of being emit.
+- When [`AlwaysOnTop`](https://create.roblox.com/docs/reference/engine/classes/BillboardGui#AlwaysOnTop) is true, the color of
+each pixel is the color shown on-screen.
+- When [`LightInfluence`](https://create.roblox.com/docs/reference/engine/classes/BillboardGui#LightInfluence) is 1, all light
+from the GUI is reflected from the environment instead of being emit.

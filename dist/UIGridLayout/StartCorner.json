@@ -1,0 +1,328 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "StartCorner (",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 14,
+                            "offset": 13
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.StartCorner"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 14,
+                            "offset": 13
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") determines from which corner the grid\nstarts laying out UI elements. The grid continues in the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 128
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIGridStyleLayout.FillDirection"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 128
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 40,
+                            "offset": 167
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", filling elements one by one until\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 40,
+                            "offset": 167
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 203
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIGridLayout.FIllDirectionMaxCells"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 203
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 245
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " cells have been laid out in\nthat row/column or if all the parent UI element's space has been occupied\nby previous cells.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 245
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 19,
+                            "offset": 366
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 19,
+                    "offset": 366
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Above, the potion is the first ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 368
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 32,
+                            "offset": 399
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ImageLabel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 32,
+                            "offset": 399
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 50,
+                            "offset": 417
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", followed by the gem and\nthe sword. The UIGridLayout is using a ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 50,
+                            "offset": 417
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 40,
+                            "offset": 482
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.StartCorner"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 40,
+                            "offset": 482
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 58,
+                            "offset": 500
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of BottomRight.\nThe ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 58,
+                            "offset": 500
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 5,
+                            "offset": 521
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIGridStyleLayout.FillDirection"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 5,
+                            "offset": 521
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 44,
+                            "offset": 560
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is Horizontal.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 44,
+                            "offset": 560
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 59,
+                            "offset": 575
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 368
+                },
+                "end": {
+                    "line": 10,
+                    "column": 59,
+                    "offset": 575
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

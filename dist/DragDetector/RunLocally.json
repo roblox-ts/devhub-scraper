@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If false (default), the client sends replicated signals\n(",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 2,
+                            "offset": 57
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DragDetector.DragStart|DragStart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 2,
+                            "offset": 57
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 97
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 99
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DragDetector.DragContinue|DragContinue"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 99
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 47,
+                            "offset": 145
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 47,
+                            "offset": 145
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 147
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DragDetector.DragEnd|DragEnd"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 147
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 183
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") to the server which processes cursor\nrays, makes changes to the data model, and replicates them onwards to\nclients.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 183
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 9,
+                            "offset": 300
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 9,
+                    "offset": 300
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If true, the client processes those signals itself and does not replicate\nthem to the server. Client ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 302
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 28,
+                            "offset": 403
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript|LocalScripts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 28,
+                            "offset": 403
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 60,
+                            "offset": 435
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " may be used to\nrespond to these events and ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 60,
+                            "offset": 435
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 29,
+                            "offset": 479
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RemoteEvent|RemoteEvents"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 29,
+                            "offset": 479
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 61,
+                            "offset": 511
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " may be used\nto send any resulting changes that should be replicated to the server.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 61,
+                            "offset": 511
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 71,
+                            "offset": 594
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 302
+                },
+                "end": {
+                    "line": 11,
+                    "column": 71,
+                    "offset": 594
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines the user ID of the account whose character\nappearance is used for a player's ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 102
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.Character"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 102
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 59,
+                            "offset": 126
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". By default,\nthis property is the ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 59,
+                            "offset": 126
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 22,
+                            "offset": 161
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.UserId"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 22,
+                            "offset": 161
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 43,
+                            "offset": 182
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which uses the player's avatar\nas they have created it on the Roblox website.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 43,
+                            "offset": 182
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 47,
+                            "offset": 261
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 47,
+                    "offset": 261
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Changing this property to the user ID of another account will cause the\nplayer to spawn with that account's appearance (hats, shirt, pants, etc).",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 263
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 74,
+                            "offset": 408
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 263
+                },
+                "end": {
+                    "line": 7,
+                    "column": 74,
+                    "offset": 408
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Games can also toggle whether or not a player's character appearance is\nloaded in game by changing the\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 410
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 513
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPlayer.LoadCharacterAppearance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 513
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 46,
+                            "offset": 558
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 46,
+                            "offset": 558
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 56,
+                            "offset": 568
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 410
+                },
+                "end": {
+                    "line": 11,
+                    "column": 56,
+                    "offset": 568
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

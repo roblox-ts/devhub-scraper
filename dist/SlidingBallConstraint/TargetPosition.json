@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The constraint's attempted target position when\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 48
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SlidingBallConstraint.ActuatorType|ActuatorType"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 48
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 103
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 103
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 114
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.ActuatorType|Servo"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 114
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 139
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " Measured in studs.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 139
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 45,
+                            "offset": 158
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 45,
+                    "offset": 158
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

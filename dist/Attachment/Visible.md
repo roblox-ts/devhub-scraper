@@ -1,1 +1,1 @@
-Toggles the visibility of the Attachment in-experience.
+Toggles the in-experience visibility of the attachment.

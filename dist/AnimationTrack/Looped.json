@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property sets whether the animation will repeat after finishing. If\nit is changed while playing the result will take effect after the\nanimation finishes.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 20,
+                            "offset": 158
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 20,
+                    "offset": 158
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Looped property for ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 160
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 25,
+                            "offset": 184
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 25,
+                            "offset": 184
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 47,
+                            "offset": 206
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " defaults to how it was set\nin the animation editor. However this property can be changed, allowing\ncontrol over the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 47,
+                            "offset": 206
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 18,
+                            "offset": 323
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 18,
+                            "offset": 323
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 40,
+                            "offset": 345
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " while the game is running. Looped\nalso correctly handles animations played in reverse (negative\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 40,
+                            "offset": 345
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 442
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack.Speed"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 442
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 29,
+                            "offset": 470
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "). After the first keyframe is reached, it\nwill restart at the last keyframe.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 29,
+                            "offset": 470
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 35,
+                            "offset": 547
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 160
+                },
+                "end": {
+                    "line": 10,
+                    "column": 35,
+                    "offset": 547
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property allows the developer to have a looping and non looping\nvariant of the same animation, without needing to upload two versions to\nRoblox.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 549
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 8,
+                            "offset": 698
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 549
+                },
+                "end": {
+                    "line": 14,
+                    "column": 8,
+                    "offset": 698
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

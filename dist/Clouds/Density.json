@@ -1,0 +1,147 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property controls the particulate density of clouds (the proportion\nof airborne water vapor particles at full cloud cover).",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 128
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 56,
+                    "offset": 128
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 130
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 9,
+                            "offset": 138
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/environment/clouds"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Dynamic Clouds",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 39,
+                                    "offset": 168
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 53,
+                                    "offset": 182
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 9,
+                            "offset": 138
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 186
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\narticle for a summary of properties and expected results.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 57,
+                            "offset": 186
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 58,
+                            "offset": 244
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 130
+                },
+                "end": {
+                    "line": 5,
+                    "column": 58,
+                    "offset": 244
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A special type of ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pages"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object whose pages contain key/value pairs\nfrom an ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 9,
+                            "offset": 83
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.OrderedDataStore"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 9,
+                            "offset": 83
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 33,
+                            "offset": 107
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". For this object,\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 33,
+                            "offset": 107
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 126
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pages:GetCurrentPage()|GetCurrentPage()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 126
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 48,
+                            "offset": 173
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " returns an array of tables,\neach containing keys named ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 48,
+                            "offset": 173
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 28,
+                            "offset": 229
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "key",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 30,
+                                    "offset": 231
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 33,
+                                    "offset": 234
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 28,
+                            "offset": 229
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 236
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 35,
+                            "offset": 236
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 241
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "value",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 42,
+                                    "offset": 243
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 47,
+                                    "offset": 248
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 241
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 49,
+                            "offset": 250
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "; these reflect the key/value\npair data.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 49,
+                            "offset": 250
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 11,
+                            "offset": 290
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 11,
+                    "offset": 290
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,1 +1,1 @@
-Toggles whether or not this Constraint is enabled.
+Toggles whether or not the constraint is enabled.

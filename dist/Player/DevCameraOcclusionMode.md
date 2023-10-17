@@ -1,10 +1,7 @@
-The DevCameraOcclusionMode [Player](https://create.roblox.com/docs/reference/engine/classes/Player) property sets how the default camera
-handles objects between the camera and the player. Set by default by
-[StarterPlayer.DevCameraOcclusionMode](https://create.roblox.com/docs/reference/engine/classes/StarterPlayer#DevCameraOcclusionMode).
+Defines how the default camera scripts handle objects between the camera
+and the camera subject. Set by
+[`StarterPlayer.DevCameraOcclusionMode`](https://create.roblox.com/docs/reference/engine/classes/StarterPlayer#DevCameraOcclusionMode) and can't be changed for
+individual players.
 
-The default value is _Zoom_ (0): The camera will zoom in until there is
-nothing between the player and camera.
-
-See [DevCameraOcclusionMode](https://developer.roblox.com/en-us/api-reference/enum/DevCameraOcclusionMode) for the different occlusion modes
-available. Sets how the default camera handles objects between the camera
-and the player.
+The default value is `Enum.DevCameraOcclusionMode|Zoom` (0). See
+`Enum.DevCameraOcclusionMode` for a list of available modes.

@@ -1,18 +1,16 @@
-Determines whether a [BaseScript](https://create.roblox.com/docs/reference/engine/classes/BaseScript) will run or not.
+Determines whether a [`BaseScript`](https://create.roblox.com/docs/reference/engine/classes/BaseScript) will run or not.
 
-[Script](https://create.roblox.com/docs/reference/engine/classes/Script)s and [LocalScript](https://create.roblox.com/docs/reference/engine/classes/LocalScript)s, when parented to a valid parent, will run
-when Disabled is false.
+If a script is disabled by changing this property to true while the script
+is running, the current running thread of the script will be terminated.
 
-If Disabled is set to true whilst a script is running, the current thread
-will be terminated.
-
-If Disabled is set to true from false, the script will run again. This
-means the Disabled property can be toggled to restart a script:
-
+If this property is changed from true to false, the script will run again.
+This means that [`Disabled`](https://create.roblox.com/docs/reference/engine/classes/BaseScript#Disabled) can be toggled to
+restart a script:
 ```lua
-scriptObject.Disabled = false
 scriptObject.Disabled = true
+scriptObject.Disabled = false
 ```
 
-Note, the above code snippet cannot be used within the script itself. This
-is because once the script is disabled the thread will terminate.
+Note that the above code snippet cannot be used within the script itself,
+since disabling the script from within itself will terminate the thread
+and the line to reenable it will never execute.

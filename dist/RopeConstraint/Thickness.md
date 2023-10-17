@@ -1,1 +1,1 @@
-The visualized thickness of the RopeConstraint.
+The visualized thickness of the [`RopeConstraint`](https://create.roblox.com/docs/reference/engine/classes/RopeConstraint).

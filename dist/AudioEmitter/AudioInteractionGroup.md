@@ -1,0 +1,2 @@
+If an [`AudioEmitter`](https://create.roblox.com/docs/reference/engine/classes/AudioEmitter) and an [`AudioListener`](https://create.roblox.com/docs/reference/engine/classes/AudioListener) share an
+interaction group, then the listener is capable of hearing the emitter.

@@ -1,0 +1,858 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The StarterGui service is a container object designed to hold\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 62
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LayerCollector|GUI objects"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 62
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 96
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " such as ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 96
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 105
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScreenGui|ScreenGuis"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 105
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 72,
+                            "offset": 133
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 72,
+                            "offset": 133
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 73,
+                            "offset": 134
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 73,
+                    "offset": 134
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "StarterGui as a container",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 4,
+                            "offset": 139
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 29,
+                            "offset": 164
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 136
+                },
+                "end": {
+                    "line": 4,
+                    "column": 29,
+                    "offset": 164
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When a ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 166
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 8,
+                            "offset": 173
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.Character"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 8,
+                            "offset": 173
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 32,
+                            "offset": 197
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " respawns, the contents of their\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 32,
+                            "offset": 197
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 230
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PlayerGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 230
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 18,
+                            "offset": 247
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are emptied. Children of the ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 18,
+                            "offset": 247
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 48,
+                            "offset": 277
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 48,
+                            "offset": 277
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 66,
+                            "offset": 295
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are then\ncopied along with their descendants into the ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 66,
+                            "offset": 295
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 46,
+                            "offset": 350
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PlayerGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 46,
+                            "offset": 350
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 63,
+                            "offset": 367
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 63,
+                            "offset": 367
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 64,
+                            "offset": 368
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 166
+                },
+                "end": {
+                    "line": 8,
+                    "column": 64,
+                    "offset": 368
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LayerCollector|GUI objects"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 370
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 35,
+                            "offset": 404
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " such as ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 35,
+                            "offset": 404
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 44,
+                            "offset": 413
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScreenGui|ScreenGuis"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 44,
+                            "offset": 413
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 72,
+                            "offset": 441
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " with\ntheir ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 72,
+                            "offset": 441
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 7,
+                            "offset": 453
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LayerCollector.ResetOnSpawn|ResetOnSpawn"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 7,
+                            "offset": 453
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 55,
+                            "offset": 501
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property set to false\nwill only be placed into each ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 55,
+                            "offset": 501
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 31,
+                            "offset": 554
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player|Player's"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 31,
+                            "offset": 554
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 54,
+                            "offset": 577
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 54,
+                            "offset": 577
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 55,
+                            "offset": 578
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PlayerGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 55,
+                            "offset": 578
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 72,
+                            "offset": 595
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " once\nand will not be deleted when the ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 72,
+                            "offset": 595
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 34,
+                            "offset": 634
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 34,
+                            "offset": 634
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 48,
+                            "offset": 648
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " respawns.",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 48,
+                            "offset": 648
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 58,
+                            "offset": 658
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 370
+                },
+                "end": {
+                    "line": 13,
+                    "column": 58,
+                    "offset": 658
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "StarterGui as an interface",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 4,
+                            "offset": 663
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 30,
+                            "offset": 689
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 660
+                },
+                "end": {
+                    "line": 15,
+                    "column": 30,
+                    "offset": 689
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The StarterGui also includes a range of functions allowing you to interact\nwith the ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 691
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 10,
+                            "offset": 775
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.CoreGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 10,
+                            "offset": 775
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 25,
+                            "offset": 790
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". For example ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 25,
+                            "offset": 790
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 39,
+                            "offset": 804
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterGui:SetCoreGuiEnabled()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 39,
+                            "offset": 804
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 77,
+                            "offset": 842
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\ncan be used to disable elements of the ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 77,
+                            "offset": 842
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 40,
+                            "offset": 882
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.CoreGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 40,
+                            "offset": 882
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 55,
+                            "offset": 897
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".\n",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 55,
+                            "offset": 897
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 899
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterGui:SetCore()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 899
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 29,
+                            "offset": 927
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " can perform a range of functions including\ncreating notifications and system messages.",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 29,
+                            "offset": 927
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 44,
+                            "offset": 1014
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 691
+                },
+                "end": {
+                    "line": 21,
+                    "column": 44,
+                    "offset": 1014
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

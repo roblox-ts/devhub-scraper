@@ -1,0 +1,598 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines the sensitivity of the user's ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 69,
+                            "offset": 68
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 69,
+                            "offset": 68
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 70,
+                            "offset": 69
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 70,
+                    "offset": 69
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The sensitivity determines the extent to which a movement of the physical\nmouse translates to a movement of the mouse in-game. This can be used to\nadjusted how sensitive events tracking mouse movement, like\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 71
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 278
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService:GetMouseDelta()|GetMouseDelta"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 278
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 55,
+                            "offset": 332
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", are to mouse\nmovement.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 55,
+                            "offset": 332
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 10,
+                            "offset": 356
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 71
+                },
+                "end": {
+                    "line": 7,
+                    "column": 10,
+                    "offset": 356
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property does not affect the movement of the mouse icon. Nor does it\naffect the ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 358
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 12,
+                            "offset": 443
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Camera Sensitivity",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 13,
+                                    "offset": 444
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 31,
+                                    "offset": 462
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 12,
+                            "offset": 443
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 32,
+                            "offset": 463
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " setting found in the ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 32,
+                            "offset": 463
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 54,
+                            "offset": 485
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Settings",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 55,
+                                    "offset": 486
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 63,
+                                    "offset": 494
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 54,
+                            "offset": 485
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 64,
+                            "offset": 495
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " tab of the\nclient's ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 64,
+                            "offset": 495
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 10,
+                            "offset": 516
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Settings",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 11,
+                                    "offset": 517
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 19,
+                                    "offset": 525
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 10,
+                            "offset": 516
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 20,
+                            "offset": 526
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " menu, which also adjusts the sensitivity of events\ntracking mouse movement.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 20,
+                            "offset": 526
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 25,
+                            "offset": 602
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 358
+                },
+                "end": {
+                    "line": 12,
+                    "column": 25,
+                    "offset": 602
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property has a maximum value of 10 and a minimum value of 0. A lower\nvalue corresponds to lower sensitivity, and a higher value to higher\nsensitivity.",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 604
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 13,
+                            "offset": 759
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 604
+                },
+                "end": {
+                    "line": 16,
+                    "column": 13,
+                    "offset": 759
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When sensitivity is 0, events that track the mouse's movement will still\nfire but all parameters and properties indicating the change in mouse\nposition will return ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 761
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 22,
+                            "offset": 925
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Vector2|Vector2.new()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 22,
+                            "offset": 925
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 54,
+                            "offset": 957
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", or\n",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 54,
+                            "offset": 957
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 962
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Vector3|Vector3.new()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 962
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 33,
+                            "offset": 994
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in the case of ",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 33,
+                            "offset": 994
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 49,
+                            "offset": 1010
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.InputObject.Delta"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 49,
+                            "offset": 1010
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 74,
+                            "offset": 1035
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".\nFor example, ",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 74,
+                            "offset": 1035
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 14,
+                            "offset": 1050
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService:GetMouseDelta()|GetMouseDelta"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 14,
+                            "offset": 1050
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 68,
+                            "offset": 1104
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will\nalways return (0, 0).",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 68,
+                            "offset": 1104
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 22,
+                            "offset": 1131
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 761
+                },
+                "end": {
+                    "line": 23,
+                    "column": 22,
+                    "offset": 1131
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

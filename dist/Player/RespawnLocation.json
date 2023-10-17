@@ -1,0 +1,818 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If set, the player will respawn at the given ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 46,
+                            "offset": 45
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 46,
+                            "offset": 45
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 67,
+                            "offset": 66
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This\nproperty can only be set through Lua and must contain a reference to a\nvalid ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 67,
+                            "offset": 66
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 7,
+                            "offset": 150
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 7,
+                            "offset": 150
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 28,
+                            "offset": 171
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which must meet the following criteria:",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 28,
+                            "offset": 171
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 69,
+                            "offset": 212
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 69,
+                    "offset": 212
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Descendant of ",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 3,
+                                    "offset": 216
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 17,
+                                    "offset": 230
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Workspace"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 17,
+                                    "offset": 230
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 34,
+                                    "offset": 247
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 214
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 34,
+                            "offset": 247
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpawnLocation.TeamColor"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 3,
+                                    "offset": 250
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 34,
+                                    "offset": 281
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " is set to the ",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 34,
+                                    "offset": 281
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 49,
+                                    "offset": 296
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Player.TeamColor"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 49,
+                                    "offset": 296
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 73,
+                                    "offset": 320
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\nor ",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 73,
+                                    "offset": 320
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 6,
+                                    "offset": 326
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpawnLocation.Neutral"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 6,
+                                    "offset": 326
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 35,
+                                    "offset": 355
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " is set to true",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 35,
+                                    "offset": 355
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 50,
+                                    "offset": 370
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 248
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 50,
+                            "offset": 370
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 214
+                },
+                "end": {
+                    "line": 7,
+                    "column": 50,
+                    "offset": 370
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If RespawnLocation is not set to a valid ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 372
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 42,
+                            "offset": 413
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 42,
+                            "offset": 413
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 63,
+                            "offset": 434
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " then the\ndefault spawning logic will apply. For more information on this see the\npage for ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 63,
+                            "offset": 434
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 10,
+                            "offset": 525
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 10,
+                            "offset": 525
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 31,
+                            "offset": 546
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 31,
+                            "offset": 546
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 32,
+                            "offset": 547
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 372
+                },
+                "end": {
+                    "line": 11,
+                    "column": 32,
+                    "offset": 547
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h5",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Alternatives to RespawnLocation",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 7,
+                            "offset": 555
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 38,
+                            "offset": 586
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 549
+                },
+                "end": {
+                    "line": 13,
+                    "column": 38,
+                    "offset": 586
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "A ",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 3,
+                                    "offset": 590
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 5,
+                                    "offset": 592
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Player"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 5,
+                                    "offset": 592
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 19,
+                                    "offset": 606
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " will spawn from ",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 19,
+                                    "offset": 606
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 36,
+                                    "offset": 623
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpawnLocation|SpawnLocations"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 36,
+                                    "offset": 623
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 72,
+                                    "offset": 659
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\nbelonging to their team. In some cases it may be simpler to change the\nplayer's ",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 72,
+                                    "offset": 659
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 12,
+                                    "offset": 744
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Player.Team"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 12,
+                                    "offset": 744
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 31,
+                                    "offset": 763
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " instead.",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 31,
+                                    "offset": 763
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 40,
+                                    "offset": 772
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 588
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 40,
+                            "offset": 772
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Implement your own custom spawn logic using ",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 3,
+                                    "offset": 775
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 47,
+                                    "offset": 819
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PVInstance:PivotTo()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 47,
+                                    "offset": 819
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 75,
+                                    "offset": 847
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\nto manually move the ",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 75,
+                                    "offset": 847
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 24,
+                                    "offset": 871
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Player.Character"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 24,
+                                    "offset": 871
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 48,
+                                    "offset": 895
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 48,
+                                    "offset": 895
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 49,
+                                    "offset": 896
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 773
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 49,
+                            "offset": 896
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 588
+                },
+                "end": {
+                    "line": 19,
+                    "column": 49,
+                    "offset": 896
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

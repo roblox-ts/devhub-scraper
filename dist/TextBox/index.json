@@ -1,0 +1,1700 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+                "src": "/assets/legacy/TextBox.gif",
+                "alt": "A TextBox being clicked on and typed into in Roblox Studio"
+            },
+            "children": [],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 107,
+                    "offset": 106
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 108
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 3,
+                            "offset": 110
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "TextBox",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 5,
+                                    "offset": 112
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 12,
+                                    "offset": 119
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 3,
+                            "offset": 110
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 14,
+                            "offset": 121
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " allows the player to provide text input. It behaves similarly to\na ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 14,
+                            "offset": 121
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 3,
+                            "offset": 189
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextButton"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 3,
+                            "offset": 189
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 21,
+                            "offset": 207
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", except that a single TextBox can be put in focus by\nclicking, tapping or gamepad selection. While in focus, the player can use a\nkeyboard to change the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 21,
+                            "offset": 207
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 24,
+                            "offset": 361
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextBox.Text|Text"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 24,
+                            "offset": 361
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 49,
+                            "offset": 386
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 49,
+                            "offset": 386
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 59,
+                            "offset": 396
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 108
+                },
+                "end": {
+                    "line": 6,
+                    "column": 59,
+                    "offset": 396
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "If there is no text, the ",
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 3,
+                                    "offset": 400
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 28,
+                                    "offset": 425
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TextBox.PlaceholderText|PlaceholderText"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 28,
+                                    "offset": 425
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 75,
+                                    "offset": 472
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\nwill be visible. This is useful prompting players of the kind or format of\ndata they should input.",
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 75,
+                                    "offset": 472
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 26,
+                                    "offset": 575
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 398
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 26,
+                            "offset": 575
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "By default, the ",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 3,
+                                    "offset": 578
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 19,
+                                    "offset": 594
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TextBox.ClearTextOnFocus|ClearTextOnFocus"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 19,
+                                    "offset": 594
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 68,
+                                    "offset": 643
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " property\nis enabled and ensures there is no existing text when a TextBox is focused.\nThis may not be desirable for text that should be editable by the player.",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 68,
+                                    "offset": 643
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 76,
+                                    "offset": 806
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 576
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 76,
+                            "offset": 806
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "The ",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 3,
+                                    "offset": 809
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 7,
+                                    "offset": 813
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TextBox.MultiLine|MultiLine"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 7,
+                                    "offset": 813
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 42,
+                                    "offset": 848
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " property allows players to enter\nmultiple lines of text with newline characters (",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 42,
+                                    "offset": 848
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 51,
+                                    "offset": 932
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "\\n"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 51,
+                                    "offset": 932
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 55,
+                                    "offset": 936
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ").",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 55,
+                                    "offset": 936
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 57,
+                                    "offset": 938
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 807
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 57,
+                            "offset": 938
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 398
+                },
+                "end": {
+                    "line": 15,
+                    "column": 57,
+                    "offset": 938
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 940
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 5,
+                            "offset": 944
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ContextActionService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 5,
+                            "offset": 944
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 33,
+                            "offset": 972
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " honors TextBox keybinds and will\nautomatically prevent key press events from being passed to actions bound with\n",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 33,
+                            "offset": 972
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1085
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ContextActionService:BindAction()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1085
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 42,
+                            "offset": 1126
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". ",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 42,
+                            "offset": 1126
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 44,
+                            "offset": 1128
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService.InputBegan"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 44,
+                            "offset": 1128
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 79,
+                            "offset": 1163
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nand related events will still fire while a TextBox is in focus.",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 79,
+                            "offset": 1163
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 64,
+                            "offset": 1227
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 940
+                },
+                "end": {
+                    "line": 20,
+                    "column": 64,
+                    "offset": 1227
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Focus State",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 4,
+                            "offset": 1232
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 15,
+                            "offset": 1243
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 1229
+                },
+                "end": {
+                    "line": 22,
+                    "column": 15,
+                    "offset": 1243
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "It is possible to detect and change the focus state of a TextBox:",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1245
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 66,
+                            "offset": 1310
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 24,
+                    "column": 1,
+                    "offset": 1245
+                },
+                "end": {
+                    "line": 24,
+                    "column": 66,
+                    "offset": 1310
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "You can use ",
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 3,
+                                    "offset": 1314
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 15,
+                                    "offset": 1326
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TextBox:CaptureFocus()|CaptureFocus"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 15,
+                                    "offset": 1326
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 58,
+                                    "offset": 1369
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " when a dialogue\nappears so that the player doesn't have to click on a TextBox when it\nbecomes available; you can use ",
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 58,
+                                    "offset": 1369
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "column": 34,
+                                    "offset": 1491
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.ContextActionService:BindAction()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 28,
+                                    "column": 34,
+                                    "offset": 1491
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "column": 75,
+                                    "offset": 1532
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " to\nbind a certain key to focus a TextBox using this function. When a TextBox\ncomes into focus, the ",
+                            "position": {
+                                "start": {
+                                    "line": 28,
+                                    "column": 75,
+                                    "offset": 1532
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "column": 25,
+                                    "offset": 1636
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TextBox.Focused|Focused"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 25,
+                                    "offset": 1636
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "column": 56,
+                                    "offset": 1667
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " event fires.",
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 56,
+                                    "offset": 1667
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "column": 69,
+                                    "offset": 1680
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1312
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 69,
+                            "offset": 1680
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "You can detect if a certain TextBox is in focus by using\n",
+                            "position": {
+                                "start": {
+                                    "line": 31,
+                                    "column": 3,
+                                    "offset": 1683
+                                },
+                                "end": {
+                                    "line": 32,
+                                    "column": 1,
+                                    "offset": 1740
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TextBox:IsFocused()|IsFocused"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 32,
+                                    "column": 3,
+                                    "offset": 1742
+                                },
+                                "end": {
+                                    "line": 32,
+                                    "column": 40,
+                                    "offset": 1779
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ". Alternatively,\n",
+                            "position": {
+                                "start": {
+                                    "line": 32,
+                                    "column": 40,
+                                    "offset": 1779
+                                },
+                                "end": {
+                                    "line": 33,
+                                    "column": 1,
+                                    "offset": 1796
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.UserInputService:GetFocusedTextBox()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 33,
+                                    "column": 3,
+                                    "offset": 1798
+                                },
+                                "end": {
+                                    "line": 33,
+                                    "column": 47,
+                                    "offset": 1842
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " can be used to check if any\nTextBox is in focus.",
+                            "position": {
+                                "start": {
+                                    "line": 33,
+                                    "column": 47,
+                                    "offset": 1842
+                                },
+                                "end": {
+                                    "line": 34,
+                                    "column": 23,
+                                    "offset": 1893
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 31,
+                            "column": 1,
+                            "offset": 1681
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 23,
+                            "offset": 1893
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "When the player is done inputting text, the\n",
+                            "position": {
+                                "start": {
+                                    "line": 35,
+                                    "column": 3,
+                                    "offset": 1896
+                                },
+                                "end": {
+                                    "line": 36,
+                                    "column": 1,
+                                    "offset": 1940
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TextBox.FocusLost|FocusLost"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 36,
+                                    "column": 3,
+                                    "offset": 1942
+                                },
+                                "end": {
+                                    "line": 36,
+                                    "column": 38,
+                                    "offset": 1977
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " event fires, indicating if the user\npressed ",
+                            "position": {
+                                "start": {
+                                    "line": 36,
+                                    "column": 38,
+                                    "offset": 1977
+                                },
+                                "end": {
+                                    "line": 37,
+                                    "column": 11,
+                                    "offset": 2024
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "kbd",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Enter",
+                                    "position": {
+                                        "start": {
+                                            "line": 37,
+                                            "column": 16,
+                                            "offset": 2029
+                                        },
+                                        "end": {
+                                            "line": 37,
+                                            "column": 21,
+                                            "offset": 2034
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 37,
+                                    "column": 11,
+                                    "offset": 2024
+                                },
+                                "end": {
+                                    "line": 37,
+                                    "column": 27,
+                                    "offset": 2040
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " to submit text along with the ",
+                            "position": {
+                                "start": {
+                                    "line": 37,
+                                    "column": 27,
+                                    "offset": 2040
+                                },
+                                "end": {
+                                    "line": 37,
+                                    "column": 58,
+                                    "offset": 2071
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.InputObject"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 37,
+                                    "column": 58,
+                                    "offset": 2071
+                                },
+                                "end": {
+                                    "line": 37,
+                                    "column": 77,
+                                    "offset": 2090
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\nthat caused the loss of focus. When using on screen keyboards on mobile and\nconsole,\n",
+                            "position": {
+                                "start": {
+                                    "line": 37,
+                                    "column": 77,
+                                    "offset": 2090
+                                },
+                                "end": {
+                                    "line": 40,
+                                    "column": 1,
+                                    "offset": 2180
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TextBox.ReturnPressedFromOnScreenKeyboard|ReturnPressedFromOnScreenKeyboard"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 40,
+                                    "column": 3,
+                                    "offset": 2182
+                                },
+                                "end": {
+                                    "line": 40,
+                                    "column": 86,
+                                    "offset": 2265
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\nmay also fire.",
+                            "position": {
+                                "start": {
+                                    "line": 40,
+                                    "column": 86,
+                                    "offset": 2265
+                                },
+                                "end": {
+                                    "line": 41,
+                                    "column": 17,
+                                    "offset": 2282
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 1,
+                            "offset": 1894
+                        },
+                        "end": {
+                            "line": 41,
+                            "column": 17,
+                            "offset": 2282
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "If some more important matter comes up during gameplay, you can\n",
+                            "position": {
+                                "start": {
+                                    "line": 42,
+                                    "column": 3,
+                                    "offset": 2285
+                                },
+                                "end": {
+                                    "line": 43,
+                                    "column": 1,
+                                    "offset": 2349
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TextBox:ReleaseFocus()|ReleaseFocus"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 43,
+                                    "column": 3,
+                                    "offset": 2351
+                                },
+                                "end": {
+                                    "line": 43,
+                                    "column": 46,
+                                    "offset": 2394
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " of the TextBox so that a\nplayer's keyboard input returns to your game.",
+                            "position": {
+                                "start": {
+                                    "line": 43,
+                                    "column": 46,
+                                    "offset": 2394
+                                },
+                                "end": {
+                                    "line": 44,
+                                    "column": 48,
+                                    "offset": 2467
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 42,
+                            "column": 1,
+                            "offset": 2283
+                        },
+                        "end": {
+                            "line": 44,
+                            "column": 48,
+                            "offset": 2467
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 26,
+                    "column": 1,
+                    "offset": 1312
+                },
+                "end": {
+                    "line": 44,
+                    "column": 48,
+                    "offset": 2467
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Text Editing",
+                    "position": {
+                        "start": {
+                            "line": 46,
+                            "column": 4,
+                            "offset": 2472
+                        },
+                        "end": {
+                            "line": 46,
+                            "column": 16,
+                            "offset": 2484
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 46,
+                    "column": 1,
+                    "offset": 2469
+                },
+                "end": {
+                    "line": 46,
+                    "column": 16,
+                    "offset": 2484
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+                "src": "/assets/legacy/TextBox-Selection.gif",
+                "alt": "A TextBox with text being selected, copied and pasted"
+            },
+            "children": [],
+            "position": {
+                "start": {
+                    "line": 48,
+                    "column": 1,
+                    "offset": 2486
+                },
+                "end": {
+                    "line": 48,
+                    "column": 111,
+                    "offset": 2596
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A TextBox supports text selection through its\n",
+                    "position": {
+                        "start": {
+                            "line": 50,
+                            "column": 1,
+                            "offset": 2598
+                        },
+                        "end": {
+                            "line": 51,
+                            "column": 1,
+                            "offset": 2644
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextBox.CursorPosition|CursorPosition"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 51,
+                            "column": 1,
+                            "offset": 2644
+                        },
+                        "end": {
+                            "line": 51,
+                            "column": 46,
+                            "offset": 2689
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 51,
+                            "column": 46,
+                            "offset": 2689
+                        },
+                        "end": {
+                            "line": 52,
+                            "column": 1,
+                            "offset": 2694
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextBox.SelectionStart|SelectionStart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 52,
+                            "column": 1,
+                            "offset": 2694
+                        },
+                        "end": {
+                            "line": 52,
+                            "column": 46,
+                            "offset": 2739
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " properties. Using\n",
+                    "position": {
+                        "start": {
+                            "line": 52,
+                            "column": 46,
+                            "offset": 2739
+                        },
+                        "end": {
+                            "line": 53,
+                            "column": 1,
+                            "offset": 2758
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance:GetPropertyChangedSignal()|GetPropertyChangedSignal"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 53,
+                            "column": 1,
+                            "offset": 2758
+                        },
+                        "end": {
+                            "line": 53,
+                            "column": 69,
+                            "offset": 2826
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", you can\ndetect when a selection changes. Additionally, it is possible for players to\ncopy and paste text within a TextBox, enabling basic clipboard support.",
+                    "position": {
+                        "start": {
+                            "line": 53,
+                            "column": 69,
+                            "offset": 2826
+                        },
+                        "end": {
+                            "line": 55,
+                            "column": 72,
+                            "offset": 2984
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 50,
+                    "column": 1,
+                    "offset": 2598
+                },
+                "end": {
+                    "line": 55,
+                    "column": 72,
+                    "offset": 2984
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Text Filtering Notice",
+                            "position": {
+                                "start": {
+                                    "line": 57,
+                                    "column": 3,
+                                    "offset": 2988
+                                },
+                                "end": {
+                                    "line": 57,
+                                    "column": 24,
+                                    "offset": 3009
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 57,
+                            "column": 1,
+                            "offset": 2986
+                        },
+                        "end": {
+                            "line": 57,
+                            "column": 26,
+                            "offset": 3011
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " Games that facilitate player-to-player communication\nusing text, such as custom chat or nametags, must properly filter such text\nusing ",
+                    "position": {
+                        "start": {
+                            "line": 57,
+                            "column": 26,
+                            "offset": 3011
+                        },
+                        "end": {
+                            "line": 59,
+                            "column": 7,
+                            "offset": 3147
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextService:FilterStringAsync()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 59,
+                            "column": 7,
+                            "offset": 3147
+                        },
+                        "end": {
+                            "line": 59,
+                            "column": 46,
+                            "offset": 3186
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 59,
+                            "column": 46,
+                            "offset": 3186
+                        },
+                        "end": {
+                            "line": 60,
+                            "column": 1,
+                            "offset": 3190
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Chat:FilterStringAsync()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 60,
+                            "column": 1,
+                            "offset": 3190
+                        },
+                        "end": {
+                            "line": 60,
+                            "column": 33,
+                            "offset": 3222
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". If this is not properly done, your game may\nreceive moderation action.",
+                    "position": {
+                        "start": {
+                            "line": 60,
+                            "column": 33,
+                            "offset": 3222
+                        },
+                        "end": {
+                            "line": 61,
+                            "column": 27,
+                            "offset": 3294
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 57,
+                    "column": 1,
+                    "offset": 2986
+                },
+                "end": {
+                    "line": 61,
+                    "column": 27,
+                    "offset": 3294
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

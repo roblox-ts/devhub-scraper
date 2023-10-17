@@ -1,0 +1,378 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines the order in which a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject|GUI"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 68,
+                            "offset": 67
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nrenders to the screen relative to other GUIs.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 68,
+                            "offset": 67
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 46,
+                            "offset": 113
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 46,
+                    "offset": 113
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "By default, GUIs render in ascending priority order where lower values are\nrendered first. As a result, GUIs with lower ZIndex values appear under\nhigher values. You can change the render order by changing the value of\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 115
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 334
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScreenGui.ZIndexBehavior"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 334
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 33,
+                            "offset": 366
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 33,
+                            "offset": 366
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 34,
+                            "offset": 367
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 115
+                },
+                "end": {
+                    "line": 7,
+                    "column": 34,
+                    "offset": 367
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The range of valid values is -MAX_INT to MAX_INT, inclusive (2,147,483,647\nor (2^31 - 1)). If you are unsure if you will need to layer an element\nbetween two already-existing elements in the future, it can be a good idea\nto use multiples of 100, i.e. 0, 100, 200. This ensures a large gap of\nZIndex values you can use for elements rendered in-between other elements.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 369
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 75,
+                            "offset": 735
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 369
+                },
+                "end": {
+                    "line": 13,
+                    "column": 75,
+                    "offset": 735
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 737
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 10,
+                            "offset": 746
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 737
+                },
+                "end": {
+                    "line": 15,
+                    "column": 10,
+                    "offset": 746
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.GuiObject.LayoutOrder"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 3,
+                                    "offset": 750
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 32,
+                                    "offset": 779
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which controls the sort order of a GUI\nwhen used with a ",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 32,
+                                    "offset": 779
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 20,
+                                    "offset": 839
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.UIGridStyleLayout"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 20,
+                                    "offset": 839
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 45,
+                                    "offset": 864
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " instead of render order.",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 45,
+                                    "offset": 864
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 70,
+                                    "offset": 889
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 748
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 70,
+                            "offset": 889
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 748
+                },
+                "end": {
+                    "line": 18,
+                    "column": 70,
+                    "offset": 889
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

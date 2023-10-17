@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "RiseVelocity behaves similarly to ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 35,
+                            "offset": 34
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.Speed"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 35,
+                            "offset": 34
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 64,
+                            "offset": 63
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 64,
+                            "offset": 63
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 68
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Fire.Heat"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 68
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 85
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ": it determines how fast the smoke particles move during\ntheir lifetime. It must be in the range [-25, 25]. Negative values will\ncause particles to emit in the bottom (-Y) direction of the parent\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 85
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 281
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 281
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 17,
+                            "offset": 297
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 17,
+                            "offset": 297
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 18,
+                            "offset": 298
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 18,
+                    "offset": 298
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When using a ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 300
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 313
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Smoke"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 313
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 27,
+                            "offset": 326
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " effect to create fog, set this property to 0.\nFor large smoke effects, make the rise subtle (2 to 8). For chimneys and\nsmokestacks, higher values are appropriate.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 27,
+                            "offset": 326
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 44,
+                            "offset": 489
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 300
+                },
+                "end": {
+                    "line": 9,
+                    "column": 44,
+                    "offset": 489
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

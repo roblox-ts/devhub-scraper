@@ -1,0 +1,328 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The volume of the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Can be set between 0 and 10. Defaults to\n0.5",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 4,
+                            "offset": 77
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 4,
+                    "offset": 77
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that if the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 79
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 18,
+                            "offset": 96
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 18,
+                            "offset": 96
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 31,
+                            "offset": 109
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is a member of a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 31,
+                            "offset": 109
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 49,
+                            "offset": 127
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SoundGroup"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 49,
+                            "offset": 127
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 67,
+                            "offset": 145
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " its\nplayback volume (but not the Volume property) will be influenced by the\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 67,
+                            "offset": 145
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 222
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SoundGroup.Volume"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 222
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 26,
+                            "offset": 247
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property of that ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 26,
+                            "offset": 247
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 44,
+                            "offset": 265
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SoundGroup"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 44,
+                            "offset": 265
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 62,
+                            "offset": 283
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The effect\nof this is multiplicative, meaning that a sound will play at the same\nvolume if its Volume is 0.1 and its ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 62,
+                            "offset": 283
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 37,
+                            "offset": 402
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SoundGroup"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 37,
+                            "offset": 402
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 55,
+                            "offset": 420
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "'s volume is 5 and\nvice-versa.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 55,
+                            "offset": 420
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 12,
+                            "offset": 450
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 79
+                },
+                "end": {
+                    "line": 9,
+                    "column": 12,
+                    "offset": 450
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

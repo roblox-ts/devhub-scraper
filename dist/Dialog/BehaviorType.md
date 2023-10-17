@@ -1,7 +1,6 @@
 The BehaviorType of a Dialog determines whether multiple players can
 interact with a dialog at once. The default value for this property is
 SinglePlayer.
-
 #### SinglePlayer
 
 When a Dialog is configured to SinglePlayer, only one player can interact
@@ -12,7 +11,6 @@ finished.
 While a player is engaged with a dialog, the other players will see the
 dialog choices of the player who started the dialog, along with the
 responses.
-
 #### MultiplePlayers
 
 When a Dialog is setto MultiplePlayers, any player can initiate a dialog
@@ -20,7 +18,6 @@ at any time, even if another player has already initiated the dialog.
 Unlike SinglePlayer however, Dialogs set to MultiplePlayers will not show
 the dialog choices and responses to anyone but the player in the
 conversation.
-
 ```lua
 local singlePlayerDialog = Instance.new("Dialog")
 local singlePlayerPart = game.Workspace.SinglePlayerPart

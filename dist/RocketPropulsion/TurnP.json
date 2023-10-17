@@ -1,0 +1,147 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The P property determines how much\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 35
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://en.wikipedia.org/wiki/Power_(physics)"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "power",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 2,
+                                    "offset": 36
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 7,
+                                    "offset": 41
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 35
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 91
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is used while\napplying torque in order to face the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 91
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 143
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RocketPropulsion.Target|Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 143
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 39,
+                            "offset": 181
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The higher this value, the more\npower will be used and the faster it will be used.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 39,
+                            "offset": 181
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 51,
+                            "offset": 265
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 51,
+                    "offset": 265
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

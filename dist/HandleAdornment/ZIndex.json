@@ -1,0 +1,313 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "ZIndex",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 13,
+                                    "offset": 12
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 15,
+                            "offset": 14
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property determines the draw order of the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 15,
+                            "offset": 14
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 57
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HandleAdornment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 57
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 80
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 80
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 87
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "ZIndex",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 33,
+                                    "offset": 89
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 39,
+                                    "offset": 95
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 87
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 97
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " only refers to how the adornment\nwill draw relative to other adornments or 3d objects in the workspace.\nThis does not relate to the ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 29,
+                            "offset": 230
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.ZIndex"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 29,
+                            "offset": 230
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 53,
+                            "offset": 254
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of GuiObjects.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 53,
+                            "offset": 254
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 68,
+                            "offset": 269
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 68,
+                    "offset": 269
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The valid values for ZIndex are from -1 to 10. If two HandleAdornments are\ndrawn over one another, the one with the higher ZIndex will be drawn. This\norder of drawing will be respected even if the adormnent with higher\nZIndex is behind the other adornment in terms of its position in 3d space.\nIf set to -1, ZIndex will force the adornment to draw behind other\nadornments and objects in the Workspace, even if the\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 271
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 685
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HandleAdornment.AlwaysOnTop"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 685
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 36,
+                            "offset": 720
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property for the adornment is true.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 36,
+                            "offset": 720
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 72,
+                            "offset": 756
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 271
+                },
+                "end": {
+                    "line": 12,
+                    "column": 72,
+                    "offset": 756
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

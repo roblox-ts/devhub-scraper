@@ -1,1 +1,1 @@
-The stored [Vector3](/reference/engine/datatypes/Vector3).
+The stored `Datatype.Vector3`.

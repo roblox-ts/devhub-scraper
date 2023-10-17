@@ -18,5 +18,5 @@ It is recommended to only use the EchoSoundEffect with sound groups. If an
 echo effect is applied to a regular Sound, once that sound stops playing the
 echo effect will also be cut off. When applied to a SoundGroup, the echo
 effect will continue playing even if the original source sound has
-stopped.Like all other [SoundEffect](https://create.roblox.com/docs/reference/engine/classes/SoundEffect), a EchoSoundEffect can be applied either
-to a [Sound](https://create.roblox.com/docs/reference/engine/classes/Sound) or [SoundGroup](https://create.roblox.com/docs/reference/engine/classes/SoundGroup) by being parented to either.
+stopped.Like all other [`SoundEffect`](https://create.roblox.com/docs/reference/engine/classes/SoundEffect), a EchoSoundEffect can be applied
+either to a [`Sound`](https://create.roblox.com/docs/reference/engine/classes/Sound) or [`SoundGroup`](https://create.roblox.com/docs/reference/engine/classes/SoundGroup) by being parented to either.

@@ -1,0 +1,379 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The DevComputerMovementMove ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPlayer"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property lets the\ndeveloper overwrite the player's movement mode if the player is on a\ncomputer.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 50,
+                            "offset": 49
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 10,
+                            "offset": 146
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 10,
+                    "offset": 146
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This is the default property for players joining the game. It can be\nchanged for individual players by settings the\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 148
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 264
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.DevComputerMovementMode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 264
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 39,
+                            "offset": 302
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 39,
+                            "offset": 302
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 40,
+                            "offset": 303
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 148
+                },
+                "end": {
+                    "line": 7,
+                    "column": 40,
+                    "offset": 303
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If set to ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 305
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 11,
+                            "offset": 315
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "UserChoice",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 13,
+                                    "offset": 317
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 23,
+                                    "offset": 327
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 11,
+                            "offset": 315
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 25,
+                            "offset": 329
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " then the player's movement mode will be\ndetermined by whatever the player set in the game settings. Otherwise, the\nmode will be set based on this property.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 25,
+                            "offset": 329
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 41,
+                            "offset": 485
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 305
+                },
+                "end": {
+                    "line": 11,
+                    "column": 41,
+                    "offset": 485
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 487
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 5,
+                            "offset": 491
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.DevComputerMovementMode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 5,
+                            "offset": 491
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 35,
+                            "offset": 521
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for the different movement modes\navailable. Lets developer overwrite the player's movement mode if the\nplayer is on a computer.",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 35,
+                            "offset": 521
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 25,
+                            "offset": 649
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 487
+                },
+                "end": {
+                    "line": 15,
+                    "column": 25,
+                    "offset": 649
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property has no affect on players not on a computer.",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 651
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 58,
+                            "offset": 708
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 651
+                },
+                "end": {
+                    "line": 17,
+                    "column": 58,
+                    "offset": 708
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

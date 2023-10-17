@@ -1,0 +1,223 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The direction of the goal's ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Y",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 31,
+                                    "offset": 30
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 32,
+                                    "offset": 31
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " axis, represented as a unit\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 62
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Vector3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 62
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 19,
+                            "offset": 80
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Only used when ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 19,
+                            "offset": 80
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 97
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AlignOrientation.Mode|Mode"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 70,
+                            "offset": 131
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 70,
+                            "offset": 131
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 135
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.OrientationAlignmentMode|OneAttachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 135
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 46,
+                            "offset": 180
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 46,
+                            "offset": 180
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 47,
+                            "offset": 181
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 47,
+                    "offset": 181
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

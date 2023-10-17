@@ -1,0 +1,457 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enabled",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 14,
+                                    "offset": 13
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property relates to whether or not the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 68,
+                            "offset": 67
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " can be\nused. This is useful if you want to prevent a player from using a tool,\nbut don't want to remove it from their ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 68,
+                            "offset": 67
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 40,
+                            "offset": 186
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Backpack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 40,
+                            "offset": 186
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 56,
+                            "offset": 202
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 56,
+                            "offset": 202
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 57,
+                            "offset": 203
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 57,
+                    "offset": 203
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When set to ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 205
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 13,
+                            "offset": 217
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "true"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 13,
+                            "offset": 217
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 19,
+                            "offset": 223
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the player can use the tool. When set to ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 19,
+                            "offset": 223
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 62,
+                            "offset": 266
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "false"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 62,
+                            "offset": 266
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 69,
+                            "offset": 273
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the\ntool is disabled and the player cannot use it; this prevents the tool from\nbeing activated or deactivated by the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 69,
+                            "offset": 273
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 39,
+                            "offset": 392
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool:Activate()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 39,
+                            "offset": 392
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 62,
+                            "offset": 415
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 62,
+                            "offset": 415
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 420
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool:Deactivate()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 420
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 26,
+                            "offset": 445
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " methods, and it prevents the\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 26,
+                            "offset": 445
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 475
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.Activated"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 475
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 23,
+                            "offset": 497
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 23,
+                            "offset": 497
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 28,
+                            "offset": 502
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.Deactivated"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 28,
+                            "offset": 502
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 52,
+                            "offset": 526
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " events from firing.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 52,
+                            "offset": 526
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 72,
+                            "offset": 546
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 205
+                },
+                "end": {
+                    "line": 9,
+                    "column": 72,
+                    "offset": 546
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

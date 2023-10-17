@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ObjectValue is an object whose purpose is to store a single reference to\nanother object. If this object is duplicated within studio and the value\nrefers to an object also being copied, then the new ObjectValue will point to\nthe copied object instead of the original. Otherwise, the same value is kept.\nCopying and pasting this object will clear the value field.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 60,
+                            "offset": 363
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 60,
+                    "offset": 363
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The value of this can be set within studio like other reference-type fields\n(such as ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 365
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 10,
+                            "offset": 450
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model.PrimaryPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 10,
+                            "offset": 450
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 35,
+                            "offset": 475
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "): click the field within the Properties\nwindow, then click the object you wish to set it to within the game view or\nExplorer window. You can clear the field (set it to ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 35,
+                            "offset": 475
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 53,
+                            "offset": 644
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "nil"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 53,
+                            "offset": 644
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 58,
+                            "offset": 649
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") by clicking the X\nthat appears when you click the field.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 58,
+                            "offset": 649
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 39,
+                            "offset": 707
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 365
+                },
+                "end": {
+                    "line": 11,
+                    "column": 39,
+                    "offset": 707
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Like all \"-Value\" objects, this single value is stored in the Value property.\nThe Changed event for this (and other objects like it) will fire with the new\nvalue being stored in the object, instead of a string representing the\nproperty being changed.",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 709
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 24,
+                            "offset": 959
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 709
+                },
+                "end": {
+                    "line": 16,
+                    "column": 24,
+                    "offset": 959
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

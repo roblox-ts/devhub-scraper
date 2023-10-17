@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The maximum absolute force that can be applied. This property is enabled\nonly when ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 11,
+                            "offset": 83
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LineForce.InverseSquareLaw|InverseSquareLaw"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 11,
+                            "offset": 83
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 62,
+                            "offset": 134
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is also\nenabled. This property is mainly used to address the issue that the force\nof the body mover becomes infinite the closer the two attachments are,\ncausing explosions that can't be prevented by scripts. This property\nbounds the force's absolute value.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 62,
+                            "offset": 134
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 35,
+                            "offset": 391
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 35,
+                    "offset": 391
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

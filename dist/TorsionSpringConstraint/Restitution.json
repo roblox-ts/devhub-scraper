@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property defines how elastic ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 35,
+                            "offset": 34
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment|Attachments"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 35,
+                            "offset": 34
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 65,
+                            "offset": 64
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " connected\nby a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 65,
+                            "offset": 64
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 6,
+                            "offset": 80
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TorsionSpringConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 6,
+                            "offset": 80
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 111
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are when they reach the end of the\nrange specified by ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 111
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 20,
+                            "offset": 166
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TorsionSpringConstraint.MaxAngle|MaxAngle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 20,
+                            "offset": 166
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 69,
+                            "offset": 215
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", when\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 69,
+                            "offset": 215
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 222
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TorsionSpringConstraint.LimitEnabled|LimitEnabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 222
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 58,
+                            "offset": 279
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is true. The\nvalue defaults to 0 and can be any floating number within the range of 0\nand 1.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 58,
+                            "offset": 279
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 7,
+                            "offset": 372
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 7,
+                    "offset": 372
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

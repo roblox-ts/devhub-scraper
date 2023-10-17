@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Elasticity of a part is now determined by either its ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.Material"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 73,
+                            "offset": 72
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nor its ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 73,
+                            "offset": 72
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 8,
+                            "offset": 80
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "CustomPhysicalProperties"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 8,
+                            "offset": 80
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 34,
+                            "offset": 106
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 34,
+                            "offset": 106
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 107
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 35,
+                    "offset": 107
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

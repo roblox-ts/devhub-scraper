@@ -1,0 +1,416 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines how the alpha channel of the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 54
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SurfaceAppearance.ColorMap"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 54
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 88
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of a ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 88
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 94
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SurfaceAppearance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 94
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 66,
+                            "offset": 119
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is used.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 66,
+                            "offset": 119
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 75,
+                            "offset": 128
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 75,
+                    "offset": 128
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When AlphaMode is set to ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 130
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 26,
+                            "offset": 155
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.AlphaMode|Transparency"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 26,
+                            "offset": 155
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 55,
+                            "offset": 184
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and the\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 55,
+                            "offset": 184
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 193
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Transparency|MeshPart.Transparency"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 193
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 52,
+                            "offset": 244
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to 0, opaque\npixels in the SurfaceAppearance's ColorMap will render as completely\nopaque in the 3D scene. This solves various problems for textures with\ndifferent transparent and opaque areas, such as foliage. When parts of the\nsurface are fully opaque, the Roblox engine can render them with proper\ndepth-based occlusion. Opaque surfaces also generally work better with\ndepth-based effects like DepthOfField, glass and water refraction, and\nwater reflection.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 52,
+                            "offset": 244
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 18,
+                            "offset": 711
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 130
+                },
+                "end": {
+                    "line": 12,
+                    "column": 18,
+                    "offset": 711
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "MeshPart.TextureId vs SurfaceAppearance:",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 713
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 41,
+                            "offset": 753
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 713
+                },
+                "end": {
+                    "line": 14,
+                    "column": 41,
+                    "offset": 753
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/leaves-comparison.gif",
+                        "alt": "Foliage comparison"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 755
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 60,
+                            "offset": 814
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 755
+                },
+                "end": {
+                    "line": 16,
+                    "column": 60,
+                    "offset": 814
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Here is an example of a fern color map. Only the pixels on the leaves have\nfull alpha.",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 816
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 12,
+                            "offset": 902
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 816
+                },
+                "end": {
+                    "line": 19,
+                    "column": 12,
+                    "offset": 902
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/fern-color.png",
+                        "alt": "Alpha fern"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 904
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 45,
+                            "offset": 948
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 21,
+                    "column": 1,
+                    "offset": 904
+                },
+                "end": {
+                    "line": 21,
+                    "column": 45,
+                    "offset": 948
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

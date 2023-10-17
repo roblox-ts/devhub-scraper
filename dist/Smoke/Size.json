@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Size property of ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Smoke"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 35,
+                            "offset": 34
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines the size of the newly emit\nsmoke particles. Unlike ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 35,
+                            "offset": 34
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 97
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Smoke.Color"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 116
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", this property will not change\nthe size of existing particles. It must be in the range [0.1, 100]. Unlike\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 116
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 223
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ParticleEmitter.Size"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 223
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 29,
+                            "offset": 251
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", this property is only a number (not a\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 29,
+                            "offset": 251
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 291
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.NumberSequence"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 291
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 316
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "). Also note also that the size of the particles\nis not 1-to-1 with studs; in fact, the size of the smoke particle is more\nthan twice as large. At the largest size, smoke particles can render\nlarger than 200 studs wide!",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 316
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 28,
+                            "offset": 535
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 8,
+                    "column": 28,
+                    "offset": 535
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,329 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "PixelsPerStud",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 16,
+                                    "offset": 15
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 18,
+                            "offset": 17
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines the density of pixels used for each\nworld-space stud to render the contents of the SurfaceGui.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 18,
+                            "offset": 17
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 59,
+                            "offset": 123
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 59,
+                    "offset": 123
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Higher values will cause the various ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 125
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 38,
+                            "offset": 162
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 38,
+                            "offset": 162
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 55,
+                            "offset": 179
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " within to appear\nsmaller if they are kept the same size. Conversely, lower values will\ncause objects to appear larger. However, if the GuiObjects are scaled\nproportionally (either by using a ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 55,
+                            "offset": 179
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 35,
+                            "offset": 371
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIScale"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 35,
+                            "offset": 371
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 50,
+                            "offset": 386
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or modifying\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 50,
+                            "offset": 386
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 400
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.Size|Size"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 400
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 28,
+                            "offset": 427
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 28,
+                            "offset": 427
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 32,
+                            "offset": 431
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 32,
+                            "offset": 431
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 58,
+                            "offset": 457
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " etc.), this\nproperty allows for higher definition to be used. It's important to select\na value based on how far away you expect a player to view the SurfaceGui.\nBe mindful that a large pixel density could negatively affect performance\nif the face of the adorned part is large enough.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 58,
+                            "offset": 457
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 49,
+                            "offset": 741
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 125
+                },
+                "end": {
+                    "line": 12,
+                    "column": 49,
+                    "offset": 741
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/SurfaceGui.PixelsPerStud.jpg",
+                        "alt": "Three parts with SurfaceGuis, each including a 200x50 TextLabel within them. From left-to-right, their PixelsPerStud values are 25, 50 and 75. These values cause the apparent size of each TextLabel to change."
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 743
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 257,
+                            "offset": 999
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 743
+                },
+                "end": {
+                    "line": 14,
+                    "column": 257,
+                    "offset": 999
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

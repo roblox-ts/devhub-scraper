@@ -1,10 +1,9 @@
-The CollisionGroupId property describes the ID number of the part's
-collision group. Parts start off in the Default group whose ID is 0.
-Although this property can be directly changed, it is recommended to
-instead manipulate the collision group of a part using the **name** of the
-group with the [PhysicsService:SetPartCollisionGroup](https://create.roblox.com/docs/reference/engine/classes/PhysicsService#SetPartCollisionGroup) function. You can
-find the ID of a collision group by using
-[PhysicsService:GetCollisionGroupId](https://create.roblox.com/docs/reference/engine/classes/PhysicsService#GetCollisionGroupId).
+The [`BasePart.CollisionGroupId`](https://create.roblox.com/docs/reference/engine/classes/BasePart#CollisionGroupId) property describes the ID number of
+the part's collision group. Parts start off in the `"Default"` group whose
+ID is 0. If a part is unregistered, the value becomes -1. This value
+cannot be less than -1 and it cannot exceed
+[`PhysicsService:GetMaxCollisionGroups()`](https://create.roblox.com/docs/reference/engine/classes/PhysicsService#GetMaxCollisionGroups). Invalid IDs are clamped.
 
-This value cannot be negative, and cannot exceed
-[PhysicsService:GetMaxCollisionGroups](https://create.roblox.com/docs/reference/engine/classes/PhysicsService#GetMaxCollisionGroups). Invalid IDs are clamped.
+Although this property can be directly changed, it's recommended that you
+specify the collision group by setting [`BasePart.CollisionGroup`](https://create.roblox.com/docs/reference/engine/classes/BasePart#CollisionGroup) to
+the collision group's **name**.

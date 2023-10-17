@@ -1,2 +1,2 @@
 The maximum torque the motor can apply to achieve the target angular
-velocity. The units are mass \* studs^2 / second^2. Value in [0, inf).
+velocity. Units are mass × studs²/second².

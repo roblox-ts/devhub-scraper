@@ -1,0 +1,406 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property indicates the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ProximityPrompt"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 52,
+                            "offset": 51
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "'s style. When set to\nCustom, no default UI will be provided.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 52,
+                            "offset": 51
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 40,
+                            "offset": 112
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 40,
+                    "offset": 112
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The provided UI can be swapped out for a custom UI. In order to do this,\nset Style to Custom. Then, listen to the\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 114
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 228
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ProximityPrompt.PromptShown"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 228
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 36,
+                            "offset": 263
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 36,
+                            "offset": 263
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 268
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ProximityPrompt.PromptHidden"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 268
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 37,
+                            "offset": 304
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " events in a ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 37,
+                            "offset": 304
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 50,
+                            "offset": 317
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 50,
+                            "offset": 317
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 69,
+                            "offset": 336
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\nwhere developers should create and tear down the UI.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 69,
+                            "offset": 336
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 53,
+                            "offset": 390
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 114
+                },
+                "end": {
+                    "line": 8,
+                    "column": 53,
+                    "offset": 390
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Developers may also use ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 392
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 25,
+                            "offset": 416
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ProximityPrompt.PromptButtonHoldBegan"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 25,
+                            "offset": 416
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 70,
+                            "offset": 461
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 70,
+                            "offset": 461
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 466
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ProximityPrompt.PromptButtonHoldEnded"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 466
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 46,
+                            "offset": 511
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in order to utilize the\n",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 46,
+                            "offset": 511
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 536
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ProximityPrompt.HoldDuration"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 536
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 37,
+                            "offset": 572
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " progress animation feature.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 37,
+                            "offset": 572
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 65,
+                            "offset": 600
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 392
+                },
+                "end": {
+                    "line": 12,
+                    "column": 65,
+                    "offset": 600
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

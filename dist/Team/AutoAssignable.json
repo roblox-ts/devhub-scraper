@@ -1,0 +1,406 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines whether ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s will be automatically\nplaced onto the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 17,
+                            "offset": 87
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Team"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 17,
+                            "offset": 87
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 99
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when joining. If multiple teams have this\nproperty set to true, Roblox will attempt to even the teams out when\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 99
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 211
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 211
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 15,
+                            "offset": 225
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s are added.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 15,
+                            "offset": 225
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 27,
+                            "offset": 237
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 27,
+                    "offset": 237
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When a ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 239
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 8,
+                            "offset": 246
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 8,
+                            "offset": 246
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 22,
+                            "offset": 260
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " joins a game they will be assigned to the\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 22,
+                            "offset": 260
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 303
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Team"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 303
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 13,
+                            "offset": 315
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " with ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 13,
+                            "offset": 315
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 19,
+                            "offset": 321
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Team.AutoAssignable"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 19,
+                            "offset": 321
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 46,
+                            "offset": 348
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " set to true that has the\nfewest players. If no such team is available, ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 46,
+                            "offset": 348
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 47,
+                            "offset": 420
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.Neutral"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 47,
+                            "offset": 420
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 69,
+                            "offset": 442
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will\nbe set to true.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 69,
+                            "offset": 442
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 16,
+                            "offset": 463
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 239
+                },
+                "end": {
+                    "line": 9,
+                    "column": 16,
+                    "offset": 463
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note while using this property will help even out teams when players are\nadded, it will not do anything when players are removed. For this reason\ndevelopers may wish to implement their own team balancing system.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 465
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 66,
+                            "offset": 676
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 465
+                },
+                "end": {
+                    "line": 13,
+                    "column": 66,
+                    "offset": 676
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

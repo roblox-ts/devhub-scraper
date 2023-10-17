@@ -1,0 +1,619 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A range denoting a desired start (min) and stop (max) time within the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound.TimeLength"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 94
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", in seconds.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 94
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 38,
+                            "offset": 107
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 38,
+                    "offset": 107
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "p",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "If PlaybackRegion.Min > 0, the sound begins to play from the\nPlaybackRegion.Min time.",
+                                    "position": {
+                                        "start": {
+                                            "line": 4,
+                                            "column": 3,
+                                            "offset": 111
+                                        },
+                                        "end": {
+                                            "line": 5,
+                                            "column": 27,
+                                            "offset": 198
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 3,
+                                    "offset": 111
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 27,
+                                    "offset": 198
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 109
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 27,
+                            "offset": 198
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "p",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "If PlaybackRegion.Min < 0, the sound begins to play from 0.",
+                                    "position": {
+                                        "start": {
+                                            "line": 7,
+                                            "column": 3,
+                                            "offset": 202
+                                        },
+                                        "end": {
+                                            "line": 7,
+                                            "column": 62,
+                                            "offset": 261
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 3,
+                                    "offset": 202
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 62,
+                                    "offset": 261
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 200
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 62,
+                            "offset": 261
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "p",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "If PlaybackRegion.Max > ",
+                                    "position": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 3,
+                                            "offset": 265
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 27,
+                                            "offset": 289
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "code",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Class.Sound.TimeLength"
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 27,
+                                            "offset": 289
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 51,
+                                            "offset": 313
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ", the sound stops at\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 51,
+                                            "offset": 313
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "column": 1,
+                                            "offset": 334
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "code",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Class.Sound.TimeLength"
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 10,
+                                            "column": 3,
+                                            "offset": 336
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "column": 27,
+                                            "offset": 360
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ".",
+                                    "position": {
+                                        "start": {
+                                            "line": 10,
+                                            "column": 27,
+                                            "offset": 360
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "column": 28,
+                                            "offset": 361
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 3,
+                                    "offset": 265
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 28,
+                                    "offset": 361
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 263
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 28,
+                            "offset": 361
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "p",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "If PlaybackRegion.Max < ",
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 3,
+                                            "offset": 365
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 27,
+                                            "offset": 389
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "code",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Class.Sound.TimeLength"
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 27,
+                                            "offset": 389
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 51,
+                                            "offset": 413
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ", the sound stops at\n",
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 51,
+                                            "offset": 413
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 1,
+                                            "offset": 434
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "em",
+                                    "properties": {},
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "exactly",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 4,
+                                                    "offset": 437
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 11,
+                                                    "offset": 444
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 13,
+                                            "column": 3,
+                                            "offset": 436
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 12,
+                                            "offset": 445
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " that time.",
+                                    "position": {
+                                        "start": {
+                                            "line": 13,
+                                            "column": 12,
+                                            "offset": 445
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 23,
+                                            "offset": 456
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 3,
+                                    "offset": 365
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 23,
+                                    "offset": 456
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 363
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 23,
+                            "offset": 456
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "p",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "If PlaybackRegion.Min == PlaybackRegion.Max, the PlayBackRegion is\ninactive.",
+                                    "position": {
+                                        "start": {
+                                            "line": 15,
+                                            "column": 3,
+                                            "offset": 460
+                                        },
+                                        "end": {
+                                            "line": 16,
+                                            "column": 12,
+                                            "offset": 538
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 3,
+                                    "offset": 460
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 12,
+                                    "offset": 538
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 458
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 12,
+                            "offset": 538
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 109
+                },
+                "end": {
+                    "line": 16,
+                    "column": 12,
+                    "offset": 538
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,6 +1,5 @@
-LayerCollector is the base class of 2D UI containers which render [GuiObject](https://create.roblox.com/docs/reference/engine/classes/GuiObject)
-descendants, such as [ScreenGui](https://create.roblox.com/docs/reference/engine/classes/ScreenGui).
-
+LayerCollector is the base class of 2D UI containers which render
+[`GuiObject`](https://create.roblox.com/docs/reference/engine/classes/GuiObject) descendants, such as [`ScreenGui`](https://create.roblox.com/docs/reference/engine/classes/ScreenGui).
 ## Caching static UI for performance improvements
 
 A Gui's appearance is cached until one of the following events occurs:

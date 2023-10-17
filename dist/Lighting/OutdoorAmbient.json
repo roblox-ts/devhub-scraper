@@ -1,0 +1,523 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The lighting hue applied to outdoor areas.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 43,
+                            "offset": 42
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 43,
+                    "offset": 42
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property defaults to 127, 127, 127.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 44
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 41,
+                            "offset": 84
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 44
+                },
+                "end": {
+                    "line": 3,
+                    "column": 41,
+                    "offset": 84
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "As long as the red, green and blue channels of ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 86
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 48,
+                            "offset": 133
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.Ambient"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 48,
+                            "offset": 133
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 72,
+                            "offset": 157
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " do\nnot exceed the corresponding channels in this property, the hue of the\nlighting in outdoor areas will be determined by this property. The\neffective OutdoorAmbient value is clamped to be greater than or equal to\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 72,
+                            "offset": 157
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 372
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.Ambient"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 372
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 25,
+                            "offset": 396
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in all channels. This means, if a channel of\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 25,
+                            "offset": 396
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 442
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.Ambient"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 442
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 25,
+                            "offset": 466
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " exceeds its corresponding OutdoorAmbient channel\nthen the hue of ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 25,
+                            "offset": 466
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 17,
+                            "offset": 532
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.Ambient"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 17,
+                            "offset": 532
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 41,
+                            "offset": 556
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will begin to apply to outdoor\nareas.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 41,
+                            "offset": 556
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 7,
+                            "offset": 594
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 86
+                },
+                "end": {
+                    "line": 12,
+                    "column": 7,
+                    "offset": 594
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note, when ",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 596
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 12,
+                            "offset": 607
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.GlobalShadows"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 12,
+                            "offset": 607
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 42,
+                            "offset": 637
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is disabled there is no\ndistinction between areas occluded from the sky and areas that are not. In\nthis case OutdoorAmbient will be ignored and the hue from the\n",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 42,
+                            "offset": 637
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 799
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.Ambient"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 799
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 25,
+                            "offset": 823
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property will be applied everywhere.",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 25,
+                            "offset": 823
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 62,
+                            "offset": 860
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 596
+                },
+                "end": {
+                    "line": 17,
+                    "column": 62,
+                    "offset": 860
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For more properties that influence the color of lighting, please see\n",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 862
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 931
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.ColorShift_Bottom"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 931
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 35,
+                            "offset": 965
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 35,
+                            "offset": 965
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 40,
+                            "offset": 970
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Lighting.ColorShift_Top"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 40,
+                            "offset": 970
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 71,
+                            "offset": 1001
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 71,
+                            "offset": 1001
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 72,
+                            "offset": 1002
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 19,
+                    "column": 1,
+                    "offset": 862
+                },
+                "end": {
+                    "line": 20,
+                    "column": 72,
+                    "offset": 1002
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

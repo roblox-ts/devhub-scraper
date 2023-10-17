@@ -1,0 +1,2283 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines whether ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 43,
+                            "offset": 42
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " should create default\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 43,
+                            "offset": 42
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 65
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatCommand"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 65
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 88
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 24,
+                            "offset": 88
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 90
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 26,
+                    "offset": 90
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If true, the following ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 92
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 24,
+                            "offset": 115
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatCommand"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 24,
+                            "offset": 115
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 47,
+                            "offset": 138
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s are created and put in a\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 47,
+                            "offset": 138
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 165
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Folder"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 165
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 15,
+                            "offset": 179
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " named ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 15,
+                            "offset": 179
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 22,
+                            "offset": 186
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "TextChatCommands",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 24,
+                                    "offset": 188
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 40,
+                                    "offset": 204
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 22,
+                            "offset": 186
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 42,
+                            "offset": 206
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " inside ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 42,
+                            "offset": 206
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 50,
+                            "offset": 214
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 50,
+                            "offset": 214
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 73,
+                            "offset": 237
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ":",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 73,
+                            "offset": 237
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 74,
+                            "offset": 238
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 92
+                },
+                "end": {
+                    "line": 5,
+                    "column": 74,
+                    "offset": 238
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        },
+        {
+            "type": "element",
+            "tagName": "table",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "thead",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "element",
+                                    "tagName": "th",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Name",
+                                            "position": {
+                                                "start": {
+                                                    "line": 7,
+                                                    "column": 3,
+                                                    "offset": 242
+                                                },
+                                                "end": {
+                                                    "line": 7,
+                                                    "column": 7,
+                                                    "offset": 246
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 7,
+                                            "column": 1,
+                                            "offset": 240
+                                        },
+                                        "end": {
+                                            "line": 7,
+                                            "column": 22,
+                                            "offset": 261
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "th",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "PrimaryAlias",
+                                            "position": {
+                                                "start": {
+                                                    "line": 7,
+                                                    "column": 23,
+                                                    "offset": 262
+                                                },
+                                                "end": {
+                                                    "line": 7,
+                                                    "column": 35,
+                                                    "offset": 274
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 7,
+                                            "column": 22,
+                                            "offset": 261
+                                        },
+                                        "end": {
+                                            "line": 7,
+                                            "column": 37,
+                                            "offset": 276
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "th",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "SecondaryAlias",
+                                            "position": {
+                                                "start": {
+                                                    "line": 7,
+                                                    "column": 38,
+                                                    "offset": 277
+                                                },
+                                                "end": {
+                                                    "line": 7,
+                                                    "column": 52,
+                                                    "offset": 291
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 7,
+                                            "column": 37,
+                                            "offset": 276
+                                        },
+                                        "end": {
+                                            "line": 7,
+                                            "column": 54,
+                                            "offset": 293
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "th",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Description",
+                                            "position": {
+                                                "start": {
+                                                    "line": 7,
+                                                    "column": 55,
+                                                    "offset": 294
+                                                },
+                                                "end": {
+                                                    "line": 7,
+                                                    "column": 66,
+                                                    "offset": 305
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 7,
+                                            "column": 54,
+                                            "offset": 293
+                                        },
+                                        "end": {
+                                            "line": 7,
+                                            "column": 160,
+                                            "offset": 399
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "th",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Usage Example",
+                                            "position": {
+                                                "start": {
+                                                    "line": 7,
+                                                    "column": 161,
+                                                    "offset": 400
+                                                },
+                                                "end": {
+                                                    "line": 7,
+                                                    "column": 174,
+                                                    "offset": 413
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 7,
+                                            "column": 160,
+                                            "offset": 399
+                                        },
+                                        "end": {
+                                            "line": 7,
+                                            "column": 177,
+                                            "offset": 416
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 1,
+                                    "offset": 240
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 177,
+                                    "offset": 416
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 240
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 177,
+                            "offset": 416
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "tbody",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "RBXConsoleCommand",
+                                            "position": {
+                                                "start": {
+                                                    "line": 9,
+                                                    "column": 3,
+                                                    "offset": 596
+                                                },
+                                                "end": {
+                                                    "line": 9,
+                                                    "column": 20,
+                                                    "offset": 613
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 1,
+                                            "offset": 594
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 22,
+                                            "offset": 615
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "console",
+                                            "position": {
+                                                "start": {
+                                                    "line": 9,
+                                                    "column": 23,
+                                                    "offset": 616
+                                                },
+                                                "end": {
+                                                    "line": 9,
+                                                    "column": 30,
+                                                    "offset": 623
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 22,
+                                            "offset": 615
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 37,
+                                            "offset": 630
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [],
+                                    "position": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 37,
+                                            "offset": 630
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 54,
+                                            "offset": 647
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Opens the Developer Console.",
+                                            "position": {
+                                                "start": {
+                                                    "line": 9,
+                                                    "column": 55,
+                                                    "offset": 648
+                                                },
+                                                "end": {
+                                                    "line": 9,
+                                                    "column": 83,
+                                                    "offset": 676
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 54,
+                                            "offset": 647
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 160,
+                                            "offset": 753
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "\\console"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 9,
+                                                    "column": 161,
+                                                    "offset": 754
+                                                },
+                                                "end": {
+                                                    "line": 9,
+                                                    "column": 171,
+                                                    "offset": 764
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 160,
+                                            "offset": 753
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 177,
+                                            "offset": 770
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 1,
+                                    "offset": 594
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 177,
+                                    "offset": 770
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "RBXEmoteCommand",
+                                            "position": {
+                                                "start": {
+                                                    "line": 10,
+                                                    "column": 3,
+                                                    "offset": 773
+                                                },
+                                                "end": {
+                                                    "line": 10,
+                                                    "column": 18,
+                                                    "offset": 788
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 10,
+                                            "column": 1,
+                                            "offset": 771
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "column": 22,
+                                            "offset": 792
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "emote",
+                                            "position": {
+                                                "start": {
+                                                    "line": 10,
+                                                    "column": 23,
+                                                    "offset": 793
+                                                },
+                                                "end": {
+                                                    "line": 10,
+                                                    "column": 28,
+                                                    "offset": 798
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 10,
+                                            "column": 22,
+                                            "offset": 792
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "column": 37,
+                                            "offset": 807
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "e",
+                                            "position": {
+                                                "start": {
+                                                    "line": 10,
+                                                    "column": 38,
+                                                    "offset": 808
+                                                },
+                                                "end": {
+                                                    "line": 10,
+                                                    "column": 39,
+                                                    "offset": 809
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 10,
+                                            "column": 37,
+                                            "offset": 807
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "column": 54,
+                                            "offset": 824
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Plays avatar emote.",
+                                            "position": {
+                                                "start": {
+                                                    "line": 10,
+                                                    "column": 55,
+                                                    "offset": 825
+                                                },
+                                                "end": {
+                                                    "line": 10,
+                                                    "column": 74,
+                                                    "offset": 844
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 10,
+                                            "column": 54,
+                                            "offset": 824
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "column": 160,
+                                            "offset": 930
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "\\e dance"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 10,
+                                                    "column": 161,
+                                                    "offset": 931
+                                                },
+                                                "end": {
+                                                    "line": 10,
+                                                    "column": 171,
+                                                    "offset": 941
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 10,
+                                            "column": 160,
+                                            "offset": 930
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "column": 177,
+                                            "offset": 947
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 1,
+                                    "offset": 771
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 177,
+                                    "offset": 947
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "RBXHelpCommand",
+                                            "position": {
+                                                "start": {
+                                                    "line": 11,
+                                                    "column": 3,
+                                                    "offset": 950
+                                                },
+                                                "end": {
+                                                    "line": 11,
+                                                    "column": 17,
+                                                    "offset": 964
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 1,
+                                            "offset": 948
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 22,
+                                            "offset": 969
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "help",
+                                            "position": {
+                                                "start": {
+                                                    "line": 11,
+                                                    "column": 23,
+                                                    "offset": 970
+                                                },
+                                                "end": {
+                                                    "line": 11,
+                                                    "column": 27,
+                                                    "offset": 974
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 22,
+                                            "offset": 969
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 37,
+                                            "offset": 984
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "?",
+                                            "position": {
+                                                "start": {
+                                                    "line": 11,
+                                                    "column": 38,
+                                                    "offset": 985
+                                                },
+                                                "end": {
+                                                    "line": 11,
+                                                    "column": 39,
+                                                    "offset": 986
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 37,
+                                            "offset": 984
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 54,
+                                            "offset": 1001
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Shows a list of chat commands.",
+                                            "position": {
+                                                "start": {
+                                                    "line": 11,
+                                                    "column": 55,
+                                                    "offset": 1002
+                                                },
+                                                "end": {
+                                                    "line": 11,
+                                                    "column": 85,
+                                                    "offset": 1032
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 54,
+                                            "offset": 1001
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 160,
+                                            "offset": 1107
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "\\help"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 11,
+                                                    "column": 161,
+                                                    "offset": 1108
+                                                },
+                                                "end": {
+                                                    "line": 11,
+                                                    "column": 168,
+                                                    "offset": 1115
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 160,
+                                            "offset": 1107
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 177,
+                                            "offset": 1124
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 1,
+                                    "offset": 948
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 177,
+                                    "offset": 1124
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "RBXMuteCommand",
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 3,
+                                                    "offset": 1127
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 17,
+                                                    "offset": 1141
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 1,
+                                            "offset": 1125
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 22,
+                                            "offset": 1146
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "mute",
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 23,
+                                                    "offset": 1147
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 27,
+                                                    "offset": 1151
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 22,
+                                            "offset": 1146
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 37,
+                                            "offset": 1161
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "m",
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 38,
+                                                    "offset": 1162
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 39,
+                                                    "offset": 1163
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 37,
+                                            "offset": 1161
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 54,
+                                            "offset": 1178
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Mutes a user by user's ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 55,
+                                                    "offset": 1179
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 78,
+                                                    "offset": 1202
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Class.Player.Name"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 78,
+                                                    "offset": 1202
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 97,
+                                                    "offset": 1221
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": " or ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 97,
+                                                    "offset": 1221
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 101,
+                                                    "offset": 1225
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Class.Player.DisplayName"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 101,
+                                                    "offset": 1225
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 127,
+                                                    "offset": 1251
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": " in all ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 127,
+                                                    "offset": 1251
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 135,
+                                                    "offset": 1259
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Class.TextChannel"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 135,
+                                                    "offset": 1259
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 154,
+                                                    "offset": 1278
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": "s.",
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 154,
+                                                    "offset": 1278
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 156,
+                                                    "offset": 1280
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 54,
+                                            "offset": 1178
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 160,
+                                            "offset": 1284
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "\\m Username"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 161,
+                                                    "offset": 1285
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 174,
+                                                    "offset": 1298
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 160,
+                                            "offset": 1284
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 177,
+                                            "offset": 1301
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 1,
+                                    "offset": 1125
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 177,
+                                    "offset": 1301
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "RBXUnmuteCommand",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 3,
+                                                    "offset": 1304
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 19,
+                                                    "offset": 1320
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 13,
+                                            "column": 1,
+                                            "offset": 1302
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 22,
+                                            "offset": 1323
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "unmute",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 23,
+                                                    "offset": 1324
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 29,
+                                                    "offset": 1330
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 13,
+                                            "column": 22,
+                                            "offset": 1323
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 37,
+                                            "offset": 1338
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "um",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 38,
+                                                    "offset": 1339
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 40,
+                                                    "offset": 1341
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 13,
+                                            "column": 37,
+                                            "offset": 1338
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 54,
+                                            "offset": 1355
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Unmutes a user by user's ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 55,
+                                                    "offset": 1356
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 80,
+                                                    "offset": 1381
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Class.Player.Name"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 80,
+                                                    "offset": 1381
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 99,
+                                                    "offset": 1400
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": " or ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 99,
+                                                    "offset": 1400
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 103,
+                                                    "offset": 1404
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Class.Player.DisplayName"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 103,
+                                                    "offset": 1404
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 129,
+                                                    "offset": 1430
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": " in all ",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 129,
+                                                    "offset": 1430
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 137,
+                                                    "offset": 1438
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "Class.TextChannel"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 137,
+                                                    "offset": 1438
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 156,
+                                                    "offset": 1457
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "text",
+                                            "value": "s.",
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 156,
+                                                    "offset": 1457
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 158,
+                                                    "offset": 1459
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 13,
+                                            "column": 54,
+                                            "offset": 1355
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 160,
+                                            "offset": 1461
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "\\um Username"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 13,
+                                                    "column": 161,
+                                                    "offset": 1462
+                                                },
+                                                "end": {
+                                                    "line": 13,
+                                                    "column": 175,
+                                                    "offset": 1476
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 13,
+                                            "column": 160,
+                                            "offset": 1461
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 177,
+                                            "offset": 1478
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 1,
+                                    "offset": 1302
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 177,
+                                    "offset": 1478
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "tr",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "RBXVersionCommand",
+                                            "position": {
+                                                "start": {
+                                                    "line": 14,
+                                                    "column": 3,
+                                                    "offset": 1481
+                                                },
+                                                "end": {
+                                                    "line": 14,
+                                                    "column": 20,
+                                                    "offset": 1498
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 14,
+                                            "column": 1,
+                                            "offset": 1479
+                                        },
+                                        "end": {
+                                            "line": 14,
+                                            "column": 22,
+                                            "offset": 1500
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "version",
+                                            "position": {
+                                                "start": {
+                                                    "line": 14,
+                                                    "column": 23,
+                                                    "offset": 1501
+                                                },
+                                                "end": {
+                                                    "line": 14,
+                                                    "column": 30,
+                                                    "offset": 1508
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 14,
+                                            "column": 22,
+                                            "offset": 1500
+                                        },
+                                        "end": {
+                                            "line": 14,
+                                            "column": 37,
+                                            "offset": 1515
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "v",
+                                            "position": {
+                                                "start": {
+                                                    "line": 14,
+                                                    "column": 38,
+                                                    "offset": 1516
+                                                },
+                                                "end": {
+                                                    "line": 14,
+                                                    "column": 39,
+                                                    "offset": 1517
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 14,
+                                            "column": 37,
+                                            "offset": 1515
+                                        },
+                                        "end": {
+                                            "line": 14,
+                                            "column": 54,
+                                            "offset": 1532
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "text",
+                                            "value": "Shows the chat version.",
+                                            "position": {
+                                                "start": {
+                                                    "line": 14,
+                                                    "column": 55,
+                                                    "offset": 1533
+                                                },
+                                                "end": {
+                                                    "line": 14,
+                                                    "column": 78,
+                                                    "offset": 1556
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 14,
+                                            "column": 54,
+                                            "offset": 1532
+                                        },
+                                        "end": {
+                                            "line": 14,
+                                            "column": 160,
+                                            "offset": 1638
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "element",
+                                    "tagName": "td",
+                                    "properties": {
+                                        "style": "text-align: left;"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "element",
+                                            "tagName": "code",
+                                            "properties": {},
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "\\version"
+                                                }
+                                            ],
+                                            "position": {
+                                                "start": {
+                                                    "line": 14,
+                                                    "column": 161,
+                                                    "offset": 1639
+                                                },
+                                                "end": {
+                                                    "line": 14,
+                                                    "column": 171,
+                                                    "offset": 1649
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "position": {
+                                        "start": {
+                                            "line": 14,
+                                            "column": 160,
+                                            "offset": 1638
+                                        },
+                                        "end": {
+                                            "line": 14,
+                                            "column": 177,
+                                            "offset": 1655
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 1,
+                                    "offset": 1479
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 177,
+                                    "offset": 1655
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 594
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 177,
+                            "offset": 1655
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 240
+                },
+                "end": {
+                    "line": 14,
+                    "column": 177,
+                    "offset": 1655
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Developers can edit, create, and remove ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 1657
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 41,
+                            "offset": 1697
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatCommand"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 41,
+                            "offset": 1697
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 64,
+                            "offset": 1720
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s as even\nif ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 64,
+                            "offset": 1720
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 4,
+                            "offset": 1733
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatService.CreateDefaultCommands"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 4,
+                            "offset": 1733
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 49,
+                            "offset": 1778
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 49,
+                            "offset": 1778
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 53,
+                            "offset": 1782
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "true"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 53,
+                            "offset": 1782
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 59,
+                            "offset": 1788
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 59,
+                            "offset": 1788
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 60,
+                            "offset": 1789
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 1657
+                },
+                "end": {
+                    "line": 17,
+                    "column": 60,
+                    "offset": 1789
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Mute and unmute commands apply to all TextChannels.",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1791
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 52,
+                            "offset": 1842
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 19,
+                    "column": 1,
+                    "offset": 1791
+                },
+                "end": {
+                    "line": 19,
+                    "column": 52,
+                    "offset": 1842
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

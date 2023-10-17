@@ -1,8 +1,8 @@
 The role of a Translator is to manufacture/return strings localized for the
 viewing player. it can be used to retrieve display-ready localized text from a
-[LocalizationTable](https://create.roblox.com/docs/reference/engine/classes/LocalizationTable). The source of the [Translator.LocaleId](https://create.roblox.com/docs/reference/engine/classes/Translator#LocaleId) property, the set
-of tables it will search, and the order it will search them in depends on
-which method was used to create the Translator instance.
+[`LocalizationTable`](https://create.roblox.com/docs/reference/engine/classes/LocalizationTable). The source of the [`Translator.LocaleId`](https://create.roblox.com/docs/reference/engine/classes/Translator#LocaleId)
+property, the set of tables it will search, and the order it will search them
+in depends on which method was used to create the Translator instance.
 
 The input for a Translator is the original development language string and a
 context, where all or part of the context can be used to find a more

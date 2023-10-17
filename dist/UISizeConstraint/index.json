@@ -1,0 +1,445 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The UISizeConstraint ensures a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 49,
+                            "offset": 48
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " does not become larger or\nsmaller than the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 49,
+                            "offset": 48
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 92
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UISizeConstraint.MaxSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 92
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 50,
+                            "offset": 124
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 50,
+                            "offset": 124
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 129
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UISizeConstraint.MinSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 129
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 33,
+                            "offset": 161
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 33,
+                            "offset": 161
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 34,
+                            "offset": 162
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 34,
+                    "offset": 162
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For example, if the MaxSize is set to ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 164
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 202
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "{200, 200}"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 202
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 51,
+                            "offset": 214
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and the MinSize is set to\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 51,
+                            "offset": 214
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 241
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "{100, 100}"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 241
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 13,
+                            "offset": 253
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", then the constrained GuiObject cannot scale to be larger than\n200 pixels wide and 200 pixels tall or smaller than 100 pixels wide and 100\npixels tall.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 13,
+                            "offset": 253
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 13,
+                            "offset": 405
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 164
+                },
+                "end": {
+                    "line": 8,
+                    "column": 13,
+                    "offset": 405
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If the object with this constraint is also under the control of a\n",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 407
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 473
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UILayout"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 473
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 17,
+                            "offset": 489
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " such as ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 17,
+                            "offset": 489
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 26,
+                            "offset": 498
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIGridLayout"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 26,
+                            "offset": 498
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 46,
+                            "offset": 518
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", then the constraint determines\nthe objects size and overwrites any size the layout would apply.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 46,
+                            "offset": 518
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 65,
+                            "offset": 615
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 407
+                },
+                "end": {
+                    "line": 12,
+                    "column": 65,
+                    "offset": 615
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A UISizeConstraint can be applied to a GuiObject by parenting it to that\nobject.",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 617
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 8,
+                            "offset": 697
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 617
+                },
+                "end": {
+                    "line": 15,
+                    "column": 8,
+                    "offset": 697
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

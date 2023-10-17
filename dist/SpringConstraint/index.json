@@ -1,0 +1,1072 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "SpringConstraint",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 5,
+                                    "offset": 4
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 21,
+                                    "offset": 20
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " applies a force to its ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment|Attachments"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 77,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nbased on spring and damper behavior. This constraint, along with a\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 77,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 144
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.CylindricalConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 144
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 30,
+                            "offset": 173
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", is ideal for building vehicle suspension.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 30,
+                            "offset": 173
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 73,
+                            "offset": 216
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 73,
+                    "offset": 216
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that if this constraint attaches one part (",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 218
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 49,
+                            "offset": 266
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "A",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 51,
+                                    "offset": 268
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 52,
+                                    "offset": 269
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 49,
+                            "offset": 266
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 54,
+                            "offset": 271
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") to another part (",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 54,
+                            "offset": 271
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 73,
+                            "offset": 290
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "B",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 75,
+                                    "offset": 292
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 76,
+                                    "offset": 293
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 73,
+                            "offset": 290
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 78,
+                            "offset": 295
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ")\nthat is anchored or connected to an anchored part (",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 78,
+                            "offset": 295
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 348
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Z",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 54,
+                                    "offset": 350
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 55,
+                                    "offset": 351
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 348
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 57,
+                            "offset": 353
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "), part ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 57,
+                            "offset": 353
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 65,
+                            "offset": 361
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "A",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 67,
+                                    "offset": 363
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 68,
+                                    "offset": 364
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 65,
+                            "offset": 361
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 70,
+                            "offset": 366
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will not\nbe locally simulated when interacting with a player.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 70,
+                            "offset": 366
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 53,
+                            "offset": 428
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 218
+                },
+                "end": {
+                    "line": 7,
+                    "column": 53,
+                    "offset": 428
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When configuring this constraint, it may be helpful to study\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 430
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 491
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/physics/units"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Roblox Units",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 2,
+                                    "offset": 492
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 14,
+                                    "offset": 504
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 491
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 31,
+                            "offset": 521
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to understand how Roblox units\ncompare to metric units.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 31,
+                            "offset": 521
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 25,
+                            "offset": 577
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 430
+                },
+                "end": {
+                    "line": 11,
+                    "column": 25,
+                    "offset": 577
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Free Length",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 6,
+                            "offset": 584
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 17,
+                            "offset": 595
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 579
+                },
+                "end": {
+                    "line": 13,
+                    "column": 17,
+                    "offset": 595
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpringConstraint.FreeLength|FreeLength"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 597
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 47,
+                            "offset": 643
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " defines the natural resting\nlength of the spring. If the attachments are further apart than the free\nlength, they are forced together; if the attachments are closer together than\nthe free length, they are forced apart.",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 47,
+                            "offset": 643
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 40,
+                            "offset": 862
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 597
+                },
+                "end": {
+                    "line": 18,
+                    "column": 40,
+                    "offset": 862
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Damping",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 6,
+                            "offset": 869
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 13,
+                            "offset": 876
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 864
+                },
+                "end": {
+                    "line": 20,
+                    "column": 13,
+                    "offset": 876
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 878
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 5,
+                            "offset": 882
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpringConstraint.Damping|Damping"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 5,
+                            "offset": 882
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 45,
+                            "offset": 922
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " value controls how fast the\nspring's oscillation dies down. A value of 0 allows the spring to oscillate\nendlessly, while higher values bring the spring to a rest more quickly.",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 45,
+                            "offset": 922
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 72,
+                            "offset": 1098
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 878
+                },
+                "end": {
+                    "line": 24,
+                    "column": 72,
+                    "offset": 1098
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Stiffness",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 6,
+                            "offset": 1105
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 15,
+                            "offset": 1114
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 26,
+                    "column": 1,
+                    "offset": 1100
+                },
+                "end": {
+                    "line": 26,
+                    "column": 15,
+                    "offset": 1114
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpringConstraint.Stiffness|Stiffness"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 1,
+                            "offset": 1116
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 45,
+                            "offset": 1160
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " sets the strength of the spring.\nHigher values create a spring that responds with more force when its\nattachments are closer together or further apart than\n",
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 45,
+                            "offset": 1160
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 1,
+                            "offset": 1317
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpringConstraint.FreeLength|FreeLength"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 31,
+                            "column": 1,
+                            "offset": 1317
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 47,
+                            "offset": 1363
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 31,
+                            "column": 47,
+                            "offset": 1363
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 48,
+                            "offset": 1364
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 28,
+                    "column": 1,
+                    "offset": 1116
+                },
+                "end": {
+                    "line": 31,
+                    "column": 48,
+                    "offset": 1364
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Limits",
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 6,
+                            "offset": 1371
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 12,
+                            "offset": 1377
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 33,
+                    "column": 1,
+                    "offset": 1366
+                },
+                "end": {
+                    "line": 33,
+                    "column": 12,
+                    "offset": 1377
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Enabling the ",
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 1,
+                            "offset": 1379
+                        },
+                        "end": {
+                            "line": 35,
+                            "column": 14,
+                            "offset": 1392
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpringConstraint.LimitsEnabled|LimitsEnabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 14,
+                            "offset": 1392
+                        },
+                        "end": {
+                            "line": 35,
+                            "column": 66,
+                            "offset": 1444
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property\nexposes the ",
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 66,
+                            "offset": 1444
+                        },
+                        "end": {
+                            "line": 36,
+                            "column": 13,
+                            "offset": 1466
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpringConstraint.MinLength|MinLength"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 36,
+                            "column": 13,
+                            "offset": 1466
+                        },
+                        "end": {
+                            "line": 36,
+                            "column": 57,
+                            "offset": 1510
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 36,
+                            "column": 57,
+                            "offset": 1510
+                        },
+                        "end": {
+                            "line": 37,
+                            "column": 1,
+                            "offset": 1515
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpringConstraint.MaxLength|MaxLength"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 37,
+                            "column": 1,
+                            "offset": 1515
+                        },
+                        "end": {
+                            "line": 37,
+                            "column": 45,
+                            "offset": 1559
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " values for setting the minimum\nand maximum length of the spring. If the spring's attachments reach these\nlimits, they stop moving apart from one another without restitution.",
+                    "position": {
+                        "start": {
+                            "line": 37,
+                            "column": 45,
+                            "offset": 1559
+                        },
+                        "end": {
+                            "line": 39,
+                            "column": 69,
+                            "offset": 1733
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 35,
+                    "column": 1,
+                    "offset": 1379
+                },
+                "end": {
+                    "line": 39,
+                    "column": 69,
+                    "offset": 1733
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

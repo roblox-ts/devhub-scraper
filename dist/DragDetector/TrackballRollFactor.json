@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When the cursor is outside the trackball, the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DragDetector"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 67,
+                            "offset": 66
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " can\napply a roll rotation that turns the ball as if it were mounted on a vinyl\nrecord facing the viewer. This property is a 0 to 1 multiplier for adding\nthat roll rotation to the total. Only relevant if\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 67,
+                            "offset": 66
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 270
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DragDetector.DragStyle|DragStyle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 270
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 310
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 310
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 314
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.DragDetectorDragStyle|RotateTrackball"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 314
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 358
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 358
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 46,
+                            "offset": 359
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 46,
+                    "offset": 359
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

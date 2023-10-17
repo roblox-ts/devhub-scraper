@@ -1,0 +1,459 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The GripPos property controls the positional offset of a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 70,
+                            "offset": 69
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " weld\nmatrix. It is one of several properties used to position how the player\nholds the tool.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 70,
+                            "offset": 69
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 16,
+                            "offset": 162
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 16,
+                    "offset": 162
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Other tool properties that control how a player holds a tool include:\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 164
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 234
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.GripUp|Up"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 234
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 23,
+                            "offset": 256
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 23,
+                            "offset": 256
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 25,
+                            "offset": 258
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.GripRight|Right"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 25,
+                            "offset": 258
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 53,
+                            "offset": 286
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", and\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 53,
+                            "offset": 286
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 292
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.GripForward|Forward"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 292
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 33,
+                            "offset": 324
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " properties. All of these properties are\nstored in a single CFrame in the ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 33,
+                            "offset": 324
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 34,
+                            "offset": 398
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.Grip"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 34,
+                            "offset": 398
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 51,
+                            "offset": 415
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 51,
+                            "offset": 415
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 61,
+                            "offset": 425
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 164
+                },
+                "end": {
+                    "line": 8,
+                    "column": 61,
+                    "offset": 425
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "In order to change a tool's grip properties, you must either use a\n",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 427
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 494
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 494
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 15,
+                            "offset": 508
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 15,
+                            "offset": 508
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 19,
+                            "offset": 512
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 19,
+                            "offset": 512
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 38,
+                            "offset": 531
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or a plugin such as the ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 38,
+                            "offset": 531
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 63,
+                            "offset": 556
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://www.roblox.com/library/174577307/Tool-Grip-Editor-Plugin"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Tool Grip\nEditor",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 64,
+                                    "offset": 557
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 7,
+                                    "offset": 573
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 63,
+                            "offset": 556
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 11,
+                            "offset": 577
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " example.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 11,
+                            "offset": 577
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 20,
+                            "offset": 586
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 427
+                },
+                "end": {
+                    "line": 12,
+                    "column": 20,
+                    "offset": 586
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

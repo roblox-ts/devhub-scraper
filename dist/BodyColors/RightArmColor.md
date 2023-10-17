@@ -1,4 +1,3 @@
-Sets the color of the right arm, as a
-[BrickColor](/reference/engine/datatypes/BrickColor).
+Sets the color of the right arm, as a `Datatype.BrickColor`.
 
-Setting this will also set `BodyColors.RightArmColor3`.
+Setting this will also set [`BodyColors.RightArmColor3`](https://create.roblox.com/docs/reference/engine/classes/BodyColors#RightArmColor3).

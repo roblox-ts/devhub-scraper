@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PVInstance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " (\"Position Velocity Instance\") is an abstract class that\ncannot be created. It is the base for all objects that have a physical\nlocation in the world, specifically ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 185
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart|BaseParts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 185
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 63,
+                            "offset": 211
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 63,
+                            "offset": 211
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 216
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model|Models"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 216
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 21,
+                            "offset": 236
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 21,
+                            "offset": 236
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 237
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 22,
+                    "offset": 237
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -6,5 +6,5 @@ would otherwise be disregarded.
 When enabled, the reaction forces cause the constraint to act like an
 angular motor between the two attachments.
 
-It is only meaningful and visible in studio when
-[AngularVelocity.RelativeTo](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#RelativeTo) is set to `Attachment1`.
+Only meaningful when [`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#RelativeTo) is set
+to `Enum.ActuatorRelativeTo|Attachment1`.

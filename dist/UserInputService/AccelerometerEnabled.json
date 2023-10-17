@@ -1,0 +1,413 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property describes whether the user's device has an accelerometer",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 71,
+                            "offset": 70
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 71,
+                    "offset": 70
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "An accelerometer is a component found in most mobile devices that measures\nacceleration (change in speed).",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 72
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 32,
+                            "offset": 178
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 72
+                },
+                "end": {
+                    "line": 4,
+                    "column": 32,
+                    "offset": 178
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For example, the following code snippet demonstrates how to check if the\nuser's device has an accelerometer.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 180
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 36,
+                            "offset": 288
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 180
+                },
+                "end": {
+                    "line": 7,
+                    "column": 36,
+                    "offset": 288
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local userInputService = game:GetService(\"UserInputService\")\n\nlocal accelerometerEnabled = UserInputService.AccelerometerEnabled\nif accelerometerEnabled then\n\tprint(\"Accelerometer enabled!\")\nelse\n\tprint(\"Accelerometer not enabled!\")\nend\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 290
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 4,
+                            "offset": 537
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 290
+                },
+                "end": {
+                    "line": 18,
+                    "column": 4,
+                    "offset": 537
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If the device has an enabled accelerometer, you can get it's current\nacceleration by using the ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 539
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 27,
+                            "offset": 634
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService:GetDeviceAcceleration()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 27,
+                            "offset": 634
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 75,
+                            "offset": 682
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nfunction or track when the device's acceleration changes by using the\n",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 75,
+                            "offset": 682
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 753
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService.DeviceAccelerationChanged"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 753
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 51,
+                            "offset": 803
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " event.",
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 51,
+                            "offset": 803
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 58,
+                            "offset": 810
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 539
+                },
+                "end": {
+                    "line": 23,
+                    "column": 58,
+                    "offset": 810
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "As ",
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 812
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 4,
+                            "offset": 815
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 4,
+                            "offset": 815
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 28,
+                            "offset": 839
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is client-side only, this property can only be\nused in a ",
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 28,
+                            "offset": 839
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 11,
+                            "offset": 897
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 11,
+                            "offset": 897
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 30,
+                            "offset": 916
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 30,
+                            "offset": 916
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 31,
+                            "offset": 917
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 25,
+                    "column": 1,
+                    "offset": 812
+                },
+                "end": {
+                    "line": 26,
+                    "column": 31,
+                    "offset": 917
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

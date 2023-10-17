@@ -1,38 +1,37 @@
-BasePart is an abstract base class for in-world objects that render and are
-physically simulated while in the [Workspace](https://create.roblox.com/docs/reference/engine/classes/Workspace). There are several
-implementations of BasePart, the most common is [Part](https://create.roblox.com/docs/reference/engine/classes/Part), a simple 6-face
-rectangular prism. Others include [SpawnLocation](https://create.roblox.com/docs/reference/engine/classes/SpawnLocation), [WedgePart](https://create.roblox.com/docs/reference/engine/classes/WedgePart) and the
-singleton [Terrain](https://create.roblox.com/docs/reference/engine/classes/Terrain) object within the [Workspace](https://create.roblox.com/docs/reference/engine/classes/Workspace). Most of the time, when
-documentation refers to a part, most BasePart implementations will work and
-not just [Part](https://create.roblox.com/docs/reference/engine/classes/Part).
+[`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) is an abstract base class for in-world objects that render
+and are physically simulated while in the [`Workspace`](https://create.roblox.com/docs/reference/engine/classes/Workspace). There are several
+implementations of [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart), the most common being [`Part`](https://create.roblox.com/docs/reference/engine/classes/Part) and
+[`MeshPart`](https://create.roblox.com/docs/reference/engine/classes/MeshPart). Others include [`WedgePart`](https://create.roblox.com/docs/reference/engine/classes/WedgePart), [`SpawnLocation`](https://create.roblox.com/docs/reference/engine/classes/SpawnLocation), and
+the singleton [`Terrain`](https://create.roblox.com/docs/reference/engine/classes/Terrain) object. Generally, when documentation refers to
+a "part," most [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) implementations will work and not just
+[`Part`](https://create.roblox.com/docs/reference/engine/classes/Part).
 
-There are many different objects that interact with BasePart:
+For information on how [`BaseParts`](https://create.roblox.com/docs/reference/engine/classes/BasePart) are grouped into simulated
+rigid bodies, see [Understanding Assemblies](https://create.roblox.com/docs/physics/assemblies).
 
-- They may be grouped within a [Model](https://create.roblox.com/docs/reference/engine/classes/Model), which allows several BasePart to be
-  moved at the same time using
-  [SetPrimaryPartCFrame](https://create.roblox.com/docs/reference/engine/classes/Model#SetPrimaryPartCFrame).
-- A [Decal](https://create.roblox.com/docs/reference/engine/classes/Decal) applies a stretched image texture to the faces of a part, though
-  the exact mapping depends on the type of part.
-- A [Texture](https://create.roblox.com/docs/reference/engine/classes/Texture) applies a tiled image texture to the faces of a part much like a
-  [Decal](https://create.roblox.com/docs/reference/engine/classes/Decal).
-- A [SurfaceGui](https://create.roblox.com/docs/reference/engine/classes/SurfaceGui) renders [GuiObjects](https://create.roblox.com/docs/reference/engine/classes/GuiObject) on the face of a part.
-- An [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment) can be added to specify a CFrames relative to a parent
-  BasePart. These are often used by physics [Constraint](https://create.roblox.com/docs/reference/engine/classes/Constraint) objects, such as
-  [RopeConstraint](https://create.roblox.com/docs/reference/engine/classes/RopeConstraint) and [HingeConstraint](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint).
-- [ParticleEmitter](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter) emit particles uniformly in the volume of the BasePart to
-  which they are parented.
-- Light objects like [PointLight](https://create.roblox.com/docs/reference/engine/classes/PointLight) emit light from the center of a BasePart.
-- When [played](https://create.roblox.com/docs/reference/engine/classes/Sound#Play), a [Sound](https://create.roblox.com/docs/reference/engine/classes/Sound) parented to a BasePart will be
-  physically located at the part's position.
-- [BodyMover](https://create.roblox.com/docs/reference/engine/classes/BodyMover) objects like [BodyVelocity](https://create.roblox.com/docs/reference/engine/classes/BodyVelocity) exert forces on the BasePart to
-  which they are parented.
-- As a sibling of a [Humanoid](https://create.roblox.com/docs/reference/engine/classes/Humanoid), they can be used as limbs of a character and
-  also animated when joined using [Motor6D](https://create.roblox.com/docs/reference/engine/classes/Motor6D). If not a sibling of a [Humanoid](https://create.roblox.com/docs/reference/engine/classes/Humanoid),
-  BasePart can still be animated using an [AnimationController](https://create.roblox.com/docs/reference/engine/classes/AnimationController).
-- In Studio, you can use most implementations of BaseParts with solid
-  modelling.
-- If parented to a [Tool](https://create.roblox.com/docs/reference/engine/classes/Tool) and given the name "Handle", a BasePart can be held
-  by characters.
-- You can make BasePart interactive by adding a [ClickDetector](https://create.roblox.com/docs/reference/engine/classes/ClickDetector)
-- You can use a mesh like a [BlockMesh](https://create.roblox.com/docs/reference/engine/classes/BlockMesh) or [SpecialMesh](https://create.roblox.com/docs/reference/engine/classes/SpecialMesh) to change how a
-  BasePart looks without change how it physically behaves.
+There are many different objects that interact with [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) (other
+than [`Terrain`](https://create.roblox.com/docs/reference/engine/classes/Terrain)), including:
+
+- Several [`BaseParts`](https://create.roblox.com/docs/reference/engine/classes/BasePart) may be grouped within a [`Model`](https://create.roblox.com/docs/reference/engine/classes/Model) and
+moved at the same time using [`PVInstance:PivotTo()`](https://create.roblox.com/docs/reference/engine/classes/PVInstance#PivotTo). See
+[Models](https://create.roblox.com/docs/parts/models).
+- A [`Decal`](https://create.roblox.com/docs/reference/engine/classes/Decal) applies a stretched image texture to the faces of a
+[`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart), while a [`Texture`](https://create.roblox.com/docs/reference/engine/classes/Texture) applies a tiled image texture to
+the faces. See [Textures and Decals](https://create.roblox.com/docs/parts/textures-decals).
+- A [`SurfaceGui`](https://create.roblox.com/docs/reference/engine/classes/SurfaceGui) renders [`GuiObjects`](https://create.roblox.com/docs/reference/engine/classes/GuiObject) on the face of a
+part. See
+[In-Experience UI Containers](https://create.roblox.com/docs/ui/in-experience-containers).
+- [`Attachments`](https://create.roblox.com/docs/reference/engine/classes/Attachment) can be added to a [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) to specify
+`Datatype.CFrame|CFrames` relative to the part. These are often used by
+physical [`Constraint`](https://create.roblox.com/docs/reference/engine/classes/Constraint) objects as outlined in
+[Mechanical Constraints](https://create.roblox.com/docs/physics/mechanical-constraints) and
+[Mover Constraints](https://create.roblox.com/docs/physics/mover-constraints).
+- [`ParticleEmitter`](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter) objects emit particles uniformly in the volume of
+the [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) to which they are parented. See
+[Particle Emitters](https://create.roblox.com/docs/effects/particle-emitters).
+- Light objects like [`PointLight`](https://create.roblox.com/docs/reference/engine/classes/PointLight) emit light from the center of a
+[`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) as illustrated in
+[Light Sources](https://create.roblox.com/docs/effects/light-sources).
+- If parented to a [`Tool`](https://create.roblox.com/docs/reference/engine/classes/Tool) and given the name **Handle**, a
+[`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) can be held by characters. See
+[In-Experience Tools](https://create.roblox.com/docs/players/tools).

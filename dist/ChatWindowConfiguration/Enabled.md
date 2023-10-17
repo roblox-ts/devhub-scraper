@@ -1,3 +1,3 @@
-Determines whether to show the default text chat window.
+Determines whether to show the default chat window.
 
-Set to `false` to hide the default text chat window.
+Set to `false` to hide the default chat window.

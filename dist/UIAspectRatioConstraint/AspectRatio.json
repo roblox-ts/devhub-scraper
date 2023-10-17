@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "AspectRatio determines the width-to-height ratio to maintain. To flip the\nratio to height-to-width, take the inverse (divide 1 by the number or\nraise to the -1st power). This value must be greater than zero. Below, a\nwhite ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 7,
+                            "offset": 223
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Frame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 7,
+                            "offset": 223
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 20,
+                            "offset": 236
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is placed within the a black ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 20,
+                            "offset": 236
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 50,
+                            "offset": 266
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Frame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 50,
+                            "offset": 266
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 63,
+                            "offset": 279
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " with two\ndifferent width-to-height ratios.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 63,
+                            "offset": 279
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 34,
+                            "offset": 322
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 34,
+                    "offset": 322
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

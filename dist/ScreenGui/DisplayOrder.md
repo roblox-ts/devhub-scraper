@@ -1,4 +1,4 @@
-This property controls the order that multiple ScreenGuis are drawn.
-ScreenGuis with a higher DisplayOrder will be drawn on top of ScreenGuis
-with a lower DisplayOrder. DisplayOrder can have any value greater than 0
-and defaults to 0.
+This property controls the Z-index order in which multiple
+[`ScreenGuis`](https://create.roblox.com/docs/reference/engine/classes/ScreenGui) are drawn. [`ScreenGuis`](https://create.roblox.com/docs/reference/engine/classes/ScreenGui) with
+a higher [`DisplayOrder`](https://create.roblox.com/docs/reference/engine/classes/ScreenGui) will be drawn on top of those with
+a lower value.

@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The CartoonFactor property determines the tendency of the part to face the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 75
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RocketPropulsion.Target|Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 75
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 39,
+                            "offset": 113
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". By default, this property is set\nto ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 39,
+                            "offset": 113
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 4,
+                            "offset": 151
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "0.7"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 4,
+                            "offset": 151
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 9,
+                            "offset": 156
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". If set to ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 9,
+                            "offset": 156
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 21,
+                            "offset": 168
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 21,
+                            "offset": 168
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 171
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the part will make no effort to face the target.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 171
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 74,
+                            "offset": 221
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 74,
+                    "offset": 221
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

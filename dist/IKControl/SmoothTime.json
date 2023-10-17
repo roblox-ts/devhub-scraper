@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This value specifies the average number of seconds that it takes for the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 73
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.EndEffector|EndEffector"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 73
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 114
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to reach the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 114
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 128
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.Target|Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 128
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 159
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The behavior is that of a\ncritically-damped spring, where the rate of change is proportional to the\ndistance to the target and no oscillations are present when approaching\nthe target. Smaller values create a quicker convergence, and larger values\ncreate a slower convergence. A value of 0 disables smoothing. The default\nvalue is 0.05 to provide a very slight smoothing that makes the motion\nfeel realistic.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 159
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 16,
+                            "offset": 568
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 9,
+                    "column": 16,
+                    "offset": 568
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

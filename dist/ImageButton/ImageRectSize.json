@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Allows the partial display of an image in conjunction with\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 59
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ImageButton.ImageRectOffset"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 59
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 94
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This property determines the pixel\nsize of the image area to be displayed. If either dimension is set to 0,\nthe entire image is displayed instead.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 94
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 39,
+                            "offset": 242
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 39,
+                    "offset": 242
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property behaves identically to ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 244
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 38,
+                            "offset": 281
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ImageLabel.ImageRectOffset"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 38,
+                            "offset": 281
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 72,
+                            "offset": 315
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 72,
+                            "offset": 315
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 73,
+                            "offset": 316
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 244
+                },
+                "end": {
+                    "line": 6,
+                    "column": 73,
+                    "offset": 316
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

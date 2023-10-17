@@ -1,3 +1,3 @@
-A [Vector3](https://developer.roblox.com/en-us/api-reference/datatype/Vector3) that gives the desired or target angular velocity.
-This vector is set in the [CFrame](https://developer.roblox.com/en-us/api-reference/datatype/CFrame) expressed by the
-[AngularVelocity.RelativeTo](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#RelativeTo) property. Defaults to **(0, 0, 0)**.
+A `Datatype.Vector3` that gives the desired or target angular velocity.
+This vector is set in the `Datatype.CFrame` expressed by the
+[`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#RelativeTo) property.

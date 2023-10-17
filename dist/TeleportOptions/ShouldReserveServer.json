@@ -1,0 +1,264 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property indicates whether the teleport call should create a new\nreserved server. When set to true, a reserved server will be created and\nthe player(s) will be teleported to the new server.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 52,
+                            "offset": 194
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 52,
+                    "offset": 194
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If set to false, the player(s) will be teleported to the public server\nwith the specified ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 196
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 20,
+                            "offset": 286
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TeleportOptions.ServerInstanceId"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 20,
+                            "offset": 286
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 60,
+                            "offset": 326
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " if provided.\nWhen ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 60,
+                            "offset": 326
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 6,
+                            "offset": 345
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TeleportOptions.ServerInstanceId"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 6,
+                            "offset": 345
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 46,
+                            "offset": 385
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is blank or no matching\nserver is found, a new public server will be created to teleport the\nplayer(s) to.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 46,
+                            "offset": 385
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 14,
+                            "offset": 492
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 196
+                },
+                "end": {
+                    "line": 9,
+                    "column": 14,
+                    "offset": 492
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For more information on how to teleport players between servers, see\n",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 494
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 563
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/projects/teleporting"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Teleporting Between Places",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 2,
+                                    "offset": 564
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 28,
+                                    "offset": 590
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 563
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 52,
+                            "offset": 614
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 52,
+                            "offset": 614
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 53,
+                            "offset": 615
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 494
+                },
+                "end": {
+                    "line": 12,
+                    "column": 53,
+                    "offset": 615
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

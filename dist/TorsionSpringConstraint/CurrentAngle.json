@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The current angle, in degrees, of the torsion spring's limiting cone. The\nlimiting cone is formed at the position of the constraint's\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 134
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Constraint.Attachment0|Attachment0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 134
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 43,
+                            "offset": 176
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " around its secondary axis with\nan angle equal to ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 43,
+                            "offset": 176
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 19,
+                            "offset": 226
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TorsionSpringConstraint.MaxAngle|MaxAngle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 19,
+                            "offset": 226
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 68,
+                            "offset": 275
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 68,
+                            "offset": 275
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 69,
+                            "offset": 276
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 69,
+                    "offset": 276
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

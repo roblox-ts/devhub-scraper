@@ -1,9 +1,8 @@
-The UserGameSettings is a singleton class found inside of the [UserSettings](https://create.roblox.com/docs/reference/engine/classes/UserSettings)
-singleton. It holds various persistent settings relating to how the user wants
-to control their camera, and their character.
+The UserGameSettings is a singleton class found inside of the
+[`UserSettings`](https://create.roblox.com/docs/reference/engine/classes/UserSettings) singleton. It holds various persistent settings relating
+to how the user wants to control their camera, and their character.
 
-You can access this object from a [LocalScript](https://create.roblox.com/docs/reference/engine/classes/LocalScript) via:
-
+You can access this object from a [`LocalScript`](https://create.roblox.com/docs/reference/engine/classes/LocalScript) via:
 ```lua
 UserSettings():GetService("UserGameSettings")
 ```

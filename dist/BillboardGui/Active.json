@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Controls whether the descendants will receive input events. If the UI\ncontains a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 12,
+                            "offset": 81
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiButton"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 12,
+                            "offset": 81
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 98
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " then that button will become clickable only\nif Active is set to true on both the BillboardGui and the button.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 98
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 66,
+                            "offset": 208
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 66,
+                    "offset": 208
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "BillboardGuis will only receive user input if they are parented to the\nPlayerGui. The ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 210
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 16,
+                            "offset": 296
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BillboardGui.Adornee"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 16,
+                            "offset": 296
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 44,
+                            "offset": 324
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property can be used to target\na Part in the workspace while the UI itself is in the ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 44,
+                            "offset": 324
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 55,
+                            "offset": 410
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PlayerGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 55,
+                            "offset": 410
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 72,
+                            "offset": 427
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 72,
+                            "offset": 427
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 73,
+                            "offset": 428
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 210
+                },
+                "end": {
+                    "line": 7,
+                    "column": 73,
+                    "offset": 428
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,238 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "FillDirectionMaxCells determines the number of cells in the grid that can\nbe used before continuing on the next row/column (whether this is a row or\ncolumn is dependent on ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 172
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIGridStyleLayout.FillDirection"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 24,
+                            "offset": 172
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 63,
+                            "offset": 211
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "). This\nvalue must be non-negative.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 63,
+                            "offset": 211
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 28,
+                            "offset": 246
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 28,
+                    "offset": 246
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "If set to zero, there is no maximum number of cells that may appear in\none row/column except for how many can fit within the parent UI element.",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 3,
+                                    "offset": 250
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 75,
+                                    "offset": 395
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 248
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 75,
+                            "offset": 395
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "If set to one, this creates a list similar to those created by\n",
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 3,
+                                    "offset": 398
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 1,
+                                    "offset": 461
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.UIListLayout"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 3,
+                                    "offset": 463
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 23,
+                                    "offset": 483
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 23,
+                                    "offset": 483
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 24,
+                                    "offset": 484
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 396
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 24,
+                            "offset": 484
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 248
+                },
+                "end": {
+                    "line": 9,
+                    "column": 24,
+                    "offset": 484
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

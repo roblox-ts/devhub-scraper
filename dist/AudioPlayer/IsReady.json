@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Denotes whether this ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is loaded, buffered, and ready to\nplay. Although uncommon, ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 100
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer|AudioPlayers"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 100
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 58,
+                            "offset": 132
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " may have their\nassets unloaded at runtime if there is extreme memory pressure, in which\ncase ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 58,
+                            "offset": 132
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 6,
+                            "offset": 226
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer.IsReady|IsReady"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 6,
+                            "offset": 226
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 41,
+                            "offset": 261
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will become false.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 41,
+                            "offset": 261
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 60,
+                            "offset": 280
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 60,
+                    "offset": 280
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

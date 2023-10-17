@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Sets the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 10,
+                            "offset": 9
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 10,
+                            "offset": 9
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " currently being focused on by the GUI Navigator\n(used for Gamepads). This may reset to nil if the object is off-screen.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 72,
+                            "offset": 146
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 72,
+                    "offset": 146
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is changed by the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 148
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 33,
+                            "offset": 180
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.SelectionGained"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 33,
+                            "offset": 180
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 66,
+                            "offset": 213
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 66,
+                            "offset": 213
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 218
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.SelectionLost"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 218
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 32,
+                            "offset": 249
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 32,
+                            "offset": 249
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 40,
+                            "offset": 257
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 148
+                },
+                "end": {
+                    "line": 5,
+                    "column": 40,
+                    "offset": 257
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If you would like to determine when this property changes without tracking\nthe SelectionGained and SelectionLost events for all GUI elements, you can\nuse the ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 259
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 9,
+                            "offset": 417
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance.Changed|Changed"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 9,
+                            "offset": 417
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 41,
+                            "offset": 449
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " event.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 41,
+                            "offset": 449
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 48,
+                            "offset": 456
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 259
+                },
+                "end": {
+                    "line": 9,
+                    "column": 48,
+                    "offset": 456
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Various miscellaneous options for in-game. Can be accessed from Roblox\nStudio's settings menu under the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 34,
+                            "offset": 104
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Game",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 36,
+                                    "offset": 106
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 40,
+                                    "offset": 110
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 34,
+                            "offset": 104
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 112
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " tab.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 112
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 47,
+                            "offset": 117
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 47,
+                    "offset": 117
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

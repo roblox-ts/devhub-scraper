@@ -1,0 +1,859 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Points to the primary part of the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 35,
+                            "offset": 34
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 35,
+                            "offset": 34
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The primary part is the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 73
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 73
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 17,
+                            "offset": 89
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that acts as the physical reference for the pivot of the\nmodel. That is, when parts within the model are moved due to physical\nsimulation or other means, the pivot will move in sync with the primary\npart. If the primary part is ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 17,
+                            "offset": 89
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 30,
+                            "offset": 318
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "not",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 32,
+                                    "offset": 320
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 35,
+                                    "offset": 323
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 30,
+                            "offset": 318
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 37,
+                            "offset": 325
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " set, the pivot will remain at the\nsame location in world space even if parts within the model are moved.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 37,
+                            "offset": 325
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 71,
+                            "offset": 430
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 71,
+                    "offset": 430
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that when setting this property, it must be a ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 432
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 52,
+                            "offset": 483
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 52,
+                            "offset": 483
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 68,
+                            "offset": 499
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that\nis a descendant of the model. If you try to set ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 68,
+                            "offset": 499
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 49,
+                            "offset": 553
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model.PrimaryPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 49,
+                            "offset": 553
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 74,
+                            "offset": 578
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nto a ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 74,
+                            "offset": 578
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 6,
+                            "offset": 584
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 6,
+                            "offset": 584
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 22,
+                            "offset": 600
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that is ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 22,
+                            "offset": 600
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 31,
+                            "offset": 609
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "not",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 33,
+                                    "offset": 611
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 36,
+                                    "offset": 614
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 31,
+                            "offset": 609
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 38,
+                            "offset": 616
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " a descendant of the model, it will\nbe set to that part but reset to ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 38,
+                            "offset": 616
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 34,
+                            "offset": 685
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "nil"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 34,
+                            "offset": 685
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 39,
+                            "offset": 690
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " during the next simulation step\n— this is legacy behavior to support scripts which assume they can\ntemporarily set the primary part to a ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 39,
+                            "offset": 690
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 39,
+                            "offset": 834
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 39,
+                            "offset": 834
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 55,
+                            "offset": 850
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " which isn't a\ndescendant of the model.",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 55,
+                            "offset": 850
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 25,
+                            "offset": 889
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 432
+                },
+                "end": {
+                    "line": 14,
+                    "column": 25,
+                    "offset": 889
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The general rule for models is that:",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 891
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 37,
+                            "offset": 927
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 891
+                },
+                "end": {
+                    "line": 16,
+                    "column": 37,
+                    "offset": 927
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Models whose parts are joined together via physical joints such as\n",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 3,
+                                    "offset": 931
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 1,
+                                    "offset": 998
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.WeldConstraint|WeldConstraints"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 3,
+                                    "offset": 1000
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 41,
+                                    "offset": 1038
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " or ",
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 41,
+                                    "offset": 1038
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 45,
+                                    "offset": 1042
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Motor6D|Motor6Ds"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 45,
+                                    "offset": 1042
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 69,
+                                    "offset": 1066
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\nshould have a primary part assigned. For example, Roblox character\nmodels have their ",
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 69,
+                                    "offset": 1066
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 21,
+                                    "offset": 1156
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Model.PrimaryPart"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 21,
+                                    "offset": 1156
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 46,
+                                    "offset": 1181
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " set to the\n",
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 46,
+                                    "offset": 1181
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 1,
+                                    "offset": 1193
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "strong",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "HumanoidRootPart",
+                                    "position": {
+                                        "start": {
+                                            "line": 22,
+                                            "column": 5,
+                                            "offset": 1197
+                                        },
+                                        "end": {
+                                            "line": 22,
+                                            "column": 21,
+                                            "offset": 1213
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 3,
+                                    "offset": 1195
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 23,
+                                    "offset": 1215
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " by default.",
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 23,
+                                    "offset": 1215
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 35,
+                                    "offset": 1227
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 929
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 35,
+                            "offset": 1227
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Static (usually ",
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 3,
+                                    "offset": 1230
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 19,
+                                    "offset": 1246
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.BasePart.Anchored|Anchored"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 19,
+                                    "offset": 1246
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 53,
+                                    "offset": 1280
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ") models which stay in\none place unless a script explicitly moves them don't require a\n",
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 53,
+                                    "offset": 1280
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 1,
+                                    "offset": 1369
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Model.PrimaryPart"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 3,
+                                    "offset": 1371
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 28,
+                                    "offset": 1396
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " and tend not to benefit from having one set.",
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 28,
+                                    "offset": 1396
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 73,
+                                    "offset": 1441
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 1228
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 73,
+                            "offset": 1441
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 929
+                },
+                "end": {
+                    "line": 25,
+                    "column": 73,
+                    "offset": 1441
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

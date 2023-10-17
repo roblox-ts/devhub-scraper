@@ -1,0 +1,1599 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This object stores all the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Keyframe"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 44,
+                            "offset": 43
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s for an animation, determines if\nthe animation is looped, and determines its priority against other animations.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 44,
+                            "offset": 43
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 79,
+                            "offset": 155
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 79,
+                    "offset": 155
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "What is a KeyframeSequence?",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 4,
+                            "offset": 160
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 31,
+                            "offset": 187
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 157
+                },
+                "end": {
+                    "line": 4,
+                    "column": 31,
+                    "offset": 187
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Roblox constructs the animation data it uses in the playback of an animation,\nreferenced by the ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 189
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 19,
+                            "offset": 285
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Animation.AnimationId"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 19,
+                            "offset": 285
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 48,
+                            "offset": 314
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property from a\nKeyframeSequence. Every animation refers to a KeyframeSequence or to a\nCurveAnimation internally. Although, usually created by the Roblox Animation\nEditor, KeyframeSequence can also be created by other plugins or even\nmanually. Once uploaded to Roblox, Roblox assigns a Content ID that\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 48,
+                            "offset": 314
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 617
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Animation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 617
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 18,
+                            "offset": 634
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s use for the ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 18,
+                            "offset": 634
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 32,
+                            "offset": 648
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Animation.AnimationId"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 32,
+                            "offset": 648
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 61,
+                            "offset": 677
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property to refer\nto the uploaded KeyframeSequence.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 61,
+                            "offset": 677
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 34,
+                            "offset": 729
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 189
+                },
+                "end": {
+                    "line": 13,
+                    "column": 34,
+                    "offset": 729
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note, in most cases, you do not need to manipulate KeyframeSequences, as the\nanimation editor covers most animation functionality. However, in some cases\nyou may wish to generate an animation from a ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 731
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 46,
+                            "offset": 930
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 46,
+                            "offset": 930
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 60,
+                            "offset": 944
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or build your own\nplugin. However, only Roblox Studio can use a KeyframeSequence created in such\na way. If you wish to use such a KeyframeSequence, you will need to upload it\nto Roblox as described below.",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 60,
+                            "offset": 944
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 30,
+                            "offset": 1149
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 731
+                },
+                "end": {
+                    "line": 20,
+                    "column": 30,
+                    "offset": 1149
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "KeyframeSequence Properties",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 4,
+                            "offset": 1154
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 31,
+                            "offset": 1181
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 1151
+                },
+                "end": {
+                    "line": 22,
+                    "column": 31,
+                    "offset": 1181
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.KeyframeSequence.Priority"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1183
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 34,
+                            "offset": 1216
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 34,
+                            "offset": 1216
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 39,
+                            "offset": 1221
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.KeyframeSequence.Loop"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 39,
+                            "offset": 1221
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 68,
+                            "offset": 1250
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " save the\npriority and looped animation settings for the sequence. Note that\n",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 68,
+                            "offset": 1250
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1327
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1327
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 23,
+                            "offset": 1349
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " properties can eventually overwrite these properties at\nplayback time.",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 23,
+                            "offset": 1349
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 15,
+                            "offset": 1420
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 24,
+                    "column": 1,
+                    "offset": 1183
+                },
+                "end": {
+                    "line": 27,
+                    "column": 15,
+                    "offset": 1420
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The last ",
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 1,
+                            "offset": 1422
+                        },
+                        "end": {
+                            "line": 29,
+                            "column": 10,
+                            "offset": 1431
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Keyframe"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 10,
+                            "offset": 1431
+                        },
+                        "end": {
+                            "line": 29,
+                            "column": 26,
+                            "offset": 1447
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in the sequence, meaning the ",
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 26,
+                            "offset": 1447
+                        },
+                        "end": {
+                            "line": 29,
+                            "column": 56,
+                            "offset": 1477
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Keyframe"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 56,
+                            "offset": 1477
+                        },
+                        "end": {
+                            "line": 29,
+                            "column": 72,
+                            "offset": 1493
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " with\nthe highest ",
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 72,
+                            "offset": 1493
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 13,
+                            "offset": 1511
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Keyframe.Time"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 13,
+                            "offset": 1511
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 34,
+                            "offset": 1532
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property, determines the length of an\nanimation.",
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 34,
+                            "offset": 1532
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 11,
+                            "offset": 1581
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 29,
+                    "column": 1,
+                    "offset": 1422
+                },
+                "end": {
+                    "line": 31,
+                    "column": 11,
+                    "offset": 1581
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "KeyframeSequence Structure",
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 4,
+                            "offset": 1586
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 30,
+                            "offset": 1612
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 33,
+                    "column": 1,
+                    "offset": 1583
+                },
+                "end": {
+                    "line": 33,
+                    "column": 30,
+                    "offset": 1612
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "KeyframeSequences act as a container that hold ",
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 1,
+                            "offset": 1614
+                        },
+                        "end": {
+                            "line": 35,
+                            "column": 48,
+                            "offset": 1661
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Keyframe"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 48,
+                            "offset": 1661
+                        },
+                        "end": {
+                            "line": 35,
+                            "column": 64,
+                            "offset": 1677
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s. Keyframes\nrepresent a 'key' frame in the animation, that are interpolated between during\nplayback.",
+                    "position": {
+                        "start": {
+                            "line": 35,
+                            "column": 64,
+                            "offset": 1677
+                        },
+                        "end": {
+                            "line": 37,
+                            "column": 10,
+                            "offset": 1778
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 35,
+                    "column": 1,
+                    "offset": 1614
+                },
+                "end": {
+                    "line": 37,
+                    "column": 10,
+                    "offset": 1778
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Keyframes contain ",
+                    "position": {
+                        "start": {
+                            "line": 39,
+                            "column": 1,
+                            "offset": 1780
+                        },
+                        "end": {
+                            "line": 39,
+                            "column": 19,
+                            "offset": 1798
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pose"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 39,
+                            "column": 19,
+                            "offset": 1798
+                        },
+                        "end": {
+                            "line": 39,
+                            "column": 31,
+                            "offset": 1810
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s. ",
+                    "position": {
+                        "start": {
+                            "line": 39,
+                            "column": 31,
+                            "offset": 1810
+                        },
+                        "end": {
+                            "line": 39,
+                            "column": 34,
+                            "offset": 1813
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pose"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 39,
+                            "column": 34,
+                            "offset": 1813
+                        },
+                        "end": {
+                            "line": 39,
+                            "column": 46,
+                            "offset": 1825
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s, specific to each\n",
+                    "position": {
+                        "start": {
+                            "line": 39,
+                            "column": 46,
+                            "offset": 1825
+                        },
+                        "end": {
+                            "line": 40,
+                            "column": 1,
+                            "offset": 1845
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 40,
+                            "column": 1,
+                            "offset": 1845
+                        },
+                        "end": {
+                            "line": 40,
+                            "column": 17,
+                            "offset": 1861
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " being animated, contain the ",
+                    "position": {
+                        "start": {
+                            "line": 40,
+                            "column": 17,
+                            "offset": 1861
+                        },
+                        "end": {
+                            "line": 40,
+                            "column": 46,
+                            "offset": 1890
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 40,
+                            "column": 46,
+                            "offset": 1890
+                        },
+                        "end": {
+                            "line": 40,
+                            "column": 63,
+                            "offset": 1907
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " applied to the\n",
+                    "position": {
+                        "start": {
+                            "line": 40,
+                            "column": 63,
+                            "offset": 1907
+                        },
+                        "end": {
+                            "line": 41,
+                            "column": 1,
+                            "offset": 1923
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 41,
+                            "column": 1,
+                            "offset": 1923
+                        },
+                        "end": {
+                            "line": 41,
+                            "column": 16,
+                            "offset": 1938
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " connecting two parts. Poses match the ",
+                    "position": {
+                        "start": {
+                            "line": 41,
+                            "column": 16,
+                            "offset": 1938
+                        },
+                        "end": {
+                            "line": 41,
+                            "column": 55,
+                            "offset": 1977
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 41,
+                            "column": 55,
+                            "offset": 1977
+                        },
+                        "end": {
+                            "line": 41,
+                            "column": 71,
+                            "offset": 1993
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " they\ncorrespond with by name and apply their data to the ",
+                    "position": {
+                        "start": {
+                            "line": 41,
+                            "column": 71,
+                            "offset": 1993
+                        },
+                        "end": {
+                            "line": 42,
+                            "column": 53,
+                            "offset": 2051
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 42,
+                            "column": 53,
+                            "offset": 2051
+                        },
+                        "end": {
+                            "line": 42,
+                            "column": 68,
+                            "offset": 2066
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " with this\nsame-named part identified as ",
+                    "position": {
+                        "start": {
+                            "line": 42,
+                            "column": 68,
+                            "offset": 2066
+                        },
+                        "end": {
+                            "line": 43,
+                            "column": 31,
+                            "offset": 2107
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D.P1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 43,
+                            "column": 31,
+                            "offset": 2107
+                        },
+                        "end": {
+                            "line": 43,
+                            "column": 49,
+                            "offset": 2125
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " . For this reason, animations\nrequire distinct part names to play correctly.",
+                    "position": {
+                        "start": {
+                            "line": 43,
+                            "column": 49,
+                            "offset": 2125
+                        },
+                        "end": {
+                            "line": 44,
+                            "column": 47,
+                            "offset": 2202
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 39,
+                    "column": 1,
+                    "offset": 1780
+                },
+                "end": {
+                    "line": 44,
+                    "column": 47,
+                    "offset": 2202
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Poses follow a structure based on joint hierarchy. The parent of each\n",
+                    "position": {
+                        "start": {
+                            "line": 46,
+                            "column": 1,
+                            "offset": 2204
+                        },
+                        "end": {
+                            "line": 47,
+                            "column": 1,
+                            "offset": 2274
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pose"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 47,
+                            "column": 1,
+                            "offset": 2274
+                        },
+                        "end": {
+                            "line": 47,
+                            "column": 13,
+                            "offset": 2286
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " corresponds to the ",
+                    "position": {
+                        "start": {
+                            "line": 47,
+                            "column": 13,
+                            "offset": 2286
+                        },
+                        "end": {
+                            "line": 47,
+                            "column": 33,
+                            "offset": 2306
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pose"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 47,
+                            "column": 33,
+                            "offset": 2306
+                        },
+                        "end": {
+                            "line": 47,
+                            "column": 45,
+                            "offset": 2318
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the part it is attached to. In\npractice, this means the poses branch out from the root part. See below for a\nvisual example.",
+                    "position": {
+                        "start": {
+                            "line": 47,
+                            "column": 45,
+                            "offset": 2318
+                        },
+                        "end": {
+                            "line": 49,
+                            "column": 16,
+                            "offset": 2446
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 46,
+                    "column": 1,
+                    "offset": 2204
+                },
+                "end": {
+                    "line": 49,
+                    "column": 16,
+                    "offset": 2446
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Using KeyframeSequences when making animations",
+                    "position": {
+                        "start": {
+                            "line": 51,
+                            "column": 4,
+                            "offset": 2451
+                        },
+                        "end": {
+                            "line": 51,
+                            "column": 50,
+                            "offset": 2497
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 51,
+                    "column": 1,
+                    "offset": 2448
+                },
+                "end": {
+                    "line": 51,
+                    "column": 50,
+                    "offset": 2497
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "You must first upload KeyframeSequences to Roblox before they can be played in\nan experience. In Studio, right click on the KeyframeSequence and click 'Save\nto Roblox'. Alternatively, you can use the\n",
+                    "position": {
+                        "start": {
+                            "line": 53,
+                            "column": 1,
+                            "offset": 2499
+                        },
+                        "end": {
+                            "line": 56,
+                            "column": 1,
+                            "offset": 2699
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Plugin:SaveSelectedToRoblox()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 56,
+                            "column": 1,
+                            "offset": 2699
+                        },
+                        "end": {
+                            "line": 56,
+                            "column": 38,
+                            "offset": 2736
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " function. Either method will bring up\nthe animation upload window and allow you to upload your KeyframeSequence as\nan animation.",
+                    "position": {
+                        "start": {
+                            "line": 56,
+                            "column": 38,
+                            "offset": 2736
+                        },
+                        "end": {
+                            "line": 58,
+                            "column": 14,
+                            "offset": 2865
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 53,
+                    "column": 1,
+                    "offset": 2499
+                },
+                "end": {
+                    "line": 58,
+                    "column": 14,
+                    "offset": 2865
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "In some cases, you may want to preview an Animation before uploading it to the\nRoblox site. You can generate a temporary id using\n",
+                    "position": {
+                        "start": {
+                            "line": 60,
+                            "column": 1,
+                            "offset": 2867
+                        },
+                        "end": {
+                            "line": 62,
+                            "column": 1,
+                            "offset": 2997
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.KeyframeSequenceProvider:RegisterKeyframeSequence()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 62,
+                            "column": 1,
+                            "offset": 2997
+                        },
+                        "end": {
+                            "line": 62,
+                            "column": 60,
+                            "offset": 3056
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This will\ngenerate a hash id that can be used for localized animation testing.",
+                    "position": {
+                        "start": {
+                            "line": 62,
+                            "column": 60,
+                            "offset": 3056
+                        },
+                        "end": {
+                            "line": 63,
+                            "column": 69,
+                            "offset": 3136
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 60,
+                    "column": 1,
+                    "offset": 2867
+                },
+                "end": {
+                    "line": 63,
+                    "column": 69,
+                    "offset": 3136
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Obtaining KeyframeSequences",
+                    "position": {
+                        "start": {
+                            "line": 65,
+                            "column": 4,
+                            "offset": 3141
+                        },
+                        "end": {
+                            "line": 65,
+                            "column": 31,
+                            "offset": 3168
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 65,
+                    "column": 1,
+                    "offset": 3138
+                },
+                "end": {
+                    "line": 65,
+                    "column": 31,
+                    "offset": 3168
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "In some cases you may wish to download the KeyframeSequence corresponding to\nan existing uploaded Animation. You can use\n",
+                    "position": {
+                        "start": {
+                            "line": 67,
+                            "column": 1,
+                            "offset": 3170
+                        },
+                        "end": {
+                            "line": 69,
+                            "column": 1,
+                            "offset": 3291
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationClipProvider:GetAnimationClipAsync()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 69,
+                            "column": 1,
+                            "offset": 3291
+                        },
+                        "end": {
+                            "line": 69,
+                            "column": 54,
+                            "offset": 3344
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to download an\nanimation.",
+                    "position": {
+                        "start": {
+                            "line": 69,
+                            "column": 54,
+                            "offset": 3344
+                        },
+                        "end": {
+                            "line": 70,
+                            "column": 11,
+                            "offset": 3370
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 67,
+                    "column": 1,
+                    "offset": 3170
+                },
+                "end": {
+                    "line": 70,
+                    "column": 11,
+                    "offset": 3370
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

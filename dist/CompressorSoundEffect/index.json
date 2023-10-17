@@ -1,0 +1,445 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A compressor is used to reduce the dynamic range of audio by moving the highs\nand lows of a signal closer together. It does this by lowering the volume of\nthe highest parts of a source while at the same time raising the overall\nvolume. This type of effect is useful when you have many sounds playing and\nyou want to make sure the quieter ones are still audible. This effect can be\napplied to either an individual ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 33,
+                            "offset": 413
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 33,
+                            "offset": 413
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 46,
+                            "offset": 426
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 46,
+                            "offset": 426
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 50,
+                            "offset": 430
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SoundGroup"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 50,
+                            "offset": 430
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 68,
+                            "offset": 448
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " by\nparenting it to the desired instance.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 68,
+                            "offset": 448
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 38,
+                            "offset": 489
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 7,
+                    "column": 38,
+                    "offset": 489
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A compressor has several properties which determine how it works. The\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 491
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 561
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.CompressorSoundEffect.Threshold"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 561
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 40,
+                            "offset": 600
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is the audio level where the\ncompressor will start to lower the volume. As soon as the source goes below\nthe threshold, the compressor will stop lowering the volume.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 40,
+                            "offset": 600
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 61,
+                            "offset": 766
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 491
+                },
+                "end": {
+                    "line": 12,
+                    "column": 61,
+                    "offset": 766
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 768
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 5,
+                            "offset": 772
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.CompressorSoundEffect.Attack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 5,
+                            "offset": 772
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 41,
+                            "offset": 808
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines how long it takes for the\ncompressed effect to fully apply. After the threshold has been crossed the\ncompressor will lower the volume over time until the desired ratio has been\nreached. It will take the time specified by Attack to reach this ratio.",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 41,
+                            "offset": 808
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 72,
+                            "offset": 1068
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 768
+                },
+                "end": {
+                    "line": 17,
+                    "column": 72,
+                    "offset": 1068
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1070
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 5,
+                            "offset": 1074
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.CompressorSoundEffect.Release"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 5,
+                            "offset": 1074
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 42,
+                            "offset": 1111
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines how long it takes for the\ncompressor to remove its effect. After the volume of the source is under the\nthreshold, the compressor will restore the volume back to the original over\nthe time specified by Release.",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 42,
+                            "offset": 1111
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 31,
+                            "offset": 1332
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 19,
+                    "column": 1,
+                    "offset": 1070
+                },
+                "end": {
+                    "line": 22,
+                    "column": 31,
+                    "offset": 1332
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Along with lowering the volume when the sound has passed the threshold, a\ncompressor will also amplify the entire sound (after any threshold lowering\nhas taken effect). This allows quieter sounds to be amplified while louder\nsounds can stay about the same. The ",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1334
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 37,
+                            "offset": 1595
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.CompressorSoundEffect.GainMakeup"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 37,
+                            "offset": 1595
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 77,
+                            "offset": 1635
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\ndetermines how much the effect amplifies the sound.",
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 77,
+                            "offset": 1635
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 52,
+                            "offset": 1687
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 24,
+                    "column": 1,
+                    "offset": 1334
+                },
+                "end": {
+                    "line": 28,
+                    "column": 52,
+                    "offset": 1687
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

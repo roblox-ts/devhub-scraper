@@ -1,0 +1,218 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The MaxDistance property of a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 31,
+                            "offset": 30
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BillboardGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 31,
+                            "offset": 30
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " sets how far away in\nstuds that billboard can be from the camera and still be drawn. If the\ncamera and billboard are moved further apart than the maximum distance,\nthen the billboard will not be visible regardless of any other properties\nof the billboard or any GUI objects it contains. The default value of this\nproperty is infinity",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 21,
+                            "offset": 384
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 6,
+                    "column": 21,
+                    "offset": 384
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If this value is set to less than or equal to 0 then the maximum distance\nwill be treated as infinite and the billboard will always be drawable.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 386
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 71,
+                            "offset": 530
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 386
+                },
+                "end": {
+                    "line": 9,
+                    "column": 71,
+                    "offset": 530
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Example",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 6,
+                            "offset": 537
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 13,
+                            "offset": 544
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 532
+                },
+                "end": {
+                    "line": 11,
+                    "column": 13,
+                    "offset": 544
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "-- Wait for default camera/control scripts to load\nwait(5)\n\n-- Declare and initialize objects\nlocal camera = game.Workspace.CurrentCamera\nlocal part = Instance.new(\"Part\")\nlocal billboard = Instance.new(\"BillboardGui\")\nlocal label = Instance.new(\"TextLabel\")\n\n-- Set up camera type\ncamera.CameraType = Enum.CameraType.Scriptable\n\n-- Set part's position and lock in place\npart.CFrame = CFrame.new(0, 10, 0)\npart.Anchored = true\n\n-- Set up billboard\nbillboard.MaxDistance = 10\nbillboard.Adornee = part\nbillboard.AlwaysOnTop = true\nbillboard.Size = UDim2.new(0, 50, 0, 50)\n\n-- Set up label\nlabel.Size = UDim2.new(1, 0, 1, 0)\n\n-- Set partents of objects\nlabel.Parent = billboard\nbillboard.Parent = part\npart.Parent = game.Workspace\n\n-- Move camera next to part. Wait a bit and then move camera\nlocal cameraPosition0 = part.Position + Vector3.new(0, 0, 10)\nlocal cameraPosition1 = part.Position + Vector3.new(0, 0, 20)\ncamera.CFrame = CFrame.new(cameraPosition0, part.Position)\n-- Contents of billboard will be visible here\nwait(2)\ncamera.CFrame = CFrame.new(cameraPosition1, part.Position)\n-- Contents of billboard will no longer be visible (outside MaxDistance)\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 546
+                        },
+                        "end": {
+                            "line": 52,
+                            "column": 4,
+                            "offset": 1715
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 546
+                },
+                "end": {
+                    "line": 52,
+                    "column": 4,
+                    "offset": 1715
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

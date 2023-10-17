@@ -14,14 +14,12 @@ paints are non-metallic, so the metalness map is black everywhere except
 on unpainted metal parts and spots where the paint has chipped away and
 the underlying metal is visible.
 
-![Metalness jetpack][1]
+![Metalness jetpack](https://prod.docsiteassets.roblox.com/assets/legacy/jetpack.gif)
 
-![Map explanation][2]
+![Map explanation](https://prod.docsiteassets.roblox.com/assets/legacy/metalness-explained.png)
 
-When [Lighting.EnvironmentSpecularScale](https://create.roblox.com/docs/reference/engine/classes/Lighting#EnvironmentSpecularScale) is 0, metalness has no effect.
-For the most realistic reflections, setting EnvironmentSpecularScale and
-[Lighting.EnvironmentDiffuseScale](https://create.roblox.com/docs/reference/engine/classes/Lighting#EnvironmentDiffuseScale) to 1, and [Lighting.Ambient](https://create.roblox.com/docs/reference/engine/classes/Lighting#Ambient) and
-[Lighting.OutdoorAmbient](https://create.roblox.com/docs/reference/engine/classes/Lighting#OutdoorAmbient) to (0,0,0) is recommended.
-
-[1]: https://prod.docsiteassets.roblox.com/assets/blt0a658c7367d5cdab/jetpack.gif
-[2]: https://prod.docsiteassets.roblox.com/assets/blt96558be20f7b7a1a/metalness-explained.png
+When [`Lighting.EnvironmentSpecularScale`](https://create.roblox.com/docs/reference/engine/classes/Lighting#EnvironmentSpecularScale) is 0, metalness has no
+effect. For the most realistic reflections, setting
+EnvironmentSpecularScale and [`Lighting.EnvironmentDiffuseScale`](https://create.roblox.com/docs/reference/engine/classes/Lighting#EnvironmentDiffuseScale) to
+1, and [`Lighting.Ambient`](https://create.roblox.com/docs/reference/engine/classes/Lighting#Ambient) and [`Lighting.OutdoorAmbient`](https://create.roblox.com/docs/reference/engine/classes/Lighting#OutdoorAmbient) to
+(0,0,0) is recommended.

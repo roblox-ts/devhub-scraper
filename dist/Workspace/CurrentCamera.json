@@ -1,0 +1,986 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object being used by the local player.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 19,
+                            "offset": 18
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 58,
+                    "offset": 57
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "How to use CurrentCamera",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 6,
+                            "offset": 64
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 30,
+                            "offset": 88
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 59
+                },
+                "end": {
+                    "line": 3,
+                    "column": 30,
+                    "offset": 88
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property can be set. When it is set, all other ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 90
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 142
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 142
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 67,
+                            "offset": 156
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " objects\nin the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 67,
+                            "offset": 156
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 8,
+                            "offset": 172
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 8,
+                            "offset": 172
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 25,
+                            "offset": 189
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are destroyed, including the previous\nCurrentCamera. If this property is set to nil, or the CurrentCamera is\notherwise destroyed, a new ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 25,
+                            "offset": 189
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 28,
+                            "offset": 326
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 28,
+                            "offset": 326
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 42,
+                            "offset": 340
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will be created and assigned.\nDevelopers should avoid setting this property to nil or destroying the\nCurrentCamera however as it can have unintended consequences.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 42,
+                            "offset": 340
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 62,
+                            "offset": 503
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 90
+                },
+                "end": {
+                    "line": 10,
+                    "column": 62,
+                    "offset": 503
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When looking for a client's ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 505
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 29,
+                            "offset": 533
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 29,
+                            "offset": 533
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 43,
+                            "offset": 547
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object, developers should use\nthis property rather than looking for a child of ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 43,
+                            "offset": 547
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 50,
+                            "offset": 627
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 50,
+                            "offset": 627
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 67,
+                            "offset": 644
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " named\n'Camera'.",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 67,
+                            "offset": 644
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 10,
+                            "offset": 660
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 505
+                },
+                "end": {
+                    "line": 14,
+                    "column": 10,
+                    "offset": 660
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "What can be done with CurrentCamera",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 6,
+                            "offset": 667
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 41,
+                            "offset": 702
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 662
+                },
+                "end": {
+                    "line": 16,
+                    "column": 41,
+                    "offset": 702
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Accessing a client's current ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 704
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 30,
+                            "offset": 733
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 30,
+                            "offset": 733
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 44,
+                            "offset": 747
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object brings a range of uses.",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 44,
+                            "offset": 747
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 75,
+                            "offset": 778
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 704
+                },
+                "end": {
+                    "line": 18,
+                    "column": 75,
+                    "offset": 778
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Manipulating the viewport using the ",
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 3,
+                                    "offset": 782
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 39,
+                                    "offset": 818
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Camera"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 39,
+                                    "offset": 818
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 53,
+                                    "offset": 832
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " functions",
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 53,
+                                    "offset": 832
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 63,
+                                    "offset": 842
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 780
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 63,
+                            "offset": 842
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Objects parented to the ",
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 3,
+                                    "offset": 845
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 27,
+                                    "offset": 869
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Camera"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 27,
+                                    "offset": 869
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 41,
+                                    "offset": 883
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " will not replicate to the server,\nregardless of what ",
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 41,
+                                    "offset": 883
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 22,
+                                    "offset": 939
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Workspace.FilteringEnabled"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 22,
+                                    "offset": 939
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 56,
+                                    "offset": 973
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " is set to. Prior\nto ",
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 56,
+                                    "offset": 973
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 6,
+                                    "offset": 996
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Workspace.FilteringEnabled"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 6,
+                                    "offset": 996
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 40,
+                                    "offset": 1030
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", this was the main way to render\n",
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 40,
+                                    "offset": 1030
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 1,
+                                    "offset": 1064
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.BasePart"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 3,
+                                    "offset": 1066
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 19,
+                                    "offset": 1082
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "s on one client only.",
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 19,
+                                    "offset": 1082
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 40,
+                                    "offset": 1103
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 843
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 40,
+                            "offset": 1103
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 780
+                },
+                "end": {
+                    "line": 24,
+                    "column": 40,
+                    "offset": 1103
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Below is an example of how this property can be used to access the\n",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1105
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 1,
+                            "offset": 1172
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 1,
+                            "offset": 1172
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 15,
+                            "offset": 1186
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object and increase its ",
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 15,
+                            "offset": 1186
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 40,
+                            "offset": 1211
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera.FieldOfView"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 40,
+                            "offset": 1211
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 66,
+                            "offset": 1237
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 66,
+                            "offset": 1237
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 67,
+                            "offset": 1238
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 26,
+                    "column": 1,
+                    "offset": 1105
+                },
+                "end": {
+                    "line": 27,
+                    "column": 67,
+                    "offset": 1238
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "workspace.CurrentCamera.FieldOfView = 100\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 1,
+                            "offset": 1240
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 4,
+                            "offset": 1289
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 29,
+                    "column": 1,
+                    "offset": 1240
+                },
+                "end": {
+                    "line": 31,
+                    "column": 4,
+                    "offset": 1289
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

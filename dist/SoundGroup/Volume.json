@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The volume multiplier applied to ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 34,
+                            "offset": 33
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s that are in the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 64
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SoundGroup"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 64
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 19,
+                            "offset": 82
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This value ranges from 0 to 10.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 19,
+                            "offset": 82
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 115
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 52,
+                    "offset": 115
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property acts as a multiplier, and thus sounds in a\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 117
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 174
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SoundGroup"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 174
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 19,
+                            "offset": 192
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will retain their relative volumes when it is set. This\nmeans if a sound's ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 19,
+                            "offset": 192
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 20,
+                            "offset": 268
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Sound.Volume"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 20,
+                            "offset": 268
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 40,
+                            "offset": 288
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is 0.5 and it is assigned to a\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 40,
+                            "offset": 288
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 320
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SoundGroup"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 320
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 19,
+                            "offset": 338
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " with a volume of 0.5, its effective volume will be\n0.25.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 19,
+                            "offset": 338
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 6,
+                            "offset": 395
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 117
+                },
+                "end": {
+                    "line": 8,
+                    "column": 6,
+                    "offset": 395
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

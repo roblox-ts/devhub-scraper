@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is supposed to show the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 39,
+                            "offset": 38
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.ReceiveAge"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 39,
+                            "offset": 38
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 66,
+                            "offset": 65
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of a\npart, but it does not work correctly.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 66,
+                            "offset": 65
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 38,
+                            "offset": 108
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 38,
+                    "offset": 108
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,418 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Trail"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " starts drawing its segments at the positions of its\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 68
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Trail.Attachment0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 68
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 93
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 93
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 98
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "*Attachment1",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 33,
+                                    "offset": 100
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 46,
+                                    "offset": 113
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 98
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 48,
+                            "offset": 115
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 48,
+                            "offset": 115
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 49,
+                            "offset": 116
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 49,
+                    "offset": 116
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When the Trail is ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 118
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 19,
+                            "offset": 136
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Trail.Enabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 19,
+                            "offset": 136
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 157
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " it will record the positions of\nits attachments every frame. It will connect these positions to the\npositions of the attachments on the previous frame. This creates a polygon\nthat is then filled in by the Trail's ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 157
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 39,
+                            "offset": 371
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Trail.Color"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 39,
+                            "offset": 371
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 58,
+                            "offset": 390
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 58,
+                            "offset": 390
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 395
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Trail.Texture"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 395
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 22,
+                            "offset": 416
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " (if that Texture exists).",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 22,
+                            "offset": 416
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 48,
+                            "offset": 442
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 118
+                },
+                "end": {
+                    "line": 8,
+                    "column": 48,
+                    "offset": 442
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When created a Trail will not have any Attachments set by default. These\nwill need to be set in order for the effect to work.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 444
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 53,
+                            "offset": 569
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 444
+                },
+                "end": {
+                    "line": 11,
+                    "column": 53,
+                    "offset": 569
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Changing the Attachments of a Trail while a trail is drawing will remove\nall of the segments the trail has already drawn.",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 571
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 49,
+                            "offset": 692
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 571
+                },
+                "end": {
+                    "line": 14,
+                    "column": 49,
+                    "offset": 692
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

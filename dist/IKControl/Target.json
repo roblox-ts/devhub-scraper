@@ -1,0 +1,328 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.Target|Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " represents a point (",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 57,
+                            "offset": 56
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 57,
+                            "offset": 56
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 74,
+                            "offset": 73
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ")\nin the world that you want your ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 74,
+                            "offset": 73
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 33,
+                            "offset": 107
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.EndEffector|EndEffector"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 33,
+                            "offset": 107
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 74,
+                            "offset": 148
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nto reach. The exact behavior of reaching can be set via the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 74,
+                            "offset": 148
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 209
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.Type|Type"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 209
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 28,
+                            "offset": 236
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property, and an additional\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 28,
+                            "offset": 236
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 265
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.Offset|Offset"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 265
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 32,
+                            "offset": 296
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " can be applied on top of it to modify it.\nIf you set a ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 32,
+                            "offset": 296
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 14,
+                            "offset": 352
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.Target|Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 14,
+                            "offset": 352
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 383
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that will be moved either by\nphysics or a script, at each frame the ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 383
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 40,
+                            "offset": 452
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 40,
+                            "offset": 452
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 57,
+                            "offset": 469
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will try to\nsatisfy it, automatically updating the point to reach.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 57,
+                            "offset": 469
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 55,
+                            "offset": 536
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 8,
+                    "column": 55,
+                    "offset": 536
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

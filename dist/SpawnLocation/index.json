@@ -1,0 +1,1185 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "SpawnLocations, or \"spawns\" determine where a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 61,
+                            "offset": 60
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " respawns when\nthey die. They can be configured to allow only certain players to use each\nspawn, using ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 61,
+                            "offset": 60
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 14,
+                            "offset": 163
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Team|Teams"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 14,
+                            "offset": 163
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 181
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". They also control how\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 181
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 205
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ForceField|ForceFields"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 205
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 31,
+                            "offset": 235
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are set up for newly-spawned players.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 31,
+                            "offset": 235
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 69,
+                            "offset": 273
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 69,
+                    "offset": 273
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "SpawnLocations can be used as checkpoints, such as in an obstacle course,\nusing the ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 275
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 11,
+                            "offset": 359
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation.AllowTeamChangeOnTouch"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 11,
+                            "offset": 359
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 55,
+                            "offset": 403
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property, so that when\na player touches it, they will change teams to the SpawnLocation's team. In\nthis case, only the first ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 55,
+                            "offset": 403
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 27,
+                            "offset": 529
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Team"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 27,
+                            "offset": 529
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 39,
+                            "offset": 541
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " should have ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 39,
+                            "offset": 541
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 52,
+                            "offset": 554
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Team.AutoAssignable"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 52,
+                            "offset": 554
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 79,
+                            "offset": 581
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nset to true, else players will not start at the first checkpoint.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 79,
+                            "offset": 581
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 66,
+                            "offset": 647
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 275
+                },
+                "end": {
+                    "line": 10,
+                    "column": 66,
+                    "offset": 647
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note if a SpawnLocation is added to the ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 649
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 41,
+                            "offset": 689
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 41,
+                            "offset": 689
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 58,
+                            "offset": 706
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in Studio with\n",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 58,
+                            "offset": 706
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 722
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation.Neutral"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 722
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 30,
+                            "offset": 751
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " set to false a Team will be created\ncorresponding to ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 30,
+                            "offset": 751
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 18,
+                            "offset": 805
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation.TeamColor"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 18,
+                            "offset": 805
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 49,
+                            "offset": 836
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " if it does not already exist.\nThis behavior does not occur when spawns are created in-game using a\n",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 49,
+                            "offset": 836
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 936
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 936
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 15,
+                            "offset": 950
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or if the properties of the SpawnLocation are changed after\nalready being added. It is recommended that developers always set up their\nteams manually and not rely on this behavior.",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 15,
+                            "offset": 950
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 46,
+                            "offset": 1131
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 649
+                },
+                "end": {
+                    "line": 18,
+                    "column": 46,
+                    "offset": 1131
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Spawning Rules",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 4,
+                            "offset": 1136
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 18,
+                            "offset": 1150
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 1133
+                },
+                "end": {
+                    "line": 20,
+                    "column": 18,
+                    "offset": 1150
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "There are several rules that come into play for a given SpawnLocation when a\nplayer respawns:",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 1152
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 17,
+                            "offset": 1245
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 1152
+                },
+                "end": {
+                    "line": 23,
+                    "column": 17,
+                    "offset": 1245
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "When ",
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 3,
+                                    "offset": 1249
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 8,
+                                    "offset": 1254
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpawnLocation.Neutral"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 8,
+                                    "offset": 1254
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 37,
+                                    "offset": 1283
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " is set to false only\n",
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 37,
+                                    "offset": 1283
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 1,
+                                    "offset": 1305
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Player|Players"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 3,
+                                    "offset": 1307
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 25,
+                                    "offset": 1329
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " with ",
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 25,
+                                    "offset": 1329
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 31,
+                                    "offset": 1335
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Player.TeamColor"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 31,
+                                    "offset": 1335
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 55,
+                                    "offset": 1359
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " matching\n",
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 55,
+                                    "offset": 1359
+                                },
+                                "end": {
+                                    "line": 27,
+                                    "column": 1,
+                                    "offset": 1369
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpawnLocation.TeamColor"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 27,
+                                    "column": 3,
+                                    "offset": 1371
+                                },
+                                "end": {
+                                    "line": 27,
+                                    "column": 34,
+                                    "offset": 1402
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " will respawn above it",
+                            "position": {
+                                "start": {
+                                    "line": 27,
+                                    "column": 34,
+                                    "offset": 1402
+                                },
+                                "end": {
+                                    "line": 27,
+                                    "column": 56,
+                                    "offset": 1424
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 1247
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 56,
+                            "offset": 1424
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "When ",
+                            "position": {
+                                "start": {
+                                    "line": 28,
+                                    "column": 3,
+                                    "offset": 1427
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "column": 8,
+                                    "offset": 1432
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpawnLocation.Neutral"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 28,
+                                    "column": 8,
+                                    "offset": 1432
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "column": 37,
+                                    "offset": 1461
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " is set to true any Player can spawn above\nit regardless of ",
+                            "position": {
+                                "start": {
+                                    "line": 28,
+                                    "column": 37,
+                                    "offset": 1461
+                                },
+                                "end": {
+                                    "line": 29,
+                                    "column": 20,
+                                    "offset": 1523
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpawnLocation.TeamColor"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 29,
+                                    "column": 20,
+                                    "offset": 1523
+                                },
+                                "end": {
+                                    "line": 29,
+                                    "column": 51,
+                                    "offset": 1554
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 1,
+                            "offset": 1425
+                        },
+                        "end": {
+                            "line": 29,
+                            "column": 51,
+                            "offset": 1554
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "If multiple eligible spawns are available to a ",
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 3,
+                                    "offset": 1557
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "column": 50,
+                                    "offset": 1604
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Player"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 50,
+                                    "offset": 1604
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "column": 64,
+                                    "offset": 1618
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", a random one\nwill be chosen",
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 64,
+                                    "offset": 1618
+                                },
+                                "end": {
+                                    "line": 31,
+                                    "column": 17,
+                                    "offset": 1649
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 1,
+                            "offset": 1555
+                        },
+                        "end": {
+                            "line": 31,
+                            "column": 17,
+                            "offset": 1649
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Players will spawn at different points on top of a SpawnLocation, but\ncurrently, they may still spawn on top of each other if they spawn right\nafter one and other",
+                            "position": {
+                                "start": {
+                                    "line": 32,
+                                    "column": 3,
+                                    "offset": 1652
+                                },
+                                "end": {
+                                    "line": 34,
+                                    "column": 22,
+                                    "offset": 1818
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1650
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 22,
+                            "offset": 1818
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 25,
+                    "column": 1,
+                    "offset": 1247
+                },
+                "end": {
+                    "line": 34,
+                    "column": 22,
+                    "offset": 1818
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 36,
+                            "column": 1,
+                            "offset": 1820
+                        },
+                        "end": {
+                            "line": 36,
+                            "column": 10,
+                            "offset": 1829
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 36,
+                    "column": 1,
+                    "offset": 1820
+                },
+                "end": {
+                    "line": 36,
+                    "column": 10,
+                    "offset": 1829
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "If you'd like to configure how long it takes for a player to respawn, take a\nlook at the ",
+                            "position": {
+                                "start": {
+                                    "line": 38,
+                                    "column": 3,
+                                    "offset": 1833
+                                },
+                                "end": {
+                                    "line": 39,
+                                    "column": 15,
+                                    "offset": 1924
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Players.RespawnTime|RespawnTime"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 39,
+                                    "column": 15,
+                                    "offset": 1924
+                                },
+                                "end": {
+                                    "line": 39,
+                                    "column": 54,
+                                    "offset": 1963
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " property",
+                            "position": {
+                                "start": {
+                                    "line": 39,
+                                    "column": 54,
+                                    "offset": 1963
+                                },
+                                "end": {
+                                    "line": 39,
+                                    "column": 63,
+                                    "offset": 1972
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 38,
+                            "column": 1,
+                            "offset": 1831
+                        },
+                        "end": {
+                            "line": 39,
+                            "column": 63,
+                            "offset": 1972
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 38,
+                    "column": 1,
+                    "offset": 1831
+                },
+                "end": {
+                    "line": 39,
+                    "column": 63,
+                    "offset": 1972
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

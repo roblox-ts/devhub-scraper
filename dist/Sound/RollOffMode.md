@@ -1,24 +1,20 @@
-This property sets how 3D [Sounds](https://create.roblox.com/docs/reference/engine/classes/Sound) attenuate (fade out) as the
+This property sets how 3D [`Sounds`](https://create.roblox.com/docs/reference/engine/classes/Sound) attenuate (fade out) as the
 distance between the listener and the sound's parent increase. It can be
-set to one of the values of the [RollOffMode](https://developer.roblox.com/en-us/api-reference/enum/RollOffMode) enum.
+set to one of the values of the `Enum.RollOffMode` enum.
 
 The following code will set RollOffMode to Linear:
-
 ```lua
 sound.RollOffMode = Enum.RollOffMode.Linear
 ```
-
 #### The different modes
 
-Thee following options are available:
-
-| Mode           | Description                                                                                                                                     |
-| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Inverse        | Volume attenuates from `Sound/RollOffMinDistance` in an inverse manner                                                                          |
-| InverseTapered | A hybrid model. Follows the Inverse model when close to RollOffMinDistance and the Linear Square model when close to `Sound/RollOffMaxDistance` |
-| Linear         | Volume attenuates between RollOffMinDistance and RollOffMaxDistance with a linear relationship                                                  |
-| LinearSquare   | Volume attenuates between RollOffMinDistance and RollOffMaxDistance with a linear squared relationship                                          |
-
+The following options are available:
+| Mode | Description |
+| - | - |
+| Inverse | Volume attenuates from `Sound/RollOffMinDistance` in an inverse manner. |
+| InverseTapered | A hybrid model. Follows the Inverse model when close to `RollOffMinDistance` and the Linear Square model when close to `Sound/RollOffMaxDistance`. |
+| Linear | Volume attenuates between `RollOffMinDistance` and `Sound/RollOffMaxDistance` with a linear relationship. |
+| LinearSquare | Volume attenuates between `RollOffMinDistance` and `Sound/RollOffMaxDistance` with a linear squared relationship. |
 
 #### Inverse vs Linear Distance Attenuation
 
@@ -29,7 +25,7 @@ once the distance between the listener and the Sound's parent exceeds
 RollOffMinDistance. The rate of attenuation depends on the emitter size,
 as sounds with larger EmitterSize's will attenuate at a slower rate.
 Inverse rate of inverse distance attenuation is further influenced by
-`SoundService/RolloffScale`.
+[`SoundService.RolloffScale`](https://create.roblox.com/docs/reference/engine/classes/SoundService#RolloffScale).
 
 RollOffMaxDistance will not effect attenuation under the inverse model but
 will cause the sound to cut off completely once this distance is reached.

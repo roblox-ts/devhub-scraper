@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Force property determines the amount of force exerted on each axis\nrelative to the part. Unlike ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 30,
+                            "offset": 100
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BodyForce.Force"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 30,
+                            "offset": 100
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 53,
+                            "offset": 123
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", this property is\nrelative to the part and not the world. The force is exerted at the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 53,
+                            "offset": 123
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 210
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BodyThrust.Location|Location"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 210
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 246
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which is also relative to the part.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 246
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 74,
+                            "offset": 283
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 74,
+                    "offset": 283
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

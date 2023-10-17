@@ -1,15 +1,14 @@
-Determines the color of the [Beam](https://create.roblox.com/docs/reference/engine/classes/Beam).
+Determines the color of the [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam).
 
-If the [Beam](https://create.roblox.com/docs/reference/engine/classes/Beam)'s [Beam.Texture](https://create.roblox.com/docs/reference/engine/classes/Beam#Texture) is set, this color will be applied to the
-[Beam](https://create.roblox.com/docs/reference/engine/classes/Beam)'s texture. If no [Beam.Texture](https://create.roblox.com/docs/reference/engine/classes/Beam#Texture) has been set then the [Beam](https://create.roblox.com/docs/reference/engine/classes/Beam) will
-appear as a solid bar colored in accordance with this property.
-
+If the [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam)'s [`Beam.Texture`](https://create.roblox.com/docs/reference/engine/classes/Beam#Texture) is set, this color will be
+applied to the [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam)'s texture. If no [`Beam.Texture`](https://create.roblox.com/docs/reference/engine/classes/Beam#Texture) has been
+set then the [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam) will appear as a solid bar colored in accordance
+with this property.
 #### Beams and ColorSequences
 
-This property is a [ColorSequence](https://developer.roblox.com/en-us/api-reference/datatype/ColorSequence), allowing the color to be
-configured to vary across the length of the [Beam](https://create.roblox.com/docs/reference/engine/classes/Beam). Take for example the
-following [ColorSequence](https://developer.roblox.com/en-us/api-reference/datatype/ColorSequence).
-
+This property is a `Datatype.ColorSequence`, allowing the color to be
+configured to vary across the length of the [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam). Take for example
+the following `Datatype.ColorSequence`.
 ```lua
 local colorSequence = ColorSequence.new({
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)), -- red
@@ -19,16 +18,14 @@ local colorSequence = ColorSequence.new({
 )
 ```
 
-Applying this `DataType/ColorSequence` to a `Beam` would yield the
+Applying this `Datatype.ColorSequence` to a [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam) would yield the
 following result:
 
-![enter image description here][1]
+![enter image description here](https://prod.docsiteassets.roblox.com/assets/legacy/BeamColor.png)
 
-Note the `Beam`'s coloration also depends on the number of `Beam/Segments`
-the `Beam` has. Each segment of the beam can only show a transition
-between two colors. Therefore a `Beam` will need to have at least n-1
-segments in order for the color to display correctly, where n is the
-number of `DataType/ColorSequenceKeypoint`s in the
-`DataType/ColorSequence`
-
-[1]: https://prod.docsiteassets.roblox.com/assets/blt44487f7a1e259ab2/BeamColor.png
+Note the [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam)'s coloration also depends on the number of
+[`Beam.Segments`](https://create.roblox.com/docs/reference/engine/classes/Beam#Segments) the [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam) has. Each segment of the beam can
+only show a transition between two colors. Therefore a [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam) will
+need to have at least n-1 segments in order for the color to display
+correctly, where n is the number of `Datatype.ColorSequenceKeypoint`s in
+the `Datatype.ColorSequence`

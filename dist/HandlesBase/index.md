@@ -1,1 +1,2 @@
-An abstract class for Handle objects, such as [ArcHandles](https://create.roblox.com/docs/reference/engine/classes/ArcHandles) and [Handles](https://create.roblox.com/docs/reference/engine/classes/Handles).
+An abstract class for Handle objects, such as [`ArcHandles`](https://create.roblox.com/docs/reference/engine/classes/ArcHandles) and
+[`Handles`](https://create.roblox.com/docs/reference/engine/classes/Handles).

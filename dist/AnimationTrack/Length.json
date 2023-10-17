@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A read only property that returns the length (in seconds) of an\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 64
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 64
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 86
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This will return 0 until the animation has fully\nloaded and thus may not be immediately available.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 86
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 50,
+                            "offset": 186
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 50,
+                    "offset": 186
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 188
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 197
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack.Speed"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 10,
+                            "offset": 197
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 38,
+                            "offset": 225
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of an ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 38,
+                            "offset": 225
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 45,
+                            "offset": 232
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 45,
+                            "offset": 232
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 67,
+                            "offset": 254
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is\nequal to 1, the animation will take ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 67,
+                            "offset": 254
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 37,
+                            "offset": 294
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack.Length"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 37,
+                            "offset": 294
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 66,
+                            "offset": 323
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " (in\nseconds) to complete.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 66,
+                            "offset": 323
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 22,
+                            "offset": 349
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 188
+                },
+                "end": {
+                    "line": 7,
+                    "column": 22,
+                    "offset": 349
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

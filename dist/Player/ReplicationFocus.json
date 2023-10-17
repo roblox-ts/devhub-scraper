@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ReplicationFocus ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property sets the part to focus\nreplication around a Player. Different Roblox systems that communicate\nover the network (such as physics, streaming, etc) replicate at different\nrates depending on how close objects are to the replication focus.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 67,
+                            "offset": 279
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 67,
+                    "offset": 279
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When this property is nil, it reverts to its default behavior which is to\ntreat the local player's character's ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 281
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 38,
+                            "offset": 392
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model.PrimaryPart|PrimaryPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 38,
+                            "offset": 392
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 75,
+                            "offset": 429
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nas the replication focus.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 75,
+                            "offset": 429
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 26,
+                            "offset": 455
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 281
+                },
+                "end": {
+                    "line": 8,
+                    "column": 26,
+                    "offset": 455
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property should only be set on the server with a ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 457
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 55,
+                            "offset": 511
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 55,
+                            "offset": 511
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 69,
+                            "offset": 525
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", not\na ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 69,
+                            "offset": 525
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 3,
+                            "offset": 533
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 3,
+                            "offset": 533
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 22,
+                            "offset": 552
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Note that this property does not change or update\nnetwork ownership of parts.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 22,
+                            "offset": 552
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 28,
+                            "offset": 631
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 457
+                },
+                "end": {
+                    "line": 12,
+                    "column": 28,
+                    "offset": 631
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

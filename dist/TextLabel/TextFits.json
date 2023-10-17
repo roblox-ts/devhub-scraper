@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The TextFits is a read-only property that is false if\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 54
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.Text"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 54
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " content does not fit within the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 109
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiBase2d.AbsoluteSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 109
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 139
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when rendered. If\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 139
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 158
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextWrapped"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 158
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 187
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is true, a false value indicates that some\ntext is truncated and not rendering. Otherwise, it indicates if the line\nof text is rendering outside the UI element's rectangle. If\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 187
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 364
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextScaled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 364
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 29,
+                            "offset": 392
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is enabled, this property will be disabled\nwhen text must be scaled down in order to fit.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 29,
+                            "offset": 392
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 47,
+                            "offset": 482
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 8,
+                    "column": 47,
+                    "offset": 482
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

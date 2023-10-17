@@ -1,0 +1,438 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property describes the ID of the experience that the place running on\nthe server belongs to.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 97
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 23,
+                    "offset": 97
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This ID can be found in the top right corner of the\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 99
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 151
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/projects/assets/manager"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Asset Manager",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 2,
+                                    "offset": 152
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 15,
+                                    "offset": 165
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 151
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 42,
+                            "offset": 192
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in Roblox Studio.\nWhen using Roblox Studio, if the place has not been published to Roblox\nthen the GameId will correspond with the template being used.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 42,
+                            "offset": 192
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 62,
+                            "offset": 344
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 99
+                },
+                "end": {
+                    "line": 7,
+                    "column": 62,
+                    "offset": 344
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 346
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 10,
+                            "offset": 355
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 346
+                },
+                "end": {
+                    "line": 9,
+                    "column": 10,
+                    "offset": 355
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.DataModel.PlaceId"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 3,
+                                    "offset": 359
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 28,
+                                    "offset": 384
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which describes the ID of the place running\non the server",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 28,
+                                    "offset": 384
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 16,
+                                    "offset": 445
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 357
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 16,
+                            "offset": 445
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.DataModel.JobId"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 3,
+                                    "offset": 448
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 26,
+                                    "offset": 471
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which is a unique identifier for the server\ngame instance running",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 26,
+                                    "offset": 471
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 24,
+                                    "offset": 540
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 446
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 24,
+                            "offset": 540
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TeleportService"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 3,
+                                    "offset": 543
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 26,
+                                    "offset": 566
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which is a service that can be used to\ntransport ",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 26,
+                                    "offset": 566
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 13,
+                                    "offset": 619
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Player|Players"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 13,
+                                    "offset": 619
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 35,
+                                    "offset": 641
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " between games",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 35,
+                                    "offset": 641
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 49,
+                                    "offset": 655
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 541
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 49,
+                            "offset": 655
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 357
+                },
+                "end": {
+                    "line": 16,
+                    "column": 49,
+                    "offset": 655
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

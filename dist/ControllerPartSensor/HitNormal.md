@@ -1,0 +1,1 @@
+The surface normal at the position where the sensor hit the SensedPart.

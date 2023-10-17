@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Stats is a service that provides real-time performance information about the\ncurrent running game instance. Its primary purpose is to provide developers\nwith an end point to measure where resources are being consumed, as well as\nhow much memory is being consumed overall.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 271
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 43,
+                    "offset": 271
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The service also stores a tree of ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 273
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 35,
+                            "offset": 307
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StatsItem"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 35,
+                            "offset": 307
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 324
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which can have their\nvalues read by plugins.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 324
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 24,
+                            "offset": 370
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 273
+                },
+                "end": {
+                    "line": 7,
+                    "column": 24,
+                    "offset": 370
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

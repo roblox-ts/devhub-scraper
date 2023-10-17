@@ -1,0 +1,367 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "By specifying a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 17,
+                            "offset": 16
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.ChainRoot|ChainRoot"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 17,
+                            "offset": 16
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 54,
+                            "offset": 53
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and an\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 54,
+                            "offset": 53
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 61
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.EndEffector|EndEffector"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 61
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 102
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", you instruct the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 102
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 121
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 121
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 18,
+                            "offset": 138
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that it's allowed to move and rotate all parts between\nthe two to move the ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 18,
+                            "offset": 138
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 21,
+                            "offset": 214
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.EndEffector|EndEffector"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 21,
+                            "offset": 214
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 62,
+                            "offset": 255
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to the\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 62,
+                            "offset": 255
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 263
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.Target|Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 263
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 32,
+                            "offset": 294
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". For example, if you specify the LeftHand\nas ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 32,
+                            "offset": 294
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 4,
+                            "offset": 340
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.EndEffector|EndEffector"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 4,
+                            "offset": 340
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 381
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and LeftUpperArm as the\n",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 381
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 406
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.ChainRoot|ChainRoot"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 406
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 38,
+                            "offset": 443
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", the control moves 3 parts: the\nLeftHand, the LeftLowerArm, and the LeftUpperArm. Avoid setting\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 38,
+                            "offset": 443
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 540
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.IKControl.ChainRoot|ChainRoot"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 540
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 38,
+                            "offset": 577
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " as the actual root of the character\nbecause that produces unrealistic results.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 38,
+                            "offset": 577
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 43,
+                            "offset": 656
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 10,
+                    "column": 43,
+                    "offset": 656
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

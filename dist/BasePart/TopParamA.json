@@ -1,0 +1,269 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The TopParamA property is relevant when a part's\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 49
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.TopSurface"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 49
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 28,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to Motor or SteppingMotor and\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 28,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 114
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.TopSurfaceInput"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 114
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 33,
+                            "offset": 146
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to Sin. It determines the\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 33,
+                            "offset": 146
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 180
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "amplitude",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 3,
+                                    "offset": 182
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 12,
+                                    "offset": 191
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 180
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 14,
+                            "offset": 193
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the motor's rotational velocity, using the following\nformula:",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 14,
+                            "offset": 193
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 9,
+                            "offset": 258
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 9,
+                    "offset": 258
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "MotorVelocity = ParamA * math.sin(workspace.DistributedGameTime * ParamB)"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 260
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 76,
+                            "offset": 335
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 260
+                },
+                "end": {
+                    "line": 7,
+                    "column": 76,
+                    "offset": 335
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "In no other cases is this property used.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 337
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 41,
+                            "offset": 377
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 337
+                },
+                "end": {
+                    "line": 9,
+                    "column": 41,
+                    "offset": 377
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

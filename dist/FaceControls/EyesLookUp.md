@@ -1,1 +1,1 @@
-Moves gaze up
+Moves gaze up. This is a required pose for avatars.

@@ -1,0 +1,629 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "JointInstance is the base class for joints, such as Connectors, Welds, and\nSnaps.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 7,
+                            "offset": 81
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 7,
+                    "offset": 81
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Weld"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 83
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 13,
+                            "offset": 95
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 13,
+                            "offset": 95
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 15,
+                            "offset": 97
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Snap"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 15,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 27,
+                            "offset": 109
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 27,
+                            "offset": 109
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 29,
+                            "offset": 111
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.WeldConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 29,
+                            "offset": 111
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 51,
+                            "offset": 133
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 51,
+                            "offset": 133
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 53,
+                            "offset": 135
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 53,
+                            "offset": 135
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 66,
+                            "offset": 148
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", and\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 66,
+                            "offset": 148
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 154
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 154
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 16,
+                            "offset": 169
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " joints all combine multiple parts into the same Assembly. An\nassembly is a rigid body if none of its parts are anchored. No physical forces\ncan ever separate the parts of an Assembly or move them relative to each other\nunless the joints are removed or updated. They're a single body.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 16,
+                            "offset": 169
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 65,
+                            "offset": 453
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 83
+                },
+                "end": {
+                    "line": 8,
+                    "column": 65,
+                    "offset": 453
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Every Assembly has a root part, see ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 455
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 37,
+                            "offset": 491
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart:GetRootPart()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 37,
+                            "offset": 491
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 67,
+                            "offset": 521
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". When a\nJointInstance's ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 67,
+                            "offset": 521
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 17,
+                            "offset": 546
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.C0|C0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 17,
+                            "offset": 546
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 44,
+                            "offset": 573
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "/",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 44,
+                            "offset": 573
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 45,
+                            "offset": 574
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.C1|C1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 45,
+                            "offset": 574
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 72,
+                            "offset": 601
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is\nmodified the root part will stay where it was.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 72,
+                            "offset": 601
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 47,
+                            "offset": 651
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 455
+                },
+                "end": {
+                    "line": 12,
+                    "column": 47,
+                    "offset": 651
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Welds do not have any directionality. ",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 653
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 39,
+                            "offset": 691
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.Part0|Part0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 39,
+                            "offset": 691
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 72,
+                            "offset": 724
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 72,
+                            "offset": 724
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 728
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.JointInstance.Part1|Part1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 728
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 34,
+                            "offset": 761
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", doesn't matter. You can imagine rigid\njoints forming a tree branching down from the root part. All the parts down\nthe tree from root will move, and their welded \"children\" in this tree will\nmove with them.",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 34,
+                            "offset": 761
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 16,
+                            "offset": 968
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 653
+                },
+                "end": {
+                    "line": 18,
+                    "column": 16,
+                    "offset": 968
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A typical Roblox avatar is a single assembly. Here's a visualization of this\ntree in a basic R15 humanoid rig on the left, and a representation of this\nimplicit tree of which parts move relative to which parts on the right.",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 970
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 72,
+                            "offset": 1193
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 970
+                },
+                "end": {
+                    "line": 22,
+                    "column": 72,
+                    "offset": 1193
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/AssemblyTree.png",
+                        "alt": "Assembly Representation"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1195
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 60,
+                            "offset": 1254
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 24,
+                    "column": 1,
+                    "offset": 1195
+                },
+                "end": {
+                    "line": 24,
+                    "column": 60,
+                    "offset": 1254
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

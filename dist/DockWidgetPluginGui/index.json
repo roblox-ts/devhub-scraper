@@ -1,0 +1,309 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "DockWidgetPluginGui",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 22,
+                                    "offset": 21
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 24,
+                            "offset": 23
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 24,
+                            "offset": 23
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 30,
+                            "offset": 29
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PluginGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 30,
+                            "offset": 29
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that displays its contents\ninside a dockable Roblox Studio window. It is used to create widgets similar\nto the built-in ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 47,
+                            "offset": 46
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 17,
+                            "offset": 167
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Animation Editor",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 19,
+                                    "offset": 169
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 35,
+                                    "offset": 185
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 17,
+                            "offset": 167
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 187
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 187
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 192
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Terrain Tools",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 44,
+                                    "offset": 194
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 57,
+                                    "offset": 207
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 192
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 59,
+                            "offset": 209
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 59,
+                            "offset": 209
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 60,
+                            "offset": 210
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 60,
+                    "offset": 210
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This GUI can be created using ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 212
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 31,
+                            "offset": 242
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Plugin:CreateDockWidgetPluginGui()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 31,
+                            "offset": 242
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 73,
+                            "offset": 284
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 73,
+                            "offset": 284
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 74,
+                            "offset": 285
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 212
+                },
+                "end": {
+                    "line": 5,
+                    "column": 74,
+                    "offset": 285
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

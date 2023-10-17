@@ -1,0 +1,106 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "TaskScheduler is a read-only settings class responsible for the Task Scheduler\nfeature. Can be found in Roblox Studio's settings with the name ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 65,
+                            "offset": 143
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Task\nScheduler",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 66,
+                                    "offset": 144
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 10,
+                                    "offset": 158
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 65,
+                            "offset": 143
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 11,
+                            "offset": 159
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 11,
+                            "offset": 159
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 12,
+                            "offset": 160
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 12,
+                    "offset": 160
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

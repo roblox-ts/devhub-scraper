@@ -1,0 +1,186 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The P property determines how much\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 35
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://en.wikipedia.org/wiki/Power_(physics)"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "power",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 2,
+                                    "offset": 36
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 7,
+                                    "offset": 41
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 35
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 91
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is used while\napplying force in order to reach the goal\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 91
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 148
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BodyPosition.Position|Position"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 148
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 39,
+                            "offset": 186
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The higher this value, the more\npower will be used and the faster it will be used. The force the\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 39,
+                            "offset": 186
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 285
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BodyPosition"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 285
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 21,
+                            "offset": 305
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " exerts increases as the difference between the part's\ncurrent position and the goal position increases. This property is\nmultiplied to this force to either amplify or diminish it.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 21,
+                            "offset": 305
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 59,
+                            "offset": 485
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 8,
+                    "column": 59,
+                    "offset": 485
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

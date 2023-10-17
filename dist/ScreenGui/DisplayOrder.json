@@ -1,0 +1,172 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property controls the Z-index order in which multiple\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 59
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScreenGui|ScreenGuis"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 59
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 87
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are drawn. ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 29,
+                            "offset": 87
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 99
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScreenGui|ScreenGuis"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 99
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 69,
+                            "offset": 127
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " with\na higher ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 69,
+                            "offset": 127
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 10,
+                            "offset": 142
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScreenGui|DisplayOrder"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 10,
+                            "offset": 142
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 40,
+                            "offset": 172
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will be drawn on top of those with\na lower value.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 40,
+                            "offset": 172
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 15,
+                            "offset": 222
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 15,
+                    "offset": 222
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The maximum angular speed used to align the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 44
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ControllerManager.RootPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 44
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 78
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " upright and aligned to the\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 78
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 106
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ControllerManager.ClimbSensor.HitNormal"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 106
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 48,
+                            "offset": 153
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". A lower value means it\ntakes longer for the root part to recover to the align position when\nmisaligned. A higher value results in a quicker recovery.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 48,
+                            "offset": 153
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 58,
+                            "offset": 304
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 58,
+                    "offset": 304
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

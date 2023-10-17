@@ -1,0 +1,874 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Tools are objects that a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 26,
+                            "offset": 25
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 26,
+                            "offset": 25
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object can equip. For players, they\nare stored in a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 17,
+                            "offset": 94
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Backpack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 17,
+                            "offset": 94
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 33,
+                            "offset": 110
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object parented to a ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 33,
+                            "offset": 110
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 55,
+                            "offset": 132
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 55,
+                            "offset": 132
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 69,
+                            "offset": 146
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object.\nIn-game, players may have multiple tools which appear as icons at the bottom\nof the screen. Equipping a tool moves it from the Backpack and into a\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 69,
+                            "offset": 146
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 302
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.Character"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 302
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 25,
+                            "offset": 326
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " model in the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 25,
+                            "offset": 326
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 340
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 340
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 56,
+                            "offset": 357
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". By default, tools are\nheld in the right hand and have a handle in them, which is a\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 56,
+                            "offset": 357
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 442
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart|Part"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 442
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 22,
+                            "offset": 463
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " named \"Handle\" inside (though one isn't required if\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 22,
+                            "offset": 463
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 516
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.RequiresHandle"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 516
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 28,
+                            "offset": 543
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is off). Tools that are to be provided to\n(re)spawning players ought to be stored in the ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 28,
+                            "offset": 543
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 48,
+                            "offset": 633
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 48,
+                            "offset": 633
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 67,
+                            "offset": 652
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 67,
+                            "offset": 652
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 68,
+                            "offset": 653
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 9,
+                    "column": 68,
+                    "offset": 653
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "On desktop, pressing a number key (1, 2, 3...) will equip a tool. Equipped\ntools can be dropped into the Workspace by pressing Backspace. It's\nrecommended that you turn ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 655
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 27,
+                            "offset": 824
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.CanBeDropped"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 27,
+                            "offset": 824
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 52,
+                            "offset": 849
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " off so it isn't possible\nto drop a tool, die, respawn and drop again to duplicate tools. On gamepads,\nLB and RB buttons will equip tools. You can disable activation via left click\n(or right trigger on gamepad) by setting ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 52,
+                            "offset": 849
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 42,
+                            "offset": 1071
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.ManualActivationOnly"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 42,
+                            "offset": 1071
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 75,
+                            "offset": 1104
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " on.\nDoing so requires that you call Activate yourself through some sort of other\nuser input.",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 75,
+                            "offset": 1104
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 12,
+                            "offset": 1197
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 655
+                },
+                "end": {
+                    "line": 18,
+                    "column": 12,
+                    "offset": 1197
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Tools aren't the only way to capture user input. You can also use\n",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 1199
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 1265
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ContextActionService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 1265
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 29,
+                            "offset": 1293
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 29,
+                            "offset": 1293
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 31,
+                            "offset": 1295
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 31,
+                            "offset": 1295
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 55,
+                            "offset": 1319
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 55,
+                            "offset": 1319
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 1323
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player:GetMouse()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 1323
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 26,
+                            "offset": 1348
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". If you need a Tool to have multiple actions, such\nas pressing a key while the Tool is equipped, you should use\nContextActionService's ",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 26,
+                            "offset": 1348
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 24,
+                            "offset": 1484
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ContextActionService:BindAction()|BindAction"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 24,
+                            "offset": 1484
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 76,
+                            "offset": 1536
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nand ",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 76,
+                            "offset": 1536
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 5,
+                            "offset": 1541
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ContextActionService:UnbindAction()|UnbindAction"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 5,
+                            "offset": 1541
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 61,
+                            "offset": 1597
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in the\n",
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 61,
+                            "offset": 1597
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1605
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.Equipped|Equipped"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 1,
+                            "offset": 1605
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 31,
+                            "offset": 1635
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 31,
+                            "offset": 1635
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 36,
+                            "offset": 1640
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Tool.Unequipped|Unequipped"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 36,
+                            "offset": 1640
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 70,
+                            "offset": 1674
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " events,\nrespectively. Use a ",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 70,
+                            "offset": 1674
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 21,
+                            "offset": 1703
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 21,
+                            "offset": 1703
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 40,
+                            "offset": 1722
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " send these actions to the server via a\n",
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 40,
+                            "offset": 1722
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 1,
+                            "offset": 1762
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RemoteFunction"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 1,
+                            "offset": 1762
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 23,
+                            "offset": 1784
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " inside the Tool.",
+                    "position": {
+                        "start": {
+                            "line": 28,
+                            "column": 23,
+                            "offset": 1784
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 40,
+                            "offset": 1801
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 20,
+                    "column": 1,
+                    "offset": 1199
+                },
+                "end": {
+                    "line": 28,
+                    "column": 40,
+                    "offset": 1801
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

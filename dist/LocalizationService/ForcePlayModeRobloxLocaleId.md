@@ -1,2 +1,0 @@
-When set to a non-empty string, this property overrides value of the
-[LocalizationService.RobloxLocaleId](https://create.roblox.com/docs/reference/engine/classes/LocalizationService#RobloxLocaleId) when running in play solo mode.

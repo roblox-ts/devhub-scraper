@@ -1,0 +1,186 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines how the collision model of the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 56
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TriangleMeshPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 56
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 80
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " relates to the actual geometry of the mesh. This\nproperty cannot be read or manipulated by scripts during runtime.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 80
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 66,
+                            "offset": 195
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 66,
+                    "offset": 195
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 197
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 5,
+                            "offset": 201
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/workspace/collisions#collision-fidelity"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "here",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 6,
+                                    "offset": 202
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 10,
+                                    "offset": 206
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 5,
+                            "offset": 201
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 249
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for a\nvisual representation of the various options.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 249
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 46,
+                            "offset": 301
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 197
+                },
+                "end": {
+                    "line": 6,
+                    "column": 46,
+                    "offset": 301
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,459 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The CFrame property (not to be confused with ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 46,
+                            "offset": 45
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 46,
+                            "offset": 45
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 69,
+                            "offset": 68
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ")\ndetermines the target orientation towards which torque will be exerted.\nSince ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 69,
+                            "offset": 68
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 7,
+                            "offset": 148
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BodyGyro"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 7,
+                            "offset": 148
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 23,
+                            "offset": 164
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " does not apply translational force, the\ntranslational/positional component of the ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 23,
+                            "offset": 164
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 247
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 43,
+                            "offset": 247
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 60,
+                            "offset": 264
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 60,
+                            "offset": 264
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 266
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame.p"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 266
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 20,
+                            "offset": 285
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", is ignored. Consider using one of the following\nCFrame constructors in setting this property:\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 20,
+                            "offset": 285
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 381
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame.fromAxisAngle()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 381
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 34,
+                            "offset": 414
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 34,
+                            "offset": 414
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 36,
+                            "offset": 416
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame.fromEulerAnglesXYZ()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 36,
+                            "offset": 416
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 74,
+                            "offset": 454
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nor ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 74,
+                            "offset": 454
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 4,
+                            "offset": 458
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame.fromEulerAnglesYXZ()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 4,
+                            "offset": 458
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 42,
+                            "offset": 496
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Beware of\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 42,
+                            "offset": 496
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 508
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://en.wikipedia.org/wiki/Gimbal_lock"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "gimbal lock",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 2,
+                                    "offset": 509
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 13,
+                                    "offset": 520
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 508
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 57,
+                            "offset": 564
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " as you choose\nwhich of these methods and what angles (in radians). Additionally, you\ncould use ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 57,
+                            "offset": 564
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 11,
+                            "offset": 660
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "CFrame.new(gyro.Parent.Position, targetPosition)"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 11,
+                            "offset": 660
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 61,
+                            "offset": 710
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in order to\nhave the BodyGyro \"look at\" a targetPosition (",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 61,
+                            "offset": 710
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 47,
+                            "offset": 769
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Vector3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 47,
+                            "offset": 769
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 65,
+                            "offset": 787
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ").",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 65,
+                            "offset": 787
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 67,
+                            "offset": 789
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 12,
+                    "column": 67,
+                    "offset": 789
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

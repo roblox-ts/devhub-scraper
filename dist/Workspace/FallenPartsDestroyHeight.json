@@ -1,0 +1,406 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines the height at which the Roblox engine\nautomatically removes falling ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 93
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart|BaseParts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 31,
+                            "offset": 93
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 119
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and their\nancestor ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 119
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 10,
+                            "offset": 139
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model|Models"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 10,
+                            "offset": 139
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 30,
+                            "offset": 159
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " from ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 30,
+                            "offset": 159
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 36,
+                            "offset": 165
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 36,
+                            "offset": 165
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 53,
+                            "offset": 182
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " by parenting them to\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 53,
+                            "offset": 182
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 204
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "nil"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 204
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 6,
+                            "offset": 209
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This is to prevent parts that have fallen off the map from\ncontinuing to fall forever.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 6,
+                            "offset": 209
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 28,
+                            "offset": 297
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 28,
+                    "offset": 297
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If a part removed due to this behavior is the last part in a\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 299
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 360
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Model"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 360
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 14,
+                            "offset": 373
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", that model will also be removed. This applies to all model\nancestors of the part.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 14,
+                            "offset": 373
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 23,
+                            "offset": 456
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 299
+                },
+                "end": {
+                    "line": 9,
+                    "column": 23,
+                    "offset": 456
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is clamped between -50,000 and 50,000 because\n",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 458
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 518
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart|BaseParts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 518
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 27,
+                            "offset": 544
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " do not simulate or render properly at a great\ndistance from the origin due to floating point inaccuracies.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 27,
+                            "offset": 544
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 61,
+                            "offset": 651
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 458
+                },
+                "end": {
+                    "line": 13,
+                    "column": 61,
+                    "offset": 651
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property can be read by scripts, but can only be set by plugins, the\ncommand bar, or the properties window in Studio.",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 653
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 49,
+                            "offset": 775
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 653
+                },
+                "end": {
+                    "line": 16,
+                    "column": 49,
+                    "offset": 775
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

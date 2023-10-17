@@ -1,0 +1,615 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A SurfaceLight is a light source that emits illumination of a specified\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 72
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Light.Color"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 72
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 91
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 91
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 96
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Light.Brightness"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 25,
+                            "offset": 96
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 49,
+                            "offset": 120
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " from a\n",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 49,
+                            "offset": 120
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 128
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SurfaceLight.Face"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 128
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 153
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for a specified ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 26,
+                            "offset": 153
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 43,
+                            "offset": 170
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SurfaceLight.Range"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 43,
+                            "offset": 170
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 69,
+                            "offset": 196
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 69,
+                            "offset": 196
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 70,
+                            "offset": 197
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 70,
+                    "offset": 197
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "In order for a SurfaceLight to provide illumination, it must be the direct\nchild of a ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 199
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 12,
+                            "offset": 285
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 12,
+                            "offset": 285
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 28,
+                            "offset": 301
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 28,
+                            "offset": 301
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 32,
+                            "offset": 305
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 32,
+                            "offset": 305
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 50,
+                            "offset": 323
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " (the part or attachment\nitself must be a descendant of the Workspace). If a SurfaceLight is parented\nto a part, then the light will emanate from the part's selected face(s). If\nparented to an attachment SurfaceLight is equivalent to a ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 50,
+                            "offset": 323
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 59,
+                            "offset": 559
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpotLight"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 59,
+                            "offset": 559
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 76,
+                            "offset": 576
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 76,
+                            "offset": 576
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 77,
+                            "offset": 577
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 199
+                },
+                "end": {
+                    "line": 9,
+                    "column": 77,
+                    "offset": 577
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For more light types, please see the ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 579
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 38,
+                            "offset": 616
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "see also",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 40,
+                                    "offset": 618
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 48,
+                                    "offset": 626
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 38,
+                            "offset": 616
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 50,
+                            "offset": 628
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " section.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 50,
+                            "offset": 628
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 59,
+                            "offset": 637
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 579
+                },
+                "end": {
+                    "line": 11,
+                    "column": 59,
+                    "offset": 637
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See Also",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 4,
+                            "offset": 642
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 12,
+                            "offset": 650
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 639
+                },
+                "end": {
+                    "line": 13,
+                    "column": 12,
+                    "offset": 650
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PointLight"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 3,
+                                    "offset": 654
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 21,
+                                    "offset": 672
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 652
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 21,
+                            "offset": 672
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.SpotLight"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 3,
+                                    "offset": 675
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 20,
+                                    "offset": 692
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 673
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 20,
+                            "offset": 692
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 652
+                },
+                "end": {
+                    "line": 16,
+                    "column": 20,
+                    "offset": 692
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,525 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "VertexColor",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 14,
+                                    "offset": 13
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines the hue change of the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 49
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.FileMesh.TextureId|Texture"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 49
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 83
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of a ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 35,
+                            "offset": 83
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 89
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.FileMesh"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 41,
+                            "offset": 89
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 105
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 105
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 58,
+                            "offset": 106
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 58,
+                    "offset": 106
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The image below shows two versions of the hat\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 108
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 154
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://www.roblox.com/catalog/3690516671/Ozzys-Formal-Top-Hat"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\"Ozzy's Formal Top Hat\"",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 2,
+                                    "offset": 155
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 25,
+                                    "offset": 178
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 154
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 90,
+                            "offset": 243
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".\nThe left has a default VertexColor of (1, 1, 1), or white. The right has a\nVertexColor of (0, 0, 1), or blue. The RGB colors on the texture of the\nred and white hat are multiplied with that of the VertexColor's XYZ\ncomponents.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 90,
+                            "offset": 243
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 12,
+                            "offset": 471
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 108
+                },
+                "end": {
+                    "line": 9,
+                    "column": 12,
+                    "offset": 471
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+                "src": "/assets/legacy/DataModelMesh.VertexColor.jpg"
+            },
+            "children": [],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 473
+                },
+                "end": {
+                    "line": 11,
+                    "column": 59,
+                    "offset": 531
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "It should be noted that this property is a ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 533
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 44,
+                            "offset": 576
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Vector3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 44,
+                            "offset": 576
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 62,
+                            "offset": 594
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " rather than\na ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 62,
+                            "offset": 594
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 3,
+                            "offset": 609
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Color3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 3,
+                            "offset": 609
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 20,
+                            "offset": 626
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". To convert, use the following function:",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 20,
+                            "offset": 626
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 61,
+                            "offset": 667
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 533
+                },
+                "end": {
+                    "line": 14,
+                    "column": 61,
+                    "offset": 667
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local function color3ToVector3(c3)\n   return Vector3.new(c3.r, c3.g, c3.b)\nend\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 669
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 4,
+                            "offset": 758
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 669
+                },
+                "end": {
+                    "line": 20,
+                    "column": 4,
+                    "offset": 758
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Although this property allows basic modification of a texture, changing a\ntexture entirely provides more control. See ",
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 760
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 45,
+                            "offset": 878
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.MeshPart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 45,
+                            "offset": 878
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 61,
+                            "offset": 894
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " for more\ndetails.",
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 61,
+                            "offset": 894
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 9,
+                            "offset": 912
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 760
+                },
+                "end": {
+                    "line": 24,
+                    "column": 9,
+                    "offset": 912
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

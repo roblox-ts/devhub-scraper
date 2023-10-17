@@ -1,2 +1,0 @@
-An internal service which stores [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript)s used by Roblox's
-[CoreScript](https://create.roblox.com/docs/reference/engine/classes/CoreScript)s.

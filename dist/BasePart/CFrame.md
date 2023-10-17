@@ -1,19 +1,18 @@
-The CFrame property determines both the position and orientation of a part
-relative to the world. The part is rendered such that the CFrame is the
-center of the rendered 3D model (with one exception outlined below). For
-keeping track of positions relative to a part's CFrame, an [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment) is
-useful. Most visual flair objects (such as particles and lights) will
-render at a part's CFrame.
+The **CFrame** property determines both the position and orientation of
+the [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) in the world. It acts as an arbitrary reference
+location on the geometry, but [`ExtentsCFrame`](https://create.roblox.com/docs/reference/engine/classes/BasePart#ExtentsCFrame)
+represents the actual `Datatype.CFrame` of its physical center.
 
-When setting CFrame, other joined parts are also moved relative to the
-part whose CFrame was set. This could be used for teleporting a player's
-character, however it is recommended to use [Model:SetPrimaryPartCFrame](https://create.roblox.com/docs/reference/engine/classes/Model#SetPrimaryPartCFrame)
-instead if you want to move an entire model. Unlike [BasePart.Position](https://create.roblox.com/docs/reference/engine/classes/BasePart#Position),
-setting CFrame will always move the part to the exact given CFrame; in
-other words: **no overlap checking is done when setting CFrame.** If two
-collidable parts happen to overlap and one is not [BasePart.Anchored](https://create.roblox.com/docs/reference/engine/classes/BasePart#Anchored), the
-physics solver will attempt to resolve the overlap.
+When setting **CFrame** on a part, other joined parts are also moved
+relative to the part, but it is recommended that you use
+[`PVInstance:PivotTo()`](https://create.roblox.com/docs/reference/engine/classes/PVInstance#PivotTo) to move an entire model, such as when
+teleporting a player's character.
 
-In online sessions, a part may be rendered differently than its CFrame may
-suggest (e.g., for tweening the different CFrames received from the
-server). Use [BasePart:GetRenderCFrame](https://create.roblox.com/docs/reference/engine/classes/BasePart#GetRenderCFrame) to get the apparent CFrame.
+Unlike setting [`BasePart.Position`](https://create.roblox.com/docs/reference/engine/classes/BasePart#Position), setting [`BasePart.CFrame`](https://create.roblox.com/docs/reference/engine/classes/BasePart#CFrame)
+will always move the part to the exact given `Datatype.CFrame`; in other
+words: **no overlap checking is done** and the physics solver will attempt
+to resolve any overlap unless both parts are
+[`Anchored`](https://create.roblox.com/docs/reference/engine/classes/BasePart#Anchored).
+
+For keeping track of positions relative to a part's `Datatype.CFrame`, an
+[`Attachment`](https://create.roblox.com/docs/reference/engine/classes/Attachment) may be useful.

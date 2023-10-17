@@ -1,0 +1,539 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Vector3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " describing the Delta (change) between mouse/joystick\nmovements.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 11,
+                            "offset": 84
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 11,
+                    "offset": 84
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This is useful when used with the input's\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 86
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 128
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.InputObject.Position|position"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 128
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 38,
+                            "offset": 165
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to track the position and movement\nof the user's mouse/joystick, such as when you're creating custom movement\nor camera scripts. Consider tracking input object changes using the\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 38,
+                            "offset": 165
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 344
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance.Changed"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 344
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 25,
+                            "offset": 368
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " event or when user input changes via events such\nas ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 25,
+                            "offset": 368
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 4,
+                            "offset": 421
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UserInputService.InputChanged"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 4,
+                            "offset": 421
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 41,
+                            "offset": 458
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 41,
+                            "offset": 458
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 463
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.InputChanged"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 463
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 31,
+                            "offset": 493
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 31,
+                            "offset": 493
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 32,
+                            "offset": 494
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 86
+                },
+                "end": {
+                    "line": 10,
+                    "column": 32,
+                    "offset": 494
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 496
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 10,
+                            "offset": 505
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 496
+                },
+                "end": {
+                    "line": 12,
+                    "column": 10,
+                    "offset": 505
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.InputObject.KeyCode"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 3,
+                                    "offset": 509
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 30,
+                                    "offset": 536
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 507
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 30,
+                            "offset": 536
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.InputObject.Position"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 3,
+                                    "offset": 539
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 31,
+                                    "offset": 567
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 537
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 31,
+                            "offset": 567
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.InputObject.UserInputState"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 3,
+                                    "offset": 570
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 37,
+                                    "offset": 604
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 568
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 37,
+                            "offset": 604
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.InputObject.UserInputType"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 3,
+                                    "offset": 607
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 36,
+                                    "offset": 640
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 605
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 36,
+                            "offset": 640
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 507
+                },
+                "end": {
+                    "line": 17,
+                    "column": 36,
+                    "offset": 640
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

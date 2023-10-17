@@ -1,0 +1,423 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Offset",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 13,
+                                    "offset": 12
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 15,
+                            "offset": 14
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 15,
+                            "offset": 14
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIGradient"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 21,
+                            "offset": 20
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 39,
+                            "offset": 38
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines the scalar translation\nof the gradient from the center of the parent ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 39,
+                            "offset": 38
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 47,
+                            "offset": 119
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 47,
+                            "offset": 119
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 64,
+                            "offset": 136
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This\nvalue is a scalar translation, meaning that the actual pixel offset is\ndetermined by the ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 64,
+                            "offset": 136
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 19,
+                            "offset": 232
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiBase2d.AbsoluteSize|AbsoluteSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 19,
+                            "offset": 232
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 62,
+                            "offset": 275
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the\nparent GuiObject. So, a value of (1, 0) would shift the gradient\nhorizontally to the right by a distance equal to the parent GuiObject's on\nscreen-size. Depending on the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 62,
+                            "offset": 275
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 31,
+                            "offset": 453
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIGradient.Rotation|Rotation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 31,
+                            "offset": 453
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 67,
+                            "offset": 489
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", this\nmay cause the gradient to be partially visible or not visible at all.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 67,
+                            "offset": 489
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 70,
+                            "offset": 565
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 8,
+                    "column": 70,
+                    "offset": 565
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/UIGradient.Offset.gif",
+                        "alt": "An animation of a UIGradient's Offset being animated on the X axis from -1 to 1."
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 567
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 122,
+                            "offset": 688
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 567
+                },
+                "end": {
+                    "line": 10,
+                    "column": 122,
+                    "offset": 688
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "In the animation above, the offset of a UIGradient is animated back and\nforth between the values (-1, 0) and (1, 0). The red dot indicates the\nstart of the gradient, and the blue dot indicates the end. Note how the\ndistance animated is twice that of the frame's width, as the offset is\nscalar.",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 690
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 8,
+                            "offset": 983
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 690
+                },
+                "end": {
+                    "line": 16,
+                    "column": 8,
+                    "offset": 983
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Also see ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 985
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 10,
+                            "offset": 994
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIGradient.Rotation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 10,
+                            "offset": 994
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 37,
+                            "offset": 1021
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which also affects the geometry of\nthe applied gradient.",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 37,
+                            "offset": 1021
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 22,
+                            "offset": 1079
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 985
+                },
+                "end": {
+                    "line": 19,
+                    "column": 22,
+                    "offset": 1079
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

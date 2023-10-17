@@ -1,0 +1,230 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "StudioLocaleId",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 21,
+                                    "offset": 20
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property contains the locale currently in-use by\nStudio, e.g. ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 14,
+                            "offset": 85
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "en_US"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 14,
+                            "offset": 85
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 92
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". It is useful when localizing plugins.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 21,
+                            "offset": 92
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 60,
+                            "offset": 131
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 60,
+                    "offset": 131
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Below is a trivial example of localization based on the value returned by\nthis function.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 133
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 15,
+                            "offset": 221
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 133
+                },
+                "end": {
+                    "line": 5,
+                    "column": 15,
+                    "offset": 221
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local locale = game:GetService(\"StudioService\").StudioLocaleId\nif locale == \"en_US\" then\n   print(\"Howdy, ya'll\")\nelseif locale == \"en_GB\" then\n   print(\"'Ello, gov'na\")\nelseif locale:sub(1, 2) == \"en\" then\n   print(\"Hello\")\nelseif locale == \"fr_FR\" then\n   print(\"Bonjour\")\nend\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 223
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 4,
+                            "offset": 512
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 223
+                },
+                "end": {
+                    "line": 18,
+                    "column": 4,
+                    "offset": 512
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

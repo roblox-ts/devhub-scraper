@@ -1,0 +1,413 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The WidthScale property is a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 30,
+                            "offset": 29
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.NumberSequence"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 30,
+                            "offset": 29
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 55,
+                            "offset": 54
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that scales the\nwidth of the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 55,
+                            "offset": 54
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 14,
+                            "offset": 84
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Trail"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 14,
+                            "offset": 84
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 27,
+                            "offset": 97
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " over the course of its lifetime.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 27,
+                            "offset": 97
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 60,
+                            "offset": 130
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 60,
+                    "offset": 130
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property can range from ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 132
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 161
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 30,
+                            "offset": 161
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 33,
+                            "offset": 164
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 33,
+                            "offset": 164
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 168
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 37,
+                            "offset": 168
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 171
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The value of the property\ninfluences the width of the trail by setting the trail's width to the\nproduct of:",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 40,
+                            "offset": 171
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 12,
+                            "offset": 280
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 132
+                },
+                "end": {
+                    "line": 6,
+                    "column": 12,
+                    "offset": 280
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "(distance between trail's attachment0 and attachment1 in studs) * (the value of WidthScale)\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 282
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 96,
+                            "offset": 377
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 282
+                },
+                "end": {
+                    "line": 8,
+                    "column": 96,
+                    "offset": 377
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For example, if the trail's attachments are 2 stud's apart, and the value\nof this property is 0.5, the trail's width will be 1 stud and the trail\nwill be centered in between the two attachments.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 379
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 49,
+                            "offset": 573
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 379
+                },
+                "end": {
+                    "line": 12,
+                    "column": 49,
+                    "offset": 573
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If you would like to hide the trail entirely, consider setting\n",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 575
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 638
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Trail.Enabled"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 638
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 22,
+                            "offset": 659
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to false.",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 22,
+                            "offset": 659
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 32,
+                            "offset": 669
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 575
+                },
+                "end": {
+                    "line": 15,
+                    "column": 32,
+                    "offset": 669
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,196 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The D property is how much ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "dampening",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 30,
+                                    "offset": 29
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 39,
+                                    "offset": 38
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will be applied to the torque\nused to face the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 88
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.RocketPropulsion.Target|Target"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 18,
+                            "offset": 88
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 126
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". When the part\napproaches the goal orientation it needs to decelerate, otherwise it will\nrotate past the goal and have to stop and re-accelerate back toward the\ngoal. This is often creates undesirable ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 126
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 328
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "rubber-banding",
+                            "position": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 43,
+                                    "offset": 330
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 57,
+                                    "offset": 344
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 328
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 59,
+                            "offset": 346
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " effect, so\napplying dampening using this property is how that effect is avoided. The\nhigher this value is set, the greater the dampening curve becomes, or the\nslower the part will approach the goal orientation.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 59,
+                            "offset": 346
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 52,
+                            "offset": 557
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 8,
+                    "column": 52,
+                    "offset": 557
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

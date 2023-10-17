@@ -1,0 +1,304 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property determines whether to render both faces or polygons in the\nmesh. It is only changeable in Studio. This is useful for meshes that are\ntypically modeled as cards such as a leaf, hair and cloth.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 59,
+                            "offset": 205
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 59,
+                    "offset": 205
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Example: The tree leaves are modeled with single sided cards.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 207
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 62,
+                            "offset": 268
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 207
+                },
+                "end": {
+                    "line": 5,
+                    "column": 62,
+                    "offset": 268
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/MeshPartsAsCards.png",
+                        "alt": "Leaves as cards"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 270
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 56,
+                            "offset": 325
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 270
+                },
+                "end": {
+                    "line": 7,
+                    "column": 56,
+                    "offset": 325
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "With MeshPart.DoubleSided disabled some leaves are missing since they are\nback facing the camera.",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 327
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 24,
+                            "offset": 424
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 327
+                },
+                "end": {
+                    "line": 10,
+                    "column": 24,
+                    "offset": 424
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/DoubleSidedOff.png",
+                        "alt": "DoubleSided property disabled"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 426
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 68,
+                            "offset": 493
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 426
+                },
+                "end": {
+                    "line": 12,
+                    "column": 68,
+                    "offset": 493
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "With MeshPart.DoubleSided enabled, both faces of the leaves are rendered.",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 495
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 74,
+                            "offset": 568
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 495
+                },
+                "end": {
+                    "line": 14,
+                    "column": 74,
+                    "offset": 568
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/DoubleSidedOn.png",
+                        "alt": "DoubleSided property enabled"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 570
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 66,
+                            "offset": 635
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 570
+                },
+                "end": {
+                    "line": 16,
+                    "column": 66,
+                    "offset": 635
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

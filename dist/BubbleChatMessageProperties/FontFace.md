@@ -1,0 +1,1 @@
+Font of the bubble text in `Datatype.Font`.

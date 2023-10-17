@@ -1,0 +1,1039 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property overrides the default selection adornment (used for\ngamepads). For best results, this should point to a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 53,
+                            "offset": 118
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject|GUI"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 53,
+                            "offset": 118
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 74,
+                            "offset": 139
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 74,
+                            "offset": 139
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 75,
+                            "offset": 140
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 75,
+                    "offset": 140
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note that the SelectionImageObject overlays the selected GUI with the\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 142
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 212
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.Size"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 212
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 23,
+                            "offset": 234
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the image. For best results when using a\nnon-default SelectionImageObject, you should size the SelectionImageObject\nvia the scale ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 23,
+                            "offset": 234
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 15,
+                            "offset": 368
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.UDim2"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 15,
+                            "offset": 368
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 31,
+                            "offset": 384
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " values. This helps ensure that the object\nscales properly over the selected element.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 31,
+                            "offset": 384
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 43,
+                            "offset": 469
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 142
+                },
+                "end": {
+                    "line": 8,
+                    "column": 43,
+                    "offset": 469
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The default SelectionImageObject is a blue and white square outline around\nthe selected GUI element. In the image below, the selected GUI is a white\n",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 471
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 620
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Frame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 620
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 14,
+                            "offset": 633
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 14,
+                            "offset": 633
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 15,
+                            "offset": 634
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 471
+                },
+                "end": {
+                    "line": 12,
+                    "column": 15,
+                    "offset": 634
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/Screen_Shot_2018-09-13_at_9.57.14_PM.png",
+                        "alt": "Default SelectionImageObject"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 636
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 89,
+                            "offset": 724
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 636
+                },
+                "end": {
+                    "line": 14,
+                    "column": 89,
+                    "offset": 724
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For instance, changing the SelectionImageObject to a ",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 726
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 54,
+                            "offset": 779
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ImageLabel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 54,
+                            "offset": 779
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 72,
+                            "offset": 797
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nwith red and white square outline\n",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 72,
+                            "offset": 797
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 832
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://www.roblox.com/library/2347505468/SelectionImage-Red"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "image",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 2,
+                                    "offset": 833
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 7,
+                                    "offset": 838
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 832
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 70,
+                            "offset": 901
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 70,
+                            "offset": 901
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 903
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.BackgroundTransparency"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 903
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 41,
+                            "offset": 943
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of 1, ",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 41,
+                            "offset": 943
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 48,
+                            "offset": 950
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.Size"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 48,
+                            "offset": 950
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 70,
+                            "offset": 972
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of\n",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 70,
+                            "offset": 972
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 976
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "UDim2(1.1, 0, 1.1, 0)",
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 2,
+                                    "offset": 977
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 23,
+                                    "offset": 998
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 976
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 24,
+                            "offset": 999
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", and ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 24,
+                            "offset": 999
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 30,
+                            "offset": 1005
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.Position"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 30,
+                            "offset": 1005
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 56,
+                            "offset": 1031
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of ",
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 56,
+                            "offset": 1031
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 60,
+                            "offset": 1035
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "UDim2(-0.05,\n0, -0.05, 0)",
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 61,
+                                    "offset": 1036
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 13,
+                                    "offset": 1061
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 60,
+                            "offset": 1035
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 14,
+                            "offset": 1062
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " results in the image below:",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 14,
+                            "offset": 1062
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 42,
+                            "offset": 1090
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 726
+                },
+                "end": {
+                    "line": 21,
+                    "column": 42,
+                    "offset": 1090
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/Screen_Shot_2018-09-13_at_9.53.54_PM.png",
+                        "alt": "Custom SelectionImageObject"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 1092
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 88,
+                            "offset": 1179
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 23,
+                    "column": 1,
+                    "offset": 1092
+                },
+                "end": {
+                    "line": 23,
+                    "column": 88,
+                    "offset": 1179
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Changing the SelectionImageObject for a GUI element only affects that\nelement. To change the SelectionImageObject for all of a user's GUI\nelements, you can set the ",
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 1181
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 27,
+                            "offset": 1345
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PlayerGui.SelectionImageObject"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 27,
+                            "offset": 1345
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 65,
+                            "offset": 1383
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property.",
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 65,
+                            "offset": 1383
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 75,
+                            "offset": 1393
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 25,
+                    "column": 1,
+                    "offset": 1181
+                },
+                "end": {
+                    "line": 27,
+                    "column": 75,
+                    "offset": 1393
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "To determine or set which GUI element is selected by the user, you can use\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 1,
+                            "offset": 1395
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 5,
+                            "offset": 1474
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiService.SelectedObject"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 5,
+                            "offset": 1474
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 38,
+                            "offset": 1507
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property. The user uses the gamepad\nto select different GUI elements, invoking the\n",
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 38,
+                            "offset": 1507
+                        },
+                        "end": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1591
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.NextSelectionUp"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1591
+                        },
+                        "end": {
+                            "line": 32,
+                            "column": 34,
+                            "offset": 1624
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", ",
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 34,
+                            "offset": 1624
+                        },
+                        "end": {
+                            "line": 32,
+                            "column": 36,
+                            "offset": 1626
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.NextSelectionDown"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 36,
+                            "offset": 1626
+                        },
+                        "end": {
+                            "line": 32,
+                            "column": 71,
+                            "offset": 1661
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ",\n",
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 71,
+                            "offset": 1661
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 1,
+                            "offset": 1663
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.NextSelectionLeft"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 1,
+                            "offset": 1663
+                        },
+                        "end": {
+                            "line": 33,
+                            "column": 36,
+                            "offset": 1698
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", and\n",
+                    "position": {
+                        "start": {
+                            "line": 33,
+                            "column": 36,
+                            "offset": 1698
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 1,
+                            "offset": 1704
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.NextSelectionRight"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 34,
+                            "column": 1,
+                            "offset": 1704
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 37,
+                            "offset": 1740
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                        "start": {
+                            "line": 34,
+                            "column": 37,
+                            "offset": 1740
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 45,
+                            "offset": 1748
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 29,
+                    "column": 1,
+                    "offset": 1395
+                },
+                "end": {
+                    "line": 34,
+                    "column": 45,
+                    "offset": 1748
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

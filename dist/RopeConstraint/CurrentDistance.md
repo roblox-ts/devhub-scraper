@@ -1,1 +1,2 @@
-The current distance between the RopeConstraint's two [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment).
+The current distance between the constraint's
+[`Attachments`](https://create.roblox.com/docs/reference/engine/classes/Attachment).

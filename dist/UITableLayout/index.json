@@ -1,0 +1,702 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A UITableLayout lays out sibling UI elements as rows in a table. Child UI\nelements (the table cells) of these rows are then arranged in columns (within\nrows). Each cell within a row has the same height, and each cell within a\ncolumn has the same width. The hierarchy in the explorer should look like this\n(",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 2,
+                            "offset": 306
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Frame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 2,
+                            "offset": 306
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 15,
+                            "offset": 319
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s are yellow rows, ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 15,
+                            "offset": 319
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 34,
+                            "offset": 338
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 34,
+                            "offset": 338
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 51,
+                            "offset": 355
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s are cells)",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 51,
+                            "offset": 355
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 63,
+                            "offset": 367
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 63,
+                    "offset": 367
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+                "src": "/assets/legacy/UITableLayout_Hierarchy.png",
+                "alt": "Hierarchy of UI elements used with a UITableLayout"
+            },
+            "children": [],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 369
+                },
+                "end": {
+                    "line": 7,
+                    "column": 114,
+                    "offset": 482
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n",
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 114,
+                    "offset": 482
+                },
+                "end": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 483
+                }
+            }
+        },
+        {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+                "src": "/assets/legacy/UITableLayout_Padding.png",
+                "alt": "UITableLayout result"
+            },
+            "children": [],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 483
+                },
+                "end": {
+                    "line": 8,
+                    "column": 82,
+                    "offset": 564
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "By changing the ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 566
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 17,
+                            "offset": 582
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UIGridStyleLayout.FillDirection"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 17,
+                            "offset": 582
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 56,
+                            "offset": 621
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", sibling UI elements\ncan act as columns instead.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 56,
+                            "offset": 621
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 28,
+                            "offset": 670
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 566
+                },
+                "end": {
+                    "line": 11,
+                    "column": 28,
+                    "offset": 670
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When applied, a UITableLayout will take control of sibling and cell elements'\n",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 672
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 750
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.Size"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 750
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 23,
+                            "offset": 772
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 23,
+                            "offset": 772
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 28,
+                            "offset": 777
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.Position"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 28,
+                            "offset": 777
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 54,
+                            "offset": 803
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Changing these in the\nProperties window is still possible will not produce any effect.",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 54,
+                            "offset": 803
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 65,
+                            "offset": 891
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 672
+                },
+                "end": {
+                    "line": 15,
+                    "column": 65,
+                    "offset": 891
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Dimensions of the cells in the resulting table are controlled by the parent UI\nelement's dimensions. Unless ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 893
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 30,
+                            "offset": 1001
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UITableLayout.FillEmptySpaceColumns"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 30,
+                            "offset": 1001
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 73,
+                            "offset": 1044
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 73,
+                            "offset": 1044
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1048
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UITableLayout.FillEmptySpaceRows"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1048
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 41,
+                            "offset": 1088
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is enabled, the cell dimensions will\nbe that of the parent UI element (and thus tables with more than one cell\nextend outside of their parent).",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 41,
+                            "offset": 1088
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 33,
+                            "offset": 1232
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 893
+                },
+                "end": {
+                    "line": 21,
+                    "column": 33,
+                    "offset": 1232
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Cells will continue to respect ",
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 1234
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 32,
+                            "offset": 1265
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UISizeConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 32,
+                            "offset": 1265
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 56,
+                            "offset": 1289
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " objects within them.\nIn other words, setting ",
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 56,
+                            "offset": 1289
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 25,
+                            "offset": 1335
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UISizeConstraint.MinSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 25,
+                            "offset": 1335
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 57,
+                            "offset": 1367
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " on\n",
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 57,
+                            "offset": 1367
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 1371
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UISizeConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 1371
+                        },
+                        "end": {
+                            "line": 25,
+                            "column": 25,
+                            "offset": 1395
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s within the header cells can determine the size of\nthe rest of the cells. If ",
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 25,
+                            "offset": 1395
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 27,
+                            "offset": 1473
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.UISizeConstraint.MaxSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 27,
+                            "offset": 1473
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 59,
+                            "offset": 1505
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " restricts a cell's\nsize from filling the allotted space (i.e. another row/column is wider than\nit), it will align to the top-left.",
+                    "position": {
+                        "start": {
+                            "line": 26,
+                            "column": 59,
+                            "offset": 1505
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 36,
+                            "offset": 1636
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 23,
+                    "column": 1,
+                    "offset": 1234
+                },
+                "end": {
+                    "line": 28,
+                    "column": 36,
+                    "offset": 1636
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

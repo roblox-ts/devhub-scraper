@@ -1,0 +1,913 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScriptDocument"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 25,
+                            "offset": 24
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " instance is a proxy of the document of a Studio\nScript Editor. It's different from the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 25,
+                            "offset": 24
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 40,
+                            "offset": 112
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LuaSourceContainer"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 40,
+                            "offset": 112
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 66,
+                            "offset": 138
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " open in the\neditor in that it represents the ephemeral state of an open document, and its\nrepresentation is in a format that's more suited for reading and editing code\nthan executing it. In particular, ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 66,
+                            "offset": 138
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 35,
+                            "offset": 341
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScriptDocument"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 35,
+                            "offset": 341
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 57,
+                            "offset": 363
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " reflects any changes\nthat have been made to the open script in Collaborative Editing, which the\nsource property doesn't.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 57,
+                            "offset": 363
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 25,
+                            "offset": 484
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 7,
+                    "column": 25,
+                    "offset": 484
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Script Editor itself exists and changes on a different thread than any\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 486
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 561
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DataModel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 561
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 18,
+                            "offset": 578
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", so the ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 18,
+                            "offset": 578
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 27,
+                            "offset": 587
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScriptDocument"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 27,
+                            "offset": 587
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 49,
+                            "offset": 609
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " replicates the open Script\nEditor, but it isn't the open editor. Because of the replication, there's\nsometimes a slight delay between changing the text in the editor and updating\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 49,
+                            "offset": 609
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 5,
+                            "offset": 793
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScriptDocument"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 5,
+                            "offset": 793
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 27,
+                            "offset": 815
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The delay usually occurs because the\n",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 27,
+                            "offset": 815
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 854
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.DataModel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 854
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 18,
+                            "offset": 871
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is busy, and it's almost always extremely small, but it\nstill exists.",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 18,
+                            "offset": 871
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 14,
+                            "offset": 941
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 486
+                },
+                "end": {
+                    "line": 15,
+                    "column": 14,
+                    "offset": 941
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The existence of a ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 943
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 20,
+                            "offset": 962
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScriptDocument"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 20,
+                            "offset": 962
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 42,
+                            "offset": 984
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " indicates that a document is open in\nthe Script Editor. All ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 42,
+                            "offset": 984
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 24,
+                            "offset": 1045
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScriptDocument"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 24,
+                            "offset": 1045
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 46,
+                            "offset": 1067
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " instances have\n",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 46,
+                            "offset": 1067
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1083
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScriptEditorService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1083
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 28,
+                            "offset": 1110
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " as its parent. Each instance adheres to the\nfollowing encoding conventions:",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 28,
+                            "offset": 1110
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 32,
+                            "offset": 1186
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 17,
+                    "column": 1,
+                    "offset": 943
+                },
+                "end": {
+                    "line": 20,
+                    "column": 32,
+                    "offset": 1186
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "All text in ",
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 3,
+                                    "offset": 1190
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 15,
+                                    "offset": 1202
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.ScriptDocument"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 15,
+                                    "offset": 1202
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 37,
+                                    "offset": 1224
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " is UTF-8 encoded.",
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 37,
+                                    "offset": 1224
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 55,
+                                    "offset": 1242
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 1188
+                        },
+                        "end": {
+                            "line": 22,
+                            "column": 55,
+                            "offset": 1242
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "All line indices are 1-indexed.",
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 3,
+                                    "offset": 1245
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 34,
+                                    "offset": 1276
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 1243
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 34,
+                            "offset": 1276
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "All character indices are 1-indexed and count UTF-8 bytes, not graphemes, so\nthe same warning from ",
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 3,
+                                    "offset": 1279
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 25,
+                                    "offset": 1380
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.TextBox.CursorPosition"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 25,
+                                    "offset": 1380
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 55,
+                                    "offset": 1410
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " applies: many Unicode\ncharacters take more than one byte.",
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 55,
+                                    "offset": 1410
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 38,
+                                    "offset": 1470
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 1277
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 38,
+                            "offset": 1470
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "All ranges are inclusive of their start position and exclusive of their end\nposition, so start == end implies an empty range.",
+                            "position": {
+                                "start": {
+                                    "line": 27,
+                                    "column": 3,
+                                    "offset": 1473
+                                },
+                                "end": {
+                                    "line": 28,
+                                    "column": 52,
+                                    "offset": 1600
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 1,
+                            "offset": 1471
+                        },
+                        "end": {
+                            "line": 28,
+                            "column": 52,
+                            "offset": 1600
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 22,
+                    "column": 1,
+                    "offset": 1188
+                },
+                "end": {
+                    "line": 28,
+                    "column": 52,
+                    "offset": 1600
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "All APIs for ",
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 1,
+                            "offset": 1602
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 14,
+                            "offset": 1615
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ScriptDocument"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 14,
+                            "offset": 1615
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 36,
+                            "offset": 1637
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " are at ",
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 36,
+                            "offset": 1637
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 44,
+                            "offset": 1645
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Plugin",
+                            "position": {
+                                "start": {
+                                    "line": 30,
+                                    "column": 46,
+                                    "offset": 1647
+                                },
+                                "end": {
+                                    "line": 30,
+                                    "column": 52,
+                                    "offset": 1653
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 44,
+                            "offset": 1645
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 54,
+                            "offset": 1655
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " level security.",
+                    "position": {
+                        "start": {
+                            "line": 30,
+                            "column": 54,
+                            "offset": 1655
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 70,
+                            "offset": 1671
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 30,
+                    "column": 1,
+                    "offset": 1602
+                },
+                "end": {
+                    "line": 30,
+                    "column": 70,
+                    "offset": 1671
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

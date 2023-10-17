@@ -1,0 +1,608 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+                "src": "/assets/legacy/Pants.jpg",
+                "alt": "A default rig wearing a very dapper pair of pants (rbxassetid://86896501)"
+            },
+            "children": [],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 120,
+                    "offset": 119
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 121
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 5,
+                            "offset": 125
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Pants",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 7,
+                                    "offset": 127
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 12,
+                                    "offset": 132
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 5,
+                            "offset": 125
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 14,
+                            "offset": 134
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " object displays a Pants texture from the Roblox website on a\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 14,
+                            "offset": 134
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 196
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 196
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 17,
+                            "offset": 212
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " rig. Pants cover the torso and legs, and will be covered by a\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 17,
+                            "offset": 212
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 275
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Shirt"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 275
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 14,
+                            "offset": 288
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " on the torso. To be visible, a Pants must be a sibling of a\nHumanoid and have its ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 14,
+                            "offset": 288
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 23,
+                            "offset": 371
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pants.PantsTemplate|PantsTemplate"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 23,
+                            "offset": 371
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 64,
+                            "offset": 412
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property set\nto an appropriate texture (such as ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 64,
+                            "offset": 412
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 36,
+                            "offset": 461
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "rbxassetid://86896501"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 36,
+                            "offset": 461
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 59,
+                            "offset": 484
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", pictured to the\nright). The pants texture may be colorized using the ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 59,
+                            "offset": 484
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 54,
+                            "offset": 555
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Clothing.Color3"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 54,
+                            "offset": 555
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 77,
+                            "offset": 578
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nproperty.",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 77,
+                            "offset": 578
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 10,
+                            "offset": 588
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 121
+                },
+                "end": {
+                    "line": 9,
+                    "column": 10,
+                    "offset": 588
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Pants are automatically loaded on ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 590
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 35,
+                            "offset": 624
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 35,
+                            "offset": 624
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 49,
+                            "offset": 638
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " characters if their avatar is\nwearing one.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 49,
+                            "offset": 638
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 13,
+                            "offset": 681
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 590
+                },
+                "end": {
+                    "line": 12,
+                    "column": 13,
+                    "offset": 681
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 683
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 10,
+                            "offset": 692
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 683
+                },
+                "end": {
+                    "line": 14,
+                    "column": 10,
+                    "offset": 692
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Shirt"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 3,
+                                    "offset": 696
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 16,
+                                    "offset": 709
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", an object which works similarly with the torso and arms",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 16,
+                                    "offset": 709
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 73,
+                                    "offset": 766
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 1,
+                            "offset": 694
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 73,
+                            "offset": 766
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                                "href": "/art/accessories/classic-clothing"
+                            },
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Classic Clothing",
+                                    "position": {
+                                        "start": {
+                                            "line": 17,
+                                            "column": 4,
+                                            "offset": 770
+                                        },
+                                        "end": {
+                                            "line": 17,
+                                            "column": 20,
+                                            "offset": 786
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 3,
+                                    "offset": 769
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 56,
+                                    "offset": 822
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " which goes\ninto detail about creating shirts and pants",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 56,
+                                    "offset": 822
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 46,
+                                    "offset": 879
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 767
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 46,
+                            "offset": 879
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 16,
+                    "column": 1,
+                    "offset": 694
+                },
+                "end": {
+                    "line": 18,
+                    "column": 46,
+                    "offset": 879
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,301 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Provides control over the height a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 36,
+                            "offset": 35
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 52,
+                            "offset": 51
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " jumps in studs. The\nstarting value of this property is determined by the value of\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 52,
+                            "offset": 51
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 134
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPlayer.CharacterJumpHeight"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 134
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 175
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which defaults to 7.2.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 175
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 66,
+                            "offset": 199
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 66,
+                    "offset": 199
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is only visible in the Properties window if\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 201
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 259
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid.UseJumpPower"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 259
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 30,
+                            "offset": 288
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 30,
+                            "offset": 288
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 299
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "false",
+                            "position": {
+                                "start": {
+                                    "line": 6,
+                                    "column": 43,
+                                    "offset": 301
+                                },
+                                "end": {
+                                    "line": 6,
+                                    "column": 48,
+                                    "offset": 306
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 299
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 50,
+                            "offset": 308
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", as it would not be\nrelevant otherwise.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 50,
+                            "offset": 308
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 20,
+                            "offset": 348
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 201
+                },
+                "end": {
+                    "line": 7,
+                    "column": 20,
+                    "offset": 348
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property can be used to adjust the height that a humanoid can jump,\nallowing developers to remove jumping, allow dynamically adjustable jump\nheight based on character stats or raise the jump height (as if on the\nmoon or such).",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 350
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 15,
+                            "offset": 581
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 350
+                },
+                "end": {
+                    "line": 12,
+                    "column": 15,
+                    "offset": 581
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

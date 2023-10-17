@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Setting this property in the properties pane will scale the model as\nthough ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 8,
+                            "offset": 76
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Model/ScaleTo"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 8,
+                            "offset": 76
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 91
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " was called on it, scaling all descendant Instances\nin the model such that the model has the specified scale factor relative\nto its original size.",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 91
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 22,
+                            "offset": 237
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 22,
+                    "offset": 237
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is only available in Studio and will throw an error if used\nin a ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 239
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 6,
+                            "offset": 318
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 6,
+                            "offset": 318
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 326
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 14,
+                            "offset": 326
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 18,
+                            "offset": 330
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "LocalScript"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 18,
+                            "offset": 330
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 31,
+                            "offset": 343
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 31,
+                            "offset": 343
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 33,
+                            "offset": 345
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Model/ScaleTo"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 33,
+                            "offset": 345
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 48,
+                            "offset": 360
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 48,
+                            "offset": 360
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 53,
+                            "offset": 365
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Model/GetScale"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 53,
+                            "offset": 365
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 69,
+                            "offset": 381
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nshould be used from scripts.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 69,
+                            "offset": 381
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 29,
+                            "offset": 410
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 239
+                },
+                "end": {
+                    "line": 8,
+                    "column": 29,
+                    "offset": 410
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

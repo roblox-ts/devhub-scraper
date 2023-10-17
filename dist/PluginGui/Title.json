@@ -1,0 +1,94 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The title that is displayed above the contents of the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 55,
+                            "offset": 54
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.PluginGui"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 55,
+                            "offset": 54
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 72,
+                            "offset": 71
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".\nDefaults to empty string.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 72,
+                            "offset": 71
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 26,
+                            "offset": 98
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 26,
+                    "offset": 98
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

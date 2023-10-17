@@ -1,0 +1,372 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The color of a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Trail"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 16,
+                            "offset": 15
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " can be set with the effect's Color property.\nThis property determines what color the segments of the trail will have\nthrough their ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 160
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Trail.Lifetime"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 160
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 182
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 37,
+                            "offset": 182
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 38,
+                            "offset": 183
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 38,
+                    "offset": 183
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Color is a ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 185
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 12,
+                            "offset": 196
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.ColorSequence"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 12,
+                            "offset": 196
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 36,
+                            "offset": 220
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which means that the segments in a\ntrail can shift between several colors. Note that if the color for a trail\nchanges after some of the trail segments have been drawn, all of the old\nsegments will be updated to match the new colors.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 36,
+                            "offset": 220
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 50,
+                            "offset": 454
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 185
+                },
+                "end": {
+                    "line": 8,
+                    "column": 50,
+                    "offset": 454
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If a trail has a ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 456
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 18,
+                            "offset": 473
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Trail.Texture"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 18,
+                            "offset": 473
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 39,
+                            "offset": 494
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " then the Color property will tint\nthat texture.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 39,
+                            "offset": 494
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 14,
+                            "offset": 542
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 456
+                },
+                "end": {
+                    "line": 11,
+                    "column": 14,
+                    "offset": 542
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/TrailTextureColor.png",
+                        "alt": "Trails with tinted textures"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 544
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 69,
+                            "offset": 612
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 544
+                },
+                "end": {
+                    "line": 13,
+                    "column": 69,
+                    "offset": 612
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Any transparent components of a texture will not be tinted.",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 614
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 60,
+                            "offset": 673
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 614
+                },
+                "end": {
+                    "line": 15,
+                    "column": 60,
+                    "offset": 673
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

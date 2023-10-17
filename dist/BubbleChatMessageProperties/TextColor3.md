@@ -1,0 +1,1 @@
+Color of bubble text in `Datatype.Color3`.

@@ -1,0 +1,562 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The length of time, in seconds, that a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 40,
+                            "offset": 39
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ForceField"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 40,
+                            "offset": 39
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will be applied\nto a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 6,
+                            "offset": 79
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 6,
+                            "offset": 79
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 93
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " character spawning at this ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 20,
+                            "offset": 93
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 48,
+                            "offset": 121
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SpawnLocation"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 48,
+                            "offset": 121
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 69,
+                            "offset": 142
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". If\nDuration is zero, the ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 69,
+                            "offset": 142
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 23,
+                            "offset": 169
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ForceField"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 23,
+                            "offset": 169
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 41,
+                            "offset": 187
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is never created, and it will not\ntrigger the ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 41,
+                            "offset": 187
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 13,
+                            "offset": 234
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance.DescendantAdded"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 13,
+                            "offset": 234
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 45,
+                            "offset": 266
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " or\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 45,
+                            "offset": 266
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 270
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance.ChildAdded"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 270
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 28,
+                            "offset": 297
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 28,
+                            "offset": 297
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 36,
+                            "offset": 305
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 36,
+                    "offset": 305
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This default value of this property is 10 seconds.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 307
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 51,
+                            "offset": 357
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 307
+                },
+                "end": {
+                    "line": 7,
+                    "column": 51,
+                    "offset": 357
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The duration feature allows developers to easily give ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 359
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 55,
+                            "offset": 413
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 55,
+                            "offset": 413
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 69,
+                            "offset": 427
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s\nprotection from 'spawn killing' which can be a frustrating experience for\nplayers. Note, ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 69,
+                            "offset": 427
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 16,
+                            "offset": 518
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ForceField"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 16,
+                            "offset": 518
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 34,
+                            "offset": 536
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s will only protect users from\n",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 34,
+                            "offset": 536
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 567
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Explosion"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 567
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 18,
+                            "offset": 584
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s and Weapons that use ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 18,
+                            "offset": 584
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 41,
+                            "offset": 607
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid:TakeDamage()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 41,
+                            "offset": 607
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 70,
+                            "offset": 636
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to\ndeal damage or otherwise check for a ",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 70,
+                            "offset": 636
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 38,
+                            "offset": 677
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.ForceField"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 38,
+                            "offset": 677
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 56,
+                            "offset": 695
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 56,
+                            "offset": 695
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 57,
+                            "offset": 696
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 359
+                },
+                "end": {
+                    "line": 13,
+                    "column": 57,
+                    "offset": 696
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

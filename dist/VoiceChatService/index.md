@@ -1,0 +1,1 @@
+**VoiceChatService** holds voice functions not tied to other instances.

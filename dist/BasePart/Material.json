@@ -1,0 +1,289 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Material property allows a builder to set a part's texture and default\nphysical properties (in the case that\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 113
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.CustomPhysicalProperties"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 113
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 154
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is unset). The default Plastic\nmaterial has a very light texture, and the SmoothPlastic material has no\ntexture at all. Some material textures like DiamondPlate and Granite have\nvery visible textures. Each material's texture reflects sunlight\ndifferently, especially Foil.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 42,
+                            "offset": 154
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 30,
+                            "offset": 427
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 7,
+                    "column": 30,
+                    "offset": 427
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Setting this property then enabling\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 429
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 465
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.CustomPhysicalProperties"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 465
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 42,
+                            "offset": 506
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will use the default physical\nproperties of a material. For instance, DiamondPlate is a very dense\nmaterial while Wood is very light. A part's density determines whether it\nwill float in terrain water.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 42,
+                            "offset": 506
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 29,
+                            "offset": 708
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 429
+                },
+                "end": {
+                    "line": 13,
+                    "column": 29,
+                    "offset": 708
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The Glass material changes rendering behavior on moderate graphics\nsettings. It applies a bit of reflectiveness (similar to\n",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 710
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 834
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Reflectance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 834
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 29,
+                            "offset": 862
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") and perspective distortion. The effect is\nespecially pronounced on sphere-shaped parts (set ",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 29,
+                            "offset": 862
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 51,
+                            "offset": 956
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Shape"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 51,
+                            "offset": 956
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 73,
+                            "offset": 978
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nto Ball). Semitransparent objects and Glass parts behind Glass are not\nvisible.",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 73,
+                            "offset": 978
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 9,
+                            "offset": 1058
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 710
+                },
+                "end": {
+                    "line": 20,
+                    "column": 9,
+                    "offset": 1058
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

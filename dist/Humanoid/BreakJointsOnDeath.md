@@ -1,5 +1,5 @@
-Determines whether a [Humanoid's](https://create.roblox.com/docs/reference/engine/classes/Humanoid) joints break when in the Dead
-state. Defaults to true.
+Determines whether a [`Humanoid's`](https://create.roblox.com/docs/reference/engine/classes/Humanoid) joints break when in the
+Dead state. Defaults to true.
 
 If it is set to false, BreakJoints will not be called on death or after
 death. If it is set to true, the existing break-joints-every-frame

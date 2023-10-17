@@ -1,5 +1,5 @@
 The positional offset of the adornment based on the adornee's
-[BasePart.Size](https://create.roblox.com/docs/reference/engine/classes/BasePart#Size). By default, an adornment draws in the center of its
+[`BasePart.Size`](https://create.roblox.com/docs/reference/engine/classes/BasePart#Size). By default, an adornment draws in the center of its
 adornee. By using this property, the position of the adornment can be
 shifted relative to the center of the adornee. The units of
 **SizeRelativeOffset** are a scale based on the size of the adornee

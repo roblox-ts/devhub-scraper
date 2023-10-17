@@ -1,0 +1,429 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 6,
+                            "offset": 5
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 6,
+                            "offset": 5
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " applies to the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 39,
+                            "offset": 38
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 39,
+                            "offset": 38
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 54,
+                            "offset": 53
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " corresponding with\nthe ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 54,
+                            "offset": 53
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 77
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pose"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 5,
+                            "offset": 77
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 17,
+                            "offset": 89
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when the ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 17,
+                            "offset": 89
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 27,
+                            "offset": 99
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D.Transform"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 27,
+                            "offset": 99
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 124
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is changed. The\noriginal ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 124
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 10,
+                            "offset": 150
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D.C0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 10,
+                            "offset": 150
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 28,
+                            "offset": 168
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 28,
+                            "offset": 168
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 33,
+                            "offset": 173
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Motor6D.C1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 33,
+                            "offset": 173
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 51,
+                            "offset": 191
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " values are not changed.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 51,
+                            "offset": 191
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 75,
+                            "offset": 215
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 75,
+                    "offset": 215
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pose"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 217
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 13,
+                            "offset": 229
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " objects are arranged in a ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 13,
+                            "offset": 229
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 40,
+                            "offset": 256
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Keyframe"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 40,
+                            "offset": 256
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 56,
+                            "offset": 272
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " based on joint\nhierarchy. This means, that the ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 56,
+                            "offset": 272
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 33,
+                            "offset": 320
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pose.CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 33,
+                            "offset": 320
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 339
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is applied to the\nmotor connecting the part associated with the pose to the part associated\nwith the pose's parent.",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 52,
+                            "offset": 339
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 24,
+                            "offset": 455
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 217
+                },
+                "end": {
+                    "line": 8,
+                    "column": 24,
+                    "offset": 455
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

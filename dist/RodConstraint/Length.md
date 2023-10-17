@@ -1,2 +1,2 @@
-The distance apart the [RodConstraint](https://create.roblox.com/docs/reference/engine/classes/RodConstraint) attempts to keep its [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment)
-at. Measured in studs.
+The distance apart at which the constraint attempts to keep its
+[`Attachments`](https://create.roblox.com/docs/reference/engine/classes/Attachment). Measured in studs.

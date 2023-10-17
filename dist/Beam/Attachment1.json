@@ -1,0 +1,654 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 5,
+                            "offset": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 23,
+                            "offset": 22
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 40,
+                            "offset": 39
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " ends at.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 40,
+                            "offset": 39
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 49,
+                            "offset": 48
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 49,
+                    "offset": 48
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 50
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 3,
+                            "offset": 52
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 3,
+                            "offset": 52
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 64
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "'s Attachment1 is the fourth and final control point on the\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 64
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 124
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 124
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 13,
+                            "offset": 136
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "'s ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 13,
+                            "offset": 136
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 16,
+                            "offset": 139
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://en.wikipedia.org/wiki/B%C3%A9zier_curve"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "cubic Bézier curve",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 17,
+                                    "offset": 140
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 35,
+                                    "offset": 158
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 16,
+                            "offset": 139
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 39,
+                            "offset": 162
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The orientation of Attachment1,\nalongside the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 39,
+                            "offset": 162
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 15,
+                            "offset": 210
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 15,
+                            "offset": 210
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 27,
+                            "offset": 222
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "'s ",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 27,
+                            "offset": 222
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 30,
+                            "offset": 225
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.CurveSize1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 30,
+                            "offset": 225
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 248
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property, determine\nthe position of the third control point.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 53,
+                            "offset": 248
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 41,
+                            "offset": 309
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 50
+                },
+                "end": {
+                    "line": 6,
+                    "column": 41,
+                    "offset": 309
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For the ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 311
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 9,
+                            "offset": 319
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 9,
+                            "offset": 319
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 27,
+                            "offset": 337
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " where the ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 27,
+                            "offset": 337
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 38,
+                            "offset": 348
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 38,
+                            "offset": 348
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 50,
+                            "offset": 360
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " starts see\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 50,
+                            "offset": 360
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 372
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.Attachment0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 372
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 25,
+                            "offset": 396
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 25,
+                            "offset": 396
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 26,
+                            "offset": 397
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 311
+                },
+                "end": {
+                    "line": 9,
+                    "column": 26,
+                    "offset": 397
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "For more information how a ",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 399
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 28,
+                            "offset": 426
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 28,
+                            "offset": 426
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 40,
+                            "offset": 438
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " curves, see\n",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 40,
+                            "offset": 438
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 451
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.CurveSize1"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 451
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 24,
+                            "offset": 474
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 24,
+                            "offset": 474
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 25,
+                            "offset": 475
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 399
+                },
+                "end": {
+                    "line": 12,
+                    "column": 25,
+                    "offset": 475
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

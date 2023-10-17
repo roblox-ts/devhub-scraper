@@ -1,0 +1,781 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Face",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 7,
+                                    "offset": 6
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 9,
+                            "offset": 8
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines the asset ID of the Face to be\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 9,
+                            "offset": 8
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 51
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid:ApplyDescription()|applied"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 51
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 94
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to a ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 44,
+                            "offset": 94
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 50,
+                            "offset": 100
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 50,
+                            "offset": 100
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 66,
+                            "offset": 116
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The\ntype of the asset ID provided ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 66,
+                            "offset": 116
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 152
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "must be for a Face",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 33,
+                                    "offset": 154
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 51,
+                                    "offset": 172
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 31,
+                            "offset": 152
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 53,
+                            "offset": 174
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " type asset and not a\nDecal or Image type asset.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 53,
+                            "offset": 174
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 27,
+                            "offset": 222
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 27,
+                    "offset": 222
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The actual face texture is rendered using a ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 224
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 268
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Decal"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 45,
+                            "offset": 268
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 58,
+                            "offset": 281
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " in the Head\nnamed \"face\" or \"Face\".",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 58,
+                            "offset": 281
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 24,
+                            "offset": 317
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 224
+                },
+                "end": {
+                    "line": 7,
+                    "column": 24,
+                    "offset": 317
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 319
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 10,
+                            "offset": 328
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 319
+                },
+                "end": {
+                    "line": 9,
+                    "column": 10,
+                    "offset": 328
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                                "href": "/characters/appearance#humanoiddescription"
+                            },
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "HumanoidDescription System",
+                                    "position": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 4,
+                                            "offset": 333
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 30,
+                                            "offset": 359
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 3,
+                                    "offset": 332
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 75,
+                                    "offset": 404
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\nfor more information on ",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 75,
+                                    "offset": 404
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 27,
+                                    "offset": 432
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 27,
+                                    "offset": 432
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 54,
+                                    "offset": 459
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 54,
+                                    "offset": 459
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 55,
+                                    "offset": 460
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 330
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 55,
+                            "offset": 460
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.GraphicTShirt|GraphicTShirt"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 3,
+                                    "offset": 463
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 58,
+                                    "offset": 518
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\n",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 58,
+                                    "offset": 518
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 1,
+                                    "offset": 520
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.Shirt|Shirt"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 3,
+                                    "offset": 522
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 42,
+                                    "offset": 561
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " and\n",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 42,
+                                    "offset": 561
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 1,
+                                    "offset": 566
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.Pants|Pants"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 3,
+                                    "offset": 568
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 42,
+                                    "offset": 607
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which also apply textures to a\nrig",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 42,
+                                    "offset": 607
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 6,
+                                    "offset": 645
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 461
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 6,
+                            "offset": 645
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.Head|Head"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 3,
+                                    "offset": 648
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 40,
+                                    "offset": 685
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which can change the mesh of the\nhead",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 40,
+                                    "offset": 685
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 7,
+                                    "offset": 726
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 646
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 7,
+                            "offset": 726
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.FaceAccessory|FaceAccessory"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 3,
+                                    "offset": 729
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 58,
+                                    "offset": 784
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which can apply\none or more ",
+                            "position": {
+                                "start": {
+                                    "line": 19,
+                                    "column": 58,
+                                    "offset": 784
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 15,
+                                    "offset": 816
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Accessory"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 15,
+                                    "offset": 816
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 32,
+                                    "offset": 833
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "s to the face",
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 32,
+                                    "offset": 833
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 45,
+                                    "offset": 846
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 727
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 45,
+                            "offset": 846
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 11,
+                    "column": 1,
+                    "offset": 330
+                },
+                "end": {
+                    "line": 20,
+                    "column": 45,
+                    "offset": 846
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

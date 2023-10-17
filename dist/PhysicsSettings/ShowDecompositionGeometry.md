@@ -1,2 +1,2 @@
-When set to true, the underlying collision geometry for [PartOperation](https://create.roblox.com/docs/reference/engine/classes/PartOperation)
-and [MeshPart](https://create.roblox.com/docs/reference/engine/classes/MeshPart) is rendered.
+When set to true, the underlying collision geometry for
+[`PartOperation`](https://create.roblox.com/docs/reference/engine/classes/PartOperation) and [`MeshPart`](https://create.roblox.com/docs/reference/engine/classes/MeshPart) is rendered.

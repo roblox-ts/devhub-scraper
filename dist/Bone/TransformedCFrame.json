@@ -1,0 +1,358 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "TransformedCFrame",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 3,
+                                    "offset": 2
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 20,
+                                    "offset": 19
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " describes the combined\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 45
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment.CFrame|CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 45
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 33,
+                            "offset": 77
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " offset of the bone and the current\nanimation offset (",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 33,
+                            "offset": 77
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 19,
+                            "offset": 131
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Bone.Transform|Transform"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 19,
+                            "offset": 131
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 51,
+                            "offset": 163
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") in the bone's local\nspace.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 51,
+                            "offset": 163
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 7,
+                            "offset": 191
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 7,
+                    "offset": 191
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 193
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 10,
+                            "offset": 202
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 193
+                },
+                "end": {
+                    "line": 6,
+                    "column": 10,
+                    "offset": 202
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Bone.Transform|Transform"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 3,
+                                    "offset": 206
+                                },
+                                "end": {
+                                    "line": 8,
+                                    "column": 35,
+                                    "offset": 238
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", a property which partially determines\nthis property's value",
+                            "position": {
+                                "start": {
+                                    "line": 8,
+                                    "column": 35,
+                                    "offset": 238
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 24,
+                                    "offset": 301
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 204
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 24,
+                            "offset": 301
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Bone.TransformedWorldCFrame"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 3,
+                                    "offset": 304
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 38,
+                                    "offset": 339
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", a world-space variant of this\nproperty",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 38,
+                                    "offset": 339
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 11,
+                                    "offset": 381
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 302
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 11,
+                            "offset": 381
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 204
+                },
+                "end": {
+                    "line": 11,
+                    "column": 11,
+                    "offset": 381
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

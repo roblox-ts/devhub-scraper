@@ -1,0 +1,484 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines how much upwards force is applied to the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 69,
+                            "offset": 68
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " when\njumping. The starting value of this property is determined by the value of\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 69,
+                            "offset": 68
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 149
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPlayer.CharacterJumpPower"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 149
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 41,
+                            "offset": 189
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", which defaults to 50 and is\nconstrained between 0 and 1000.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 41,
+                            "offset": 189
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 32,
+                            "offset": 250
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 32,
+                    "offset": 250
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is only visible in the Properties window if\n`Class.Humanoid.UseJumpPower`` is set to ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 252
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 42,
+                            "offset": 351
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "true",
+                            "position": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 44,
+                                    "offset": 353
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 48,
+                                    "offset": 357
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 42,
+                            "offset": 351
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 50,
+                            "offset": 359
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", as it would not be\nrelevant otherwise.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 50,
+                            "offset": 359
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 20,
+                            "offset": 399
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 252
+                },
+                "end": {
+                    "line": 8,
+                    "column": 20,
+                    "offset": 399
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note:",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 401
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 6,
+                            "offset": 406
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 401
+                },
+                "end": {
+                    "line": 10,
+                    "column": 6,
+                    "offset": 406
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Jumps are also influenced by the ",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 3,
+                                    "offset": 410
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 36,
+                                    "offset": 443
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Workspace.Gravity"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 36,
+                                    "offset": 443
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 61,
+                                    "offset": 468
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " property\nwhich determines the acceleration due to gravity.",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 61,
+                                    "offset": 468
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 52,
+                                    "offset": 529
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 408
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 52,
+                            "offset": 529
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Although setting this property to 0 will prevent the ",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 3,
+                                    "offset": 532
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 56,
+                                    "offset": 585
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Humanoid"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 56,
+                                    "offset": 585
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 72,
+                                    "offset": 601
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "\nfrom jumping, developers are advised to disable the \"Jumping\" state\nusing the ",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 72,
+                                    "offset": 601
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 13,
+                                    "offset": 684
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Humanoid:SetStateEnabled()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 13,
+                                    "offset": 684
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 47,
+                                    "offset": 718
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " function.",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 47,
+                                    "offset": 718
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 57,
+                                    "offset": 728
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 530
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 57,
+                            "offset": 728
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 408
+                },
+                "end": {
+                    "line": 16,
+                    "column": 57,
+                    "offset": 728
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

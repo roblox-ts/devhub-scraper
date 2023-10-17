@@ -1,4 +1,5 @@
-Represents a 3D vector curve containing 3 [FloatCurves](https://create.roblox.com/docs/reference/engine/classes/FloatCurve), stored as
-3 FloatCurve children instances. Each FloatCurve can be accessed via
-[Vector3Curve:X](https://create.roblox.com/docs/reference/engine/classes/Vector3Curve#X), [Vector3Curve:Y](https://create.roblox.com/docs/reference/engine/classes/Vector3Curve#Y), [Vector3Curve:Z](https://create.roblox.com/docs/reference/engine/classes/Vector3Curve#Z) methods. The 3 axes can
-be sampled simultaneously via the method [Vector3Curve:GetValueAtTime](https://create.roblox.com/docs/reference/engine/classes/Vector3Curve#GetValueAtTime).
+Represents a 3D vector curve containing 3 [`FloatCurves`](https://create.roblox.com/docs/reference/engine/classes/FloatCurve),
+stored as 3 FloatCurve children instances. Each FloatCurve can be accessed via
+[`Vector3Curve:X()`](https://create.roblox.com/docs/reference/engine/classes/Vector3Curve#X), [`Vector3Curve:Y()`](https://create.roblox.com/docs/reference/engine/classes/Vector3Curve#Y), [`Vector3Curve:Z()`](https://create.roblox.com/docs/reference/engine/classes/Vector3Curve#Z)
+methods. The 3 axes can be sampled simultaneously via the method
+[`Vector3Curve:GetValueAtTime()`](https://create.roblox.com/docs/reference/engine/classes/Vector3Curve#GetValueAtTime).

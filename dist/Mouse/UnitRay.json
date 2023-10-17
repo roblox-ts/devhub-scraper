@@ -1,0 +1,296 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The UnitRay property is a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Datatype.Ray"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " directed toward the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 61
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 61
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 14,
+                            "offset": 74
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "'s position in 3D space (described by ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 14,
+                            "offset": 74
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 112
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Mouse.Hit"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 52,
+                            "offset": 112
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 69,
+                            "offset": 129
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "). It\noriginates from the ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 69,
+                            "offset": 129
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 21,
+                            "offset": 155
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Camera.CFrame|CFrame"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 21,
+                            "offset": 155
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 183
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the\n",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 49,
+                            "offset": 183
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 191
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Workspace.CurrentCamera"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 191
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 32,
+                            "offset": 222
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Like all unit rays, it has a distance\nof 1.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 32,
+                            "offset": 222
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 6,
+                            "offset": 267
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 6,
+                    "offset": 267
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local Players = game:GetService(\"Players\")\nlocal player = Players.LocalPlayer\nlocal mouse = player:GetMouse()\nprint(mouse.UnitRay.Direction.magnitude) -- Always 1\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 269
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 4,
+                            "offset": 442
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 269
+                },
+                "end": {
+                    "line": 12,
+                    "column": 4,
+                    "offset": 442
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

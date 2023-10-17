@@ -1,10 +1,9 @@
-This property is set up automatically by the Avatar Importer plugin.
+This property is set up automatically by the 3D Importer.
 
 Describes where a global zero was while authoring the cage mesh in an
 asset creation tool such as Blender or Maya. This property is not used by
 the deformer but it is useful for tools/aligning scripts, for example
 aligning two parts by matching their pivots as follows:
-
 ```lua
 local function alignWraps()
 	local selectionService = game:GetService("Selection")

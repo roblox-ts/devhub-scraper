@@ -1,0 +1,635 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Sets the horizontal size, in studs, of the tiled image applied by the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Texture"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 70
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 16,
+                            "offset": 85
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 16,
+                            "offset": 85
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 17,
+                            "offset": 86
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 17,
+                    "offset": 86
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Larger values for this property will lead to the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 88
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 50,
+                            "offset": 137
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Texture"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 50,
+                            "offset": 137
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 65,
+                            "offset": 152
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " appearing\nlarger, and repeating less frequently. Unlike with ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 65,
+                            "offset": 152
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 52,
+                            "offset": 214
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Decal"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 52,
+                            "offset": 214
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 65,
+                            "offset": 227
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s, the\nsize of the repeated image is unaffected by the dimensions of the\n",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 65,
+                            "offset": 227
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 300
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 300
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 17,
+                            "offset": 316
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". Instead, resizing the ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 17,
+                            "offset": 316
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 41,
+                            "offset": 340
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 41,
+                            "offset": 340
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 57,
+                            "offset": 356
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " only increases\nthe number of times the texture repeats.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 57,
+                            "offset": 356
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 41,
+                            "offset": 412
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 88
+                },
+                "end": {
+                    "line": 8,
+                    "column": 41,
+                    "offset": 412
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See the code snippet below for an example of how this property can be\nused.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 414
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 6,
+                            "offset": 489
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 414
+                },
+                "end": {
+                    "line": 11,
+                    "column": 6,
+                    "offset": 489
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local texture = Instance.new(\"Texture\")\ntexture.Texture = \"http://www.roblox.com/asset/?id=732339893\" -- roblox logo\n-- 1x1 studs repeating texture\ntexture.StudsPerTileU = 1\ntexture.StudsPerTileV = 1\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 491
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 4,
+                            "offset": 698
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 491
+                },
+                "end": {
+                    "line": 19,
+                    "column": 4,
+                    "offset": 698
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Note:",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 700
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 6,
+                            "offset": 705
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 21,
+                    "column": 1,
+                    "offset": 700
+                },
+                "end": {
+                    "line": 21,
+                    "column": 6,
+                    "offset": 705
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "This property can be set to very low values, but not zero",
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 3,
+                                    "offset": 709
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 60,
+                                    "offset": 766
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 23,
+                            "column": 1,
+                            "offset": 707
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 60,
+                            "offset": 766
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "The horisontal / vertical distinction is relative to the\n",
+                            "position": {
+                                "start": {
+                                    "line": 24,
+                                    "column": 3,
+                                    "offset": 769
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 1,
+                                    "offset": 826
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.BasePart"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 3,
+                                    "offset": 828
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 19,
+                                    "offset": 844
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "s axis. Therefore, the ",
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 19,
+                                    "offset": 844
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 42,
+                                    "offset": 867
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Texture"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 42,
+                                    "offset": 867
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 57,
+                                    "offset": 882
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " will rotate along\nwith the ",
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 57,
+                                    "offset": 882
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 12,
+                                    "offset": 912
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.BasePart"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 12,
+                                    "offset": 912
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 28,
+                                    "offset": 928
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 28,
+                                    "offset": 928
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 29,
+                                    "offset": 929
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 24,
+                            "column": 1,
+                            "offset": 767
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 29,
+                            "offset": 929
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 23,
+                    "column": 1,
+                    "offset": 707
+                },
+                "end": {
+                    "line": 26,
+                    "column": 29,
+                    "offset": 929
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

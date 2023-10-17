@@ -1,1 +1,2 @@
-The current distance between the [SpringConstraint](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint)'s [Attachment](https://create.roblox.com/docs/reference/engine/classes/Attachment).
+The current distance between the constraint's
+[`Attachments`](https://create.roblox.com/docs/reference/engine/classes/Attachment).

@@ -1,0 +1,168 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AudioPlayer"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is used to play audio assets. It provides a single\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 20,
+                            "offset": 19
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 71
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Output",
+                            "position": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 3,
+                                    "offset": 73
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 9,
+                                    "offset": 79
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 71
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 11,
+                            "offset": 81
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " pin which can be connected to other pins via ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 11,
+                            "offset": 81
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 127
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Wire|Wires"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 57,
+                            "offset": 127
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 75,
+                            "offset": 145
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 75,
+                            "offset": 145
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 76,
+                            "offset": 146
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 76,
+                    "offset": 146
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

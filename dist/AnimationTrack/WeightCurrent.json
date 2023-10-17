@@ -1,0 +1,445 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When weight is set in an ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 26,
+                            "offset": 25
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 26,
+                            "offset": 25
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " it does not change\ninstantaneously but moves from WeightCurrent to\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 115
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack.WeightTarget"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 115
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 36,
+                            "offset": 150
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". The time it takes to do this is\ndetermined by the fadeTime parameter given when the animation is played,\nor the weight is adjusted.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 36,
+                            "offset": 150
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 27,
+                            "offset": 283
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 27,
+                    "offset": 283
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "WeightCurrent can be checked against ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 285
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 38,
+                            "offset": 322
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack.WeightTarget"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 38,
+                            "offset": 322
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 73,
+                            "offset": 357
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nto see if the desired weight has been reached. Note that these values\nshould not be checked for equality with the == operator, as both of these\nvalues are floats. To see if WeightCurrent has reached the target weight,\nit is recommended to see if the distance between those values is\nsufficiently small (see code sample below).",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 73,
+                            "offset": 357
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 44,
+                            "offset": 684
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 285
+                },
+                "end": {
+                    "line": 12,
+                    "column": 44,
+                    "offset": 684
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The animation weighting system is used to determine how\n",
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 686
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 742
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 742
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 23,
+                            "offset": 764
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s playing at the same priority are blended together.\nThe default weight is one, and no movement will be visible on an\n",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 23,
+                            "offset": 764
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 882
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 882
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 23,
+                            "offset": 904
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " with a weight of zero. The pose that is shown at\nany point in time is determined by the weighted average of all the\n",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 23,
+                            "offset": 904
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1021
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Pose"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 1,
+                            "offset": 1021
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 13,
+                            "offset": 1033
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s and the WeightCurrent of each ",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 13,
+                            "offset": 1033
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 45,
+                            "offset": 1065
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 45,
+                            "offset": 1065
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 67,
+                            "offset": 1087
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". In\nmost cases blending animations is not required and using\n",
+                    "position": {
+                        "start": {
+                            "line": 19,
+                            "column": 67,
+                            "offset": 1087
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 1149
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.AnimationTrack.Priority"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 1149
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 32,
+                            "offset": 1180
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is more suitable.",
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 32,
+                            "offset": 1180
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 50,
+                            "offset": 1198
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 14,
+                    "column": 1,
+                    "offset": 686
+                },
+                "end": {
+                    "line": 21,
+                    "column": 50,
+                    "offset": 1198
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,715 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+                "src": "/assets/legacy/WidthScale.jpg"
+            },
+            "children": [],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 45,
+                    "offset": 44
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "WidthScale",
+                            "position": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 3,
+                                    "offset": 48
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 13,
+                                    "offset": 58
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 46
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 60
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines by what factor the width (left-to-right\ndistance) of a ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 15,
+                            "offset": 60
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 16,
+                            "offset": 127
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 16,
+                            "offset": 127
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 32,
+                            "offset": 143
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is scaled, as well as all accessories not\nattached to its head. When the description is\n",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 32,
+                            "offset": 143
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 232
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid:ApplyDescription()|applied"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 232
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 44,
+                            "offset": 275
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " to a Humanoid, this value maps\nto a \"BodyWidthScale\" ",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 44,
+                            "offset": 275
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 23,
+                            "offset": 329
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.NumberValue"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 23,
+                            "offset": 329
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 42,
+                            "offset": 348
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " within the Humanoid.",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 42,
+                            "offset": 348
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 63,
+                            "offset": 369
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 46
+                },
+                "end": {
+                    "line": 7,
+                    "column": 63,
+                    "offset": 369
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "In the image above, three R15 figures whose ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 371
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 45,
+                            "offset": 415
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Humanoid"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 45,
+                            "offset": 415
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 61,
+                            "offset": 431
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s have\n",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 61,
+                            "offset": 431
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 438
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.HumanoidDescription"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 438
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 28,
+                            "offset": 465
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s applied with the following WidthScale values\n(from left-to-right): 0.5, 1.0, 1.5.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 28,
+                            "offset": 465
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 37,
+                            "offset": 548
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 371
+                },
+                "end": {
+                    "line": 11,
+                    "column": 37,
+                    "offset": 548
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 550
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 10,
+                            "offset": 559
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 550
+                },
+                "end": {
+                    "line": 13,
+                    "column": 10,
+                    "offset": 559
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                                "href": "/characters/appearance#humanoiddescription"
+                            },
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "HumanoidDescription System",
+                                    "position": {
+                                        "start": {
+                                            "line": 15,
+                                            "column": 4,
+                                            "offset": 564
+                                        },
+                                        "end": {
+                                            "line": 15,
+                                            "column": 30,
+                                            "offset": 590
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 3,
+                                    "offset": 563
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 75,
+                                    "offset": 635
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ",\nfor more information on ",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 75,
+                                    "offset": 635
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 27,
+                                    "offset": 663
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 27,
+                                    "offset": 663
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 54,
+                                    "offset": 690
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 16,
+                                    "column": 54,
+                                    "offset": 690
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 55,
+                                    "offset": 691
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 561
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 55,
+                            "offset": 691
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.BodyTypeScale|BodyTypeScale"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 3,
+                                    "offset": 694
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 58,
+                                    "offset": 749
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " and\n",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 58,
+                                    "offset": 749
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 1,
+                                    "offset": 754
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.ProportionScale|ProportionScale"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 3,
+                                    "offset": 756
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 62,
+                                    "offset": 815
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", which can\nprovide more realistic rig proportions",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 62,
+                                    "offset": 815
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 41,
+                                    "offset": 867
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 692
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 41,
+                            "offset": 867
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.HeightScale|HeightScale"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 3,
+                                    "offset": 870
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 54,
+                                    "offset": 921
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " and\n",
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 54,
+                                    "offset": 921
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 1,
+                                    "offset": 926
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.HumanoidDescription.DepthScale|DepthScale"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 3,
+                                    "offset": 928
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 52,
+                                    "offset": 977
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 868
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 52,
+                            "offset": 977
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 15,
+                    "column": 1,
+                    "offset": 561
+                },
+                "end": {
+                    "line": 21,
+                    "column": 52,
+                    "offset": 977
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,0 +1,718 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 3,
+                            "offset": 2
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 17,
+                            "offset": 16
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is a Lua code container that can access server-side objects,\nproperties, and events, such as to award badges to players using\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 17,
+                            "offset": 16
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 143
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BadgeService"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 143
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 21,
+                            "offset": 163
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", while ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 21,
+                            "offset": 163
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 29,
+                            "offset": 171
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.LocalScript|LocalScripts"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 29,
+                            "offset": 171
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 61,
+                            "offset": 203
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " on the client\ncannot.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 61,
+                            "offset": 203
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 8,
+                            "offset": 225
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 8,
+                    "offset": 225
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The instant that the following conditions are met, a script's code is run in a\nnew thread:",
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 227
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 12,
+                            "offset": 317
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 227
+                },
+                "end": {
+                    "line": 7,
+                    "column": 12,
+                    "offset": 317
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Its ",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 3,
+                                    "offset": 321
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 7,
+                                    "offset": 325
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Script.Enabled|Enabled"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 7,
+                                    "offset": 325
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 37,
+                                    "offset": 355
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " property is ",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 37,
+                                    "offset": 355
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 50,
+                                    "offset": 368
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "true"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 50,
+                                    "offset": 368
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 56,
+                                    "offset": 374
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 56,
+                                    "offset": 374
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 57,
+                                    "offset": 375
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 319
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 57,
+                            "offset": 375
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "The ",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 3,
+                                    "offset": 378
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 7,
+                                    "offset": 382
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Script"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 7,
+                                    "offset": 382
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 21,
+                                    "offset": 396
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " object is a descendant of the ",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 21,
+                                    "offset": 396
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 52,
+                                    "offset": 427
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Workspace"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 52,
+                                    "offset": 427
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 69,
+                                    "offset": 444
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " or\n",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 69,
+                                    "offset": 444
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 1,
+                                    "offset": 448
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.ServerScriptService"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 3,
+                                    "offset": 450
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 30,
+                                    "offset": 477
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 30,
+                                    "offset": 477
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 31,
+                                    "offset": 478
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 1,
+                            "offset": 376
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 31,
+                            "offset": 478
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 319
+                },
+                "end": {
+                    "line": 11,
+                    "column": 31,
+                    "offset": 478
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The script will continue to run until the above conditions are ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 480
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 64,
+                            "offset": 543
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "not",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 66,
+                                    "offset": 545
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 69,
+                                    "offset": 548
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 64,
+                            "offset": 543
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 71,
+                            "offset": 550
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " met, it\nterminates, or it raises an error (unless that error is raised by a function\nconnected to some event that is firing). Additionally, the thread will be\nstopped if the script or one of its ancestors is destroyed. A script will\ncontinue to run even if the ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 71,
+                            "offset": 550
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 29,
+                            "offset": 812
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Instance.Parent|Parent"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 29,
+                            "offset": 812
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 59,
+                            "offset": 842
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property is set to\n",
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 59,
+                            "offset": 842
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 862
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "nil"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 862
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 6,
+                            "offset": 867
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " and the ",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 6,
+                            "offset": 867
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 15,
+                            "offset": 876
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Script"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 15,
+                            "offset": 876
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 29,
+                            "offset": 890
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is not destroyed.",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 29,
+                            "offset": 890
+                        },
+                        "end": {
+                            "line": 18,
+                            "column": 47,
+                            "offset": 908
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 13,
+                    "column": 1,
+                    "offset": 480
+                },
+                "end": {
+                    "line": 18,
+                    "column": 47,
+                    "offset": 908
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

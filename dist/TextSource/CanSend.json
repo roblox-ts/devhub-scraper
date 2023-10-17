@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines whether the user can send messages to the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 54,
+                            "offset": 53
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChannel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 54,
+                            "offset": 53
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 73,
+                            "offset": 72
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 73,
+                            "offset": 72
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 74,
+                            "offset": 73
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 74,
+                    "offset": 73
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 75
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 4,
+                            "offset": 78
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "false"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 4,
+                            "offset": 78
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 11,
+                            "offset": 85
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", user can only read messages in the ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 11,
+                            "offset": 85
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 48,
+                            "offset": 122
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChannel"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 48,
+                            "offset": 122
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 67,
+                            "offset": 141
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 67,
+                            "offset": 141
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 68,
+                            "offset": 142
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 75
+                },
+                "end": {
+                    "line": 3,
+                    "column": 68,
+                    "offset": 142
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

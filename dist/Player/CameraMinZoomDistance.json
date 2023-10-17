@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The CameraMinZoonDistance ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " property sets the minimum\ndistance in studs the camera can be from the character with the default\ncameras.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 9,
+                            "offset": 147
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 9,
+                    "offset": 147
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "In other words, it controls the minimum distance the player's camera is\nallowed to zoom in.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 149
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 20,
+                            "offset": 240
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 149
+                },
+                "end": {
+                    "line": 6,
+                    "column": 20,
+                    "offset": 240
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The default value of this property is set by\n",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 242
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 287
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.StarterPlayer.CameraMinZoomDistance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 287
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 44,
+                            "offset": 330
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". If this value is set to a\nhigher value than ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 44,
+                            "offset": 330
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 19,
+                            "offset": 376
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Player.CameraMaxZoomDistance"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 19,
+                            "offset": 376
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 55,
+                            "offset": 412
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " it will be\ndecreased to CameraMaxZoomDistance.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 55,
+                            "offset": 412
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 36,
+                            "offset": 459
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 242
+                },
+                "end": {
+                    "line": 11,
+                    "column": 36,
+                    "offset": 459
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

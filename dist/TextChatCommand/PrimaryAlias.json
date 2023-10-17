@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A primary alias used to trigger the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 37,
+                            "offset": 36
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatCommand"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 37,
+                            "offset": 36
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 60,
+                            "offset": 59
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 60,
+                            "offset": 59
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 61,
+                            "offset": 60
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 61,
+                    "offset": 60
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If a user sends a message with ",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 1,
+                            "offset": 62
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 93
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChannel:SendAsync()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 32,
+                            "offset": 93
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 63,
+                            "offset": 124
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " that\nmatches \"/{",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 63,
+                            "offset": 124
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 12,
+                            "offset": 141
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatCommand.PrimaryAlias"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 12,
+                            "offset": 141
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 48,
+                            "offset": 177
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "}\", then the message is not\nsent and instead ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 48,
+                            "offset": 177
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 18,
+                            "offset": 222
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextChatCommand.Triggered"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 18,
+                            "offset": 222
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 51,
+                            "offset": 255
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is fired.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 51,
+                            "offset": 255
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 61,
+                            "offset": 265
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 62
+                },
+                "end": {
+                    "line": 5,
+                    "column": 61,
+                    "offset": 265
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

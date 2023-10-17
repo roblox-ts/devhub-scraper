@@ -1,0 +1,250 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property works in conjunction with the ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 45,
+                            "offset": 44
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiObject.Size|Size"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 45,
+                            "offset": 44
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 72,
+                            "offset": 71
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nproperty to determine the screen size of a GUI element.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 72,
+                            "offset": 71
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 127
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 56,
+                    "offset": 127
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 129
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 5,
+                            "offset": 133
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Enum.SizeConstraint"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 5,
+                            "offset": 133
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 26,
+                            "offset": 154
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " enum will determine the axes that influence the\nscalar size of an object.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 26,
+                            "offset": 154
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 26,
+                            "offset": 228
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 129
+                },
+                "end": {
+                    "line": 5,
+                    "column": 26,
+                    "offset": 228
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This property is useful for creating onscreen controls that are meant to\nscale with either the width or height of a parent object, but not both.\nThis preserves the aspect ratio of the GUI element in question. For\nexample, setting to RelativeYY with a Size of ",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 230
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 47,
+                            "offset": 489
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "{1, 0}, {1, 0}"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 47,
+                            "offset": 489
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 63,
+                            "offset": 505
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " will make\nthe UI element square, with both the X and Y sizes equal to the parent\nelement's Y size.",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 63,
+                            "offset": 505
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 18,
+                            "offset": 604
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 230
+                },
+                "end": {
+                    "line": 12,
+                    "column": 18,
+                    "offset": 604
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

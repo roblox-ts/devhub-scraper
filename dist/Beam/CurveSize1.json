@@ -1,0 +1,1157 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Determines, along with ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 24,
+                            "offset": 23
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.Attachment0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 24,
+                            "offset": 23
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " the position of the first\ncontrol point in the Beam's Bézier curve.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 42,
+                            "offset": 115
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 42,
+                    "offset": 115
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The position of this point can be determined by the following equation:",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 117
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 72,
+                            "offset": 188
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 117
+                },
+                "end": {
+                    "line": 4,
+                    "column": 72,
+                    "offset": 188
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "pre",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "local controlPoint2 = Beam.Attachment1.WorldPosition - (Beam.Attachment1.CFrame.rightVector * Beam.CurveSize1)\n"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 6,
+                            "column": 1,
+                            "offset": 190
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 4,
+                            "offset": 311
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 190
+                },
+                "end": {
+                    "line": 8,
+                    "column": 4,
+                    "offset": 311
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Beam Curvature",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 6,
+                            "offset": 318
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 20,
+                            "offset": 332
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 313
+                },
+                "end": {
+                    "line": 10,
+                    "column": 20,
+                    "offset": 332
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Beams are configured to use a cubic\n",
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 334
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 370
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "https://en.wikipedia.org/wiki/B%C3%A9zier_curve"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Bézier curve",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 2,
+                                    "offset": 371
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 14,
+                                    "offset": 383
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 370
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 64,
+                            "offset": 433
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ". This\nmeans they are not constrained to straight lines, and the curve of the\nbeam can be modified by changing ",
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 64,
+                            "offset": 433
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 34,
+                            "offset": 544
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Beam.CurveSize0"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 34,
+                            "offset": 544
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 57,
+                            "offset": 567
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ", CurveSize1 and\nthe orientation of the beam's ",
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 57,
+                            "offset": 567
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 31,
+                            "offset": 614
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Attachment"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 31,
+                            "offset": 614
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 49,
+                            "offset": 632
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "s.",
+                    "position": {
+                        "start": {
+                            "line": 16,
+                            "column": 49,
+                            "offset": 632
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 51,
+                            "offset": 634
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 334
+                },
+                "end": {
+                    "line": 16,
+                    "column": 51,
+                    "offset": 634
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Cubic Bézier curves are formed of four control points. They are determined\nas follows:",
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 636
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 12,
+                            "offset": 722
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 18,
+                    "column": 1,
+                    "offset": 636
+                },
+                "end": {
+                    "line": 19,
+                    "column": 12,
+                    "offset": 722
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "strong",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "P0",
+                                    "position": {
+                                        "start": {
+                                            "line": 21,
+                                            "column": 5,
+                                            "offset": 728
+                                        },
+                                        "end": {
+                                            "line": 21,
+                                            "column": 7,
+                                            "offset": 730
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 3,
+                                    "offset": 726
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 9,
+                                    "offset": 732
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ": The start of the beam, the position of ",
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 9,
+                                    "offset": 732
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 50,
+                                    "offset": 773
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Beam.Attachment0"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 50,
+                                    "offset": 773
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 74,
+                                    "offset": 797
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 724
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 74,
+                            "offset": 797
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "strong",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "P1",
+                                    "position": {
+                                        "start": {
+                                            "line": 22,
+                                            "column": 5,
+                                            "offset": 802
+                                        },
+                                        "end": {
+                                            "line": 22,
+                                            "column": 7,
+                                            "offset": 804
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 3,
+                                    "offset": 800
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 9,
+                                    "offset": 806
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ": ",
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 9,
+                                    "offset": 806
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 11,
+                                    "offset": 808
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Beam.CurveSize0"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 11,
+                                    "offset": 808
+                                },
+                                "end": {
+                                    "line": 22,
+                                    "column": 34,
+                                    "offset": 831
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " studs away from\n",
+                            "position": {
+                                "start": {
+                                    "line": 22,
+                                    "column": 34,
+                                    "offset": 831
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 1,
+                                    "offset": 848
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Beam.Attachment0"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 3,
+                                    "offset": 850
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 27,
+                                    "offset": 874
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", in ",
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 27,
+                                    "offset": 874
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 32,
+                                    "offset": 879
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Beam.Attachment0"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 32,
+                                    "offset": 879
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 56,
+                                    "offset": 903
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "'s positive X\ndirection.",
+                            "position": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 56,
+                                    "offset": 903
+                                },
+                                "end": {
+                                    "line": 24,
+                                    "column": 13,
+                                    "offset": 929
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 22,
+                            "column": 1,
+                            "offset": 798
+                        },
+                        "end": {
+                            "line": 24,
+                            "column": 13,
+                            "offset": 929
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "strong",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "P2",
+                                    "position": {
+                                        "start": {
+                                            "line": 25,
+                                            "column": 5,
+                                            "offset": 934
+                                        },
+                                        "end": {
+                                            "line": 25,
+                                            "column": 7,
+                                            "offset": 936
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 3,
+                                    "offset": 932
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 9,
+                                    "offset": 938
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ": CurveSize1 studs away from ",
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 9,
+                                    "offset": 938
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 38,
+                                    "offset": 967
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Beam.Attachment1"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 38,
+                                    "offset": 967
+                                },
+                                "end": {
+                                    "line": 25,
+                                    "column": 62,
+                                    "offset": 991
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", in\n",
+                            "position": {
+                                "start": {
+                                    "line": 25,
+                                    "column": 62,
+                                    "offset": 991
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 1,
+                                    "offset": 996
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Beam.Attachment1"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 3,
+                                    "offset": 998
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 27,
+                                    "offset": 1022
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": "'s negative X direction.",
+                            "position": {
+                                "start": {
+                                    "line": 26,
+                                    "column": 27,
+                                    "offset": 1022
+                                },
+                                "end": {
+                                    "line": 26,
+                                    "column": 51,
+                                    "offset": 1046
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 25,
+                            "column": 1,
+                            "offset": 930
+                        },
+                        "end": {
+                            "line": 26,
+                            "column": 51,
+                            "offset": 1046
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "strong",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "P3",
+                                    "position": {
+                                        "start": {
+                                            "line": 27,
+                                            "column": 5,
+                                            "offset": 1051
+                                        },
+                                        "end": {
+                                            "line": 27,
+                                            "column": 7,
+                                            "offset": 1053
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 27,
+                                    "column": 3,
+                                    "offset": 1049
+                                },
+                                "end": {
+                                    "line": 27,
+                                    "column": 9,
+                                    "offset": 1055
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ": The end of the beam, the position of ",
+                            "position": {
+                                "start": {
+                                    "line": 27,
+                                    "column": 9,
+                                    "offset": 1055
+                                },
+                                "end": {
+                                    "line": 27,
+                                    "column": 48,
+                                    "offset": 1094
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Beam.Attachment1"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 27,
+                                    "column": 48,
+                                    "offset": 1094
+                                },
+                                "end": {
+                                    "line": 27,
+                                    "column": 72,
+                                    "offset": 1118
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 27,
+                            "column": 1,
+                            "offset": 1047
+                        },
+                        "end": {
+                            "line": 27,
+                            "column": 72,
+                            "offset": 1118
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 21,
+                    "column": 1,
+                    "offset": 724
+                },
+                "end": {
+                    "line": 27,
+                    "column": 72,
+                    "offset": 1118
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The beam starts at P0, goes towards P1, and arrives at P3, from the\ndirection of P2. The beam will not necessarily pass through P1 and P2.",
+                    "position": {
+                        "start": {
+                            "line": 29,
+                            "column": 1,
+                            "offset": 1120
+                        },
+                        "end": {
+                            "line": 30,
+                            "column": 71,
+                            "offset": 1258
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 29,
+                    "column": 1,
+                    "offset": 1120
+                },
+                "end": {
+                    "line": 30,
+                    "column": 71,
+                    "offset": 1258
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See the images below for a visual demonstration.",
+                    "position": {
+                        "start": {
+                            "line": 32,
+                            "column": 1,
+                            "offset": 1260
+                        },
+                        "end": {
+                            "line": 32,
+                            "column": 49,
+                            "offset": 1308
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 32,
+                    "column": 1,
+                    "offset": 1260
+                },
+                "end": {
+                    "line": 32,
+                    "column": 49,
+                    "offset": 1308
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/BeamCurve1.png",
+                        "alt": "enter image description here"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 34,
+                            "column": 1,
+                            "offset": 1310
+                        },
+                        "end": {
+                            "line": 34,
+                            "column": 63,
+                            "offset": 1372
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 34,
+                    "column": 1,
+                    "offset": 1310
+                },
+                "end": {
+                    "line": 34,
+                    "column": 63,
+                    "offset": 1372
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "element",
+                    "tagName": "img",
+                    "properties": {
+                        "src": "/assets/legacy/BeamCurve2.png",
+                        "alt": "enter image description here"
+                    },
+                    "children": [],
+                    "position": {
+                        "start": {
+                            "line": 36,
+                            "column": 1,
+                            "offset": 1374
+                        },
+                        "end": {
+                            "line": 36,
+                            "column": 63,
+                            "offset": 1436
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 36,
+                    "column": 1,
+                    "offset": 1374
+                },
+                "end": {
+                    "line": 36,
+                    "column": 63,
+                    "offset": 1436
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

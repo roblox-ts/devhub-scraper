@@ -1,0 +1,159 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Asset ID that maps to a ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 25,
+                            "offset": 24
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "strong",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Notification",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 27,
+                                    "offset": 26
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 39,
+                                    "offset": 38
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 25,
+                            "offset": 24
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " asset type. This asset is used to\nstore/localize a custom string for the invite notification that friends\nreceive. See\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 41,
+                            "offset": 40
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 160
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                        "href": "/production/promotion/invite-prompts#setting-notification-options"
+                    },
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Setting Notification Options",
+                            "position": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 2,
+                                    "offset": 161
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 30,
+                                    "offset": 189
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 160
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 98,
+                            "offset": 257
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nfor details.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 98,
+                            "offset": 257
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 13,
+                            "offset": 270
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 13,
+                    "offset": 270
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

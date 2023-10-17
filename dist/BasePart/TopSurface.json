@@ -1,0 +1,211 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "The TopSurface property determines the type of surface used for the +Y\ndirection of a part. When two parts' faces are placed next to each other,\nthey may create a joint between them. If set to Motor, the\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 204
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.TopSurfaceInput"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 204
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 33,
+                            "offset": 236
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " determines how a motor joint should\nbehave.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 33,
+                            "offset": 236
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 8,
+                            "offset": 280
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 8,
+                    "offset": 280
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "Most SurfaceTypes render a texture on the part face if the\n",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 282
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 341
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BasePart.Material"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 1,
+                            "offset": 341
+                        },
+                        "end": {
+                            "line": 8,
+                            "column": 26,
+                            "offset": 366
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " is set to Plastic. Some SurfaceTypes - Hinge,\nMotor and SteppingMotor - will render a 3D adornment instead. If this\nproperty is selected in the Properties window, it will be highlighted in\nthe game world similar to that of a ",
+                    "position": {
+                        "start": {
+                            "line": 8,
+                            "column": 26,
+                            "offset": 366
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 37,
+                            "offset": 592
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.SurfaceSelection"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 37,
+                            "offset": 592
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 61,
+                            "offset": 616
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 61,
+                            "offset": 616
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 62,
+                            "offset": 617
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 282
+                },
+                "end": {
+                    "line": 11,
+                    "column": 62,
+                    "offset": 617
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

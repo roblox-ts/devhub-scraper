@@ -1,0 +1,328 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "When enabled, this property will render text on multiple lines within a\n",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 72
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel|GUI"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 1,
+                            "offset": 72
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 93
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " element's space so that ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 93
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 47,
+                            "offset": 118
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextBounds"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 47,
+                            "offset": 118
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 75,
+                            "offset": 146
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nwill never exceed the ",
+                    "position": {
+                        "start": {
+                            "line": 2,
+                            "column": 75,
+                            "offset": 146
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 23,
+                            "offset": 169
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiBase2d.AbsoluteSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 23,
+                            "offset": 169
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 53,
+                            "offset": 199
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " of the UI element.",
+                    "position": {
+                        "start": {
+                            "line": 3,
+                            "column": 53,
+                            "offset": 199
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 72,
+                            "offset": 218
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 72,
+                    "offset": 218
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "This is achieved by breaking long lines of text into multiple lines. Line\nbreaks will prefer whitespace; should a long unbroken word exceed the\nwidth of the element, that word will be broken into multiple lines.",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 220
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 68,
+                            "offset": 431
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 220
+                },
+                "end": {
+                    "line": 7,
+                    "column": 68,
+                    "offset": 431
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "If further line breaks would cause the vertical height of the text (the Y\ncomponent of ",
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 433
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 14,
+                            "offset": 520
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.TextLabel.TextBounds"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 14,
+                            "offset": 520
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 42,
+                            "offset": 548
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": ") to exceed the vertical height\nof the element (the Y component of ",
+                    "position": {
+                        "start": {
+                            "line": 10,
+                            "column": 42,
+                            "offset": 548
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 36,
+                            "offset": 615
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.GuiBase2d.AbsoluteSize"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 36,
+                            "offset": 615
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 66,
+                            "offset": 645
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "), then\nthat line will not be rendered at all.",
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 66,
+                            "offset": 645
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 39,
+                            "offset": 691
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 433
+                },
+                "end": {
+                    "line": 12,
+                    "column": 39,
+                    "offset": 691
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

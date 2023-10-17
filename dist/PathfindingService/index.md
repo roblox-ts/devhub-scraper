@@ -1,29 +1,8 @@
-**PathfindingService** is used to find paths between two points. These paths
-make sure that characters can move between the points without running into
-walls or other obstacles. Paths can be used for both player-controlled
-characters and non-player characters.
+**PathfindingService** is used to find logical paths between two points,
+ensuring that characters can move between the points without running into
+walls or other obstacles. By default, the shortest path is calculated, but you
+can implement pathfinding modifiers to compute smarter paths across various
+materials, around defined regions, or through obstacles.
 
-This service has one function, [CreatePath()](https://create.roblox.com/docs/reference/engine/classes/PathfindingService#CreatePath),
-which creates a [Path](https://create.roblox.com/docs/reference/engine/classes/Path) object based on various parameters.
-
-## Navigation Mesh
-
-**PathfindingService** generates a "navigation mesh" over all parts in a place
-while the game is running. Any path that is created with the service will stay
-within the mesh. If the geometry of the place changes — for example, if
-a part is created or a part moves — the navigation mesh will be
-recalculated.
-
-To see the navigation mesh for a place:
-
-1. Open the place in Studio.
-2. Navigate to **File** → **Settings...**.
-3. In the **Studio** tab, under **Visualization**, toggle on the **Show
-   Navigation Mesh** setting. The mesh will then show up in the 3D view.
-
-The purple areas show where a character can walk, while the non-colored areas
-are considered blocked. Studio also displays arrows on top of the mesh which
-show where a character would have to **jump** to reach one part of the mesh
-from another.
-
-![undefined](https://prod.docsiteassets.roblox.com/assets/blt1e4f3f08b0e04301/NavigationMesh.jpg)
+See [Character Pathfinding](https://create.roblox.com/docs/characters/pathfinding) for usage
+details.

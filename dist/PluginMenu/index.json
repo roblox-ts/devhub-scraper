@@ -1,0 +1,897 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "A context menu that can be shown in Studio. It displays a list of\nPluginActions and supports submenus.",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 37,
+                            "offset": 102
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 2,
+                    "column": 37,
+                    "offset": 102
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "PluginMenus must be created using the ",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 1,
+                            "offset": 104
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 39,
+                            "offset": 142
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.Plugin:CreatePluginMenu()"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 39,
+                            "offset": 142
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 72,
+                            "offset": 175
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\nfunction in order to work as expected.",
+                    "position": {
+                        "start": {
+                            "line": 4,
+                            "column": 72,
+                            "offset": 175
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 39,
+                            "offset": 214
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 104
+                },
+                "end": {
+                    "line": 5,
+                    "column": 39,
+                    "offset": 214
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "See also:",
+                    "position": {
+                        "start": {
+                            "line": 7,
+                            "column": 1,
+                            "offset": 216
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 10,
+                            "offset": 225
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 216
+                },
+                "end": {
+                    "line": 7,
+                    "column": 10,
+                    "offset": 225
+                }
+            }
+        },
+        {
+            "type": "text",
+            "value": "\n"
+        },
+        {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PluginAction"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 3,
+                                    "offset": 229
+                                },
+                                "end": {
+                                    "line": 9,
+                                    "column": 23,
+                                    "offset": 249
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", an object that represents a generic performable action\nin Roblox Studio, with no directly associated ",
+                            "position": {
+                                "start": {
+                                    "line": 9,
+                                    "column": 23,
+                                    "offset": 249
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 49,
+                                    "offset": 354
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Toolbar"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 49,
+                                    "offset": 354
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 58,
+                                    "offset": 363
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": " or ",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 58,
+                                    "offset": 363
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 62,
+                                    "offset": 367
+                                }
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Enum.Button"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 62,
+                                    "offset": 367
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 75,
+                                    "offset": 380
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 10,
+                                    "column": 75,
+                                    "offset": 380
+                                },
+                                "end": {
+                                    "line": 10,
+                                    "column": 76,
+                                    "offset": 381
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 9,
+                            "column": 1,
+                            "offset": 227
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 76,
+                            "offset": 381
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.Plugin:CreatePluginAction()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 3,
+                                    "offset": 384
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 38,
+                                    "offset": 419
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", creates a PluginAction.",
+                            "position": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 38,
+                                    "offset": 419
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 63,
+                                    "offset": 444
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 11,
+                            "column": 1,
+                            "offset": 382
+                        },
+                        "end": {
+                            "line": 11,
+                            "column": 63,
+                            "offset": 444
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PluginMenu.Title"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 3,
+                                    "offset": 447
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 27,
+                                    "offset": 471
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", the text to be displayed when used as a sub menu.",
+                            "position": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 27,
+                                    "offset": 471
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 78,
+                                    "offset": 522
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 12,
+                            "column": 1,
+                            "offset": 445
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 78,
+                            "offset": 522
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PluginMenu.Icon"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 3,
+                                    "offset": 525
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 26,
+                                    "offset": 548
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", the icon to be displayed when used as a sub menu.",
+                            "position": {
+                                "start": {
+                                    "line": 13,
+                                    "column": 26,
+                                    "offset": 548
+                                },
+                                "end": {
+                                    "line": 13,
+                                    "column": 77,
+                                    "offset": 599
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 13,
+                            "column": 1,
+                            "offset": 523
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 77,
+                            "offset": 599
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PluginMenu:AddAction()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 3,
+                                    "offset": 602
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 33,
+                                    "offset": 632
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", adds the given action to the menu.",
+                            "position": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 33,
+                                    "offset": 632
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 69,
+                                    "offset": 668
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 14,
+                            "column": 1,
+                            "offset": 600
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 69,
+                            "offset": 668
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PluginMenu:AddNewAction()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 3,
+                                    "offset": 671
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 36,
+                                    "offset": 704
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", creates a temporary action that is hidden\nfrom Studio's customize shortcuts window.",
+                            "position": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 36,
+                                    "offset": 704
+                                },
+                                "end": {
+                                    "line": 16,
+                                    "column": 44,
+                                    "offset": 791
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 15,
+                            "column": 1,
+                            "offset": 669
+                        },
+                        "end": {
+                            "line": 16,
+                            "column": 44,
+                            "offset": 791
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PluginMenu:AddMenu()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 3,
+                                    "offset": 794
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 31,
+                                    "offset": 822
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", adds the given menu as a separator.",
+                            "position": {
+                                "start": {
+                                    "line": 17,
+                                    "column": 31,
+                                    "offset": 822
+                                },
+                                "end": {
+                                    "line": 17,
+                                    "column": 68,
+                                    "offset": 859
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 17,
+                            "column": 1,
+                            "offset": 792
+                        },
+                        "end": {
+                            "line": 17,
+                            "column": 68,
+                            "offset": 859
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PluginMenu:AddSeparator()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 3,
+                                    "offset": 862
+                                },
+                                "end": {
+                                    "line": 18,
+                                    "column": 36,
+                                    "offset": 895
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", adds a separator between items in the\nmenu",
+                            "position": {
+                                "start": {
+                                    "line": 18,
+                                    "column": 36,
+                                    "offset": 895
+                                },
+                                "end": {
+                                    "line": 19,
+                                    "column": 7,
+                                    "offset": 941
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 18,
+                            "column": 1,
+                            "offset": 860
+                        },
+                        "end": {
+                            "line": 19,
+                            "column": 7,
+                            "offset": 941
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PluginMenu:Clear()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 3,
+                                    "offset": 944
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 29,
+                                    "offset": 970
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", clears the menu.",
+                            "position": {
+                                "start": {
+                                    "line": 20,
+                                    "column": 29,
+                                    "offset": 970
+                                },
+                                "end": {
+                                    "line": 20,
+                                    "column": 47,
+                                    "offset": 988
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 20,
+                            "column": 1,
+                            "offset": 942
+                        },
+                        "end": {
+                            "line": 20,
+                            "column": 47,
+                            "offset": 988
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Class.PluginMenu:ShowAsync()"
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 3,
+                                    "offset": 991
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 33,
+                                    "offset": 1021
+                                }
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "value": ", shows the menu at the mouse cursor. Yields\nuntil either an item is selected or the menu is closed. The selected action\nfires its Triggered event.",
+                            "position": {
+                                "start": {
+                                    "line": 21,
+                                    "column": 33,
+                                    "offset": 1021
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 29,
+                                    "offset": 1172
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 21,
+                            "column": 1,
+                            "offset": 989
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 29,
+                            "offset": 1172
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 9,
+                    "column": 1,
+                    "offset": 227
+                },
+                "end": {
+                    "line": 23,
+                    "column": 29,
+                    "offset": 1172
+                }
+            }
+        }
+    ],
+    "data": {
+        "quirksMode": false
+    },
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        }
+    }
+}

@@ -1,10 +1,3 @@
-Read only property that shows the current playback [PlaybackState](https://developer.roblox.com/en-us/api-reference/enum/PlaybackState) of
-the [Tween](https://create.roblox.com/docs/reference/engine/classes/Tween). PlaybackState is an Enum type variable with the following
-possible values.
-
-- Delayed - The tween is waiting to repeat due to the DelayTime property
-  of the Tween's [TweenInfo](https://developer.roblox.com/en-us/api-reference/datatype/TweenInfo)
-- Playing - The tween is playing normally
-- Paused - The tween has been paused
-- Completed - The tween has completed successfully
-- Cancelled - The tween has been cancelled
+Read-only property that shows the current stage for the [`Tween`](https://create.roblox.com/docs/reference/engine/classes/Tween)
+animation. See `Enum.PlaybackState` for descriptions of each state. Change
+using functions like [`Tween:Play()`](https://create.roblox.com/docs/reference/engine/classes/Tween#Play).
