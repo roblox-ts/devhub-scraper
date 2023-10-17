@@ -6,6 +6,7 @@ export const API_DUMP_URL = "https://raw.githubusercontent.com/MaximumADHD/Roblo
 export const CREATE_DOCS_URL = "https://create.roblox.com/docs";
 export const CLASS_URL = `${CREATE_DOCS_URL}/reference/engine/classes`;
 export const ENUM_URL = `${CREATE_DOCS_URL}/reference/engine/enums`;
+export const DATA_TYPE_URL = `${CREATE_DOCS_URL}/reference/engine/datatypes`;
 export const ASSETS_SITE_URL = "https://prod.docsiteassets.roblox.com";
 
 export const BUILD_ID_REGEX = /"buildId":"([^"]+)"/;

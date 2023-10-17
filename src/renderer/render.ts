@@ -1,4 +1,4 @@
-import { CLASS_URL, ENUM_URL } from "../constants";
+import { CLASS_URL, DATA_TYPE_URL, ENUM_URL } from "../constants";
 import md from "../nodes";
 import { assetUrl, url } from "../urls";
 import { assert } from "../util/assert";
@@ -74,6 +74,12 @@ function renderCodeElementNode(node: md.CodeElementNode): string {
 		if (enumName) {
 			const text = textOverride ?? `Enum.${enumName}`;
 			return `[\`${text}\`](${ENUM_URL}/${enumName})`;
+		}
+	} else if (namespaceName === "DataType") {
+		const dataTypeName = pathSegments.shift();
+		if (dataTypeName) {
+			const text = textOverride ?? dataTypeName;
+			return `[\`${text}\`](${DATA_TYPE_URL}/${dataTypeName})`;
 		}
 	}
 
