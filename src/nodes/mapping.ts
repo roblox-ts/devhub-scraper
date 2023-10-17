@@ -9,6 +9,7 @@ export interface NodesByType {
 export interface ElementNodesByTag {
 	[md.ElementTag.a]: md.AnchorElementNode;
 	[md.ElementTag.b]: md.BoldTextElementNode;
+	[md.ElementTag.blockquote]: md.BlockQuoteElementNode;
 	[md.ElementTag.br]: md.BreakElementNode;
 	[md.ElementTag.code]: md.CodeElementNode;
 	[md.ElementTag.em]: md.EmphasizedTextElementNode;

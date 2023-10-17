@@ -7,6 +7,7 @@ export enum NodeType {
 export enum ElementTag {
 	a = "a",
 	b = "b",
+	blockquote = "blockquote",
 	br = "br",
 	code = "code",
 	em = "em",

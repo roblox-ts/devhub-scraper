@@ -33,6 +33,8 @@ export interface AnchorElementNode extends md.ElementNode<md.ElementTag.a> {
 	properties: { href: string };
 }
 
+export interface BlockQuoteElementNode extends md.ElementNode<md.ElementTag.blockquote> {}
+
 export interface BoldTextElementNode extends md.ElementNode<md.ElementTag.b | md.ElementTag.strong> {}
 
 export interface BreakElementNode extends md.ElementNode<md.ElementTag.br> {}

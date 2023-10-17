@@ -29,6 +29,15 @@ function renderBoldTextElementNode(node: md.BoldTextElementNode): string {
 	return `**${renderNodeChildren(node.children)}**`;
 }
 
+function renderBlockQuoteElementNode(node: md.BlockQuoteElementNode): string {
+	const innerText = renderNodeChildren(node.children);
+	return innerText
+		.split("\n")
+		.filter(v => v.trim().length > 0)
+		.map(v => `> ${v}`)
+		.join("\n");
+}
+
 function renderAnchorElementNode(node: md.AnchorElementNode): string {
 	return `[${renderNodeChildren(node.children)}](${url(node.properties.href)})`;
 }
@@ -204,6 +213,7 @@ function renderUnorderedListElementNode(node: md.UnorderedListElementNode): stri
 const TAG_TO_RENDERER = {
 	[md.ElementTag.a]: renderAnchorElementNode,
 	[md.ElementTag.b]: renderBoldTextElementNode,
+	[md.ElementTag.blockquote]: renderBlockQuoteElementNode,
 	[md.ElementTag.br]: renderBreakElementNode,
 	[md.ElementTag.code]: renderCodeElementNode,
 	[md.ElementTag.em]: renderEmphasizedTextElementNode,
