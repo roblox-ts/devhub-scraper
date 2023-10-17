@@ -1,4 +1,4 @@
-import axios, { AxiosError } from "axios";
+import axios, { AxiosError, AxiosResponse } from "axios";
 import fs from "fs-extra";
 import path from "path";
 import { ApiDump } from "./api";
@@ -22,16 +22,17 @@ function renderDescription(node: md.Node): string {
 async function write(buildId: string, className: string) {
 	const url = `${CREATE_DOCS_URL}/_next/data/${buildId}/reference/engine/classes/${className}.json`;
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	let apiReference!: any;
+	let response!: AxiosResponse<any, any>;
 	try {
-		const response = await axios.get(url);
-		apiReference = response.data.pageProps.data.apiReference;
+		response = await axios.get(url);
 	} catch (e) {
 		if (e instanceof AxiosError) {
 			assert(e.status !== 429, "Rate limited");
 		}
 		return;
 	}
+
+	const apiReference = response.data.pageProps.data.apiReference;
 
 	if (apiReference.description !== "") {
 		await fs.outputFile(path.join(DIST, className, "index.md"), renderDescription(apiReference.description));
@@ -40,6 +41,16 @@ async function write(buildId: string, className: string) {
 		if (property.description === "") continue;
 		const [, propName] = property.name.split(".");
 		await fs.outputFile(path.join(DIST, className, `${propName}.md`), renderDescription(property.description));
+	}
+	for (const method of apiReference.methods) {
+		if (method.description === "") continue;
+		const [, methodName] = method.name.split(":");
+		await fs.outputFile(path.join(DIST, className, `${methodName}.md`), renderDescription(method.description));
+	}
+	for (const event of apiReference.events) {
+		if (event.description === "") continue;
+		const [, eventName] = event.name.split(".");
+		await fs.outputFile(path.join(DIST, className, `${eventName}.md`), renderDescription(event.description));
 	}
 }
 
@@ -50,10 +61,10 @@ async function main() {
 	const tasks = new Array<string>();
 
 	// debugging
-	// tasks.push("Accessory");
+	tasks.push("CollectionService");
 
 	for (const apiClass of apiDump.Classes) {
-		tasks.push(apiClass.Name);
+		// tasks.push(apiClass.Name);
 	}
 
 	const buildId = await getBuildId();
