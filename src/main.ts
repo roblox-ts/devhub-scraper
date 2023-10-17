@@ -71,7 +71,7 @@ async function main() {
 		throw "Unable to fetch build ID!";
 	}
 
-	for (let i = 416; i < tasks.length; i++) {
+	for (let i = 0; i < tasks.length; i++) {
 		const className = tasks[i];
 		console.log(`[${i + 1} / ${tasks.length}] - ${className}`);
 		await write(buildId, className);
