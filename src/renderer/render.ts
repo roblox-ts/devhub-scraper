@@ -75,7 +75,7 @@ function renderCodeElementNode(node: md.CodeElementNode): string {
 			const text = textOverride ?? `Enum.${enumName}`;
 			return `[\`${text}\`](${ENUM_URL}/${enumName})`;
 		}
-	} else if (namespaceName === "DataType") {
+	} else if (namespaceName === "Datatype") {
 		const dataTypeName = pathSegments.shift();
 		if (dataTypeName) {
 			const text = textOverride ?? dataTypeName;
