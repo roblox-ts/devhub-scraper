@@ -1,1 +1,0 @@
-Vertical space between stacked bubbles, in pixels. Default is `6`.

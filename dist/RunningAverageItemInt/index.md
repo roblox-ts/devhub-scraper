@@ -1,2 +1,0 @@
-A special type of [`StatsItem`](https://create.roblox.com/docs/reference/engine/classes/StatsItem) which measures the runtime average of an
-internal integer value. As of right now, this StatsItem goes unused.

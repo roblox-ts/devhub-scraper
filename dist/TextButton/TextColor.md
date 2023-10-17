@@ -1,1 +1,0 @@
-This property determines the color of text.

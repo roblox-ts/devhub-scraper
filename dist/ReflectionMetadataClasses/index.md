@@ -1,1 +1,0 @@
-Acts as a [`Folder`](https://create.roblox.com/docs/reference/engine/classes/Folder) for [`ReflectionMetadataClass`](https://create.roblox.com/docs/reference/engine/classes/ReflectionMetadataClass) objects.

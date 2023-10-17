@@ -1,1 +1,0 @@
-This property is discontinued and no longer takes effect.

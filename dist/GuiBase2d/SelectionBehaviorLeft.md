@@ -1,1 +1,0 @@
-Customizes gamepad selection behavior in the left direction.

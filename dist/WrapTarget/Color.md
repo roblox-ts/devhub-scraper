@@ -1,1 +1,0 @@
-Sets color used for the debug rendering. See [`WrapTarget.DebugMode`](https://create.roblox.com/docs/reference/engine/classes/WrapTarget#DebugMode)

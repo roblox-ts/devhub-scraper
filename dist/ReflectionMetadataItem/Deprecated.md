@@ -1,2 +1,0 @@
-When an object is deprecated, it should not be used anymore for new
-scripts.

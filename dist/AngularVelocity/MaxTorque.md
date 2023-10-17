@@ -1,1 +1,0 @@
-Magnitude of the maximum torque the constraint can apply.

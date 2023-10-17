@@ -1,1 +1,0 @@
-Base class of all 'Pose Instance' objects.

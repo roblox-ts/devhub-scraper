@@ -1,2 +1,0 @@
-[`AudioPlayer`](https://create.roblox.com/docs/reference/engine/classes/AudioPlayer) is used to play audio assets. It provides a single
-**Output** pin which can be connected to other pins via [`Wires`](https://create.roblox.com/docs/reference/engine/classes/Wire).

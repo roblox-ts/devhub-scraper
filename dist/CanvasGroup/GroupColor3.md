@@ -1,1 +1,0 @@
-Color tint that applies to all descendants.

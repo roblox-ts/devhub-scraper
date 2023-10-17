@@ -1,1 +1,0 @@
-The amount of time between echoes, in seconds. Ranges from 0.001 to 5.

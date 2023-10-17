@@ -1,1 +1,0 @@
-Time, in seconds, before any reverberation begins. Ranges from 0 to 0.3.

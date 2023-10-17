@@ -1,1 +1,0 @@
-Size of bubble text. Default is `16`.

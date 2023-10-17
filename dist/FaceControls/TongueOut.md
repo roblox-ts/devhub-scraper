@@ -1,1 +1,0 @@
-Extends the tip of the tongue out of the mouth

@@ -1,8 +1,0 @@
-The WrapLayer object defines a 3D accessory's inner and outer surfaces and
-other properties related to layering accessories. These surfaces, or the Inner
-Cage and Outer Cage, are similar to collision boxes, and describe the surfaces
-of which other 3D accessories can be placed without clipping or breaking.
-
-Internally, WrapLayer also uses the UV layout of the Inner and Outer cages to
-match coordinates to another 3D object's cage. This powers the deformation of
-objects around differently shaped avatars and underlying accessories.

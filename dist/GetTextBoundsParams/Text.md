@@ -1,1 +1,0 @@
-The text being measured.

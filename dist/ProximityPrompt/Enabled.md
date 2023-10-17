@@ -1,2 +1,0 @@
-This property indicates whether or this [`ProximityPrompt`](https://create.roblox.com/docs/reference/engine/classes/ProximityPrompt) should be
-shown.

@@ -1,2 +1,0 @@
-Sets the upper rotation limit of the [`BallSocketConstraint`](https://create.roblox.com/docs/reference/engine/classes/BallSocketConstraint), as long
-as [`LimitsEnabled`](https://create.roblox.com/docs/reference/engine/classes/BallSocketConstraint#LimitsEnabled) is true.

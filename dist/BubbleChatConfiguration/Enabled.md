@@ -1,1 +1,0 @@
-Whether text chat bubbles are enabled. Default is `false`.

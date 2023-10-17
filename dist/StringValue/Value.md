@@ -1,1 +1,0 @@
-The stored [string](https://create.roblox.com/docs/luau/strings).

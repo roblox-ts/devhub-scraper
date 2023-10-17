@@ -1,1 +1,0 @@
-Closes the left eyelid. This is a required pose for avatars.

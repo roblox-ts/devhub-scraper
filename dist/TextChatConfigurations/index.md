@@ -1,3 +1,0 @@
-The parental class of all text chat configuration settings, including
-[`BubbleChatConfiguration`](https://create.roblox.com/docs/reference/engine/classes/BubbleChatConfiguration), [`ChatInputBarConfiguration`](https://create.roblox.com/docs/reference/engine/classes/ChatInputBarConfiguration), and
-[`ChatWindowConfiguration`](https://create.roblox.com/docs/reference/engine/classes/ChatWindowConfiguration).

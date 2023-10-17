@@ -1,2 +1,0 @@
-BevelMesh is an abstract class that [`BlockMesh`](https://create.roblox.com/docs/reference/engine/classes/BlockMesh) and [`CylinderMesh`](https://create.roblox.com/docs/reference/engine/classes/CylinderMesh)
-inherit from.

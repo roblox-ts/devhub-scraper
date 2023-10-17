@@ -1,2 +1,0 @@
-This property determines whether or not text should wrap at the edges of
-the object.

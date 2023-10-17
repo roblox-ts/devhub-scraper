@@ -1,1 +1,0 @@
-Returns the number of internal DataModel jobs actively being processed.

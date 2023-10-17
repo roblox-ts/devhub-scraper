@@ -1,2 +1,0 @@
-This used to specify a grid constraint of the part's size. No longer does
-anything.

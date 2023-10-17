@@ -1,1 +1,0 @@
-Category Material this variant belongs to.

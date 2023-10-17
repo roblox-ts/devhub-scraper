@@ -1,1 +1,0 @@
-A container object for a single [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) value.

@@ -1,2 +1,0 @@
-Sets the internal sampling method used to measure elapsed time with
-consistency across platforms.

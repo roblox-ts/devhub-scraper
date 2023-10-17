@@ -1,1 +1,0 @@
-Extra space between bubbles and their adornee, in studs. Default is `0`.

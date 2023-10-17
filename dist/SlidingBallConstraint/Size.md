@@ -1,1 +1,0 @@
-The constraint's visualized size.

@@ -1,2 +1,0 @@
-A currently unused object whose functionality was split into
-[`ReflectionMetadataClasses`](https://create.roblox.com/docs/reference/engine/classes/ReflectionMetadataClasses) and [`ReflectionMetadataEnums`](https://create.roblox.com/docs/reference/engine/classes/ReflectionMetadataEnums).

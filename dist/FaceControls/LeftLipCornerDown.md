@@ -1,1 +1,0 @@
-Lowers the corners of the mouth downwards in a frown

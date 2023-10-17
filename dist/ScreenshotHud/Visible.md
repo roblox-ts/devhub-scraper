@@ -1,1 +1,0 @@
-Determines whether the [`ScreenshotHud`](https://create.roblox.com/docs/reference/engine/classes/ScreenshotHud) is visible.

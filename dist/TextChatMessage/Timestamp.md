@@ -1,1 +1,0 @@
-A timestamp of when the message was originally sent.

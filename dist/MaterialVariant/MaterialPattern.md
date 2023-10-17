@@ -1,1 +1,0 @@
-Determines texture tiling method.

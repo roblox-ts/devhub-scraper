@@ -1,2 +1,0 @@
-The furthest distance that I player can be from the Dialog's parent to
-start a conversation.

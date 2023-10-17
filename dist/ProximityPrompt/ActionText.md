@@ -1,1 +1,0 @@
-This property determines the action text shown to the user.

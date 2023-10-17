@@ -1,1 +1,0 @@
-This property determines the height in offsets of one line of text.

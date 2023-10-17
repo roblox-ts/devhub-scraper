@@ -1,1 +1,0 @@
-Maximum distance from the camera that bubbles are shown. Default is `100`.

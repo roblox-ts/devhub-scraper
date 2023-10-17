@@ -1,1 +1,0 @@
-This property refers to a revision of a specific package

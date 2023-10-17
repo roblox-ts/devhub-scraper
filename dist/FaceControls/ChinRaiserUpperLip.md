@@ -1,1 +1,0 @@
-Moves the upper lip when ChinRaiser is engaged and touching the upper lip

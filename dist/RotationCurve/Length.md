@@ -1,1 +1,0 @@
-Number of rotation keys in this curve.

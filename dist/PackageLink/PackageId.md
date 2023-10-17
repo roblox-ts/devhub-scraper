@@ -1,1 +1,0 @@
-The id of the asset this package corresponds to.

@@ -1,1 +1,0 @@
-This service is used for interacting with [`ScriptDocument`](https://create.roblox.com/docs/reference/engine/classes/ScriptDocument) instances.

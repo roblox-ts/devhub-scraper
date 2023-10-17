@@ -1,1 +1,0 @@
-This property determines the font size to be used.

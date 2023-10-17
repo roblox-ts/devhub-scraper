@@ -1,1 +1,0 @@
-Raises the interior half of the left brow upwards

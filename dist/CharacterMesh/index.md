@@ -1,2 +1,0 @@
-This property modifies the appearance of an R6 body part. It has no effect in
-R15 characters.

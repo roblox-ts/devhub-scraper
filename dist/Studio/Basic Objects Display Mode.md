@@ -1,1 +1,0 @@
-Sets the scrolling mode of the `Advanced Objects` tab in Roblox Studio.

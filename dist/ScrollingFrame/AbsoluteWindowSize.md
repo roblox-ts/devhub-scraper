@@ -1,1 +1,0 @@
-The size in offsets of the frame, without the scrollbars.

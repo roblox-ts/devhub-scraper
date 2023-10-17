@@ -1,1 +1,0 @@
-The maximum force that the winch motor can apply.

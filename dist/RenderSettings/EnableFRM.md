@@ -1,1 +1,0 @@
-Toggles the enabled state of the framerate manager.

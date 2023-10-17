@@ -1,2 +1,0 @@
-The [`Instance`](https://create.roblox.com/docs/reference/engine/classes/Instance) for which to apply the Highlight, to insert a
-Highlight for an [`Instance`](https://create.roblox.com/docs/reference/engine/classes/Instance) outside of a child/parent relationship.

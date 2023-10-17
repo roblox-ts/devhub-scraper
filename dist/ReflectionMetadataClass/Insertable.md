@@ -1,2 +1,0 @@
-Toggles whether or not this object can be inserted through the Advanced
-Objects menu.

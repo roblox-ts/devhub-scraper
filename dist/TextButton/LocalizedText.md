@@ -1,2 +1,0 @@
-This property sets whether a [`TextButton`](https://create.roblox.com/docs/reference/engine/classes/TextButton) should be
-[`GuiBase2d.Localize`](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#Localize) or not.

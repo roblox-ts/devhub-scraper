@@ -1,3 +1,0 @@
-This property indicates whether the [`VideoFrame.Video`](https://create.roblox.com/docs/reference/engine/classes/VideoFrame#Video) is currently
-playing. It can be set to start or pause playback as an alternative to the
-[`VideoFrame:Play()`](https://create.roblox.com/docs/reference/engine/classes/VideoFrame#Play) and [`VideoFrame:Pause()`](https://create.roblox.com/docs/reference/engine/classes/VideoFrame#Pause) functions.

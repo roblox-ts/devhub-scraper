@@ -1,1 +1,0 @@
-Squints the right eye

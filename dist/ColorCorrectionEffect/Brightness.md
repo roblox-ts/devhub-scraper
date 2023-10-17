@@ -1,3 +1,0 @@
-Brightness determines by how much the colors of pixels will be shifted. A
-value of -1 will cause all pixels to be completely black while a value of
-1 will cause them to be white.

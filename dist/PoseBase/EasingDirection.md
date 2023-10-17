@@ -1,1 +1,0 @@
-The easing direction to use to reach the next Pose's value.

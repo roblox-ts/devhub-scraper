@@ -1,1 +1,0 @@
-The originating attachment of the link.

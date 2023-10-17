@@ -1,1 +1,0 @@
-Returns true if any menu of [`CoreGui`](https://create.roblox.com/docs/reference/engine/classes/CoreGui) is open.

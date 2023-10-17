@@ -1,1 +1,0 @@
-Bends the tongue down

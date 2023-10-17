@@ -1,1 +1,0 @@
-Controls how distorted the input stream will become. Ranges from 0 to 1.

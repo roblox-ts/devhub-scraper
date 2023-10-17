@@ -1,1 +1,0 @@
-Screen location of the close button.

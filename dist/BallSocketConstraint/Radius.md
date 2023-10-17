@@ -1,1 +1,0 @@
-The visualized radius of the [`BallSocketConstraint`](https://create.roblox.com/docs/reference/engine/classes/BallSocketConstraint).

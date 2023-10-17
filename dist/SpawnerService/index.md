@@ -1,2 +1,0 @@
-An internal service that is responsible for the behavior or
-[`SpawnLocation`](https://create.roblox.com/docs/reference/engine/classes/SpawnLocation)s. Its functionality is not accessible to developers.

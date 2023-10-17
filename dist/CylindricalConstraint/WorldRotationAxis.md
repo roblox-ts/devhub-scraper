@@ -1,1 +1,0 @@
-The unit vector direction of the rotation axis in world coordinates.

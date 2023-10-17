@@ -1,2 +1,0 @@
-This property sets whether a [`TextLabel`](https://create.roblox.com/docs/reference/engine/classes/TextLabel) should be
-[`GuiBase2d.Localize`](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#Localize) or not.

@@ -1,2 +1,0 @@
-The perceived angular size of the moon while using this skybox, in
-degrees.

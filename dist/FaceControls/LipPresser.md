@@ -1,1 +1,0 @@
-Presses the lips together

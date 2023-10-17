@@ -1,1 +1,0 @@
-A reference to the [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) hit by the sensor.
