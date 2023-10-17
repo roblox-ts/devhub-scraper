@@ -3,5 +3,5 @@ CustomPhysicalProperties lets you customize various physical aspects of a
 
 If enabled, this property let's you configure these physical properties.
 If disabled, these physical properties are determined by the
-[`BasePart.Material`](https://create.roblox.com/docs/reference/engine/classes/BasePart#Material) of the part. The page for `Enum.Material`
+[`BasePart.Material`](https://create.roblox.com/docs/reference/engine/classes/BasePart#Material) of the part. The page for [`Enum.Material`](https://create.roblox.com/docs/reference/engine/enums/Material)
 contains list of the various part materials.

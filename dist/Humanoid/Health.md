@@ -31,6 +31,6 @@ Health is less than [`MaxHealth`](https://create.roblox.com/docs/reference/engin
 #### Death
 
 When the value of the character's health reaches 0, the [`Humanoid`](https://create.roblox.com/docs/reference/engine/classes/Humanoid)
-automatically transitions to the *Dead* `Enum.HumanoidStateType`. In this
+automatically transitions to the *Dead* [`Enum.HumanoidStateType`](https://create.roblox.com/docs/reference/engine/enums/HumanoidStateType). In this
 state, Health is locked to 0; however, there is no error or warning for
 setting the Health of a dead Humanoid to a positive nonzero value.

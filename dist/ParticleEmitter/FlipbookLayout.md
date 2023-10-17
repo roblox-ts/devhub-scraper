@@ -1,6 +1,6 @@
 The [`FlipbookLayout`](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#FlipbookLayout) property
 determines the layout of the texture. It can be any value of the
-`Enum.ParticleFlipbookLayout` enum:
+[`Enum.ParticleFlipbookLayout`](https://create.roblox.com/docs/reference/engine/enums/ParticleFlipbookLayout) enum:
 
 - **None** – Disable flipbook features and use the texture as a
 single static texture over the particle's lifetime.

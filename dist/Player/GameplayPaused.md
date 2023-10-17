@@ -9,5 +9,5 @@ See also:
 - [`Workspace.StreamingEnabled`](https://create.roblox.com/docs/reference/engine/classes/Workspace#StreamingEnabled) which controls whether content
 streaming is enabled
 - [`Workspace.StreamingIntegrityMode`](https://create.roblox.com/docs/reference/engine/classes/Workspace#StreamingIntegrityMode) and
-`Enum.StreamingIntegrityMode` for more details on when gameplay is
+[`Enum.StreamingIntegrityMode`](https://create.roblox.com/docs/reference/engine/enums/StreamingIntegrityMode) for more details on when gameplay is
 paused.

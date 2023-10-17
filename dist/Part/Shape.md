@@ -1,7 +1,7 @@
 The Shape property sets the overall shape of the object to one of a
 predetermined list of built-in shapes.
 
-The `Enum.PartType` enum controls the shape value, and has five possible
+The [`Enum.PartType`](https://create.roblox.com/docs/reference/engine/enums/PartType) enum controls the shape value, and has five possible
 shapes:
 
 | Shape/Value | Description |

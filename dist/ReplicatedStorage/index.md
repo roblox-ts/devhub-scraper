@@ -7,7 +7,7 @@ client-side [`LocalScripts`](https://create.roblox.com/docs/reference/engine/cla
 [`LocalScripts`](https://create.roblox.com/docs/reference/engine/classes/LocalScript) do not run when parented to this service,
 even if they are [`Enabled`](https://create.roblox.com/docs/reference/engine/classes/BaseScript#Enabled). Similarly,
 [`Scripts`](https://create.roblox.com/docs/reference/engine/classes/Script) do not run when parented to this service unless you
-change their `Enum.RunContext` property from its default value of `Legacy`.
+change their [`Enum.RunContext`](https://create.roblox.com/docs/reference/engine/enums/RunContext) property from its default value of `Legacy`.
 
 If a [`ModuleScript`](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) within this service is required by any other script,
 it runs as normal. Such modules typically house code that is shared by the

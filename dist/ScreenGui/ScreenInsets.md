@@ -1,6 +1,6 @@
 This property controls the safe area insets that are applied to the
 contents of this [`ScreenGui`](https://create.roblox.com/docs/reference/engine/classes/ScreenGui). The default of
-`Enum.ScreenInsets|CoreUISafeInsets` keeps all descendant
+[`CoreUISafeInsets`](https://create.roblox.com/docs/reference/engine/enums/ScreenInsets) keeps all descendant
 [`GuiObjects`](https://create.roblox.com/docs/reference/engine/classes/GuiObject) inside the core UI safe area, clear of the
 Roblox top bar buttons and other screen cutouts like the device's camera
 notch. This setting is recommended for any [`ScreenGui`](https://create.roblox.com/docs/reference/engine/classes/ScreenGui) containing
@@ -9,13 +9,13 @@ messages.
 
 ![Mobile device showing UI buttons inside core UI safe area](https://prod.docsiteassets.roblox.com/assets/engine-api/classes/ScreenGui/Core-UI-Safe-Area.png)
 
-If you set this property to `Enum.ScreenInsets|None`, UI objects may be
+If you set this property to [`None`](https://create.roblox.com/docs/reference/engine/enums/ScreenInsets), UI objects may be
 obscured behind core UI objects or device cutouts like the camera notch.
-As such, you should only use `Enum.ScreenInsets|None` for a
+As such, you should only use [`None`](https://create.roblox.com/docs/reference/engine/enums/ScreenInsets) for a
 [`ScreenGui`](https://create.roblox.com/docs/reference/engine/classes/ScreenGui) that contains noninteractive content like background
 images.
 
-If you set this property to `Enum.ScreenInsets|TopbarSafeInsets`, all
+If you set this property to [`TopbarSafeInsets`](https://create.roblox.com/docs/reference/engine/enums/ScreenInsets), all
 descendant [`GuiObjects`](https://create.roblox.com/docs/reference/engine/classes/GuiObject) will be kept between Roblox
 left-most controls and right-most controls within the top bar space. This
 [`ScreenGui`](https://create.roblox.com/docs/reference/engine/classes/ScreenGui) will then automatically adjust its size and position

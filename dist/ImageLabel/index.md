@@ -16,8 +16,8 @@ Packing multiple images into one and using this property can make your
 game's image assets load much quicker, especially if you use many small
 icons in your GUIs.
 - 9-slice images can be created by setting [`ImageLabel.ScaleType`](https://create.roblox.com/docs/reference/engine/classes/ImageLabel#ScaleType) to
-`Enum.ScaleType.Slice`, then [`ImageLabel.SliceCenter`](https://create.roblox.com/docs/reference/engine/classes/ImageLabel#SliceCenter) to the center
+[`Enum.ScaleType`](https://create.roblox.com/docs/reference/engine/enums/ScaleType), then [`ImageLabel.SliceCenter`](https://create.roblox.com/docs/reference/engine/classes/ImageLabel#SliceCenter) to the center
 area of the 9-slice image.
 - Tiled images can be created by setting [`ImageLabel.ScaleType`](https://create.roblox.com/docs/reference/engine/classes/ImageLabel#ScaleType) to
-`Enum.ScaleType.Tile`, then [`ImageLabel.TileSize`](https://create.roblox.com/docs/reference/engine/classes/ImageLabel#TileSize) to be the size of
+[`Enum.ScaleType`](https://create.roblox.com/docs/reference/engine/enums/ScaleType), then [`ImageLabel.TileSize`](https://create.roblox.com/docs/reference/engine/classes/ImageLabel#TileSize) to be the size of
 rendered tiles.

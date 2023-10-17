@@ -20,10 +20,10 @@ the torque will change direction to match the adjusted orientation of the
 attachment.
 
 If [`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/Torque#RelativeTo) is set to
-`Enum.ActuatorRelativeTo|World`, torque will be applied in world coordinates,
+[`World`](https://create.roblox.com/docs/reference/engine/enums/ActuatorRelativeTo), torque will be applied in world coordinates,
 independent of the parent or attachment orientations.
 
 If [`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/Torque#RelativeTo) is set to
-`Enum.ActuatorRelativeTo|Attachment1`, torque will be applied relative to
+[`Attachment1`](https://create.roblox.com/docs/reference/engine/enums/ActuatorRelativeTo), torque will be applied relative to
 [`Attachment1`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment1) and, if the attachment rotates,
 change to match its orientation.

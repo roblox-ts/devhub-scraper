@@ -34,7 +34,7 @@ replicated to a client does not guarantee that all its children are
 replicated. This is particularly important if these instances are being
 accessed by code running on the client, such as in a [`LocalScript`](https://create.roblox.com/docs/reference/engine/classes/LocalScript).
 Using [`ModelStreamingMode`](https://create.roblox.com/docs/reference/engine/classes/Model#ModelStreamingMode) with values such as
-`Enum.ModelStreamingMode|Atomic` can ensure that the entire model and all of
+[`Atomic`](https://create.roblox.com/docs/reference/engine/enums/ModelStreamingMode) can ensure that the entire model and all of
 its descendants are present if the parent model exists on the client, or you
 can use [`WaitForChild()`](https://create.roblox.com/docs/reference/engine/classes/Instance#WaitForChild) when atomicity is not
 desired.

@@ -1,6 +1,6 @@
 This property determines the level of detail that the solid modeled part
 will be shown in. It can be set to the possible values of the
-`Enum.RenderFidelity` enum.
+[`Enum.RenderFidelity`](https://create.roblox.com/docs/reference/engine/enums/RenderFidelity) enum.
 
 By default, solid modeled parts will always be shown in **precise
 fidelity**, no matter how far they are from the camera. This improves

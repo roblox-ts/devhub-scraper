@@ -10,7 +10,7 @@ If set to **UserChoice** then the player's camera movement mode will be
 determined by whatever the player set in the game settings. Otherwise, the
 mode will be set based on this property.
 
-See `Enum.DevTouchCameraMovementMode` for the different camera modes
+See [`Enum.DevTouchCameraMovementMode`](https://create.roblox.com/docs/reference/engine/enums/DevTouchCameraMovementMode) for the different camera modes
 available.
 
 This property has no affect players not on a mobile device.

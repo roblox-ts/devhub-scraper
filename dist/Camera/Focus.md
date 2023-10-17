@@ -17,7 +17,7 @@ Focus will not be automatically updated in the following cases:
 
 In these cases, you should update Focus every frame, using
 [`RunService:BindToRenderStep()`](https://create.roblox.com/docs/reference/engine/classes/RunService#BindToRenderStep) function at the *'Camera'*
-`Enum.RenderPriority`.
+[`Enum.RenderPriority`](https://create.roblox.com/docs/reference/engine/enums/RenderPriority).
 
 Focus has no bearing on the positioning or orientation of the
 [`Camera`](https://create.roblox.com/docs/reference/engine/classes/Camera) (see [`Camera.CFrame`](https://create.roblox.com/docs/reference/engine/classes/Camera#CFrame) for this).

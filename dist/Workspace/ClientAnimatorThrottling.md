@@ -1,4 +1,4 @@
-Specifies the `Enum.ClientAnimatorThrottlingMode` to use for the local
+Specifies the [`Enum.ClientAnimatorThrottlingMode`](https://create.roblox.com/docs/reference/engine/enums/ClientAnimatorThrottlingMode) to use for the local
 client.
 
 When enabled, animations on remotely-simulated [`Model`](https://create.roblox.com/docs/reference/engine/classes/Model) instances

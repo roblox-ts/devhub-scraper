@@ -1,6 +1,6 @@
 The [`FlipbookMode`](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#FlipbookMode) property determines
 the type of the flipbook animation. The property can be any value of the
-`Enum.ParticleFlipbookMode` enum:
+[`Enum.ParticleFlipbookMode`](https://create.roblox.com/docs/reference/engine/enums/ParticleFlipbookMode) enum:
 
 - **Loop** – Continuously play through all frames, starting back at
 the first frame after playing the last.

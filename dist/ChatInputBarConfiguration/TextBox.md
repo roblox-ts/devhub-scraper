@@ -6,7 +6,7 @@ your experience by freely manipulating appearance, location, and layout.
 When opting to set this property to a custom TextBox, you don't need to
 write any code for the following behavior:
 
-- When a user types a message and presses `Enum.KeyCode.Return`, the
+- When a user types a message and presses [`Enum.KeyCode`](https://create.roblox.com/docs/reference/engine/enums/KeyCode), the
 message will be sent to
 [`ChatInputBarConfiguration.TargetTextChannel`](https://create.roblox.com/docs/reference/engine/classes/ChatInputBarConfiguration#TargetTextChannel).
 - When a message is sent, [`TextBox.Text`](https://create.roblox.com/docs/reference/engine/classes/TextBox#Text) will automatically clear.

@@ -1,6 +1,6 @@
 The DevComputerCameraMode property determines the manner in which a player
 moves their camera when using a device with a mouse and keyboard. See
-`Enum.DevComputerCameraMovementMode` for a description of each camera
+[`Enum.DevComputerCameraMovementMode`](https://create.roblox.com/docs/reference/engine/enums/DevComputerCameraMovementMode) for a description of each camera
 control mode available. This property cannot be set using a
 [`LocalScript`](https://create.roblox.com/docs/reference/engine/classes/LocalScript) (it must be set on the server using a [`Script`](https://create.roblox.com/docs/reference/engine/classes/Script)).
 

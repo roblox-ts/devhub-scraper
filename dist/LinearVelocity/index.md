@@ -15,9 +15,9 @@ compare to metric units.
 
 Application of velocity can be controlled through the constraint's
 [`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/LinearVelocity#RelativeTo) property. If set to
-`Enum.ActuatorRelativeTo|World`, force will be applied in world coordinates,
+[`World`](https://create.roblox.com/docs/reference/engine/enums/ActuatorRelativeTo), force will be applied in world coordinates,
 independent of the parent or attachment orientations. If set to
-`Enum.ActuatorRelativeTo|Attachment0` or
-`Enum.ActuatorRelativeTo|Attachment1`, force will be applied relative to
+[`Attachment0`](https://create.roblox.com/docs/reference/engine/enums/ActuatorRelativeTo) or
+[`Attachment1`](https://create.roblox.com/docs/reference/engine/enums/ActuatorRelativeTo), force will be applied relative to
 [`Attachment0`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0) or
 [`Attachment1`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment1) respectively.

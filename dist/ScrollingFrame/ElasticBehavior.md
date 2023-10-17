@@ -14,7 +14,7 @@ The image below demonstrates Enum.Elasticity.Never:
 ![Enum.Elasticity.Never](https://prod.docsiteassets.roblox.com/assets/legacy/ElasticityNever.gif)
 #### Enums
 
-It can be set to several `Enum.ElasticBehavior` enum values, which
+It can be set to several [`Enum.ElasticBehavior`](https://create.roblox.com/docs/reference/engine/enums/ElasticBehavior) enum values, which
 determine how elastic scrolling behaves:
 | Name | Description |
 | - | - |

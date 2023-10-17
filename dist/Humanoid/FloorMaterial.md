@@ -1,4 +1,4 @@
-This is a read-only property that describes the `Enum.Material` the
+This is a read-only property that describes the [`Enum.Material`](https://create.roblox.com/docs/reference/engine/enums/Material) the
 [`Humanoid`](https://create.roblox.com/docs/reference/engine/classes/Humanoid) is currently standing on. It works with both regular
 [`Parts`](https://create.roblox.com/docs/reference/engine/classes/BasePart) and [`Terrain`](https://create.roblox.com/docs/reference/engine/classes/Terrain) voxels.
 

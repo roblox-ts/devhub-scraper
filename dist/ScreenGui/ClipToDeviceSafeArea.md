@@ -1,6 +1,6 @@
 If this property is `true`, all [`GuiObject`](https://create.roblox.com/docs/reference/engine/classes/GuiObject) descendants of this
 [`ScreenGui`](https://create.roblox.com/docs/reference/engine/classes/ScreenGui) will be clipped to the device's safe area (see
-`Enum.ScreenInsets`). The default is `true` to maintain backwards
+[`Enum.ScreenInsets`](https://create.roblox.com/docs/reference/engine/enums/ScreenInsets)). The default is `true` to maintain backwards
 compatibility of UI that is intentionally hidden offscreen, such as
 objects that slide into view from a screen edge when they're needed.
 
@@ -19,5 +19,5 @@ When set to `false`, UI objects may overflow the
 safe area and become obscured
 
 Note that this property will be ignored if you set
-[`ScreenGui.ScreenInsets`](https://create.roblox.com/docs/reference/engine/classes/ScreenGui#ScreenInsets) to `Enum.ScreenInsets|None`, as doing so
+[`ScreenGui.ScreenInsets`](https://create.roblox.com/docs/reference/engine/classes/ScreenGui#ScreenInsets) to [`None`](https://create.roblox.com/docs/reference/engine/enums/ScreenInsets), as doing so
 implies that you intentionally want to disregard the device's safe insets.

@@ -1,6 +1,6 @@
 An object that holds two objects rigidly together. Most commonly created when
 [`BasePart:MakeJoints()`](https://create.roblox.com/docs/reference/engine/classes/BasePart#MakeJoints) is called on parts where Inlet and Stud
-`Enum.SurfaceType` are touching.
+[`Enum.SurfaceType`](https://create.roblox.com/docs/reference/engine/enums/SurfaceType) are touching.
 
 Functionally identical to [`Weld`](https://create.roblox.com/docs/reference/engine/classes/Weld).
 

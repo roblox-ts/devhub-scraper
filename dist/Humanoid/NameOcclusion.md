@@ -1,5 +1,5 @@
 Controls whether a humanoid's name and health bar can be seen behind walls
-or other objects. This property is a `Enum.NameOcclusion` value and can be
+or other objects. This property is a [`Enum.NameOcclusion`](https://create.roblox.com/docs/reference/engine/enums/NameOcclusion) value and can be
 configured to occlude all names, enemy names, or disable occlusion
 entirely.
 

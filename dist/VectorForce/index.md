@@ -30,11 +30,11 @@ attachment; visualize this behavior in how the thruster of a rocket pushes it
 forward, regardless of the rocket's rotation.
 
 If [`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/VectorForce#RelativeTo) is set to
-`Enum.ActuatorRelativeTo|World`, force will be applied in world coordinates,
+[`World`](https://create.roblox.com/docs/reference/engine/enums/ActuatorRelativeTo), force will be applied in world coordinates,
 independent of the parent or attachment orientations; visualize this behavior
 as a directional force like the wind blowing against an object.
 
 If [`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/VectorForce#RelativeTo) is set to
-`Enum.ActuatorRelativeTo|Attachment1`, force will be applied relative to
+[`Attachment1`](https://create.roblox.com/docs/reference/engine/enums/ActuatorRelativeTo), force will be applied relative to
 [`Attachment1`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment1) and, if the attachment rotates, the
 force will change to match its orientation.

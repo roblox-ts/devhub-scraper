@@ -17,7 +17,7 @@ You can use this property to adjust the exposure amount prior to the
 tonemap step to show more detail either in lighter or darker areas. This
 is needed as we move to a HDR pipeline.
 
-When [`Lighting.Technology`](https://create.roblox.com/docs/reference/engine/classes/Lighting#Technology) is set to `Enum.Technology|Legacy`, this
+When [`Lighting.Technology`](https://create.roblox.com/docs/reference/engine/classes/Lighting#Technology) is set to [`Legacy`](https://create.roblox.com/docs/reference/engine/enums/Technology), this
 property has no effect.
 ```lua
 local Lighting = game:GetService("Lighting")

@@ -1,6 +1,6 @@
 Whether the constraint uses **one** or **two** attachments in calculating
 its goal. By default, this is
-`Enum.OrientationAlignmentMode|TwoAttachment`, meaning that the constraint
+[`TwoAttachment`](https://create.roblox.com/docs/reference/engine/enums/OrientationAlignmentMode), meaning that the constraint
 attempts to match the orientation of
 [`Attachment0`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0) with the orientation of
 [`Attachment1`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment1), disregarding
@@ -8,7 +8,7 @@ attempts to match the orientation of
 [`PrimaryAxis`](https://create.roblox.com/docs/reference/engine/classes/AlignOrientation#PrimaryAxis), and
 [`SecondaryAxis`](https://create.roblox.com/docs/reference/engine/classes/AlignOrientation#SecondaryAxis).
 
-If set to `Enum.OrientationAlignmentMode|OneAttachment`, the constraint
+If set to [`OneAttachment`](https://create.roblox.com/docs/reference/engine/enums/OrientationAlignmentMode), the constraint
 disregards [`Attachment1`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment1) and attempts to
 match the orientation of [`Attachment0`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment0) with
 the orientation of [`CFrame`](https://create.roblox.com/docs/reference/engine/classes/AlignOrientation#CFrame), or match the

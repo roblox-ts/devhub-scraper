@@ -7,7 +7,7 @@ function in order to work as expected.
 See also:
 
 - [`PluginAction`](https://create.roblox.com/docs/reference/engine/classes/PluginAction), an object that represents a generic performable action
-in Roblox Studio, with no directly associated `Toolbar` or `Enum.Button`.
+in Roblox Studio, with no directly associated `Toolbar` or [`Enum.Button`](https://create.roblox.com/docs/reference/engine/enums/Button).
 - [`Plugin:CreatePluginAction()`](https://create.roblox.com/docs/reference/engine/classes/Plugin#CreatePluginAction), creates a PluginAction.
 - [`PluginMenu.Title`](https://create.roblox.com/docs/reference/engine/classes/PluginMenu#Title), the text to be displayed when used as a sub menu.
 - [`PluginMenu.Icon`](https://create.roblox.com/docs/reference/engine/classes/PluginMenu#Icon), the icon to be displayed when used as a sub menu.

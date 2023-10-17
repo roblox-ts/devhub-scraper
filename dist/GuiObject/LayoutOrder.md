@@ -1,7 +1,7 @@
 This property controls the sorting order of a [`GUI`](https://create.roblox.com/docs/reference/engine/classes/GuiObject) when
 using a [`UIGridStyleLayout`](https://create.roblox.com/docs/reference/engine/classes/UIGridStyleLayout) (such as [`UIListLayout`](https://create.roblox.com/docs/reference/engine/classes/UIListLayout) or
 [`UIPageLayout`](https://create.roblox.com/docs/reference/engine/classes/UIPageLayout)) with [`UIGridStyleLayout.SortOrder`](https://create.roblox.com/docs/reference/engine/classes/UIGridStyleLayout#SortOrder) set to
-`Enum.SortOrder|Enum.SortOrder.LayoutOrder`. It has no functionality if
+[`Enum.SortOrder.LayoutOrder`](https://create.roblox.com/docs/reference/engine/enums/SortOrder). It has no functionality if
 the GUI does not have a sibling UI Layout.
 
 It is a signed 32-bit int, so it can be set to any value from

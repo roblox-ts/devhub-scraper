@@ -1,5 +1,5 @@
 A RotateV object joins two parts together and allows rotation about a set
-axis. This object is most commonly created by the Motor `Enum.SurfaceType`. If
+axis. This object is most commonly created by the Motor [`Enum.SurfaceType`](https://create.roblox.com/docs/reference/engine/enums/SurfaceType). If
 created through a script, a RotateV's behavior is still governed by the
 SurfaceInput of [`JointInstance.Part0`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#Part0).
 

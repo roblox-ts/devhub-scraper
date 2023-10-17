@@ -7,8 +7,8 @@ a character to move along, based on default or custom parameters passed to
 [`CreatePath()`](https://create.roblox.com/docs/reference/engine/classes/PathfindingService#CreatePath). If
 [`ComputeAsync()`](https://create.roblox.com/docs/reference/engine/classes/Path#ComputeAsync) successfully finds a path, the
 [`Path`](https://create.roblox.com/docs/reference/engine/classes/Path) object will have a [`Path.Status`](https://create.roblox.com/docs/reference/engine/classes/Path#Status) value of
-`Enum.PathStatus.Success`. Otherwise the status will be
-`Enum.PathStatus.NoPath` which can occur if there are obstacles between the
+[`Enum.PathStatus`](https://create.roblox.com/docs/reference/engine/enums/PathStatus). Otherwise the status will be
+[`Enum.PathStatus`](https://create.roblox.com/docs/reference/engine/enums/PathStatus) which can occur if there are obstacles between the
 two points (and no way around) or if the points are inside of solid objects.
 
 In addition to [`ComputeAsync()`](https://create.roblox.com/docs/reference/engine/classes/Path#ComputeAsync), [`Path`](https://create.roblox.com/docs/reference/engine/classes/Path)

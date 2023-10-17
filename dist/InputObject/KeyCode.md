@@ -1,4 +1,4 @@
-Contains a `Enum.KeyCode` enum that describes what kind of input was used.
+Contains a [`Enum.KeyCode`](https://create.roblox.com/docs/reference/engine/enums/KeyCode) enum that describes what kind of input was used.
 For types of input like keyboard, this describes what key was pressed. For
 inputs like the mouse, this provides no additional information.
 #### Enums

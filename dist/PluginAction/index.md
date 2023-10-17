@@ -1,5 +1,5 @@
 PluginAction is an object that represents a generic performable action in
-Roblox Studio, with no directly associated `Toolbar` or `Enum.Button`. In
+Roblox Studio, with no directly associated `Toolbar` or [`Enum.Button`](https://create.roblox.com/docs/reference/engine/enums/Button). In
 Roblox Studio, they can be assigned a keyboard shortcut under
 `File → Advanced → Customize Shortcuts...`, and they can also be added to the
 Quick Access Toolbar.

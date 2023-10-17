@@ -1,4 +1,4 @@
-This property indicates the `Enum.NormalId` of the [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart)
+This property indicates the [`Enum.NormalId`](https://create.roblox.com/docs/reference/engine/enums/NormalId) of the [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart)
 surface at which the mouse is pointing. This property is derived from the
 world position of mouse ([`Mouse.Hit`](https://create.roblox.com/docs/reference/engine/classes/Mouse#Hit)) and the part toward which the
 mouse is pointing ([`Mouse.Target`](https://create.roblox.com/docs/reference/engine/classes/Mouse#Target)).

@@ -1,5 +1,5 @@
 This property sets how the user's mouse behaves based on the
-`Enum.MouseBehavior` Enum. The default value is
+[`Enum.MouseBehavior`](https://create.roblox.com/docs/reference/engine/enums/MouseBehavior) Enum. The default value is
 Enum.MouseBehavior.Default.
 
 It can be set to three values:

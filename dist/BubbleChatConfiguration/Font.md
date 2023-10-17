@@ -1,1 +1,1 @@
-`Datatype.Font` of the bubble text. Default is `Enum.Font.GothamMedium`.
+`Datatype.Font` of the bubble text. Default is [`Enum.Font`](https://create.roblox.com/docs/reference/engine/enums/Font).

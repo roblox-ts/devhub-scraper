@@ -6,7 +6,7 @@ The camera has two modes:
 2. First person
 2. Third person
 
-The `Enum.CameraMode` Enum is used to set CameraMode in Player, and
+The [`Enum.CameraMode`](https://create.roblox.com/docs/reference/engine/enums/CameraMode) Enum is used to set CameraMode in Player, and
 determines when first and third person cameras should be used.
 #### First-person
 

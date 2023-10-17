@@ -21,7 +21,7 @@ compare to metric units.
 
 If a cylindrical's
 [`AngularActuatorType`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint#AngularActuatorType) is set
-to `Enum.ActuatorType|Motor`, it attempts to rotate the attachments with the
+to [`Motor`](https://create.roblox.com/docs/reference/engine/enums/ActuatorType), it attempts to rotate the attachments with the
 goal of reaching its
 [`AngularVelocity`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint#AngularVelocity). You can further
 control this rotation through both
@@ -29,7 +29,7 @@ control this rotation through both
 and [`MotorMaxTorque`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint#MotorMaxTorque). If a
 cylindrical's
 [`AngularActuatorType`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint#AngularActuatorType) is set
-to `Enum.ActuatorType|Servo`, it attempts to rotate to an angle specified by
+to [`Servo`](https://create.roblox.com/docs/reference/engine/enums/ActuatorType), it attempts to rotate to an angle specified by
 [`TargetAngle`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint#TargetAngle). This rotation is
 controlled by [`AngularSpeed`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint#AngularSpeed),
 [`AngularResponsiveness`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint#AngularResponsiveness), and
@@ -37,13 +37,13 @@ controlled by [`AngularSpeed`](https://create.roblox.com/docs/reference/engine/c
 #### Linear Power
 
 If a cylindrical's [`ActuatorType`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint) is set to
-`Enum.ActuatorType|Motor`, it attempts to translate the attachments with the
+[`Motor`](https://create.roblox.com/docs/reference/engine/enums/ActuatorType), it attempts to translate the attachments with the
 goal of reaching [`Velocity`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint). You can further
 control this translation through both
 [`MotorMaxAcceleration`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint) and
 [`MotorMaxForce`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint). If a cylindrical's
 [`ActuatorType`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint) is set to
-`Enum.ActuatorType|Servo`, it attempts to translate the attachments to a set
+[`Servo`](https://create.roblox.com/docs/reference/engine/enums/ActuatorType), it attempts to translate the attachments to a set
 separation specified by [`TargetPosition`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint). This
 translation is controlled by [`Speed`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint),
 [`LinearResponsiveness`](https://create.roblox.com/docs/reference/engine/classes/CylindricalConstraint), and

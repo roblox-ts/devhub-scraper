@@ -6,7 +6,7 @@ They detect basic mouse events: enter, leave, left click and right click.
 Touch input on [`TouchEnabled`](https://create.roblox.com/docs/reference/engine/classes/UserInputService#TouchEnabled) devices also
 fires click events.
 
-The default control scripts bind `Enum.KeyCode|ButtonR2` to interact with
+The default control scripts bind [`ButtonR2`](https://create.roblox.com/docs/reference/engine/enums/KeyCode) to interact with
 [`ClickDetectors`](https://create.roblox.com/docs/reference/engine/classes/ClickDetector) using
 [`ContextActionService:BindActivate()`](https://create.roblox.com/docs/reference/engine/classes/ContextActionService#BindActivate), which can also be used to
 override this. When using gamepads, the center dot triggers

@@ -2,7 +2,7 @@ Sets how fast 3D [`Sound`](https://create.roblox.com/docs/reference/engine/class
 
 Note, this property only applies to [`Sound`](https://create.roblox.com/docs/reference/engine/classes/Sound)s whose
 [`Sound.RollOffMode`](https://create.roblox.com/docs/reference/engine/classes/Sound#RollOffMode) property is set to 'Inverse' or
-'InverseTapered'. 'Linear' and 'LinearSquare' `Enum.RollOffMode`s use a
+'InverseTapered'. 'Linear' and 'LinearSquare' [`Enum.RollOffMode`](https://create.roblox.com/docs/reference/engine/enums/RollOffMode)s use a
 different attenuation model which is not influenced by this property. This
 property also has no impact on 2D sounds ([`Sound`](https://create.roblox.com/docs/reference/engine/classes/Sound)s not parented to a
 [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) or [`Attachment`](https://create.roblox.com/docs/reference/engine/classes/Attachment)).

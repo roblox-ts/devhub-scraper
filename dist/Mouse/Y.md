@@ -1,6 +1,6 @@
 When detecting changes in the mouse's position on-screen, it is
 recommended that you use [`ContextActionService:BindAction()`](https://create.roblox.com/docs/reference/engine/classes/ContextActionService#BindAction) with
-`Enum.UserInputType.MouseMovement` or
+[`Enum.UserInputType`](https://create.roblox.com/docs/reference/engine/enums/UserInputType) or
 [`UserInputService.InputChanged`](https://create.roblox.com/docs/reference/engine/classes/UserInputService#InputChanged), which both describe the position of
 the mouse using the [`Position`](https://create.roblox.com/docs/reference/engine/classes/InputObject#Position) (a
 `Datatype.Vector3`) of an [`InputObject`](https://create.roblox.com/docs/reference/engine/classes/InputObject), instead of using this and

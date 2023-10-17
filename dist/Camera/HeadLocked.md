@@ -6,7 +6,7 @@ Toggles whether the [`Camera`](https://create.roblox.com/docs/reference/engine/c
 motion of a player using a VR device.
 
 When HeadLocked is *true*, the engine will combine [`Camera.CFrame`](https://create.roblox.com/docs/reference/engine/classes/Camera#CFrame)
-with the `Enum.UserCFrame` of the user's head to render the player's view
+with the [`Enum.UserCFrame`](https://create.roblox.com/docs/reference/engine/enums/UserCFrame) of the user's head to render the player's view
 with head tracking factored in. The view will be rendered at the following
 `Datatype.CFrame`:
 ```lua

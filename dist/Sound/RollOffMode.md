@@ -1,6 +1,6 @@
 This property sets how 3D [`Sounds`](https://create.roblox.com/docs/reference/engine/classes/Sound) attenuate (fade out) as the
 distance between the listener and the sound's parent increase. It can be
-set to one of the values of the `Enum.RollOffMode` enum.
+set to one of the values of the [`Enum.RollOffMode`](https://create.roblox.com/docs/reference/engine/enums/RollOffMode) enum.
 
 The following code will set RollOffMode to Linear:
 ```lua

@@ -1,6 +1,6 @@
 The DevComputerMovementMode property determines the manner in which a
 player moves their character when using a device with a mouse and
-keyboard. See `Enum.DevComputerMovementMode` for a description of each
+keyboard. See [`Enum.DevComputerMovementMode`](https://create.roblox.com/docs/reference/engine/enums/DevComputerMovementMode) for a description of each
 movement control mode available. This property cannot be set using a
 [`LocalScript`](https://create.roblox.com/docs/reference/engine/classes/LocalScript) (it must be set on the server using a [`Script`](https://create.roblox.com/docs/reference/engine/classes/Script)).
 

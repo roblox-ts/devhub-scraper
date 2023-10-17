@@ -1,5 +1,5 @@
 The MembershipType [`Player`](https://create.roblox.com/docs/reference/engine/classes/Player) property can be used to determine the
-membership type of the player. It holds a `Enum.MembershipType` enum of
+membership type of the player. It holds a [`Enum.MembershipType`](https://create.roblox.com/docs/reference/engine/enums/MembershipType) enum of
 the account's membership type.
 
 This property can only be read from to determine membership (it cannot be

@@ -1,4 +1,4 @@
-The EmissionDirection property determines the face (`Enum.NormalId`) of
+The EmissionDirection property determines the face ([`Enum.NormalId`](https://create.roblox.com/docs/reference/engine/enums/NormalId)) of
 the parent object that particles emit from. By default, this is the top
 (+Y) direction. A negative [`ParticleEmitter.Speed`](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Speed) means particles
 emit in the opposite direction. [`ParticleEmitter.SpreadAngle`](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#SpreadAngle)

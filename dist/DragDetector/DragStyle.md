@@ -1,2 +1,2 @@
 The paradigm used to generate proposed motion, given a stream of cursor
-rays. See `Enum.DragDetectorDragStyle` for options.
+rays. See [`Enum.DragDetectorDragStyle`](https://create.roblox.com/docs/reference/engine/enums/DragDetectorDragStyle) for options.

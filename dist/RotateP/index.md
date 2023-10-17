@@ -1,7 +1,7 @@
 A RotateP object joins two parts together and allows rotation about a set
 axis. The joint will attempt to rotate the two parts until a desired
 rotational position is reached. This object is most commonly created by the
-SteppingMotor `Enum.SurfaceType`. If created through a script, a RotateP's
+SteppingMotor [`Enum.SurfaceType`](https://create.roblox.com/docs/reference/engine/enums/SurfaceType). If created through a script, a RotateP's
 behavoir is still governed by the SurfaceInput of [`JointInstance.Part0`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#Part0).
 
 The three inputs of note are as follows:

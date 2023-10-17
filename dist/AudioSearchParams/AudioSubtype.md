@@ -1,2 +1,2 @@
 Searches for audio with this subtype, corresponding to the
-`Enum.AudioSubType` enum. Defaults to `Enum.AudioSubType.Music`.
+[`Enum.AudioSubType`](https://create.roblox.com/docs/reference/engine/enums/AudioSubType) enum. Defaults to [`Enum.AudioSubType`](https://create.roblox.com/docs/reference/engine/enums/AudioSubType).

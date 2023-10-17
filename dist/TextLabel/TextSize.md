@@ -13,4 +13,4 @@ and not an enum. Internally, Roblox uses several sets of pre-rendered
 character images for each size of each font. It chooses the closest size
 to TextSize, then scales that set of character images to render text.
 Before the introduction of this property, you could only pick from the
-pre-rendered sizes, which were listed by the `Enum.FontSize` enum.
+pre-rendered sizes, which were listed by the [`Enum.FontSize`](https://create.roblox.com/docs/reference/engine/enums/FontSize) enum.

@@ -19,7 +19,7 @@ The image below demonstrates Enum.ScrollingDirection.Y:
 ![Enum.ScrollingDirection.Y](https://prod.docsiteassets.roblox.com/assets/legacy/ScrollingDirectionY.gif)
 #### Enums
 
-It can be set to several `Enum.ScrollingDirection` enum values, which
+It can be set to several [`Enum.ScrollingDirection`](https://create.roblox.com/docs/reference/engine/enums/ScrollingDirection) enum values, which
 determine how elastic scrolling behaves:
 | Name | Description |
 | - | - |

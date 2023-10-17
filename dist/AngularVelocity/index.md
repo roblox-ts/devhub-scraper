@@ -14,10 +14,10 @@ compare to metric units.
 
 Application of velocity can be controlled through the constraint's
 [`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#RelativeTo) property. If set to
-`Enum.ActuatorRelativeTo|World`, the angular velocity vector is used as is. If
-set to `Enum.ActuatorRelativeTo|Attachment1` and the constraint's
+[`World`](https://create.roblox.com/docs/reference/engine/enums/ActuatorRelativeTo), the angular velocity vector is used as is. If
+set to [`Attachment1`](https://create.roblox.com/docs/reference/engine/enums/ActuatorRelativeTo) and the constraint's
 [`Attachment1`](https://create.roblox.com/docs/reference/engine/classes/Constraint#Attachment1) property is set to another
 attachment, the angular velocity will be affected by that of the other
 attachment. Setting [`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#RelativeTo) to
-`Enum.ActuatorRelativeTo|Attachment1` also exposes the
+[`Attachment1`](https://create.roblox.com/docs/reference/engine/enums/ActuatorRelativeTo) also exposes the
 [`ReactionTorqueEnabled`](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#ReactionTorqueEnabled) property.

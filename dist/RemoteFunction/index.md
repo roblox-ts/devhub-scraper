@@ -23,8 +23,8 @@ returns. This is particularly important in places that are
 [`StreamingEnabled`](https://create.roblox.com/docs/reference/engine/classes/Workspace#StreamingEnabled) when the created instances
 are [`BaseParts`](https://create.roblox.com/docs/reference/engine/classes/BasePart) or [`Models`](https://create.roblox.com/docs/reference/engine/classes/Model), since parts that are
 far away from the player's character may not be streamed to the client, and
-models that are `Enum.ModelStreamingMode|Atomic` depend on whether their parts
-are streamed. Even if a model is `Enum.ModelStreamingMode|Persistent`, there
+models that are [`Atomic`](https://create.roblox.com/docs/reference/engine/enums/ModelStreamingMode) depend on whether their parts
+are streamed. Even if a model is [`Persistent`](https://create.roblox.com/docs/reference/engine/enums/ModelStreamingMode), there
 may be some delay between the creation of the model and when it is replicated
 to the client.
 

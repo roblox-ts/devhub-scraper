@@ -1,7 +1,7 @@
 This property determines how the alpha channel of the
 [`SurfaceAppearance.ColorMap`](https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance#ColorMap) of a [`SurfaceAppearance`](https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance) is used.
 
-When AlphaMode is set to `Enum.AlphaMode|Transparency` and the
+When AlphaMode is set to [`Transparency`](https://create.roblox.com/docs/reference/engine/enums/AlphaMode) and the
 [`MeshPart.Transparency`](https://create.roblox.com/docs/reference/engine/classes/BasePart#Transparency) is set to 0, opaque
 pixels in the SurfaceAppearance's ColorMap will render as completely
 opaque in the 3D scene. This solves various problems for textures with

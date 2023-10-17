@@ -7,4 +7,4 @@ When enabled, the reaction forces cause the constraint to act like an
 angular motor between the two attachments.
 
 Only meaningful when [`RelativeTo`](https://create.roblox.com/docs/reference/engine/classes/AngularVelocity#RelativeTo) is set
-to `Enum.ActuatorRelativeTo|Attachment1`.
+to [`Attachment1`](https://create.roblox.com/docs/reference/engine/enums/ActuatorRelativeTo).

@@ -14,7 +14,7 @@ This property is automatically controlled by
 [`VRService.AutomaticScaling`](https://create.roblox.com/docs/reference/engine/classes/VRService#AutomaticScaling) to align the player's perspective with
 the size of their avatar. If you intend to control HeadScale yourself or
 use custom characters, toggle [`VRService.AutomaticScaling`](https://create.roblox.com/docs/reference/engine/classes/VRService#AutomaticScaling) =
-`Enum.VRScaling.Off`.
+[`Enum.VRScaling`](https://create.roblox.com/docs/reference/engine/enums/VRScaling).
 
 When not using VR, this property has no effect.
 

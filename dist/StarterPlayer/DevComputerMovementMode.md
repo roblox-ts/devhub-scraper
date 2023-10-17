@@ -10,7 +10,7 @@ If set to **UserChoice** then the player's movement mode will be
 determined by whatever the player set in the game settings. Otherwise, the
 mode will be set based on this property.
 
-See `Enum.DevComputerMovementMode` for the different movement modes
+See [`Enum.DevComputerMovementMode`](https://create.roblox.com/docs/reference/engine/enums/DevComputerMovementMode) for the different movement modes
 available. Lets developer overwrite the player's movement mode if the
 player is on a computer.
 

@@ -4,6 +4,6 @@ add text and other content to a UI object at edit or run time, and the
 size will adjust to fit that content.
 
 When AutomaticCanvasSize is set to an
-`Enum.AutomaticSize|Enum.AutomaticSize` value to anything other than None,
+[`Enum.AutomaticSize`](https://create.roblox.com/docs/reference/engine/enums/AutomaticSize) value to anything other than None,
 [`ScrollingFrame.CanvasSize`](https://create.roblox.com/docs/reference/engine/classes/ScrollingFrame#CanvasSize) may resize depending on its child
 content.

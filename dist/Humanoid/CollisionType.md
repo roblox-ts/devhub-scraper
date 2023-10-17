@@ -1,4 +1,4 @@
-This property selects the `Enum.HumanoidCollisionType` for R15 and Rthro
+This property selects the [`Enum.HumanoidCollisionType`](https://create.roblox.com/docs/reference/engine/enums/HumanoidCollisionType) for R15 and Rthro
 non-player characters.
 
 The collision geometry for the InnerBox type is calculated at run-time and

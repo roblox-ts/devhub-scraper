@@ -1,4 +1,4 @@
-The Font property selects one of several pre-defined `Enum.Font|fonts`
+The Font property selects one of several pre-defined [`fonts`](https://create.roblox.com/docs/reference/engine/enums/Font)
 with which the UI element will render its text. Some fonts have bold,
 italic and/or light variants (as there is no font-weight or font-style
 properties).

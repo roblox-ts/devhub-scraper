@@ -1,5 +1,5 @@
 MajorAxis determines whether sibling UI elements are treated as rows or
-columns. Below, the left uses a `Enum.TableMajorAxis` of RowMajor, and the
+columns. Below, the left uses a [`Enum.TableMajorAxis`](https://create.roblox.com/docs/reference/engine/enums/TableMajorAxis) of RowMajor, and the
 right uses ColumnMajor.
 
 ![Row major](https://prod.docsiteassets.roblox.com/assets/legacy/UITableLayout_Padding.png)

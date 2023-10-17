@@ -1,6 +1,6 @@
 The ambient sound environment preset used by [`SoundService`](https://create.roblox.com/docs/reference/engine/classes/SoundService).
 
-The `Enum.ReverbType` this property simulates a range of different
+The [`Enum.ReverbType`](https://create.roblox.com/docs/reference/engine/enums/ReverbType) this property simulates a range of different
 environment's impact on sound. Each different option corresponds with a
 preset available in the FMOD sound engine. For example, when AmbientReverb
 is set to Hangar, the sound will reverberate differently to simulate being
@@ -25,5 +25,5 @@ Roblox's sound engine.
 Those interested in finding more out about ambient reverb presets should
 see the
 [FMOD documentation on the topic](https://create.roblox.com/docs/https://www.fmod.com/docs/api/content/generated/FMOD_REVERB_PRESETS.html).
-For most developers however, the `Enum.ReverbType` names are descriptive
+For most developers however, the [`Enum.ReverbType`](https://create.roblox.com/docs/reference/engine/enums/ReverbType) names are descriptive
 enough to be able to use this setting without advanced knowledge.

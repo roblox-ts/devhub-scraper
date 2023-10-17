@@ -1,7 +1,7 @@
 When this description is [`applied`](https://create.roblox.com/docs/reference/engine/classes/Humanoid#ApplyDescription) to a
 [`Humanoid`](https://create.roblox.com/docs/reference/engine/classes/Humanoid), **ClimbAnimation** determines the
 [`Animation.AnimationId`](https://create.roblox.com/docs/reference/engine/classes/Animation#AnimationId) to play when its
-[`state`](https://create.roblox.com/docs/reference/engine/classes/Humanoid#GetState) is `Enum.HumanoidStateType|Climbing`.
+[`state`](https://create.roblox.com/docs/reference/engine/classes/Humanoid#GetState) is [`Climbing`](https://create.roblox.com/docs/reference/engine/enums/HumanoidStateType).
 
 See also:
 

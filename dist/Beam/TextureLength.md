@@ -12,7 +12,7 @@ below:
 
 ![Bean texture](https://prod.docsiteassets.roblox.com/assets/legacy/beamTexture.gif)
 
-Note, the 'Static' `Enum.TextureMode` type is not used for [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam)s
+Note, the 'Static' [`Enum.TextureMode`](https://create.roblox.com/docs/reference/engine/enums/TextureMode) type is not used for [`Beam`](https://create.roblox.com/docs/reference/engine/classes/Beam)s
 and therefore behaves identically to 'Wrap'.
 
 When [`Beam.TextureMode`](https://create.roblox.com/docs/reference/engine/classes/Beam#TextureMode) is set to 'Stretch' however the texture will

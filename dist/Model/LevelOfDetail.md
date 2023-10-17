@@ -1,12 +1,12 @@
 Sets the level of detail on the model for experiences with content
 [streaming](https://create.roblox.com/docs/workspace/streaming) enabled.
 
-When set to `Enum.ModelLevelOfDetail|StreamingMesh`, a lower resolution
+When set to [`StreamingMesh`](https://create.roblox.com/docs/reference/engine/enums/ModelLevelOfDetail), a lower resolution
 "imposter" mesh (colored, coarse mesh that wraps around all child parts of
 the model) renders outside the streaming radius.
 
-When set to `Enum.ModelLevelOfDetail|Disabled` or
-`Enum.ModelLevelOfDetail|Automatic`, lower resolution meshes will not be
+When set to [`Disabled`](https://create.roblox.com/docs/reference/engine/enums/ModelLevelOfDetail) or
+[`Automatic`](https://create.roblox.com/docs/reference/engine/enums/ModelLevelOfDetail), lower resolution meshes will not be
 displayed.
 
 See

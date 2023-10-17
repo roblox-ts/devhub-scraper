@@ -1,2 +1,2 @@
 A reference to the humanoid's *Left Leg* part. The value of this property
-will always be nil if the humanoid's `Enum.RigType` is set to R15.
+will always be nil if the humanoid's [`Enum.RigType`](https://create.roblox.com/docs/reference/engine/enums/RigType) is set to R15.

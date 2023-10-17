@@ -3,8 +3,8 @@ The [`Camera`](https://create.roblox.com/docs/reference/engine/classes/Camera)'s
 FieldOfViewMode property determines which FOV value will be kept constant.
 
 For example, when the value of FieldOfViewMode is set to
-`Enum.FieldOfViewMode.Vertical`, the horizontal FOV is updated when the
+[`Enum.FieldOfViewMode`](https://create.roblox.com/docs/reference/engine/enums/FieldOfViewMode), the horizontal FOV is updated when the
 viewport is resized, while the vertical FOV is kept constant. On the other
-hand, if the value is set to `Enum.FieldOfViewMode.Diagonal`, both
+hand, if the value is set to [`Enum.FieldOfViewMode`](https://create.roblox.com/docs/reference/engine/enums/FieldOfViewMode), both
 horizontal and vertical FOV might be changed to keep the diagonal FOV
 constant.
