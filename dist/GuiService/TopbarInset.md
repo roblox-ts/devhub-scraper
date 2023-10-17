@@ -1,4 +1,4 @@
-Returns a `Datatype.Rect` object representing the unoccupied area between
+Returns a [`Rect`](https://create.roblox.com/docs/reference/engine/datatypes/Rect) object representing the unoccupied area between
 Roblox left-most control and Roblox right-most control within the top bar
 space.
 

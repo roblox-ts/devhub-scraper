@@ -2,7 +2,7 @@ The color of a [`Trail`](https://create.roblox.com/docs/reference/engine/classes
 This property determines what color the segments of the trail will have
 through their [`Trail.Lifetime`](https://create.roblox.com/docs/reference/engine/classes/Trail#Lifetime).
 
-Color is a `Datatype.ColorSequence`, which means that the segments in a
+Color is a [`ColorSequence`](https://create.roblox.com/docs/reference/engine/datatypes/ColorSequence), which means that the segments in a
 trail can shift between several colors. Note that if the color for a trail
 changes after some of the trail segments have been drawn, all of the old
 segments will be updated to match the new colors.

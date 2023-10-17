@@ -1,4 +1,4 @@
-This property indicates `Datatype.CFrame` of the mouse's position in 3D
+This property indicates [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) of the mouse's position in 3D
 space. Note that [`Mouse.TargetFilter`](https://create.roblox.com/docs/reference/engine/classes/Mouse#TargetFilter) and its descendants will be
 ignored.
 
@@ -15,7 +15,7 @@ should use [`Mouse.Target`](https://create.roblox.com/docs/reference/engine/clas
 #### How is Mouse.Hit calculated?
 
 The position of the Hit CFrame is calculated as the point of intersection
-between the mouse's internal `Datatype.Ray` (an extended version of
+between the mouse's internal [`Ray`](https://create.roblox.com/docs/reference/engine/datatypes/Ray) (an extended version of
 [`Mouse.UnitRay`](https://create.roblox.com/docs/reference/engine/classes/Mouse#UnitRay)) and an object in 3D space (such as a part).
 
 The orientation of the Hit CFrame corresponds with the direction of the
@@ -28,7 +28,7 @@ local mouseHitDirection = mouse.Hit.lookVector
 ```
 
 Note, the roll of the [`Workspace.CurrentCamera`](https://create.roblox.com/docs/reference/engine/classes/Workspace#CurrentCamera) is not used when
-calculating the orientation of the Hit `Datatype.CFrame`.
+calculating the orientation of the Hit [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame).
 
 The mouse's internal ray extends for 1000 studs. If the mouse is not
 pointing at an object in 3D space (for example when pointing at the sky),

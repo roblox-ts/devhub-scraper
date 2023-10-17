@@ -1,1 +1,1 @@
-Background color of bubbles in `Datatype.Color3`.
+Background color of bubbles in [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3).

@@ -9,4 +9,4 @@ shows the linear interpolation of three transparency values:
 ![How the UIGradient Transparency NumberSequence applies transparency to a GuiObject](https://prod.docsiteassets.roblox.com/assets/legacy/UIGradient.Transparency.2.jpg)
 
 Note: the envelope values of the
-`Datatype.NumberSequenceKeypoint|NumberSequenceKeypoints` are ignored.
+[`NumberSequenceKeypoints`](https://create.roblox.com/docs/reference/engine/datatypes/NumberSequenceKeypoint) are ignored.

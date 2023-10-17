@@ -27,7 +27,7 @@ touching or overlapping will be automatically welded together by new
 
 Moving a welded [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) behaves differently depending on whether the
 part was moved through its [`Position`](https://create.roblox.com/docs/reference/engine/classes/BasePart#Position) or through its
-`Datatype.CFrame`.
+[`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame).
 
 - 
 
@@ -38,6 +38,6 @@ position.
 
 - 
 
-If a welded part's `Datatype.CFrame` is updated, that part will move **and**
+If a welded part's [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) is updated, that part will move **and**
 all of the connected parts will also move, ensuring they maintain the same
 offset as when the weld was created.

@@ -1,1 +1,1 @@
-Font of the bubble text in `Datatype.Font`.
+Font of the bubble text in [`Font`](https://create.roblox.com/docs/reference/engine/datatypes/Font).

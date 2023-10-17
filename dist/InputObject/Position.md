@@ -1,4 +1,4 @@
-This property describes a `Datatype.Vector3` positional value of this
+This property describes a [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3) positional value of this
 input.
 
 For mouse and touch input, this is the screen position of the mouse/touch,

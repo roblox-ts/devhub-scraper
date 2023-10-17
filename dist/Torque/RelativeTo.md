@@ -1,1 +1,1 @@
-The `Datatype.CFrame` in which the torque is expressed.
+The [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) in which the torque is expressed.

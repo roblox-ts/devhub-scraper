@@ -13,7 +13,7 @@ A particle's present color is determined by linearly interpolating on this
 ColorSequence using the particle's age and the particle's total lifetime.
 For example, if a particle spawned 2 seconds ago and has a 4 second
 lifetime, the color will be whatever is 50% of the way through the
-`Datatype.ColorSequence`.
+[`ColorSequence`](https://create.roblox.com/docs/reference/engine/datatypes/ColorSequence).
 
 Changing this property applies changes to all particles present in the
 system. This is because the color of a particle is determined using its

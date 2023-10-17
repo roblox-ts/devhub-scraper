@@ -32,7 +32,7 @@ For additional details on streaming and recommendations on dealing with this
 delay, see [Content Streaming](https://create.roblox.com/docs/workspace/streaming).
 #### Parameter Limitations
 
-Any type of Roblox object such as an `Datatype.Enum`, [`Instance`](https://create.roblox.com/docs/reference/engine/classes/Instance), or
+Any type of Roblox object such as an [`Enum`](https://create.roblox.com/docs/reference/engine/datatypes/Enum), [`Instance`](https://create.roblox.com/docs/reference/engine/classes/Instance), or
 others can be passed as a parameter when a [`RemoteFunction`](https://create.roblox.com/docs/reference/engine/classes/RemoteFunction) is invoked,
 as well as Luau types such as numbers, strings, and booleans, although you
 should carefully explore the

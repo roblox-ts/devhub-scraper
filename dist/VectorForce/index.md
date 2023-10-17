@@ -1,5 +1,5 @@
 The **VectorForce** constraint applies constant force to an assembly. The
-direction and strength of the force is determined by a `Datatype.Vector3` and
+direction and strength of the force is determined by a [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3) and
 can be relative to an attachment on the part, another attachment, or the world
 coordinate system. Alternatively:
 

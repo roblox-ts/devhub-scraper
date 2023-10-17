@@ -1,2 +1,2 @@
-`Datatype.Color3` background color of bubbles. Default is
-`Datatype.Color3|Color3.fromRGB(250, 250, 250)`.
+[`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3) background color of bubbles. Default is
+[`Color3.fromRGB(250, 250, 250)`](https://create.roblox.com/docs/reference/engine/datatypes/Color3).

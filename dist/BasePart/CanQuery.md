@@ -6,5 +6,5 @@ when disabling CanQuery. These functions will never include parts whose
 CanQuery and `CanCollide` is false.
 
 Beyond this property, it is also possible to exclude parts which are
-descendants of a given list of parts using an `Datatype.OverlapParams` or
-`Datatype.RaycastParams` object when calling the spatial query functions.
+descendants of a given list of parts using an [`OverlapParams`](https://create.roblox.com/docs/reference/engine/datatypes/OverlapParams) or
+[`RaycastParams`](https://create.roblox.com/docs/reference/engine/datatypes/RaycastParams) object when calling the spatial query functions.

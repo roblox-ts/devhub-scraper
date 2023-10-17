@@ -1,5 +1,5 @@
 This property determines a [`GUI's`](https://create.roblox.com/docs/reference/engine/classes/GuiObject) pixel and scalar size
-using a `Datatype.UDim2`. Its value can be expressed as
+using a [`UDim2`](https://create.roblox.com/docs/reference/engine/datatypes/UDim2). Its value can be expressed as
 `UDim2.new(ScalarX, PixelX, ScalarY, PixelY)` or
 `({ScalarX, PixelX}, {ScalarY, PixelY})`. Position is centered around a
 GUI's [`GuiObject.AnchorPoint`](https://create.roblox.com/docs/reference/engine/classes/GuiObject#AnchorPoint).
@@ -15,7 +15,7 @@ corner of the parent element. Similarly, if AnchorPoint is set to `0, 0`
 and Position is set to `{0.5, 0}, {0.5, 0}`, the element's top left corner
 will render at the direct center of the parent element.
 
-The pixel portions of the `Datatype.UDim2` value are the same regardless
+The pixel portions of the [`UDim2`](https://create.roblox.com/docs/reference/engine/datatypes/UDim2) value are the same regardless
 of the parent GUI's size. The values represent the position of the object
 in pixels. For example, if set to `{0, 100}, {0, 150}` the element's
 AnchorPoint will render with on the screen 100 pixels from the left and

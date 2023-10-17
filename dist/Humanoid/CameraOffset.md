@@ -3,6 +3,6 @@ subject position when its [`Camera.CameraSubject`](https://create.roblox.com/doc
 [`Humanoid`](https://create.roblox.com/docs/reference/engine/classes/Humanoid).
 
 The offset is applied in object-space, relative to the orientation of the
-Humanoid's *HumanoidRootPart*. For example, an offset `Datatype.Vector3`
+Humanoid's *HumanoidRootPart*. For example, an offset [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3)
 value of *(0, 10, 0)* offsets the player's camera to 10 studs above the
 player's humanoid.

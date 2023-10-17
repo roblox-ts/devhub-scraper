@@ -1,2 +1,2 @@
 Direction of the **Y** axis of the attachment, represented as a unit
-`Datatype.Vector3`.
+[`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3).

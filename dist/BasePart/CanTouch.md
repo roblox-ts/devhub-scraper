@@ -18,4 +18,4 @@ There is a small performance gain on parts that have both
 [`CanCollide`](https://create.roblox.com/docs/reference/engine/classes/BasePart#CanCollide) set to `false`, as these parts will
 never need to compute any kind of part to part collisions. However, they
 can still be hit by [`Raycasts`](https://create.roblox.com/docs/reference/engine/classes/WorldRoot#Raycast) and
-`Datatype.OverlapParams` queries.
+[`OverlapParams`](https://create.roblox.com/docs/reference/engine/datatypes/OverlapParams) queries.

@@ -11,4 +11,4 @@ property.
 
 This property is kept in sync with the [`TextButton.FontFace`](https://create.roblox.com/docs/reference/engine/classes/TextButton#FontFace)
 property. When setting Font, the FontFace is set to
-`Datatype.Font.fromEnum(value)`.
+[`Font`](https://create.roblox.com/docs/reference/engine/datatypes/Font).

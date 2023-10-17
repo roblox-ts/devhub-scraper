@@ -28,7 +28,7 @@ object (the one referred to as the `game` by scripts) has no parent, but
 always has a reference held to it by the game engine, and exists for the
 duration of a session.
 
-Newly created objects using `Datatype.Instance.new()` will not have a
+Newly created objects using [`Instance`](https://create.roblox.com/docs/reference/engine/datatypes/Instance) will not have a
 parent, and usually will not be visible or function until one is set. The
 most elementary creation of an object has two steps: creating the object,
 then setting its parent.

@@ -1,4 +1,4 @@
-A `Datatype.Vector3` describing the Delta (change) between mouse/joystick
+A [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3) describing the Delta (change) between mouse/joystick
 movements.
 
 This is useful when used with the input's

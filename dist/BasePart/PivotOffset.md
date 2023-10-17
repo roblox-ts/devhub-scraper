@@ -1,5 +1,5 @@
 This property specifies the offset of the part's pivot from its
-`Datatype.CFrame`, that is `part:GetPivot()` is the same as
+[`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame), that is `part:GetPivot()` is the same as
 `part.CFrame * part.PivotOffset`.
 
 This is convenient for setting the pivot to a location in **local** space,

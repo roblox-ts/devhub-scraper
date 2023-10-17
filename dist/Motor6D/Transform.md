@@ -1,4 +1,4 @@
-The internal `Datatype.CFrame` that is manipulated when a [`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D)
+The internal [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) that is manipulated when a [`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D)
 is being animated. It is recommended to use this property for custom
 animations rather than [`JointInstance.C0`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#C0) and
 [`JointInstance.C1`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#C1).

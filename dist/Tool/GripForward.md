@@ -1,6 +1,6 @@
 The GripForward properties is one of the properties that specifies a
 Tool's orientation in a character's hand. This represents the R02, R12,
-and R22 values of the Grip `Datatype.CFrame|CFrame's` rotation matrix.
+and R22 values of the Grip [`CFrame's`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) rotation matrix.
 
 Other tool properties that control how a player holds a tool include:
 [`Up`](https://create.roblox.com/docs/reference/engine/classes/Tool#GripUp), [`Right`](https://create.roblox.com/docs/reference/engine/classes/Tool#GripRight), and

@@ -1,4 +1,4 @@
-This `Datatype.CFrame` applies to the [`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D) corresponding with
+This [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) applies to the [`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D) corresponding with
 the [`Pose`](https://create.roblox.com/docs/reference/engine/classes/Pose) when the [`Motor6D.Transform`](https://create.roblox.com/docs/reference/engine/classes/Motor6D#Transform) is changed. The
 original [`Motor6D.C0`](https://create.roblox.com/docs/reference/engine/classes/Motor6D#C0) and [`Motor6D.C1`](https://create.roblox.com/docs/reference/engine/classes/Motor6D#C1) values are not changed.
 

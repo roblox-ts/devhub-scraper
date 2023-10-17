@@ -1,6 +1,6 @@
 The **LinearVelocity** constraint applies force on an assembly to maintain a
 **constant** linear velocity. It can be set to apply force along a
-`Datatype.Vector3`, line, or 2D plane. Alternatively:
+[`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3), line, or 2D plane. Alternatively:
 
 - If you want to control the amount of force applied, use a
 [`VectorForce`](https://create.roblox.com/docs/reference/engine/classes/VectorForce) constraint.

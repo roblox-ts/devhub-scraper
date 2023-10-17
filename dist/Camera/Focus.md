@@ -1,4 +1,4 @@
-The [`Camera`](https://create.roblox.com/docs/reference/engine/classes/Camera) Focus is a `Datatype.CFrame` that determines the area
+The [`Camera`](https://create.roblox.com/docs/reference/engine/classes/Camera) Focus is a [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) that determines the area
 in 3D space the graphics engine will prioritize.
 
 Certain graphical operations Roblox performs, such as updating lighting,

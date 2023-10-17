@@ -1,5 +1,5 @@
 This property describes the position of the on-screen keyboard in pixels.
-The keyboard's position is `Datatype.Vector2|Vector2.new(0, 0)` when it is
+The keyboard's position is [`Vector2.new(0, 0)`](https://create.roblox.com/docs/reference/engine/datatypes/Vector2) when it is
 not [`visible`](https://create.roblox.com/docs/reference/engine/classes/UserInputService#OnScreenKeyboardVisible).
 
 The code snippet below prints the position of the keyboard.

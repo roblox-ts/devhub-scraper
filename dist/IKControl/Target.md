@@ -1,4 +1,4 @@
-The [`Target`](https://create.roblox.com/docs/reference/engine/classes/IKControl#Target) represents a point (`Datatype.CFrame`)
+The [`Target`](https://create.roblox.com/docs/reference/engine/classes/IKControl#Target) represents a point ([`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame))
 in the world that you want your [`EndEffector`](https://create.roblox.com/docs/reference/engine/classes/IKControl#EndEffector)
 to reach. The exact behavior of reaching can be set via the
 [`Type`](https://create.roblox.com/docs/reference/engine/classes/IKControl#Type) property, and an additional

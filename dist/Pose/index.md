@@ -1,4 +1,4 @@
-A Pose holds the `Datatype.CFrame` applied to the [`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D) connected to
+A Pose holds the [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) applied to the [`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D) connected to
 its associated [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart). The part which is controlled depends on the
 name of the Pose.
 
@@ -13,11 +13,11 @@ through such joints.
 
 In a R15 character rig, the root part is the HumanoidRootPart. The LowerTorso
 is connected to the HumanoidRootPart by the a motor named 'Root'. Therefore,
-the `Datatype.CFrame` of a Pose named 'LowerTorso' in a [`Keyframe`](https://create.roblox.com/docs/reference/engine/classes/Keyframe) would
+the [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) of a Pose named 'LowerTorso' in a [`Keyframe`](https://create.roblox.com/docs/reference/engine/classes/Keyframe) would
 be applied to the motor named 'Root', and not the LowerTorso itself.
 
 Poses are arranged in a [`Keyframe`](https://create.roblox.com/docs/reference/engine/classes/Keyframe) based on joint hierarchy. This means,
-the Pose's `Datatype.CFrame` is applied to the motor connecting the part
+the Pose's [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) is applied to the motor connecting the part
 associated with the pose to the part associated with the pose's parent. See
 below for a visual example of the structure of Poses on a R15 character.
 ## Pose CFrame

@@ -22,7 +22,7 @@ the faces. See [Textures and Decals](https://create.roblox.com/docs/parts/textur
 part. See
 [In-Experience UI Containers](https://create.roblox.com/docs/ui/in-experience-containers).
 - [`Attachments`](https://create.roblox.com/docs/reference/engine/classes/Attachment) can be added to a [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) to specify
-`Datatype.CFrame|CFrames` relative to the part. These are often used by
+[`CFrames`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) relative to the part. These are often used by
 physical [`Constraint`](https://create.roblox.com/docs/reference/engine/classes/Constraint) objects as outlined in
 [Mechanical Constraints](https://create.roblox.com/docs/physics/mechanical-constraints) and
 [Mover Constraints](https://create.roblox.com/docs/physics/mover-constraints).

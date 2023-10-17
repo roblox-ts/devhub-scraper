@@ -8,7 +8,7 @@ If you would like to maintain a constant angular velocity, use a
 [`BodyAngularVelocity`](https://create.roblox.com/docs/reference/engine/classes/BodyAngularVelocity) instead.
 
 The [`CFrame`](https://create.roblox.com/docs/reference/engine/classes/BodyGyro#CFrame) property controls the goal orientation.
-Only the angular components of the `Datatype.CFrame` are used; position will
+Only the angular components of the [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) are used; position will
 make no difference. [`MaxTorque`](https://create.roblox.com/docs/reference/engine/classes/BodyGyro#MaxTorque) limits the amount of
 angular force that may be applied, [`P`](https://create.roblox.com/docs/reference/engine/classes/BodyGyro#P) controls the power
 used in achieving the goal orientation, and [`D`](https://create.roblox.com/docs/reference/engine/classes/BodyGyro#D) controls

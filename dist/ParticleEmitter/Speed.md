@@ -1,6 +1,6 @@
 The Speed property determines a random range of speeds a new particle can
 have upon emission. It's measured in studs per second using a
-`Datatype.NumberRange`. The velocity is chosen upon emission, and applies
+[`NumberRange`](https://create.roblox.com/docs/reference/engine/datatypes/NumberRange). The velocity is chosen upon emission, and applies
 in the [`ParticleEmitter.EmissionDirection`](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#EmissionDirection). Negative speed values
 cause particles to travel in reverse.
 

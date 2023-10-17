@@ -2,7 +2,7 @@ By changing the [`Type`](https://create.roblox.com/docs/reference/engine/classes
 of the control. These are the available options:
 
 - Transform: it's a full 6-DoF constraint. Aligns the
-[`EndEffector`](https://create.roblox.com/docs/reference/engine/classes/IKControl#EndEffector) `Datatype.CFrame` to that of
+[`EndEffector`](https://create.roblox.com/docs/reference/engine/classes/IKControl#EndEffector) [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) to that of
 the [`Target`](https://create.roblox.com/docs/reference/engine/classes/IKControl#Target).
 - Position: aligns the [`EndEffector`](https://create.roblox.com/docs/reference/engine/classes/IKControl#EndEffector) position
 to that of the [`Target`](https://create.roblox.com/docs/reference/engine/classes/IKControl#Target).

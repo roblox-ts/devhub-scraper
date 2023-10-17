@@ -1,10 +1,10 @@
-This property is the `Datatype.CFrame` of the [`Camera`](https://create.roblox.com/docs/reference/engine/classes/Camera) and definies
+This property is the [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) of the [`Camera`](https://create.roblox.com/docs/reference/engine/classes/Camera) and definies
 its position and orientation in the 3D world.
 
 Some transformations, such as the rotation of the head when using VR
 devices are not reflected in this property. For this reason, developers
 should use [`Camera:GetRenderCFrame()`](https://create.roblox.com/docs/reference/engine/classes/Camera#GetRenderCFrame) to obtain the 'true'
-`Datatype.CFrame` of the camera.
+[`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) of the camera.
 #### How to set the camera's CFrame
 
 You can move the camera by setting the CFrame property. However, the
@@ -27,7 +27,7 @@ functionality
 
 #### How the Camera CFrame works
 
-Like all `Datatype.CFrame` data, the camera CFrame represents a position
+Like all [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) data, the camera CFrame represents a position
 and an orientation.
 
 The most intuitive way to position and orientate the [`Camera`](https://create.roblox.com/docs/reference/engine/classes/Camera) is by

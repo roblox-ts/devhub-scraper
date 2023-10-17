@@ -6,15 +6,15 @@ are:
 
 - number
 - bool
-- `Datatype.CFrame`
-- `Datatype.Rect`
-- `Datatype.Color3`
-- `Datatype.UDim`
-- `Datatype.UDim2`
-- `Datatype.Vector2`
-- `Datatype.Vector2int16`
-- `Datatype.Vector3`
-- `Datatype.EnumItem`
+- [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame)
+- [`Rect`](https://create.roblox.com/docs/reference/engine/datatypes/Rect)
+- [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3)
+- [`UDim`](https://create.roblox.com/docs/reference/engine/datatypes/UDim)
+- [`UDim2`](https://create.roblox.com/docs/reference/engine/datatypes/UDim2)
+- [`Vector2`](https://create.roblox.com/docs/reference/engine/datatypes/Vector2)
+- [`Vector2int16`](https://create.roblox.com/docs/reference/engine/datatypes/Vector2int16)
+- [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3)
+- [`EnumItem`](https://create.roblox.com/docs/reference/engine/datatypes/EnumItem)
 
 TweenService's constructor function, [`TweenService:Create()`](https://create.roblox.com/docs/reference/engine/classes/TweenService#Create), takes
 information about the animation and generates the [`Tween`](https://create.roblox.com/docs/reference/engine/classes/Tween) object which
@@ -22,7 +22,7 @@ can be used to play the animation. Note that `Tweens` can animate multiple
 properties at the same time.
 
 Details on how the interpolation of the tween is to be carried out are given
-in the tweenInfo parameter of TweenService:Create(). The `Datatype.TweenInfo`
+in the tweenInfo parameter of TweenService:Create(). The [`TweenInfo`](https://create.roblox.com/docs/reference/engine/datatypes/TweenInfo)
 data type includes a range of properties that can be used to achieve various
 styles of animation, including reversing and looping `Tweens` (see examples).
 

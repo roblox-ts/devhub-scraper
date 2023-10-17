@@ -1,6 +1,6 @@
 The Acceleration property determines how particles
 [`ParticleEmitter.Speed`](https://create.roblox.com/docs/reference/engine/classes/ParticleEmitter#Speed) changes over the particle's lifetime. It is
-defined using a `Datatype.Vector3` to determine the acceleration on the
+defined using a [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3) to determine the acceleration on the
 global X/Y/Z axes. It is measured in studs per second squared. When
 changed, this property affects all particles emit by the emitter, both
 current and future particles.

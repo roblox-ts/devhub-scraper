@@ -1,7 +1,7 @@
 The TeamColor property determines which team a Player is associated with
 according to that Team's [`Team.TeamColor`](https://create.roblox.com/docs/reference/engine/classes/Team#TeamColor). Changing this property
 will change [`Player.Team`](https://create.roblox.com/docs/reference/engine/classes/Player#Team) according to whichever team has the same
-`Datatype.BrickColor` for their [`Team.TeamColor`](https://create.roblox.com/docs/reference/engine/classes/Team#TeamColor). If no Team object
+[`BrickColor`](https://create.roblox.com/docs/reference/engine/datatypes/BrickColor) for their [`Team.TeamColor`](https://create.roblox.com/docs/reference/engine/classes/Team#TeamColor). If no Team object
 has the associated TeamColor, the player will not be associated with a
 team.
 

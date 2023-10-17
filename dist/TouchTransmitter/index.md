@@ -12,6 +12,6 @@ collisions from models the client has network ownership of (such as the
 player's character) from registering.
 
 Note, in almost all circumstances developers should disconnect the connection
-using `Datatype.RBXScriptConnection:Disconnect()` method rather than removing
+using [`RBXScriptConnection:Disconnect()`](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptConnection:Disconnect()) method rather than removing
 the TouchTransmitter. Otherwise the connection will not be cleaned up which
 can cause performance issues over time.

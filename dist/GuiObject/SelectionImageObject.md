@@ -4,7 +4,7 @@ gamepads). For best results, this should point to a [`GUI`](https://create.roblo
 Note that the SelectionImageObject overlays the selected GUI with the
 [`GuiObject.Size`](https://create.roblox.com/docs/reference/engine/classes/GuiObject#Size) of the image. For best results when using a
 non-default SelectionImageObject, you should size the SelectionImageObject
-via the scale `Datatype.UDim2` values. This helps ensure that the object
+via the scale [`UDim2`](https://create.roblox.com/docs/reference/engine/datatypes/UDim2) values. This helps ensure that the object
 scales properly over the selected element.
 
 The default SelectionImageObject is a blue and white square outline around

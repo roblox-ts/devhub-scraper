@@ -1,5 +1,5 @@
 Read-only property that includes information on how the interpolation of
-the [`Tween`](https://create.roblox.com/docs/reference/engine/classes/Tween) is to be carried out, using the `Datatype.TweenInfo`
+the [`Tween`](https://create.roblox.com/docs/reference/engine/classes/Tween) is to be carried out, using the [`TweenInfo`](https://create.roblox.com/docs/reference/engine/datatypes/TweenInfo)
 data type. The TweenInfo data type includes a range of properties that can
 be used to achieve various styles of animation, including reversing and
 looping [`Tween`](https://create.roblox.com/docs/reference/engine/classes/Tween)s (see examples).

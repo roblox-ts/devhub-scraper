@@ -10,7 +10,7 @@ If true, [`Team`](https://create.roblox.com/docs/reference/engine/classes/Team) 
 | - | - |
 | RBXGeneral | For all messages. |
 | RBXSystem | For system messages. |
-| RBXTeam<`Datatype.BrickColor.Name`> | For team messages. Name of the [`TextChannel`](https://create.roblox.com/docs/reference/engine/classes/TextChannel) is the string "RBXTeam" followed by the name of [`Team.BrickColor`](https://create.roblox.com/docs/reference/engine/classes/Team#BrickColor). (Ex: "RBXTeamNavy blue" for a team with "Navy blue" `Datatype.BrickColor`) |
+| RBXTeam<[`BrickColor`](https://create.roblox.com/docs/reference/engine/datatypes/BrickColor)> | For team messages. Name of the [`TextChannel`](https://create.roblox.com/docs/reference/engine/classes/TextChannel) is the string "RBXTeam" followed by the name of [`Team.BrickColor`](https://create.roblox.com/docs/reference/engine/classes/Team#BrickColor). (Ex: "RBXTeamNavy blue" for a team with "Navy blue" [`BrickColor`](https://create.roblox.com/docs/reference/engine/datatypes/BrickColor)) |
 
 If false, [`Team`](https://create.roblox.com/docs/reference/engine/classes/Team) based [`TextChannel`](https://create.roblox.com/docs/reference/engine/classes/TextChannel)s are **not**
 automatically created and destroyed.

@@ -2,9 +2,9 @@
 gradient to the UI elements rendered by the parent [`GuiObject`](https://create.roblox.com/docs/reference/engine/classes/GuiObject). The
 appearance of the gradient is configurable through the following properties:
 
-- [`Color`](https://create.roblox.com/docs/reference/engine/classes/UIGradient#Color), a `Datatype.ColorSequence`
-- [`Transparency`](https://create.roblox.com/docs/reference/engine/classes/UIGradient#Transparency), a `Datatype.NumberSequence`
-- [`Offset`](https://create.roblox.com/docs/reference/engine/classes/UIGradient#Offset), a `Datatype.Vector2`
+- [`Color`](https://create.roblox.com/docs/reference/engine/classes/UIGradient#Color), a [`ColorSequence`](https://create.roblox.com/docs/reference/engine/datatypes/ColorSequence)
+- [`Transparency`](https://create.roblox.com/docs/reference/engine/classes/UIGradient#Transparency), a [`NumberSequence`](https://create.roblox.com/docs/reference/engine/datatypes/NumberSequence)
+- [`Offset`](https://create.roblox.com/docs/reference/engine/classes/UIGradient#Offset), a [`Vector2`](https://create.roblox.com/docs/reference/engine/datatypes/Vector2)
 - [`Rotation`](https://create.roblox.com/docs/reference/engine/classes/UIGradient#Rotation), a number
 
 ![Gradient Window Example](https://prod.docsiteassets.roblox.com/assets/legacy/ILoveGradients.jpg)

@@ -1,1 +1,1 @@
-The `Datatype.Font` used for the experience name in the overlay.
+The [`Font`](https://create.roblox.com/docs/reference/engine/datatypes/Font) used for the experience name in the overlay.

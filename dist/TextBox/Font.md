@@ -12,4 +12,4 @@ property.
 
 This property is kept in sync with the [`TextBox.FontFace`](https://create.roblox.com/docs/reference/engine/classes/TextBox#FontFace) property.
 When setting Font, the FontFace will be set to
-`Datatype.Font.fromEnum(value)`.
+[`Font`](https://create.roblox.com/docs/reference/engine/datatypes/Font).

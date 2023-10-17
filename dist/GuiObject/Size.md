@@ -1,5 +1,5 @@
 This property determines a [`GUI's`](https://create.roblox.com/docs/reference/engine/classes/GuiObject) scalar and pixel size
-using a `Datatype.UDim2`. Its value can be expressed as
+using a [`UDim2`](https://create.roblox.com/docs/reference/engine/datatypes/UDim2). Its value can be expressed as
 `UDim2.new(ScalarX, PixelX, ScalarY, PixelY)` or
 `({ScalarX, PixelX}, {ScalarY, PixelY})`.
 
@@ -12,7 +12,7 @@ scalar size will render to be half the scalar size of its parent both
 horizontally and vertically and will occupy a quarter of the screen in
 both dimensions.
 
-The pixel portions of the `Datatype.UDim2` value are the same regardless
+The pixel portions of the [`UDim2`](https://create.roblox.com/docs/reference/engine/datatypes/UDim2) value are the same regardless
 of the parent GUI's size. The values represent the size of the object in
 pixels. For example, if Position is set to `{0, 100}, {0, 150}` the
 element will render with a width of 100 pixels and height of 150 pixels.

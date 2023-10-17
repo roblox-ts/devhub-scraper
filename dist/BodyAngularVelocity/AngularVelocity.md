@@ -1,10 +1,10 @@
-The AngularVelocity property is a `Datatype.Vector3` which determines the
+The AngularVelocity property is a [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3) which determines the
 goal angular velocity a [`BodyAngularVelocity`](https://create.roblox.com/docs/reference/engine/classes/BodyAngularVelocity) should maintain
 through the exertion of torque. For this property, the direction of the
 vector is the axis of rotation. The magnitude is the angular velocity in
 **radians per second**. By default, this property is `(0, 2, 0)`.
 
-**Tip:** You can multiply a `Datatype.Vector3` by `Library.math.rad(360)`,
+**Tip:** You can multiply a [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3) by `Library.math.rad(360)`,
 or **2π**, in order to convert [angular frequency][5] (rotations per
 second) into the desired [angular velocity][3] (radians per second). For
 example: Setting

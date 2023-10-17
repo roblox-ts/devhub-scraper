@@ -1,1 +1,1 @@
-The stored `Datatype.Color3`.
+The stored [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3).

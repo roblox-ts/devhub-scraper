@@ -1,6 +1,6 @@
 The GripRight property is one of the properties that specifies a
 [`Tool's`](https://create.roblox.com/docs/reference/engine/classes/Tool) orientation in a character's hand. This represents the
-R00, R10, and R20 values of the Grip `Datatype.CFrame|CFrame's` rotation
+R00, R10, and R20 values of the Grip [`CFrame's`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) rotation
 matrix.
 
 Other tool properties that control how a player holds a tool include:

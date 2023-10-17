@@ -1,10 +1,10 @@
-The end-effector offset is an additional `Datatype.CFrame` applied on top
-of the [`Target`](https://create.roblox.com/docs/reference/engine/classes/IKControl#Target)'s `Datatype.CFrame` that produces
-the final `Datatype.CFrame` used to place the
+The end-effector offset is an additional [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) applied on top
+of the [`Target`](https://create.roblox.com/docs/reference/engine/classes/IKControl#Target)'s [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) that produces
+the final [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) used to place the
 [`EndEffector`](https://create.roblox.com/docs/reference/engine/classes/IKControl#EndEffector). By default, it's the identity
 CFrame, so if you don't set it, it has no effect and the
 [`EndEffector`](https://create.roblox.com/docs/reference/engine/classes/IKControl#EndEffector) uses the
-[`Target`](https://create.roblox.com/docs/reference/engine/classes/IKControl#Target)'s `Datatype.CFrame` directly, which is
+[`Target`](https://create.roblox.com/docs/reference/engine/classes/IKControl#Target)'s [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) directly, which is
 specified in the local space of the
 [`EndEffector`](https://create.roblox.com/docs/reference/engine/classes/IKControl#EndEffector).
 

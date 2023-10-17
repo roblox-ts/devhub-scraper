@@ -13,7 +13,7 @@ current position on the user's screen at the time of locking.
 The value of this property does not affect the sensitivity of events
 tracking mouse movement. For example,
 [`GetMouseDelta`](https://create.roblox.com/docs/reference/engine/classes/UserInputService#GetMouseDelta) returns the same
-`Datatype.Vector2` screen position in pixels regardless of whether the
+[`Vector2`](https://create.roblox.com/docs/reference/engine/datatypes/Vector2) screen position in pixels regardless of whether the
 mouse is locked or able to move freely around the user's screen. As a
 result, default scripts like those controlling the camera are not impacted
 by this property.

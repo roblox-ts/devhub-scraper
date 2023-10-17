@@ -1,4 +1,4 @@
-A `Datatype.UDim` property that determines the radius, in pixels, of the
+A [`UDim`](https://create.roblox.com/docs/reference/engine/datatypes/UDim) property that determines the radius, in pixels, of the
 [`UICorner`](https://create.roblox.com/docs/reference/engine/classes/UICorner) UIComponent, according to the following formula:
 
 `radius = min(min(rectWidth, rectHeight) / 2, CornerRadius.scale * min(rectWidth, rectHeight) + CornerRadius.offset)`

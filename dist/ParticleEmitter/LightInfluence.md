@@ -6,4 +6,4 @@ brightness), and at 1 particles are fully influenced by light (in complete
 darkness, particles will be black).
 
 By default, this value is 1 if inserted with Studio tools. If inserted
-using `Datatype.Instance.new()`, it is 0.
+using [`Instance`](https://create.roblox.com/docs/reference/engine/datatypes/Instance), it is 0.

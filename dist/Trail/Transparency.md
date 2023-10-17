@@ -1,6 +1,6 @@
 The Transparency property of a [`Trail`](https://create.roblox.com/docs/reference/engine/classes/Trail) sets how transparent the
 segments of the trail are over the trail's [`Trail.Lifetime`](https://create.roblox.com/docs/reference/engine/classes/Trail#Lifetime). This
-value is a `Datatype.NumberSequence`, meaning it can be a static value or
+value is a [`NumberSequence`](https://create.roblox.com/docs/reference/engine/datatypes/NumberSequence), meaning it can be a static value or
 can change throughout the lifetime of the trail segments.
 
 The values in the NumberSequence can be any number, but the effective

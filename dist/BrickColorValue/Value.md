@@ -1,1 +1,1 @@
-Used to hold a `Datatype.BrickColor` value.
+Used to hold a [`BrickColor`](https://create.roblox.com/docs/reference/engine/datatypes/BrickColor) value.

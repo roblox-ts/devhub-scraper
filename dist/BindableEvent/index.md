@@ -19,7 +19,7 @@ See [Custom Events and Callbacks](https://create.roblox.com/docs/scripting/event
 code samples and further details on [`BindableEvent`](https://create.roblox.com/docs/reference/engine/classes/BindableEvent).
 #### Parameter Limitations
 
-Any type of Roblox object such as an `Datatype.Enum`, [`Instance`](https://create.roblox.com/docs/reference/engine/classes/Instance), or
+Any type of Roblox object such as an [`Enum`](https://create.roblox.com/docs/reference/engine/datatypes/Enum), [`Instance`](https://create.roblox.com/docs/reference/engine/classes/Instance), or
 others can be passed as a parameter when a [`BindableEvent`](https://create.roblox.com/docs/reference/engine/classes/BindableEvent) is fired, as
 well as Luau types such as numbers, strings, and booleans, although you should
 carefully explore the

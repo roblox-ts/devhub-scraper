@@ -9,8 +9,8 @@ red and white hat are multiplied with that of the VertexColor's XYZ
 components.
 ![undefined](https://prod.docsiteassets.roblox.com/assets/legacy/DataModelMesh.VertexColor.jpg)
 
-It should be noted that this property is a `Datatype.Vector3` rather than
-a `Datatype.Color3`. To convert, use the following function:
+It should be noted that this property is a [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3) rather than
+a [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3). To convert, use the following function:
 ```lua
 local function color3ToVector3(c3)
    return Vector3.new(c3.r, c3.g, c3.b)

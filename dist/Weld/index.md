@@ -2,7 +2,7 @@ An object used to hold two objects together in a relative position, regardless
 of whether they're touching. This object is placed inside of a
 [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) and the [`Part1`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#Part1) property determines
 which other part should be welded to the original part. Two
-`Datatype.CFrame|CFrames`, [`C0`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#C0) and
+[`CFrames`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame), [`C0`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#C0) and
 [`C1`](https://create.roblox.com/docs/reference/engine/classes/JointInstance#C1), then determine how the parts should be placed.
 
 See also [`WeldConstraint`](https://create.roblox.com/docs/reference/engine/classes/WeldConstraint) for a newer alternative using the constraints

@@ -1,1 +1,1 @@
-A container object for a single `Datatype.Color3` value.
+A container object for a single [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3) value.

@@ -1,7 +1,7 @@
 This property determines how a rendered image will be colorized. It allows
 you to change the image color without directly modifying the rendered
 object.The default colorization value is
-`Datatype.Color3|Color3.new(1,1,1)` (white). When set to white no
+[`Color3.new(1,1,1)`](https://create.roblox.com/docs/reference/engine/datatypes/Color3) (white). When set to white no
 colorization occurs.
 
 It functions similarly to [`ImageLabel.ImageColor3`](https://create.roblox.com/docs/reference/engine/classes/ImageLabel#ImageColor3) and

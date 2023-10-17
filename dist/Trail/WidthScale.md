@@ -1,4 +1,4 @@
-The WidthScale property is a `Datatype.NumberSequence` that scales the
+The WidthScale property is a [`NumberSequence`](https://create.roblox.com/docs/reference/engine/datatypes/NumberSequence) that scales the
 width of the [`Trail`](https://create.roblox.com/docs/reference/engine/classes/Trail) over the course of its lifetime.
 
 This property can range from `0` to `1`. The value of the property

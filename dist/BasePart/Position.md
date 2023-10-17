@@ -1,5 +1,5 @@
 The Position property describes the coordinates of a [`part`](https://create.roblox.com/docs/reference/engine/classes/BasePart)
-using a `Datatype.Vector3`. It reflects the position of the part's
+using a [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3). It reflects the position of the part's
 [`BasePart.CFrame`](https://create.roblox.com/docs/reference/engine/classes/BasePart#CFrame), however it can also be set.
 
 When setting this property any [`Welds`](https://create.roblox.com/docs/reference/engine/classes/Weld) or

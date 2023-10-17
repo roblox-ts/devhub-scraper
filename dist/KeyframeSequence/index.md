@@ -34,7 +34,7 @@ represent a 'key' frame in the animation, that are interpolated between during
 playback.
 
 Keyframes contain [`Pose`](https://create.roblox.com/docs/reference/engine/classes/Pose)s. [`Pose`](https://create.roblox.com/docs/reference/engine/classes/Pose)s, specific to each
-[`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) being animated, contain the `Datatype.CFrame` applied to the
+[`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) being animated, contain the [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) applied to the
 [`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D) connecting two parts. Poses match the [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) they
 correspond with by name and apply their data to the [`Motor6D`](https://create.roblox.com/docs/reference/engine/classes/Motor6D) with this
 same-named part identified as [`Motor6D.P1`](https://create.roblox.com/docs/reference/engine/classes/Motor6D#P1) . For this reason, animations

@@ -1,7 +1,7 @@
 Fog properties are hidden when Lighting contains an [`Atmosphere`](https://create.roblox.com/docs/reference/engine/classes/Atmosphere)
 object.
 
-A `Datatype.Color3` value giving the hue of [`Lighting`](https://create.roblox.com/docs/reference/engine/classes/Lighting)'s fog.
+A [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3) value giving the hue of [`Lighting`](https://create.roblox.com/docs/reference/engine/classes/Lighting)'s fog.
 #### How does fog work?
 
 Fog in Roblox is displayed in a plane perpendicular to the
