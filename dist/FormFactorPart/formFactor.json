@@ -8,7 +8,7 @@
             "children": [
                 {
                     "type": "text",
-                    "value": "This used to specify a grid constraint of the part's size. No longer does\nanything.",
+                    "value": "Determines how a part acts when resized and the values that which its size\ncan take.",
                     "position": {
                         "start": {
                             "line": 1,
@@ -18,7 +18,7 @@
                         "end": {
                             "line": 2,
                             "column": 10,
-                            "offset": 83
+                            "offset": 84
                         }
                     }
                 }
@@ -32,7 +32,7 @@
                 "end": {
                     "line": 2,
                     "column": 10,
-                    "offset": 83
+                    "offset": 84
                 }
             }
         }

@@ -8,7 +8,7 @@
             "children": [
                 {
                     "type": "text",
-                    "value": "This used to specify a grid constraint of the part's size. No longer does\nanything.",
+                    "value": "This property indicates the number of people in the server at the current\ntime. It is read only. Meaning it cannot be written to, only read.",
                     "position": {
                         "start": {
                             "line": 1,
@@ -17,8 +17,8 @@
                         },
                         "end": {
                             "line": 2,
-                            "column": 10,
-                            "offset": 83
+                            "column": 67,
+                            "offset": 140
                         }
                     }
                 }
@@ -31,8 +31,8 @@
                 },
                 "end": {
                     "line": 2,
-                    "column": 10,
-                    "offset": 83
+                    "column": 67,
+                    "offset": 140
                 }
             }
         }

@@ -8,7 +8,7 @@
             "children": [
                 {
                     "type": "text",
-                    "value": "The maxTorque property is a deprecated variant of\n",
+                    "value": "The MaxTorque property determines the limit of the torque that may be\nexerted on each world axis. If a part isn't moving, consider raising this\nvalue (and also check that it is not ",
                     "position": {
                         "start": {
                             "line": 1,
@@ -16,9 +16,9 @@
                             "offset": 0
                         },
                         "end": {
-                            "line": 2,
-                            "column": 1,
-                            "offset": 50
+                            "line": 3,
+                            "column": 38,
+                            "offset": 181
                         }
                     }
                 },
@@ -29,35 +29,74 @@
                     "children": [
                         {
                             "type": "text",
-                            "value": "Class.BodyAngularVelocity.MaxTorque"
+                            "value": "Class.BasePart.Anchored|Anchored"
                         }
                     ],
                     "position": {
                         "start": {
-                            "line": 2,
-                            "column": 1,
-                            "offset": 50
+                            "line": 3,
+                            "column": 38,
+                            "offset": 181
                         },
                         "end": {
-                            "line": 2,
-                            "column": 38,
-                            "offset": 87
+                            "line": 3,
+                            "column": 72,
+                            "offset": 215
                         }
                     }
                 },
                 {
                     "type": "text",
-                    "value": " that lets you set how much force\ncould be applied to each axis.",
+                    "value": " or\nattached to another anchored part). See also\n",
                     "position": {
                         "start": {
-                            "line": 2,
-                            "column": 38,
-                            "offset": 87
+                            "line": 3,
+                            "column": 72,
+                            "offset": 215
                         },
                         "end": {
-                            "line": 3,
-                            "column": 31,
-                            "offset": 151
+                            "line": 5,
+                            "column": 1,
+                            "offset": 264
+                        }
+                    }
+                },
+                {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Class.BodyAngularVelocity.P|P"
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 1,
+                            "offset": 264
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 32,
+                            "offset": 295
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "value": " (power).",
+                    "position": {
+                        "start": {
+                            "line": 5,
+                            "column": 32,
+                            "offset": 295
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 41,
+                            "offset": 304
                         }
                     }
                 }
@@ -69,9 +108,9 @@
                     "offset": 0
                 },
                 "end": {
-                    "line": 3,
-                    "column": 31,
-                    "offset": 151
+                    "line": 5,
+                    "column": 41,
+                    "offset": 304
                 }
             }
         }
