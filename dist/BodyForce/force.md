@@ -1,2 +1,2 @@
-A deprecated variant of [`BodyForce.Force`](https://create.roblox.com/docs/reference/engine/classes/BodyForce#Force) that indicates the amount
-of force applied on each axis.
+The Force property determines the magnitude of force exerted on each axis,
+relative to the world.

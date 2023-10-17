@@ -1,2 +1,2 @@
-Determines how a part acts when resized and the values that which its size
-can take.
+This used to specify a grid constraint of the part's size. No longer does
+anything.
