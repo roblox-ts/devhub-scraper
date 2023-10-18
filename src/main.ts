@@ -40,6 +40,7 @@ async function write(buildId: string, className: string) {
 	const apiReference = response.data.pageProps.data.apiReference;
 
 	if (apiReference.description !== "") {
+		await fs.outputFile(path.join(DIST, className, "index.json"), JSON.stringify(apiReference.description));
 		await fs.outputFile(path.join(DIST, className, "index.md"), renderDescription(apiReference.description));
 	}
 	for (const property of apiReference.properties) {
@@ -66,10 +67,10 @@ async function main() {
 	const tasks = new Array<string>();
 
 	// debugging
-	// tasks.push("CollectionService");
+	tasks.push("TestService");
 
 	for (const apiClass of apiDump.Classes) {
-		tasks.push(apiClass.Name);
+		// tasks.push(apiClass.Name);
 	}
 
 	const buildId = await getBuildId();

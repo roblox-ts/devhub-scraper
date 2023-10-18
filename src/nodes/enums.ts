@@ -25,6 +25,7 @@ export enum ElementTag {
 	ol = "ol",
 	p = "p",
 	pre = "pre",
+	samp = "samp",
 	strong = "strong",
 	sup = "sup",
 	table = "table",
@@ -34,4 +35,5 @@ export enum ElementTag {
 	th = "th",
 	tr = "tr",
 	ul = "ul",
+	var = "var",
 }

@@ -68,6 +68,8 @@ export interface ParagraphElementNode extends md.ElementNode<md.ElementTag.p> {}
 
 export interface PreformattedTextElementNode extends md.ElementNode<md.ElementTag.pre> {}
 
+export interface SampleElementNode extends md.ElementNode<md.ElementTag.samp> {}
+
 export interface SuperscriptTextElementNode extends md.ElementNode<md.ElementTag.sup> {}
 
 export interface TableElementNode extends md.ElementNode<md.ElementTag.table> {}
@@ -78,3 +80,5 @@ export interface TableHeadElementNode extends md.ElementNode<md.ElementTag.th> {
 export interface TableRowElementNode extends md.ElementNode<md.ElementTag.tr> {}
 
 export interface UnorderedListElementNode extends md.ElementNode<md.ElementTag.ul> {}
+
+export interface VariableElementNode extends md.ElementNode<md.ElementTag.var> {}

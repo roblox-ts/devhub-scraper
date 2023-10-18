@@ -27,6 +27,7 @@ export interface ElementNodesByTag {
 	[md.ElementTag.ol]: md.OrderedListElementNode;
 	[md.ElementTag.p]: md.ParagraphElementNode;
 	[md.ElementTag.pre]: md.PreformattedTextElementNode;
+	[md.ElementTag.samp]: md.SampleElementNode;
 	[md.ElementTag.strong]: md.BoldTextElementNode;
 	[md.ElementTag.sup]: md.SuperscriptTextElementNode;
 	[md.ElementTag.table]: md.TableElementNode;
@@ -36,4 +37,5 @@ export interface ElementNodesByTag {
 	[md.ElementTag.th]: md.TableHeadElementNode;
 	[md.ElementTag.tr]: md.TableRowElementNode;
 	[md.ElementTag.ul]: md.UnorderedListElementNode;
+	[md.ElementTag.var]: md.VariableElementNode;
 }

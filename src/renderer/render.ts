@@ -154,6 +154,10 @@ function renderPreformattedTextElementNode(node: md.PreformattedTextElementNode)
 	return result;
 }
 
+function renderSampleElementNode(node: md.SampleElementNode): string {
+	return `\`${renderNodeChildren(node.children)}\``;
+}
+
 function renderSuperscriptTextElementNode(node: md.SuperscriptTextElementNode): string {
 	return `^${renderNodeChildren(node.children)}`;
 }
@@ -210,6 +214,10 @@ function renderUnorderedListElementNode(node: md.UnorderedListElementNode): stri
 	return result;
 }
 
+function renderVariableElementNode(node: md.VariableElementNode): string {
+	return `\`${renderNodeChildren(node.children)}\``;
+}
+
 const TAG_TO_RENDERER = {
 	[md.ElementTag.a]: renderAnchorElementNode,
 	[md.ElementTag.b]: renderBoldTextElementNode,
@@ -231,6 +239,7 @@ const TAG_TO_RENDERER = {
 	[md.ElementTag.ol]: renderOrderedListElementNode,
 	[md.ElementTag.p]: renderParagraphElementNode,
 	[md.ElementTag.pre]: renderPreformattedTextElementNode,
+	[md.ElementTag.samp]: renderSampleElementNode,
 	[md.ElementTag.strong]: renderBoldTextElementNode,
 	[md.ElementTag.sup]: renderSuperscriptTextElementNode,
 	[md.ElementTag.table]: renderTableElementNode,
@@ -240,6 +249,7 @@ const TAG_TO_RENDERER = {
 	[md.ElementTag.th]: renderTableHeadElementNode,
 	[md.ElementTag.tr]: renderTableRowElementNode,
 	[md.ElementTag.ul]: renderUnorderedListElementNode,
+	[md.ElementTag.var]: renderVariableElementNode,
 } satisfies { [K in md.ElementTag]: (node: md.ElementNodesByTag[K]) => string };
 
 function renderElementNode(node: md.ElementNode): string {
