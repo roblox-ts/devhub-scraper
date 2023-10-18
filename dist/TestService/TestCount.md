@@ -1,0 +1,1 @@
+Measures how many test calls have been recorded in the test session.
