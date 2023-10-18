@@ -67,10 +67,10 @@ async function main() {
 	const tasks = new Array<string>();
 
 	// debugging
-	tasks.push("TestService");
+	// tasks.push("TestService");
 
 	for (const apiClass of apiDump.Classes) {
-		// tasks.push(apiClass.Name);
+		tasks.push(apiClass.Name);
 	}
 
 	const buildId = await getBuildId();
