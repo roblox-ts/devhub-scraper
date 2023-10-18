@@ -1,0 +1,1 @@
+The first [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) that the constraint connects.

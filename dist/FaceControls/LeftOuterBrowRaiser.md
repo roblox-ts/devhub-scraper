@@ -1,0 +1,1 @@
+Raises the outer part of the left brow upwards

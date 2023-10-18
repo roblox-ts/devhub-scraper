@@ -1,0 +1,1 @@
+Remove several markers in the MarkerCurve starting at the provided index.

@@ -1,0 +1,2 @@
+Returns a [`StandardPages`](https://create.roblox.com/docs/reference/engine/classes/StandardPages) object which contains the name and placeId
+of places within the current 'Game' (otherwise known as a 'Universe').

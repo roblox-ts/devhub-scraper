@@ -1,0 +1,2 @@
+Returns a copy of all the keys in the FloatCurve as a Lua array of
+FloatCurveKey.

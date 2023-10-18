@@ -1,0 +1,2 @@
+The RemoveCustomStatus function removes the defined custom status from the
+Status model in the Humanoid..

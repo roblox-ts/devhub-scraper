@@ -1,0 +1,1 @@
+Fired if the part's appearance is affected by the [`Shirt`](https://create.roblox.com/docs/reference/engine/classes/Shirt) class.

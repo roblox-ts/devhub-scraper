@@ -1,0 +1,3 @@
+Used to open the given script instance in an editor window, in Roblox
+studio, at the given line. If no line is given as an argument it will
+default to 1.

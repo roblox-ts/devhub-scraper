@@ -1,0 +1,2 @@
+Used to hold a integer value between [`IntConstrainedValue.MinValue`](https://create.roblox.com/docs/reference/engine/classes/IntConstrainedValue#MinValue)
+and [`IntConstrainedValue.MaxValue`](https://create.roblox.com/docs/reference/engine/classes/IntConstrainedValue#MaxValue).

@@ -1,0 +1,1 @@
+Prompts a user to purchase a subscription for the given `subscriptionId`.

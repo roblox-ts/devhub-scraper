@@ -1,0 +1,2 @@
+The assetId of the overlay texture. The overlay covers Shirts, Pants,
+T-Shirts, and the [`CharacterMesh.BaseTextureId`](https://create.roblox.com/docs/reference/engine/classes/CharacterMesh#BaseTextureId).

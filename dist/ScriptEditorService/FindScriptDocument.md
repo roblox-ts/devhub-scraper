@@ -1,0 +1,2 @@
+Returns the open [`ScriptDocument`](https://create.roblox.com/docs/reference/engine/classes/ScriptDocument) corresponding to the given
+[`LuaSourceContainer`](https://create.roblox.com/docs/reference/engine/classes/LuaSourceContainer), or nil if the given script is not open.

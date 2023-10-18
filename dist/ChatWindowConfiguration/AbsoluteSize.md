@@ -1,0 +1,2 @@
+Read-only property that provides the screen size of the default chat
+window in pixels. Behaves similarly to [`GuiBase2d.AbsoluteSize`](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#AbsoluteSize).

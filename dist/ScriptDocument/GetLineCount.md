@@ -1,0 +1,1 @@
+Returns the number of lines in the active document.

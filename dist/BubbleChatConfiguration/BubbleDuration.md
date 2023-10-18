@@ -1,0 +1,1 @@
+Time before a bubble fades out, in seconds. Default is `30`.

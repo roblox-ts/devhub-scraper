@@ -1,0 +1,1 @@
+Get the override [`MaterialVariant`](https://create.roblox.com/docs/reference/engine/classes/MaterialVariant) name of specified Material type.

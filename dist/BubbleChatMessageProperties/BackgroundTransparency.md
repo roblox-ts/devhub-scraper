@@ -1,0 +1,1 @@
+Background transparency of bubbles.

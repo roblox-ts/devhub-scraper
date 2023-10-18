@@ -1,0 +1,1 @@
+The success of the generated [`Path`](https://create.roblox.com/docs/reference/engine/classes/Path).

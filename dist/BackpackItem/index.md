@@ -1,0 +1,2 @@
+BackpackItem is an abstract class for backpack items such as HopperBins and
+Tools.

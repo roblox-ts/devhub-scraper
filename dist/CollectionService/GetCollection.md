@@ -1,0 +1,4 @@
+This function returns all instances of a given class which are in the
+[`DataModel`](https://create.roblox.com/docs/reference/engine/classes/DataModel). Only works for [`Configuration`](https://create.roblox.com/docs/reference/engine/classes/Configuration),
+[`CustomEvent`](https://create.roblox.com/docs/reference/engine/classes/CustomEvent), [`CustomEventReceiver`](https://create.roblox.com/docs/reference/engine/classes/CustomEventReceiver), [`Dialog`](https://create.roblox.com/docs/reference/engine/classes/Dialog), and
+[`VehicleSeat`](https://create.roblox.com/docs/reference/engine/classes/VehicleSeat).

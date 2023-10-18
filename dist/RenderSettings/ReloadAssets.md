@@ -1,0 +1,2 @@
+When set to true, Roblox Studio will automatically reload changes that are
+made to files in Roblox's `content` folder.

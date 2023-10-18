@@ -1,0 +1,2 @@
+Sets the PVInstance that will be connected with the PVInstance specified
+by [`JointsService:SetJoinAfterMoveInstance()`](https://create.roblox.com/docs/reference/engine/classes/JointsService#SetJoinAfterMoveInstance).

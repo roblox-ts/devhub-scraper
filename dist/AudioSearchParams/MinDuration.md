@@ -1,0 +1,1 @@
+Searches for audio with a duration greater than or equal to this value.

@@ -1,0 +1,1 @@
+Returns whether or not the editor has any text selected.

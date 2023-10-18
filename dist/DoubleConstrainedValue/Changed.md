@@ -1,0 +1,2 @@
+Fired whenever the [`DoubleConstrainedValue.Value`](https://create.roblox.com/docs/reference/engine/classes/DoubleConstrainedValue#Value) of the
+[`DoubleConstrainedValue`](https://create.roblox.com/docs/reference/engine/classes/DoubleConstrainedValue) is changed.

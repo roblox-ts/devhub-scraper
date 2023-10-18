@@ -1,0 +1,2 @@
+The desired angle to turn the motor to in radians. The motor will attempt
+to reach this angle (provided [`Motor.MaxVelocity`](https://create.roblox.com/docs/reference/engine/classes/Motor#MaxVelocity) is greater than 0.

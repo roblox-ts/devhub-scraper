@@ -1,0 +1,1 @@
+Color of bubble text in [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3).

@@ -1,0 +1,1 @@
+Determines whether the experience name in the overlay is enabled.

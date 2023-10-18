@@ -1,0 +1,2 @@
+This function returns true if this plugin is currently active, after
+having been activated via the [`Plugin:Activate()`](https://create.roblox.com/docs/reference/engine/classes/Plugin#Activate) function.

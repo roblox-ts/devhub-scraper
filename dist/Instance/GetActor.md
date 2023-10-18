@@ -1,0 +1,3 @@
+If the [`Instance`](https://create.roblox.com/docs/reference/engine/classes/Instance) is an [`Actor`](https://create.roblox.com/docs/reference/engine/classes/Actor), the [`Actor`](https://create.roblox.com/docs/reference/engine/classes/Actor) itself is
+returned. Otherwise, its closest ancestor [`Actor`](https://create.roblox.com/docs/reference/engine/classes/Actor) is returned. If no
+ancestor is an [`Actor`](https://create.roblox.com/docs/reference/engine/classes/Actor), the result is `nil`.

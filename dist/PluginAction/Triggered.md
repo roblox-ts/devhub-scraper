@@ -1,0 +1,3 @@
+Fires when the action is triggered. This can be done by either activating
+the action from the Quick Access Toolbar, or by using the keyboard
+shortcut that was bound to it.

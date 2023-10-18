@@ -1,0 +1,2 @@
+The [`CFrame`](https://create.roblox.com/docs/reference/engine/datatypes/CFrame) of the physical extents of the [`BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart),
+representing its physical center.

@@ -1,0 +1,2 @@
+Breaks any surface connection with any adjacent part, including
+[`Weld`](https://create.roblox.com/docs/reference/engine/classes/Weld) and other [`JointInstance`](https://create.roblox.com/docs/reference/engine/classes/JointInstance).

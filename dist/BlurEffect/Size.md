@@ -1,0 +1,2 @@
+Size controls the blur radius, measured in pixels. The larger the size,
+the blurrier the screen will become.

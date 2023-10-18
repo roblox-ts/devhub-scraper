@@ -1,0 +1,1 @@
+Fires when the current player equips a [`Tool`](https://create.roblox.com/docs/reference/engine/classes/Tool).

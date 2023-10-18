@@ -1,0 +1,2 @@
+The ClientReplicator is in charge of replicating changes from the server over
+to the client. It represents the client's connection to a server.

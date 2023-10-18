@@ -1,0 +1,1 @@
+Set a [`MaterialVariant`](https://create.roblox.com/docs/reference/engine/classes/MaterialVariant) name that overrides a built-in material.

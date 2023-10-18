@@ -1,0 +1,3 @@
+This function fires when a [`Configuration`](https://create.roblox.com/docs/reference/engine/classes/Configuration), [`CustomEvent`](https://create.roblox.com/docs/reference/engine/classes/CustomEvent),
+[`CustomEventReceiver`](https://create.roblox.com/docs/reference/engine/classes/CustomEventReceiver), [`Dialog`](https://create.roblox.com/docs/reference/engine/classes/Dialog), or [`VehicleSeat`](https://create.roblox.com/docs/reference/engine/classes/VehicleSeat) is
+removed from the [`DataModel`](https://create.roblox.com/docs/reference/engine/classes/DataModel).

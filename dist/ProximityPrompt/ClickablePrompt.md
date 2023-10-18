@@ -1,0 +1,3 @@
+This property determines whether the prompt can be activated by
+clicking/tapping on the prompt's UI. When set to false, the prompt cannot
+be activated by click/tap except on mobile.

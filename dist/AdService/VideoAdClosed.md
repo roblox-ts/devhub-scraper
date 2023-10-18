@@ -1,0 +1,1 @@
+No longer fires because [`AdService`](https://create.roblox.com/docs/reference/engine/classes/AdService) has been decommissioned.

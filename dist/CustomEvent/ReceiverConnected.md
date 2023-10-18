@@ -1,0 +1,1 @@
+This event fires when a receiver is connected to the [`CustomEvent`](https://create.roblox.com/docs/reference/engine/classes/CustomEvent)

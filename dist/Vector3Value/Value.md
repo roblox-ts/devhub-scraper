@@ -1,0 +1,1 @@
+The stored [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3).

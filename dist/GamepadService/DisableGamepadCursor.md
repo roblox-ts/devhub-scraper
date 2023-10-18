@@ -1,0 +1,1 @@
+This function disables the gamepad cursor, if it's currently enabled.

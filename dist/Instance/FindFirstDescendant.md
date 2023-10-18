@@ -1,0 +1,1 @@
+Returns the first descendant found with the given [`Instance.Name`](https://create.roblox.com/docs/reference/engine/classes/Instance#Name).

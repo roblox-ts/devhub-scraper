@@ -1,0 +1,3 @@
+Determines by what factors the RGB channels of pixel colors are scaled.
+The effect is multiplicative, so changing this to `[255, 0, 0]` (red)
+would cause the green and blue channels to be multiplied by 0.

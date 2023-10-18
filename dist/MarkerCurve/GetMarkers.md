@@ -1,0 +1,1 @@
+Returns the time and string value of all markers in the MarkerCurve.

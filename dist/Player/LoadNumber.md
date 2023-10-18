@@ -1,0 +1,4 @@
+This function was once used by an ancient data persistence method to
+return a number value that was previously saved to the player with
+[`Player:SaveNumber()`](https://create.roblox.com/docs/reference/engine/classes/Player#SaveNumber) with the same key. Returns 0 if the key
+doesn't exist, not nil.

@@ -1,0 +1,2 @@
+This property tells whether or not a modal dialog is visible, such as the
+game menu or a purchase prompt.

@@ -1,0 +1,1 @@
+Stops the current dragging action (made by [`Dragger:MouseDown()`](https://create.roblox.com/docs/reference/engine/classes/Dragger#MouseDown))

@@ -1,0 +1,2 @@
+Returns the service specified by the given className if it's already
+created, errors for an invalid name.

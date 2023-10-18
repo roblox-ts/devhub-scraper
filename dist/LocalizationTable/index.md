@@ -1,0 +1,38 @@
+A LocalizationTable is a database of translations. It contains source strings
+and translations for various languages. It is used with the [`Translator`](https://create.roblox.com/docs/reference/engine/classes/Translator)
+and [`LocalizationService`](https://create.roblox.com/docs/reference/engine/classes/LocalizationService) auto-translator system to control text
+translations in the game. LocalizationTables are designed to be treated as
+resources, like a texture or a script. They are not optimized to be modified
+at runtime. Changing the contents of a table will cause the entire contents of
+the table to be replicated to all players.
+## LocalizationTable Entries
+
+Each LocalizationTable contains a set of entries. Each entry contains the
+translations of the text, along with some special fields:
+
+- **Key** is an optional unique key for fast hash lookups in code. If it is
+non-empty it must be unique in the table.
+- **Source** is the orignal text in the source language that will be used by
+the [`LocalizationService`](https://create.roblox.com/docs/reference/engine/classes/LocalizationService) automatic text replacement system to match
+GUI text and render a translation instead. The Source field can be filled by
+the text capture tools, or can be set manually. For key-based lookups the
+Source value can be used as a translation for
+[`LocalizationTable.SourceLocaleId`](https://create.roblox.com/docs/reference/engine/classes/LocalizationTable#SourceLocaleId) if the entry doesn't have a
+translation for that locale. If Source is empty then the entry will not be
+used by the automatic replacement system.
+- **Context** is the full Instance name for the object that the text appeared
+on. Context is used for disambiguation by the automatic text replacement
+system. When multiple matches for the Source are found, the system will pick
+the best match by matching backwards from the end of the Context string.
+There are other more robust ways to handle disambiguation available as well,
+like using multiple tables with [`GuiBase2d.RootLocalizationTable`](https://create.roblox.com/docs/reference/engine/classes/GuiBase2d#RootLocalizationTable).
+- **Example** is whatever you want it to be. If the text capture tool guessed
+some parameters for a string the Example field will contain an example of
+them used in context.
+
+All of these fields are optional, but at least either Key or Source must be
+non-empty. No two entries can have the same Key, Source, and Context.
+
+See
+[Translating Dynamic Content](https://create.roblox.com/docs/production/localization/translating-dynamic-content)
+for more information.

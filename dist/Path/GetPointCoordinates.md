@@ -1,0 +1,1 @@
+This function returns a table of [`Path`](https://create.roblox.com/docs/reference/engine/classes/Path) instances.

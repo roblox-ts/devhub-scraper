@@ -1,0 +1,1 @@
+Removes the provided key from the sorted map.

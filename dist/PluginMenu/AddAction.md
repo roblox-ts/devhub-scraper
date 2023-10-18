@@ -1,0 +1,1 @@
+Adds the given action to the menu.

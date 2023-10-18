@@ -1,0 +1,1 @@
+The package permission for the current Studio user.

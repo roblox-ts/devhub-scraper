@@ -1,0 +1,3 @@
+The number of potential values the property's slider bar can be set to,
+[`ReflectionMetadataItem.UIMinimum`](https://create.roblox.com/docs/reference/engine/classes/ReflectionMetadataItem#UIMinimum) and
+[`ReflectionMetadataItem.UIMaximum`](https://create.roblox.com/docs/reference/engine/classes/ReflectionMetadataItem#UIMaximum).

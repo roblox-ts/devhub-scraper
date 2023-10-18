@@ -1,0 +1,2 @@
+Also known as lip tightener; brings the corners of the mouth inward and
+pressing the lips back against the teeth

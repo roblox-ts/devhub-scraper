@@ -1,0 +1,1 @@
+The [`TextChatMessage.PrefixText`](https://create.roblox.com/docs/reference/engine/classes/TextChatMessage#PrefixText) to override.

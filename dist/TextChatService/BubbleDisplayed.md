@@ -1,0 +1,1 @@
+Fires when [`TextChatService:DisplayBubble()`](https://create.roblox.com/docs/reference/engine/classes/TextChatService#DisplayBubble) is called.

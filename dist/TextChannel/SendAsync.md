@@ -1,0 +1,2 @@
+Sends a [`TextChatMessage`](https://create.roblox.com/docs/reference/engine/classes/TextChatMessage) to the server. Can only be used in a
+[`LocalScript`](https://create.roblox.com/docs/reference/engine/classes/LocalScript).

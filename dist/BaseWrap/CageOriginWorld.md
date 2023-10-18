@@ -1,0 +1,1 @@
+Cage mesh offset in world space.

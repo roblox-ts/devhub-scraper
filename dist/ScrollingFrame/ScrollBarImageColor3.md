@@ -1,0 +1,4 @@
+Determines how a scrolling bar image is colorized. When set to white, no
+colorization occurs. This property is very useful for reusing image
+assets: If the source image is completely white with transparency, you can
+set the entire color of the image at once with this property.

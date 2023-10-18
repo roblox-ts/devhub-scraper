@@ -1,0 +1,1 @@
+The HasStatus function returns a boolean based on if a status exists.

@@ -1,0 +1,1 @@
+Sets a certain region of smooth terrain using table format.

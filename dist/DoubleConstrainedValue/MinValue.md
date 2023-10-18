@@ -1,0 +1,2 @@
+The lowest number that the [`DoubleConstrainedValue.Value`](https://create.roblox.com/docs/reference/engine/classes/DoubleConstrainedValue#Value) property
+can be.

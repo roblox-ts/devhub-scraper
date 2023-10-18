@@ -1,0 +1,1 @@
+A reference to the origin [`TextChannel`](https://create.roblox.com/docs/reference/engine/classes/TextChannel).

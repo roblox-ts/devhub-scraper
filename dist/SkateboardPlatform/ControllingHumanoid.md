@@ -1,0 +1,1 @@
+The [`Humanoid`](https://create.roblox.com/docs/reference/engine/classes/Humanoid) that is controlling the SkateboardPlatform.

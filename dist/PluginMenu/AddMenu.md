@@ -1,0 +1,1 @@
+Adds the given menu as a separator.

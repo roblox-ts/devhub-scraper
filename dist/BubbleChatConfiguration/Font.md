@@ -1,0 +1,1 @@
+[`Font`](https://create.roblox.com/docs/reference/engine/datatypes/Font) of the bubble text. Default is [`Enum.Font`](https://create.roblox.com/docs/reference/engine/enums/Font).

@@ -1,0 +1,1 @@
+The size in offsets of the area that is scrollable.

@@ -1,0 +1,1 @@
+Fires when a user starts dragging the object.

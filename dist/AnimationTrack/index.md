@@ -1,0 +1,3 @@
+Controls the playback of an animation on a [`Humanoid`](https://create.roblox.com/docs/reference/engine/classes/Humanoid) or
+[`AnimationController`](https://create.roblox.com/docs/reference/engine/classes/AnimationController). This object cannot be created, instead it is
+returned by the [`Humanoid:LoadAnimation()`](https://create.roblox.com/docs/reference/engine/classes/Humanoid#LoadAnimation) method.

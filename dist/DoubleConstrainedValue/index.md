@@ -1,0 +1,2 @@
+An instance which is used to create a number value which can never be less
+than the MinValue or more than the MaxValue.

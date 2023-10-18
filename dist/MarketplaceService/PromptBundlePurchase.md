@@ -1,0 +1,1 @@
+Prompts a user to purchase a bundle with the given `bundleId`.

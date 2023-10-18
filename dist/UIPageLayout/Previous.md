@@ -1,0 +1,2 @@
+Sets [`UIPageLayout.CurrentPage`](https://create.roblox.com/docs/reference/engine/classes/UIPageLayout#CurrentPage) to the page before the current page
+and animates to it, or does nothing if there isn't a previous page.

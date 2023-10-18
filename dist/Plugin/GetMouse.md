@@ -1,0 +1,2 @@
+**GetMouse** returns a [`PluginMouse`](https://create.roblox.com/docs/reference/engine/classes/PluginMouse) that can be used while the
+plugin is active through [`Plugin:Activate()`](https://create.roblox.com/docs/reference/engine/classes/Plugin#Activate).

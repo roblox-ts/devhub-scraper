@@ -1,0 +1,1 @@
+Specifies whether or not the Lua Debugger feature is enabled.

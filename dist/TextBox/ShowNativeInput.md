@@ -1,0 +1,2 @@
+If set to true, input native to the platform is used instead of Roblox's
+built-in keyboard.

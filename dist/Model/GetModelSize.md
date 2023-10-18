@@ -1,0 +1,2 @@
+The GetModelSize function returns the [`Vector3`](https://create.roblox.com/docs/reference/engine/datatypes/Vector3) size of the
+[`Model`](https://create.roblox.com/docs/reference/engine/classes/Model).

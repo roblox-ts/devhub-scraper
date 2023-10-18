@@ -1,0 +1,1 @@
+Returns a [`AnimationClip`](https://create.roblox.com/docs/reference/engine/classes/AnimationClip) from a given asset URL.

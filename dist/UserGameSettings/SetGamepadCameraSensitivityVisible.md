@@ -1,0 +1,2 @@
+If called, Roblox toggles the menu option to control the camera
+sensitivity with gamepads.

@@ -1,0 +1,1 @@
+Returns a [`KeyframeSequence`](https://create.roblox.com/docs/reference/engine/classes/KeyframeSequence) from a given asset URL.

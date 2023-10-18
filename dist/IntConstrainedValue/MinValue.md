@@ -1,0 +1,2 @@
+The lowest number that the [`IntConstrainedValue.Value`](https://create.roblox.com/docs/reference/engine/classes/IntConstrainedValue#Value) property can
+be.

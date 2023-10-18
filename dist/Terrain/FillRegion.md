@@ -1,0 +1,1 @@
+Fills a [`Region3`](https://create.roblox.com/docs/reference/engine/datatypes/Region3) space with smooth terrain.

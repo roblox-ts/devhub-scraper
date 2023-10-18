@@ -1,0 +1,2 @@
+Sets what the truss looks like. There are currently three different
+styles.

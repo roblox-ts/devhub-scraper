@@ -1,0 +1,3 @@
+This function was once used to return whether a player is best friends
+with the specified user, but the best friend feature has since been
+removed.

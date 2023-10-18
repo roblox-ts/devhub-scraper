@@ -1,0 +1,1 @@
+Fires when [`Chat:Chat()`](https://create.roblox.com/docs/reference/engine/classes/Chat#Chat) is called.

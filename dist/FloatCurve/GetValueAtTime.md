@@ -1,0 +1,1 @@
+Samples the float curve at a given time passed as argument.

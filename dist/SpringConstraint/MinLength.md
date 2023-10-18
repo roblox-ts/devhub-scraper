@@ -1,0 +1,2 @@
+The minimum separation the [`SpringConstraint`](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint) will allow if
+[`LimitsEnabled`](https://create.roblox.com/docs/reference/engine/classes/SpringConstraint#LimitsEnabled) is true.

@@ -1,0 +1,2 @@
+The maximum velocity the motor can use to reach [`Motor.DesiredAngle`](https://create.roblox.com/docs/reference/engine/classes/Motor#DesiredAngle)
+measured in radians per physics frame (1/60th of a second).

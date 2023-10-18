@@ -1,0 +1,1 @@
+The visualized radius of the [`HingeConstraint`](https://create.roblox.com/docs/reference/engine/classes/HingeConstraint).
